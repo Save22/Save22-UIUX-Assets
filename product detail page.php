@@ -151,7 +151,7 @@
 <div id="modal" class="hide">
     <div class="modal-content store-map box-shadow">
         <div class="modal-close"><a href="#" title="Close window">x</a></div>
-        <a href="#link-to-store"><h2>Gaisano Interpace</h2></a>
+        <a href="#link-to-store"><h2 class="single-header">Gaisano Interpace</h2></a>
 
         <section class="group">
             <article class="branch-address left innercol inner-halfcol">

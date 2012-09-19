@@ -50,7 +50,7 @@ h3 {
 	font-weight: 600;
 	color: #646464;
 }
-h2.single-header { margin-bottom: 14px; }
+h2.single-header, .store-name { margin: 0 0 14px 0; }
 
 a:link {
 	-webkit-transition: all 0.3s ease-in;  
@@ -122,7 +122,6 @@ a.button { text-decoration: none; color: #000; text-align: center; border-radius
 
 .mtop { margin-top: 25px; }
 
-article { margin: 25px 0; }
 
 .footnote, .pagination { padding: 14px 0;}
 	.pagination { font-size: 1em; font-weight: 600; border-top: 3px solid #eee; }
@@ -141,7 +140,7 @@ article { margin: 25px 0; }
 }
 .inner-lastcol { margin: 0; }
 
-.four-col { float: left; width: 22%; margin-right: 4%; }
+.four-col { float: left; width: 22.5%; margin-right: 3%; }
 
 
 /* modal window */
@@ -367,7 +366,8 @@ article { margin: 25px 0; }
 	font-weight: 600;
 	border-bottom: 1px solid #f7f7f7; 
 	border-top: 4px solid #ededed; 
-	padding: 10px 0; 
+	padding: 10px 0;
+	margin: 0 0 24px 0;
 }
 
 #item-info {
@@ -376,7 +376,7 @@ article { margin: 25px 0; }
 	border-top: 4px solid #2b2b2b;
 	border-bottom: 1px solid #ccc;
 }
-
+	#item-info h3 { margin: 0; }
 	#item-thumbnail { 
 		border: 1px solid #000; 
 		width: 150px; height: 150px;
@@ -408,9 +408,8 @@ article { margin: 25px 0; }
 
 /********* PAGE ELEMENTS: STORE PAGE ***********/
 
-.store section { font-size: 0.813em; }
 .branch-list ul { list-style-type: disc; padding: 7px 24px; }
-.store .featured-products h3, .item-price { margin: 0; font-size: 1.4em; }
+.store .featured-products h3, .item-price { margin: 0; }
 
 .store-header {
 	border-bottom: 1px solid #eee;
@@ -418,6 +417,8 @@ article { margin: 25px 0; }
 }
 	.store-header h2 { margin-top: 14px; }
 	.store-header .red-button { margin-top: 10px; font-weight: 600; padding: 7px 14px;}
+.detail-price-single { padding: 7px 14px; }
+
 
 /********* PAGE ELEMENTS: HOMEPAGE ***********/
 
@@ -435,7 +436,7 @@ article { margin: 25px 0; }
 		top: 25%;
 		padding: 24px;
 	}
-#featured-promos { background: #3b3b3b; margin-bottom: 24px; }
+#featured-promos { background: #222222; margin-bottom: 24px; }
 #featured-promos ul li {
 	float: left;
 	width: 25%;
@@ -449,45 +450,55 @@ article { margin: 25px 0; }
 	#featured-promos a:hover { background: #000; }
 
 .featured-products { font-size: 0.813em; margin-bottom: 36px; }
-	.featured-products a { color: #333; text-decoration: none; padding: 4px 0;}
-	.featured-products a:hover h3 { color: #b51616; }
-.featured-products  a:hover .item-thumb { border: 1px solid #333; }
+	.featured-products li a { color: #333; text-decoration: none; border: 1px solid #ccc; }
+	.featured-products li a:hover { background: #eee; border: 1px solid #999; 
+		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
+	}
+.featured-products .detail-header {
+	padding: 0 14px;
+}
+.featured-products .promo { position: relative; left: -14px; }
 .featured-products .item-thumb {
 	width: 100%;
 	min-width: 120px; 
 	min-height: 120px;
-	margin-top: 14px;
-	border: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	-webkit-transition: all 0.3s ease-in;  
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in;  
 }
-
+.posted-info { font-size: 0.813em; }
+	.price-summary { padding: 2px 0 0 0;}
+	.featured-products .promo { 
+		width: 40px; 
+		background: #941f1f;
+		color: #fff;
+		text-align: center;
+		padding: 5px;
+		font-size: 0.813em;
+	}
+	.price-lowest { font-weight: 900; color: #b51616 ; }
 .posted-details {
-	background: #3b3b3b;
 	min-height: 40px;
-	padding: 5px;
+	padding: 0 5px;
 	-webkit-transition: all 0.3s ease-in;  
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in; 
 }
-.featured-products a:hover .posted-details { background: #000; }
-.featured-products a .posted-info { color: #fff; }
-
-
-.user-avatar-small { width: 40px; height: 40px; margin-right: 14px; }
-.featured-products h3 { margin: 10px 0; color: #3b3b3b; font-weight: 900;}
-.featured-products .promo { 
-	width: 40px; 
-	margin-right: 14px;
-	background: #941f1f;
-	color: #fff;
-	text-align: center;
-	padding: 5px;
-	font-size: 0.813em;
-}
-.price-lowest { font-weight: 600; }
+	.user-avatar-small { width: 30px; height: 30px; margin-right: 14px; }
 span.authenticated { font-style: italic; }
+
+.featured-products h3 { 
+	padding: 7px 14px; color: #333; font-weight: 900; display: block; margin: 0;
+	background: #f7f7f7; border-bottom: 1px solid #ccc;
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+}
+
+.featured-products a:hover h3 { color: #fff; background: #333; }
+
 
 
 /* ============================= */

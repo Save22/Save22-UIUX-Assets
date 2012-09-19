@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/dropkick.css" type="text/css" media="screen" />
-    <!-- <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" /> 
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
@@ -53,8 +53,5 @@
                 </div>
             </div>
         </div>
-    </div>
-</header>
-   </div>
     </div>
 </header>

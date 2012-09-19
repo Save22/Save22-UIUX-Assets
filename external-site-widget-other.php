@@ -90,7 +90,7 @@
                     </div>
                 </section>
 
-                <?php require_once('widgets/featured-gadgets.php'); ?>
+                <?php require_once('widgets/ext-widget-featured-other.php'); ?>
 
             </div>
 

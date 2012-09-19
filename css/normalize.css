@@ -80,7 +80,7 @@ button,
 input,
 select,
 textarea {
-    font-family: sans-serif;
+    font-family: 'Lato', helvetica, sans-serif;
 }
 
 /*
@@ -274,13 +274,6 @@ sub {
  * Addresses margins set differently in IE6/7.
  */
 
-dl,
-menu,
-ol,
-ul {
-    margin: 1em 0;
-}
-
 dd {
     margin: 0 0 0 40px;
 }
@@ -288,12 +281,6 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7.
  */
-
-menu,
-ol,
-ul {
-    padding: 0 0 0 40px;
-}
 
 /*
  * Corrects list images handled incorrectly in IE7.
@@ -385,7 +372,6 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */

@@ -26,7 +26,7 @@
                     </div>
                 </section>
 
-                <?php require_once('widgets/ext-widget-featured-moms.php'); ?>
+                <?php require_once('widgets/featured-moms.php'); ?>
 
                 <div class="pagination group">
                     <a href="#" class="see-more right">see more products &raquo; </a>
@@ -47,4 +47,4 @@
 </div><!-- content -->
 
 
-<?php require_once('footer.php'); ?>
+<?php require_once('footer.php'); ?>r.php'); ?>

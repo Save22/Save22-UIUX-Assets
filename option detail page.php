@@ -23,7 +23,7 @@
                         from <strong>P 27,800</strong><br>
                         <small>to <strong>P 33,500</strong> out of 4 options</small>
                     </article>
-                    <a href="#">&lsaquo; back to "iPhone 4s 32gb Black" product page</a>
+                    <a href="#">&lsaquo; back to <strong>iPhone 4s 32gb Black</strong> product page</a>
                 </div><!-- item-info -->
                 
                 <div id="store-info" class="left block innercol">

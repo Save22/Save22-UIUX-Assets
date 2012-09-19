@@ -210,9 +210,9 @@ article { margin: 25px 0; }
 	}
 
 	#logo {
-		background: url('../images/poweredby-logoB.png') 0 0 no-repeat;
+		background: url('../images/poweredby-logoC.png') 0 0 no-repeat;
 		width: 132px;
-		height: 43px; 
+		height: 54px; 
 		text-indent: -9999px;
 		margin: 0 0 10px 0;
 	}
@@ -310,8 +310,8 @@ span.authenticated { font-style: italic; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
 	#logo {
-		background: url('../images/poweredby-logoB@2x.png') no-repeat;
-		background-size: 132px 43px;
+		background: url('../images/poweredby-logoC@2x.png') no-repeat;
+		background-size: 132px 54px;
 	}
 
 

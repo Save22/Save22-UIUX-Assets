@@ -58,16 +58,28 @@
                         <h2 class="single-header left innercol">Featured Products</h2>
                         <a href="#" class="right red-button innercol">See all products</a>
                     </div>
-                <article>
 
-                    <ul class="featured-products nolist group">
+                    <?php require_once('widgets/featured-gadgets.php'); ?>
+                </section>
 
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
-                                <span class="item-price">Php 32,000</span>
+            </div>
 
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
+            <div class="threecol last" id="sidebar">
+
+                <?php require_once('widgets/intro-widget.php'); ?>
+
+                <?php require_once('widgets/top-contributors.php'); ?>
+
+                <?php require_once('widgets/fb-widget.php'); ?>
+
+            </div> <!-- sidebar -->
+
+        </div>
+    </div>
+</div>
+
+
+<?php require_once('footer.php'); ?>k_200.png" alt="item-title">
 
                                 <div class="posted-details group">
                                     <img class="user-avatar-small left" src="images/sample_avatar.png">
