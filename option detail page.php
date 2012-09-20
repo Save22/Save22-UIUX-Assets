@@ -1,15 +1,12 @@
 <?php require_once('header.php'); ?>
 
-<div id="content" class="option-detail">
-    <div class="container">
+<div id="content">
         <div class="row">
-
-            <div class="ninecol group">
-
+            <div class="nine columns">
                 <!-- CRUMBS NAVIGATION: so people know where they are -->
                 <nav id="crumbs">
-                    <a href="#" class="home">Home</a> &rsaquo; 
-                    <a href="#">iPhone 4s 32gb Black</a> &rsaquo; 
+                    <a href="#" class="home">Home</a> &raquo; 
+                    <a href="#">iPhone 4s 32gb Black</a> &raquo; 
                     <a href="#" class="current-page">iPhone 4s 32gb Black from Gaisano Interpace, Gilmore, QC</a>
                 </nav>
 
@@ -19,9 +16,9 @@
                 <div id="item-info" class="right block innercol">
                     <h3>iPhone 4s 32gb Black</h3>
                     <article class="group">
-                        <img id="item-thumbnail" class="left innercol"> 
-                        from <strong>P 27,800</strong><br>
-                        <small>to <strong>P 33,500</strong> out of 4 options</small>
+                        <img id="item-thumbnail" class="left block innercol"> 
+                        from <span class="impt">P 27,800</span><br>
+                        to <strong>P 33,500</strong> out of 4 options
                     </article>
                     <a href="#">&lsaquo; back to <strong>iPhone 4s 32gb Black</strong> product page</a>
                 </div><!-- item-info -->
@@ -61,19 +58,20 @@
                         <div class="left innercol inner-halfcol inner-lastcol">
                             <label for="">End: <a href="#">Gaisano Interpace</a></label>
                             <input type="text" id="pointB" class="left" name="" placeholder="" value="Unit B, Gilmore Commercial Plaza, Gilmore Ave.">
-                            <input type="submit" class="button left" value="Get Directions">
+                            <input type="submit" class="button radius" value="Get Directions">
                         </div>
                     </div><!-- end .group -->
                 </div><!-- #map-directions -->
 
                 <div id="map">
                     <iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
                 </div>
             </section>
 
             </div><!-- ninecol group -->
 
-            <div class="threecol last" id="sidebar">
+            <div class="three columns" id="sidebar">
 
                 <?php require_once('widgets/intro-widget.php'); ?>
 
@@ -85,7 +83,6 @@
 
         </div>
     </div>
-</div>
 </div>
 
 <?php require_once('footer.php'); ?>

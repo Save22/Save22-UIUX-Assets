@@ -2,9 +2,8 @@
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
 <div id="content" class="store">
-    <div class="container">
         <div class="row">
-            <div class="ninecol">
+            <div class="nine columns">
 
                 <!-- CRUMBS NAVIGATION: so people know where they are -->
                 <nav id="crumbs">
@@ -56,7 +55,7 @@
                 <section class="group block mtop">
                     <div class="group store-header">
                         <h2 class="single-header left innercol">Featured Products</h2>
-                        <a href="#" class="right red-button innercol">See all products</a>
+                        <a href="#" class="right button red-button radius innercol">See all products</a>
                     </div>
 
                     <?php require_once('widgets/featured-gadgets.php'); ?>
@@ -64,7 +63,7 @@
 
             </div>
 
-            <div class="threecol last" id="sidebar">
+            <div class="three columns" id="sidebar">
 
                 <?php require_once('widgets/intro-widget.php'); ?>
 
@@ -75,194 +74,6 @@
             </div> <!-- sidebar -->
 
         </div>
-    </div>
-</div>
-
-
-<?php require_once('footer.php'); ?>k_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black another long title if ever</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                    </ul><!-- row 1 -->
-
-
-                    <ul class="featured-products nolist group">
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black i dunno if this is ok</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black let's see how this works</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four-col">
-                            <a href="option detail page.php" class="block">
-                                <h3>iPhone 4S 32gb Black</h3>
-                                <span class="item-price">Php 32,000</span>
-
-                                <img class="item-thumb" src="images/sample_iphone4sblack_200.png" alt="item-title">
-
-                                <div class="posted-details group">
-                                    <img class="user-avatar-small left" src="images/sample_avatar.png">
-                                    <div class="posted-info">
-                                        <span class="detail-author authenticated">
-                                            <strong>authenticated price</strong>
-                                        </span>
-                                        <br>
-                                        <span class="posted-datetime">3 days</span>
-                                    </div>
-                                </div><!-- group -->
-                            </a>
-                        </li>
-
-                    </ul><!-- row 1 -->
-
-                </article>
-
-                <div class="pagination group">
-                    <a href="#" class="see-more right">see more products &raquo; </a>
-                </div>
-
-                </section>
-
-            </div>
-
-            <div class="threecol last" id="sidebar">
-
-                <?php require_once('widgets/intro-widget.php'); ?>
-
-                <?php require_once('widgets/top-contributors.php'); ?>
-
-                <?php require_once('widgets/fb-widget.php'); ?>
-
-            </div> <!-- sidebar -->
-
-        </div>
-    </div>
 </div>
 
 

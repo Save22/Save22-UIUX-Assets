@@ -2,17 +2,15 @@
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
 <div id="content" class="hub">
-    <div class="container">
-        <div class="row">
-
-            <div class="ninecol group relative">
+    <div class="row">
+            <div class="nine columns">
                 <section>
-                    <div id="featured" class="slider block group" style="background:url('images/hub-sample-featured.png');">
+                    <div id="featured-header" class="block group" style="background:url('images/hub-sample-featured.png');">
 
                         <div class="intro-copy right relative">
                             The best diaper deals from
                             your favorite stores
-                            <a href="#" class="red-button block">Get them now</a>
+                            <a href="#" class="button radius red-button block mtop">Get them now</a>
                         </div>
 
                     </div>
@@ -34,17 +32,15 @@
 
             </div><!-- ninecol group -->
 
-            <div class="threecol last" id="sidebar">
+            <div class="three columns" id="sidebar">
 
                 <?php require_once('widgets/intro-widget.php'); ?>
                 <?php require_once('widgets/top-contributors.php'); ?>
                 <?php require_once('widgets/fb-widget.php'); ?>
 
             </div> <!-- sidebar -->
-
-        </div><!-- row -->
-    </div><!-- container -->
+    </div><!-- row -->
 </div><!-- content -->
 
 
-<?php require_once('footer.php'); ?>r.php'); ?>
+<?php require_once('footer.php'); ?>

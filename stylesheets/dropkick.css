@@ -35,6 +35,10 @@
 	white-space: nowrap;				/*added this so that everything stays neatly on one line*/
 }
 
+.dk_container ul { margin: 0; padding: 0; list-style-type: none; }
+
+.dk_container a:hover { color: #fff;}
+
 .dk_container:focus {
 	outline: 0;
 }
@@ -207,6 +211,8 @@ z-index: 10;
 
 .dk_options a,.dk_options a:link,.dk_options a:visited {
 	display: block;
+	color: #ccc;
+	font-size: 0.813em;
 }
 
 .dk_options_inner {

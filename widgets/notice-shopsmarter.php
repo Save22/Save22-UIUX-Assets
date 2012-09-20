@@ -1,23 +1,22 @@
 
-<div id="smart-shopper" class="container">
-    <div class="row overflow-visible">
-        <div class="threecol"> </div>
-        <div class="sixcol">
-            <span class="block left bold">Shop smarter. See deals for </span>
+<div id="smart-shopper">
+    <div class="row">
+        <div class="twelve columns"> 
+            <span class="left bold block">Shop smarter. See deals for </span>
 
             <!-- Dropkick select plugin: 
                  I am using a plugin for now, but if this is fully functional, 
                  custom javascript code may be written for this. -->
-
-            <select id="menu-shopsmarter" name="shopsmarter" class="dk"  tabindex="1">
-                <option>Gadgets</option>
-                <option>Babies</option>
-                <option>Computers</option>
-                <option>Food</option>
-                <option>Body Care</option>
-                <option>Babies</option>
-            </select>
+            <div class="block left">
+                <select id="menu-shopsmarter" name="shopsmarter" class="left dk"  tabindex="1">
+                    <option>Gadgets</option>
+                    <option>Babies</option>
+                    <option>Computers</option>
+                    <option>Food</option>
+                    <option>Body Care</option>
+                    <option>Babies and what if a really long title </option>
+                </select>
+            </div>
         </div>
-        <div class="threecol last"> </div>
     </div>
 </div>
