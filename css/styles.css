@@ -129,7 +129,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	}
 
 	#logo {
-		background: url('../images/logo.png') 0 0 no-repeat;
+		background: url('../img/logo.png') 0 0 no-repeat;
 		width: 132px;
 		height: 43px; 
 		text-indent: -9999px;
@@ -476,7 +476,7 @@ span.authenticated { font-style: italic; }
 	#content { min-height: 0; padding: 0; }
 	#main-header .row { padding: 12px 0 6px 0;}
 		#logo { 
-			background: url('../images/logo-smaller.png') no-repeat; 
+			background: url('../img/logo-smaller.png') no-repeat; 
 			margin: 0 14px; width: 92px; height: 30px; background-size: 92px 30px;}
 		#main-header .columns { float: left; padding: 0; }
 		#searchbox {  }
@@ -498,7 +498,7 @@ span.authenticated { font-style: italic; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
 	#logo {
-		background: url('../images/logo@2x.png') no-repeat;
+		background: url('../img/logo@2x.png') no-repeat;
 		background-size: 132px 43px;
 	}
 

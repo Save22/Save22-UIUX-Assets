@@ -41,14 +41,14 @@
 
   
   <!-- Included JS Files (Compressed) -->
-  <script src="javascripts/jquery.js"></script>
-  <script src="javascripts/foundation.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
   
   <!-- Initialize JS Plugins -->
-  <script src="javascripts/app.js"></script>
+  <script src="js/app.js"></script>
 
-  <script type="text/javascript" src="javascripts/jquery.dropkick-1.0.0.js"></script>
-  <script type="text/javascript" src="javascripts/scripts.js"></script>
+  <script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
