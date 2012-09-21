@@ -58,7 +58,7 @@
                         <a href="#" class="right button red-button radius innercol">See all products</a>
                     </div>
 
-                    <?php require_once('widgets/featured-gadgets.php'); ?>
+                    <?php require_once('widgets/featured-gadgets-v3.php'); ?>
                 </section>
 
             </div>

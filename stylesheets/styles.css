@@ -286,6 +286,8 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 .item-price { color: #b51616; }
 .price-option{ margin-bottom: 14px; padding-bottom: 24px; border-bottom: 1px solid #f7f7f7; }
 
+
+
 /********* PAGE ELEMENTS: STORE PAGE ***********/
 
 .branch-list ul { list-style-type: disc; padding: 7px 24px; }
@@ -300,6 +302,8 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 .detail-price-single { padding: 7px 14px; }
 
 .branch-contact, .branch-hours { margin-top: 14px; }
+
+
 
 /********* PAGE ELEMENTS: HOMEPAGE ***********/
 
@@ -330,8 +334,11 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	}
 	#featured-promos a:hover { background: #000; }
 
+
+
+/* 
 .featured-products { font-size: 0.813em; margin-bottom: 36px; }
-	.featured-products li a { color: #333; text-decoration: none; border: 1px solid #ccc; }
+	.featured-products li a { color: #333; text-decoration: none; border: 1px solid #eee; }
 	.featured-products li a:hover { background: #eee; border: 1px solid #999; 
 		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
 	}
@@ -343,8 +350,8 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	width: 100%;
 	min-width: 120px; 
 	min-height: 120px;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 	-webkit-transition: all 0.3s ease-in;  
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in;  
@@ -352,7 +359,8 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 .posted-info { font-size: 0.813em; }
 	.price-summary { padding: 2px 0 0 0;}
 	.featured-products .promo { 
-		width: 40px; 
+		width: 46px;
+		height: 46px; 
 		background: #941f1f;
 		color: #fff;
 		text-align: center;
@@ -371,14 +379,72 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 span.authenticated { font-style: italic; }
 
 .featured-products h3 { 
-	padding: 7px 14px; color: #333; font-weight: 900; display: block; margin: 0;
-	background: #f7f7f7; border-bottom: 1px solid #ccc;
+	padding: 7px 14px; 
+	color: #333; font-weight: 900; font-size: 1em; line-height: 1.2;
+	display: block; margin: 0; height: 95px;
+	background: #f7f7f7; border-bottom: 1px solid #eee;
 	-webkit-transition: all 0.3s ease-in;  
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in; 
 }
 
 .featured-products a:hover h3 { color: #fff; background: #333; }
+
+*/
+
+.featured-products li a.block { 
+	border: 1px solid #eee; margin-bottom: 24px; color: #666;
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in;  
+}
+	.featured-products li a.block:hover { 
+		background: #f7f7f7; 
+		border: 1px solid #999; 
+		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
+	}
+
+.item-header { 
+	background: #f7f7f7; border-bottom: 1px solid #eee; 
+	width: 100%;
+	padding: 7px 14px;  
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+}
+.featured-products h3 { 
+	vertical-align: middle;
+	display: table-cell;
+	color: #333; font-weight: 900; 
+	font-size: 1em; line-height: 1.4;
+	margin: 0; 
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+}
+.featured-products a:hover .item-header { background: #333; }
+.featured-products a:hover h3 { color: #fff; }
+
+.promo {
+	background: #941f1f;
+	color: #fff;
+	padding: 5px;
+	font-size: 0.813em;
+	margin: 14px 0 0 0;
+	text-align: center;
+}
+.price-summary { padding: 14px; }
+.container-thumb { overflow: none; }
+.item-thumb { margin: 7px; }
+.posted-info { font-size: 0.75em; border-top: 1px solid #eee;}
+.price-lowest { color: #b51616; font-weight: 900; }
+
+.posted-details {
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+}
+
 
 
 

@@ -24,7 +24,7 @@
                     </div>
                 </section>
 
-                <?php require_once('widgets/featured-moms.php'); ?>
+                <?php require_once('widgets/featured-moms-v3.php'); ?>
 
                 <div class="pagination group">
                     <a href="#" class="see-more right">see more products &raquo; </a>
