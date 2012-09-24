@@ -171,7 +171,7 @@
             </article>
         </section>
 
-        <section class="group">
+        <section class="group row">
                 <div id="map-directions">
                     <div class="group row">
                         <div class="six columns">
