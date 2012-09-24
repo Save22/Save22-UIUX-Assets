@@ -50,12 +50,12 @@
                 <h2>Directions</h2>
 
                 <div id="map-directions">
-                    <div class="group">
-                        <div class="left innercol inner-halfcol">
+                    <div class="group row">
+                        <div class="six columns">
                             <label for="">Start Address (e.g. 123 Main St.)</label>
                             <input type="text" id="" name="" placeholder="">
                         </div>
-                        <div class="left innercol inner-halfcol inner-lastcol">
+                        <div class="six columns">
                             <label for="">End: <a href="#">Gaisano Interpace</a></label>
                             <input type="text" id="pointB" class="left" name="" placeholder="" value="Unit B, Gilmore Commercial Plaza, Gilmore Ave.">
                             <input type="submit" class="button radius" value="Get Directions">

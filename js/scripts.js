@@ -64,72 +64,26 @@ jQuery(document).ready(function($) {
         
     }
     
-	
-	// add all your scripts here
 
     /* dropkick plugin */
     $('.dk').dropkick();
 
 
-    /* tabs */
-    var tabContainers = $('div.tabs > div');
-    
-    $('div.tabs ul.tabNavigation a').click(function () {
-        tabContainers.hide().filter(this.hash).show();
-        
-        $('div.tabs ul.tabNavigation a').removeClass('selected');
-        $(this).addClass('selected');
-        
-        return false;
-    }).filter(':first').click();
+    /* featured prodcuts - same height for header */
 
+    var header_sizes = [];
+    $('.item-header').each(function() { header_sizes.push($(this).outerHeight()) });
+    var tallest_header = Math.max.apply( null, header_sizes );
 
-    /* modal window */
-    $('.modal-close a').click(function(){
-        $('#modal').fadeOut().addClass('hide');
-        return false;
+    $('.item-header').each(function(){
+
+        var item_width = $(this).parent().width();
+
+        $(this).css('height', tallest_header);
+        $(this).css('width', item_width); 
+
     });
-
-    $('.modal-trigger').click(function(){
-        $('#modal').fadeIn().removeClass('hide');
-        return false; 
-    });
-
  
+
 }); /* end of as page load scripts */
 
-
-/*! A fix for the iOS orientationchange zoom bug.
- Script by @scottjehl, rebound by @wilto.
- MIT License.
-*/
-(function(w){
-	// This fix addresses an iOS bug, so return early if the UA claims it's something else.
-	if( !( /iPhone|iPad|iPod/.test( navigator.platform ) && navigator.userAgent.indexOf( "AppleWebKit" ) > -1 ) ){ return; }
-    var doc = w.document;
-    if( !doc.querySelector ){ return; }
-    var meta = doc.querySelector( "meta[name=viewport]" ),
-        initialContent = meta && meta.getAttribute( "content" ),
-        disabledZoom = initialContent + ",maximum-scale=1",
-        enabledZoom = initialContent + ",maximum-scale=10",
-        enabled = true,
-		x, y, z, aig;
-    if( !meta ){ return; }
-    function restoreZoom(){
-        meta.setAttribute( "content", enabledZoom );
-        enabled = true; }
-    function disableZoom(){
-        meta.setAttribute( "content", disabledZoom );
-        enabled = false; }
-    function checkTilt( e ){
-		aig = e.accelerationIncludingGravity;
-		x = Math.abs( aig.x );
-		y = Math.abs( aig.y );
-		z = Math.abs( aig.z );
-		// If portrait orientation and in one of the danger zones
-        if( !w.orientation && ( x > 7 || ( ( z > 6 && y < 8 || z < 8 && y > 6 ) && x > 5 ) ) ){
-			if( enabled ){ disableZoom(); } }
-		else if( !enabled ){ restoreZoom(); } }
-	w.addEventListener( "orientationchange", restoreZoom, false );
-	w.addEventListener( "devicemotion", checkTilt, false );
-})( this );

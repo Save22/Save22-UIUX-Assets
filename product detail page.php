@@ -154,13 +154,13 @@
         <a href="#link-to-store"><h2 class="single-header">Gaisano Interpace</h2></a>
 
         <section class="group">
-            <article class="branch-address left innercol inner-halfcol">
+            <article class="branch-address six columns">
                 Unit B, Gilmore Commercial Plaza<br>
                 Gilmore Ave. cor Aurora Blvd<br>
                 New Manila, Quezon City
             </article>
             
-            <article class="branch-contact left innercol inner-halfcol">
+            <article class="branch-contact six columns">
                 <ul class="nolist">
                     <li><span class="telefax-label">Telefax #</span>
                         <span class="telefax-number">(+63) 2 721-89-09</span></li>
@@ -173,12 +173,12 @@
 
         <section class="group">
                 <div id="map-directions">
-                    <div class="group">
-                        <div class="left innercol inner-halfcol">
+                    <div class="group row">
+                        <div class="six columns">
                             <label for="">Start Address (e.g. 123 Main St.)</label>
                             <input type="text" id="" name="" placeholder="">
                         </div>
-                        <div class="left innercol inner-halfcol inner-lastcol">
+                        <div class="six columns">
                             <label for="">End: <a href="#">Gaisano Interpace</a></label>
                             <input type="text" id="pointB" class="left" name="" placeholder="" value="Unit B, Gilmore Commercial Plaza, Gilmore Ave.">
                             <input type="submit" class="button radius" value="Get Directions">

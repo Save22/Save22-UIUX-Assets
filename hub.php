@@ -5,7 +5,7 @@
     <div class="row">
             <div class="nine columns">
                 <section>
-                    <div id="featured-header" class="block group" style="background:url('images/hub-sample-featured.png');">
+                    <div id="featured-header" class="block group" style="background:url('img/hub-sample-featured.png');">
 
                         <div class="intro-copy right relative">
                             The best diaper deals from
@@ -24,7 +24,7 @@
                     </div>
                 </section>
 
-                <?php require_once('widgets/featured-moms-v3.php'); ?>
+                <?php require_once('widgets/featured-moms.php'); ?>
 
                 <div class="pagination group">
                     <a href="#" class="see-more right">see more products &raquo; </a>

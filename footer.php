@@ -10,10 +10,10 @@
             <h3>Download</h3>
             <p>Spread shopping intelligence:  </p>
             <a href="#" class="left download-apple innercol">
-                <img src="images/footer-dlappstore.png">
+                <img src="img/footer-dlappstore.png">
             </a>
             <a href="#" class="left innercol">
-                <img src="images/footer-dlplaystore.png">
+                <img src="img/footer-dlplaystore.png">
             </a>
 
         </div>
