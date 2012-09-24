@@ -41,7 +41,7 @@
     <div class="row">
         <div class="two columns">
             <a href="http://save22.com">
-                    <h1 id="logo" class="block">Save22</h1>
+                    <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
                 </a>
                 <div class="subheader">
                     the smart shopping companion
