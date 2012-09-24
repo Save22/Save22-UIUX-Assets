@@ -153,7 +153,7 @@
 <div id="mapModal" class="reveal-modal">
         <a href="#link-to-store"><h2 class="single-header">Gaisano Interpace</h2></a>
 
-        <section class="group">
+        <section class="group row">
             <article class="branch-address six columns">
                 Unit B, Gilmore Commercial Plaza<br>
                 Gilmore Ave. cor Aurora Blvd<br>
