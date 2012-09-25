@@ -83,6 +83,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 }
 
 
+
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -404,8 +405,52 @@ ul.featured-products { margin-top: 24px !important; }
 
 	.innercol { width: 100% !important; display: block; float: none; margin: 0 0 14px 0 !important; overflow: hidden; }
 
-	#fb-widget, #sidebar-contributors, #crumbs, #popular-searches, .subheader, #smart-shopper
+	#fb-widget, #crumbs, #popular-searches, .subheader, #smart-shopper
 		{ display: none; }
+
+
+	/* tabs */
+	dl.tabs { height: auto; }
+	dl.tabs dd {
+		float: none;
+	}
+		dl.tabs dd a { background: #f7f7f7; border-top: 1px solid #ccc; font-weight: 900; }
+
+
+	/* widgets */
+	#sidebar .widget, #sidebar h3 { margin: 0; }
+	.widget-content { display: none; padding: 14px; }
+	#sidebar { padding: 0; margin: 0; }
+	#sidebar h3 {
+		padding: 20px; 
+		background: #eee;
+		border-bottom: 1px solid #999;
+		border-top: 1px solid #fff;
+		font-size: 1em;	
+		cursor: pointer;
+	}
+
+
+	/* footer */
+	.copyright { margin: 0; }
+	#main-footer .four.columns 	{
+		display: none;
+	}
+
+
+	/* featured and shop */
+
+	.price-option, .price-option:last-child {
+		border: 2px solid #ccc;
+		padding: 14px;
+		background: #f7f7f7;
+	}
+		.ugc-info { font-size: 0.813em; }
+		.price-option .price { font-size: 1.2em; }
+		.price-option p {margin:0;}
+		.price-option .more-info { font-style: italic; }
+
+
 }
 
 
@@ -420,4 +465,15 @@ ul.featured-products { margin-top: 24px !important; }
 	}
 
 }
+
+
+@media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	#logo {
+		background-size: 92px 30px;
+	}
+
+
+}
+
 

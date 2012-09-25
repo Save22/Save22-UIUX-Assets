@@ -29,7 +29,15 @@ jQuery(document).ready(function($) {
     
     /* if is below 481px */
     if (responsive_viewport < 481) {
-    
+        
+        $(".widget h3").on("click", function(){
+            var contents = $(this).parent().find('div.widget-content');
+
+            $('div.widget-content.open').slideUp().removeClass('open');
+
+            contents.slideDown().addClass('open');
+        });
+
     } /* end smallest screen */
     
     /* if is larger than 481px */
@@ -40,23 +48,6 @@ jQuery(document).ready(function($) {
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
     
-        /** TOPMOST HEADER **/
-        var div = $('#main-header');
-        var start = $(div).offset().top;
-
-        $(window).scroll(function(){         
-            var p = $(window).scrollTop(),
-                w_width = $(window).width();
-
-            if(p >= 220) {
-                $(div).css('top',((p)>start) ? '0px' : '');
-                $(div).addClass('floating-header'); 
-            }
-            else {
-                $(div).removeClass('floating-header');
-            }
-        });
-
     }
     
     /* off the bat large screen actions */
@@ -64,6 +55,23 @@ jQuery(document).ready(function($) {
         
     }
     
+    /** TOPMOST HEADER **/
+    var div = $('#main-header');
+    var start = $(div).offset().top;
+
+    $(window).scroll(function(){         
+         var p = $(window).scrollTop(),
+              w_width = $(window).width();
+
+        if(p >= 220) {
+            $(div).css('top',((p)>start) ? '0px' : '');
+            $(div).addClass('floating-header'); 
+        }
+        else {
+            $(div).removeClass('floating-header');
+        }
+    });
+
 
     /* dropkick plugin */
     $('.dk').dropkick();
