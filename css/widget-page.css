@@ -141,7 +141,10 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 	#sidebar {
 		border: 1px solid #ccc;
 		background: #f7f7f7;
+		padding: 14px;
+		text-align: center;
 	}
+		#sidebar h3 { margin: 0 0 24px 0; line-height: 1.3;}
 
 	/* CONTENTS */
 
@@ -176,6 +179,7 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 		max-width: 400px;
 		top: 25%;
 		padding: 24px;
+		background: rgba(0,0,0,0.5);
 	}
 #featured-promos { background: #222222; margin-bottom: 24px; }
 #featured-promos ul li {
@@ -203,6 +207,7 @@ ul.featured-products { margin-top: 24px !important; }
 		background: #f7f7f7; 
 		border: 1px solid #999; 
 		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
+		position: relative; top: -5px;
 	}
 
 .item-header { 
@@ -223,8 +228,6 @@ ul.featured-products { margin-top: 24px !important; }
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in; 
 }
-.featured-products a:hover .item-header { background: #333; }
-.featured-products a:hover h3 { color: #fff; }
 
 .promo {
 	background: #941f1f;
