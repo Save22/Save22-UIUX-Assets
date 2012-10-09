@@ -14,6 +14,14 @@
                         </div>
 
                     </div>
+                    <div id="featured-promos" class="group">
+                        <ul class="nolist">
+                            <li class="innercol"><a href="#">Diaper Deals</a></li>
+                            <li class="innercol"><a href="#">Milk Madness</a></li>
+                            <li class="innercol"><a href="#">Promo 3</a></li>
+                            <li class="innercol"><a href="#">Promo 4</a></li>
+                        </ul>
+                    </div>
                 </section>
 
                 <?php require_once('widgets/featured-moms.php'); ?>
@@ -27,6 +35,7 @@
             <div class="three columns" id="sidebar">
 
                 <?php require_once('widgets/intro-widget.php'); ?>
+                <?php require_once('widgets/top-contributors.php'); ?>
                 <?php require_once('widgets/fb-widget.php'); ?>
 
             </div> <!-- sidebar -->

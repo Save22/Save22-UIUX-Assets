@@ -42,16 +42,20 @@
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
                                 <span class="detail-author">by <strong>GangstaGuy</strong></span><br>
-                                <span class="post-date">Aug 25, 2012</span>
+                                <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
-                                <span class="detail-price impt">Php 27,800</span>
+                                <span class="detail-price impt"><a href="#option-detail">Php 27,800</a></span>
                             </div>
+
+                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
                                 <span class="detail-shop">Gaisano Interpace</span><br>
                                 <span class="detail-area">Gilmore, QC</span><br>
-                                <a href="#"  data-reveal-id="mapModal" class="store-details  button radius">store details</a>
+                                <span class="button radius">store details</span>
                             </div>
+                            </a>
+
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
                                 <p>Comes with free silicon case.</p>
@@ -61,15 +65,19 @@
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
                                 <span class="detail-author"><strong><em>authenticated price</em></strong></span><br>
-                                <span class="post-date">Aug 25, 2012</span>
+                                <span class="post-date"><a href="#">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
-                                <span class="detail-price impt">Php 29,800</span>
+                                <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
+
+                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
                                 <span class="detail-shop">Gaisano Interpace, Gilmore, QC</span><br>
-                                <a href="#" data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                                <span class="button radius">store details</span>
                             </div>
+                            </a>
+
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
                                 <p>You can choose to choose one freebie: HP Printer, charger, or iPod touch.</p>
@@ -80,15 +88,19 @@
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
                                 <span class="detail-author">by <strong>FamilyManLope</strong></span><br>
-                                <span class="post-date">Aug 21, 2012</span>
+                                <span class="post-date"><a href="#">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
-                                <span class="detail-price impt">Php 29,800</span>
+                                <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
+
+                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
                                 <span class="detail-shop">Seller Name</span><br>
-                                <a href="#" data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                                <span class="button radius">store details</span>
                             </div>
+                            </a>
+
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
                             </div>
@@ -98,15 +110,19 @@
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
                                 <span class="detail-author">by <strong>Rodster</strong></span><br>
-                                <span class="post-date">Aug 11, 2012</span>
+                                <span class="post-date"><a href="#">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
-                                <span class="detail-price impt">Php 35,500</span>
+                                <span class="detail-price impt"><a href="#option-detail">Php 35,500</a></span>
                             </div>
+
+                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
                                 <span class="detail-shop">Seller Name</span><br>
-                                <a href="#" data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                                <span class="button radius">store details</span>
                             </div>
+                            </a>
+
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
                                 <p>You can choose to choose one freebie: HP Printer, charger, or iPod touch.</p>

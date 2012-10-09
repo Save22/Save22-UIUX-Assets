@@ -179,6 +179,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	#sidebar {
 		font-size: 0.813em;
 		color: #4b4b4b;
+		overflow: hidden;
 	}
 		#sidebar h3 { 
 			color: #3b3b3b; 
@@ -211,9 +212,11 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 		background: #2a2a2a;
 		color: #fff;
 		padding-top: 16px;
-		font-size: 3em;
 	}
-		#smart-shopper .dk_container { margin-left: 10px; }
+		#smart-shopper .columns, #smart-shopper .dk_container, #smart-shopper .dk_options li { font-size: 1.5em; }
+			.dk_container { margin-bottom: 14px; }
+		#smart-shopper .dk_container { margin-left: 10px; white-space: normal; }
+		#smart-shopper span.block { margin-top: 10px;}
 
 
 	/* related products */
@@ -236,6 +239,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 #store-info, #item-info {
 	width: 48%;
 }
+#content.product-detail #item-info { width: 100%; }
 
 #store-info h3 { 
 	font-weight: 600;
@@ -282,6 +286,15 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 
 
 
+/********* PAGE ELEMENTS: PRODUCT DETAIL PAGE ***********/
+
+a.store-details { color: #4b4b4b; }
+	a.store-details span.button { margin-top: 14px; }
+.post-date a { color: #4b4b4b; font-size: 0.813em; }
+
+
+
+
 /********* PAGE ELEMENTS: STORE PAGE ***********/
 
 .branch-list ul { list-style-type: disc; padding: 7px 24px; }
@@ -303,6 +316,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	width: 100% !important;
 	height: 350px !important;
 	background-repeat: no-repeat !important;
+	margin-bottom: 24px;
 }
 	#featured-header .intro-copy {
 		font-size: 2em;
@@ -339,6 +353,8 @@ ul.featured-products { margin-top: 24px !important; }
 		background: #f7f7f7; 
 		border: 1px solid #999; 
 		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
+		position: relative;
+		top: -5px;
 	}
 
 .item-header { 
@@ -359,8 +375,6 @@ ul.featured-products { margin-top: 24px !important; }
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in; 
 }
-.featured-products a:hover .item-header { background: #333; }
-.featured-products a:hover h3 { color: #fff; }
 
 .promo {
 	background: #941f1f;
@@ -415,7 +429,12 @@ ul.featured-products { margin-top: 24px !important; }
 		float: none;
 	}
 		dl.tabs dd a { background: #f7f7f7; border-top: 1px solid #ccc; font-weight: 900; }
-
+		dd.active { border: 0 !important; }
+		dd.active a {
+			background: #B51616 !important;
+			border-top: 0 !important;
+			color: #fff !important;
+		}
 
 	/* widgets */
 	#sidebar .widget, #sidebar h3 { margin: 0; }

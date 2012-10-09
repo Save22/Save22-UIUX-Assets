@@ -58,13 +58,14 @@ jQuery(document).ready(function($) {
     /** TOPMOST HEADER **/
     var div = $('#main-header');
     var start = $(div).offset().top;
+    var div_height = div.height();
 
     $(window).scroll(function(){         
          var p = $(window).scrollTop(),
               w_width = $(window).width();
 
-        if(p >= 220) {
-            $(div).css('top',((p)>start) ? '0px' : '');
+        if(p >= div_height) {
+            $(div).css('top',((p)>start) ? '0px' : ''); 
             $(div).addClass('floating-header'); 
         }
         else {

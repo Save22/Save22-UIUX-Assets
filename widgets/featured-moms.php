@@ -28,7 +28,7 @@
                     		<div class="posted-details group">
                     			<img class="user-avatar-small left" src="img/sample_avatar.png">
                     			<div class="posted-info block left">
-                    				<span class="posted-datetime">added 3 days ago</span><br>by 
+                    				<span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
@@ -61,7 +61,7 @@
                               <div class="posted-details group">
                                    <img class="user-avatar-small left" src="img/sample_avatar.png">
                                    <div class="posted-info block left">
-                                        <span class="posted-datetime">added 3 days ago</span><br>by 
+                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
@@ -95,7 +95,7 @@
                               <div class="posted-details group">
                                    <img class="user-avatar-small left" src="img/sample_avatar.png">
                                    <div class="posted-info block left">
-                                        <span class="posted-datetime">added 3 days ago</span><br>by 
+                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
@@ -135,7 +135,7 @@
                               <div class="posted-details group">
                                    <img class="user-avatar-small left" src="img/sample_avatar.png">
                                    <div class="posted-info block left">
-                                        <span class="posted-datetime">added 3 days ago</span><br>by 
+                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
@@ -168,7 +168,7 @@
                               <div class="posted-details group">
                                    <img class="user-avatar-small left" src="img/sample_avatar.png">
                                    <div class="posted-info block left">
-                                        <span class="posted-datetime">added 3 days ago</span><br>by 
+                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
@@ -202,7 +202,7 @@
                               <div class="posted-details group">
                                    <img class="user-avatar-small left" src="img/sample_avatar.png">
                                    <div class="posted-info block left">
-                                        <span class="posted-datetime">added 3 days ago</span><br>by 
+                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
                                         <span class="detail-author">
                                              <strong>flipper</strong>
                                         </span>
