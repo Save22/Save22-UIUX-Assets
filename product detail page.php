@@ -166,8 +166,12 @@
 
 
 
-<div id="mapModal" class="reveal-modal">
-        <a href="#link-to-store"><h2 class="single-header">Gaisano Interpace</h2></a>
+<div id="mapModal" class="reveal-modal twelve columns">
+    <div class="row">
+        <div class="twelve columns">
+            <a href="#link-to-store"><h2 class="single-header">Gaisano Interpace</h2></a>
+        </div>
+    </div>
 
         <section class="group row">
             <article class="branch-address six columns">
