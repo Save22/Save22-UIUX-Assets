@@ -267,7 +267,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 /* directions */
 #map { max-width: 100%; overflow: none; }
 #map-directions { margin: 24px 0; }
-#pointB { width: 62%; margin-right: 3%;}
+.pointB { width: 62% !important; margin-right: 3% !important;}
 
 
 

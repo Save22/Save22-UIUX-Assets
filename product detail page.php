@@ -196,7 +196,7 @@
                         </div>
                         <div class="six columns">
                             <label for="">End: <a href="#">Gaisano Interpace</a></label>
-                            <input type="text" id="pointB" class="left" name="" placeholder="" value="Unit B, Gilmore Commercial Plaza, Gilmore Ave.">
+                            <input type="text" id="pointID" class="left pointB" name="" placeholder="" value="Unit B, Gilmore Commercial Plaza, Gilmore Ave.">
                             <input type="submit" class="button radius" value="Get Directions">
                         </div>
                     </div><!-- end .group -->
