@@ -211,7 +211,7 @@ h2.single-header, .store-name { margin: 0 0 14px 0; }
 	#smart-shopper {
 		background: #2a2a2a;
 		color: #fff;
-		padding-top: 16px;
+		padding-top: 14px;
 	}
 		#smart-shopper .columns, #smart-shopper .dk_container, #smart-shopper .dk_options li { font-size: 1.5em; }
 			.dk_container { margin-bottom: 14px; }
@@ -399,7 +399,7 @@ ul.featured-products { margin-top: 24px !important; }
 	-o-transition: all 0.3s ease-in; 
 }
 
-
+.dk_toggle { width: 230px; height: 56px; overflow: hidden; }
 
 
 /* ============================= */
