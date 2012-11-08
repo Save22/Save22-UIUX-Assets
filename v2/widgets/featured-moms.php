@@ -16,7 +16,7 @@
                                    <div class="detail-header">
                                         <div class="detail-prices group">
                                              <div class="block price-summary">
-                                                  lowest at
+                                                  starts at
                                                   <span class="price-lowest">S$ 7.95</span><br>
                                                   to <span class="price-highest">S$ 8.25</span>
                                              </div>
@@ -57,7 +57,7 @@
                                    <div class="detail-header">
                                         <div class="detail-prices group">
                                              <div class="block price-summary">
-                                                  lowest at
+                                                  starts at
                                                   <span class="price-lowest">S$ 7.95</span><br>
                                                   to <span class="price-highest">S$ 8.25</span>
                                              </div>
@@ -97,7 +97,7 @@
                                    <div class="detail-header">
                                         <div class="detail-prices group">
                                              <div class="block price-summary">
-                                                  lowest at
+                                                  starts at
                                                   <span class="price-lowest">S$ 7.95</span><br>
                                                   to <span class="price-highest">S$ 8.25</span>
                                              </div>
@@ -212,7 +212,7 @@
                                    <div class="detail-header">
                                         <div class="detail-prices group">
                                              <div class="block price-summary">
-                                                  lowest at
+                                                  starts at
                                                   <span class="price-lowest">S$ 7.95</span><br>
                                                   to <span class="price-highest">S$ 8.25</span>
                                              </div>
@@ -328,7 +328,7 @@
                                    <div class="detail-header">
                                         <div class="detail-prices group">
                                              <div class="block price-summary">
-                                                  lowest at
+                                                  starts at
                                                   <span class="price-lowest">S$ 7.95</span><br>
                                                   to <span class="price-highest">S$ 8.25</span>
                                              </div>

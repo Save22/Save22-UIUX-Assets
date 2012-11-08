@@ -48,8 +48,14 @@
     </div>
 
     <div class="row copyright">
-        <div class="twelve columns">
+        <div class="six columns">
             &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.
+        </div>
+        <div class="six columns">
+          <ul id="country-options" class="link-list right">
+            <li><a href="http://save22.com.sg" class="current">Singapore</a></li>
+            <li><a href="http://save22.com.ph">Philippines</a></li>
+          </ul>
         </div>
     </div>
 </footer>

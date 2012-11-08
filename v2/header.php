@@ -61,8 +61,5 @@
           <input type="text" id="site_search" placeholder="Search for a product">
         </div>
 
-        <div id="country-options" class="right">
-          <a href="#" class="current">SG</a> | <a href="#">PH</a>
-        </div>
     </div><!-- row -->
 </header>
