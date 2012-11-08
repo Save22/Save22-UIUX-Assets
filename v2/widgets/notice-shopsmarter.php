@@ -1,7 +1,7 @@
 
 <div id="smart-shopper">
     <div class="row">
-        <div class="seven columns centered"> 
+        <div class="nine columns centered"> 
             <span class="left bold block">Shop smarter. See deals for </span>
 
             <!-- Dropkick select plugin: 

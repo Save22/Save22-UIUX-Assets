@@ -1,10 +1,12 @@
 
                <article>
-                    <h2 class="single-header">Featured Products</h2>
+                    <h2 class="single-header">Search results for: "diapers"</h2>
 
-                    <ul class="featured-products nolist group row">
+                    <p>Viewing results <strong>1-10</strong> of <strong>24</strong></p>
 
-                    	<li class="innercol four columns">
+                    <ul class="featured-products search-results nolist group row">
+
+                    	<li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -31,21 +33,12 @@
                                    </div>
                               </div>
 
-                    		<div class="posted-details group">
-                    			<img class="user-avatar-small left" src="img/sample_avatar.png">
-                    			<div class="posted-info block left">
-                    				<span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                    			</div>
-                    		</div><!-- group -->
                          </a>
 
                     	</li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -72,20 +65,11 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -112,23 +96,10 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
-                    </ul><!-- row 1 -->
 
-
-                    <ul class="featured-products nolist group row">
-
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -150,21 +121,12 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          
                          </li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -186,21 +148,12 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          
                          </li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -227,24 +180,11 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
-                    </ul><!-- row 2 -->
 
 
-
-                    <ul class="featured-products nolist group row">
-
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -266,21 +206,12 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          
                          </li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -302,21 +233,12 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          
                          </li>
 
 
-                         <li class="innercol four columns">
+                         <li class="innercol twelve columns">
 
                          <a href="option detail page.php" class="block">
                               <div class="item-header">
@@ -343,15 +265,6 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
                     </ul><!-- row 3 -->

@@ -49,18 +49,20 @@
 
 <header id="main-header">
     <div class="row">
-        <div class="two columns">
+        <div class="logo-set left">
             <a href="http://save22.com">
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
                 </a>
                 <div class="subheader">
                     the smart shopping companion
                 </div>
-        </div><!-- two -->
-        <div class="ten columns">
-            <div id="searchbox">
-                <input type="text" id="site_search" placeholder="Search for a product">
-            </div>
-        </div><!-- four -->
+        </div><!-- logo -->
+        <div id="searchbox" class="left">
+          <input type="text" id="site_search" placeholder="Search for a product">
+        </div>
+
+        <div id="country-options" class="right">
+          <a href="#" class="current">SG</a> | <a href="#">PH</a>
+        </div>
     </div><!-- row -->
 </header>

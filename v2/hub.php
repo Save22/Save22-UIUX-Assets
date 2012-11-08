@@ -3,7 +3,7 @@
 
 <div id="content" class="hub">
     <div class="row">
-            <div class="nine columns">
+            <div class="twelve columns">
                 <section>
                     <div id="featured-header" class="block group" style="background:url('img/hub-sample-featured.png');">
 
@@ -36,14 +36,16 @@
 
             </div><!-- ninecol group -->
 
-            <div class="three columns" id="sidebar">
-
-                <?php require_once('widgets/intro-widget.php'); ?>
-                <?php require_once('widgets/fb-widget.php'); ?>
-
-            </div> <!-- sidebar -->
     </div><!-- row -->
 </div><!-- content -->
 
+<div id="about-tab">
+  
+  <a href="#" class="tab-label">What is Save22?</a>
+
+  <article>
+
+  </article>
+</div>
 
 <?php require_once('footer.php'); ?>

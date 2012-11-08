@@ -92,6 +92,20 @@ jQuery(document).ready(function($) {
         $(this).css('width', item_width); 
 
     });
+
+
+
+    /* about tab */
+        $(".tab-label").on("click", function(){
+            var article = $('#about-tab article');
+            if (article.hasClass('open')) {
+                article.slideUp().removeClass('open');
+            }
+            else { 
+                article.slideDown().addClass('open');
+            }
+        });
+
  
 
 }); /* end of as page load scripts */
