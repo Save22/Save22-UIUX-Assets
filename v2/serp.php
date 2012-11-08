@@ -3,12 +3,6 @@
 <div id="content" class="search">
     <div class="row">
 
-      <div class="three columns">
-        <div id="sidebar">
-           <?php require_once('widgets/related-products.php'); ?>
-        </div>
-      </div>
-      
       <div class="nine columns">
 
                 <?php require_once('widgets/search-results.php'); ?>
@@ -31,6 +25,12 @@
 
       </div><!-- ninecol group -->
 
+      <div class="three columns">
+        <div id="sidebar">
+           <?php require_once('widgets/related-products.php'); ?>
+        </div>
+      </div>
+      
     </div><!-- row -->
 </div><!-- content -->
 

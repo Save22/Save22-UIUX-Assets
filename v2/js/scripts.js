@@ -43,6 +43,25 @@ jQuery(document).ready(function($) {
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
         
+        /** TOPMOST HEADER **/
+        var div = $('#main-header');
+        var start = $(div).offset().top;
+        var div_height = div.height();
+
+        $(window).scroll(function(){         
+             var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+            if(p >= div_height) {
+                $(div).css('top',((p)>start) ? '0px' : ''); 
+                $(div).addClass('floating-header'); 
+            }
+            else {
+                $(div).removeClass('floating-header');
+            }
+        });
+
+
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -55,25 +74,6 @@ jQuery(document).ready(function($) {
         
     }
     
-    /** TOPMOST HEADER **/
-    var div = $('#main-header');
-    var start = $(div).offset().top;
-    var div_height = div.height();
-
-    $(window).scroll(function(){         
-         var p = $(window).scrollTop(),
-              w_width = $(window).width();
-
-        if(p >= div_height) {
-            $(div).css('top',((p)>start) ? '0px' : ''); 
-            $(div).addClass('floating-header'); 
-        }
-        else {
-            $(div).removeClass('floating-header');
-        }
-    });
-
-
     /* dropkick plugin */
     $('.dk').dropkick();
 

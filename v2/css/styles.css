@@ -457,6 +457,7 @@ ul.featured-products { margin-top: 24px !important; }
 .search-results li a.block {
 	margin-bottom: 24px;
 	border: 0;
+	border-top: 1px solid #d4d4d4;
 }
 	.search-results li a.block:hover { border: 0; box-shadow: 0 0 0; }
 
