@@ -459,7 +459,7 @@ ul.featured-products { margin-top: 24px !important; }
 	border: 0;
 	border-top: 1px solid #d4d4d4;
 }
-	.search-results li a.block:hover { border: 0; box-shadow: 0 0 0; }
+	.search-results li a.block:hover { border: 0; border-top: 1px solid #d4d4d4; box-shadow: 0 0 0; }
 
 
 
@@ -518,7 +518,7 @@ ul.featured-products { margin-top: 24px !important; }
 
 	.innercol { width: 100% !important; display: block; float: none; margin: 0 0 14px 0 !important; overflow: visible; }
 
-	#fb-widget, #crumbs, #popular-searches, .subheader, #smart-shopper, #about-tab, #content.search #sidebar
+	#fb-widget, #crumbs, #popular-searches, .subheader, #smart-shopper, #about-tab
 		{ display: none; }
 
 	ul.featured-products li a.block { margin-bottom: 24px;  }
@@ -539,20 +539,24 @@ ul.featured-products { margin-top: 24px !important; }
 		}
 
 	/* widgets */
-	#sidebar .widget, #sidebar h3,  { margin: 0; }
-	.widget-content { display: none; padding: 14px; }
+	#sidebar .widget, #sidebar h3  { margin: 0; }
+	.widget-content { display: none; padding: 14px; margin: 0; }
 	#sidebar .widget-content ul li a { color: #333 !important; }
-	#sidebar { padding: 0; margin: 0; }
+	#sidebar { padding: 0; margin: 0 0 24px 0; border: 1px solid #d4d4d4;}
 	#sidebar h3, #main-footer h3 {
 		padding: 20px; 
-		background: #eee;
-		border-bottom: 1px solid #999;
-		border-top: 1px solid #fff;
 		font-size: 1em;	
 		cursor: pointer;
 		margin-bottom: 0;
+		border-bottom: 1px solid #999;
+	}
+	#sidebar h3 { background: #2d2d2d; color: #fff; border-top: 0; }
+	#main-footer h3 {
+		background: #eee;
+		border-top: 1px solid #fff;
 	}
 
+	.related-thumb.left { float: left; }
 
 	/* footer */
 	.copyright { margin: 0; padding-bottom: 24px; }
