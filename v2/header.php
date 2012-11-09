@@ -43,6 +43,10 @@
   <link rel="stylesheet" href="css/dropkick.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
 </head>
 <body>
 
@@ -52,6 +56,7 @@
         <div class="logo-set left">
             <a href="http://save22.com">
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
+                    <img src="img/logo-ie8.png" class="logo-ie8">
                 </a>
                 <div class="subheader">
                     the smart shopping companion

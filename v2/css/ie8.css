@@ -1,0 +1,3 @@
+.floating-header #logo { display: none; }
+
+.floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; } 

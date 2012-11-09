@@ -124,7 +124,7 @@ a img { border: 0; }
 		-moz-transition: background-position 0.2s ease-in;  
 		-o-transition: background-position 0.2s ease-in;  
 	}
-
+		.logo-ie8 { display: none; }
 		.subheader {
 			font-size: 0.75em;
 			font-style: italic;
