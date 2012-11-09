@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
 
 
     /* about tab */
-        $(".tab-label").on("click", function(){
+        $(".tab-label").on("click", function(e){
             var article = $('#about-tab article');
             if (article.hasClass('open')) {
                 article.slideUp().removeClass('open');
@@ -104,6 +104,7 @@ jQuery(document).ready(function($) {
             else { 
                 article.slideDown().addClass('open');
             }
+            e.preventDefault();
         });
 
  
