@@ -60,6 +60,8 @@ h2.single-header, .store-name {
 	text-decoration: underline;
 }
 
+a img { border: 0; }
+
 /* forms */
 
 .button.red-button {
