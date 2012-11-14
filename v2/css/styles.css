@@ -104,7 +104,8 @@ a img { border: 0; }
 	}
 
 	#main-header {
-		background: #f8f8f8;
+		/* background: url('../img/christmas-header.jpg') 0 0 repeat-x; */
+		background: #f8f8f8; 
 		border-top: 4px solid #2b2b2b;
 		border-bottom: 1px solid #eee;
 	}
@@ -135,7 +136,7 @@ a img { border: 0; }
 	#searchbox { min-width: 78%; }
 
 		#site_search { border: 1px solid #e0e0e0; width: 40%;}
-			#site_search:focus { width: 98%; border: 2px solid #999; }
+			#site_search:focus { width: 98%; border: 2px solid #2d2d2d; }
 		#popular-searches ul { margin-top: 14px; font-size: 0.813em; font-weight: bold; }
 		#popular-searches li { margin-right: 20px; }
 		#popular-searches li.label { color: #828282; letter-spacing: 1px; margin-top: 6px; }
@@ -290,7 +291,7 @@ a img { border: 0; }
 	#item-info h3 { margin: 0; }
 	#item-thumbnail { 
 		border: 1px solid #000; 
-		width: 150px; height: 150px;
+		width: 150px; min-height: 150px;
 		margin: 7px 21px 7px 0;
 	}
 
@@ -302,7 +303,7 @@ a img { border: 0; }
 
 
 /********* PAGE ELEMENTS: OPTION DETAIL PAGE ***********/
-
+#content.odp h2.single-header { border: 0; margin-top: 0; text-transform: none; letter-spacing: 0; text-align: left; }
 #price-options ol {  }
 	#price-options li { margin: 0 0 24px 0; padding: 0 0 24px 0; border-bottom: 1px solid #ccc;}
 	#price-options li:last-child { border: 0;}
@@ -322,7 +323,7 @@ a.store-details { color: #4b4b4b; }
 	a.store-details span.button { margin-top: 14px; }
 .post-date a { color: #4b4b4b; font-size: 0.813em; }
 
-
+ul.tabs-content { word-wrap: break-word; }
 
 
 /********* PAGE ELEMENTS: STORE PAGE ***********/
@@ -571,6 +572,10 @@ ul.featured-products { margin-top: 24px !important; }
 
 	/* featured and shop */
 
+	#featured-header {
+		background-position: center center;
+	}
+
 	.price-option, .price-option:last-child {
 		border: 2px solid #ccc;
 		padding: 14px;
@@ -583,7 +588,83 @@ ul.featured-products { margin-top: 24px !important; }
 
 
 
+	/*******
+
+		STYLE CHANGES FOR MOBILE VIEW
+
+	*******/
+
+	body { 
+		background: #ededed;
+	}
+	#main-header { 
+		border-bottom: 1px solid #ccc;
+  		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+	}
+	#logo {
+		background-size: 92px 30px;
+	}
+		.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
+
+	#main-footer h3 { background: #fff; border-left: 10px solid #ccc; }
+
+	#content.odp h2.single-header, #content.product-detail h2.single-header, #content.store h2 { 
+		text-align: left !important; 
+		border: 0; margin-top: 0; 
+		text-transform: none; 
+		letter-spacing: 0;
+	}
+
+	.widget-content { background: #fff; }
+
+
+	/* homepage / featured */
+
+	ul.featured-products li a.block, li.price-option { 
+		border: 1px solid #999; 
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25); 
+	} 
+		ul.featured-products li a.block:hover { 
+			border: 1px solid #999; 
+			box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25); 
+		}
+
+	ul.pagination { 
+		border-top: 2px solid #666;
+	}
+
+	/* option detail page */
+
+	#item-info, #store-info h3, #store-info article, #map-directions, 
+		article.branch-address, article.branch-contact, article.branch-list { 
+		background: #fff; padding: 14px; 
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+	}
+		#item-info h3 { margin: 7px 0 24px 0; }
+
+	#store-info h3 { border-top: 4px solid #A9190F; }
+
+	#map-directions {
+		border-top: 4px solid #2B2B2B;
+	}
+
+
+	/* product detail page */
+
+	dl.tabs { 
+		margin: 14px -15px;
+		border-bottom: 2px solid #666;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+
+	/* store */
+	#content.store .six article { margin-bottom: 24px; }
+
 }
+
+
 
 
 /* ========================================== */
@@ -594,13 +675,6 @@ ul.featured-products { margin-top: 24px !important; }
 
 	#logo {
 		background-size: 132px 86px;
-	}
-		.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
-}
-
-@media only screen and (device-width: 320px)  {
-	#logo {
-		background-size: 92px 30px;
 	}
 		.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
 }

@@ -5,11 +5,10 @@
     <div class="row">
             <div class="twelve columns">
                 <section>
-                    <div id="featured-header" class="block group" style="background:url('img/hub-sample-featured.png');">
+                    <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png');">
 
                         <div class="intro-copy right relative">
-                            The best diaper deals from
-                            your favorite stores
+                          
                             <a href="#" class="button radius red-button block mtop">Get them now</a>
                         </div>
 

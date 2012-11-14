@@ -28,14 +28,18 @@ jQuery(document).ready(function($) {
     var responsive_viewport = $(window).width();
     
     /* if is below 481px */
-    if (responsive_viewport < 481) {
+    if (responsive_viewport < 768) {
         
         $(".widget h3").on("click", function(){
             var contents = $(this).parent().find('div.widget-content');
 
-            $('div.widget-content.open').slideUp().removeClass('open');
-
-            contents.slideDown().addClass('open');
+            if(contents.hasClass('open')) {
+                $('div.widget-content.open').slideUp().removeClass('open');
+            }
+            else {
+                contents.slideDown().addClass('open');
+            }
+            
         });
 
     } /* end smallest screen */
