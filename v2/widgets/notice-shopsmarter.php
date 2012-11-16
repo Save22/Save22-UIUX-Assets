@@ -1,22 +1,15 @@
 
 <div id="smart-shopper">
-    <div class="row">
-        <div class="nine columns centered"> 
-            <span class="left bold block">Shop smarter. See deals for </span>
-
-            <!-- Dropkick select plugin: 
-                 I am using a plugin for now, but if this is fully functional, 
-                 custom javascript code may be written for this. -->
-            <div class="block left">
-                <select id="menu-shopsmarter" name="shopsmarter" class="left dk"  tabindex="1">
-                    <option>Gadgets</option>
-                    <option>Babies</option>
-                    <option>Computers</option>
-                    <option>Food</option>
-                    <option>Body Care</option>
-                    <option>Babies and what if a really long title </option>
-                </select>
-            </div>
-        </div>
-    </div>
+    <ul class="nav-bar" id="suggested-hubs">
+        <li>Shop smarter. See deals for </li>
+        <li class="has-flyout">
+            <a href="#" class="active">Gadgets</a>
+            <a href="#" class="flyout-toggle"><span> </span></a>
+                <ul class="flyout">
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Babies</a></li>
+                    <li><a href="#">Health and Beauty</a></li>
+                </ul>
+            </li>
+    </ul>
 </div>
