@@ -47,6 +47,10 @@
     <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
   <![endif]-->
 
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
+
 </head>
 <body>
 

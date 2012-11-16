@@ -1,0 +1,18 @@
+.floating-header #logo { display: none; }
+
+.floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; } 
+
+#site_search { height: 16px; margin: 0; }
+
+.has-flyout { position: relative; z-index: 800; }
+
+#popular-searches ul {  margin-top: 67px; margin-left: 24px;  }
+
+#featured-header { position: relative; z-index: -1; }
+
+
+.floating-header { height: 56px; }
+
+.four.columns { width: 30.5%; }
+
+.item-header { padding: 7px 0; margin: 0 14px; }
