@@ -338,8 +338,8 @@ ul.tabs-content { word-wrap: break-word; }
 	border-bottom: 1px solid #eee;
 	border-top: 3px solid #eee;
 }
-	.store-header h2 { margin-top: 14px; }
-	.store-header .red-button { margin-top: 10px; font-weight: 600; padding: 7px 14px;}
+	.store-header h2.single-header { border: 0 !important; }
+	.store-header .red-button { margin-top: 24px; font-weight: 600; padding: 7px 14px;}
 .detail-price-single { padding: 7px 14px; }
 
 

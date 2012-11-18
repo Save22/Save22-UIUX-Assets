@@ -77,9 +77,6 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 1030) {
         
     }
-    
-    /* dropkick plugin */
-    $('.dk').dropkick();
 
 
     /* featured prodcuts - same height for header */
