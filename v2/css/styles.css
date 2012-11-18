@@ -303,6 +303,7 @@ a img { border: 0; }
 
 
 /********* PAGE ELEMENTS: OPTION DETAIL PAGE ***********/
+
 #content.odp h2.single-header { border: 0; margin-top: 0; text-transform: none; letter-spacing: 0; text-align: left; }
 #price-options ol {  }
 	#price-options li { margin: 0 0 24px 0; padding: 0 0 24px 0; border-bottom: 1px solid #ccc;}
@@ -315,6 +316,7 @@ a img { border: 0; }
 .item-price { color: #b51616; }
 .price-option{ margin-bottom: 14px; padding-bottom: 24px; border-bottom: 1px solid #f7f7f7; }
 
+.branch-contact { margin-top: 16px; }
 
 
 /********* PAGE ELEMENTS: PRODUCT DETAIL PAGE ***********/
@@ -324,6 +326,7 @@ a.store-details { color: #4b4b4b; }
 .post-date a { color: #4b4b4b; font-size: 0.813em; }
 
 ul.tabs-content { word-wrap: break-word; }
+
 
 
 /********* PAGE ELEMENTS: STORE PAGE ***********/
@@ -441,9 +444,6 @@ ul.featured-products { margin-top: 24px !important; }
 	-moz-transition: all 0.3s ease-in;  
 	-o-transition: all 0.3s ease-in; 
 }
-
-.dk_toggle { width: 230px; height: 56px; overflow: hidden; }
-
 
 
 .pagination { font-weight: 600; margin: 24px 0; border-top: 1px solid #d4d4d4; padding: 24px 0; }
