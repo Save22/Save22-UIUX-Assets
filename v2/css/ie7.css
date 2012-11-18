@@ -33,3 +33,7 @@ ul.nolist li { padding: 0; }
 }
 
 ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-position: outside; }
+
+
+ul.featured-products li.four.columns { margin-left: 16px; }
+	ul.featured-prducts li:first-child { margin: 0; }
