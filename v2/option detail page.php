@@ -16,7 +16,7 @@
                 <div id="item-info" class="right block innercol">
                     <h3>iPhone 4s 32gb Black</h3>
                     <article class="group">
-                        <img id="item-thumbnail" class="left block innercol"> 
+                        <img id="item-thumbnail" class="right block innercol" src="img/sample_iphone4sblack.png"> 
                         from <span class="impt">P 27,800</span><br>
                         to <strong>P 33,500</strong> out of 4 options
                     </article>

@@ -14,8 +14,8 @@
                 <h2 class="single-header">iPhone 4s 32gb Black</h2>
 
                 <div id="item-info" class="left block innercol">
-                    <div class="innercol left">
-                        <img id="item-thumbnail"> 
+                    <div class="innercol right">
+                        <img id="item-thumbnail" src="img/sample_iphone4sblack.png"> 
                     </div>
                     <div class="innercol">
                         from <span class="impt">P 27,800</span><br>
