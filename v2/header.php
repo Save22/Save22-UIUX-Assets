@@ -62,26 +62,14 @@
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
                     <img src="img/logo-ie8.png" class="logo-ie8">
                 </a>
+                <!-- 
                 <div class="subheader">
                     the smart shopping companion
                 </div>
+                -->
         </div><!-- logo -->
         <div id="searchbox" class="left">
           <input type="text" id="site_search" placeholder="Search for a product">
         </div>
-            <div id="popular-searches">
-                <ul class="list-nav nolist">
-                    <li class="label uppercase">popular: </li>
-                    <li><a href="#">diapers</a></li>
-                    <li><a href="#">cellphones</a></li>
-                    <li><a href="#">computers</a></li>
-                    <li><a href="#">cameras</a></li>
-                    <li><a href="#">milk</a></li>
-                    <li><a href="#">soap</a></li>
-                    <li><a href="#">baby-food</a></li>
-                    <li><a href="#">iphone</a></li>
-                </ul>
-            </div>
-
     </div><!-- row -->
 </header>
