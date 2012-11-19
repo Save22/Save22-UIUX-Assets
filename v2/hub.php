@@ -5,7 +5,7 @@
     <div class="row">
             <div class="twelve columns">
                 <section>
-                    <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png');">
+                    <div id="featured-header" class="block group" style="background:url('img/hero-gadgets2.png');">
 
                         <div class="intro-copy right relative">
                           
