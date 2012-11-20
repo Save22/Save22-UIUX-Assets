@@ -2,7 +2,7 @@
 <div id="smart-shopper">
     <ul class="nav-bar" id="suggested-hubs">
         <li class="has-flyout">
-            <a href="#" class="active">Gadgets</a>
+            <a href="#" class="active">See deals for <strong>Gadgets</strong></a>
             <a href="#" class="flyout-toggle"><span> </span></a>
                 <ul class="flyout">
                     <li><a href="#">Food</a></li>

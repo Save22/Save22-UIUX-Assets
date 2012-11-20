@@ -251,7 +251,7 @@ a img { border: 0; }
 		background: #3b3b3b;
 	}
 	#smart-shopper .nav-bar { background: none; }
-	#suggested-hubs { margin: 0; max-width: 100%; min-width:768px; width: 1088px; margin: 0 auto; }
+	#suggested-hubs { margin: 0 auto; }
 	#smart-shopper ul.flyout { 
 		box-shadow: 0px 2px 12px rgba(0,0,0,0.50); 
 		border: 0; 
@@ -498,6 +498,7 @@ ul.featured-products { margin-top: 24px !important; }
 }
 	.search-results li a.block:hover { 	
 		border-width: 1px 1px 1px 1px;
+		position: relative; top: 0;
 	}
 
 
