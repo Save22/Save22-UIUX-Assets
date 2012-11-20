@@ -102,19 +102,16 @@ a img { border: 0; }
 	}
 
 	#main-header {
-		/* background: url('../img/christmas-header.jpg') 0 0 repeat-x; */
 		background: #f8f8f8; 
 		border-top: 4px solid #2b2b2b;
 		border-bottom: 1px solid #d4d4d4;
 		box-shadow: 0 0px 5px 0 rgba(0,0,0,0.35);
 		-webkit-transition: box-shadow 0.5s ease-in;  
 		-moz-transition: box-shadow 0.5s ease-in;  
-		-o-transition: box-shadow 0.5s ease-in;  
+		-o-transition: box-shadow 0.5s ease-in; 
 	}
 
-	#main-header .row {
-		padding: 12px 0 0 0;
-	}
+	#main-header .row { padding: 12px 0 0 0; }
 
 	#logo {
 		width: 132px;
@@ -251,8 +248,10 @@ a img { border: 0; }
 		position: relative;
 		z-index: 900;
 		border-bottom: 1px solid #333;
+		background: #3b3b3b;
 	}
-	#suggested-hubs { margin: 0; }
+	#smart-shopper .nav-bar { background: none; }
+	#suggested-hubs { margin: 0; max-width: 100%; min-width:768px; width: 1088px; margin: 0 auto; }
 	#smart-shopper ul.flyout { 
 		box-shadow: 0px 2px 12px rgba(0,0,0,0.50); 
 		border: 0; 
