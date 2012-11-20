@@ -1,6 +1,6 @@
 
 <div id="smart-shopper">
-    <ul class="nav-bar" id="suggested-hubs">
+    <ul class="nav-bar row" id="suggested-hubs">
         <li class="has-flyout">
             <a href="#" class="active">See deals for <strong>Gadgets</strong></a>
             <a href="#" class="flyout-toggle"><span> </span></a>
@@ -13,9 +13,10 @@
         <li id="popular-searches"> 
             <span class="label uppercase">popular:</span> 
             <a href="#">iphone</a>   
-            <a href="#">galaxy note</a>   
+            <a href="#">ipad mini</a>   
+            <a href="#">galaxy note 2</a>   
             <a href="#">nexus 4</a>  
-            <a href="#">diapers</a>    
+            <a href="#">diapers</a>   
         </li>
     </ul>
 </div>

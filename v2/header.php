@@ -69,7 +69,8 @@
                 
         </div><!-- logo -->
         <div id="searchbox" class="left">
-          <input type="text" id="site_search" placeholder="Search for a product">
+          <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
+          <input type="submit" class="button left radius" value="search">
         </div>
     </div><!-- row -->
 </header>

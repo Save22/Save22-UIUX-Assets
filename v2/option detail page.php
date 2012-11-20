@@ -48,10 +48,12 @@
 
 
             <section class="group mtop"><!-- map and directions -->
-                <h2 class="single-header">Get Directions</h2>
+                <h2 class="single-header">Map</h2>
 
                 <div class="row">
+                    <div class="six columns"> </div>
                     <div class="six columns">
+                        <h3>How do I get there?</h3>
                         <div id="map-directions">
                             <label for="">Start Address (e.g. 123 Main St.)</label>
                             <input type="text" id="" name="" placeholder="">
@@ -60,13 +62,9 @@
                             <input type="submit" class="button radius" value="Get Directions">
                         </div><!-- #map-directions -->
                     </div>
-                    <div class="six columns">
-
-                    <div id="map">
-                        <iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
-                    </div>
-
+                </div>
+                <div id="map">
+                    <iframe width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Gaisano+Interpace+Computer+System+-+Gilmore,+Quezon+City,+Metro+Manila,+Philippines&amp;aq=0&amp;oq=Gaisano+I&amp;sll=14.614196,121.034451&amp;sspn=0.014576,0.022702&amp;ie=UTF8&amp;hq=Gaisano+Interpace+Computer+System+-&amp;hnear=Gilmore,+Novaliches,+Quezon+City,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.657997,121.031914&amp;spn=0.159431,0.219727&amp;z=12&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                 </div>
             </section>
 

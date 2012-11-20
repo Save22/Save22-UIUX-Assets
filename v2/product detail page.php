@@ -4,7 +4,7 @@
 <div id="content" class="product-detail">
         <div class="row">
 
-            <div class="nine columns">
+            <div class="twelve columns">
                 <!-- CRUMBS NAVIGATION: so people know where they are -->
                 <nav id="crumbs">
                     <a href="#" class="home">Home</a> &rsaquo; 
@@ -153,12 +153,6 @@
 
             </div><!-- ninecol group -->
 
-            <div class="three columns" id="sidebar">
-
-                <?php require_once('widgets/related-products.php'); ?>
-
-            </div> <!-- sidebar -->
-
         </div><!-- row -->
 </div><!-- content -->
 
@@ -191,7 +185,7 @@
         </div>
 
         <div class="six columns">
-            <h3>Get Directions</h3>
+            <h3>How do I get there?</h3>
             <div id="map-directions">
                 <label for="">Start Address (e.g. 123 Main St.)</label>
                 <input type="text" id="" name="" placeholder="">
