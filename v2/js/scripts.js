@@ -76,6 +76,17 @@ jQuery(document).ready(function($) {
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
         
+    /* featured prodcuts - same height for each item */
+
+        var items_height = [];
+        $('.featured-products a.block').each(function() { items_height.push($(this).outerHeight()) });
+        var tallest_content = Math.max.apply( null, items_height );
+        
+        $('.featured-products a.block').each(function(){
+            var item_height = $(this).parent().height();
+            $(this).css('height', tallest_content);
+        });
+
     }
 
 
@@ -86,14 +97,10 @@ jQuery(document).ready(function($) {
     var tallest_header = Math.max.apply( null, header_sizes );
 
     $('.item-header').each(function(){
-
         var item_width = $(this).parent().width();
-
         $(this).css('height', tallest_header);
         $(this).css('width', item_width); 
-
     });
-
 
 
     /* about tab */
@@ -107,6 +114,9 @@ jQuery(document).ready(function($) {
             }
             e.preventDefault();
         });
+
+
+    /* maps */
 
  
 

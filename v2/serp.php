@@ -4,6 +4,12 @@
     <div class="row">
 
       <div class="nine columns">
+                <!-- CRUMBS NAVIGATION: so people know where they are -->
+                <nav id="crumbs">
+                    <a href="#" class="home">Home</a> &rsaquo; 
+                    <a href="#" class="current-page">Search</a>
+                </nav>
+
 
                 <?php require_once('widgets/search-results.php'); ?>
 

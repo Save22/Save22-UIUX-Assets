@@ -1,6 +1,6 @@
 
                <article>
-                    <h2 class="single-header">Featured Products</h2>
+                    <h2 class="single-header page-header">Featured Products</h2>
 
                     <ul class="featured-products nolist group row">
 
@@ -32,13 +32,6 @@
                               </div>
 
                     		<div class="posted-details group">
-                    			<img class="user-avatar-small left" src="img/sample_avatar.png">
-                    			<div class="posted-info block left">
-                    				<span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                    			</div>
                     		</div><!-- group -->
                          </a>
 
@@ -72,15 +65,6 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
 
@@ -227,15 +211,6 @@
                                    </div>
                               </div>
 
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/sample_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="posted-datetime">updated 3 days ago</span><br>by 
-                                        <span class="detail-author">
-                                             <strong>flipper</strong>
-                                        </span>
-                                   </div>
-                              </div><!-- group -->
                          </a>
                          </li>
                     </ul><!-- row 2 -->

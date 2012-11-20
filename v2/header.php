@@ -62,11 +62,11 @@
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
                     <img src="img/logo-ie8.png" class="logo-ie8">
                 </a>
-                <!-- 
+                
                 <div class="subheader">
-                    the smart shopping companion
+                 one item, different prices
                 </div>
-                -->
+                
         </div><!-- logo -->
         <div id="searchbox" class="left">
           <input type="text" id="site_search" placeholder="Search for a product">

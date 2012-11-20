@@ -1,6 +1,6 @@
 
                <article>
-                    <h2 class="single-header">Search results for: "diapers"</h2>
+                    <h2 class="single-header page-header">Search results for: "diapers"</h2>
 
                     <p>Viewing results <strong>1-10</strong> of <strong>24</strong></p>
 
