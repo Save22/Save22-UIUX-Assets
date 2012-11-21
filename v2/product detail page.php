@@ -11,28 +11,40 @@
                     <a href="#" class="current-page">iPhone 4s 32gb Black</a>
                 </nav>
 
-            <section class="group"><!-- product info: all -->
-                <h2 class="single-header">iPhone 4s 32gb Black</h2>
+                    <h2 class="single-header">iPhone 4s 32gb Black</h2>
 
-                <div id="item-info" class="left block innercol">
-                    <div class="innercol right">
-                        <img id="item-thumbnail" src="img/sample_iphone4sblack.png"> 
-                    </div>
-                    <div class="innercol">
-                        from <span class="impt">P 27,800</span><br>
-                        to <strong>P 33,500</strong> out of 4 options
-                    </div>
-                </div><!-- item-info -->
-                
-            </section>
+            <div class="row">
+                <div class="four columns">
+                    <div id="item-info">
+                        <img id="item-thumbnail" src="img/sample_iphone4sblack.png">
+                        
+                        <p>
+                            from <span class="impt">P 27,800</span><br>
+                            to <strong>P 33,500</strong> out of 4 options
+                        </p>
+                    </div><!-- item info -->
+                </div>
+
+                <div class="eight columns">
+
+                    <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
+                    <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
+
+                </div>
+                   
+                <ul>
+                    <li><a href="#">mobile</a></li>
+                    <li><a href="#">phones</a></li>
+                    <li><a href="#">apple</a></li>
+                    <li><a href="#">iphone</a></li>
+                </ul>
+            </div>
 
 
             <section class="group">
 
               <dl class="tabs mtop">
                 <dd class="active"><a href="#price-options">Compare Options (4)</a></dd>
-                <dd><a href="#info">Product Information</a></dd>
-                <dd><a href="#tags">Tags</a></dd>
               </dl>
 
               <ul class="tabs-content">
@@ -134,21 +146,6 @@
 
                 </li>
 
-                <li id="infoTab">
-                    <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
-                    <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
-                </li>
-
-                <li id="tagsTab">
-                    <ul>
-                        <li><a href="#">mobile</a></li>
-                        <li><a href="#">phones</a></li>
-                        <li><a href="#">apple</a></li>
-                        <li><a href="#">iphone</a></li>
-                    </ul>
-                </li>
-              </ul>
-      
             </section>
 
             </div><!-- ninecol group -->

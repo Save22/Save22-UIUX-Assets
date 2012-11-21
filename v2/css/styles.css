@@ -320,18 +320,14 @@ a img { border: 0; }
 
 #item-info {
 	background: #f4f4f4;
-	padding: 2%;
+	padding: 14px 20px;
 	border-bottom: 1px solid #ccc;
 }
-	#item-info h3 { 
-		margin: 0 0 4.75% 0;
-		padding: 0 0 4.75% 0;
-		border-bottom: 1px solid #ccc;
-	}
 	#item-thumbnail { 
 		border: 1px solid #000; 
-		max-width: 150px; min-height: 150px;
-		margin: 7px 0px 7px 21px;
+		max-width: 150px; 
+		min-height: 150px;
+		margin: 7px 21px 7px 0;
 		overflow: hidden;
 	}
 	#item-info .back { margin: 14px 0 0 0; display: block; }
