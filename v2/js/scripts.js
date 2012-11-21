@@ -77,28 +77,35 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 1030) {
         
     /* featured prodcuts - same height for each item */
-    
+        /*
         var items_height = [];
-        $('#results .item').each(function() { items_height.push($(this).outerHeight()) });
+        $('#container .item').each(function() { items_height.push($(this).outerHeight()) });
         var tallest_content = Math.max.apply( null, items_height );
         
-        $('#results .item').each(function(){
+        $('#container .item').each(function(){
             var item_height = $(this).parent().height();
             $(this).css('height', tallest_content);
         });
-    
+        */
     }
 
-
-    $('#results').masonry({
-      itemSelector: '.item',
-      isResizable: true,
-      columnWidth: function( containerWidth ) {
-        return containerWidth / 3;
-      }
+    var $container = $('#container')
+    // initialize Isotope
+    $container.isotope({
+      animationEngine: 'jquery',
+      layoutMode : 'fitRows',
+      resizable: false, // disable normal resizing
+      // set columnWidth to a percentage of container width
+      masonry: { columnWidth: $container.width() / 3 }
     });
 
-
+    // update columnWidth on window resize
+    $(window).smartresize(function(){
+      $container.isotope({
+        // update columnWidth to a percentage of container width
+        masonry: { columnWidth: $container.width() / 3 }
+      });
+    });
 
     /* featured prodcuts - same height for header */
     /*
