@@ -10,5 +10,13 @@
                     <li><a href="#">Health and Beauty</a></li>
                 </ul>
         </li>
+        <li id="popular-searches"> 
+            <span class="label uppercase">popular:</span> 
+            <a href="#">iphone</a>   
+            <a href="#">ipad mini</a>   
+            <a href="#">galaxy note 2</a>   
+            <a href="#">nexus 4</a>  
+            <a href="#">diapers</a>   
+        </li>
     </ul>
 </div>

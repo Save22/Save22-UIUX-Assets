@@ -274,12 +274,12 @@ a img { border: 0; }
 		#smart-shopper ul.flyout li a:hover { background:#000;}
 
 
-	#popular-searches { color: #fff; padding: 0 20px; max-width: 100%;  }
+	#popular-searches { font-size: 0.813em; padding-top: 4px; }
 	#popular-searches:hover { background: none; }
 		#popular-searches a:first-child { padding: 0; }
 		#popular-searches a { display: inline; margin: 0 8px; color: #a5a5a5;  }
 		#popular-searches a:hover { text-decoration: underline; }
-		#popular-searches .label { letter-spacing: 1px; color: #ccc; font-size: 0.815em; font-weight: 900; }
+		#popular-searches .label { letter-spacing: 1px; color: #a5a5a5; font-size: 0.815em; font-weight: 900; }
 
 	/* related products */
 
@@ -416,22 +416,26 @@ ul.tabs-content { word-wrap: break-word; }
 	}
 	#featured-promos a:hover { background: #000; }
 
-
-ul.featured-products { margin-top: 24px !important; }
-
+/* 
+ul.featured-products {  }
 .featured-products li a.block { 
-	background: #f7f7f7;
-	border: 2px solid #eee; color: #666;
+	background: #f7f7f7;	
+	color: #666;
 	-webkit-transition: all 0.3s ease-in;  
 	-moz-transition: all 0.3s ease-in;  
-	-o-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+	width: 30.6%;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 2% 4% 2% 0;
 }
 	.featured-products li a.block:hover { 
-		border: 2px solid #999; 
-		box-shadow: 0 2px 3px rgba(0,0,0,0.15); 
+		box-shadow: 0 2px 2px rgba(0,0,0,0.15); 
 		position: relative;
-		top: -5px;
+		top: -6px;
+		border-color: #666;
 	}
+
 
 .detail-header { 
 	display: block;
@@ -487,8 +491,79 @@ ul.featured-products { margin-top: 24px !important; }
 	-o-transition: all 0.3s ease-in; 
 }
 
+background: #f7f7f7;	
+	color: #666;
+	-webkit-transition: all 0.3s ease-in;  
+	-moz-transition: all 0.3s ease-in;  
+	-o-transition: all 0.3s ease-in; 
+	width: 30.6%;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 2% 4% 2% 0;
+*/
 
-.pagination { font-weight: 600; margin: 24px 0; border-top: 1px solid #d4d4d4; padding: 24px 0; }
+#results { position: relative; margin: 0 auto 4% auto; }
+
+#results a.item {
+	display: block;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	margin: 14px 0.9% 14px 1%;
+	float: left;
+	width: 31%;
+	color: #666;
+}
+	#results a.item:hover {
+		position: relative;
+		top: -5px;
+		border: 1px solid #666;
+		box-shadow: 0 2px 2px rgba(0,0,0,0.15); 
+	}
+
+.detail-header { 
+	display: block;
+	float: left;
+	width: 49%;
+}
+.item-header { 
+	background: #fff;
+	width: 100%;
+	padding: 7px 14px;  
+	border-bottom: 1px solid #d4d4d4;
+}
+.item-header h3 { 
+	color: #333; 
+	font-weight: 600; 
+	font-size: 1em; 
+	line-height: 1.4;
+	margin: 8px 0;
+}
+
+.promo {
+	font-weight: 900;
+	padding: 4px 8px;
+	display: block;
+	background: #333;
+	color: #fff;
+	margin: 0 14px 14px 14px;
+	font-size: 0.75em;
+	text-align: center;
+	width: 85px;
+	border-radius: 4px;
+}
+.price-summary { padding: 7px 14px; }
+.container-thumb { overflow: none; width: 100px; height: 100px; float: right; }
+
+.price-lowest { color: #b51616; font-weight: 900; white-space: nowrap; }
+
+.posted-details { border-top: 1px solid #eee; }
+.user-avatar-small { width: 30px; height: 30px; margin: 7px; opacity: 0.5; }
+.posted-info { font-size: 0.75em; padding: 7px; margin-top: 2px; }
+
+
+
+
+.pagination { font-weight: 600; margin: 24px auto; background: #f7f7f7; padding: 24px 24px 48px 12px;  }
 	.pagination a:hover { text-decoration: underline; }
 
 
@@ -567,12 +642,11 @@ ul.featured-products { margin-top: 24px !important; }
 	#smart-shopper .copy { display: none; }
 	#smart-shopper li.has-flyout { overflow: hidden; }
 
-	.innercol { width: 100% !important; display: block; float: none; margin: 0 0 14px 0 !important; overflow: visible; }
+	.innercol, .innercol a.block { width: 100% !important; display: block; float: none; margin: 0 0 14px 0 !important; overflow: visible; }
 
 	#fb-widget, #crumbs, #popular-searches, .subheader, #about-tab
 		{ display: none; }
 
-	ul.featured-products li a.block { margin-bottom: 24px;  }
 	.posted-info { display: inline-block; position: relative; top: -4px; }
 
 
@@ -679,6 +753,10 @@ ul.featured-products { margin-top: 24px !important; }
 
 	ul.pagination { 
 		border-top: 2px solid #666;
+		float: none;
+		width: 100%;
+		margin: 0;	
+		background: #f7f7f7;
 	}
 
 	/* option detail page */

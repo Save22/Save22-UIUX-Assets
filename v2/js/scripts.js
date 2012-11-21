@@ -77,21 +77,31 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 1030) {
         
     /* featured prodcuts - same height for each item */
-
+    
         var items_height = [];
-        $('.featured-products a.block').each(function() { items_height.push($(this).outerHeight()) });
+        $('#results .item').each(function() { items_height.push($(this).outerHeight()) });
         var tallest_content = Math.max.apply( null, items_height );
         
-        $('.featured-products a.block').each(function(){
+        $('#results .item').each(function(){
             var item_height = $(this).parent().height();
             $(this).css('height', tallest_content);
         });
-
+    
     }
 
 
-    /* featured prodcuts - same height for header */
+    $('#results').masonry({
+      itemSelector: '.item',
+      isResizable: true,
+      columnWidth: function( containerWidth ) {
+        return containerWidth / 3;
+      }
+    });
 
+
+
+    /* featured prodcuts - same height for header */
+    /*
     var header_sizes = [];
     $('.item-header').each(function() { header_sizes.push($(this).outerHeight()) });
     var tallest_header = Math.max.apply( null, header_sizes );
@@ -101,7 +111,7 @@ jQuery(document).ready(function($) {
         $(this).css('height', tallest_header);
         $(this).css('width', item_width); 
     });
-
+    */
 
     /* about tab */
         $(".tab-label").on("click", function(e){
@@ -115,10 +125,6 @@ jQuery(document).ready(function($) {
             e.preventDefault();
         });
 
-
-    /* maps */
-
- 
 
 }); /* end of as page load scripts */
 

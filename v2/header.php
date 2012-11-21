@@ -69,8 +69,22 @@
                 
         </div><!-- logo -->
         <div id="searchbox" class="left">
-          <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
-          <input type="submit" class="button left radius" value="search">
+          <div class="group">
+            <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
+            <input type="submit" class="button left radius" value="search">
+          </div>
+          <div class="group">
+            <ul class="nolist">
+              <li id="popular-searches"> 
+                  <span class="label uppercase">popular:</span> 
+                  <a href="#">iphone</a>   
+                  <a href="#">ipad mini</a>   
+                  <a href="#">galaxy note 2</a>   
+                  <a href="#">nexus 4</a>  
+                  <a href="#">diapers</a>   
+              </li>
+            </ul>
+          </div>
         </div>
     </div><!-- row -->
 </header>

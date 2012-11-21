@@ -4,7 +4,7 @@
 <div id="content" class="search">
     <div class="row">
 
-      <div class="nine columns">
+      <div class="twelve columns">
         <!-- CRUMBS NAVIGATION: so people know where they are -->
         <nav id="crumbs">
           <a href="#" class="home">Home</a> &rsaquo; 
@@ -32,11 +32,6 @@
 
       </div><!-- ninecol group -->
 
-      <div class="three columns">
-        <div id="sidebar">
-           <?php require_once('widgets/related-products.php'); ?>
-        </div>
-      </div>
       
     </div><!-- row -->
 </div><!-- content -->
