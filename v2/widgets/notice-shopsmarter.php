@@ -1,14 +1,36 @@
 
-<div id="smart-shopper">
-    <ul class="nav-bar row" id="suggested-hubs">
-        <li class="has-flyout">
-            <a href="#" class="active">See deals for <strong>Gadgets</strong></a>
-            <a href="#" class="flyout-toggle"><span> </span></a>
-                <ul class="flyout">
-                    <li><a href="#">Food</a></li>
-                    <li><a href="#">Babies</a></li>
-                    <li><a href="#">Health and Beauty</a></li>
-                </ul>
+    <nav class="top-bar" id="smart-shopper">
+    <div class="row">
+      <ul>
+        <!-- Title Area -->
+        <li class="name">
+          <h1>
+            <a href="#">
+              Find deals
+            </a>
+          </h1>
         </li>
-    </ul>
-</div>
+        <li class="toggle-topbar"><a href="#"></a></li>
+      </ul>
+
+      <section>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li>
+            <a class="active" href="#">Gadgets</a>
+          </li>
+          <li>
+            <a class="active" href="#">Health and Beauty</a>
+          </li>
+          <li>
+            <a class="active" href="#">Food</a>
+          </li>
+          <li>
+            <a class="active" href="#">Babies</a>
+          </li>
+        </ul>
+
+      </section>
+    </div>
+    </nav>
