@@ -2,38 +2,23 @@
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
 <div id="content" class="hub">
-    <div class="row">
-            <div class="twelve columns">
+  <div class="row">
+    <div class="twelve columns">
 
-                <!-- CRUMBS NAVIGATION: so people know where they are -->
-                <nav id="crumbs">
-                    <a href="#" class="home">Home</a> &rsaquo; 
-                    <a href="#" class="home">Moms</a> &rsaquo; 
-                    <a href="#" class="current-page">Diapers</a>
-                </nav>
+      <!-- CRUMBS NAVIGATION: so people know where they are -->
+      <nav id="crumbs">
+        <a href="#" class="home">Home</a> &rsaquo; 
+        <a href="#">Moms</a> &rsaquo; 
+        <a href="#" class="current-page">Diapers</a>
+      </nav>
 
+      <h2 class="single-header page-header">Diapers</h2>
 
-                <?php require_once('widgets/featured-diapers.php'); ?>
+      <?php require_once('widgets/featured-diapers.php'); ?>
 
-                <div class="group">
+    </div>
+  </div>
 
-                    <ul class="pagination">
-                      <li class="arrow unavailable"><a href="">&laquo;</a></li>
-                      <li class="current"><a href="">1</a></li>
-                      <li><a href="">2</a></li>
-                      <li><a href="">3</a></li>
-                      <li><a href="">4</a></li>
-                      <li class="unavailable"><a href="">&hellip;</a></li>
-                      <li><a href="">12</a></li>
-                      <li><a href="">13</a></li>
-                      <li class="arrow"><a href="">&raquo;</a></li>
-                    </ul>
-
-                </div>
-
-            </div><!-- ninecol group -->
-
-    </div><!-- row -->
     <div id="hub-categories" class="row">
       <div class="three columns">
          - diapers - 
@@ -59,15 +44,7 @@
          - baby bath - 
       </div>
     </div><!-- row -->
-</div><!-- content -->
 
-<div id="about-tab">
-  
-  <a href="#" class="tab-label">What is Save22?</a>
-
-  <article>
-
-  </article>
 </div>
 
 <?php require_once('footer.php'); ?>

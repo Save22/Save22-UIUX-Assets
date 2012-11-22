@@ -1,8 +1,6 @@
 
 <div id="about-tab">
-  
-  <a href="#" class="tab-label">what is Save22?</a>
-
+  <a href="#" class="tab-label">what is <img src="img/about-tab.png" class="about-logo" alt="Save22">?</a>
   <article>
     <?php require_once('widgets/intro-widget.php'); ?>
   </article>

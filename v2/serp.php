@@ -11,24 +11,11 @@
           <a href="#" class="current-page">Search</a>
         </nav>
 
+        <h2 class="single-header page-header">Search results for: "diapers"</h2>
+        
+        <p>Viewing results <strong>1-10</strong> of <strong>24</strong></p>
 
-        <?php require_once('widgets/search-results.php'); ?>
-
-        <div class="group">
-
-            <ul class="pagination">
-              <li class="arrow unavailable"><a href="">&laquo;</a></li>
-              <li class="current"><a href="">1</a></li>
-              <li><a href="">2</a></li>
-              <li><a href="">3</a></li>
-              <li><a href="">4</a></li>
-              <li class="unavailable"><a href="">&hellip;</a></li>
-              <li><a href="">12</a></li>
-              <li><a href="">13</a></li>
-              <li class="arrow"><a href="">&raquo;</a></li>
-            </ul>
-
-        </div>
+        <?php require_once('widgets/featured-diapers.php'); ?>
 
       </div><!-- ninecol group -->
 

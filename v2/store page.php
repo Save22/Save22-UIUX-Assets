@@ -3,7 +3,7 @@
 
 <div id="content" class="store">
         <div class="row">
-            <div class="nine columns">
+            <div class="twelve columns">
 
                 <!-- CRUMBS NAVIGATION: so people know where they are -->
                 <nav id="crumbs">
@@ -58,14 +58,10 @@
                         <a href="#" class="right button red-button radius innercol">See all products</a>
                     </div>
 
-                    <?php require_once('widgets/featured-gadgets.php'); ?>
+                    <?php require_once('widgets/featured-diapers.php'); ?>
                 </section>
 
             </div>
-
-            <div class="three columns" id="sidebar">
-
-            </div> <!-- sidebar -->
 
         </div>
 </div>
