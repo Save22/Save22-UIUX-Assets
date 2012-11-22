@@ -65,7 +65,6 @@ jQuery(document).ready(function($) {
             }
         });
 
-
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -89,24 +88,6 @@ jQuery(document).ready(function($) {
         */
     }
 
-    var $container = $('#container')
-    // initialize Isotope
-    $container.isotope({
-      animationEngine: 'jquery',
-      layoutMode : 'fitRows',
-      resizable: false, // disable normal resizing
-      // set columnWidth to a percentage of container width
-      masonry: { columnWidth: $container.width() / 3 }
-    });
-
-    // update columnWidth on window resize
-    $(window).smartresize(function(){
-      $container.isotope({
-        // update columnWidth to a percentage of container width
-        masonry: { columnWidth: $container.width() / 3 }
-      });
-    });
-
     /* featured prodcuts - same height for header */
     /*
     var header_sizes = [];
@@ -119,6 +100,23 @@ jQuery(document).ready(function($) {
         $(this).css('width', item_width); 
     });
     */
+
+        var $container = $('#container')
+        // initialize Isotope
+        $container.isotope({
+          animationEngine: 'jquery',
+          layoutMode : 'fitRows',
+          resizable: false, // disable normal resizing
+          masonry: { columnWidth: $container.width() / 3 }
+        });
+
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container.isotope({
+            masonry: { columnWidth: $container.width() / 3 }
+          });
+        });
+
 
     /* about tab */
         $(".tab-label").on("click", function(e){
