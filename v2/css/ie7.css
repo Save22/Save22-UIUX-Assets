@@ -24,7 +24,13 @@ ul.nolist li { padding: 0; }
 
 #popular-searches ul {  margin-top: 67px; margin-left: 24px;  }
 
+#searchbox .button { height: 30px; margin-left: 10px; }
+
 #featured-header { position: relative; z-index: -1; }
+
+.tab-label { width: 135px; }
+
+.floating-header { height: 44px; }
 
 
 .product-detail #item-info {
@@ -33,9 +39,5 @@ ul.nolist li { padding: 0; }
 
 ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-position: outside; }
 
-
-ul.featured-products li.four.columns { margin-left: 16px; }
-	ul.featured-prducts li:first-child { margin: 0; }
-
-ul.featured-products li a.block  { overflow: hidden; }
-ul.featured-products li .item-header { padding: 7px 14px; margin: 0 0; }
+#content.product-detail .eight.columns { width: 62.5%; }
+	#content.product-detail .eight.columns article { padding: 0 2%; }

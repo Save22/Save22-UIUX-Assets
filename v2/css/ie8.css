@@ -1,6 +1,10 @@
+.floating-header .row { padding-bottom: 8px !important; }
+
 .floating-header #logo { display: none; }
 
 .floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; } 
 
 
 #site_search { padding: 6px 6px 6px 32px; }
+
+.tab-label { width: 165px; }
