@@ -3,11 +3,9 @@
     <div class="row">
       <ul>
         <!-- Title Area -->
-        <li class="name">
+        <li class="nav-title">
           <h1>
-            <a href="#">
               Find deals
-            </a>
           </h1>
         </li>
         <li class="toggle-topbar"><a href="#"></a></li>

@@ -25,19 +25,28 @@
                     </div><!-- item info -->
                 </div>
 
-                <div class="eight columns">
+                <div id="item-description" class="eight columns mtop">
+                    <article>
+                        <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
+                        <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
+                    </article>
 
-                    <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
-                    <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
-
+                    <!-- tags -->
+                    <article class="tags-box group">
+                        <h3>tags</h3>
+                            <ul id="item-tags" class="list-nav">
+                                <li><a href="#">mobile</a></li>
+                                <li><a href="#">phones</a></li>
+                                <li><a href="#">apple</a></li>
+                                <li><a href="#">iphone</a></li>
+                                <li><a href="#">mobile</a></li>
+                                <li><a href="#">phones</a></li>
+                                <li><a href="#">apple</a></li>
+                                <li><a href="#">iphone</a></li>
+                            </ul>
+                    </article>
                 </div>
-                   
-                <ul>
-                    <li><a href="#">mobile</a></li>
-                    <li><a href="#">phones</a></li>
-                    <li><a href="#">apple</a></li>
-                    <li><a href="#">iphone</a></li>
-                </ul>
+                
             </div>
 
 
