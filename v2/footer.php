@@ -1,6 +1,6 @@
 
 <div id="about-tab">
-  <a href="#" class="tab-label">what is <img src="img/about-tab.png" class="about-logo" alt="Save22">?</a>
+  <a href="#" class="tab-label">What is <img src="img/about-tab.png" class="about-logo" alt="Save22">?</a>
   <article>
     <?php require_once('widgets/intro-widget.php'); ?>
   </article>
@@ -11,23 +11,33 @@
 <footer id="main-footer">
     <div class="row">
         <div class="four columns widget">
-            <h3>About Us</h3>
+            <h3>Take a look around</h3>
             <div class="widget-content">
-                <strong>Save22</strong> advocates informed purchasing decisions. <br><a href="about.php">Learn more about us.</a>
+              <ul class="nolist">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
             </div>
         </div>
 
         <div class="four columns widget">
             <h3>Download</h3>
-            <div class="widget-content">
-
+            <div class="widget-content" id="footer-download">
+              <ul class="nolist">
+                <li><a href="#" class="dl-ios dl-button"><img src="img/dl-appstore2.png" class="left"> Available on the <br><span class="bigger">app store</span></a></li>
+                <li><a href="#" class="dl-android dl-button"><img src="img/dl-googleplay.png" class="left"> Get it on<br><span class="bigger">Google Play</span></a></li>
+              </ul>
             </div>
         </div>
 
         <div class="four columns widget">
             <h3>Follow Us</h3>
               <div class="widget-content">
-
+              <ul class="nolist">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
               </div>
         </div>
     </div>

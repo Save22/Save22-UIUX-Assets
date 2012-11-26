@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
-<?php require_once('widgets/notice-shopsmarter.php'); ?>
+<?php require_once('widgets/notice-shopsmarter_hub.php'); ?>
 
 <div id="content" class="hub">
   <div class="row">
@@ -14,11 +14,13 @@
 
       <h2 class="single-header page-header">Diapers</h2>
 
+        <p>Viewing <strong>1-9</strong> products from <strong>24</strong></p>
+
       <?php require_once('widgets/featured-diapers.php'); ?>
 
     </div>
   </div>
-
+<!-- 
     <div id="hub-categories" class="row">
       <div class="three columns">
          - diapers - 
@@ -32,7 +34,7 @@
       <div class="three columns">
          - ointments and creams - 
       </div>
-    </div><!-- row -->
+    </div>
     <div class="row">
       <div class="three columns">
          - formula and baby food - 
@@ -43,8 +45,8 @@
       <div class="three columns">
          - baby bath - 
       </div>
-    </div><!-- row -->
-
+    </div>
+-->
 </div>
 
 <?php require_once('footer.php'); ?>
