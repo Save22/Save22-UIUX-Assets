@@ -18,14 +18,6 @@
           <li class="has-dropdown">
             <a class="active" href="#">Gadgets</a>
             <ul class="dropdown">
-              <li><label>Section Name</label></li>
-              <li class="has-dropdown">
-                <a href="#" class="">Level 1, Has Dropdown</a>
-                <ul class="dropdown">
-                  <li><a href="#">Level 2</a></li>
-                  <li><a href="#">Level 2</a></li>
-                </ul>
-              </li>
               <li>
                 <a href="#" class="">Level 2</a>
               </li>
