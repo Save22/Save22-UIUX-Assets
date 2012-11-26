@@ -65,6 +65,27 @@ jQuery(document).ready(function($) {
             }
         });
 
+        /** TOP-BAR **/
+        /** BUGGY CODE 
+        var topbar = $('#smart-shopper'),
+            topbar_start = topbar.offset().top,
+            topbar_height = div.height() + $('#hero-html').height(),
+            topbar_top = $('#main-header').height();
+
+
+        $(window).scroll(function(){         
+            var p = $(window).scrollTop(),
+                main_header_height = $('#main-header').height(); 
+            if(p >= topbar_height) {
+                $(topbar).css('top',((p)>topbar_start) ? main_header_height + 'px' : '');
+                $(topbar).addClass('floating-header'); 
+            }
+            else {
+                $(topbar).removeClass('floating-header');
+            }
+        });
+        **/ 
+
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -75,17 +96,6 @@ jQuery(document).ready(function($) {
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
         
-    /* featured prodcuts - same height for each item */
-        /*
-        var items_height = [];
-        $('#container .item').each(function() { items_height.push($(this).outerHeight()) });
-        var tallest_content = Math.max.apply( null, items_height );
-        
-        $('#container .item').each(function(){
-            var item_height = $(this).parent().height();
-            $(this).css('height', tallest_content);
-        });
-        */
     }
 
         var $container = $('#container')

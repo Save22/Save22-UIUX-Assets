@@ -157,6 +157,7 @@ a img { border: 0; }
 		width: 100%;
 		z-index: 1000;
 	}
+	#smart-shopper.floating-header { position: fixed; }
 		.floating-header .subheader, .floating-header #popular-searches { display: none; }
 		.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; background-position: 0 -30px !important; margin-right: 24px;}
 		#main-header.floating-header { border-top: 0; background: #2d2d2d; border-bottom: 1px solid #000; 
@@ -287,6 +288,7 @@ a img { border: 0; }
 		z-index: 900;
 		background: #3b3b3b;
 		margin: 0;
+		top: 0;
 	}
 		#smart-shopper h1 { padding: 14px 15px; margin: 0; color: #fff; font-size: 1em; font-weight: 900; color: #ccc; text-transform: uppercase; letter-spacing: 1px;}
 		#smart-shopper .nav-title:hover { background: none; }
@@ -303,6 +305,7 @@ a img { border: 0; }
 		margin: 0; 
 		background: #eee; 
 		padding: 20px 0 10px 0; 
+		border-top: 1px solid #fff;
 		box-shadow: 0 2px 4px rgba(0,0,0,0.10);
 	}
 	#hero-html .columns { 
