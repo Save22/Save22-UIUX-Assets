@@ -151,19 +151,9 @@ jQuery(document).ready(function($) {
         });
 
         
-        $(window).resize(function() {
-            $(container).each(function() { items_height.push($(this).outerHeight()) });
-            var tallest_content = Math.max.apply( null, items_height );
-
-            $(container).each(function(){
-                var item_height = $(this).parent().height();
-                $(this).css('height', tallest_content);
-            });
-        });
-        
     }
 
-    same_height('#cat-list li');
+    same_height('ul#cat-list li');
 
 }); /* end of as page load scripts */
 

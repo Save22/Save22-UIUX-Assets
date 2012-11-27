@@ -1,4 +1,5 @@
 
+.three.columns { width: 24.5%; }
 .four.columns { width: 30.5%; }
 .six.columns { width: 46%; }
 .nine.columns { width: 69%; }
@@ -41,3 +42,5 @@ ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-p
 
 #content.product-detail .eight.columns { width: 62.5%; }
 	#content.product-detail .eight.columns article { padding: 0 2%; }
+
+#hub-categories ul#cat-list li { width: 20.7%; }
