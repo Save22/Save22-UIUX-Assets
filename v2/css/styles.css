@@ -558,7 +558,6 @@ ul#item-tags a { color: #999; font-size: 0.875em; }
 #hub-categories {
 	background: #fff;
 	border-top: 1px solid #ccc;
-	overflow: auto;
 }
 	#hub-categories ul { position: relative; border-left: 1px dotted #ccc; }
 	#hub-categories ul > li { 
