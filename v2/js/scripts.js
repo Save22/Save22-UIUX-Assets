@@ -150,6 +150,7 @@ jQuery(document).ready(function($) {
             $(this).css('height', tallest_content);
         });
 
+        
         $(window).resize(function() {
             $(container).each(function() { items_height.push($(this).outerHeight()) });
             var tallest_content = Math.max.apply( null, items_height );
@@ -159,9 +160,10 @@ jQuery(document).ready(function($) {
                 $(this).css('height', tallest_content);
             });
         });
+        
     }
 
-    same_height('#cat-list li a');
+    same_height('#cat-list li');
 
 }); /* end of as page load scripts */
 
