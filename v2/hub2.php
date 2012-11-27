@@ -20,19 +20,8 @@
 
     </div>
   </div>
-  <div id="hub-categories" class="group">
-    <div class="row">
-      <ul class="nolist" id="cat-list">
-        <li class="innercol"><a href="#">diapers</a></li>
-        <li class="innercol"><a href="#">wipes</a></li>
-        <li class="innercol"><a href="#">changing pads</a></li>
-        <li class="innercol"><a href="#">ointments and creams</a></li>
-        <li class="innercol"><a href="#">formula and baby food</a></li>
-        <li class="innercol"><a href="#">feeding and nursing</a></li>
-        <li class="innercol"><a href="#">baby bath</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
 
+  <?php require_once('widgets/categories.php'); ?>
+
+</div>
 <?php require_once('footer.php'); ?>

@@ -325,8 +325,8 @@ a {
 	}
 	#hero-html .columns:hover { position: relative; top: 8px; }
 	#hero-html .hero-copy { font-size: 0.875em; text-transform: uppercase; font-weight: 900; margin: 14px auto 0 auto; letter-spacing: 1px;  padding: 12px;}
-	#hero-html .intro4 { text-align: right; padding-top: 18px; }
-	.intro4 h1 { font-family: 'Carrois Gothic', sans-serif; font-size: 3.5em; line-height: 1.2; margin: 6px 0 0 0; }
+	#hero-html .intro4 { text-align: right; padding: 18px 10px; }
+	.intro4 h1 { font-family: 'Carrois Gothic', sans-serif; font-size: 2.5em; line-height: 1.2; margin: 6px 0 0 0; }
 
 	#hero-html.hasbanner .row { width: 100%; }
 	#featured-header {
@@ -559,23 +559,24 @@ ul#item-tags a { color: #999; font-size: 0.875em; }
 	background: #fff;
 	border-top: 1px solid #ccc;
 }
-	#hub-categories ul { position: relative; }
+	#hub-categories ul { position: relative; border-left: 1px dotted #ccc; }
 	#hub-categories ul > li { 
 		width: 24.5%; 
+		min-height: 80px;
 		border-style: dotted;
-		border-width: 0 0 2px 0; 
+		border-width: 0 1px 1px 0; 
 		border-color: #ccc;
-		text-align: center;
 		margin: 0;
+		position: relative;
+		padding: 24px;
 	}
-	#hub-categories ul li:hover { border-bottom: 2px solid #000; }
-	#hub-categories a { color: #333; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; display: block; padding: 10% 4%;
-		-webkit-transition: all 0.5s ease-in;  
-		-moz-transition: all 0.5s ease-in;  
-		-o-transition: all 0.5s ease-in; 
-		transition: all 0.5s ease-in;
+	#hub-categories ul li:hover { border-bottom: 4px solid #000; }
+		#hub-categories ul li:hover a { color: #969696; }
+	#hub-categories a { 
+		color: #333; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; display: block; 
+		position: absolute; top: 50%; 
+		margin-top: -1em;
 	}
-	#hub-categories a:hover { background: #000; color: #fff; }
 
 
 
@@ -803,8 +804,11 @@ h2.single-header, .store-name {
 		margin: 0 0 24px 0;
 	}
 
-	#hub-categories #cat-list li { border-style: solid; border-width: 0 0 1px 0; border-color: #fff; }
-	#cat-list li a { padding: 2%; background: #ccc; text-transform: lowercase; letter-spacing: 0; }
+	#cat-list { }
+	#hub-categories #cat-list li { border-width: 0 0 1px; border-color: #666; min-height: 44px; padding: 0; clear: both; padding: 1% 2%; background: #3b3b3b; }
+	#cat-list li a {text-transform: lowercase; letter-spacing: 0; color: #fff; margin-left: 24px; }
+	#hub-categories #cat-list li:hover { background: #000; }
+	#cat-list li a:hover, #cat-list li:hover a { color: #fff; }
 
 	/* option detail page */
 
@@ -858,6 +862,7 @@ h2.single-header, .store-name {
 		background: url('../img/searchicon@2x.png') 8px center no-repeat #fff;
 		background-size: 14px 14px;
 	}
+	#main-header.floating-header .row { padding: 8px 0; }
 }
 
 @media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {

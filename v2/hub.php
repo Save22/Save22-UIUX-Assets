@@ -13,6 +13,9 @@
 
     </div>
   </div>
+
+  <?php require_once('widgets/categories.php'); ?>
+
 </div>
 
 <?php require_once('footer.php'); ?>

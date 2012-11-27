@@ -14,9 +14,10 @@
             <h3>Take a look around</h3>
             <div class="widget-content">
               <ul class="nolist">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Investors</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="http://save22.com/about">About Us</a></li>
+                <li><a href="http://save22.com/contact">Contact Us</a></li>
+                <li><a href="http://save22.com/investors">Investors</a></li>
+                <li><a href="http://build.save22.com/">Blog</a></li>
               </ul>
             </div>
         </div>
@@ -25,8 +26,8 @@
             <h3>Download</h3>
             <div class="widget-content" id="footer-download">
               <ul class="nolist">
-                <li><a href="#" class="dl-ios dl-button"><img src="img/dl-appstore2.png" class="left"> Available on the <br><span class="bigger">app store</span></a></li>
-                <li><a href="#" class="dl-android dl-button"><img src="img/dl-googleplay.png" class="left"> Get it on<br><span class="bigger">Google Play</span></a></li>
+                <li><a href="https://itunes.apple.com/ag/app/save22/id460343551?mt=8" class="dl-ios dl-button"><img src="img/dl-appstore2.png" class="left"> Available on the <br><span class="bigger">app store</span></a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.save22.client.android&hl=en" class="dl-android dl-button"><img src="img/dl-googleplay.png" class="left"> Get it on<br><span class="bigger">Google Play</span></a></li>
               </ul>
             </div>
         </div>
@@ -35,6 +36,7 @@
             <h3>Follow Us</h3>
               <div class="widget-content">
               <ul class="nolist">
+                <!-- change links depending on country -->
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Twitter</a></li>
               </ul>
