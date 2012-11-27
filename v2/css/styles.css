@@ -553,38 +553,6 @@ ul#item-tags a { color: #999; font-size: 0.875em; }
 
 
 
-/* HUB CATEGORIES */ 
-
-#hub-categories {
-	background: #fff;
-	border-top: 1px solid #ccc;
-}
-	#hub-categories ul { position: relative; border-left: 1px dotted #ccc; }
-	#hub-categories ul > li { 
-		display: block;
-		width: 24.5%; 
-		min-height: 150px;
-		position: relative;
-		clear: both;
-		border-color: #ccc;
-		border-style: dotted;
-		border-width: 0 1px 1px 0; 
-		padding: 2%;
-		margin: 0;
-	}
-	#hub-categories ul li:hover { border-bottom: 4px solid #000; }
-		#hub-categories ul li:hover a { color: #969696; }
-	#hub-categories a { 
-		display: block;
-		color: #333; 
-		font-weight: bold; 
-		text-transform: uppercase; 
-		letter-spacing: 1px; 
-		position: absolute;
-		top: 50%;
-		margin-top: -1em;
-	}
-
 
 
 /********* PAGE ELEMENTS: SERP OR SEARCH PAGE ***********/
@@ -640,6 +608,40 @@ ul#item-tags a { color: #999; font-size: 0.875em; }
 		font-weight: 900; 
 		border-bottom: 1px solid #333; 
 		padding-bottom: 14px; 
+	}
+
+
+
+/* HUB CATEGORIES */ 
+
+#hub-categories {
+	background: #fff;
+	border-top: 1px solid #ccc;
+}
+	#hub-categories ul { border-left: 1px dotted #ccc; }
+	#hub-categories ul > li { 
+		display: block;
+		width: 24.5%;
+		border-style: dotted;
+		border-color: #ccc;
+		border-width: 0 1px 1px 0; 
+		-webkit-transition: all 0.2s ease-in;  
+		-moz-transition: all 0.2s ease-in;  
+		-o-transition: all 0.2s ease-in;   
+		transition: all 0.2s ease-in;  
+	}
+	#hub-categories ul > li:hover { border-bottom: 1px solid #3b3b3b;  background: #f7f7f7;  }
+		#hub-categories ul > li:hover a { color: #000;  }
+	#hub-categories a { 
+		display: block;
+		width: 100%;
+		padding: 12px 6%;
+		margin: 0;
+		color: #666; 
+		font-weight: bold; 
+		text-transform: uppercase; 
+		letter-spacing: 1px; 
+		position: relative;
 	}
 
 
@@ -810,12 +812,6 @@ h2.single-header, .store-name {
 		margin: 0 0 24px 0;
 	}
 
-	#cat-list { }
-	#hub-categories #cat-list li { border-width: 0 0 1px; border-color: #666; min-height: 44px; padding: 0; clear: both;  background: #3b3b3b; }
-	#cat-list li a {text-transform: lowercase; letter-spacing: 0; color: #fff; margin-left: 24px; padding: 4px 4%; }
-	#hub-categories #cat-list li:hover { background: #000; }
-	#cat-list li a:hover, #cat-list li:hover a { color: #fff; }
-
 	/* option detail page */
 
 	#item-info, #store-info h3, #store-info article, #map-directions, 
@@ -849,9 +845,14 @@ h2.single-header, .store-name {
 	/* store */
 	#content.store .six article { margin-bottom: 24px; }
 
+
+	/* categories */
+
+	#hub-categories { background: #000; }
+	#hub-categories .innercol { margin: 0 !important; }
+	#hub-categories #cat-list li { border-bottom: 1px solid #666; }
+	#hub-categories a { color: #fff; border: 0; }
 }
-
-
 
 
 /* ========================================== */

@@ -95,15 +95,12 @@ jQuery(document).ready(function($) {
 
 
         var $container2 = $('#hub-categories ul')
-        // initialize Isotope
         $container2.isotope({
           animationEngine: 'jquery',
           layoutMode : 'fitRows',
-          resizable: false, // disable normal resizing
+          resizable: true,
           masonry: { columnWidth: $container.width() / 4 }
         });
-
-        // update columnWidth on window resize
         $(window).smartresize(function(){
           $container2.isotope({
             masonry: { columnWidth: $container2.width() / 4 }
@@ -142,7 +139,9 @@ jQuery(document).ready(function($) {
 
     function same_height(container) {
         var items_height = [];
-        $(container).each(function() { items_height.push($(this).outerHeight()) });
+        $(container).each(function() { 
+            items_height.push($(this).outerHeight());
+        });
         var tallest_content = Math.max.apply( null, items_height );
         
         $(container).each(function(){
@@ -152,8 +151,8 @@ jQuery(document).ready(function($) {
 
         
     }
-
-    same_height('ul#cat-list li');
+    
+    same_height('ul#cat-list li a');
 
 }); /* end of as page load scripts */
 
