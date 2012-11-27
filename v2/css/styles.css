@@ -89,7 +89,12 @@ a img { border: 0; }
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
 }
 
-
+a { 
+		-webkit-transition: all 0.2s ease-in;  
+		-moz-transition: all 0.2s ease-in;  
+		-o-transition: all 0.2s ease-in; 
+		transition: all 0.2s ease-in;
+}
 
 
 /* ============================== */
@@ -113,6 +118,7 @@ a img { border: 0; }
 		-webkit-transition: box-shadow 0.5s ease-in;  
 		-moz-transition: box-shadow 0.5s ease-in;  
 		-o-transition: box-shadow 0.5s ease-in; 
+		transition: box-shadow 0.5s ease-in;
 	}
 
 	#main-header .row { padding: 12px 0 0 0; }
@@ -125,6 +131,7 @@ a img { border: 0; }
 		-webkit-transition: background-position 0.2s ease-in;  
 		-moz-transition: background-position 0.2s ease-in;  
 		-o-transition: background-position 0.2s ease-in;  
+		transition: background-position 0.2s ease-in;  
 	}
 		.logo-ie8 { display: none; }
 		.subheader {
@@ -213,7 +220,6 @@ a img { border: 0; }
 		background: #eee;
 		padding: 35px 0 0 0;
 		border-top: 1px solid #d4d4d4;
-		margin-top: 24px;
 		color: #7e7e7e;
 	}
 		#main-footer a { color: #505050; text-transform: uppercase; font-size: 0.875em; }
@@ -352,13 +358,13 @@ a img { border: 0; }
 		border-radius: 4px;
 		margin: 0 0 10px 0;
 		overflow: auto;
-		background: #ffffff; /* Old browsers */
-		background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+		background: #ffffff; 
+		background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); 
+		background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); 
+		background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); 
+		background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+		background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); 
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
 		border: 1px solid #ccc;
 		box-shadow: 0 2px 2px rgba(0,0,0,0.25);
@@ -542,10 +548,34 @@ ul#item-tags a { color: #999; font-size: 0.875em; }
 .posted-info { font-size: 0.75em; padding: 7px; margin-top: 2px; }
 
 
-
-
-.pagination { font-weight: 600; margin: 24px auto; background: #f7f7f7; padding: 24px 24px 48px 12px; border-top: 1px solid #ccc; }
+.pagination { font-weight: 600; margin: 24px auto 0 auto; background: #f7f7f7; padding: 24px 24px 48px 12px; border-top: 1px solid #ccc; }
 	.pagination a:hover { text-decoration: underline; }
+
+
+
+/* HUB CATEGORIES */ 
+
+#hub-categories {
+	background: #fff;
+	border-top: 1px solid #ccc;
+}
+	#hub-categories ul { position: relative; }
+	#hub-categories ul > li { 
+		width: 24.5%; 
+		border-style: dotted;
+		border-width: 0 0 2px 0; 
+		border-color: #ccc;
+		text-align: center;
+		margin: 0;
+	}
+	#hub-categories ul li:hover { border-bottom: 2px solid #000; }
+	#hub-categories a { color: #333; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; display: block; padding: 10% 4%;
+		-webkit-transition: all 0.5s ease-in;  
+		-moz-transition: all 0.5s ease-in;  
+		-o-transition: all 0.5s ease-in; 
+		transition: all 0.5s ease-in;
+	}
+	#hub-categories a:hover { background: #000; color: #fff; }
 
 
 
@@ -768,9 +798,13 @@ h2.single-header, .store-name {
 		float: none;
 		width: 100%;
 		clear: both;
-		padding: 8px 2px;
+		padding: 12px 2px;
 		background: none;
+		margin: 0 0 24px 0;
 	}
+
+	#hub-categories #cat-list li { border-style: solid; border-width: 0 0 1px 0; border-color: #fff; }
+	#cat-list li a { padding: 2%; background: #ccc; text-transform: lowercase; letter-spacing: 0; }
 
 	/* option detail page */
 

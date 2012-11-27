@@ -20,33 +20,19 @@
 
     </div>
   </div>
-<!-- 
-    <div id="hub-categories" class="row">
-      <div class="three columns">
-         - diapers - 
-      </div>
-      <div class="three columns">
-         - wipes - 
-      </div>
-      <div class="three columns">
-         - changing pads - 
-      </div>
-      <div class="three columns">
-         - ointments and creams - 
-      </div>
-    </div>
+  <div id="hub-categories" class="group">
     <div class="row">
-      <div class="three columns">
-         - formula and baby food - 
-      </div>
-      <div class="three columns">
-         - feeding and nursing - 
-      </div>
-      <div class="three columns">
-         - baby bath - 
-      </div>
+      <ul class="nolist" id="cat-list">
+        <li class="innercol"><a href="#">diapers</a></li>
+        <li class="innercol"><a href="#">wipes</a></li>
+        <li class="innercol"><a href="#">changing pads</a></li>
+        <li class="innercol"><a href="#">ointments and creams</a></li>
+        <li class="innercol"><a href="#">formula and baby food</a></li>
+        <li class="innercol"><a href="#">feeding and nursing</a></li>
+        <li class="innercol"><a href="#">baby bath</a></li>
+      </ul>
     </div>
--->
+  </div>
 </div>
 
 <?php require_once('footer.php'); ?>

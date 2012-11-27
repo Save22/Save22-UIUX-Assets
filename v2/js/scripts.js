@@ -65,27 +65,6 @@ jQuery(document).ready(function($) {
             }
         });
 
-        /** TOP-BAR **/
-        /** BUGGY CODE 
-        var topbar = $('#smart-shopper'),
-            topbar_start = topbar.offset().top,
-            topbar_height = div.height() + $('#hero-html').height(),
-            topbar_top = $('#main-header').height();
-
-
-        $(window).scroll(function(){         
-            var p = $(window).scrollTop(),
-                main_header_height = $('#main-header').height(); 
-            if(p >= topbar_height) {
-                $(topbar).css('top',((p)>topbar_start) ? main_header_height + 'px' : '');
-                $(topbar).addClass('floating-header'); 
-            }
-            else {
-                $(topbar).removeClass('floating-header');
-            }
-        });
-        **/ 
-
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -111,6 +90,23 @@ jQuery(document).ready(function($) {
         $(window).smartresize(function(){
           $container.isotope({
             masonry: { columnWidth: $container.width() / 3 }
+          });
+        });
+
+
+        var $container2 = $('#hub-categories ul')
+        // initialize Isotope
+        $container2.isotope({
+          animationEngine: 'jquery',
+          layoutMode : 'fitRows',
+          resizable: false, // disable normal resizing
+          masonry: { columnWidth: $container.width() / 4 }
+        });
+
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container2.isotope({
+            masonry: { columnWidth: $container2.width() / 4 }
           });
         });
 
@@ -144,7 +140,28 @@ jQuery(document).ready(function($) {
         );
 
 
+    function same_height(container) {
+        var items_height = [];
+        $(container).each(function() { items_height.push($(this).outerHeight()) });
+        var tallest_content = Math.max.apply( null, items_height );
+        
+        $(container).each(function(){
+            var item_height = $(this).parent().height();
+            $(this).css('height', tallest_content);
+        });
 
+        $(window).resize(function() {
+            $(container).each(function() { items_height.push($(this).outerHeight()) });
+            var tallest_content = Math.max.apply( null, items_height );
+
+            $(container).each(function(){
+                var item_height = $(this).parent().height();
+                $(this).css('height', tallest_content);
+            });
+        });
+    }
+
+    same_height('#cat-list li a');
 
 }); /* end of as page load scripts */
 
