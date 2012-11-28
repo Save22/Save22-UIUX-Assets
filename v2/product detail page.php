@@ -70,13 +70,11 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 27,800</a></span>
                             </div>
 
-                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
-                                <span class="detail-shop">Gaisano Interpace</span><br>
-                                <span class="detail-area">Gilmore, QC</span><br>
-                                <span class="button radius">store details</span>
+                                <a class="detail-shop" href="store page.php">Gaisano Interpace
+                                <br><span class="detail-branch">Gilmore, Quezon City</span></a>
+                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
                             </div>
-                            </a>
 
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
@@ -93,12 +91,10 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
 
-                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
-                                <span class="detail-shop">Gaisano Interpace, Gilmore, QC</span><br>
-                                <span class="button radius">store details</span>
+                                <a class="detail-shop" href="store page.php">Gaisano Interpace, Gilmore, QC</a><br>
+                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
                             </div>
-                            </a>
 
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
@@ -116,12 +112,10 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
 
-                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
-                                <span class="detail-shop">Seller Name</span><br>
-                                <span class="button radius">store details</span>
+                                <a class="detail-shop" href="store page.php">Gaisano Interpace</a>
+                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
                             </div>
-                            </a>
 
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
@@ -138,12 +132,10 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 35,500</a></span>
                             </div>
 
-                            <a href="#" data-reveal-id="mapModal" class="store-details">
                             <div class="innercol option-col left shop">
-                                <span class="detail-shop">Seller Name</span><br>
-                                <span class="button radius">store details</span>
+                                <a class="detail-shop" href="store page.php">Gaisano Interpace</a>
+                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
                             </div>
-                            </a>
 
                             <div class="innercol option-col left more-info lastcol">
                                 <!-- freebies and other info -->
