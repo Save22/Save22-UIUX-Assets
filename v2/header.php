@@ -56,7 +56,7 @@
 
 
 <header id="main-header">
-    <div class="row">
+    <div class="row relative">
         <div class="logo-set left">
             <a href="http://save22.com">
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
@@ -73,6 +73,7 @@
             <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
             <input type="submit" class="button left radius" value="search">
           </div>
+
           <div class="group">
             <ul class="nolist">
               <li id="popular-searches"> 
@@ -86,5 +87,6 @@
             </ul>
           </div>
         </div>
+
     </div><!-- row -->
 </header>

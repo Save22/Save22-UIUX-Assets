@@ -158,7 +158,6 @@ a {
 			padding: 0px 14px !important;
 		}
 
-
 	.floating-header {
 		position: fixed;
 		width: 100%;
@@ -251,6 +250,7 @@ a {
 		}
 		#country-options .current { font-weight: bold; }
 
+	#main-footer .social .fb-frame { margin-left: 12px; }
 
 
 	/* SIDEBAR */
