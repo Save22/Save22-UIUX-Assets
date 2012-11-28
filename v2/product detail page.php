@@ -11,7 +11,7 @@
                     <a href="#" class="current-page">iPhone 4s 32gb Black</a>
                 </nav>
 
-                    <h2 class="single-header">iPhone 4s 32gb Black</h2>
+            <h2 class="single-header">iPhone 4s 32gb Black</h2>
 
             <div class="row">
                 <div class="four columns">

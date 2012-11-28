@@ -15,13 +15,16 @@
                 <h2 class="single-header">iPhone 4s 32gb Black from Gaisano Interpace, Gilmore, QC</h2>
 
                 <div id="item-info" class="right block innercol">
-                    <h3>iPhone 4s 32gb Black</h3>
+                    
                     <article class="group">
                         <img id="item-thumbnail" src="img/sample_iphone4sblack.png"> 
+
+                        <a href="product detail page.php"><h3 class="single-header">iPhone 4s 32gb Black</h3></a>
+
                         from <span class="impt">P 27,800</span><br>
                         to <strong>P 33,500</strong> out of 4 options
                     </article>
-                    <a href="#" class="back">&lsaquo; back to <strong>iPhone 4s 32gb Black</strong> product page</a>
+                    <a href="#" class="back">&lsaquo; see other price options</a>
                 </div><!-- item-info -->
                 
                 <div id="store-info" class="left block innercol">

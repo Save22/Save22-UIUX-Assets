@@ -424,7 +424,18 @@ a {
 		overflow: hidden;
 		display: block;
 	}
-	#item-info .back { color: #666; display: block; margin: 12px 0 0 0; border-top: 1px solid #ccc; padding: 10px 0; text-transform: uppercase; letter-spacing: 1px; font-size: 0.813em; }
+	#item-info .back { 
+		color: #666; 
+		display: block; 
+		margin: 12px 0 0 0; 
+		border-top: 1px solid #ccc; 
+		padding: 10px 0; 
+		text-transform: uppercase; 
+		letter-spacing: 1px; 
+		font-size: 1em; 
+		font-weight: 900; 
+	}
+		#item-info .back:hover { color: #000; }
 
 
 /* directions */
@@ -479,7 +490,11 @@ div.shop a:hover { text-decoration: underline; }
 	.store-header .red-button { margin-top: 24px; font-weight: 600; padding: 7px 14px;}
 .detail-price-single { padding: 7px 14px; }
 
-
+.branch-list ul { 
+	display: block;
+	overflow: auto;
+	max-height: 150px;
+}
 
 /********* PAGE ELEMENTS: HOMEPAGE ***********/
 
@@ -619,6 +634,9 @@ div.shop a:hover { text-decoration: underline; }
 #hub-categories {
 	background: #fff;
 	border-top: 1px solid #ccc;
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	font-weight: 600;
 }
 	#hub-categories ul { border-left: 1px dotted #ccc; margin: 0; }
 	#hub-categories ul > li { 
@@ -637,14 +655,21 @@ div.shop a:hover { text-decoration: underline; }
 		#hub-categories ul > li:hover a { color: #000;  }
 	#hub-categories a { 
 		color: #666; 
-		font-weight: bold; 
-		text-transform: uppercase; 
-		letter-spacing: 1px; 
 		display: block;
 		width: 100%;
 		padding: 6% 8%;
 	}
-
+	#hub-categories .label {
+		background: #222;
+		border-style: solid;
+		color: #fff;
+		font-size: 1em;
+		text-align: left;
+		padding: 2% 1.8%;
+	}
+		#hub-categories .label:hover { background: #222; }
+	#hub-categories .current { background: #f7f7f7; }
+		#hub-categories .current a { font-weight: 900; color: #000; }
 
 
 /* ============================= */
