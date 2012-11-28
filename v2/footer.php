@@ -37,8 +37,8 @@
               <div class="widget-content">
               <ul class="nolist">
                 <!-- change links depending on country -->
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
+                <li><a href="http://facebook.com/save22ph">Facebook</a></li>
+                <li><a href="http://twitter.com/save22ph">Twitter</a></li>
               </ul>
               </div>
         </div>
@@ -66,6 +66,11 @@
                 <!-- TWITTER LINK if PH -->
                 <a href="https://twitter.com/save22ph" class="twitter-follow-button" data-show-count="false">Follow @save22ph</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                <!-- USE THIS CODE IF SG 
+                <a href="https://twitter.com/save22sg" class="twitter-follow-button" data-show-count="false">Follow @save22sg</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              -->
               </div>
           </div>
         </div><!-- social -->
