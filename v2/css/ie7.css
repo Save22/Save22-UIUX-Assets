@@ -43,4 +43,7 @@ ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-p
 #content.product-detail .eight.columns { width: 62.5%; }
 	#content.product-detail .eight.columns article { padding: 0 2%; }
 
-#hub-categories ul#cat-list li { width: 20.7%; }
+#hub-categories ul#cat-list li { width: 20%; padding: 1% 2%; }
+	#hub-categories ul#cat-list li a { padding: 0; }
+
+#main-footer .social { display: none; }
