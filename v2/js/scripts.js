@@ -70,6 +70,23 @@ jQuery(document).ready(function($) {
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
     
+        function same_height(container) {
+            var items_height = [];
+
+            $(container).each(function() { 
+                items_height.push($(this).outerHeight());
+            });
+
+            var tallest_content = Math.max.apply( null, items_height );
+            
+            $(container).each(function(){
+                var item_height = $(this).parent().height();
+                $(this).css('height', tallest_content);
+            });
+
+        }
+        
+        same_height('ul#cat-list li');
     }
     
     /* off the bat large screen actions */
@@ -77,7 +94,7 @@ jQuery(document).ready(function($) {
         
     }
 
-        var $container = $('#container')
+        var $container = $('#container');
         // initialize Isotope
         $container.isotope({
           animationEngine: 'jquery',
@@ -92,21 +109,6 @@ jQuery(document).ready(function($) {
             masonry: { columnWidth: $container.width() / 3 }
           });
         });
-
-
-        var $container2 = $('#hub-categories ul')
-        $container2.isotope({
-          animationEngine: 'jquery',
-          layoutMode : 'fitRows',
-          resizable: true,
-          masonry: { columnWidth: $container.width() / 4 }
-        });
-        $(window).smartresize(function(){
-          $container2.isotope({
-            masonry: { columnWidth: $container2.width() / 4 }
-          });
-        });
-
 
     /* about tab */
 
@@ -136,23 +138,6 @@ jQuery(document).ready(function($) {
           }
         );
 
-
-    function same_height(container) {
-        var items_height = [];
-        $(container).each(function() { 
-            items_height.push($(this).outerHeight());
-        });
-        var tallest_content = Math.max.apply( null, items_height );
-        
-        $(container).each(function(){
-            var item_height = $(this).parent().height();
-            $(this).css('height', tallest_content);
-        });
-
-        
-    }
-    
-    same_height('ul#cat-list li a');
 
 }); /* end of as page load scripts */
 
