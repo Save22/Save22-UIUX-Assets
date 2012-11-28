@@ -69,11 +69,22 @@
                             <div class="innercol option-col left price">
                                 <span class="detail-price impt"><a href="#option-detail">Php 27,800</a></span>
                             </div>
-
-                            <div class="innercol option-col left shop">
-                                <a class="detail-shop" href="store page.php">Gaisano Interpace
-                                <br><span class="detail-branch">Gilmore, Quezon City</span></a>
-                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                            
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">888 Mobile - Blk 2 Lorong Lew Lian #01-34 S(531002)</span><br>
+                                <span itemprop="address" class="detail-area">
+                                
+                                888 Mobile<br/>
+                                
+                                 </span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
                             </div>
 
                             <div class="innercol option-col left more-info lastcol">
@@ -91,9 +102,21 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
 
-                            <div class="innercol option-col left shop">
-                                <a class="detail-shop" href="store page.php">Gaisano Interpace, Gilmore, QC</a><br>
-                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">888 Mobile - Blk 2 Lorong Lew Lian #01-34 S(531002)</span><br>
+                                <span itemprop="address" class="detail-area">
+                                
+                                888 Mobile<br/>
+                                
+                                 </span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
                             </div>
 
                             <div class="innercol option-col left more-info lastcol">
@@ -112,9 +135,21 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 29,800</a></span>
                             </div>
 
-                            <div class="innercol option-col left shop">
-                                <a class="detail-shop" href="store page.php">Gaisano Interpace</a>
-                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">888 Mobile - Blk 2 Lorong Lew Lian #01-34 S(531002)</span><br>
+                                <span itemprop="address" class="detail-area">
+                                
+                                888 Mobile<br/>
+                                
+                                 </span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
                             </div>
 
                             <div class="innercol option-col left more-info lastcol">
@@ -132,9 +167,21 @@
                                 <span class="detail-price impt"><a href="#option-detail">Php 35,500</a></span>
                             </div>
 
-                            <div class="innercol option-col left shop">
-                                <a class="detail-shop" href="store page.php">Gaisano Interpace</a>
-                                <a data-reveal-id="mapModal" class="store-details button radius">store details</a>
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">888 Mobile - Blk 2 Lorong Lew Lian #01-34 S(531002)</span><br>
+                                <span itemprop="address" class="detail-area">
+                                
+                                888 Mobile<br/>
+                                
+                                 </span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
                             </div>
 
                             <div class="innercol option-col left more-info lastcol">
