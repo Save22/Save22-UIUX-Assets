@@ -40,7 +40,6 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link rel="stylesheet" href="css/dropkick.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
   <!--[if IE 8]>
