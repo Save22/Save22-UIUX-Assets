@@ -12,12 +12,7 @@
           <div class="detail-header">
              <div class="detail-prices group">
                <div class="block price-summary">
-                  starts at
-                  <span class="price-lowest">S$ 7.95</span><br>
-                  to <span class="price-highest">S$ 8.25</span>
-               </div>
-               <div class="promo">
-                  save * 22%
+                  <span class="price-lowest">S$ 7.95</span>
                </div>
              </div><!-- detail-header -->
           </div><!-- group -->
@@ -59,7 +54,7 @@
           </div><!-- group -->
 
           <div class="container-thumb">
-             <img class="item-thumb" src="img/external-widget-sample01.png" alt="item-title">
+             <img class="item-thumb" src="img/product-blank100px@2.png" alt="item-title">
           </div>
         </div>
 
