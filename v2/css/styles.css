@@ -660,16 +660,20 @@ div.shop a:hover { text-decoration: underline; }
 		padding: 6% 8%;
 	}
 	#hub-categories .label {
-		background: #222;
-		border-style: solid;
-		color: #fff;
-		font-size: 1em;
+		background: #f7f7f7;
+		border-top: 1px solid #ccc;
+		color: #898989;
+		font-size: 0.813em;
 		text-align: left;
 		padding: 2% 1.8%;
 	}
-		#hub-categories .label:hover { background: #222; }
-	#hub-categories .current { background: #f7f7f7; }
-		#hub-categories .current a { font-weight: 900; color: #000; }
+		#hub-categories .label:hover { background: #f7f7f7; border-style: dotted; border-color: #ccc; }
+	#hub-categories .current {
+		background: #222;
+		border-style: solid;
+		color: #fff;
+		}
+		#hub-categories .current a { font-weight: 900; color: #fff; }
 
 
 /* ============================= */
@@ -877,7 +881,8 @@ h2.single-header, .store-name {
 	#hub-categories { background: #3b3b3b; }
 	#hub-categories .innercol { margin: 0 !important; }
 	#hub-categories #cat-list li { border-bottom: 1px solid #000; border-top: 1px solid #666;}
-	#hub-categories a { color: #fff; border: 0; padding: 3% 5% 3% 10%; } }
+	#hub-categories a { color: #fff; border: 0; padding: 3% 5% 3% 10%; }
+	#hub-categories .label { font-size: 1em; padding: 4%; }
 }
 
 
