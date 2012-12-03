@@ -18,14 +18,17 @@
           <li class="has-dropdown">
             <a class="active" href="#">Gadgets</a>
             <ul class="dropdown">
-              <li>
-                <a href="#" class="">Level 2</a>
+              <li class="title back js-generated"> 
+                <h5><a href="#">Gadgets</a></h5>
               </li>
               <li>
-                <a href="#" class="">Level 3</a>
+                <a href="#">Computers</a>
               </li>
               <li>
-                <a href="#" class="">Level 4</a>
+                <a href="#">Accessories</a>
+              </li>
+              <li>
+                <a href="#">Apple</a>
               </li>
             </ul>
           </li>
