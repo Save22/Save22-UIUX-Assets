@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic);
+
+body, h1, h2, h3, h4, h5, h6 { 
+   font-family: 'Cabin', Helvetica, Sans-serif;
+}
+
+label { font-weight: 700; }
+
+h1.page-header { 
+   font-size: 2em;
+   font-weight: 400;
+   margin-top: 0; padding-top: 0;
+}
+   h1.page-header span { text-transform: none; font-weight: 700; }
+
+.tabs-content h2 { 
+   font-size: 1.5em;
+}
+
+
+.row { width: 98%; padding: 0 1%; }
+
+ul.breadcrumbs { 
+   background: #fff; border: 0;
+}
+
+#container { 
+   margin-top: 45px;
+}
+
+.top-bar { background: #1a3b56; }
+nav.page-options { display: block; margin: 12px 0 24px 0; }
+.option-buttons { margin-bottom: 18px; }
+
+/* PRICELIST SETTINGS */
+
+.th-sort       { width: 4%; }
+.th-desc       { width: 40%; }
+.th-assignee   { width: 15%; }
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+   
+   table.responsive { margin-bottom: 0; }
+   
+   .pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+   .pinned table { border-right: none; border-left: none; width: 100%; }
+   .pinned table th, .pinned table td { white-space: nowrap; }
+   .pinned td:last-child { border-bottom: 0; }
+   
+   div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+   div.table-wrapper div.scrollable table { margin-left: 35%; }
+   div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; } 
+   
+   table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
+   table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
+   
+}
+
