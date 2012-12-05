@@ -28,14 +28,18 @@ jQuery(document).ready(function($) {
     var responsive_viewport = $(window).width();
     
     /* if is below 481px */
-    if (responsive_viewport < 481) {
+    if (responsive_viewport < 768) {
         
         $(".widget h3").on("click", function(){
             var contents = $(this).parent().find('div.widget-content');
 
-            $('div.widget-content.open').slideUp().removeClass('open');
-
-            contents.slideDown().addClass('open');
+            if(contents.hasClass('open')) {
+                $('div.widget-content.open').slideUp().removeClass('open');
+            }
+            else {
+                contents.slideDown().addClass('open');
+            }
+            
         });
 
     } /* end smallest screen */
@@ -43,56 +47,97 @@ jQuery(document).ready(function($) {
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
         
+        /** TOPMOST HEADER **/
+        var div = $('#main-header');
+        var start = $(div).offset().top;
+        var div_height = div.height();
+
+        $(window).scroll(function(){         
+             var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+            if(p >= div_height) {
+                $(div).css('top',((p)>start) ? '0px' : ''); 
+                $(div).addClass('floating-header'); 
+            }
+            else {
+                $(div).removeClass('floating-header');
+            }
+        });
+
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
     if (responsive_viewport >= 768) {
     
+        function same_height(container) {
+            var items_height = [];
+
+            $(container).each(function() { 
+                items_height.push($(this).outerHeight());
+            });
+
+            var tallest_content = Math.max.apply( null, items_height );
+            
+            $(container).each(function(){
+                var item_height = $(this).parent().height();
+                $(this).css('height', tallest_content);
+            });
+
+        }
+        
+        same_height('ul#cat-list li');
     }
     
     /* off the bat large screen actions */
     if (responsive_viewport > 1030) {
         
     }
-    
-    /** TOPMOST HEADER **/
-    var div = $('#main-header');
-    var start = $(div).offset().top;
-    var div_height = div.height();
 
-    $(window).scroll(function(){         
-         var p = $(window).scrollTop(),
-              w_width = $(window).width();
+        var $container = $('#container');
+        // initialize Isotope
+        $container.isotope({
+          animationEngine: 'jquery',
+          layoutMode : 'fitRows',
+          resizable: false, // disable normal resizing
+          masonry: { columnWidth: $container.width() / 3 }
+        });
 
-        if(p >= div_height) {
-            $(div).css('top',((p)>start) ? '0px' : ''); 
-            $(div).addClass('floating-header'); 
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container.isotope({
+            masonry: { columnWidth: $container.width() / 3 }
+          });
+        });
+
+    /* about tab */
+
+    function about_tab(){
+        var article = $('#about-tab article');
+        if (article.hasClass('open')) {
+            article.slideUp().removeClass('open');
         }
-        else {
-            $(div).removeClass('floating-header');
+        else { 
+            article.slideDown().addClass('open');
         }
-    });
+    }
 
+    var tab_label = $("#about-tab"),
+        about_article = $('#about-tab article');
 
-    /* dropkick plugin */
-    $('.dk').dropkick();
+        tab_label.on("click", function(e){
+            about_tab();
+            e.preventDefault();
+        });
 
+        tab_label.hover(
+          function () {
+            about_article.toggleClass("open").stop(true, true).slideToggle();
+            about_article.removeClass('open');
+            e.preventDefault();
+          }
+        );
 
-    /* featured prodcuts - same height for header */
-
-    var header_sizes = [];
-    $('.item-header').each(function() { header_sizes.push($(this).outerHeight()) });
-    var tallest_header = Math.max.apply( null, header_sizes );
-
-    $('.item-header').each(function(){
-
-        var item_width = $(this).parent().width();
-
-        $(this).css('height', tallest_header);
-        $(this).css('width', item_width); 
-
-    });
- 
 
 }); /* end of as page load scripts */
 

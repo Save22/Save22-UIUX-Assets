@@ -40,40 +40,52 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link rel="stylesheet" href="css/dropkick.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
 
 </head>
 <body>
 
 
 <header id="main-header">
-    <div class="row">
-        <div class="two columns">
+    <div class="row relative">
+        <div class="logo-set left">
             <a href="http://save22.com">
                     <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
+                    <img src="img/logo-ie8.png" class="logo-ie8">
                 </a>
+                
                 <div class="subheader">
-                    the smart shopping companion
+                 one item, different prices
                 </div>
-        </div><!-- two -->
-        <div class="ten columns">
-            <div id="searchbox">
-                <input type="text" id="site_search" placeholder="Search for a product">
-            </div>
-            <div id="popular-searches">
-                <ul class="list-nav nolist">
-                    <li class="label uppercase">popular: </li>
-                    <li><a href="#">diapers</a></li>
-                    <li><a href="#">cellphones</a></li>
-                    <li><a href="#">computers</a></li>
-                    <li><a href="#">cameras</a></li>
-                    <li><a href="#">milk</a></li>
-                    <li><a href="#">soap</a></li>
-                    <li><a href="#">baby-food</a></li>
-                    <li><a href="#">iphone</a></li>
-                </ul>
-            </div>
-        </div><!-- four -->
+                
+        </div><!-- logo -->
+        <div id="searchbox" class="left">
+          <div class="group">
+            <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
+            <input type="submit" class="button left radius" value="search">
+          </div>
+
+          <div class="group">
+            <ul class="nolist">
+              <li id="popular-searches"> 
+                  <span class="label uppercase">popular:</span> 
+                  <a href="#">iphone</a>   
+                  <a href="#">ipad mini</a>   
+                  <a href="#">galaxy note 2</a>   
+                  <a href="#">nexus 4</a>  
+                  <a href="#">diapers</a>   
+              </li>
+            </ul>
+          </div>
+        </div>
+
     </div><!-- row -->
 </header>

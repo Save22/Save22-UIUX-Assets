@@ -3,7 +3,7 @@
 
 <div id="content" class="store">
         <div class="row">
-            <div class="nine columns">
+            <div class="twelve columns">
 
                 <!-- CRUMBS NAVIGATION: so people know where they are -->
                 <nav id="crumbs">
@@ -41,6 +41,26 @@
                                 <li><a href="#">Limketkai Center, CDO</a></li>
                                 <li><a href="#">Hernan Cortez, Cebu</a></li>
                                 <li><a href="#">Gaisano Country Mall, Cebu</a></li>
+                                <li><a href="#">Gilmore, Quezon City</a></li>
+                                <li><a href="#">Gaisano City Mall, CDO</a></li>
+                                <li><a href="#">Limketkai Center, CDO</a></li>
+                                <li><a href="#">Hernan Cortez, Cebu</a></li>
+                                <li><a href="#">Gaisano Country Mall, Cebu</a></li>
+                                <li><a href="#">Gilmore, Quezon City</a></li>
+                                <li><a href="#">Gaisano City Mall, CDO</a></li>
+                                <li><a href="#">Limketkai Center, CDO</a></li>
+                                <li><a href="#">Hernan Cortez, Cebu</a></li>
+                                <li><a href="#">Gaisano Country Mall, Cebu</a></li>
+                                <li><a href="#">Gilmore, Quezon City</a></li>
+                                <li><a href="#">Gaisano City Mall, CDO</a></li>
+                                <li><a href="#">Limketkai Center, CDO</a></li>
+                                <li><a href="#">Hernan Cortez, Cebu</a></li>
+                                <li><a href="#">Gaisano Country Mall, Cebu</a></li>
+                                <li><a href="#">Gilmore, Quezon City</a></li>
+                                <li><a href="#">Gaisano City Mall, CDO</a></li>
+                                <li><a href="#">Limketkai Center, CDO</a></li>
+                                <li><a href="#">Hernan Cortez, Cebu</a></li>
+                                <li><a href="#">Gaisano Country Mall, Cebu</a></li>
                             </ul>
                         </article>
                     </div><!-- group -->
@@ -55,23 +75,12 @@
                 <section class="group block mtop">
                     <div class="group store-header">
                         <h2 class="single-header left innercol">Featured Products</h2>
-                        <a href="#" class="right button red-button radius innercol">See all products</a>
                     </div>
 
-                    <?php require_once('widgets/featured-gadgets.php'); ?>
+                    <?php require_once('widgets/featured-diapers.php'); ?>
                 </section>
 
             </div>
-
-            <div class="three columns" id="sidebar">
-
-                <?php require_once('widgets/intro-widget.php'); ?>
-
-                <?php require_once('widgets/top-contributors.php'); ?>
-
-                <?php require_once('widgets/fb-widget.php'); ?>
-
-            </div> <!-- sidebar -->
 
         </div>
 </div>
