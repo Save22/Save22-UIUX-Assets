@@ -1,40 +1,79 @@
 
+<div id="about-tab">
+  <a href="#" class="tab-label">What is <img src="img/about-tab.png" class="about-logo" alt="Save22">?</a>
+  <article>
+    <?php require_once('widgets/intro-widget.php'); ?>
+  </article>
+</div>
+
+
+
 <footer id="main-footer">
     <div class="row">
-        <div class="four columns">
-            <h3>About Us</h3>
-            <strong>Save22</strong> advocates informed purchasing decisions. <br><a href="about.php">Learn more about us.</a>
+        <div class="four columns widget">
+            <h3>Take a look around</h3>
+            <div class="widget-content">
+              <ul class="nolist">
+                <li><a href="http://save22.com/about">About Us</a></li>
+                <li><a href="http://save22.com/contact">Contact Us</a></li>
+                <li><a href="http://save22.com/investors">Investors</a></li>
+                <li><a href="http://build.save22.com/">Blog</a></li>
+              </ul>
+            </div>
         </div>
 
-        <div class="four columns">
+        <div class="four columns widget">
             <h3>Download</h3>
-            <p>Spread shopping intelligence:  </p>
-            <a href="#" class="left download-apple innercol">
-                <img src="img/footer-dlappstore.png">
-            </a>
-            <a href="#" class="left innercol">
-                <img src="img/footer-dlplaystore.png">
-            </a>
-
+            <div class="widget-content" id="footer-download">
+              <ul class="nolist">
+                <li><a href="https://itunes.apple.com/ag/app/save22/id460343551?mt=8" class="dl-ios dl-button"><img src="img/dl-appstore2.png" class="left"> Available on the <br><span class="bigger">app store</span></a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.save22.client.android&hl=en" class="dl-android dl-button"><img src="img/dl-googleplay.png" class="left"> Get it on<br><span class="bigger">Google Play</span></a></li>
+              </ul>
+            </div>
         </div>
 
-        <div class="four columns">
+        <div class="four columns widget">
             <h3>Follow Us</h3>
-                <div class="fb-footer">
-                        <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsave22ph&amp;width=292&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;appId=296833577072818" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;" allowTransparency="true"></iframe>
-                </div>
-
-                <div class="twitter-footer">
-                    <a href="https://twitter.com/save22ph" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @save22ph</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
+              <div class="widget-content">
+              <ul class="nolist">
+                <!-- change links depending on country -->
+                <li><a href="http://facebook.com/save22ph">Facebook</a></li>
+                <li><a href="http://twitter.com/save22ph">Twitter</a></li>
+              </ul>
+              </div>
         </div>
     </div>
 
     <div class="row copyright">
-        <div class="twelve columns">
+        <div class="six columns">
             &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.
+          <ul id="country-options" class="link-list left">
+            <li><a href="http://save22.com.sg" class="current">Singapore</a></li>
+            <li><a href="http://save22.com.ph">Philippines</a></li>
+          </ul>
+
         </div>
+        <div class="six columns">
+            <div class="social group">
+              <!-- FACEBOOK LINK if PH --> 
+              <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsave22ph&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
+
+              <!-- IF SG USE THIS FB URL: 
+              <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSave22Singapore&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
+              -->
+
+              <div class="tw-link right">
+                <!-- TWITTER LINK if PH -->
+                <a href="https://twitter.com/save22ph" class="twitter-follow-button" data-show-count="false">Follow @save22ph</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+                <!-- USE THIS CODE IF SG 
+                <a href="https://twitter.com/save22sg" class="twitter-follow-button" data-show-count="false">Follow @save22sg</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              -->
+              </div>
+          </div>
+        </div><!-- social -->
     </div>
 </footer>
 
@@ -46,9 +85,9 @@
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
-
-  <script type="text/javascript" src="js/jquery.dropkick-1.0.0.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
+
 
 </body>
 

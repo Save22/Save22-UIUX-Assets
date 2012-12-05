@@ -1,37 +1,19 @@
 <?php require_once('header.php'); ?>
+<!-- HERO SHOT MOVED HERE --> 
+<?php require_once('widgets/hero.php'); ?> 
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
+
 <div id="content" class="hub">
-    <div class="row">
-            <div class="nine columns">
-                <section>
-                    <div id="featured-header" class="block group" style="background:url('img/hub-sample-featured.png');">
+  <div class="row">
+    <div class="twelve columns">
+      <h2 class="single-header page-header no-border-top">Featured Items</h2>
 
-                        <div class="intro-copy right relative">
-                            The best diaper deals from
-                            your favorite stores
-                            <a href="#" class="button radius red-button block mtop">Get them now</a>
-                        </div>
+      <?php require_once('widgets/featured-diapers.php'); ?>
 
-                    </div>
-                </section>
+    </div>
+  </div>
+</div>
 
-                <?php require_once('widgets/featured-moms.php'); ?>
-
-                <div class="pagination group">
-                    <a href="#" class="see-more right">see more products &raquo; </a>
-                </div>
-
-            </div><!-- ninecol group -->
-
-            <div class="three columns" id="sidebar">
-
-                <?php require_once('widgets/intro-widget.php'); ?>
-                <?php require_once('widgets/fb-widget.php'); ?>
-
-            </div> <!-- sidebar -->
-    </div><!-- row -->
-</div><!-- content -->
-
-
+<?php require_once('widgets/categories.php'); ?>
 <?php require_once('footer.php'); ?>
