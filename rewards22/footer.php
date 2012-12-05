@@ -25,9 +25,9 @@
   <!-- Included JS Files (Compressed) -->
   <script src="js/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
-  <script src="js/responsive-tables.js"></script>
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,29 +1,46 @@
 <?php require_once('header.php'); ?>
 
-<div id="container">
-   <div class="row">
-      <ul class="breadcrumbs right">
-         <li><a href="#">Home</a></li>
-         <li><a href="#">Gaisano A</a></li>
-         <li class="current"><a href="#">Price List Settings</a></li>
-      </ul>
-   </div><!-- row -->
+<div class="group">
+   <ul class="breadcrumbs right">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Gaisano A</a></li>
+      <li class="current"><a href="#">Price List Settings</a></li>
+   </ul>
+</div>
 
-   <div class="row">
+<div id="wrap" class="wrap">
 
-      <h1 class="page-header">Price List Settings - <span class="input-pricelname">Gaisano A</span></h1> 
+      <h1 class="page-header">
+         <span class="input-pricelname name">Gaisano A</span> <span class="page-type"> - Price List Settings</span></h1> 
 
-      <div class="page-info three panel columns">
-         <p><label>Price List Name:</label> <span class="input-pricelname">Gaisano A</span></p>
-         <p><label>Retailer Name:</label> Gaisano Interpace</p>
-         <p><label>Contact Information:</label> email@gaisano.com.ph</p>
-         <p><label>Operating Hours:</label> 10am - 5pm</p>
-      </div>
+         <a href="#panel" class="panel-link">Price List Settings</a>
 
-      <div class="work-division nine columns">
+         <div class="oc" id="panel">
+            <p><label>Price List Name:</label> <span class="input-pricelname">Gaisano A</span></p>
+            <p><label>Retailer Name:</label> Gaisano Interpace</p>
+            <p><label>Contact Information:</label> email@gaisano.com.ph</p>
+            <p><label>Operating Hours:</label> 10am - 5pm</p>
+         </div>
+
+      <div id="content" class="content mod">
 
          <nav class="page-options">
-            Pricesheet version:
+            <form class="custom">
+               <label for="customDropdown">Pricesheet version: </label>
+                 <select style="display:none;" id="customDropdown">
+                   <option SELECTED>created on 11/12/12 - 6:30</option>
+                   <option>created on 10/12/12 - 6:30</option>
+                   <option>created on 9/12/12 - 6:30</option>
+                   <option>created on 10/12/12 - 6:30</option>
+                   <option>created on 9/12/12 - 6:30</option>
+                   <option>created on 10/12/12 - 6:30</option>
+                   <option>created on 9/12/12 - 6:30</option>
+                   <option>created on 10/12/12 - 6:30</option>
+                   <option>created on 9/12/12 - 6:30</option>
+                 </select>
+
+               <a href="#" class="button radius">Add Version</a>
+            </form> 
          </nav>
 
          <dl class="tabs two-up">
@@ -36,14 +53,12 @@
            </li>
            <li id="updatesTab">
 
-               <h2>Assign VA to check for Store Updates</h2>
+               <?php require_once('elements/pricesettings-assignva.php'); ?>
 
            </li>
          </ul>
-
       </div>
 
-   </div>
 </div>
 
 <?php require_once('footer.php'); ?>

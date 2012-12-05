@@ -28,7 +28,7 @@
 <body>
   <!-- Navigation -->
 
-  <nav class="top-bar fixed">
+  <nav class="top-bar">
     <ul>
       <li class="name"><h1><a href="#">Rewards 22</a></h1></li>
       <li class="toggle-topbar"><a href="#"></a></li>
@@ -52,7 +52,4 @@
         </li>
       </ul>
     </section>
-  </nav><br><br>
-
-  <!-- End Navigation -->
-
+  </nav>
