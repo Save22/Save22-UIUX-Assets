@@ -1,15 +1,39 @@
 
 jQuery(document).ready(function($) {
-    var header_sizes = [];
-    $('.item-header').each(function() { header_sizes.push($(this).outerHeight()) });
-    var tallest_header = Math.max.apply( null, header_sizes );
 
-    $('.item-header').each(function(){
+      /* 
+        var $container = $('#container');
+        // initialize Isotope
+        $container.isotope({
+          animationEngine: 'jquery',
+          layoutMode : 'masonry',
+          resizable: false, // disable normal resizing
+          masonry: { columnWidth: $container.width() / 3 }
+        });
+      */
 
-        var item_width = $(this).parent().width();
+      var $container = $('#container')
+// initialize Isotope
+$container.isotope({
+  // options...
+  resizable: false, // disable normal resizing
+  // set columnWidth to a percentage of container width
+  masonry: { columnWidth: $container.width() / 3 }
+});
 
-        $(this).css('height', tallest_header);
-        $(this).css('width', item_width); 
+// update columnWidth on window resize
+$(window).smartresize(function(){
+  $container.isotope({
+    // update columnWidth to a percentage of container width
+    masonry: { columnWidth: $container.width() / 3 }
+  });
+});
 
-    });
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container.isotope({
+            masonry: { columnWidth: $container.width() / 3 }
+          });
+        });
+
 }); /* end of as page load scripts */
