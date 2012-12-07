@@ -123,6 +123,7 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 
 	p { margin-bottom: 24px; }
 	
+	#main-header { margin-top: 12px; }
 	#main-header .row {
 		padding: 14px 0 0 0;
 		margin-bottom: 24px;
@@ -133,6 +134,8 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 		height: 54px; 
 		text-indent: -9999px;
 		margin: 0 0 10px 0;
+		white-space: nowrap; 
+		overflow: hidden;
 	}
 
 		.subheader {
@@ -141,7 +144,9 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 			font-weight: 600;
 		}
 
+	#searchbox.row { margin: 0; padding: 0; }
 		#site_search { padding: 24px; font-size: 2em; border: 1px solid #e0e0e0;}
+		#searchbox .button { height: 50px; padding: 12px 24px; font-size: 1.5em;}
 		#popular-searches { overflow: auto; }
 		#popular-searches ul { margin: 0; font-size: 0.813em; font-weight: bold; }
 		#popular-searches li { margin-right: 20px; }
@@ -322,11 +327,9 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 		#smart-shopper h1 { padding: 14px 15px; margin: 0; color: #fff; font-size: 1em; font-weight: 900; color: #ccc; text-transform: uppercase; letter-spacing: 1px;}
 		#smart-shopper .nav-title:hover { background: none; }
 
-	#popular-searches { font-size: 0.813em; padding-top: 8px; }
-	#popular-searches:hover { background: none; }
+	#popular-searches {  }
 		#popular-searches a:first-child { padding: 0; }
 		#popular-searches a { display: inline; margin: 0 8px; color: #a5a5a5;  }
-		#popular-searches a:hover { text-decoration: underline; }
 		#popular-searches .label { letter-spacing: 1px; color: #a5a5a5; font-size: 0.815em; font-weight: 900; }
 
 	.top-bar ul li.toggle-topbar { width: 100%; }
@@ -366,3 +369,31 @@ a:link h1, a:link h2, h1 a, h2 a { text-decoration: none; }
 		.dl-button .bigger { font-weight: 900; text-transform: lowercase; font-size: 1.25em; line-height: 1; }
 
 
+
+@media handheld, only screen and (max-width: 768px) {
+
+	.logo-container { width: 25%; float: left; }
+		#logo { text-indent: -100%; }
+
+	#main-header .nine { width: 74% !important; float: left; }
+
+	ul.download { overflow: auto; clear: both; }
+	ul.download li { width: 46%; float: left; margin: 0 2%;}
+	.dl-button { }
+
+	.fb { display: none; }
+
+	#container .item { width: 46.8%; }
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for retina     */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+	#logo {
+		background: url('../img/poweredby-logoC@2x.png') no-repeat !important;
+		background-size: 132px 54px !important;
+	}
+}
