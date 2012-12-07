@@ -13,11 +13,6 @@
 
   <title>Rewards 22</title>
   
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="css/foundation.css">
-  -->
-  
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/app.css">

@@ -9,8 +9,8 @@
           </div>
         </header>
 
-          <div class="option-buttons right">
-            <a href="#" class="button radius">Add Chunk</a>
+          <div class="option-buttons group">
+            <a href="#" class="button radius right">Add Chunk</a>
           </div>
          <table id="price-settings" class="twelve">
            <thead>
