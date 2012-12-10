@@ -11,13 +11,22 @@
 <div id="container">
    <div id="wrap" class="wrap">
 
-      <a href="#panel" class="panel-link">Price List Details</a>
+      <a href="#panel" class="panel-link">
+        <span class="selector"></span>
+        Price List Details
+      </a>
 
       <h1 class="page-header">
          <span class="input-pricelname name">Gaisano A</span> <span class="page-type"> - Price List Settings</span></h1> 
 
          <div class="oc" id="panel">
             <div id="price-info" class="page-info">
+
+            <a href="#panel" class="panel-link">
+              <span class="selector"></span>
+              Back
+            </a>
+
                <p><label>Price List Name:</label> <span class="input-pricelname">Gaisano A</span></p>
                <p><label>Retailer Name:</label> Gaisano Interpace</p>
                <p><label>Contact Information:</label> email@gaisano.com.ph</p>
@@ -29,8 +38,8 @@
       <div id="content" class="content mod">
 
          <dl class="tabs two-up">
-           <dd class="active"><a href="#docs">Upload New Source Document(s)</a></dd>
-           <dd><a href="#updates">Check for Store Updates</a></dd>
+           <dd class="active"><a href="#docs">Upload  Document(s)</a></dd>
+           <dd><a href="#updates">Check for Updates</a></dd>
          </dl>
          <ul class="tabs-content">
            <li class="active" id="docsTab">

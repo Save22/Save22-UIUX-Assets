@@ -16,6 +16,7 @@
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/pikaday.css">
   <link rel="stylesheet" href="css/rewards-styles.css">
 
   <script src="js/modernizr.foundation.js"></script>

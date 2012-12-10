@@ -28,6 +28,8 @@
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
+  <script src="js/tablednd.js"></script>
+  <script src="js/pikaday.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
