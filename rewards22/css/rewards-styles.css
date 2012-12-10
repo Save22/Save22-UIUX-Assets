@@ -47,6 +47,8 @@ header.group {
 
 .pointer { cursor: pointer; }
 
+.button { background: #4c4c4c; border: 1px solid #000; }
+
 
 /* navs and lists */
 
@@ -189,7 +191,10 @@ a.panel-link {
    .form-assignva .va-assigned { width: 100%;}
 
 
+/* DESKTOP VIEW */
+
 @media screen and (min-width: 48.25em) {
+
    .top-bar section ul { background: #891510; }
    .breadcrumbs { display: block; }
    .wrap { padding: 2%; }
@@ -229,6 +234,8 @@ a.panel-link {
       }
 
    .form-assignva .va-assigned { width: 50%;}
+
+   input.work-size { width: 50px; }
 
 }
 

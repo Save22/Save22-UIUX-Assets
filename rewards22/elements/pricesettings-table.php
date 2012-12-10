@@ -10,7 +10,7 @@
         </header>
 
           <div class="option-buttons group">
-            <a href="#" class="button radius right">Add Chunk</a>
+            <a href="#" class="button radius right add-row">Add Chunk</a>
           </div>
 ​
          <table id="price-settings" class="twelve data">
@@ -26,21 +26,21 @@
            </thead>
            <tbody>
              <tr class="insert-row hide">
-               <td class="index">11</td>
+               <td class="index"> </td>
                <td>
-                  add description
+                  <input type="text" placeholder="add description">
                </td>
                <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
+                  <a href="#" class="button radius upload-price-file">upload file</a> 
                </td>
                <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" title="add instructions">edit</a>
+                  <a href="#" class="button radius upload-price-instructions">add instructions</a>
                </td>
-               <td>1</td>
                <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="70" title="add assignee(s)">edit</a>
+                  <input type="text" placeholder="1" class="work-size">
+               </td>
+               <td>
+                  <input type="text" placeholder="assign" class="va-assign">
                </td>
              </tr>
              <tr>
@@ -154,83 +154,11 @@
                   <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
                </td>
              </tr>
-             <tr>
-               <td class="index">7</td>
-               <td>
-                  <a href="#">add description</a>
-               </td>
-               <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">8</td>
-               <td>
-                  <a href="#">add description</a>
-               </td>
-               <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">9</td>
-               <td>
-                  <a href="#">add description</a>
-               </td>
-               <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">10</td>
-               <td>
-                  <a href="#">add description</a>
-               </td>
-               <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
            </tbody>
          </table>
 
         <div class="option-buttons group">
-          <a href="#" class="button radius right">Add Chunk</a>
+          <a href="#" class="button radius right add-row">Add Chunk</a>
         </div>
 
         <div class="group">

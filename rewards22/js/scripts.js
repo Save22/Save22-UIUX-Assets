@@ -88,5 +88,32 @@ jQuery(document).ready(function($) {
     tableDnD.init(table);
 
 
+    $('.add-row').click(function(){
+        
+        event.preventDefault();
+        var table_row_count = $('#price-settings tr').length - 1;
+        var new_row_index = $('tr.insert-row td.index').html(table_row_count);
+        var new_row = '<tr>' + $('tr.insert-row').html() + '</tr>';
+
+        $('#price-settings tbody').append(new_row);
+
+    });
+
+
 }); /* end of as page load scripts */
 
+
+
+function add_row(table_id){
+    
+    event.preventDefault();
+
+    var 
+        $table_body = table_id + ' tbody',
+        $table_row = table_id + ' tr',
+        table_row_count = $table_row.length - 1;
+        $new_row_index = $('tr.insert-row td.index').html(table_row_count),
+        new_row = '<tr>' + $('tr.insert-row').html() + '</tr>';
+
+    $table_body.append('test');
+}
