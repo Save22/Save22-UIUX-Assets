@@ -24,30 +24,6 @@ if (!window.getComputedStyle) {
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
     
-    /* getting viewport width */
-    var responsive_viewport = $(window).width();
-    
-    /* if is below 481px */
-    if (responsive_viewport < 768) {
-
-    } /* end smallest screen */
-    
-    /* if is larger than 481px */
-    if (responsive_viewport > 481) {
-        
-    } /* end larger than 481px */
-    
-    /* if is above or equal to 768px */
-
-    if (responsive_viewport >= 768) {
-      
-    }
-    
-    /* off the bat large screen actions */
-    if (responsive_viewport > 1030) {
-        
-    }
-
 
   $('body').addClass('js');
 
@@ -97,8 +73,13 @@ jQuery(document).ready(function($) {
 
         $('#price-settings tbody').append(new_row);
 
+        if($('.save-button').hasClass('hide')) {
+            $('.save-button').fadeIn().removeClass('hide');
+        }
+
     });
 
+    inline_edit();
 
 }); /* end of as page load scripts */
 
@@ -116,4 +97,54 @@ function add_row(table_id){
         new_row = '<tr>' + $('tr.insert-row').html() + '</tr>';
 
     $table_body.append('test');
+}
+
+
+function inline_edit(){
+
+
+    // TEXT STATS
+    $('.edit_textstat').click(function(){
+        var stat_field = $(this).find('input[type=text]'),
+            stat_text = $(this).find('.edit_textstat_val'),
+            stat_origval = stat_text.text(),
+            stat_id = stat_field.attr('id');
+        //alert(stat_field.attr('class'));
+        if(stat_field.hasClass('hide')){
+            stat_text.addClass('hide');
+            stat_field.val(stat_origval);
+            stat_field.removeClass('hide');
+        }
+    });
+    
+    // TEXT STATS - no change
+    $(document).mouseup(function(){
+        var stat_field = $('.edit_textstat').find('input[type=text]'),
+            stat_text = $('.edit_textstat').find('.edit_textstat_val');
+            
+        stat_field.addClass('hide');
+        stat_text.removeClass('hide');
+    });
+    
+    $('.edit_textstat input[type=text]').change(function(){
+            $(this).addClass('hide');
+            $('#action_box').val('save_stat');
+            
+            var primary_string = $('#stats_form').serialize(),
+                boxval = $(this).val(),
+                boxid = $(this).attr('id'),
+                stat_text = $('.edit_textstat').find('.val_'+boxid),
+                data_string = primary_string;
+            
+            $.ajax({
+                type: "POST",
+                url: "",
+                data: data_string,
+                cache: false,
+                success: function(html){
+                    /* success message */
+                }
+            });
+    });
+    
 }

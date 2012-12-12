@@ -20,20 +20,9 @@
          <span class="input-pricelname name">Gaisano A</span> <span class="page-type"> - Price List Settings</span></h1> 
 
          <div class="oc" id="panel">
-            <div id="price-info" class="page-info">
 
-            <a href="#panel" class="panel-link">
-              <span class="selector"></span>
-              Back
-            </a>
-
-               <p><label>Price List Name:</label> <span class="input-pricelname">Gaisano A</span></p>
-               <p><label>Retailer Name:</label> Gaisano Interpace</p>
-               <p><label>Contact Information:</label> email@gaisano.com.ph</p>
-               <p><label>Operating Hours:</label> 10am - 5pm</p>
-            </div>
-
-            <?php require_once('elements/pricesettings-versions.php'); ?>
+              <?php require_once('elements/pricesettings-info.php'); ?>
+              <?php require_once('elements/pricesettings-versions.php'); ?>
          </div>
       <div id="content" class="content mod">
 

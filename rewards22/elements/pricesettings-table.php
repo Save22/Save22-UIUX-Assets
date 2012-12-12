@@ -9,9 +9,10 @@
           </div>
         </header>
 
-          <div class="option-buttons group">
-            <a href="#" class="button radius right add-row">Add Chunk</a>
-          </div>
+        <div class="option-buttons group">
+          <input type="submit" class="save-button radius button right hide" value="Save">
+          <a href="#" class="button radius right add-row">Add Chunk</a>
+        </div>
 ​
          <table id="price-settings" class="twelve data">
            <thead>
@@ -158,6 +159,7 @@
          </table>
 
         <div class="option-buttons group">
+          <input type="submit" class="save-button radius button right hide" value="Save">
           <a href="#" class="button radius right add-row">Add Chunk</a>
         </div>
 
