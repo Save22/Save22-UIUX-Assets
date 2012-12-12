@@ -30,7 +30,7 @@ label { font-weight: 700; }
 h1.page-header { 
    font-size: 1.438em;
    font-weight: 400;
-   margin-top: 0; padding-top: 0;
+   padding: 1% 2%;
 }
    h1.page-header span.name { text-transform: none; font-weight: 700; }
 
@@ -57,32 +57,65 @@ ul.breadcrumbs {
    background: #fff; border: 0; margin: 0;
 }
 
-dl.tabs { margin-bottom: -1px; }
-dl.tabs dd.active a { background: #fff; }
-ul.tabs-content { border-style: solid; border-color: #E6E6E6; border-width: 0 1px 1px 1px; padding: 15px; background: #fff; }
-
-.top-bar { background: #af0e0e; margin: 0;
-   background: -moz-linear-gradient(top, rgba(181,22,22,1) 0%, rgba(137,21,16,1) 100%);
-   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(181,22,22,1)), color-stop(100%,rgba(137,21,16,1)));
-   background: -webkit-linear-gradient(top, rgba(181,22,22,1) 0%,rgba(137,21,16,1) 100%);
-   background: -o-linear-gradient(top, rgba(181,22,22,1) 0%,rgba(137,21,16,1) 100%);
-   background: -ms-linear-gradient(top, rgba(181,22,22,1) 0%,rgba(137,21,16,1) 100%);
-   background: linear-gradient(to bottom, rgba(181,22,22,1) 0%,rgba(137,21,16,1) 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b51616', endColorstr='#891510',GradientType=0 );
+dl.tabs { margin: 0; height: 60px; }
+dl.tabs dd a { padding: 12px !important;height: 60px; 
+   -webkit-border-top-left-radius: 6px;
+   -webkit-border-top-right-radius: 6px;
+   -moz-border-radius-topleft: 6px;
+   -moz-border-radius-topright: 6px;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px; 
+   color: #fff;
+   box-shadow: -2px -5px 5px rgba(0,0,0,0.50);
+   border-style: solid;
+   border-color: #474747;
+   border-width: 1px 1px 0 1px;
+   background: rgb(84,84,84);
+   background: -moz-linear-gradient(top,  rgba(84,84,84,1) 0%, rgba(58,58,58,1) 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(84,84,84,1)), color-stop(100%,rgba(58,58,58,1)));
+   background: -webkit-linear-gradient(top,  rgba(84,84,84,1) 0%,rgba(58,58,58,1) 100%);
+   background: -o-linear-gradient(top,  rgba(84,84,84,1) 0%,rgba(58,58,58,1) 100%);
+   background: -ms-linear-gradient(top,  rgba(84,84,84,1) 0%,rgba(58,58,58,1) 100%);
+   background: linear-gradient(to bottom,  rgba(84,84,84,1) 0%,rgba(58,58,58,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#3a3a3a',GradientType=0 );
+   box-shadow: inset 0 1px 1px #999;
 }
+dl.tabs dd.active { border: 0; position: relative; bottom: -3px; }
+dl.tabs dd.active a { 
+   background: #fff; 
+   box-shadow: none;
+}
+ul.tabs-content { border-style: solid; border-color: #E6E6E6; border-width: 0 1px 1px 1px; padding: 15px; background: #fff;
+   -webkit-border-bottom-right-radius: 6px;
+   -webkit-border-bottom-left-radius: 6px;
+   -moz-border-radius-bottomright: 6px;
+   -moz-border-radius-bottomleft: 6px;
+   border-bottom-right-radius: 6px;
+   border-bottom-left-radius: 6px;
+}
+
    .top-bar ul li.name { background: transparent; }
    .top-bar section ul { background: #7f0f0f; }
 nav.page-options { display: block; margin: 12px 0 24px 0; }
 .option-buttons { margin-bottom: 18px; }
 
 form.custom div.custom.dropdown {  margin-bottom: 24px; width: 100% !important; }
-form.custom div.custom.dropdown a.current { border-width: 4px; padding: 4px; }
+form.custom div.custom.dropdown a.current { border-width: 1px; padding: 4px 12px; 
+   background: rgb(255,255,255);
+   background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1)));
+   background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+   background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+   background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+   background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+}
 form.custom div.custom.dropdown a.selector { 
    width: 34px;
-   height: 40px;
-   border-width: 4px; 
+   height: 36px;
+   border-width: 1px; 
 }
-form.custom div.custom.dropdown ul { top: 40px !important; max-height: 150px; box-shadow: 1px 2px 8px rgba(0,0,0,0.25)}
+form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; box-shadow: 1px 2px 8px rgba(0,0,0,0.25)}
 
 /* icons */
 
@@ -118,15 +151,13 @@ form.custom div.custom.dropdown ul { top: 40px !important; max-height: 150px; bo
 
 /* page - general */
 
-.row { width: 98%; padding: 0 1%; }
+.row { width: 100%; padding: 0 0; }
 
 #container {
-   margin-bottom: 1em;
    overflow: hidden;
 }
 
 .wrap {
-   padding: 4%;
    position: relative;
    -webkit-transition: all 0.3s ease-out;  
    -moz-transition: all 0.3s ease-out;
@@ -134,6 +165,8 @@ form.custom div.custom.dropdown ul { top: 40px !important; max-height: 150px; bo
    -o-transition: all 0.3s ease-out;
    transition: all 0.3s ease-out;
 }
+
+
 
 
 /* SLIDE LEFT OPTIONS - default in mobile view */
@@ -144,7 +177,7 @@ form.custom div.custom.dropdown ul { top: 40px !important; max-height: 150px; bo
 }
 a.panel-link {
    display: block;
-   padding: 1em 0.75em 0.75em 0.75em;
+   padding: 0.75em 0.75em 0.75em 1.75em;
    background: #2b2b2b;
    margin: -18px -18px 18px -18px; 
    color: #fff;
@@ -176,6 +209,19 @@ a.panel-link {
 
 .wrap { border-top: 1px solid #ccc; }
 
+#content { 
+   background: #282828;
+   padding: 2%;
+   border-top: 1px solid #000; 
+   box-shadow: inset 0 1px 1px #999;
+}
+
+#main-footer.row { 
+   display: none;
+   padding: 0; background: #000; width: 100%; 
+}
+
+
    /* PRICELIST SETTINGS */
 
    .th-sort       { width: 4%;  }
@@ -195,18 +241,24 @@ a.panel-link {
 
 @media screen and (min-width: 48.25em) {
 
+   .top-bar { background: #a31313; margin: 0; padding: 24px 0; height: 94px; 
+      border-bottom: 1px solid #8e2626;
+   }
    .top-bar section ul { background: #891510; }
-   .breadcrumbs { display: block; }
-   .wrap { padding: 2%; }
+   div.breadcrumbs { display: block; background: #8c0f0f; 
+   box-shadow: 0 1px 3px rgba(0,0,0,0.50); }
+      ul.breadcrumbs { background: none; }
+   .wrap { padding: 0; }
    a.panel-link {
       display: none;
    }
    .js .oc {
       position: static;
       float: none;
-      width: 100%;
+      width: 96%;
       height: 100%;
       border: 1px solid #ccc;
+      margin: auto;
       margin-bottom: 24px;
    }  
    .wrap.active {
@@ -216,10 +268,16 @@ a.panel-link {
       clear: both;
    }
 
+   #main-footer.row { display: block; }
 
    /* PRICELIST SETTINGS */
 
-   .page-info { float: left;  width: 50%; padding-left: 1%; }
+   .page-info { 
+      float: left;  
+      width: 50%; 
+      padding-left: 1%; 
+      border-right: 1px solid #ccc;
+   }
    .page-options { 
       float: left; 
       padding: 0 2%;

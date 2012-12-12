@@ -31,10 +31,10 @@
                   <input type="text" placeholder="add description">
                </td>
                <td>
-                  <a href="#" class="button radius upload-price-file">upload file</a> 
+                  <a href="#" class="button radius upload-price-file" data-reveal-id="uploadfile">upload file</a> 
                </td>
                <td>
-                  <a href="#" class="button radius upload-price-instructions">add instructions</a>
+                  <a href="#" class="button radius add-instructions" data-reveal-id="instructions">add instructions</a>
                </td>
                <td>
                   <input type="text" placeholder="1" class="work-size">
@@ -106,11 +106,11 @@
                   <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
                </td>
                <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
+                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
                </td>
                <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
+                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
+                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
                </td>
                <td>1</td>
                <td>
@@ -124,11 +124,11 @@
                   <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
                </td>
                <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
+                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
                </td>
                <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
+                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
+                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
                </td>
                <td>1</td>
                <td>
@@ -142,11 +142,11 @@
                   <a href="#">add description</a>
                </td>
                <td>
-                  <a href="#">upload file</a> <span class="icon-upload right"></span>
+                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
                </td>
                <td>
-                  <a href="#">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" data-width="95" title="add instructions">edit</a>
+                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
+                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
                </td>
                <td>1</td>
                <td>

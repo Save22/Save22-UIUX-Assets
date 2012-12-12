@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic);
+
+body, td, pre {
+	font-family: 'Cabin', Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+.mceVisualAid {
+	border: 1px dashed #BBBBBB;
+}
+
+/* MSIE specific */
+
+* html body {
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;	
+}

@@ -55,4 +55,6 @@
 
    </div>
 </div>
+<?php require_once('elements/pricesettings-upload.php'); ?>
+<?php require_once('elements/pricesettings-instructions.php'); ?>
 <?php require_once('footer.php'); ?>
