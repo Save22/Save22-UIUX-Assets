@@ -143,7 +143,7 @@ a {
 		}
 
 	#searchbox { min-width: 75%; margin-top: 14px; }
-
+		#searchbox form { margin: 0; }
 		#site_search { 
 			border: 1px solid #e0e0e0; width: 60%; 
 			background: url('../img/searchicon.png') 8px center no-repeat #fff;
