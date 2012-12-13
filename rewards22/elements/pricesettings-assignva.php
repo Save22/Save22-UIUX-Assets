@@ -15,7 +15,6 @@
          </div>
          <div class="ten columns">
             <input type="text" class="input-date left" id="datepicker2"> 
-            <span class="span-icon icon-calendar left"></span>
          </div>
       </div>
 

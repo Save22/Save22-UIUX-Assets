@@ -34,15 +34,19 @@ h1.page-header {
 }
    h1.page-header span.name { text-transform: none; font-weight: 700; }
 
-header.group { 
-   border-bottom: 1px solid #ccc; 
-   border-top: 1px solid #ccc; 
+header.doc-header { 
+   border-bottom: 1px solid #eee; 
+   border-top: 1px solid #eee; 
    margin: 0 -15px 18px -15px; 
-   background: #eee; padding: 0 18px; 
+   background: #f7f7f7; 
+   padding: 18px 18px 0 18px; 
+   clear: none;
+   overflow: hidden;
 }
 
+
 .tabs-content h2 { 
-   font-size: 1.5em;
+   font-size: 1.25em;
 }
 
 .pointer { cursor: pointer; }
@@ -127,7 +131,7 @@ form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; bo
 .icon-replace { background: url('../img/icon-replace.png') 0 0 no-repeat; }
 .icon-upload { background: url('../img/icon-upload.png') 0 0 no-repeat; }
 .icon-calendar { background: url('../img/icon-calendar.png') 0 0 no-repeat; margin: 8px; }
-
+input.input-date, input.input-date:focus { background: url('../img/icon-calendar-bg.png') right center no-repeat #fff;  }
 .panel-link .selector { 
    display: block;
    float: left; 
@@ -231,7 +235,7 @@ a.panel-link {
    .dl-pricefile { display: block; float: left; border: 0; }
 
    .pricesheet.date-box { margin: 12px 0; }
-   input.input-date { width: 150px; }
+   input.input-date { width: 180px; }
 
    .form-assignva .va-assigned { width: 100%;}
 

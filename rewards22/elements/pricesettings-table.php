@@ -1,10 +1,9 @@
-        <header class="group">
+        <header class="doc-header">
           <h2 class="">Pricesheet Work Division</h2>
           <div class="pricesheet date-box">
             <form class="group">
               <label class="left">Price source document was released: &nbsp; &nbsp; </label>
               <input type="text" class="input-date left" id="datepicker"> 
-              <span class="span-icon icon-calendar left"></span>
             </form>
           </div>
         </header>

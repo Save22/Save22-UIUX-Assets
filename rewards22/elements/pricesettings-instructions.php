@@ -4,7 +4,7 @@
    tinyMCE.init({
       mode : "textareas",
       theme : "simple",
-      height : "350",
+      height : "300",
       editor_selector : "mceEditor"
    });
 </script>
