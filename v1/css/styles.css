@@ -143,7 +143,7 @@ a {
 		}
 
 	#searchbox { min-width: 75%; margin-top: 14px; }
-
+		#searchbox form { margin: 0; }
 		#site_search { 
 			border: 1px solid #e0e0e0; width: 60%; 
 			background: url('../img/searchicon.png') 8px center no-repeat #fff;
@@ -349,7 +349,7 @@ a {
 			#featured-header .light { color: #333; background: rgba(255,255,255,0.7); text-shadow: 1px 1px 0 rgba(255,255,255,.8); }
 			#featured-header .button { font-size: 0.813em; text-transform: uppercase; max-width: 250px; text-shadow: none; }
 
-	/* DL buttons */
+	/* DOWNLOAD / DL buttons */
 	#main-footer #footer-download a { text-decoration: none; font-size: 0.813em; }
 	.dl-button { 
 		display: block;
