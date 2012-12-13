@@ -21,10 +21,12 @@
 
          <div class="oc" id="panel">
 
-              <?php require_once('elements/pricesettings-info.php'); ?>
-              <?php require_once('elements/pricesettings-versions.php'); ?>
+          <?php require_once('elements/pricesettings-info.php'); ?>
+
          </div>
       <div id="content" class="content mod">
+
+        <?php require_once('elements/pricesettings-versions.php'); ?>
 
          <dl class="tabs two-up">
            <dd class="active"><a href="#docs">Upload  Document(s)</a></dd>

@@ -177,15 +177,13 @@ form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; bo
 }
 a.panel-link {
    display: block;
-   padding: 0.75em 0.75em 0.75em 1.75em;
+   padding: 0.75em 0.75em 0.75em 0.75em;
    background: #2b2b2b;
-   margin: -18px -18px 18px -18px; 
    color: #fff;
    font-weight: 700;
    font-size: 1.25em;
 }
 .oc {
-   padding: 1em;
    clear: both;
    overflow: hidden;
 }
@@ -238,13 +236,23 @@ a.panel-link {
    .form-assignva .va-assigned { width: 100%;}
 
 
-.edit_textstat { 
-   border-bottom: 1px solid #ccc; 
-   padding: 12px;
-}
-.edit_textstat label{ margin: 0 0 7px 0;}
-.edit_textstat_val { display: block; padding: 6px; height: 32px; margin: 0 0 12px 0; border: 1px solid #fff; }
-.edit_textstat_val:hover { background: #f7f7f7; cursor: text;}
+   #price-info .edit_textstat {
+      border-top: 2px solid #fff;
+      border-bottom: 1px solid #ccc; 
+      padding: 24px 12px 12px 12px;
+      background: rgb(255,255,255);
+      background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1)));
+      background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+      background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+      background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+      background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+   }
+
+   .edit_textstat label{ margin: 0 0 7px 0;}
+   .edit_textstat_val { display: block; padding: 6px; height: 32px; margin: 0 0 12px 0; border: 1px solid transparent; }
+   .edit_textstat_val:hover { background: #f7f7f7; border: 1px solid #ccc; cursor: text;}
 
 
 
@@ -257,28 +265,37 @@ a.panel-link {
       border-bottom: 1px solid #8e2626;
    }
    .top-bar section ul { background: #891510; }
-   div.breadcrumbs { display: block; background: #8c0f0f; 
-   box-shadow: 0 1px 3px rgba(0,0,0,0.50); }
+
+   div.breadcrumbs { 
+      display: block; background: #8c0f0f; 
+      box-shadow: 0 1px 3px rgba(0,0,0,0.50); 
+   }
       ul.breadcrumbs { background: none; }
+
    .wrap { padding: 0; }
+
    a.panel-link {
       display: none;
    }
+
    .oc { padding: 0; }
+
    .js .oc {
       position: static;
-      float: none;
-      width: 96%;
+      float: left;
+      width: 21.875em;
       height: 100%;
       border: 1px solid #ccc;
       margin: auto;
       margin-bottom: 24px;
    }  
+
    .wrap.active {
-      left: 0;
    }
-   .content {
-      clear: both;
+
+   .content.mod {
+      clear: none;
+      margin-left: 21.875em;
    }
 
    #main-footer.row { display: block; }
@@ -288,15 +305,14 @@ a.panel-link {
    .save-button { background: #bc0d0d; border: 1px solid #7a0d0d;}
       .save-button:hover { background: #a81212; }
 
-   /* PRICELIST SETTINGS */
 
+   /* PRICELIST SETTINGS */
+   .option-buttons { clear: none; overflow: hidden; }
    .page-info { 
       float: left;  
-      width: 50%; 
-      border-right: 1px solid #ccc;
+      width: 100%; 
    }
    .page-options { 
-      float: left; 
       padding: 0 2%;
       width: 50%;
    }
@@ -305,7 +321,8 @@ a.panel-link {
          margin: 0 0 18px 0; 
          padding: 0 0 6px 0;
          display: block;
-         border-bottom: 1px solid #ccc;
+         border-bottom: 1px solid #999;
+         color: #fff;
       }
 
    .form-assignva .va-assigned { width: 50%;}
