@@ -40,7 +40,10 @@ jQuery(document).ready(function($) {
    
   document_fill_height('#document');
 
-  
+  $(window).load(function() {
+    alert('test');
+       $('#featuredContent').orbit({ fluid: '16x6' });
+   });
 
   /* PIKADAY DATE PICKER */
         var picker = new Pikaday(

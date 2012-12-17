@@ -25,6 +25,7 @@
   <!-- Included JS Files (Compressed) -->
   <script src="js/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
+  <script src="js/jquery.foundation.orbit.js"></script>
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
@@ -32,10 +33,6 @@
   <script src="js/pikaday.js"></script>
   <script src="js/scripts.js"></script>
 
-  <script type='text/javascript'>
-   $(window).load(function() {
-       $('#featuredContent').orbit({ fluid: '16x6' });
-   });
-</script>
+
 </body>
 </html>
