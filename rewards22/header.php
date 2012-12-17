@@ -23,7 +23,7 @@
 </head>
 <body>
   <!-- Navigation -->
-
+<header id="main-header">
   <nav class="top-bar">
     <ul>
       <li class="name"><h1><a href="#">Rewards 22</a></h1></li>
@@ -49,3 +49,4 @@
       </ul>
     </section>
   </nav>
+</header>

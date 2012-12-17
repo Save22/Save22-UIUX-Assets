@@ -37,32 +37,35 @@ jQuery(document).ready(function($) {
     return false;
   });
 
+   
+  document_fill_height('#document');
+
+  
 
   /* PIKADAY DATE PICKER */
-    var picker = new Pikaday(
-    {
-        field: document.getElementById('datepicker'),
-        firstDay: 1,
-        minDate: new Date('2000-01-01'),
-        maxDate: new Date('2020-12-31'),
-        yearRange: [2000,2020]
-    });
+        var picker = new Pikaday(
+        {
+            field: document.getElementById('datepicker'),
+            firstDay: 1,
+            minDate: new Date('2000-01-01'),
+            maxDate: new Date('2020-12-31'),
+            yearRange: [2000,2020]
+        });
 
-    var picker2 = new Pikaday(
-    {
-        field: document.getElementById('datepicker2'),
-        firstDay: 1,
-        minDate: new Date('2000-01-01'),
-        maxDate: new Date('2020-12-31'),
-        yearRange: [2000,2020]
-    });
+        var picker2 = new Pikaday(
+        {
+            field: document.getElementById('datepicker2'),
+            firstDay: 1,
+            minDate: new Date('2000-01-01'),
+            maxDate: new Date('2020-12-31'),
+            yearRange: [2000,2020]
+        });
 
 
-    /* Sortable, draggable tables */
-    var table = document.getElementById('price-settings');
-    var tableDnD = new TableDnD();
-    tableDnD.init(table);
-
+        /* Sortable, draggable tables */
+        var table = document.getElementById('price-settings');
+        var tableDnD = new TableDnD();
+        tableDnD.init(table);
 
     $('.add-row').click(function(){
         
@@ -79,11 +82,23 @@ jQuery(document).ready(function($) {
 
     });
 
-    inline_edit();
+
+inline_edit();
 
 }); /* end of as page load scripts */
 
+function document_fill_height(div){
+    var header_height = $('#main-header').height(),
+        crumbs = $('.breadcrumbs').height(), 
+        footer_height = $('#main-footer').height(),
+        doc_elements = header_height + crumbs + footer_height,
+        win_height = $(window).height(),
+        content = $('#container');
 
+    var doc_height = win_height - doc_elements;
+    // alert(doc_height);
+    $div.css('height', doc_height + 'px');
+}
 
 function add_row(table_id){
     

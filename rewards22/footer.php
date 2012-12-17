@@ -31,5 +31,11 @@
   <script src="js/tablednd.js"></script>
   <script src="js/pikaday.js"></script>
   <script src="js/scripts.js"></script>
+
+  <script type='text/javascript'>
+   $(window).load(function() {
+       $('#featuredContent').orbit({ fluid: '16x6' });
+   });
+</script>
 </body>
 </html>
