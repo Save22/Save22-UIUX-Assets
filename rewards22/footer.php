@@ -25,14 +25,12 @@
   <!-- Included JS Files (Compressed) -->
   <script src="js/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
-  <script src="js/jquery.foundation.orbit.js"></script>
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
   <script src="js/tablednd.js"></script>
   <script src="js/pikaday.js"></script>
   <script src="js/scripts.js"></script>
-
 
 </body>
 </html>

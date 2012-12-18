@@ -17,7 +17,6 @@
 
     <div class="half-page content">
 
-
       <?php require_once('elements/pricelist-steps.php'); ?>
 
     </div>

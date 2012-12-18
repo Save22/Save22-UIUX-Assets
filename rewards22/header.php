@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/pikaday.css">
   <link rel="stylesheet" href="css/rewards-styles.css">
+  <link rel="stylesheet" href="css/table-pricesettings.css">
 
   <script src="js/modernizr.foundation.js"></script>
 </head>
