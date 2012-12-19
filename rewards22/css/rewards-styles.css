@@ -317,6 +317,7 @@ body {
       clear: none;
    }
       .half-page .content-box { padding: 2% 4%; }
+      .content-box ul, .content-box ol { margin: 0 0 0 24px; }
 
    #main-footer.row { display: block; }
 
@@ -362,6 +363,9 @@ body {
          margin: 24px 0;
       }
          #pricesheet-processing-steps input { width: 90%; }
+
+      .choice-or { display: block; margin: 12px 24px; }
+
 }
 
 @media only screen and (max-width: 760px),
