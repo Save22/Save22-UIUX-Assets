@@ -18,7 +18,18 @@
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/pikaday.css">
   <link rel="stylesheet" href="css/rewards-styles.css">
+
+
+
+  <!-- PAGE-SPECIFIC CSS 
+  these css do not come with the default pages. please remove if not necessary --> 
+
+  <!-- IF PRICE SETTINGS PAGE -->
   <link rel="stylesheet" href="css/table-pricesettings.css">
+
+  <!-- IF PRICE LIST UPDATE PAGE -->
+  <link rel="stylesheet" href="css/table-pricelist-update.css">
+
 
   <script src="js/modernizr.foundation.js"></script>
 </head>
