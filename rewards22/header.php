@@ -27,7 +27,7 @@
   <!-- IF PRICE SETTINGS PAGE -->
   <link rel="stylesheet" href="css/table-pricesettings.css">
 
-  <!-- IF PRICE LIST UPDATE PAGE -->
+  <!-- IF PRICE LIST UPDATE PAGE and PRICE ENTRY ASSIGNMENT PAGE -->
   <link rel="stylesheet" href="css/table-pricelist-update.css">
 
 

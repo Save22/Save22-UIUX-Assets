@@ -102,7 +102,7 @@
           </ul>
         </div>
 
-
+        <!-- MODAL WINDOW -->
         <div id="modalUploadTasks" class="reveal-modal medium">
           <h2>Upload Completed Tasks</h2>
           <p class="lead">awesome. you're done.</p>
