@@ -267,6 +267,18 @@ body {
    .edit_textstat_val:hover { background: #f7f7f7; border: 1px solid #ccc; cursor: text;}
 
 
+/* intial pricelist processing */
+   .step { display: none; }
+   .step.active {display: block;}
+   .alert-box h3 { color: #fff; text-align: center; }
+         .page-options label { 
+            font-size: 1.25em; 
+            margin: 0 0 18px 0; 
+            padding: 0 0 6px 0;
+            display: block;
+            border-bottom: 1px solid #999;
+            color: #fff;
+         }
 
 
 /* DESKTOP VIEW */
@@ -338,15 +350,6 @@ body {
          padding: 0 2%;
          width: 50%;
       }
-         .page-options label { 
-            font-size: 1.25em; 
-            margin: 0 0 18px 0; 
-            padding: 0 0 6px 0;
-            display: block;
-            border-bottom: 1px solid #999;
-            color: #fff;
-         }
-
       .form-assignva .va-assigned { width: 50%;}
 
       input.work-size { width: 50px; }
@@ -363,9 +366,19 @@ body {
          padding: 12px;
          margin: 24px 0;
       }
-         #pricesheet-processing-steps input { width: 90%; }
+
+      #pricesheet-processing-steps .step { margin: 0 0 24px 0; }
 
       .choice-or { display: block; margin: 12px 24px; }
+
+      #pricesheet-processing-steps .find-existing input { width: 90%; }
+      #pricesheet-processing-steps .search-results label {
+         display: block;
+         margin: 24px;
+         line-height: 1.5;
+         border: 1px solid #ccc;
+         padding: 12px;
+      }
 
 }
 
