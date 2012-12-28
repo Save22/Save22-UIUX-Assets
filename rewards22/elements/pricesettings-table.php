@@ -45,7 +45,9 @@
              </tr>
              <tr>
                <td class="index">1</td>
-               <td>
+               <td class="td-desc">
+                  <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>
+                  <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>
                   <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>
                </td>
                <td>
@@ -64,7 +66,7 @@
              </tr>
              <tr>
                <td class="index">2</td>
-               <td>
+               <td class="td-desc">
                      <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor.</p>
                </td>
                <td>
@@ -83,7 +85,7 @@
              </tr>
              <tr>
                <td class="index">3</td>
-               <td>
+               <td class="td-desc">
                   <p>Vivamus hendrerit arcu sed erat molestie.</p>
                </td>
                <td>
@@ -102,7 +104,7 @@
              </tr>
              <tr>
                <td class="index">4</td>
-               <td>
+               <td class="td-desc">
                   <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
                </td>
                <td>
@@ -120,7 +122,7 @@
              </tr>
              <tr>
                <td class="index">5</td>
-               <td>
+               <td class="td-desc">
                   <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
                </td>
                <td>
@@ -138,7 +140,7 @@
              </tr>
              <tr>
                <td class="index">6</td>
-               <td>
+               <td class="td-desc">
                   <a href="#">add description</a>
                </td>
                <td>

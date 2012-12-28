@@ -23,7 +23,6 @@ if (!window.getComputedStyle) {
 
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
-    
   $('body').addClass('js');
 
   var $menu = $('#panel'),
@@ -37,7 +36,8 @@ jQuery(document).ready(function($) {
   });
 
    
-  document_fill_height('#document');
+  // SOMETHING IS WRONG WITH THIS CODE 
+  // document_fill_height('#document');
 
   /* PIKADAY DATE PICKER */
         var picker = new Pikaday(
