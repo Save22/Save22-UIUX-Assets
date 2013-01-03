@@ -13,12 +13,6 @@
 
   <title>Save22</title>
   
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  -->
-  
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
@@ -66,6 +60,14 @@
             </div>
                 
         </div><!-- logo -->
+      <div class="topnav right">
+        <ul class="link-list">
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/investors">Investors</a></li>
+          <li><a href="http://build.save22.com/">Blog</a></li>
+        </ul>
+      </div>
     </div><!-- row -->
 </header>
 

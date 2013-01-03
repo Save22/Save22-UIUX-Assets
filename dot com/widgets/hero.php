@@ -2,21 +2,17 @@
 <!-- if no hero shot uploaded -->
 <section id="hero-html" class="group">
    <div class="row">
-      <div class="three columns intro4">
-         <h1>Plan your shopping by knowing where to get the best deals!</h1>
-      </div>
-
-      <div class="three columns intro1">
+      <div class="four columns intro1">
          <img src="img/default-hero1@2x.png" alt=""> 
          <div class="hero-copy">search for items in your shopping list</div>
       </div>
 
-      <div class="three columns intro2">
+      <div class="four columns intro2">
          <img src="img/default-hero2@2x.png" alt="">
          <div class="hero-copy">find shops<br>and compare prices</div>
       </div>
 
-      <div class="three columns intro3">
+      <div class="four columns intro3">
          <img src="img/default-hero3@2x.png" alt="">
          <div class="hero-copy">get the best deals!</div>
       </div>
