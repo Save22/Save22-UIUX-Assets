@@ -13,12 +13,6 @@
 
   <title>Save22</title>
   
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  -->
-  
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
