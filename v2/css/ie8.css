@@ -8,3 +8,11 @@
 #site_search { padding: 6px 6px 6px 32px; }
 
 .tab-label { width: 165px; }
+
+
+
+#smart-shopper .row { width: 100%; }
+nav.top-bar { overflow: visible; }
+nav.top-bar .nav-title { float: left; }
+nav.topbar section { float: left; background: #3b3b3b; }
+nav.top-bar section ul li a.active { display: block; width: 100%; }

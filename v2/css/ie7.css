@@ -19,6 +19,13 @@ ul.nolist li { padding: 0; }
 
 #site_search { height: 16px; margin: 0; }
 
+#smart-shopper .row { width: 100%; }
+nav.top-bar { overflow: visible; }
+nav.top-bar .nav-title { float: left; }
+nav.topbar section { float: left; background: #3b3b3b; }
+nav.top-bar section ul li.has-dropdown { background: url('../img/dk_arrows_white.png') center right no-repeat; padding-right: 0; }
+nav.top-bar section ul li a.active { display: block; width: 100%; }
+
 .flyout-toggle { display: block; width: 7px; height: 5px; background: url('../img/dk_arrows_white.png') 20px 14px no-repeat;  }
 
 #smart-shopper .has-flyout { position: relative; z-index: 800; }

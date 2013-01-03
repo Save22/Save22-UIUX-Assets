@@ -29,7 +29,7 @@
               </li>
             </ul>
           </li>
-          <li>
+          <li class="has-dropdown">
             <a href="#">Health and Beauty</a>
           </li>
           <li>
@@ -37,6 +37,29 @@
           </li>
           <li class="active">
             <a href="#">Moms</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Gadgets</a>
+            <ul class="dropdown">
+              <li>
+                <a href="#" class="">Level 2</a>
+              </li>
+              <li>
+                <a href="#" class="">Level 3</a>
+              </li>
+              <li>
+                <a href="#" class="">Level 4</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Health and Beauty</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Home &amp; Office</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="#">Smartphones &amp; Tablets</a>
           </li>
         </ul>
 
