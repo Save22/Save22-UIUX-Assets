@@ -245,27 +245,30 @@ a {
 
 
 
-	/* 
+	 
 
 	#phone-preview .row { width: 100%; }
 
-	*/
+	
 
 	#ipad {
-		margin: auto; width: 615px; height: 350px; overflow: hidden; padding-top: 48px;
+		margin: auto; width: 615px; height: 350px; overflow: hidden; padding-top: 48px; margin-left: -45px;
+	}
+	#nexus {
+		margin: auto; width: 320px; height: 350px; overflow: hidden; padding-top: 78px; margin-left: -45px;
 	}
 	#iphone  { margin: auto; width: 300px; height: 350px; overflow: hidden; padding-top: 88px; }
-		#iphone img, #ipad img { 
-			position: relative;
-			-webkit-transition: all 0.2s ease-in;  
-			-moz-transition: all 0.2s ease-in;  
-			-o-transition: all 0.2s ease-in; 
-			transition: all 0.2s ease-in; 
-			z-index: 2;
-			float: left;
-		}
+	#iphone img, #ipad img, #nexus img { 
+		position: relative;
+		-webkit-transition: all 0.2s ease-in;  
+		-moz-transition: all 0.2s ease-in;  
+		-o-transition: all 0.2s ease-in; 
+		transition: all 0.2s ease-in; 
+		z-index: 2;
+		float: left;
+	}
 
-	#iphone:hover img, #ipad:hover img { top: -30px; }
+	#iphone:hover img, #ipad:hover img, #nexus:hover img { top: -30px; }
 
 
 

@@ -6,10 +6,13 @@
    </div>
    <div class="row">
       <div id="iphone" class="left">
-         <img src="img/sample-iphone.png" width="300">
+         <img src="img/sample-iphone.png">
+      </div>
+      <div id="nexus" class="left">
+         <img src="img/sample-nexus.png">
       </div>
       <div id="ipad" class="left">
-         <img src="img/sample-ipad.png" width="615">
+         <img src="img/sample-ipad.png">
       </div>
    </div>
 </div>
