@@ -37,11 +37,12 @@
 
     <div class="row copyright">
         <div class="six columns">
-            &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.
           <ul id="country-options" class="link-list left">
-            <li><a href="http://save22.com.sg" class="current">Singapore</a></li>
-            <li><a href="http://save22.com.ph">Philippines</a></li>
+            <li><a href="http://save22.com.sg" class="current"><img src="img/flag-sg-small.png"></a></li>
+            <li><a href="http://save22.com.ph"><img src="img/flag-ph-small.png"></a></li>
           </ul>
+          <span class="footer-text left">
+            &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.</span>
 
         </div>
         <div class="six columns">
