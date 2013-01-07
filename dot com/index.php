@@ -57,8 +57,8 @@
    <h1>What can you do with <img src="img/logo-big.png" class="logo" alt="Save22">?</h1>
    <div class="row">
       <div class="six columns">
-         <h2>Add prices when you shop</h2>
-         <p>Use the <strong><a href="https://itunes.apple.com/ag/app/save22/id460343551?mt=8">iPhone</a></strong> or <strong><a href="https://play.google.com/store/apps/details?id=com.save22.client.android&hl=en">Android</a></strong> app to add items and prices when you are shopping! Just scan the barcode with your phone's camera and follow the steps.</p>
+         <h2>Sharing prices made easy</h2>
+         <p>Scanning barcodes with the <strong><a href="https://itunes.apple.com/ag/app/save22/id460343551?mt=8">iPhone</a></strong> and <strong><a href="https://play.google.com/store/apps/details?id=com.save22.client.android&hl=en">Android</a></strong> apps make it easy to find the list of stores and prices for each item.</p>
       </div>
       <div class="six columns">
          <img src="img/home-1.png" class="feat-screenshot" alt="Add prices when you shop">
@@ -75,7 +75,7 @@
    </div><!-- row -->
    <div class="row">
       <div class="six columns">
-         <h2>Surf malls and stalls online</h2>
+         <h2>Surf malls and stores online</h2>
          <p>Your favorite stores from <a href="http://save22.com.sg">Singapore</a> and the <a href="http://save22.com.ph">Philippines</a> are online, which makes it so easy to compare prices and plan your shopping. </p>
       </div>
       <div class="six columns">

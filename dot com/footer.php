@@ -42,7 +42,7 @@
             <li><a href="http://save22.com.ph"><img src="img/flag-ph-small.png"></a></li>
           </ul>
           <span class="footer-text left">
-            &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.</span>
+            &copy; 2011-2012 <strong><a href="http://save22.com">Save22</a></strong>. All rights reserved.</span>
 
         </div>
         <div class="six columns">
@@ -50,19 +50,18 @@
               <!-- FACEBOOK LINK if PH --> 
               <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsave22ph&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
 
-              <!-- IF SG USE THIS FB URL: 
-              <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSave22Singapore&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
-              -->
-
               <div class="tw-link right">
                 <!-- TWITTER LINK if PH -->
                 <a href="https://twitter.com/save22ph" class="twitter-follow-button" data-show-count="false">Follow @save22ph</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-                <!-- USE THIS CODE IF SG 
+              </div>
+
+              <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSave22Singapore&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
+
+              <div class="tw-link right">
                 <a href="https://twitter.com/save22sg" class="twitter-follow-button" data-show-count="false">Follow @save22sg</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              -->
               </div>
           </div>
         </div><!-- social -->
