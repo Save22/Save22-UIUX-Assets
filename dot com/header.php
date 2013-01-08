@@ -1,3 +1,5 @@
+<?php require_once('functions.php'); ?>
+
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -45,7 +47,7 @@
   <![endif]-->
 
 </head>
-<body>
+<body class="<?php page_class();?>">
 
 
 <header id="main-header">

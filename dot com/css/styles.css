@@ -18,8 +18,36 @@
 /* lists */
 
 	.nolist { margin: 0; padding: 0; list-style-type: none; }
-	.list-nav li { float: left; display: block; margin-right: 10px; }
-	ul li:last-child, ol li:last-child { margin: 0; border: 0; }
+
+	ul.accordion {
+
+	}
+
+	ul.accordion > li.active {
+
+	}
+	ul.accordion > li {
+
+	}
+
+	/* videos page - accordion */
+	#videos ul.accordion { border-bottom: 3px solid #333; }
+	#videos ul.accordion > li { border-top: 1px solid #333; }
+	#videos ul.accordion > li.active { border-top: 3px solid #666; }
+	#videos ul.accordion > li.active .content { background: #000; }
+	#videos ul.accordion > li > div.title { 
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+		border-bottom: 1px solid #333;
+		background: #4f4f4f;
+		color: #fff;
+	}
+		#videos ul.accordion > li > div.title h5 { color: #fff; }
+	#videos ul.accordion > li .content {
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+	}
+
 /* formats */
 	.nofloat { float: none; }
 
@@ -48,11 +76,14 @@
 	}
 		.reveal-modal h2.single-header { margin: 0 0 24px 0; display: block; border-bottom: 3px solid #3b3b3b; }
 
-	h2.page-header, h2.store-name { 
-		border-bottom: 3px solid #3b3b3b; margin-bottom: 24px; 
+	.page-header { 
+		border: 0;
+		font-style: italic;
+		font-weight: 400;
+		font-size: 3.5em;
 	}
 
-	h3 { font-size: 1em; text-transform: uppercase; font-weight: 900; }
+	h3 { font-size: 1.813em; text-transform: uppercase; letter-spacing: 1px; color: #999; line-height: 1.5; }
 
 	.no-border-top { border-top: 0 !important; }
 
@@ -70,7 +101,18 @@
 
 	a:link, a:active, a:hover, a:visited { color: #b3181d; }
 
+	a { 
+		-webkit-transition: all 0.2s ease-in;  
+		-moz-transition: all 0.2s ease-in;  
+		-o-transition: all 0.2s ease-in; 
+		transition: all 0.2s ease-in;
+	}
+
 	strong, b { color: #000; font-weight: 900; }
+
+	#about p, #media p { 
+		font-size: 1.5em; margin: 48px; 
+	}
 
 /* forms */
 
@@ -89,23 +131,6 @@
 	}
 
 
-.mtop { margin-top: 25px; }
-
-.footnote { margin-top: 24px; }
-	.footnote p { font-size: 0.813em; }
-
-.box-shadow { 
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
-}
-
-a { 
-	-webkit-transition: all 0.2s ease-in;  
-	-moz-transition: all 0.2s ease-in;  
-	-o-transition: all 0.2s ease-in; 
-	transition: all 0.2s ease-in;
-}
-
-
 /* ============================== */
 /* ! Layout for desktop version   */
 /* ============================== */
@@ -117,16 +142,22 @@ a {
 			font-size: 100%;
 			line-height: 1.5;
 			color: #4b4b4b;
-			background: url('../img/bg1.jpg') #fff;
-			background-size: 100%;
-			background-repeat: no-repeat;
+			background: #fff;
+		}
+
+		.segment { padding: 24px 0; }
+
+		.mtop { margin-top: 25px; }
+
+		.box-shadow { 
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
 		}
 
 
 	/* HEADER */ 
 
 		#main-header {
-			background: rgba(255,255,255,0.7); 
+			background: rgba(255,255,255,0.75); 
 			border-top: 4px solid #2b2b2b;
 			border-bottom: 1px solid #999;
 			box-shadow: 0 0px 5px 0 rgba(0,0,0,0.35);
@@ -258,6 +289,11 @@ a {
 
 	/* HOMEPAGE */
 
+		body.index {
+			background: url('../img/bg1.jpg') #fff no-repeat fixed;
+			background-size: 100%;
+		}
+
 		.home-copy h2 {
 			display: block;
 			font-family: 'Lato', sans-serif;
@@ -300,7 +336,7 @@ a {
 			border-radius: 8px;
 			box-shadow: 0 2px 3px rgba(0,0,0,0.5);
 		}
-			#dl-link h3 { border-bottom: 3px solid #bababa; padding: 0 0 12px 0;}
+			#dl-link h3 { border-bottom: 3px solid #bababa; padding: 0 0 12px 0; }
 		.arrow_box {
 			position: relative;
 			background: #ffffff;
@@ -378,15 +414,79 @@ a {
 			#ipad:hover #ipad-content a:hover  { background: #000; }
 
 
-	#home-features { background: #f4f4f4; padding: 24px 0; text-shadow: 1px 1px 0 #fff; }
-	#home-features h1 {text-align: center; margin: 24px auto 48px auto; color: #3b3b3b;}
-	#home-features .feat-screenshot { 
-		max-width: 300px;
-		display: block;
-		margin: auto;
-	}
-		#home-features #feat-3 { max-width: 440px; }
-	#home-features p { font-size: 1.318em; }
+		#home-features { background: #f4f4f4; padding: 24px 0; text-shadow: 1px 1px 0 #fff; }
+		#home-features h1 {text-align: center; margin: 24px auto 48px auto; color: #3b3b3b;}
+		#home-features .feat-screenshot { 
+			max-width: 300px;
+			display: block;
+			margin: auto;
+		}
+			#home-features #feat-3 { max-width: 440px; }
+		#home-features p { font-size: 1.25em; }
+
+
+	/* ABOUT US */
+
+		body.about {
+			background: #fff;
+		}
+
+		#about { background: #f7f7f7; }
+		
+		#team {
+			background: url('../img/bg2.jpg') #1c1c1c no-repeat;
+			background-size: 100%;
+		}
+
+		.profile-desc { background: rgba(0,0,0,0.5); padding-bottom: 24px; color: #fff; }
+
+			.profile-desc h2 { color: #fff; border-color: #000; }
+			.profile-desc strong { color: #ccc; text-transform: uppercase;}
+
+
+
+	/* INVESTORS */
+
+		body.investors {
+			background: url('../img/bg3.jpg') #fff no-repeat fixed;
+			background-size: 100%;
+		}
+
+		#media .intro-header { font-size: 1.2em; }
+
+		#media-nav {
+			border-top: 1px solid #3b3b3b;
+			border-bottom: 3px solid #3b3b3b;
+			padding: 0;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 1px;
+			background: rgba(0,0,0,0.5);
+		}
+			#media-nav ul { margin-bottom: 0;}
+			#media-nav a { color: #fff; display: block; padding: 24px 12px; }
+			#media-nav a:hover, #media-nav a.current:hover { color: #fff; background: #000; }
+			#media-nav a.current { background: #fff; color: #000; }
+		
+
+		body.investors .segment { background: #fff; margin: 0; padding: 0; }
+		body.investors .segment h1 { margin: 48px 0 24px 0; }
+		body.investors #media { background: none; }
+
+		#press .published { text-align: center; font-weight: 300; font-style: italic; background: #f7f7f7; float: left; padding: 12px 24px; margin: 0 24px 24px 0; font-size: 2em; }
+			#press .published .date { display: block; }
+		#press h2 { font-size: 2.25em; text-align: left; text-transform: none; letter-spacing: 0; line-height: 1.5; padding: 0; border: 0; margin-bottom: 12px; }
+			#press a h2 { color: #222; }
+			#press a .published { color: #4b4b4b; }
+		#press h2, #press h3 { margin-left: 230px; margin-right: 30px; }
+		#press article { margin: 24px 0; border-bottom: 1px dotted #ccc; padding: 24px 0; width: 80%; margin: auto; }
+		#press .content p { margin: 24px 0 24px 48px; }
+
+		#videos { background: #3b3b3b; }
+			#videos h1, #videos h2 { color: #fff; }
+
+		#videos article { display: block; float: left; margin: 24px auto; }
+
 
 
 
