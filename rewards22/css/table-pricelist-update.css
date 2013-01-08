@@ -1,4 +1,6 @@
 
+td.td-todayprice .button { margin-bottom: 12px; }
+
 @media only screen and (max-width: 760px),
    (min-device-width: 768px) and (max-device-width: 1024px)  {
          table { background: none; border: 0; }
@@ -18,5 +20,11 @@
          table#priceentry-assignment td:nth-of-type(1):before { content: "Virtual Assitant"; }
          table#priceentry-assignment td:nth-of-type(2):before { content: ""; }
          table#priceentry-assignment td:nth-of-type(3):before { content: "Last Sheet Sent"; }
+
+      /* Label the data */
+         table#pricelist-update-tasks td:nth-of-type(1):before { content: ""; }
+         table#pricelist-update-tasks td:nth-of-type(2):before { content: "Product Name"; font-weight: bold; }
+         table#pricelist-update-tasks td:nth-of-type(3):before { content: "Last Known Price"; font-weight: bold; }
+         table#pricelist-update-tasks td:nth-of-type(4):before { content: "Price Today"; font-weight: bold; }
 
    }
