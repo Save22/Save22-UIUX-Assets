@@ -24,7 +24,7 @@
               </td>
               <td class="td-todayprice">
                 <a href="#" class="button radius button-same">same</a>
-                <a href="#" class="button radius button-new">new price</a>
+                <a href="#" class="button radius button-new" data-reveal-id="modalNewPrice">new price</a>
                 <a href="#" class="button radius button-unknown">?</a>
               </td>
              </tr>
@@ -40,7 +40,7 @@
               </td>
               <td class="td-todayprice">
                 <a href="#" class="button radius button-same">same</a>
-                <a href="#" class="button radius button-new">new price</a>
+                <a href="#" class="button radius button-new" data-reveal-id="modalNewPrice">new price</a>
                 <a href="#" class="button radius button-unknown">?</a>
               </td>
              </tr>
@@ -56,7 +56,7 @@
               </td>
               <td class="td-todayprice">
                 <a href="#" class="button radius button-same">same</a>
-                <a href="#" class="button radius button-new">new price</a>
+                <a href="#" class="button radius button-new" data-reveal-id="modalNewPrice">new price</a>
                 <a href="#" class="button radius button-unknown">?</a>
               </td>
              </tr>
@@ -72,7 +72,7 @@
               </td>
               <td class="td-todayprice">
                 <a href="#" class="button radius button-same">same</a>
-                <a href="#" class="button radius button-new">new price</a>
+                <a href="#" class="button radius button-new" data-reveal-id="modalNewPrice">new price</a>
                 <a href="#" class="button radius button-unknown">?</a>
               </td>
              </tr>
@@ -88,13 +88,26 @@
               </td>
               <td class="td-todayprice">
                 <a href="#" class="button radius button-same">same</a>
-                <a href="#" class="button radius button-new">new price</a>
+                <a href="#" class="button radius button-new" data-reveal-id="modalNewPrice">new price</a>
                 <a href="#" class="button radius button-unknown">?</a>
               </td>
              </tr>
            </tbody>
          </table>
 
+
+
+        <!-- MODAL WINDOW -->
+        <div id="modalNewPrice" class="reveal-modal medium">
+          <h2>Add the New Price</h2>
+          
+          <form>
+            <input type="text" placeholder="Enter price">
+            <input type="submit" value="Update Price" class="button radius">
+          </form>
+
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
 
 
 

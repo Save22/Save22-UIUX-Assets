@@ -30,8 +30,8 @@
          <h1 class="page-header">The Team</h1>
 
          <div class="row profile">
-            <div class="six columns">
-
+            <div class="six columns profile-pic">
+               <img src="img/team-ron.png" alt="Ronald">
             </div>
             <div class="six columns profile-desc">
                <h2>Ronald</h2>
@@ -41,8 +41,8 @@
          </div><!-- profile row -->
 
          <div class="row profile">
-            <div class="six columns">
-
+            <div class="six columns profile-pic">
+               <img src="img/team-guyi.png" alt="Guyi">
             </div>
             <div class="six columns profile-desc">
                <h2>Guyi</h2>
@@ -53,50 +53,39 @@
 
          <div class="row profile">
             <div class="six columns profile-desc">
-               <h2>Ronald</h2>
+               <h2>Allan</h2>
 
                <p><strong>Ronald Cheung</strong> looks at the technology behind Save22 to ensure users can seamlessly find great lobangs. Previously Ronald spent time in various development / technical roles within large companies with three letter acronyms including AMP, BHP, EDS. Outside of work he enjoys hiking, growing plants, and drinking coffee.</p>
             </div>
-            <div class="six columns">
-
+            <div class="six columns profile-pic">
+               <img src="img/team-allan.png" alt="Allan">
             </div>
          </div><!-- profile row -->
 
          <div class="row profile">
             <div class="six columns profile-desc">
-               <h2>Guyi</h2>
+               <h2>Rod</h2>
 
                <p><strong>Guyi Shen</strong> makes sure that people find out about Save22. He also makes sure that Save22 is full of good savings. Before Save22, he founded LoanExpertOnline, an online secured loan originator. He also founded 15 Minute, an online home loan company. Guyi graduated from UNSW with a B.Sc in BIT, he’s also spent some time at IBM as an ethical hacker. His hobbies include origami, basketball, reading &amp; snowboarding.</p>
             </div>
-            <div class="six columns">
-
+            <div class="six columns profile-pic">
+               <img src="img/team-rod.png" alt="Rod">
             </div>
          </div><!-- profile row -->
 
-         <div class="row profile">
+         <div class="row profile profile-pic">
             <div class="six columns profile-desc">
-               <h2>Ronald</h2>
+               <h2>Lope</h2>
 
                <p><strong>Ronald Cheung</strong> looks at the technology behind Save22 to ensure users can seamlessly find great lobangs. Previously Ronald spent time in various development / technical roles within large companies with three letter acronyms including AMP, BHP, EDS. Outside of work he enjoys hiking, growing plants, and drinking coffee.</p>
             </div>
-            <div class="six columns">
-
+            <div class="six columns profile-pic">
+               <img src="img/team-lope.png" alt="Allan">
             </div>
          </div><!-- profile row -->
 
          <div class="row profile">
-            <div class="six columns profile-desc">
-               <h2>Guyi</h2>
-
-               <p><strong>Guyi Shen</strong> makes sure that people find out about Save22. He also makes sure that Save22 is full of good savings. Before Save22, he founded LoanExpertOnline, an online secured loan originator. He also founded 15 Minute, an online home loan company. Guyi graduated from UNSW with a B.Sc in BIT, he’s also spent some time at IBM as an ethical hacker. His hobbies include origami, basketball, reading &amp; snowboarding.</p>
-            </div>
-            <div class="six columns">
-
-            </div>
-         </div><!-- profile row -->
-
-         <div class="row profile">
-            <div class="six columns">
+            <div class="six columns profile-pic">
 
             </div>
             <div class="six columns profile-desc">
