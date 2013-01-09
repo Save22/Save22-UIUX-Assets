@@ -301,13 +301,12 @@
 			display: block;
 			font-family: 'Lato', sans-serif;
 			text-align: center;
-			color: #fff;
+			color: #000;
 			text-transform: uppercase;
 			line-height: 1.5;
 			margin: 5% 0 0 0;
 			font-weight: 900;
 			letter-spacing: 2px;
-			text-shadow: 1px 1px 0 rgba(0,0,0,0.5);
 			border: 0;
 		}
 
@@ -330,6 +329,7 @@
 		}
 
 		#dl-link {
+			display: none;
 			position: absolute;
 			z-index: 5;	
 			margin: 0 0 0 7%;
