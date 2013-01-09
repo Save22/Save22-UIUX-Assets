@@ -289,7 +289,7 @@
 
 	/* HOMEPAGE */
 
-		body.index {
+		body.index, body.error-404 {
 			background: url('../img/bg1.jpg') #fff no-repeat fixed;
 			background-size: 100%;
 		}
@@ -490,6 +490,66 @@
 		#videos article { display: block; float: left; margin: 24px auto; }
 
 
+	/* ERROR PAGES */
+
+		div.aisle { 
+			text-align: center;
+			position: relative;
+			top: -50px;
+			z-index: 10;
+		}
+		.aisle-header {
+			display: block;
+			display: block;
+			width: 400px;
+			height: 202px;
+			margin: auto;
+			text-indent: -900%;
+		}
+			#aisle-404 {
+				background: url('../img/error-404.png') center center no-repeat;
+				background-size: 400px;
+			}
+		.error-page h2 { 
+			background: #026951;
+			width: 400px;
+			padding: 12px 24px;
+			border: 1px solid #026951;
+			color: #fff;
+			margin: auto;
+			font-size: 1.2em;
+			box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+			position: relative;
+			top: -50px;
+		}
+
+		.error-page p.explained { margin: 24px; text-align: center; font-size: 1.25em; margin-top: -20px; }
+
+
+	/* body search */
+
+		#site_search { 
+			border: 1px solid #666;
+			background: url('../img/searchicon.png') 12px center no-repeat #fff;
+			padding: 24px 24px 24px 48px;
+			margin: 0 8px 0 0;
+			font-size: 2em;
+		}
+			#site_search:focus { border: 2px solid #666; }
+		.body-search .button { 
+			border-color: #666;
+			padding-top: 10px;
+			font-size: 2em;
+			height: 50px;
+			background: #b3181d;
+		}
+			.body-search .button:hover, .body-search .button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
+
+		body.error #main-footer {
+			background: 0; border: 0;
+		}
+
+
 
 
 
@@ -511,7 +571,13 @@
 /* ========================================== */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+	body.error-404 div.aisle #aisle-404 {
+		background: url('../img/error-404@2x.png') center center no-repeat;
+		background-size: 400px;
+	}
+	#error-404 div.aisle img { visibility: hidden;}
 
+	#site_search { background: url('../img/searchicon@2x.png') 12px center no-repeat #fff; background-size: 17px; }
 }
 
 @media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {

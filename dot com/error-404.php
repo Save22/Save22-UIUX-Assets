@@ -2,13 +2,31 @@
    
 <div id="content">
 
-<div id="contact" class="segment">
+<div id="error-404" class="error-page segment">
    <div class="row">
       <div class="twelve columns">
+         <div class="aisle">
+            <h1 class="aisle-header" id="aisle-404">404</h1>
+         </div>
 
-         <h2>Bummer. <br>We couldn't find the page you were looking for.</h2>
+            <h2>The page cannot be found</h2>
 
+               <p class="explained">
+                  The page you are looking for might not exist yet. Do you want to look for something else?
+               </p>
 
+         <div class="body-search">
+            <form>
+               <div class="row collapse">
+                 <div class="ten mobile-three columns">
+                   <input type="text" id="site_search" />
+                 </div>
+                 <div class="two mobile-one columns">
+                   <a class="button expand postfix">Search</a>
+                 </div>
+               </div>
+            </form>
+         </div>  
 
       </div>
    </div><!-- row -->

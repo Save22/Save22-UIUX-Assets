@@ -7,7 +7,10 @@ function page_class(){
    $parts = $parts[count($parts) - 1];
    $class = basename($parts, ".php"); 
    echo $class;
-   
+
+   if ($class == 'error-404') {
+      echo ' fullheight error';
+   }
 }
 
 
