@@ -51,7 +51,7 @@
 
 
 <header id="main-header">
-    <div class="row relative">
+    <div class="row">
         <div class="logo-set left">
             <a href="http://save22.com">
               <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>

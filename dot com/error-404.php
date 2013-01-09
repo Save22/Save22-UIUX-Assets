@@ -5,15 +5,16 @@
 <div id="error-404" class="error-page segment">
    <div class="row">
       <div class="twelve columns">
-         <div class="aisle">
+
+         <!-- aisle sign -->
+         <div class="aisle-sign" id="sign-404">
             <h1 class="aisle-header" id="aisle-404">404</h1>
-         </div>
-
             <h2>The page cannot be found</h2>
+         </div><!-- end sign -->
 
-               <p class="explained">
-                  The page you are looking for might not exist yet. Do you want to look for something else?
-               </p>
+            <p class="explained">
+               The page you are looking for might not exist yet. Do you want to look for something else?
+            </p>
 
          <div class="body-search">
             <form>

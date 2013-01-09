@@ -63,5 +63,5 @@ function fullheight(div_name) {
         window_height = $(window).height(),
         content_total = window_height - (header_height + footer_height);
 
-    $(div_name).css('height', content_total + 'px');
+    $(div_name).css('min-height', content_total + 'px');
 }
