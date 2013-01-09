@@ -73,11 +73,28 @@
                 </section>
 
                 <section class="group block mtop">
+
+
+                <dl class="tabs">
+                  <dd class="active"><a href="#products">Products</a></dd>
+                  <dd><a href="#comments">Comments about this store</a></dd>
+                </dl>
+
+                <ul class="tabs-content">
+                  <li class="active" id="productsTab">
+
                     <div class="group store-header">
                         <h2 class="single-header left innercol">Featured Products</h2>
                     </div>
 
                     <?php require_once('widgets/featured-diapers.php'); ?>
+
+                  </li>
+                  <li id="commentsTab">
+                    Comments here.
+                  </li>
+                </ul>
+
                 </section>
 
             </div>

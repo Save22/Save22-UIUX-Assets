@@ -51,17 +51,24 @@ jQuery(document).ready(function($) {
 
     /* FULL WIDTH PAGES */
 
-    fullheight('.error-page');
+    fullheight('.error-page', '#main-footer');
+    fullheight('#media', '#media-nav');
 
 }); /* end of as page load scripts */
 
 
-function fullheight(div_name) {
+function fullheight(div_name, bottom_div) {
 
     var header_height = $('#main-header').outerHeight(),
-        footer_height = $('#main-footer').outerHeight(),
-        window_height = $(window).height(),
-        content_total = window_height - (header_height + footer_height);
+        footer_height = $(bottom_div).outerHeight(),
+        window_height = $(window).height();
+
+    if ($(bottom_div).attr('id') == 'media-nav') {
+        footer_height = footer_height + 84;
+    }
+
+    var content_total = window_height - (header_height + footer_height);
+
 
     $(div_name).css('min-height', content_total + 'px');
 }
