@@ -1,5 +1,7 @@
         <header>
-          <h1 class="page-header">Price Update Tasks</h1>
+          <h1 class="page-header group">
+          <span class="name">Price Update Tasks</span>
+          <a href="phonegap-pricelistupdate.php" class="right back-button">&lsaquo; back <span class="mobile-hide">to Price List Update Jobs</span></a></h1>
         </header>
 
          <table id="pricelist-update-tasks" class="twelve data">

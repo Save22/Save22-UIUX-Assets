@@ -126,6 +126,7 @@ body {
    }
    form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; box-shadow: 1px 2px 8px rgba(0,0,0,0.25)}
 
+
 /* icons */
 
    .hide-text { display: block; text-indent: -9999px;  white-space: nowrap; overflow: hidden; border: 0; }
@@ -179,6 +180,7 @@ body {
    #main-footer a { color: #4d4d4d; }
       #main-footer a:hover { text-decoration: underline; }
 
+   span.mobile-hide { visibility: hidden; }
 
 /* SLIDE LEFT OPTIONS - default in mobile view */
 
@@ -334,6 +336,8 @@ body {
 
    #main-footer.row { display: block; }
 
+   span.mobile-hide { visibility: visible; }
+
    /* BUTTONS */
    .option-buttons .button { margin-left: 14px; }
    .save-button { background: #bc0d0d; border: 1px solid #7a0d0d;}
@@ -379,6 +383,9 @@ body {
          border: 1px solid #ccc;
          padding: 12px;
       }
+
+   /* PRICE UPDATE TASKS */
+   .page-header .name { display: block; float: left; }
 
 }
 
@@ -435,6 +442,18 @@ body {
    input.input-date { width: 80%; padding: 4%; height: 44px; float: left; }
    .pricesheet .date-box { border-top: 2px solid #4b4b4b; }
       .pricesheet.date-box .icon-calendar { margin-top: 12px; }
+
+   .page-header .name { display: block; float: right; }
+   a.back-button { 
+      display: block; float: left; 
+      width: 100px; border: 1px solid #000; height: 44px; 
+      padding: 12px 14px; 
+      background: #9b1111; color: #fff; 
+      text-align: center; 
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 0.813em;
+   }
 
 }
 

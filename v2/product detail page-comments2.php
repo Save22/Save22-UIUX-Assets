@@ -45,16 +45,22 @@
                                 <li><a href="#">iphone</a></li>
                             </ul>
                     </article>
-                </div>
+                </div><!-- item description -->
                 
-            </div>
+            </div><!-- row -->
+
+        </div><!-- ninecol group -->
+
+    </div><!-- row -->
+
+    <div class="row">
+        <div class="eight columns">
 
 
             <section class="group">
 
               <dl class="tabs mtop">
                 <dd class="active"><a href="#price-options">Compare Options (4)</a></dd>
-                <dd><a href="#comments">Comments about this product</a></dd>
               </dl>
 
               <ul class="tabs-content">
@@ -194,19 +200,20 @@
                     </ol>
 
                 </li>
-                <li id="commentsTab">
-                    <div class="row">
-                        <div class="eight columns centered">
-                            Comments form here.
-                        </div>
-                    </div>
-                </li>
 
             </section>
 
-            </div><!-- ninecol group -->
+        </div><!-- nine columns -->
 
-        </div><!-- row -->
+        <div class="four columns">
+            <div class="product-comments">
+
+                <h3>Comments</h3>
+                PRODUCT COMMENTS HERE
+
+            </div>
+        </div>
+    </div>
 </div><!-- content -->
 
 
