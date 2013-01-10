@@ -110,33 +110,54 @@ jQuery(document).ready(function($) {
           });
         });
 
-    /* about tab */
 
-    function about_tab(){
-        var article = $('#about-tab article');
-        if (article.hasClass('open')) {
-            article.slideUp().removeClass('open');
-        }
-        else { 
-            article.slideDown().addClass('open');
-        }
-    }
+    /* store header nav */ 
 
-    var tab_label = $("#about-tab"),
-        about_article = $('#about-tab article');
+        var store_div = $('#store-tabs');
+        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
+        var store_div_height = store_div.height();
 
-        tab_label.on("click", function(e){
-            about_tab();
-            e.preventDefault();
+        $(window).scroll(function(){         
+             var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+            if(p >= store_start) {
+                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
+                $(store_div).addClass('floating-header'); 
+            }
+            else {
+                $(store_div).removeClass('floating-header');
+            }
         });
 
-        tab_label.hover(
-          function () {
-            about_article.toggleClass("open").stop(true, true).slideToggle();
-            about_article.removeClass('open');
-            e.preventDefault();
-          }
-        );
+
+    /* about tab */
+
+        function about_tab(){
+            var article = $('#about-tab article');
+            if (article.hasClass('open')) {
+                article.slideUp().removeClass('open');
+            }
+            else { 
+                article.slideDown().addClass('open');
+            }
+        }
+
+        var tab_label = $("#about-tab"),
+            about_article = $('#about-tab article');
+
+            tab_label.on("click", function(e){
+                about_tab();
+                e.preventDefault();
+            });
+
+            tab_label.hover(
+              function () {
+                about_article.toggleClass("open").stop(true, true).slideToggle();
+                about_article.removeClass('open');
+                e.preventDefault();
+              }
+            );
 
 
 }); /* end of as page load scripts */
