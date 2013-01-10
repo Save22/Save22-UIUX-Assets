@@ -107,7 +107,11 @@
 
                   </li>
                   <li id="commentsTab">
-                    Comments here.
+                    <div class="row">
+                        <div class="eight columns centered">
+                            Comments form here.
+                        </div>
+                    </div>
                   </li>
                 </ul>
 
