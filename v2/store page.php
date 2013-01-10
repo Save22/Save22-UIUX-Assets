@@ -14,14 +14,16 @@
 
                 <section class="group mtop row" id="store-allinfo">
                     <div class="six columns innercol">
-                        <h2 class="store-name">Gaisano Interpace</h2>
+                        <h2 class="store-name">
+                            <span class="name">Gaisano Interpace</span>
 
-                        <div class="store-website">
-                            <a href="http://company.com">company.com</a> <!-- url is stripped of http -->
-                        </div>
+                            <a href="http://gaisano-interpace.com" target="_blank" title="visit the store website" class="store-url">
+                                <img src="img/icon-store-website.png" width="18" height="15" alt="visit company website">
+                            </a>
 
-                        <h3 class="branch-name">Gilmore, QC</h3>
+                        </h2>
 
+                        <!-- store description -->
                         <article class="store-description">
                             <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi.  </p>
 
@@ -32,6 +34,8 @@
                         </p>
 
                         <article class="branch-address mtop">
+                        <h3 class="branch-name">Gilmore, QC</h3>
+
                             Unit B, Gilmore Commercial Plaza<br>
                             Gilmore Ave. cor Aurora Blvd<br>
                             New Manila, Quezon City
