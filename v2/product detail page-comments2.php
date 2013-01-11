@@ -23,50 +23,25 @@
                             to <strong>P 33,500</strong> out of 4 options
                         </p>
                     </div><!-- item info -->
+
+                    <div class="product-comments">
+
+                        <h3 class="mobile-hidden-header">Comments</h3>
+
+                        <div class="comments mobile-hide">
+                            PRODUCT COMMENTS HERE
+                        </div>
+                    </div>
                 </div>
 
-                <div id="item-description" class="eight columns mtop">
-                    <article>
+                <div class="eight columns mtop">
+                    <article id="item-description">
                         <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
                         <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
                     </article>
 
-                    <!-- tags -->
-                    <article class="tags-box group">
-                        <h3>tags</h3>
-                            <ul id="item-tags" class="list-nav">
-                                <li><a href="#">mobile</a></li>
-                                <li><a href="#">phones</a></li>
-                                <li><a href="#">apple</a></li>
-                                <li><a href="#">iphone</a></li>
-                                <li><a href="#">mobile</a></li>
-                                <li><a href="#">phones</a></li>
-                                <li><a href="#">apple</a></li>
-                                <li><a href="#">iphone</a></li>
-                            </ul>
-                    </article>
-                </div><!-- item description -->
-                
-            </div><!-- row -->
-
-        </div><!-- ninecol group -->
-
-    </div><!-- row -->
-
-    <div class="row">
-        <div class="eight columns">
-
-
             <section class="group">
-
-              <dl class="tabs mtop">
-                <dd class="active"><a href="#price-options">Compare Options (4)</a></dd>
-              </dl>
-
-              <ul class="tabs-content">
-
-                <li class="active" id="price-optionsTab">
-
+                <h2>Price Options</h2>
                     <ol id="price-list" class="nolist">
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
@@ -199,21 +174,31 @@
 
                     </ol>
 
-                </li>
-
             </section>
 
-        </div><!-- nine columns -->
+            <!-- tags -->
+            <section class="tags-box group">
+                <h3>tags</h3>
+                    <ul id="item-tags" class="list-nav">
+                        <li><a href="#">mobile</a></li>
+                        <li><a href="#">phones</a></li>
+                        <li><a href="#">apple</a></li>
+                        <li><a href="#">iphone</a></li>
+                        <li><a href="#">mobile</a></li>
+                        <li><a href="#">phones</a></li>
+                        <li><a href="#">apple</a></li>
+                        <li><a href="#">iphone</a></li>
+                    </ul>
+            </section>
 
-        <div class="four columns">
-            <div class="product-comments">
+                </div><!-- item -->
+                
+            </div><!-- row -->
 
-                <h3>Comments</h3>
-                PRODUCT COMMENTS HERE
+        </div><!-- ninecol group -->
 
-            </div>
-        </div>
-    </div>
+    </div><!-- row -->
+
 </div><!-- content -->
 
 
