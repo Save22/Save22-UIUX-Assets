@@ -11,7 +11,7 @@
 <footer id="main-footer">
     <div class="row">
         <div class="four columns widget">
-            <h3>Take a look around</h3>
+            <h3>Take a look around <span class="arrow"></span></h3>
             <div class="widget-content">
               <ul class="nolist">
                 <li><a href="http://save22.com/about">About Us</a></li>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="four columns widget">
-            <h3>Download</h3>
+            <h3>Download <span class="arrow"></span></h3>
             <div class="widget-content" id="footer-download">
               <ul class="nolist">
                 <li><a href="https://itunes.apple.com/ag/app/save22/id460343551?mt=8" class="dl-ios dl-button"><img src="img/dl-appstore2.png" class="left"> Available on the <br><span class="bigger">app store</span></a></li>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="four columns widget">
-            <h3>Follow Us</h3>
+            <h3>Follow Us <span class="arrow"></span></h3>
               <div class="widget-content">
               <ul class="nolist">
                 <!-- change links depending on country -->

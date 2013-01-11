@@ -39,8 +39,8 @@ jQuery(document).ready(function($) {
             else {
                 contents.slideDown().addClass('open');
             }
-            
         });
+
 
     } /* end smallest screen */
     
@@ -64,6 +64,7 @@ jQuery(document).ready(function($) {
                 $(div).removeClass('floating-header');
             }
         });
+
 
     } /* end larger than 481px */
     
@@ -94,6 +95,16 @@ jQuery(document).ready(function($) {
         
     }
 
+        $(".mobile-hidden-header").on("click", function(){
+            var mobile_contents = $(this).parent().find('div.mobile-hide');
+            if(mobile_contents.hasClass('open')) {
+                $(mobile_contents).slideUp().removeClass('open');
+            }
+            else {
+                mobile_contents.slideDown().addClass('open');
+            }
+        });
+            
         var $container = $('#container');
         // initialize Isotope
         $container.isotope({

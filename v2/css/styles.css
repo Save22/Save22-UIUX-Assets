@@ -44,6 +44,7 @@
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
 	}
 
+	.mobile-visible { display: none; }
 
 
 /* typography */
@@ -83,6 +84,10 @@
 	}
 
 	a img { border: 0; }
+
+	h3.mobile-hidden-header {
+		cursor: pointer;
+	}
 
 /* forms */
 
@@ -755,7 +760,7 @@
 
 			#searchbox { min-width: 150px; }
 			#searchbox, #main-header.floating-header #searchbox { margin: 0; padding: 0; }
-				#site_search, #site_search:focus { width: 250px; }
+				#site_search, #site_search:focus { width: 180px; }
 				#searchbox .button { display: none; }
 
 		#smart-shopper li.has-flyout { margin-left: 0; }
@@ -789,6 +794,45 @@
 				border-top: 0 !important;
 				color: #fff !important;
 			}
+
+		h3.mobile-hidden-header { 
+			background: #000;
+			color: #fff;
+			padding: 18px;
+			margin: 24px -15px 0 -15px;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 2px;
+			position: relative;
+			cursor: pointer;
+		}
+		h3.mobile-hidden-header span.arrow,
+			#main-footer h3 span.arrow {
+			top: 100%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+		}
+
+		h3.mobile-hidden-header span.arrow,
+			#main-footer h3 span.arrow  {
+			border-color: rgba(255, 255, 255, 0);
+			border-top-color: #ffffff;
+			border-width: 8px;
+			right: 22.5px;
+			margin-top: -30px;
+		}
+
+		#main-footer h3 { position: relative; }
+			#main-footer h3 span.arrow { border-top-color: #3b3b3b; }
+
+
+		.mobile-hide { display: none; }
+			.mobile-hide.open { display: block; }
+		.mobile-visible { display: inline-block; visibility: visible; }
 
 		/* widgets */
 		#sidebar .widget, #sidebar h3  { margin: 0; }
@@ -918,6 +962,8 @@
 			#price-list li { margin-bottom: 24px; }
 			#price-list li.price-option:last-child { border: 1px solid #999; }
 
+			.comments.open { padding: 20px 0; border-bottom: 2px solid #999; }
+
 		/* product detail page */
 
 			dl.tabs { 
@@ -940,7 +986,6 @@
 			#hub-categories .label { font-size: 1em; padding: 4%; }
 
 
-		.mobile-hide { display: none; }
 	}
 
 
