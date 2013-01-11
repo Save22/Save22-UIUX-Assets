@@ -66,6 +66,25 @@ jQuery(document).ready(function($) {
         });
 
 
+    /* store header nav */ 
+
+        var store_div = $('#store-tabs');
+        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
+        var store_div_height = store_div.height();
+
+        $(window).scroll(function(){         
+             var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+            if(p >= store_start) {
+                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
+                $(store_div).addClass('floating-header'); 
+            }
+            else {
+                $(store_div).removeClass('floating-header');
+            }
+        });
+
     } /* end larger than 481px */
     
     /* if is above or equal to 768px */
@@ -121,25 +140,6 @@ jQuery(document).ready(function($) {
           });
         });
 
-
-    /* store header nav */ 
-
-        var store_div = $('#store-tabs');
-        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
-        var store_div_height = store_div.height();
-
-        $(window).scroll(function(){         
-             var p = $(window).scrollTop(),
-                  w_width = $(window).width();
-
-            if(p >= store_start) {
-                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
-                $(store_div).addClass('floating-header'); 
-            }
-            else {
-                $(store_div).removeClass('floating-header');
-            }
-        });
 
 
     /* about tab */

@@ -45,7 +45,7 @@
                     <ol id="price-list" class="nolist">
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
-                                <span class="detail-author">by <strong>GangstaGuy</strong></span><br>
+                                <span class="detail-author">added by <strong>GangstaGuy</strong></span><br>
                                 <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
@@ -110,7 +110,7 @@
 
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
-                                <span class="detail-author">by <strong>FamilyManLope</strong></span><br>
+                                <span class="detail-author">added by <strong>FamilyManLope</strong></span><br>
                                 <span class="post-date"><a href="#">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
@@ -142,7 +142,7 @@
 
                         <li class="group price-option">
                             <div class="innercol option-col left ugc-info">
-                                <span class="detail-author">by <strong>Rodster</strong></span><br>
+                                <span class="detail-author">added by <strong>Rodster</strong></span><br>
                                 <span class="post-date"><a href="#">Oct. 25, 2011, 3:22 p.m.</a></span>
                             </div>
                             <div class="innercol option-col left price">
