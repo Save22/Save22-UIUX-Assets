@@ -794,6 +794,7 @@
 
 		.error-page p.explained { margin: 24px; text-align: center; font-size: 1.25em; margin-top: -20px; }
 
+		#error-500 { height: 400px; }
 		#error-500 p.explained {
 			float: right;
 			width: 50%;
