@@ -559,14 +559,14 @@
 
 	/* body search */
 
-		#site_search { 
+		.body-search input[type=text] { 
 			border: 1px solid #666;
 			background: url('../img/searchicon.png') 12px center no-repeat #fff;
 			padding: 24px 24px 24px 48px;
 			margin: 0 8px 0 0;
 			font-size: 2em;
 		}
-			#site_search:focus { border: 2px solid #666; }
+			.body-search input[type=text]:focus { border: 2px solid #666; }
 		.body-search .button { 
 			border-color: #666;
 			padding-top: 10px;

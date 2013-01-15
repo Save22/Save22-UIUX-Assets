@@ -171,5 +171,23 @@ jQuery(document).ready(function($) {
             );
 
 
+    fullheight('.error-page', '#main-footer');
+
 }); /* end of as page load scripts */
 
+
+function fullheight(div_name, bottom_div) {
+
+    var header_height = $('#main-header').outerHeight(),
+        footer_height = $(bottom_div).outerHeight(),
+        window_height = $(window).height();
+
+    if ($(bottom_div).attr('id') == 'media-nav') {
+        footer_height = footer_height + 84;
+    }
+
+    var content_total = window_height - (header_height + footer_height);
+
+
+    $(div_name).css('min-height', content_total + 'px');
+}
