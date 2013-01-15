@@ -201,6 +201,13 @@
 		}
 		.topnav ul li:last-child { margin-left: 22px; }
 
+		.floating-header { 
+			position: fixed;
+			width: 100%;
+			top: 0; 
+			z-index: 100;
+			box-shadow: 0 4px 25px rgba(0,0,0,0.5);
+		}
 
 	/* HERO shots */
 		#hero-html { 
@@ -467,12 +474,17 @@
 			font-weight: 900;
 			letter-spacing: 1px;
 			background: rgba(0,0,0,0.5);
+			-webkit-transition: all 0.4s ease-in-out;  
+			-moz-transition: all 0.4s ease-in-out;  
+			-o-transition: all 0.4s ease-in-out;   
+			transition: all 0.4s ease-in-out;
+			width: 100%;
 		}
 			#media-nav ul { margin-bottom: 0;}
 			#media-nav a { color: #fff; display: block; padding: 24px 12px; }
 			#media-nav a:hover, #media-nav a.current:hover { color: #fff; background: #000; }
 			#media-nav a.current { background: #fff; color: #000; }
-		
+		#media-nav.floating-header { background: rgba(0,0,0,0.8);}
 
 		body.investors .segment { background: #fff; margin: 0; padding: 0; }
 		body.investors .segment h1 { margin: 48px 0 24px 0; }

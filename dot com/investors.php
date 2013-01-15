@@ -20,16 +20,16 @@
    <div class="row">
       <div class="twelve columns">
          <ul class="link-list">
-            <li><a href="#coverage" class="current">Media Coverage</a></li>
-            <li><a href="#press">Press Releases</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#videos">Videos</a></li>
+            <li><a href="#coverage" class="link-coverage">Media Coverage</a></li>
+            <li><a href="#press" class="link-press">Press Releases</a></li>
+            <li><a href="#screenshots" class="link-screenshots">Screenshots</a></li>
+            <li><a href="#videos" class="link-videos">Videos</a></li>
          </ul>
       </div>
    </div>
 </nav>
 
-<a name="#coverage"></a>
+<a name="coverage" class="nav-counter"></a>
 <div id="coverage" class="segment">
    <div class="row">
       <div class="twelve columns">
@@ -149,7 +149,7 @@
    </div><!-- row -->
 </div><!-- segment -->
 
-<a name="#press"></a>
+<a name="press" class="nav-counter"></a>
 <div id="press" class="segment">
    <div class="row">
       <div class="twelve columns">
@@ -215,7 +215,7 @@
    </div><!-- row -->
 </div><!-- segment -->
 
-<a name="#screenshots"></a>
+<a name="screenshots" class="nav-counter"></a>
 <div id="screenshots" class="segment">
    <div class="row">
       <div class="twelve columns">
@@ -225,7 +225,7 @@
    </div><!-- row -->
 </div><!-- segment -->
 
-<a name="#videos"></a>
+<a name="videos" class="nav-counter"></a>
 <div id="videos" class="segment">
    <div class="row">
       <div class="twelve columns">

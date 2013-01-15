@@ -54,6 +54,16 @@ jQuery(document).ready(function($) {
     fullheight('.error-page', '#main-footer');
     fullheight('#media', '#media-nav');
 
+
+    /* STICKING HEADERS */
+
+    var top_media_nav = $('#main-header').outerHeight(true) + $('#media').outerHeight(true);
+    stick_div_top('#media-nav', top_media_nav);
+
+
+    shifting_nav();
+
+
 }); /* end of as page load scripts */
 
 
@@ -71,4 +81,63 @@ function fullheight(div_name, bottom_div) {
 
 
     $(div_name).css('min-height', content_total + 'px');
+}
+
+function stick_div_top(div_id, top_height) {
+    var p = $(window).scrollTop();
+
+        $(window).scroll(function(){         
+             var p = $(window).scrollTop();
+
+            if(p >= top_height) {
+                $(div_id).css('top',((p)>top_height) ? 'px' : ''); 
+                $(div_id).addClass('floating-header'); 
+            }
+            else {
+                $(div_id).removeClass('floating-header');
+            }
+        });
+
+}
+
+/* 
+function shifting_nav() {
+
+    var p = $(window).scrollTop();
+
+    $(window).scroll(function(){ 
+
+        $('.nav-counter').each(function(){
+            var start_height = $('#main-header').outerHeight(true) + $('#media').outerHeight(true);
+            var top_height = $(this).prevUntil($(this), '.segment').outerHeight(true);
+
+            var counter = start_height + top_height + $('#media-nav').outerHeight(true); 
+            var link_name = '.link-' + $(this).attr('name');
+
+            if(p >= counter) {
+                $(link_name).addClass('current');
+            }
+            else { $(link_name).removeClass('current'); }
+        });
+    });
+
+}
+*/
+
+function shifting_nav() {
+    var p = $(window).scrollTop();
+    var start_height = $('#main-header').outerHeight(true) + $('#media').outerHeight(true);
+    var top_height = $('.link-coverage').prevUntil($('.link-coverage'), '.segment').outerHeight(true);
+
+    var counter = start_height + top_height + $('#media-nav').outerHeight(true); 
+
+    $(window).scroll(function(){ 
+
+        if(p >= counter) {
+            $('.link-coverage').addClass('current');
+        }
+        else { $('.link-coverage').removeClass('current'); }
+    });
+    
+
 }
