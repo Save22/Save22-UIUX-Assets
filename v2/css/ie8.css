@@ -2,7 +2,7 @@
 
 .floating-header #logo { display: none; }
 
-.floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; } 
+.floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
 
 
 #site_search { padding: 6px 6px 6px 32px; }
@@ -16,3 +16,10 @@ nav.top-bar { overflow: visible; }
 nav.top-bar .nav-title { float: left; }
 nav.topbar section { float: left; background: #3b3b3b; }
 nav.top-bar section ul li a.active { display: block; width: 100%; }
+
+
+.body-search a.button { 
+	color: #000;
+}
+
+.error-page { height: 400px; }
