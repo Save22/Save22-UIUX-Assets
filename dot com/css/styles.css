@@ -500,6 +500,10 @@
 			position: relative;
 			top: -50px;
 			z-index: 1;
+			-webkit-transition: all 0.2s ease-in;  
+			-moz-transition: all 0.2s ease-in;  
+			-o-transition: all 0.2s ease-in;   
+			transition: all 0.2s ease-in;
 		}
 		.aisle-header {
 			display: block;
@@ -512,6 +516,9 @@
 			#aisle-404 {
 				background: url('../img/error-404.png') center center no-repeat;
 				background-size: 400px;
+			}
+			#sign-404.aisle-sign:hover {
+				top: -40px;
 			}
 
 		#sign-500 { 
