@@ -816,15 +816,15 @@
 			font-size: 2em;
 		}
 			.body-search input[type=text]:focus { border: 2px solid #666; }
-		.body-search .button { 
+		.body-search a.button { 
 			border-color: #666;
 			padding-top: 10px;
 			font-size: 2em;
 			height: 50px;
-			background: #b3181d;
+			background: #b3181d !important;
 			color: #fff;
 		}
-			.body-search .button:hover, .body-search .button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
+			.body-search a.button:hover, .body-search a.button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
 
 
 
