@@ -444,10 +444,11 @@
 		#about { background: #f7f7f7; }
 		
 		#team {
-			background: url('../img/bg2.jpg') #1c1c1c no-repeat;
+			background: url('../img/bg2.jpg') #1c1c1c no-repeat fixed;
 			background-size: 100%;
 		}
-
+			#team.fixed {
+			}
 		.profile-desc { background: rgba(0,0,0,0.5); padding-bottom: 24px; color: #fff; }
 
 			.profile-desc h2 { color: #fff; border-color: #000; }
@@ -499,11 +500,65 @@
 		#press article { margin: 24px 0; border-bottom: 1px dotted #ccc; padding: 24px 0; width: 80%; margin: auto; }
 		#press .content p { margin: 24px 0 24px 48px; }
 
-		#videos { background: #3b3b3b; }
-			#videos h1, #videos h2 { color: #fff; }
+		#videos { background: url('../img/bg5.jpg') #3b3b3b; background-size: 100%; }
+		
 
 		#videos article { display: block; float: left; margin: 24px auto; }
 
+
+
+
+	/* CONTACT US PAGE */
+
+		body.contact { 
+			background: url('../img/bg4.jpg') top left no-repeat #fff fixed; 
+			background-size: 100%; 
+		}
+
+		#contact .page-header { border-bottom: 2px solid #fff; padding-bottom: 12px; }
+
+		#contact p { color: #2d2d2d; font-size: 1.813em; line-height: 1.4; text-shadow: 1px 1px 0 rgba(255,255,255, 0.6); }
+		
+		form#contactus {
+			padding: 0 24px 24px 24px;
+			background: #fff;
+			box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+			border: 3px solid #eee;
+			position: relative;
+			top: -40px;
+			z-index: 90;
+			overflow: auto;
+		}
+
+		form#contactus h2 { 
+			font-size: 1.813em; margin-top: 0;
+			border-bottom: 1px solid #efefef;
+			margin-bottom: 24px;
+		}
+
+		form#contactus input[type=text], 
+		form#contactus input[type=email], 
+		form#contactus textarea {
+			border: 0;
+			border-bottom: 2px solid #ccc;
+			box-shadow: none;
+			width: 100%;
+			padding: 4%;
+		}
+		form#contactus textarea { height: 200px; }
+		form#contactus input:active, form#contactus textarea:active
+		 { background: #efefef; }
+
+		form#contactus .button {
+			background: #3b3b3b;
+			border-color: #333;
+			font-size: 1.813em;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			border-width: 2px;
+			margin-top: 24px;
+		}
+			form#contactus .button:hover { background: #cc4549; border-color: #ba2124; }
 
 	/* ERROR PAGES */
 
