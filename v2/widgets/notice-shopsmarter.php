@@ -58,15 +58,6 @@
               </li>
             </ul>
           </li>
-          <li>
-            <a href="#">Health and Beauty</a>
-          </li>
-          <li>
-            <a href="#">Food</a>
-          </li>
-          <li>
-            <a href="#">Babies</a>
-          </li>
         </ul>
 
       </section>

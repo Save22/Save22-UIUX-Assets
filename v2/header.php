@@ -55,13 +55,18 @@
 
 
 <header id="main-header">
+  <div class="current-country">
+    <a href="http://save22.com.sg"><img src="img/flag-sg-small.png" class="selected transition" alt="Singapore" /></a>
+    <a href="http://save22.com.ph"><img src="img/flag-ph-small.png" class="transition" alt="Philippines" /></a>
+  </div>
+
     <div class="row relative">
         <div class="logo-set left">
             <a href="http://save22.com">
               <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
               <img src="img/logo-ie8.png" class="logo-ie8">
             </a>
-                
+            
             <div class="subheader">
               one item, different prices
             </div>

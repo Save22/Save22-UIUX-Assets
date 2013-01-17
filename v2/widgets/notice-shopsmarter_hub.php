@@ -58,9 +58,6 @@
           <li class="has-dropdown">
             <a href="#">Home &amp; Office</a>
           </li>
-          <li class="has-dropdown">
-            <a href="#">Smartphones &amp; Tablets</a>
-          </li>
         </ul>
 
       </section>

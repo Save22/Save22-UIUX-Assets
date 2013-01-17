@@ -45,15 +45,19 @@
     </div>
 
     <div class="row copyright">
-        <div class="six columns">
-            &copy; 2011-2012 <strong>Save22</strong>. All rights reserved.
-          <ul id="country-options" class="link-list left">
-            <li><a href="http://save22.com.sg" class="current">Singapore</a></li>
-            <li><a href="http://save22.com.ph">Philippines</a></li>
-          </ul>
+        <div class="eight columns">
+          <div class="current-country">
+            <a href="http://save22.com.sg"><img src="img/flag-sg-small.png" class="selected transition" alt="Singapore" /></a>
+            <a href="http://save22.com.ph"><img src="img/flag-ph-small.png" class="transition" alt="Philippines" /></a>
+          </div>
+
+          <span class="rights">&copy; 2011-2012 <strong>Save22</strong>. All rights reserved. 
+            <a href="#">Privacy Policy</a>
+            <a href="#">Forgot your Password?</a>
+          </span>
 
         </div>
-        <div class="six columns">
+        <div class="four columns">
             <div class="social group">
               <!-- FACEBOOK LINK if PH --> 
               <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fsave22ph&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=332386333535453" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true" class="right fb-frame"></iframe>
