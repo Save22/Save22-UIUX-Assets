@@ -131,7 +131,7 @@
 		transition: box-shadow 0.5s ease-in;
 	}
 
-	#main-header .row { padding: 12px 0 0 0; width: 100%; }
+	#main-header .row { padding: 12px 0 0 0; }
 
 	#logo {
 		width: 132px;
@@ -305,7 +305,7 @@
 			margin: 0;
 			top: 0;
 		}
-		#smart-shopper .row { width: 100%; }
+		#smart-shopper .row {  }
 			#smart-shopper h1 { padding: 14px 15px; margin: 0; color: #fff; font-size: 1em; font-weight: 900; color: #ccc; text-transform: uppercase; letter-spacing: 1px;}
 			#smart-shopper .nav-title:hover { background: none; }
 
@@ -759,13 +759,13 @@
 			text-indent: -900%;
 		}
 			#aisle-404 {
-				background: url('../img/error-404.png') center center no-repeat;
+				background: url('../img/error-404@2x.png') center center no-repeat;
 				background-size: 400px;
 			}
 
 		#sign-500 { 
 			position: absolute;
-			top: -220px;
+			top: -200px;
 			-webkit-transition: all 0.2s ease-in;  
 			-moz-transition: all 0.2s ease-in;  
 			-o-transition: all 0.2s ease-in; 
@@ -777,7 +777,7 @@
 		#aisle-500.aisle-header {
 			width: 467px;
 			height: 463px;
-			background: url('../img/error-500.png') center center no-repeat;
+			background: url('../img/error-500b@2x.png') center center no-repeat;
 			background-size: 467px;
 		}
 
@@ -796,11 +796,8 @@
 
 		#error-500 { height: 400px; }
 		#error-500 p.explained {
-			float: right;
-			width: 50%;
-			position: relative;
-			top: 200px;
 			text-align: right;
+			margin-top: 100px;
 		}
 
 		body.error #main-footer {
@@ -827,6 +824,7 @@
 		}
 			.body-search a.button:hover, .body-search a.button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
 
+		#error-500 .body-search a.button { font-size: 1.25em; padding-top: 14px;}
 
 
 /* ============================= */
@@ -1098,10 +1096,11 @@
 			background-size: 132px 86px;
 		}
 			.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
-		#site_search { 
+		#site_search, #content_site_search { 
 			background: url('../img/searchicon@2x.png') 8px center no-repeat #fff;
 			background-size: 14px 14px;
 		}
+		#content_site_search { background-position: 16px center;}
 		#main-header.floating-header .row { padding: 8px 0 0 0; }
 	}
 

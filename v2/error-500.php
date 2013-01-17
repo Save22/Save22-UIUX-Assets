@@ -4,18 +4,32 @@
 
 <div id="error-500" class="error-page segment">
    <div class="row">
-      <div class="twelve columns">
+      <div class="six columns">
 
          <!-- aisle sign -->
          <div class="aisle-sign" id="sign-500">
             <h1 class="aisle-header" id="aisle-500">500</h1>
          </div><!-- end sign -->
-
+      </div>
+      <div class="six columns">
             <p class="explained">
-               <strong>Sorry! Something is wrong with our system, <br />not your computer or connection.</strong> <br />We've notified our developers about the problem, but if there's anything you want to tell us, <br />
-               <a href="#">you can email us here</a>.
+               <strong>Sorry! We're fixing our pages and moving<br> things around so this page seems like an old URL. </strong> <br />
+               Please use our search box for now<br /> so we can find that page for you! 
             </p>
 
+         <div class="body-search">
+            <form>
+               <div class="row collapse">
+                 <div class="ten mobile-three columns">
+                   <input type="text" id="content_site_search" />
+                 </div>
+                 <div class="two mobile-one columns">
+                   <a class="button expand postfix">Search</a>
+                 </div>
+               </div>
+            </form>
+         </div>  
+      </div>
 
       </div>
    </div><!-- row -->
