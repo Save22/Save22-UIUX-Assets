@@ -606,7 +606,7 @@
 		border-radius: 4px;
 	}
 	.price-summary { padding: 7px 14px; }
-	.container-thumb { overflow: none; width: 100px; height: 100px; float: right; }
+	.container-thumb { overflow: auto; width: 100px; float: right; }
 
 	.price-lowest { color: #b51616; font-weight: 900; white-space: nowrap; }
 

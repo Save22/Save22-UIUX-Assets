@@ -58,13 +58,13 @@
     <div class="row relative">
         <div class="logo-set left">
             <a href="http://save22.com">
-                    <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
-                    <img src="img/logo-ie8.png" class="logo-ie8">
-                </a>
+              <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
+              <img src="img/logo-ie8.png" class="logo-ie8">
+            </a>
                 
-                <div class="subheader">
-                 one item, different prices
-                </div>
+            <div class="subheader">
+              one item, different prices
+            </div>
                 
         </div><!-- logo -->
         <div id="searchbox" class="left">
