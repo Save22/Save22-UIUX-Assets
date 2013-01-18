@@ -8,8 +8,6 @@
 
          <h1 class="page-header">Save22 Press &amp; Investor Centre</h1>
 
-            <h2 class="intro-header">If you are enjoying reading our blog, remember to like us on Facebook.</h2>
-
             <p>If you are interested in writing a story about <strong>Save22</strong>, we would love to make that easy as possible for you.  Please find our resources below and do not hesitate to contact our founder, <strong>guyi [at] save22 [dot] com </strong>with any questions or requests.</p>
 
       </div>

@@ -48,22 +48,22 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 481) {
         
         /** TOPMOST HEADER **/
-        var div = $('#main-header');
-        var start = $(div).offset().top;
-        var div_height = div.height();
+            var div = $('#main-header');
+            var start = $(div).offset().top;
+            var div_height = div.height();
 
-        $(window).scroll(function(){         
-             var p = $(window).scrollTop(),
-                  w_width = $(window).width();
+            $(window).scroll(function(){         
+                 var p = $(window).scrollTop(),
+                      w_width = $(window).width();
 
-            if(p >= div_height) {
-                $(div).css('top',((p)>start) ? '0px' : ''); 
-                $(div).addClass('floating-header'); 
-            }
-            else {
-                $(div).removeClass('floating-header');
-            }
-        });
+                if(p >= div_height) {
+                    $(div).css('top',((p)>start) ? '0px' : ''); 
+                    $(div).addClass('floating-header'); 
+                }
+                else {
+                    $(div).removeClass('floating-header');
+                }
+            });
 
 
     /* store header nav */ 
@@ -107,6 +107,7 @@ jQuery(document).ready(function($) {
         }
         
         same_height('ul#cat-list li');
+
     }
     
     /* off the bat large screen actions */
@@ -172,6 +173,42 @@ jQuery(document).ready(function($) {
 
 
     fullheight('.error-page', '#main-footer');
+
+
+    /* price options */
+
+        $('.viewmore').each(function(){
+            $(this).click(function(e){
+                var price_details = $(this).parent().parent().parent().next('.price-details');
+                // alert($(this).parent().parent().parent().next('.price-details').attr('class'));
+
+                if(price_details.hasClass('open')) {
+                    price_details.removeClass('open').slideUp();
+                }
+                else { 
+                    price_details.addClass('open').slideDown();
+                }
+
+                e.preventDefault();
+            });
+        });
+
+        $('.view-all').click(function(e){
+            var original_text = 'Show All Details';
+
+            if($(this).hasClass('open')) { 
+                $(this).removeClass('open');
+                $('.price-details').removeClass('open').slideUp(); 
+                $(this).html(original_text);
+            }
+            else {
+                $(this).addClass('open');
+                $('.price-details').addClass('open').slideDown(); 
+                $(this).html('Hide All Details');
+            }
+            e.preventDefault();
+
+        });
 
 }); /* end of as page load scripts */
 
