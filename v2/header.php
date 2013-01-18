@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
 
@@ -12,12 +12,6 @@
   <meta name="viewport" content="width=device-width" />
 
   <title>Save22</title>
-  
-  <!-- Included CSS Files (Uncompressed) -->
-  <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-  <link rel="stylesheet" href="stylesheets/foundation.min.css">
-  -->
   
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="css/foundation.css">
@@ -63,7 +57,7 @@
     <div class="row relative">
         <div class="logo-set left">
             <a href="http://save22.com">
-              <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
+              <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;background-size:174px;">Save22</h1>
               <img src="img/logo-ie8.png" class="logo-ie8">
             </a>
             

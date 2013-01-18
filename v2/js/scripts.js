@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
         /** TOPMOST HEADER **/
             var div = $('#main-header');
             var start = $(div).offset().top;
-            var div_height = div.height();
+            var div_height = div.height() + $('#smart-shopper').outerHeight(true);
 
             $(window).scroll(function(){         
                  var p = $(window).scrollTop(),
@@ -127,13 +127,14 @@ jQuery(document).ready(function($) {
             
         var $container = $('#container');
         // initialize Isotope
+        
         $container.isotope({
           animationEngine: 'jquery',
           layoutMode : 'fitRows',
           resizable: false, // disable normal resizing
           masonry: { columnWidth: $container.width() / 3 }
         });
-
+ 
         // update columnWidth on window resize
         $(window).smartresize(function(){
           $container.isotope({
@@ -210,6 +211,24 @@ jQuery(document).ready(function($) {
 
         });
 
+    /* price-description */
+
+        var price_description = $('#item-description'),price_description_height = $(price_description).outerHeight(true);
+        if(price_description_height >= 200) {
+            price_description.addClass('read-more');
+        }
+
+        $('.more-link a').click(function(e){
+            if((price_description).hasClass('read-more')) {
+                $('.more-link a span').hide();
+                $('.more-link').css('top', price_description_height - 30 + 'px').fadeOut();
+                price_description.css('height', price_description_height + 'px').removeClass('read-more');
+                e.preventDefault();
+            }
+            e.preventDefault();
+        });
+
+           
 }); /* end of as page load scripts */
 
 

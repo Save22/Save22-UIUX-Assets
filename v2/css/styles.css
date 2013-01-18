@@ -134,8 +134,8 @@
 	#main-header .row { padding: 12px 0 0 0; z-index: 10; }
 
 	#logo {
-		width: 132px;
-		height: 43px; 
+		width: 174px;
+		height: 34px; 
 		text-indent: -9999px;
 		margin: 0 24px 10px 16px;
 		-webkit-transition: background-position 0.2s ease-in;
@@ -152,7 +152,7 @@
 			margin-bottom: 12px;
 		}
 
-	#searchbox { min-width: 75%; margin-top: 14px; }
+	#searchbox { min-width: 75%; margin-top: 2px; }
 		#searchbox form { margin: 0; }
 		#site_search { 
 			border: 0;
@@ -176,7 +176,7 @@
 		z-index: 1000;
 	}
 		#main-header.floating-header .subheader, .floating-header #popular-searches { display: none; }
-		#main-header.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; background-position: 0 -30px !important; margin-right: 24px;}
+		#main-header.floating-header #logo { width: 174px; background-position: 0 -34px !important; margin-right: 24px;}
 		#main-header.floating-header { border-top: 0; background: #2d2d2d; border-bottom: 1px solid #000;
 			box-shadow: 0px 0px 25px rgba(0,0,0,0.50);
 		}
@@ -499,8 +499,8 @@
 
 
 /* directions */
-#map { max-width: 100%; overflow: none; }
-#map-directions { margin: 24px 0; }
+	#map { max-width: 100%; overflow: none; }
+	#map-directions { margin: 24px 0; }
 
 
 
@@ -877,12 +877,18 @@
 		#error-500 .body-search a.button { font-size: 1.25em; padding-top: 14px;}
 
 
+.top-bar ul li.toggle-topbar { width: 100%; }
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1025px) {
 		 #container .item { width: 46%;  }
+		 ol#price-list > li { padding: 12px; }
+		 .price-option .price-header .price, 
+		 .price-option .price-header .store { font-size: 1.25em !important; }
+		 .price-option  .viewmore { top: 0; width: 18px; }
 	}
 
 	@media handheld, only screen and (max-width: 767px) {
@@ -914,7 +920,6 @@
 		#smart-shopper li.has-flyout { overflow: hidden; }
 		#smart-shopper li { border-bottom: 1px solid #000; border-top: 1px solid #666; }
 
-		.top-bar ul li.toggle-topbar { width: 100%; }
 		.top-bar ul li.toggle-topbar:hover { background: none; }
 		.top-bar ul.dropdown > li a { 
 				border-top: 1px solid #333;
@@ -1111,6 +1116,8 @@
 
 			.comments.open { padding: 20px 0; border-bottom: 2px solid #999; }
 
+
+
 		/* product detail page */
 
 			dl.tabs { 
@@ -1143,9 +1150,9 @@
 	@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
 		#logo {
-			background-size: 132px 86px;
+			background-size: 174px 34px;
 		}
-			.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
+			.floating-header #logo { width: 174px; height: 34px; background-size: 174px; }
 		#site_search, #content_site_search { 
 			background: url('../img/searchicon@2x.png') 8px center no-repeat #fff;
 			background-size: 14px 14px;
@@ -1157,9 +1164,9 @@
 	@media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
 
 		#logo {
-			background-size: 92px 30px;
+			background-size: 174px 34px;
 		}
-			.floating-header #logo { width: 92px; height: 30px; background-size: 92px 60px !important; }
+			.floating-header #logo { width: 174px; height: 34px; background-size: 174px; }
 
 	}
 
