@@ -38,6 +38,11 @@
 
 </style>
 
+<div id="related-products">
+  <div class="row">
+    <div class="twelve columns">
+        <h2>Related Products</h2>
+
 <div class="related-container">
   <ul>
 
@@ -99,3 +104,8 @@
 
   </ul>
 </div>
+
+
+            </div>
+        </div>
+    </div>

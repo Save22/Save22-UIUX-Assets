@@ -310,15 +310,9 @@
     </div><!-- row -->
 
 
-    <div id="related-products">
-        <div class="row">
-            <div class="twelve columns">
-                <h2>Related Products</h2>
+    <?php require_once('widgets/pdp-addprices.php'); ?>
 
-                <?php require_once('widgets/pdp-related-products.php'); ?>
-            </div>
-        </div>
-    </div>
+    <?php require_once('widgets/pdp-related-products.php'); ?>
 
 </div><!-- content -->
 
