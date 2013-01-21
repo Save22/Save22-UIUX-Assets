@@ -53,14 +53,14 @@
     #item-description a { color: #6fb7b7; border-bottom: 1px solid #f7f7f7; }
     #item-description a:hover { color:#208787; }
     #item-description.read-more { 
-        height: 181px;
+        height: 244px;
         overflow: hidden; 
         margin: 0 0 24px 0;
         padding: 0 0 48px 0;
         position: relative;
     }
     #item-description.read-more p { z-index: -1; }
-    #item-description .more-link { position: absolute; top: 100px; width: 100%;
+    #item-description .more-link { position: absolute; top: 150px; width: 100%;
         -webkit-transition: all 0.5s ease-in;  
         -moz-transition: all 0.5s ease-in;  
         -o-transition: all 0.5s ease-in; 
@@ -103,8 +103,7 @@
         padding: 24px 16px;
         overflow: auto; 
     }
-        #related-products #container { margin: auto; }
-        #related-products #container .item { width: 280px; margin: 10px; }
+    #related-products h2 { color: #fff; }
 
 </style>
 
@@ -311,11 +310,13 @@
     </div><!-- row -->
 
 
-    <div id="related-products" class="row">
-        <div class="twelve columns">
-            <h2>Related Products</h2>
+    <div id="related-products">
+        <div class="row">
+            <div class="twelve columns">
+                <h2>Related Products</h2>
 
-            <?php require_once('widgets/pdp-related-products.php'); ?>
+                <?php require_once('widgets/pdp-related-products.php'); ?>
+            </div>
         </div>
     </div>
 
