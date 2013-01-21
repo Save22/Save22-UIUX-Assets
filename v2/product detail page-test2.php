@@ -2,16 +2,18 @@
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
 <style type="text/css">
-    .price-option a:hover { text-decoration: underline; }
-    .price-option .price, .price-option .freebie { width: 40%; float: left; padding-left: 12px; margin-right: 1.5%; }
-    .price-option .store, .price-option .shop-more { width: 58%; float: left; }
-    .price-option .price-header { overflow: auto; }
-    .price-option .price-header .price, 
-    .price-option .price-header .store { font-size: 1.813em; }
+/* shop column width different without freebie column */
+
+    .price-option .option-col { width: 42%; }
+    .price-option .option-col.shop { width: 54%;}
+
+    .detail-shop, .detail-area { display: block; }
+    .price-option a:hover { text-decoration: underline; } 
+    .price-option .detail-price, .price-option .detail-shop { font-size: 1.813em; font-weight: 400; }
         .price-option .price-header .store a { color: #4b4b4b; }
-        .shop-more .button { margin: 12px 0;}
     .price-option .price-header .store span.branch { font-size: 0.75em; }
-    .price-option .price.impt { font-weight: 400; }
+    .price-option .detail-price.impt { font-weight: 400; }
+    .detail-author { font-size: 0.813em; padding-top: 24px;}
     .price-option .freebie span {
         display: block;
         border-top: 1px dotted #ccc;
@@ -174,66 +176,115 @@
                 <section class="group">
                     <header class="group">
                         <h2 class="left">Price Options</h2> 
-                        <a href="#" class="view-all right">Hide Details</a>
+                        <div class="list-options right">
+
+                        </div>
                     </header>
-                        <ol id="price-list" class="nolist group">
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱24,500.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Widget City Gadgets</a>
-                                    </div>
-                                </div>
-                                <div class="group price-details">
-                                    <div class="freebie">
-                                        <span>Comes with free silicon case.</span>
-                                    </div>
-                                    <div class="shop-more">
 
-                                    <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();"><span class="button radius">store details</span>
-                                    </a>
-                                    
-                                    </div>
+                    <ol id="price-list" class="nolist">
 
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                        <li class="group price-option">
+                            
+                            <div class="innercol option-col left price">
+                                <span class="detail-price impt"><a href="#option-detail">₱42,150.00</a></span>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
+                                <div class="detail-author">added by <strong>GangstaGuy</strong><br>
+                                <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></div>
+                            </div>
 
-                                        <a href="option detail page.php">₱39,950.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Accent Micro/SM City Marikina<br>
-                                        <span class="branch">2/L Cyberzone SM Southmall</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="group price-details">
-                                    <div class="freebie">
-                                        &nbsp;
-                                    </div>
-                                    <div class="shop-more">
+                            <!-- 
+                            <div class="innercol option-col left more-info">
+                                <p>Comes with free silicon case.</p>
+                            </div>
+                            -->
 
-                                        <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();"><span class="button radius">store details</span>
-                                    </a>
-                                    
-                                    </div>
-                                    
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col lastcol left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">Beeper City</span>
+                                <span itemprop="address" class="detail-area">
+                                3rd Floor Virra Mall Complex
+                                 </span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
+                            </div>
+                        </li>
 
-                        </ol>
+                        <li class="group price-option">
+                            
+                            <div class="innercol option-col left price">
+                                <span class="detail-price impt"><a href="#option-detail">₱34,900.00</a></span>
+
+                                <div class="detail-author">added by <strong>GangstaGuy</strong><br>
+                                <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></div>
+                            </div>
+                            
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col lastcol left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">BABC Store/V-Mall</span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
+                            </div>
+                        </li>
+
+                        <li class="group price-option">
+                            
+                            <div class="innercol option-col left price">
+                                <span class="detail-price impt"><a href="#option-detail">₱34,100.00</a></span>
+
+                                <div class="detail-author">added by <strong>GangstaGuy</strong><br>
+                                <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></div>
+                            </div>
+                            
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col lastcol left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">Compex/Festival Mall</span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
+                            </div>
+                        </li>
+
+                        <li class="group price-option">
+                            
+                            <div class="innercol option-col left price">
+                                <span class="detail-price impt"><a href="#option-detail">₱32,500.00</a></span>
+
+                                <div class="detail-author">added by <strong>GangstaGuy</strong><br>
+                                <span class="post-date"><a href="#option-detail">Oct. 25, 2011, 3:22 p.m.</a></div>
+                            </div>
+                            
+                            <div itemprop="seller" itemscope itemtype="http://data-vocabulary.org/Organization" class="innercol option-col lastcol left shop">
+                                
+                                <a href="store page.php">
+                                <span itemprop="name" class="detail-shop">Premium Logic Computers</span>
+                                </a>
+                                
+                                <a href="#"  data-reveal-id="mapModal" class="store-details" onclick="initialize();">
+                                <span class="button radius">store details</span>
+                                </a>
+                                
+                            </div>
+                        </li>
+
+
+
+                    </ol>
+
                 </section>
 
                 <!-- tags -->

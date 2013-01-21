@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
         });
 
         $('.view-all').click(function(e){
-            var original_text = 'Show All Details';
+            var original_text = 'Show Details';
 
             if($(this).hasClass('open')) { 
                 $(this).removeClass('open');
@@ -205,7 +205,7 @@ jQuery(document).ready(function($) {
             else {
                 $(this).addClass('open');
                 $('.price-details').addClass('open').slideDown(); 
-                $(this).html('Hide All Details');
+                $(this).html('Hide Details');
             }
             e.preventDefault();
 
