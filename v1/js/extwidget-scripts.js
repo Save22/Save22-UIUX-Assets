@@ -30,20 +30,23 @@ jQuery(document).ready(function($) {
 
     if (responsive_viewport < 768) {
         
-      var $container = $('#container');
-      $container.isotope({
-        animationEngine: 'jquery',
-        resizable: false, 
-        masonry: { columnWidth: $container.width() / 2 }
-      });
-
-      // update columnWidth on window resize
-      $(window).smartresize(function(){
+        var $container = $('#container');
+        // initialize Isotope
+        
         $container.isotope({
-          // update columnWidth to a percentage of container width
+          animationEngine: 'jquery',
+          layoutMode : 'fitRows',
+          resizable: false, // disable normal resizing
           masonry: { columnWidth: $container.width() / 2 }
         });
-      });
+ 
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+          $container.isotope({
+            masonry: { columnWidth: $container.width() / 2 }
+          });
+        });
+
 
     } /* end smallest screen */
     
@@ -55,7 +58,8 @@ jQuery(document).ready(function($) {
 
       $container.isotope({
         animationEngine: 'jquery',
-        resizable: false, 
+        layoutMode : 'fitRows',
+        resizable: false, // disable normal resizing
         masonry: { columnWidth: $container.width() / 3 }
       });
 
@@ -65,6 +69,24 @@ jQuery(document).ready(function($) {
           masonry: { columnWidth: $container.width() / 3 }
         });
       });
+
+        function same_height(container) {
+            var items_height = [];
+
+            $(container).each(function() { 
+                items_height.push($(this).outerHeight());
+            });
+
+            var tallest_content = Math.max.apply( null, items_height );
+            
+            $(container).each(function(){
+                var item_height = $(this).parent().height();
+                $(this).css('height', tallest_content);
+            });
+
+        }
+        
+        same_height('ul#cat-list li');
 
    }
 }); /* end of as page load scripts */

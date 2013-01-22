@@ -5,7 +5,7 @@
     .related-container p {
       font-size: 0.875em;
     }
-    .related-container h4 { color: #fff; padding: 12px; margin: 0 0 12px 0; border-bottom: 1px solid #4f4f4f; }
+    .related-container h4 { color: #fff; padding: 12px; margin: 0 0 12px 0; border-bottom: 1px solid #4f4f4f; line-height: 1.5; }
     .related-container a { color: #fff; }
     .related-container ul li {list-style-type: none;}
     .related-container .item {
