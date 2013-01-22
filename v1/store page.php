@@ -100,7 +100,6 @@
 
                 <dl class="tabs" id="store-tabs">
                   <dd class="active"><a href="#products">Products</a></dd>
-                  <dd><a href="#comments">Comments about this store</a></dd>
                 </dl>
 
                 <ul class="tabs-content">
