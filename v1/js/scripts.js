@@ -39,29 +39,49 @@ jQuery(document).ready(function($) {
             else {
                 contents.slideDown().addClass('open');
             }
-            
         });
+
 
     } /* end smallest screen */
     
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
         
+        
         /** TOPMOST HEADER **/
-        var div = $('#main-header');
-        var start = $(div).offset().top;
-        var div_height = div.height();
+            var div = $('#main-header');
+            var start = $(div).offset().top;
+            var div_height = div.height() + $('#smart-shopper').outerHeight(true);
+
+            $(window).scroll(function(){         
+                var p = $(window).scrollTop(),
+                    w_width = $(window).width();
+
+                if(p >= div_height) {
+                    $(div).addClass('floating-header');
+                }
+                else {
+                    $(div).removeClass('floating-header');
+                }
+            });
+
+
+    /* store header nav */ 
+
+        var store_div = $('#store-tabs');
+        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
+        var store_div_height = store_div.height();
 
         $(window).scroll(function(){         
              var p = $(window).scrollTop(),
                   w_width = $(window).width();
 
-            if(p >= div_height) {
-                $(div).css('top',((p)>start) ? '0px' : ''); 
-                $(div).addClass('floating-header'); 
+            if(p >= store_start) {
+                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
+                $(store_div).addClass('floating-header'); 
             }
             else {
-                $(div).removeClass('floating-header');
+                $(store_div).removeClass('floating-header');
             }
         });
 
@@ -87,6 +107,7 @@ jQuery(document).ready(function($) {
         }
         
         same_height('ul#cat-list li');
+
     }
     
     /* off the bat large screen actions */
@@ -94,15 +115,26 @@ jQuery(document).ready(function($) {
         
     }
 
+        $(".mobile-hidden-header").on("click", function(){
+            var mobile_contents = $(this).parent().find('div.mobile-hide');
+            if(mobile_contents.hasClass('open')) {
+                $(mobile_contents).slideUp().removeClass('open');
+            }
+            else {
+                mobile_contents.slideDown().addClass('open');
+            }
+        });
+            
         var $container = $('#container');
         // initialize Isotope
+        
         $container.isotope({
           animationEngine: 'jquery',
           layoutMode : 'fitRows',
           resizable: false, // disable normal resizing
           masonry: { columnWidth: $container.width() / 3 }
         });
-
+ 
         // update columnWidth on window resize
         $(window).smartresize(function(){
           $container.isotope({
@@ -110,25 +142,6 @@ jQuery(document).ready(function($) {
           });
         });
 
-
-    /* store header nav */ 
-
-        var store_div = $('#store-tabs');
-        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
-        var store_div_height = store_div.height();
-
-        $(window).scroll(function(){         
-             var p = $(window).scrollTop(),
-                  w_width = $(window).width();
-
-            if(p >= store_start) {
-                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
-                $(store_div).addClass('floating-header'); 
-            }
-            else {
-                $(store_div).removeClass('floating-header');
-            }
-        });
 
 
     /* about tab */
@@ -160,5 +173,83 @@ jQuery(document).ready(function($) {
             );
 
 
+    fullheight('.error-page', '#main-footer');
+
+
+    /* price options */
+
+        $('.viewmore').each(function(){
+            $(this).click(function(e){
+                var price_details = $(this).parent().parent().parent().next('.price-details');
+                // alert($(this).parent().parent().parent().next('.price-details').attr('class'));
+
+                if(price_details.hasClass('open')) {
+                    price_details.removeClass('open').slideUp();
+                }
+                else { 
+                    price_details.addClass('open').slideDown();
+                }
+
+                e.preventDefault();
+            });
+        });
+
+        $('.view-all').click(function(e){
+            var original_text = 'Show Details';
+
+            if($(this).hasClass('open')) { 
+                $(this).removeClass('open');
+                $('.price-details').removeClass('open').slideUp(); 
+                $(this).html(original_text);
+            }
+            else {
+                $(this).addClass('open');
+                $('.price-details').addClass('open').slideDown(); 
+                $(this).html('Hide Details');
+            }
+            e.preventDefault();
+
+        });
+
+    /* price-description */
+
+        var price_description = $('#item-description'),price_description_height = $(price_description).outerHeight(true);
+        if(price_description_height >= 200) {
+            price_description.addClass('read-more');
+        }
+
+        $('.more-link a').click(function(e){
+            if((price_description).hasClass('read-more')) {
+                $('.more-link a span').hide();
+                $('.more-link').css('top', price_description_height - 30 + 'px').fadeOut();
+                price_description.css('height', price_description_height + 'px').removeClass('read-more');
+                e.preventDefault();
+            }
+            e.preventDefault();
+        });
+
+    
+    /* tabbing - clicks should not return hash in URL */
+
+        $('dl.tabs dd').click(function(e){
+            e.preventDefault();
+        });
+
 }); /* end of as page load scripts */
 
+
+function fullheight(div_name, bottom_div) {
+
+    var header_height = $('#main-header').outerHeight(),
+        footer_height = $(bottom_div).outerHeight(),
+        window_height = $(window).height();
+
+    if ($(bottom_div).attr('id') == 'media-nav') {
+        footer_height = footer_height + 84;
+    }
+
+    var content_total = window_height - (header_height + footer_height);
+
+
+    $(div_name).css('min-height', content_total + 'px');
+}
