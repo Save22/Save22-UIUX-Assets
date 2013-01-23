@@ -151,13 +151,7 @@
                     </div>
 
                     <div class="product-comments">
-
-                        <h3 class="mobile-hidden-header"><span class="mobile-visible">View </span> Comments <span class="arrow"></span></h3>
-
-                        <div class="comments mobile-hide">
-                            PRODUCT COMMENTS HERE
-                        </div>
-
+                        <?php require_once('widgets/fb-comments-widget.php'); ?>
                     </div><!-- product comments -->
 
 

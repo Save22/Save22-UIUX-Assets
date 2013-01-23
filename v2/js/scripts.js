@@ -47,18 +47,18 @@ jQuery(document).ready(function($) {
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
         
+        
         /** TOPMOST HEADER **/
             var div = $('#main-header');
             var start = $(div).offset().top;
             var div_height = div.height() + $('#smart-shopper').outerHeight(true);
 
             $(window).scroll(function(){         
-                 var p = $(window).scrollTop(),
-                      w_width = $(window).width();
+                var p = $(window).scrollTop(),
+                    w_width = $(window).width();
 
                 if(p >= div_height) {
-                    $(div).css('top',((p)>start) ? '0px' : ''); 
-                    $(div).addClass('floating-header'); 
+                    $(div).addClass('floating-header');
                 }
                 else {
                     $(div).removeClass('floating-header');
@@ -228,7 +228,13 @@ jQuery(document).ready(function($) {
             e.preventDefault();
         });
 
-           
+    
+    /* tabbing - clicks should not return hash in URL */
+
+        $('dl.tabs dd').click(function(e){
+            e.preventDefault();
+        });
+
 }); /* end of as page load scripts */
 
 

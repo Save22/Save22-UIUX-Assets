@@ -1,241 +1,381 @@
+<style type="text/css">
+  .store .detail-header { width: auto; }
+  .store .detail-prices .price-summary {
+    color: #9e1313;
+    font-size: 1.813em;
+  }
+</style>
+  <div id="container">
 
-                <article class="mtop">
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
 
-                    <ul class="featured-products nolist group row">
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
 
-                    </ul><!-- row 1 -->
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
-                    <ul class="featured-products nolist group row">
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
 
-                    </ul><!-- row 2 -->
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱42,150.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
+
+     <div class="item">
+     <a href="option detail page.php">
+        <div class="item-header">
+          <h3>iPhone 4S 32gb White</h3>
+        </div>
+
+        <div class="group">
+          <div class="detail-header">
+             <div class="detail-prices group">
+               <div class="block price-summary">
+                  ₱34,900.00
+               </div>
+             </div><!-- detail-header -->
+          </div><!-- group -->
+
+          <div class="container-thumb">
+             <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
+          </div>
+        </div>
+     </a>
+     </div>
 
 
-                    <ul class="featured-products nolist group row">
+    
+  </div> <!-- #container -->
 
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black a really effing long title for some reason</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
+  
+      <div class="group">
+        <ul class="pagination">
+          <li class="arrow unavailable"><a href="">&laquo;</a></li>
+          <li class="current"><a href="">1</a></li>
+          <li><a href="">2</a></li>
+          <li><a href="">3</a></li>
+          <li><a href="">4</a></li>
+          <li class="unavailable"><a href="">&hellip;</a></li>
+          <li><a href="">12</a></li>
+          <li><a href="">13</a></li>
+          <li class="arrow"><a href="">&raquo;</a></li>
+        </ul>
+      </div>
 
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
-
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
-
-                        <li class="innercol four columns">
-                            <a href="option detail page.php" class="block">
-                              <div class="item-header">
-                                <h3>iPhone 4S 32gb Black</h3>
-                              </div>
-                              <div class="detail-price-single">
-                                   <span class="item-price">Php 32,000</span>
-                              </div>
-
-                              <div class="container-thumb">
-                                <img class="item-thumb" src="img/sample_iphone4sblack_200.png" alt="item-title">
-                              </div>
-                              
-                              <div class="posted-details group">
-                                   <img class="user-avatar-small left" src="img/authentic_avatar.png">
-                                   <div class="posted-info block left">
-                                        <span class="detail-author authenticated">
-                                            <span class="posted-datetime">added 3 days ago</span><br>
-                                            <strong>authenticated price</strong>
-                                   </div>
-                              </div><!-- group -->
-                            </a>
-                        </li>
-
-                    </ul><!-- row 3 -->
-
-
-
-
-
-                </article>
-
-                <div class="pagination group">
-                    <a href="#" class="see-more right">see more products &raquo; </a>
-                </div>
+  

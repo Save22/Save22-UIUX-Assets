@@ -106,13 +106,14 @@
                 <ul class="tabs-content">
                   <li class="active" id="productsTab">
 
-                    <?php require_once('widgets/featured-diapers.php'); ?>
+                    <?php require_once('widgets/featured-gadgets.php'); ?>
 
                   </li>
                   <li id="commentsTab">
                     <div class="row">
                         <div class="eight columns centered">
-                            Comments form here.
+                            <fb:comments width="726" num_posts="5"></fb:comments>
+                            <div id="fb-root"></div>
                         </div>
                     </div>
                   </li>

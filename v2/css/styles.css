@@ -125,10 +125,7 @@
 		border-top: 4px solid #2b2b2b;
 		border-bottom: 1px solid #d4d4d4;
 		box-shadow: 0 0px 5px 0 rgba(0,0,0,0.35);
-		-webkit-transition: box-shadow 0.5s ease-in;  
-		-moz-transition: box-shadow 0.5s ease-in;  
-		-o-transition: box-shadow 0.5s ease-in; 
-		transition: box-shadow 0.5s ease-in;
+		width: 100%;
 	}
 
 	#main-header .row { padding: 12px 0 0 0; z-index: 10; }
@@ -177,7 +174,7 @@
 	}
 		#main-header.floating-header .subheader, .floating-header #popular-searches { display: none; }
 		#main-header.floating-header #logo { width: 174px; background-position: 0 -34px !important; margin-right: 24px; margin-bottom: 4px;}
-		#main-header.floating-header { border-top: 0; background: #2d2d2d; border-bottom: 1px solid #000;
+		#main-header.floating-header { border-top: 0; background: #2d2d2d; border-bottom: 1px solid #000; top: 0;
 			box-shadow: 0px 0px 25px rgba(0,0,0,0.50);
 		}
 		#main-header.floating-header .row { padding: 8px 0 0 0;}
