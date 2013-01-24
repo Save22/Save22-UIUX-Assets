@@ -148,23 +148,26 @@
 			padding-left: 16px;
 			margin-bottom: 12px;
 		}
-
-	#searchbox { min-width: 75%; margin-top: 2px; }
+	.country-copy .intro { padding: 6px 12px; font-style: italic; }
+	#searchbox { margin-top: 2px; }
 		#searchbox form { margin: 0; }
 		#site_search { 
 			border: 0;
-			border-bottom: 2px solid #e0e0e0; width: 60%; 
+			border-bottom: 2px solid #e0e0e0; 
 			background: url('../img/searchicon.png') 8px center no-repeat #fff;
 			padding-left: 30px;
-			margin: 0 8px 0 0;
+			margin: 0 0 0 0;
 			font-family: 'Lato', sans-serif;
+			width: 65%;
 		}
 			#site_search:focus { border: 2px solid #ccc; }
 		#searchbox .button { 
 			box-shadow: none;
 			border-color: #ccc;
 			height: 32px;
-			padding: 0px 14px !important;
+			padding: 0px 2% !important;
+			font-weight: 400;
+			width: 35%;
 		}
 
 	.floating-header {
@@ -172,7 +175,9 @@
 		width: 100%;
 		z-index: 1000;
 	}
-		#main-header.floating-header .subheader, .floating-header #popular-searches { display: none; }
+		#main-header.floating-header .subheader, 
+		.floating-header #popular-searches, 
+		.floating-header .country-copy { display: none; }
 		#main-header.floating-header #logo { width: 174px; background-position: 0 -34px !important; margin-right: 24px; margin-bottom: 4px;}
 		#main-header.floating-header { border-top: 0; background: #2d2d2d; border-bottom: 1px solid #000; top: 0;
 			box-shadow: 0px 0px 25px rgba(0,0,0,0.50);
@@ -188,8 +193,8 @@
 			background: -ms-linear-gradient(top,  #7d7e7d 0%,#3d3d3d 100%); /* IE10+ */
 			background: linear-gradient(to bottom,  #7d7e7d 0%,#3d3d3d 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#3d3d3d',GradientType=0 ); /* IE6-9 */
-			border-color: #565656 !important;
-			color: #ccc;
+			border-color: #000 !important;
+			color: #fff;
 		}
 		.floating-header .button:hover { 
 			background: #45484d; /* Old browsers */
@@ -201,6 +206,7 @@
 			background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 			border-color: #000 !important;
+			box-shadow: 2px 2px 0 rgba(0,0,0,1);
 		}
 		.floating-header #searchbox #site_search {
 			background-color: #333;

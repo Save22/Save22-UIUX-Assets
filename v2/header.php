@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="css/styles-layout-widgets.css" type="text/css" media="screen" />
 
   <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
-  
+
   <link rel="stylesheet" href="css/styles-layout-mobile.css" type="text/css" media="screen" />
 
   <!--[if IE 8]>
@@ -68,35 +68,25 @@
 -->
 
     <div class="row relative">
-        <div class="logo-set left">
+        <div class="logo-set three columns">
             <a href="http://save22.com">
               <h1 id="logo" class="block" style="background: url('img/logo-ph.png') no-repeat;background-size:174px;">Save22</h1>
               <img src="img/logo-ie8.png" class="logo-ie8">
             </a>
             
             <div class="subheader">
-              one item, different prices
+              same item, lower price
             </div>
                 
         </div><!-- logo -->
-        <div id="searchbox" class="left">
-          <div class="group">
-            <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
-            <input type="submit" class="button left radius" value="search">
+        <div class="country-copy three columns mobile-hide">
+          <div class="intro">
+            compare prices among stores in the Philippines through bayanihan
           </div>
-
-          <div class="group">
-            <ul class="nolist">
-              <li id="popular-searches"> 
-                  <span class="label uppercase">popular:</span> 
-                  <a href="#">iphone</a>   
-                  <a href="#">ipad mini</a>   
-                  <a href="#">galaxy note 2</a>   
-                  <a href="#">nexus 4</a>  
-                  <a href="#">diapers</a>   
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div id="searchbox" class="six columns">
+          <input type="text" id="site_search" class="left six columns" placeholder="Search for a product"> 
+          <input type="submit" class="button left" value="search price comparisons">
         </div>
 
     </div><!-- row -->
