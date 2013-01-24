@@ -8,6 +8,10 @@
    }
 
    @media screen and (max-width: 1025px) {
+      #site_search { width: 55% !important; }
+      #searchbox .button { width: 45%; }
+      .intro4 h1 { font-size: 2em; }
+
        #container .item { width: 46%;  }
        ol#price-list > li { padding: 12px; }
        .price-option .price-header .price, 
@@ -17,9 +21,9 @@
 
    @media handheld, only screen and (max-width: 767px) {
 
-   h2.single-header, .store-name { 
-      border-top: 0;
-   }
+      h2.single-header, .store-name { 
+         border-top: 0;
+      }
       #content { min-height: 0; padding: 0; }
       #main-header { border: 0; padding-bottom: 8px;
          background: #ffffff;
