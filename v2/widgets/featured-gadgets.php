@@ -172,6 +172,8 @@
              <div class="detail-prices group">
                <div class="block price-summary">
                   ₱34,900.00
+                  <br />
+                  <small>(out of 4 options)</small>
                </div>
              </div><!-- detail-header -->
           </div><!-- group -->

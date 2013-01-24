@@ -1,0 +1,16 @@
+
+
+/********* PAGE ELEMENTS: PRODUCT DETAIL PAGE ***********/
+
+   #content.product-detail .shop a { color: #4b4b4b; }
+      a.store-details span { margin-top: 14px; }
+   .post-date a { color: #4b4b4b; font-size: 0.813em; }
+   span.detail-branch { font-weight: 400; }
+
+   ul.tabs-content, #item-description { word-wrap: break-word; }
+
+   .tags-box { font-size: 0.75em; float: right; color: #999; margin: 24px 0; border-top: 3px solid #ccc; width: 100%; }
+      .tags-box h3 { text-transform: uppercase; letter-spacing: 3px; padding: 12px 0 0 0; }
+   ul#item-tags a { color: #999; font-size: 0.875em; }
+
+   div.shop a:hover { text-decoration: underline; }

@@ -1,0 +1,81 @@
+
+/********* PAGE ELEMENTS: OPTION DETAIL PAGE ***********/
+
+   #content.odp h2.single-header { font-weight: 400; text-align: left; }
+   ol#price-list > li:nth-child(odd) {background: #f7f7f7; }
+      ol#price-list > li { padding: 24px 12px; border-bottom: 1px solid #ccc;}
+      ol#price-list > li:last-child { border: 0;}
+   .option-col { width: 23%; margin-right: 2%;}
+   .store-details.button { display: block; min-width: 80px;}
+
+   .detail-shop { font-weight: 600; }
+
+   .item-price { color: #b51616; }
+   .price-option{ border-bottom: 1px solid #f7f7f7; }
+
+   .branch-contact { margin-top: 16px; }
+   .store-website a {
+      display: block;
+      background: #2d2d2d;
+      margin-top: -24px;
+      padding: 12px 24px;
+      text-align: center;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff;
+   }
+      .store-website a:hover { background: #eaeaea; color: #000; }
+
+
+/********* PAGE ELEMENTS: PRICE DETAIL PAGE ***********/
+
+   #content.product-detail h2.single-header { border-bottom: 3px solid #3b3b3b; }
+
+   #store-info, #item-info {
+      width: 48%;
+   }
+
+   #content.product-detail #item-info { width: 100%; }
+
+   #store-info h3 { 
+      font-weight: 600;
+      padding: 4.75%;
+      margin: 0 0 24px 0;
+      font-size: 1.275em;
+      background: #3b3b3b;
+      color: #ccc;
+   }
+      #store-info h3 .impt { color: #fff; letter-spacing: 1px; }
+
+   .store-details { margin: 14px 0 0 0;}
+
+   #item-info {
+      background: #f4f4f4;
+      padding: 12px 20px;
+   }
+      #item-thumbnail { 
+         border: 1px solid #ccc; 
+         max-width: 100%; 
+         min-height: 150px;
+         margin: 7px auto 24px auto;
+         overflow: hidden;
+         display: block;
+      }
+      #item-info .back { 
+         color: #666; 
+         display: block; 
+         margin: 12px 0 0 0; 
+         border-top: 1px solid #ccc; 
+         padding: 10px 0; 
+         text-transform: uppercase; 
+         letter-spacing: 1px; 
+         font-size: 1em; 
+         font-weight: 900; 
+      }
+         #item-info .back:hover { color: #000; }
+
+
+/* directions */
+   #map { max-width: 100%; overflow: none; }
+   #map-directions { margin: 24px 0; }

@@ -1,0 +1,21 @@
+
+
+/********* PAGE ELEMENTS: SERP OR SEARCH PAGE ***********/
+
+   #content.search #sidebar { 
+      margin-top: 24px;
+   }
+
+   .search-results li a.block {
+      margin-bottom: 24px;
+      border-width: 1px 1px 1px 1px;
+   }
+      .search-results li a.block:hover {  
+         border-width: 1px 1px 1px 1px;
+         position: relative; top: 0;
+      }
+
+   span.results-copy {
+      font-size: 1.25em; 
+   }
+

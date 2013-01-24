@@ -34,7 +34,18 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
+  <link rel="stylesheet" href="css/styles-modules-store.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-search.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-pdp.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-odp.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-hub.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-home.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-modules-error.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/styles-layout-widgets.css" type="text/css" media="screen" />
+
   <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+  
+  <link rel="stylesheet" href="css/styles-layout-mobile.css" type="text/css" media="screen" />
 
   <!--[if IE 8]>
     <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
@@ -49,10 +60,12 @@
 
 
 <header id="main-header">
-
+<!-- NO LOGIN YET -->
+<!-- 
   <div class="my-account">
     <a href="http://save22.com.sg" class="selected">Login</a>
   </div>
+-->
 
     <div class="row relative">
         <div class="logo-set left">

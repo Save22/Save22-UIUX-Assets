@@ -1,0 +1,97 @@
+
+   /* ERROR PAGES */
+
+      .error-page {
+         background: url('../img/bg1.jpg') top center no-repeat;
+         background-size: 100%;
+         padding-bottom: 48px;
+      }
+      div.aisle-sign { 
+         text-align: center;
+         position: relative;
+         top: -50px;
+         z-index: 1;
+         -webkit-transition: all 0.2s ease-in;  
+         -moz-transition: all 0.2s ease-in;  
+         -o-transition: all 0.2s ease-in;   
+         transition: all 0.2s ease-in;
+      }
+         #sign-404.aisle-sign:hover {
+            top: -40px;
+         }
+      .aisle-header {
+         display: block;
+         display: block;
+         width: 400px;
+         height: 202px;
+         margin: auto;
+         text-indent: -900%;
+      }
+         #aisle-404 {
+            background: url('../img/error-404@2x.png') center center no-repeat;
+            background-size: 400px;
+         }
+
+      #sign-500 { 
+         position: absolute;
+         top: -200px;
+         -webkit-transition: all 0.2s ease-in;  
+         -moz-transition: all 0.2s ease-in;  
+         -o-transition: all 0.2s ease-in; 
+         transition: all 0.2s ease-in; 
+      }
+
+      #sign-500:hover { top: -130px; }
+
+      #aisle-500.aisle-header {
+         width: 467px;
+         height: 463px;
+         background: url('../img/error-500b@2x.png') center center no-repeat;
+         background-size: 467px;
+      }
+
+      .error-page h2 { 
+         background: #026951;
+         width: 400px;
+         padding: 12px 24px;
+         border: 1px solid #026951;
+         color: #fff;
+         margin: auto;
+         font-size: 1.2em;
+         box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+      }
+
+      .error-page p.explained { margin: 24px; text-align: center; font-size: 1.25em; margin-top: -20px; }
+
+      #error-500 { height: 400px; }
+      #error-500 p.explained {
+         text-align: right;
+         margin-top: 100px;
+      }
+
+      body.error #main-footer {
+         background: 0; border: 0;
+      }
+
+   /* body search */
+
+      .body-search input[type=text] { 
+         border: 1px solid #666;
+         background: url('../img/searchicon.png') 12px center no-repeat #fff;
+         padding: 24px 24px 24px 48px;
+         margin: 0 8px 0 0;
+         font-size: 2em;
+      }
+         .body-search input[type=text]:focus { border: 2px solid #666; }
+      .body-search a.button { 
+         border-color: #666;
+         padding-top: 10px;
+         font-size: 2em;
+         height: 50px;
+         background: #b3181d !important;
+         color: #fff;
+      }
+         .body-search a.button:hover, .body-search a.button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
+
+      #error-500 .body-search a.button { font-size: 1.25em; padding-top: 14px;}
+
