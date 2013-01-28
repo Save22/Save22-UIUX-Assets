@@ -23,7 +23,7 @@
                    <input type="text" id="content_site_search" />
                  </div>
                  <div class="two mobile-one columns">
-                   <a class="button expand postfix">Search</a>
+                   <input type="submit" class="button expand postfix" value="search">
                  </div>
                </div>
             </form>

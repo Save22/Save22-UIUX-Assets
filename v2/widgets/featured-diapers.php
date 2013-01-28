@@ -498,6 +498,12 @@
     
   </div> <!-- #container -->
 
+    <div class="searchbox group">
+      <div class="group">
+        <input type="text" class="left site_search" placeholder="Can't find what you're looking for?"> 
+        <input type="submit" class="button left radius" value="search">
+      </div>
+    </div>
   
       <div class="group">
         <ul class="pagination">

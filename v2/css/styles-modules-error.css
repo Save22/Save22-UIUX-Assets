@@ -83,15 +83,15 @@
          font-size: 2em;
       }
          .body-search input[type=text]:focus { border: 2px solid #666; }
-      .body-search a.button { 
+      .body-search .button { 
          border-color: #666;
-         padding-top: 10px;
-         font-size: 2em;
+         padding-top: 14px;
+         font-size: 1.25em;
          height: 50px;
          background: #b3181d !important;
          color: #fff;
       }
-         .body-search a.button:hover, .body-search a.button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
+         .body-search .button:hover, .body-search .button-active { background: #8c0f0f; border: 2px solid #666; height: 51px; }
 
-      #error-500 .body-search a.button { font-size: 1.25em; padding-top: 14px;}
+      #error-500 .body-search .button { font-size: 1.25em; padding-top: 14px;}
 

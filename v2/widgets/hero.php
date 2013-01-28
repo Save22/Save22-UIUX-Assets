@@ -1,5 +1,5 @@
 
-<!-- if no hero shot uploaded -->
+<!-- if no hero shot uploaded 
 <section id="hero-html" class="group">
    <div class="row">
       <div class="three columns intro4">
@@ -23,20 +23,18 @@
 
    </div>
 </section>
-
+-->
 
 <!-- if hero shot available -->
 <!-- .hasbanner class added, if true -->
-<!-- 
 <section id="hero-html" class="group hasbanner"> 
    <div class="row">
-      <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png') #803333;">
+      <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png') #f7f7f7;"><!-- 
           <div class="intro-copy right relative dark">
             Christmas is the season of giving.
-            <a href="#" class="button radius red-button block mtop">Get them now</a>
+            <a href="#" class="button radius red-button block mtop">Check prices</a> -->
           </div>
       </div>
    </div>
 </section>
--->
       

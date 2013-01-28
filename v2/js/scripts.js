@@ -49,6 +49,7 @@ jQuery(document).ready(function($) {
         
         
         /** TOPMOST HEADER **/
+        /*
             var div = $('#main-header');
             var start = $(div).offset().top;
             var div_height = div.height() + $('#smart-shopper').outerHeight(true);
@@ -64,7 +65,7 @@ jQuery(document).ready(function($) {
                     $(div).removeClass('floating-header');
                 }
             });
-
+        */
 
     /* store header nav */ 
 

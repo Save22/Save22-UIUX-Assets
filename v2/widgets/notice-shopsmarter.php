@@ -5,7 +5,7 @@
         <!-- Title Area -->
         <li class="nav-title">
           <h1>
-              Find deals
+              Compare Prices
           </h1>
         </li>
         <li class="toggle-topbar"><a href="#"></a></li>

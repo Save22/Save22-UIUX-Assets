@@ -67,44 +67,36 @@
   </div>
 -->
 
-  <div class="row relative">
-    <div class="logo-set">
-        <a href="http://save22.com">
-          <h1 id="logo" class="block" style="background: url('img/logo-ph.png') no-repeat;background-size:174px;">Save22</h1>
-            <img src="img/logo-ie8.png" class="logo-ie8">
-        </a>
+    <div class="row relative">
+        <div class="logo-set three columns">
+            <a href="http://save22.com">
+              <h1 id="logo" class="block" style="background: url('img/logo-ph.png') no-repeat;background-size:174px;">Save22</h1>
+              <img src="img/logo-ie8.png" class="logo-ie8">
+            </a>
             
-        <div class="subheader">
-          Price comparison in the Philippines
-        </div>
+            <div class="subheader">
+              Price comparison in the Philippines
+            </div>
                 
-    </div><!-- logo -->
-    <div class="header-half left">
-      <div class="country-copy">
-        Search for products to compare prices:
-      </div>
-      <div class="searchbox group">
-        <div class="group">
-          <input type="text" class="left site_search" placeholder="What do you want to buy?"> 
-          <input type="submit" class="button left radius" value="search">
+        </div><!-- logo -->
+        <div id="searchbox" class="nine columns">
+          <div class="country-copy mobile-hide">
+              compare prices among stores in the Philippines through bayanihan
+          </div>
+          <input type="text" id="site_search" class="left eight columns" placeholder="What are you looking for?"> 
+          <input type="submit" class="button left" value="search price comparisons">
         </div>
-        <div class="copy group popular">
-          <span class="left">Or try these popular items: </span>
-            <ul class="link-list left">
-              <li> <a href="#">smart phone</a> </li>
-              <li> <a href="#">samsung galaxy</a> </li>
-              <li> <a href="#">diaper</a> </li>
-              <li> <a href="#">camera</a> </li>
-              <li> <a href="#">ipad mini</a> </li> 
+
+          <div class="twelve columns">
+            <ul id="popular-searches" class="nolist link-list">
+              <li class="label uppercase"> popular</li>
+              <li> <a href="#">iphone</a> </li>
+              <li> <a href="#">ipad mini</a> </li>
+              <li> <a href="#">cameras</a> </li>
+              <li> <a href="#">bubble gum</a> </li>
               <li> <a href="#">shampoo</a> </li>
-              <li> <a href="#">soap</a> </li>
-              <li> <a href="#">milk</a> </li> 
-              <li> <a href="#">laundry</a> </li> 
+              <li> <a href="#">galaxy s3</a> </li>
             </ul>
-        </div>
-      </div>
-
-    </div>
-
-  </div><!-- row -->
+          </div>
+    </div><!-- row -->
 </header>
