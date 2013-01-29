@@ -182,7 +182,7 @@
 
 	#main-header .row { padding: 0; z-index: 10; }
 
-	.logo-set { width: 30%; float: left; }
+	.logo-set { width: 30%; float: left; position: relative; padding-left: 15px; }
 	#logo {
 		width: 174px;
 		height: 34px; 
@@ -254,9 +254,6 @@
 			border-bottom: 1px solid #565656;
 		}
 		.floating-header #site_search:focus { border-color: #ccc; color: #fff; }
-
-
-	.logo-set { position: relative; }
 
 	/*
 	.current-country, .my-account { 

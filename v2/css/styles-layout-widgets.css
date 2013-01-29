@@ -21,7 +21,7 @@
          top: 0;
       }
       #smart-shopper .row {  }
-         #smart-shopper h1 { padding: 14px 15px 14px 0; margin: 0; color: #333; font-size: 1em; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;}
+         #smart-shopper h1 { padding: 14px 15px 14px 15px; margin: 0; color: #333; font-size: 1em; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;}
          #smart-shopper .nav-title:hover { background: none; }
       #smart-shopper a { 
          -webkit-transition: none;  
