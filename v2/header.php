@@ -83,6 +83,7 @@
       <div class="country-copy">
         Search for products to compare prices:
       </div>
+      <a href="#" class="mobile-visible search-link button radius">Search</a> 
       <div class="searchbox group">
         <div class="group">
           <input type="text" class="left site_search" placeholder="What do you want to buy?"> 

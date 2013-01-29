@@ -5,11 +5,15 @@
 
    @media screen and (max-width: 1024px) {
       .searchbox { min-width: 50%;}
+      .logo-set { padding-left: 15px;}
+      .header-half { margin-right: 15px; width: 68%; }
+      .popular .link-list { height: 15px; overflow: hidden;}
+      #smart-shopper h1 { padding-left: 15px; }
    }
 
    @media screen and (max-width: 1025px) {
-      .site_search { width: 55% !important; }
-      .searchbox .button { width: 45%; }
+      .site_search { width: 75% !important; }
+      .searchbox .button { width: 25%; }
       .intro4 h1 { font-size: 2em; }
 
        #container .item { width: 46%;  }
@@ -26,35 +30,55 @@
       }
       #content { min-height: 0; padding: 0; }
       #main-header { border: 0; padding-bottom: 8px;
-         background: #ffffff;
-         background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%);
-         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee));
-         background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%);
-         background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%);
-         background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%);
-         background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%);
+         background: #fff; position: fixed; top: 0; left: 0; width: 100%;
+         z-index: 1000;
       }
-         #logo { margin: 0 14px; width: 174px; height: 34px; }
+         #logo { margin: 12px 14px 0 14px; width: 174px; height: 34px; }
          #main-header.floating-header .row { padding: 8px 0;}
          #main-header.floating-header #logo { width: 174px; height: 34px; background-size: 174px  !important; margin-right: 12px;}
          .logo-set, #main-header.floating-header .logo-set { display: block; float: left; }
+         .logo-set { width: 188px; padding-left: 0px; }
+
+         .searchbox { background: none; border: 0; clear: both; float: none; width: 100%;}
 
          .searchbox, #main-header.floating-header .searchbox { display: none; min-width: 150px; }
          .searchbox, #main-header.floating-header .searchbox { margin: 0; padding: 0; }
-            .site_search, .site_search:focus { width: 180px; }
-            .searchbox .button { display: none; }
+         
+         #main-header .site_search, .site_search:focus { width: 100% !important; border-radius: 24px; border: 1px solid #ccc; background: #f7f7f7; }
+            .searchbox .button, .searchbox .popular { display: none; }
          .my-account { display: none; }
 
+      .header-half { width: 100%; float: left; padding: 0 12px; }
+      .country-copy {font-size: 0.813em; float: left; margin: 6px 0; display: none; }
+      #main-header .search-link {
+         display: block;
+         position: absolute;
+         top: 7px;
+         right: 12px;
+         background: #9b1111;
+         color: #fff !important;
+         padding: 12px 12px;
+         box-shadow: inset 1px 1px 0 rgba(255,255,255,0.8);
+         border-color: #8c0f0f;
+      }
+         #main-header .search-link:hover { text-decoration: none; }
+
+      #smart-shopper { margin-top: 55px; background: #333; }
+      #smart-shopper h1 { padding-left: 12px; color: #fff; }
+      #smart-shopper a { color: #ccc; }
       #smart-shopper li.has-flyout { margin-left: 0; }
       #smart-shopper li.has-flyout { overflow: hidden; }
       #smart-shopper li { border-bottom: 1px solid #000; border-top: 1px solid #666; }
-
+\
       .top-bar ul li.toggle-topbar:hover { background: none; }
+      .top-bar ul li.nav-title:hover h1  {color: #fff; }
       .top-bar ul.dropdown > li a { 
             border-top: 1px solid #333;
          }
       .top-bar ul li.has-dropdown.moved .back.title h5 a { text-transform: uppercase; font-size: 1.25em; border: 0; }
       .top-bar ul li.has-dropdown.moved .back.title { background: #333; }
+      .top-bar li.active a.active { color: #333 !important;}
+      .top-bar li.active a.active:hover { color: #fff !important;}
 
       .innercol, #container .item { width: 100% !important; display: block; float: none; margin: 14px 0; overflow: visible; }
 
@@ -210,12 +234,30 @@
          ul.pagination { 
             border-top: 2px solid #666;
             float: none;
-            width: 100%;
             clear: both;
-            padding: 12px 2px;
+            padding: 12px 0;
             background: none;
-            margin: 0 0 24px 0;
+            margin: 24px -15px 24px -15px;
+            height: auto;
          }
+         ul.pagination li {
+            float: none;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            height: auto;
+            padding: 0; margin: 0;
+         }
+         ul.pagination li a {
+            padding: 12px 0;
+         }
+         ul.pagination li.arrow a { 
+            display: block !important;
+            float: none !important;
+            background: #3b3b3b;
+            color: #fff;
+            font-weight: 900;
+         }
+         ul.pagination li:last-child { border: 0; }
 
       /* option detail page */
 
