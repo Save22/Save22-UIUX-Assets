@@ -13,12 +13,17 @@ input[type=text] { height: 16px;  }
 ul.nolist li { padding: 0; }
 
  
-#logo { display: none;}
+#logo, .floating-header .logo-ie { display: none;}
 .logo-ie { display: block; float: left; }
 .floating-header { height: 44px; }
 .floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
 
 
+.logo-ie {
+	display: block;
+	margin: 10% 24px 8px 0;
+}
+.subheader { display: block; width: 100%; }
 
 .top-bar { overflow: visible; }
 .top-bar .nav-title { float: left; }

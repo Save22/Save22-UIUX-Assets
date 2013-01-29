@@ -71,7 +71,8 @@
     <div class="logo-set">
         <a href="http://save22.com">
           <h1 id="logo" class="block" style="background: url('img/logo-ph.png') no-repeat;background-size:174px;">Save22</h1>
-            <img src="img/logo-ie8.png" class="logo-ie8">
+            <img src="img/logo-ie-ph.png" class="logo-ie">
+            <img src="img/logo-ie-ph-white.png" class="logo-ie-white">
         </a>
             
         <div class="subheader">

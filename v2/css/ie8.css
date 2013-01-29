@@ -1,9 +1,14 @@
 
-#logo { display: none;}
+#logo, .floating-header .logo-ie { display: none;}
 .logo-ie { display: block; float: left; }
 .floating-header .row { padding-bottom: 8px !important; }
-.floating-header #logo { display: none; }
 .floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
+
+.logo-ie {
+	display: block;
+	margin: 10% 24px 8px 0;
+}
+.subheader { display: block; width: 100%; position: absolute; left: 0; top: 77px; }
 
 
 .site_search { padding: 6px 6px 6px 32px; }
