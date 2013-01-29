@@ -148,6 +148,7 @@
 			color: #fff;
 			text-transform: uppercase;
 			letter-spacing: 1px;
+			filter: none; /* for IE */
 		}
 
 		#content .searchbox { background: #f7f7f7; box-shadow: none; border: 0; width: 70%; margin: 48px auto 24px auto; border-radius: 0; box-shadow: inset 0 2px 2px rgba(0,0,0,0.1); }
@@ -192,7 +193,7 @@
 		-o-transition: background-position 0.2s ease-in;  
 		transition: background-position 0.2s ease-in;  
 	}
-		.logo-ie8 { display: none; }
+		.logo-ie, .logo-ie-white { display: none; }
 		.subheader {
 			font-size: 0.75em;
 			font-weight: 400;
