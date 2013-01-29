@@ -1,18 +1,35 @@
+
+#logo, .floating-header .logo-ie { display: none;}
+.logo-ie { display: block; float: left; }
 .floating-header .row { padding-bottom: 8px !important; }
+.floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
 
-.floating-header #logo { display: none; }
+.logo-ie {
+   display: block;
+   margin: 10% 24px 8px 0;
+}
+.subheader { display: block; width: 100%; position: absolute; left: 0; top: 77px; }
 
-.floating-header .logo-ie8 { display: block; float: left; margin-right: 14px; } 
 
-
-#site_search { padding: 6px 6px 6px 32px; }
+.site_search { padding: 6px 6px 6px 32px; }
 
 .tab-label { width: 165px; }
 
 
 
-#smart-shopper .row { width: 100%; }
-nav.top-bar { overflow: visible; }
-nav.top-bar .nav-title { float: left; }
-nav.topbar section { float: left; background: #3b3b3b; }
-nav.top-bar section ul li a.active { display: block; width: 100%; }
+#smart-shopper { border-bottom: 1px solid #6b6b6b; }
+.top-bar { overflow: visible; }
+.top-bar .nav-title { float: left; }
+.topbar section { float: left; background: #eee; }
+#smart-shopper.top-bar ul li a.active { display: block; width: 100%; background: none; }
+#smart-shopper.top-bar ul li.has-dropdown:hover { background: #333;}
+
+.top-bar ul li.has-dropdown a:after {
+   border-top-color: #333;
+}
+
+.body-search .button { 
+   color: #000;
+}
+
+.error-page { height: 400px; }

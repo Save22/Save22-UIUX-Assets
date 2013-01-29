@@ -34,16 +34,10 @@
 	.overflow-visible { overflow: visible !important;}
 
 	.impt { color: #b51616; font-weight: 900; }
-
 	.mtop { margin-top: 25px; }
-
-	.footnote { margin-top: 24px; }
-		.footnote p { font-size: 0.813em; }
-
 	.box-shadow { 
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
 	}
-
 	.mobile-visible { display: none; }
 
 
@@ -172,7 +166,7 @@
 	}
 
 	#main-header {
-      background: url('../img/header-bg.jpg') top center no-repeat #fff; 
+      background: url('../img/header-bg.jpg') top center no-repeat #fff;
       background-size: 100%;
 		border-top: 4px solid #2b2b2b;
 		border-bottom: 1px solid #6b6b6b;
@@ -183,6 +177,7 @@
 	#main-header .row { padding: 0; z-index: 10; }
 
 	.logo-set { width: 30%; float: left; position: relative; padding-left: 15px; }
+	
 	#logo {
 		width: 174px;
 		height: 34px; 

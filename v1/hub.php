@@ -1,7 +1,7 @@
 <?php require_once('header.php'); ?>
 <!-- HERO SHOT MOVED HERE --> 
-<?php require_once('widgets/hero.php'); ?> 
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
+<?php require_once('widgets/hero.php'); ?> 
 
 
 <div id="content" class="hub">

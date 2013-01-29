@@ -49,38 +49,47 @@
 
 
 <header id="main-header">
-    <div class="row relative">
-        <div class="logo-set left">
-            <a href="http://save22.com">
-                    <h1 id="logo" class="block" style="background: url('img/logo.png') no-repeat;">Save22</h1>
-                    <img src="img/logo-ie-ph.png" class="logo-ie">
-                    <img src="img/logo-ie-ph-white.png" class="logo-ie-white">
-                </a>
-                
-                <div class="subheader">
-                 one item, different prices
-                </div>
-                
-        </div><!-- logo -->
-        <div id="searchbox" class="left">
-          <div class="group">
-            <input type="text" id="site_search" class="left" placeholder="Search for a product"> 
-            <input type="submit" class="button left radius" value="search">
-          </div>
-
-          <div class="group">
-            <ul class="nolist">
-              <li id="popular-searches"> 
-                  <span class="label uppercase">popular:</span> 
-                  <a href="#">iphone</a>   
-                  <a href="#">ipad mini</a>   
-                  <a href="#">galaxy note 2</a>   
-                  <a href="#">nexus 4</a>  
-                  <a href="#">diapers</a>   
-              </li>
-            </ul>
-          </div>
+  <div class="row relative">
+    <div class="logo-set">
+        <a href="http://save22.com">
+          <h1 id="logo" class="block" style="background: url('img/logo-ph.png') no-repeat;background-size:174px;">Save22</h1>
+            <img src="img/logo-ie-ph.png" class="logo-ie">
+            <img src="img/logo-ie-ph-white.png" class="logo-ie-white">
+        </a>
+            
+        <div class="subheader">
+          Price comparison in the Philippines
         </div>
+                
+    </div><!-- logo -->
+    <div class="header-half left">
+      <div class="country-copy">
+        Search for products to compare prices:
+      </div>
+      <a href="#" class="mobile-visible search-link button radius">Search</a> 
+      <div class="searchbox group">
+        <div class="group">
+          <input type="text" class="left site_search" placeholder="What do you want to buy?"> 
+          <input type="submit" class="button left radius" value="search">
+        </div>
+        <div class="copy group popular">
+          <span class="left">Or try these popular items: </span>
+            <ul class="link-list left">
+              <li> <a href="#">smart phone</a> </li>
+              <li> <a href="#">samsung galaxy</a> </li>
+              <li> <a href="#">diaper</a> </li>
+              <li> <a href="#">camera</a> </li>
+              <li> <a href="#">ipad mini</a> </li> 
+              <li> <a href="#">shampoo</a> </li>
+              <li> <a href="#">soap</a> </li>
+              <li> <a href="#">milk</a> </li> 
+              <li> <a href="#">laundry</a> </li> 
+            </ul>
+        </div>
+      </div>
 
-    </div><!-- row -->
+    </div>
+
+  </div><!-- row -->
 </header>
+

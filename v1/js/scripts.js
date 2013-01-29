@@ -49,6 +49,7 @@ jQuery(document).ready(function($) {
         
         
         /** TOPMOST HEADER **/
+        
             var div = $('#main-header');
             var start = $(div).offset().top;
             var div_height = div.height() + $('#smart-shopper').outerHeight(true);
@@ -64,8 +65,7 @@ jQuery(document).ready(function($) {
                     $(div).removeClass('floating-header');
                 }
             });
-
-
+        
     /* store header nav */ 
 
         var store_div = $('#store-tabs');
@@ -232,6 +232,28 @@ jQuery(document).ready(function($) {
     /* tabbing - clicks should not return hash in URL */
 
         $('dl.tabs dd').click(function(e){
+            e.preventDefault();
+        });
+
+    /* SEARCH BUTTON - mobile view */
+
+        $('.search-link').click(function(e){
+
+            var button = $(this),
+                search = $('.searchbox'),
+                copy = $('.country-copy');
+
+            if(button.hasClass('open')){
+                button.removeClass('open');
+                search.slideUp();
+                copy.slideUp();
+            }
+            else {
+                button.addClass('open');
+                copy.slideDown();
+                search.slideDown();
+            }
+
             e.preventDefault();
         });
 
