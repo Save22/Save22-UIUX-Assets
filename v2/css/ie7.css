@@ -12,7 +12,7 @@ input[type=text] { height: 16px;  }
 
 ul.nolist li { padding: 0; }
 
- 
+ .header-half { width: 68%; }
 #logo, .floating-header .logo-ie { display: none;}
 .logo-ie { display: block; float: left; }
 .floating-header { height: 44px; }
@@ -60,9 +60,22 @@ ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-p
 
 
 .body-search input[type=text] { height: 24px; padding: 8px 24px 18px 44px;  }
-.body-search a.button, .body-search a.button:hover { 
-	color: #000;
-	height: 30px;
+.body-search .button, .body-search .button:hover { 
+	color: #fff;
+	height: 53px;
+	filter: none;
 }
+
 .error-page { height: 400px; }
 #sign-500 { left: -55%; }
+#aisle-500 {
+	background: url('../img/error-500b.png') 0 0 no-repeat !important;
+}
+#sign-404 { top: 0; }
+	#sign-404:hover { top: 0; }
+	#sign-404 h2 { position: relative; top: -19px; padding-right: 0; padding-left: 0; }
+#aisle-404 {
+	background: url('../img/error-404.png') 0 0 no-repeat !important;
+	position: relative;
+	top: 0;
+}
