@@ -810,11 +810,11 @@
          background-size: 100%;
          padding-bottom: 48px;
       }
-      div.aisle-sign { 
+      .aisle-sign { 
          text-align: center;
          position: relative;
          top: -50px;
-         z-index: 1;
+         z-index: 10;
          -webkit-transition: all 0.2s ease-in;  
          -moz-transition: all 0.2s ease-in;  
          -o-transition: all 0.2s ease-in;   
@@ -845,7 +845,7 @@
          transition: all 0.2s ease-in; 
       }
 
-      #sign-500:hover { top: -130px; }
+      #sign-500:hover { top: -150px; }
 
       #aisle-500.aisle-header {
          width: 467px;
@@ -909,7 +909,8 @@
 
 	@media screen and (max-width: 1024px) {
       .searchbox { min-width: 50%;}
-      .logo-set { padding-left: 15px;}
+      .logo-set { padding-left: 15px; padding-top: 15px; }
+      	.floating-header .logo-set { padding-top: 0; }
       .header-half { margin-right: 15px; width: 68%; }
       .popular .link-list { height: 15px; overflow: hidden;}
       #smart-shopper h1 { padding-left: 15px; }

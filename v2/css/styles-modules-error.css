@@ -41,7 +41,7 @@
          transition: all 0.2s ease-in; 
       }
 
-      #sign-500:hover { top: -130px; }
+      #sign-500:hover { top: -150px; }
 
       #aisle-500.aisle-header {
          width: 467px;
