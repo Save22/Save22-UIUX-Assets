@@ -29,7 +29,12 @@
 }
 
 .body-search .button { 
-	color: #000;
+	color: #fff;
+	filter: none;
 }
+#content .body-search input[type=text] { padding-top: 6px; height: 50px; }
 
 .error-page { height: 400px; }
+#aisle-500 {
+	background: url('../img/error-500b.png') 0 0 no-repeat !important;
+}
