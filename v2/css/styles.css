@@ -43,7 +43,7 @@
 
 /* typography */
 
-	h2.single-header, .store-name { 
+	.single-header, .store-name { 
 		text-align: center;
 		padding: 24px 0;
 		text-transform: uppercase; 
@@ -52,9 +52,9 @@
 		border-top: 2px solid #999;
 		margin: 0;
 	}
-		.reveal-modal h2.single-header { margin: 0 0 24px 0; display: block; border-bottom: 3px solid #3b3b3b; }
+		.reveal-modal .single-header { margin: 0 0 24px 0; display: block; border-bottom: 3px solid #3b3b3b; }
 
-	h2.page-header, h2.store-name { 
+	.page-header, .store-name { 
 		border-bottom: 3px solid #3b3b3b; margin-bottom: 24px; 
 	}
 

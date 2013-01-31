@@ -34,6 +34,8 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
+  <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
   <link rel="stylesheet" href="css/styles-modules-store.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles-modules-search.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles-modules-pdp.css" type="text/css" media="screen" />
@@ -42,8 +44,6 @@
   <link rel="stylesheet" href="css/styles-modules-home.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles-modules-error.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="css/styles-layout-widgets.css" type="text/css" media="screen" />
-
-  <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
 
   <link rel="stylesheet" href="css/styles-layout-mobile.css" type="text/css" media="screen" />
 

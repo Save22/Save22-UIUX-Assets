@@ -12,16 +12,16 @@ input[type=text] { height: 16px;  }
 
 ul.nolist li { padding: 0; }
 
- 
+ .header-half { width: 68%; }
 #logo, .floating-header .logo-ie { display: none;}
 .logo-ie { display: block; float: left; }
 .floating-header { height: 44px; }
 .floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
-.header-half { width: 68%; }
+
 
 .logo-ie {
-   display: block;
-   margin: 10% 24px 8px 0;
+	display: block;
+	margin: 10% 24px 8px 0;
 }
 .subheader { display: block; width: 100%; }
 
@@ -45,24 +45,37 @@ ul.nolist li { padding: 0; }
 
 
 .product-detail #item-info {
-   width: 96% !important;
+	width: 96% !important;
 }
 
 ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-position: outside; }
 
 #content.product-detail .eight.columns { width: 62.5%; }
-   #content.product-detail .eight.columns article { padding: 0 2%; }
+	#content.product-detail .eight.columns article { padding: 0 2%; }
 
 #hub-categories ul#cat-list li { width: 20%; padding: 1% 2%; }
-   #hub-categories ul#cat-list li a { padding: 0; }
+	#hub-categories ul#cat-list li a { padding: 0; }
 
 #main-footer .social { display: none; }
 
 
 .body-search input[type=text] { height: 24px; padding: 8px 24px 18px 44px;  }
-.body-search a.button, .body-search a.button:hover { 
-   color: #000;
-   height: 30px;
+.body-search .button, .body-search .button:hover { 
+	color: #fff;
+	height: 53px;
+	filter: none;
 }
+
 .error-page { height: 400px; }
 #sign-500 { left: -55%; }
+#aisle-500 {
+	background: url('../img/error-500b.png') 0 0 no-repeat !important;
+}
+#sign-404 { top: 0; }
+	#sign-404:hover { top: 0; }
+	#sign-404 h2 { position: relative; top: -19px; padding-right: 0; padding-left: 0; }
+#aisle-404 {
+	background: url('../img/error-404.png') 0 0 no-repeat !important;
+	position: relative;
+	top: 0;
+}

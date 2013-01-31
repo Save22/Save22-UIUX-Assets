@@ -181,7 +181,6 @@ jQuery(document).ready(function($) {
         $('.viewmore').each(function(){
             $(this).click(function(e){
                 var price_details = $(this).parent().parent().parent().next('.price-details');
-                // alert($(this).parent().parent().parent().next('.price-details').attr('class'));
 
                 if(price_details.hasClass('open')) {
                     price_details.removeClass('open').slideUp();
@@ -195,17 +194,17 @@ jQuery(document).ready(function($) {
         });
 
         $('.view-all').click(function(e){
-            var original_text = 'Show Details';
+            var original_text = 'Hide Details';
 
             if($(this).hasClass('open')) { 
                 $(this).removeClass('open');
                 $('.price-details').removeClass('open').slideUp(); 
-                $(this).html(original_text);
+                $(this).html('Show Details');
             }
             else {
                 $(this).addClass('open');
                 $('.price-details').addClass('open').slideDown(); 
-                $(this).html('Hide Details');
+                $(this).html(original_text);
             }
             e.preventDefault();
 
