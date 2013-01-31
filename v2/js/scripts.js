@@ -46,35 +46,11 @@ jQuery(document).ready(function($) {
     
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
-        
-        
-        /** TOPMOST HEADER **/
-        /* 
-            var div = $('#main-header');
-            var start = $(div).offset().top;
-            var div_height = div.height() + $('#smart-shopper').outerHeight(true);
 
-            $(window).scroll(function(){         
-                var p = $(window).scrollTop(),
-                    w_width = $(window).width();
-
-                if(p >= div_height) {
-                    $(div).addClass('floating-header');
-                }
-                else {
-                    $(div).removeClass('floating-header');
-                }
-            });
-        */
-
-        // grab the initial top offset of the navigation 
         var sticky_navigation_offset_top = $('#main-header').offset().top;
         
-        // our function that decides weather the navigation bar should have "fixed" css position or not.
         var sticky_navigation = function(){
-            var scroll_top = $(window).scrollTop(); // our current vertical position from the top
-            
-            // if we've scrolled more than the navigation, change its position to fixed to stick to top, otherwise change it back to relative
+            var scroll_top = $(window).scrollTop(); 
             if (scroll_top > sticky_navigation_offset_top) { 
                 $('#main-header').css({ 'position': 'fixed', 'top':0, 'left':0 }).addClass('floating-header');
             } else {
@@ -82,10 +58,8 @@ jQuery(document).ready(function($) {
             }   
         };
         
-        // run our function on load
         sticky_navigation();
-        
-        // and run it again every time you scroll
+
         $(window).scroll(function() {
              sticky_navigation();
         });

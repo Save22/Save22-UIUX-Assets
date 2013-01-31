@@ -43,7 +43,8 @@
          color: #fff;
          background: #333;
       }
-      #smart-shopper.top-bar .row ul > li.active, #smart-shopper li.has-dropdown a.active { background: #fff; }
+      #smart-shopper.top-bar .row ul > li.active, 
+      #smart-shopper li.has-dropdown.active a.active { background: #fff; }
       #smart-shopper.top-bar .row ul > li > ul.dropdown > li { background: none; }
       .top-bar ul > li.divider { background: #ccc; 
          box-shadow: 1px 0 0 rgba(255, 255, 255, 0.5); 

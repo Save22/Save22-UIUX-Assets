@@ -26,6 +26,8 @@
 
    @media handheld, only screen and (max-width: 767px) {
 
+      .logo-set { padding-top: 0; }
+      
       h2.single-header, .store-name { 
          border-top: 0;
       }

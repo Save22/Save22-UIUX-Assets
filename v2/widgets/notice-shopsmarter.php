@@ -32,7 +32,7 @@
                         </li>
                         
                         
-                        <li>
+                        <li class="active">
                         
                             <a href="/h/gadgets/computer-components">Computer Components</a>
                         </li>
