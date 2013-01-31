@@ -81,6 +81,18 @@ jQuery(document).ready(function($) {
             }
         });
 
+//fix ie 7 and less quirks issue
+            if (($.browser.msie) && (parseInt($.browser.version, 10) <= 7)) {
+                $(function() {
+                    var zIndexNumber = 1000;
+                    $('.device img').each(function() {
+                        $(this).css('zIndex', zIndexNumber);
+                        zIndexNumber -= 10;
+                    });
+                });
+            }
+
+
 }); /* end of as page load scripts */
 
 

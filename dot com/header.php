@@ -58,7 +58,7 @@
             </a>
                 
             <div class="subheader">
-              one item, different prices
+              Price Comparison
             </div>
                 
         </div><!-- logo -->

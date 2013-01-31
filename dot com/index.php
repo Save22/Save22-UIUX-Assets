@@ -23,15 +23,15 @@
                Or open <strong>save22.com/download</strong> on your phone.
             </form>
          </div>
-         <div id="iphone" class="left">
+         <div id="iphone" class="left device">
             <a href="#" class="dl-device"><img src="img/sample-iphone.png" class="feat-device">
             </a>
          </div>
-         <div id="nexus" class="left">
+         <div id="nexus" class="left device">
             <a href="#" class="dl-device"><img src="img/sample-nexus.png" class="feat-device">
             </a>
          </div>
-         <div id="ipad" class="right">
+         <div id="ipad" class="right device">
             <div id="ipad-content">
                <div class="flags">
                   <div class="row">
