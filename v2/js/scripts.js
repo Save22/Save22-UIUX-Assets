@@ -256,6 +256,10 @@ jQuery(document).ready(function($) {
             e.preventDefault();
         });
 
+
+    var product_title_height = $('.product-header h2').outerHeight(true);
+    sameheight(product_title_height, $('.price-range'));
+
 }); /* end of as page load scripts */
 
 
@@ -273,4 +277,8 @@ function fullheight(div_name, bottom_div) {
 
 
     $(div_name).css('min-height', content_total + 'px');
+}
+
+function sameheight(height1, div){
+    $(div).css('height', height1 + 'px');
 }
