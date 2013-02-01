@@ -47,43 +47,34 @@ jQuery(document).ready(function($) {
     /* if is larger than 481px */
     if (responsive_viewport > 481) {
 
+    /* topmost header */
+
         var sticky_navigation_offset_top = $('#main-header').offset().top;
-        
+            
         var sticky_navigation = function(){
             var scroll_top = $(window).scrollTop(); 
-            if (scroll_top > sticky_navigation_offset_top) { 
-                $('#main-header').css({ 'position': 'fixed', 'top':0, 'left':0 }).addClass('floating-header');
-            } else {
-                $('#main-header').css({ 'position': 'relative' }).removeClass('floating-header'); 
-            }   
-        };
-        
+                if (scroll_top > sticky_navigation_offset_top) { 
+                    $('#main-header').css({ 'position': 'fixed', 'top':0, 'left':0 }).addClass('floating-header');
+                } else {
+                    $('#main-header').css({ 'position': 'relative' }).removeClass('floating-header'); 
+                }   
+            };
+            
         sticky_navigation();
 
         $(window).scroll(function() {
-             sticky_navigation();
+            sticky_navigation();
         });
         
+    /* STORE HEADER */
 
+        var store_div       = $('#store-tabs');
+        var store_start     = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true); 
+        var store_div_height = store_div.height(); 
+        var store_top_height = store_div_height + 10;
 
-    /* store header nav */ 
+        sub_floaternav(store_div, store_start, store_div_height, store_top_height);
 
-        var store_div = $('#store-tabs');
-        var store_start = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true);
-        var store_div_height = store_div.height();
-
-        $(window).scroll(function(){         
-             var p = $(window).scrollTop(),
-                  w_width = $(window).width();
-
-            if(p >= store_start) {
-                $(store_div).css('top',((p)>store_start) ? $('#main-header').outerHeight(true) + 'px' : ''); 
-                $(store_div).addClass('floating-header'); 
-            }
-            else {
-                $(store_div).removeClass('floating-header');
-            }
-        });
 
     } /* end larger than 481px */
     
@@ -124,23 +115,24 @@ jQuery(document).ready(function($) {
                 mobile_contents.slideDown().addClass('open');
             }
         });
-            
-        var $container = $('#container');
-        // initialize Isotope
         
-        $container.isotope({
-          animationEngine: 'jquery',
-          layoutMode : 'fitRows',
-          resizable: false, // disable normal resizing
-          masonry: { columnWidth: $container.width() / 3 }
-        });
- 
-        // update columnWidth on window resize
-        $(window).smartresize(function(){
-          $container.isotope({
-            masonry: { columnWidth: $container.width() / 3 }
-          });
-        });
+        /* ISOTOPES */   
+            var $container = $('#container');
+            // initialize Isotope
+            
+            $container.isotope({
+              animationEngine: 'jquery',
+              layoutMode : 'fitRows',
+              resizable: false, // disable normal resizing
+              masonry: { columnWidth: $container.width() / 3 }
+            });
+     
+            // update columnWidth on window resize
+            $(window).smartresize(function(){
+              $container.isotope({
+                masonry: { columnWidth: $container.width() / 3 }
+              });
+            });
 
 
 
@@ -260,6 +252,10 @@ jQuery(document).ready(function($) {
     var product_title_height = $('.product-header h2').outerHeight(true);
     sameheight(product_title_height, $('.price-range'));
 
+
+    /* store header nav */ 
+
+
 }); /* end of as page load scripts */
 
 
@@ -281,4 +277,42 @@ function fullheight(div_name, bottom_div) {
 
 function sameheight(height1, div){
     $(div).css('height', height1 + 'px');
+}
+
+function sub_floaternav(nav_div, start, height, top_height){
+
+    $(window).scroll(function(){         
+        var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+        if(p >= start) {
+            $(nav_div).css('top',((p)>start) ? top_height + 'px' : ''); 
+            $(nav_div).addClass('floating-header'); 
+        }
+        else {
+            $(nav_div).removeClass('floating-header');
+        }
+    });
+
+}
+
+function store_header_mobile(){
+
+    var store_div = $('#store-tabs');
+    var store_start = $('#main-header').height();
+    var store_div_height = store_div.height();
+
+    $(window).scroll(function(){         
+        var p = $(window).scrollTop(),
+                  w_width = $(window).width();
+
+        if(p >= store_start) {
+            $(store_div).css('top',((p)>store_start) ? store_start - 4 + 'px' : ''); 
+            $(store_div).addClass('floating-header'); 
+        }
+        else {
+            $(store_div).removeClass('floating-header');
+        }
+    });
+
 }

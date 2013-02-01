@@ -143,178 +143,187 @@
 
                 </div>
 
-                <div class="eight columns mtop">
-                    <article id="item-description">
-                        <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
-                        <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
-                        <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. </p>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla.</p>
-                        <div class="more-link"><a href="#"><span>Read More</span></a></div>
-                    </article>
+                <div class="eight columns">
 
-                <section class="group">
-                    <header class="group">
-                        <h2 class="left">Price Options</h2> 
-                        <!-- 
-                        <a href="#" class="view-all right open">Hide Details</a>
-                        -->
-                    </header>
-                        <ol id="price-list" class="nolist group">
+                  <dl class="tabs mtop" id="pdp-nav">
+                    <dd class="active"><a href="#price-options" class="has-tip tip-right noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Price Options Where to Buy (4)</a></dd>
+                    <dd><a href="#description">Product Description</a></dd>
+                  </dl>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱24,500.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Widget City Gadgets</a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                  <ul class="tabs-content">
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱39,950.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Accent Micro/SM City Marikina<br>
-                                        <span class="branch">2/L Cyberzone SM Southmall</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                    <li class="active" id="price-optionsTab">
+                        <section class="group">
+                                <ol id="price-list" class="nolist group">
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱24,500.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Widget City Gadgets</a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱39,950.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Accent Micro/SM City Marikina<br>
-                                        <span class="branch">2/L Cyberzone SM Southmall</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <span class="branch">2/L Cyberzone SM Southmall</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱24,500.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Widget City Gadgets</a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱39,950.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Accent Micro/SM City Marikina<br>
-                                        <span class="branch">2/L Cyberzone SM Southmall</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <span class="branch">2/L Cyberzone SM Southmall</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱24,500.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Widget City Gadgets</a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                            <li class="group price-option">
-                                <div class="price-header">
-                                    <div class="price detail-price impt innercol">
-                                        <a href="option detail page.php">₱39,950.00</a>
-                                    </div>
-                                    <div class="store innercol">
-                                        <a href="store page.php">Accent Micro/SM City Marikina<br>
-                                        <span class="branch">2/L Cyberzone SM Southmall</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="group price-details open">
-                                    <div class="ugc-info">
-                                        last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <span class="branch">2/L Cyberzone SM Southmall</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                        </ol>
-                </section>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
-                <!-- tags -->
-                <section class="tags-box group">
-                    <h3>tags</h3>
-                        <ul id="item-tags" class="list-nav">
-                            <li><a href="#">mobile</a></li>
-                            <li><a href="#">phones</a></li>
-                            <li><a href="#">apple</a></li>
-                            <li><a href="#">iphone</a></li>
-                            <li><a href="#">mobile</a></li>
-                            <li><a href="#">phones</a></li>
-                            <li><a href="#">apple</a></li>
-                            <li><a href="#">iphone</a></li>
-                        </ul>
-                </section>
+                                    <li class="group price-option">
+                                        <div class="price-header">
+                                            <div class="price detail-price impt innercol">
+                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                            </div>
+                                            <div class="store innercol">
+                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <span class="branch">2/L Cyberzone SM Southmall</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="group price-details open">
+                                            <div class="ugc-info">
+                                                last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </li>
 
+                                </ol>
+                        </section>
+
+                    </li>
+
+                    <li id="descriptionTab">
+
+                        <article id="item-description">
+                            <p>The thinnest and lightest iPhone ever, completely redesigned to feature a stunning new 4-inch Retina display; an Apple-designed A6 chip for blazing fast performance; and ultrafast wireless technology—all while delivering even better battery life.</p>
+                            <p><a href="http://www.apple.com/pr/products/iphone/iphone.html">http://www.apple.com/pr/products/iphone/iphone.html</a></p>
+                            <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. </p>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla.</p>
+                            
+                        </article>
+
+                        <!-- tags -->
+                        <section class="tags-box group">
+                            <h3>tags</h3>
+                                <ul id="item-tags" class="list-nav">
+                                    <li><a href="#">mobile</a></li>
+                                    <li><a href="#">phones</a></li>
+                                    <li><a href="#">apple</a></li>
+                                    <li><a href="#">iphone</a></li>
+                                    <li><a href="#">mobile</a></li>
+                                    <li><a href="#">phones</a></li>
+                                    <li><a href="#">apple</a></li>
+                                    <li><a href="#">iphone</a></li>
+                                </ul>
+                        </section>
+
+                    </li>
+                  </ul>
                 </div><!-- item -->
                 
             </div><!-- row -->

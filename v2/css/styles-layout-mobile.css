@@ -300,6 +300,7 @@
 
       /* store */
          #content.store .six article { margin-bottom: 24px; }
+         #content.store dl.tabs dd a { color: #333; }
 
 
       /* categories */

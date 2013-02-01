@@ -21,3 +21,7 @@
    .price-range { font-size: 1.8em; margin: 0 24px 0 12px; padding: 12px 24px; border-color: #ccc; border-style: solid; border-width: 0 1px; }
 
    .price-saved { padding: 8px 24px 8px 0; }
+
+   .detail-price a.has-tip, .store a.has-tip { color: #b51616; font-weight: 400; }
+   .store a.has-tip { border: 0; }
+   .detail-price a.has-tip:hover, .store a.has-tip:hover { text-decoration: none; }
