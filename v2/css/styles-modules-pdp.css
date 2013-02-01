@@ -25,3 +25,5 @@
    .detail-price a.has-tip, .store a.has-tip { color: #b51616; font-weight: 400; }
    .store a.has-tip { border: 0; }
    .detail-price a.has-tip:hover, .store a.has-tip:hover { text-decoration: none; }
+
+   #pdp-tabs { background: #fff; }
