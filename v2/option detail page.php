@@ -12,7 +12,18 @@
                 </nav>
 
             <section class="group"><!-- product info: all -->
-                <h2 class="single-header">iPhone 4s 32gb Black from Gaisano Interpace, Gilmore, QC</h2>
+
+                <header class="single-header page-header product-header group">
+                    <h2 class="left">Canon EOS 500D (18-55mm Lens Kit) from <a href="store page.php"> Electroworld/SM North Annex</a></h2>
+                    <div class="right group">
+                        <div class="left map-link">
+                            <a href="#directions">Map</a>
+                        </div>
+                        <div class="right options-link">
+                            <a href="product detail page.php">Compare Price Options (4)</a>
+                        </div>
+                    </div>
+                </header>
 
                 <div id="item-info" class="right block innercol">
                     
@@ -24,7 +35,7 @@
                         from <span class="impt">P 27,800</span><br>
                         to <strong>P 33,500</strong> out of 4 options
                     </article>
-                    <a href="#" class="back">&lsaquo; see other price options</a>
+                    <a href="product detail page.php" class="back">Compare with (4) other prices</a>
                 </div><!-- item-info -->
                 
                 <div id="store-info" class="left block innercol">
@@ -49,7 +60,7 @@
 
             </section>
 
-
+            <a name="directions"></a>
             <section class="group mtop"><!-- map and directions -->
                 <h2 class="single-header">Map</h2>
 

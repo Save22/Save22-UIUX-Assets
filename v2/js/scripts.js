@@ -262,6 +262,8 @@ jQuery(document).ready(function($) {
     var product_title_height = $('.product-header h2').outerHeight(true);
     sameheight(product_title_height, $('.price-range'));
 
+    sameheight(product_title_height, $('.map-link'));
+
 
     /* store header nav */ 
 
