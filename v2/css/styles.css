@@ -33,7 +33,7 @@
 
 	.overflow-visible { overflow: visible !important;}
 
-	.impt { color: #b51616; font-weight: 900; }
+	.impt { color: #000; font-weight: 900; }
 	.mtop { margin-top: 25px; }
 	.box-shadow { 
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
