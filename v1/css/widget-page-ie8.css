@@ -1,0 +1,10 @@
+#site_search { padding: 8px 24px; height: 50px; }
+
+#smart-shopper .has-dropdown a { color: #fff; padding-left: 18px; }
+#smart-shopper .dropdown li { }
+	#smart-shopper .dropdown a { display: block; }
+
+a img { border: 0; }
+
+
+h2.store-name a.store-url { background: #333; padding:  6px; text-align: center; }
