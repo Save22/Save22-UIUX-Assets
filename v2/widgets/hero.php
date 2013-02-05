@@ -29,10 +29,10 @@
 <!-- .hasbanner class added, if true -->
 <section id="hero-html" class="group hasbanner"> 
    <div class="row">
-      <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png') #f7f7f7;"><!-- 
-          <div class="intro-copy right relative dark">
-            Christmas is the season of giving.
-            <a href="#" class="button radius red-button block mtop">Check prices</a> -->
+      <div id="featured-header" class="block group" style="background:url('img/hero-gadgets.png') #f7f7f7;">
+          <div class="intro-copy relative light">
+            <h2>gadgets</h2>
+            invest in the right gadget from the right store
           </div>
       </div>
    </div>

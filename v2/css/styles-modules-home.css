@@ -36,10 +36,10 @@
             max-width: 40%;
             display: block;
             padding: 36px;
-            margin: 4% 5% 0 0;
-            border-bottom: 4px solid #000; 
+            margin: 4% auto;
          }
-            #featured-header .dark { color: #fff; background: rgba(0,0,0,0.5); text-shadow: 1px 2px 0 rgba(0,0,0,0.8); }
+         .intro-copy h2 { text-transform: uppercase; font-weight: 900; margin: 0; letter-spacing: 2px; }
+            #featured-header .dark { color: #fff; background: rgba(0,0,0,0.5); text-shadow: 2px 2px 0 rgba(0,0,0,0.8); }
             #featured-header .light { color: #333; background: rgba(255,255,255,0.7); text-shadow: 1px 1px 0 rgba(255,255,255,.8); }
             #featured-header .button { font-size: 0.813em; text-transform: uppercase; max-width:70%; text-shadow: none; padding: 24px;}
 
