@@ -106,7 +106,7 @@
 		.pagination a:hover { text-decoration: underline; }
 		.footnote p { font-size: 0.75em; margin: 0; }
 
-
+	a img { border: 0; }
 
 /* ============================== */
 /* ! Layout for desktop version   */

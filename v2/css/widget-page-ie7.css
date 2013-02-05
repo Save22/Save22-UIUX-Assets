@@ -1,0 +1,83 @@
+
+.three.columns { width: 24.5%; }
+.four.columns { width: 30.5%; }
+.six.columns { width: 46%; }
+.nine.columns { width: 69%; }
+.ten.columns { width: 75%; }
+.twelve.columns { width: 96.6%; }
+
+a img { border: 0; }
+
+#site_search { padding: 8px 24px; height: 35px; }
+#searchbox .button { height: 28px; }
+#popular-searches { padding-bottom: 12px;}
+
+#smart-shopper .has-dropdown a { color: #fff; padding-left: 18px; }
+#smart-shopper .dropdown { background: #222222; overflow: visible; height: auto; }
+	#smart-shopper .dropdown a { display: block; width: 100%; border: 0; }
+
+input[type=text] { height: 16px;  }
+.site_search { padding: 6px 6px 6px 32px; height: 16px; margin: 0; width: 73.5% !important; }
+.searchbox .button { height: 30px; margin-left: 10px; }
+
+
+ul.nolist li { padding: 0; }
+
+.top-bar { overflow: visible; }
+.top-bar .nav-title { float: left; }
+.topbar section { float: left; background: #eee; }
+#smart-shopper.top-bar ul li.has-dropdown { background: url('../img/dk_arrows_white.png') center right no-repeat; padding-right: 0; }
+
+#smart-shopper.top-bar ul li a.active { display: block; width: 100%; background: none; }
+#smart-shopper.top-bar ul li.has-dropdown:hover { background: #333;}
+
+.flyout-toggle { display: block; width: 7px; height: 5px; background: url('../img/dk_arrows_white.png') 20px 14px no-repeat;  }
+
+#smart-shopper { border-bottom: 1px solid #6b6b6b; }
+#smart-shopper .has-flyout { position: relative; z-index: 800; }
+
+#featured-header { position: relative; z-index: -1; }
+
+.tab-label { width: 135px; }
+
+
+
+.product-detail #item-info {
+	width: 96% !important;
+}
+
+h2.store-name a.store-url { background: #333; padding:  6px; text-align: center; }
+
+ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-position: outside; }
+
+#content.product-detail .eight.columns { width: 62.5%; }
+	#content.product-detail .eight.columns article { padding: 0 2%; }
+
+#hub-categories ul#cat-list li { width: 20%; padding: 1% 2%; }
+	#hub-categories ul#cat-list li a { padding: 0; }
+
+#main-footer .social { display: none; }
+
+
+.body-search input[type=text] { height: 24px; padding: 8px 24px 18px 44px;  }
+.body-search .button, .body-search .button:hover { 
+	color: #fff;
+	height: 53px;
+	filter: none;
+}
+
+.error-page { height: 400px; }
+#sign-500 { left: -55%; }
+#aisle-500 {
+	background: url('../img/error-500b.png') 0 0 no-repeat !important;
+}
+#sign-404 { top: 0; }
+	#sign-404:hover { top: 0; }
+	#sign-404 h2 { position: relative; top: -19px; padding-right: 0; padding-left: 0; }
+#aisle-404 {
+	background: url('../img/error-404.png') 0 0 no-repeat !important;
+	position: relative;
+	top: 0;
+}
+
+#footer h3 { display: block; clear: both; }

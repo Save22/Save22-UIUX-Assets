@@ -10,6 +10,18 @@
 
     <link rel="stylesheet" href="css/widget-page.css" type="text/css" media="screen" />
 
+  <!--[if IE 9]>
+    <link rel="stylesheet" href="css/widget-page-ie9.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="css/widget-page-ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="css/widget-page-ie7.css" type="text/css" media="screen" />
+  <![endif]-->
+
     <script src="js/modernizr.foundation.js"></script>
 
 </head>
