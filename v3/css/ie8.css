@@ -1,0 +1,40 @@
+
+#logo, .floating-header .logo-ie { display: none;}
+.logo-ie { display: block; float: left; }
+.floating-header .row { padding-bottom: 8px !important; }
+.floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
+
+.logo-ie {
+	display: block;
+	margin: 10% 24px 8px 0;
+}
+.subheader { display: block; width: 100%; position: absolute; left: 0; top: 77px; }
+
+
+.site_search { padding: 6px 6px 6px 32px; }
+
+.tab-label { width: 165px; }
+
+
+
+#smart-shopper { border-bottom: 1px solid #6b6b6b; }
+.top-bar { overflow: visible; }
+.top-bar .nav-title { float: left; }
+.topbar section { float: left; background: #eee; }
+#smart-shopper.top-bar ul li a.active { display: block; width: 100%; background: none; }
+#smart-shopper.top-bar ul li.has-dropdown:hover { background: #333;}
+
+.top-bar ul li.has-dropdown a:after {
+	border-top-color: #333;
+}
+
+.body-search .button { 
+	color: #fff;
+	filter: none;
+}
+#content .body-search input[type=text] { padding-top: 6px; height: 50px; }
+
+.error-page { height: 400px; }
+#aisle-500 {
+	background: url('../img/error-500b.png') 0 0 no-repeat !important;
+}

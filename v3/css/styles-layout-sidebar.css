@@ -1,0 +1,22 @@
+
+   /* SIDEBAR */
+
+      #sidebar {
+         font-size: 0.813em;
+         color: #4b4b4b;
+         overflow: hidden;
+         margin-top: 24px;
+      }
+         #sidebar h3 { 
+            background: #eee;
+            color: #3b3b3b; 
+            border-bottom: 1px solid #ccc; 
+            margin: 0; 
+            padding: 14px 10px;
+            font-size: 0.813em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 900;
+         }
+         #sidebar .widget { margin-bottom: 42px; border: 1px solid #ccc; }
+

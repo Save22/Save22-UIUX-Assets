@@ -1,0 +1,48 @@
+
+
+/* HUB CATEGORIES */ 
+
+   #hub-categories {
+      background: #fff;
+      border-top: 1px solid #ccc;
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+      font-weight: 600;
+   }
+      #hub-categories ul { border-left: 1px dotted #ccc; margin: 0; }
+      #hub-categories ul > li { 
+         border-style: dotted;
+         border-color: #ccc;
+         border-width: 0 1px 1px 0; 
+         display: block;
+         width: 25%;
+         -webkit-transition: all 0.2s ease-in;  
+         -moz-transition: all 0.2s ease-in;  
+         -o-transition: all 0.2s ease-in;   
+         transition: all 0.2s ease-in;
+         float: left;
+      }
+      #hub-categories ul > li:hover { border-bottom: 1px solid #3b3b3b;  background: #f7f7f7;  }
+         #hub-categories ul > li:hover a { color: #000;  }
+      #hub-categories a { 
+         color: #666; 
+         display: block;
+         width: 100%;
+         padding: 6% 8%;
+      }
+      #hub-categories .label {
+         background: #f7f7f7;
+         border-top: 1px solid #ccc;
+         color: #898989;
+         font-size: 0.813em;
+         text-align: left;
+         padding: 2% 1.8%;
+      }
+         #hub-categories .label:hover { background: #f7f7f7; border-style: dotted; border-color: #ccc; }
+      #hub-categories .current {
+         background: #222;
+         border-style: solid;
+         color: #fff;
+         }
+         #hub-categories .current a { font-weight: 900; color: #fff; }
+
