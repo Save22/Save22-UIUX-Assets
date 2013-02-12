@@ -1,111 +1,6 @@
 <?php require_once('header.php'); ?>
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
-<style type="text/css">
-    .price-option a:hover { text-decoration: underline; }
-    .price-option .price, .price-option .freebie { width: 40%; float: left; padding-left: 12px; margin-right: 1.5%; }
-    .price-option .store, .price-option .shop-more { width: 58%; float: left; }
-    .price-option .price-header { overflow: auto; }
-    .price-option .price-header .price, 
-    .price-option .price-header .store { font-size: 1.813em; }
-        .price-option .price-header .store a { color: #4b4b4b; }
-        .shop-more .button { margin: 12px 0;}
-    .price-option .price-header .store span.branch { font-size: 0.75em; }
-    .price-option .price.impt { font-weight: 400; }
-    .price-option .freebie span {
-        display: block;
-        border-top: 1px dotted #ccc;
-        padding: 12px;
-        margin: 12px 0;
-    }
-    .price-option .ugc-info { font-size: 0.875em; float: left; color: #999; padding-left: 12px; }
-    .price-option .shop-more { padding-left: 12px; }
-    .price-option .price-details { display: block; }
-    .price-option .viewmore {
-        margin-right: 12px;
-        position: relative;
-        top: 4px;
-        float: left;
-    }
-
-    a.view-all { 
-        display: block;
-        color: #000;
-        font-weight: 900;
-        padding: 12px;
-        border: 3px solid #4d4d4d;
-        margin: 12px 0 24px 0;
-    }
-        a.view-all:hover { 
-            background: #000;
-            color: #fff;
-        }
-
-    #item-description {
-        -webkit-transition: all 0.5s ease-in;  
-        -moz-transition: all 0.5s ease-in;  
-        -o-transition: all 0.5s ease-in; 
-        transition: all 0.5s ease-in;
-        margin-bottom: 24px;
-    }
-    #item-description a { color: #6fb7b7; border-bottom: 1px solid #f7f7f7; }
-    #item-description a:hover { color:#208787; }
-    #item-description.read-more { 
-        height: 181px;
-        overflow: hidden; 
-        margin: 0 0 24px 0;
-        padding: 0 0 48px 0;
-        position: relative;
-    }
-    #item-description.read-more p { z-index: -1; }
-    #item-description .more-link { position: absolute; top: 100px; width: 100%;
-        -webkit-transition: all 0.5s ease-in;  
-        -moz-transition: all 0.5s ease-in;  
-        -o-transition: all 0.5s ease-in; 
-        transition: all 0.5s ease-in; }
-    #item-description .more-link a { display: block; background: url('img/readmore.png') bottom center repeat-x; width: 100%; height: 100px; color: #000;
-        font-weight: 900;
-        text-align: center; text-transform: uppercase;
-        letter-spacing: 1px; 
-        padding-top: 35px; 
-    }  
-        .more-link a span { 
-            background: #f2f2f2; 
-            padding: 12px;
-            border-bottom: 2px solid #ccc;
-        }
-        .more-link a:hover span { box-shadow: 0 -2px 4px rgba(0,0,0,0.2);}
-
-    .product-detail .social { 
-        border-top: 2px solid #3b3b3b;
-        border-bottom: 1px solid #3b3b3b;
-        padding: 12px; 
-        text-align: center;
-    }
-    .personal ul { margin: 0; }
-    .personal ul li { 
-        list-style-type: none;
-        padding: 0;
-        font-size: 1.25em;
-    }
-    .personal ul li a { display: block; padding: 12px 12px 12px 56px; color: #3b3b3b; border-bottom: 1px solid #ccc;  }
-        .personal ul li a:hover { background-color: #d0eaea; border-color: #6fb7b7; }
-    .personal ul li a.alerts { background: #299b9b; color: #fff; text-align: center; padding: 12px; }
-    .personal ul li a.list-want { background: url('img/icon-lists@2x.png') 12px 8px no-repeat #fff; background-size: 25px;}
-    .personal ul li a.list-bought { background: url('img/icon-lists@2x.png') 12px -36px no-repeat #fff; background-size: 25px;}
-    .product-comments{border-top: 2px solid #3b3b3b; }
-
-    #related-products {
-        width: 100%;
-        background: #333;
-        padding: 24px 16px;
-        overflow: auto; 
-    }
-        #related-products #container { margin: auto; }
-        #related-products #container .item { width: 280px; margin: 10px; }
-
-</style>
-
 <div id="content" class="product-detail">
 
     <div class="row">
@@ -146,7 +41,7 @@
                 <div class="eight columns">
 
                   <dl class="tabs mtop" id="pdp-tabs">
-                    <dd class="active"><a href="#price-options" class="has-tip tip-top noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Price Options Where to Buy (4)</a></dd>
+                    <dd class="active"><a href="#price-options" class="has-tip tip-top noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Where to Buy (4) <img src="img/icon-help.png" width="20" height="20" class="icon-help" /></a></dd>
                     <dd><a href="#description">Product Description</a></dd>
                   </dl>
 

@@ -81,9 +81,19 @@ jQuery(document).ready(function($) {
         var pdp_div       = $('#pdp-tabs');
         var pdp_start     = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('.product-header').outerHeight(true); 
         var pdp_div_height = pdp_div.height(); 
-        var pdp_top_height = pdp_div_height - 14;
+        var pdp_top_height = pdp_div_height - 13;
 
         sub_floaternav(pdp_div, pdp_start, pdp_div_height, pdp_top_height);
+
+    /* PDP image */
+    
+        var store_div       = $('#store-tabs');
+        var store_start     = $('#main-header').outerHeight(true) + $('#smart-shopper').outerHeight(true) + $('#crumbs').outerHeight(true) + $('#store-allinfo').outerHeight(true); 
+        var store_div_height = store_div.height(); 
+        var store_top_height = store_div_height + 10;
+
+        sub_floaternav(store_div, store_start, store_div_height, store_top_height);
+
 
 
     } /* end larger than 481px */

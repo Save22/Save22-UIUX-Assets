@@ -28,12 +28,14 @@
 
           if (Modernizr.touch) {
             $body.on('click.tooltip touchstart.tooltip touchend.tooltip', settings.targetClass, function (e) {
-              e.preventDefault();
+              // e.preventDefault();
+              // if($(settings.tooltipClass).css("display") != "block")e.preventDefault();
               $(settings.tooltipClass).hide();
               methods.showOrCreateTip($(this));
             });
             $body.on('click.tooltip touchstart.tooltip touchend.tooltip', settings.tooltipClass, function (e) {
-              e.preventDefault();
+              // e.preventDefault();
+              // if($(settings.tooltipClass).css("display") != "block")e.preventDefault();
               $(this).fadeOut(150);
             });
           } else {

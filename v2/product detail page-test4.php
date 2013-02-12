@@ -153,7 +153,7 @@
                 <div class="eight columns">
 
                   <dl class="tabs mtop" id="pdp-tabs">
-                    <dd class="active"><a href="#price-options" class="has-tip tip-top noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Price Options Where to Buy (4)</a></dd>
+                    <dd class="active"><a href="#price-options" class="has-tip tip-top noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Where to Buy (4)</a></dd>
                     <dd><a href="#description">Product Description</a></dd>
                   </dl>
 
