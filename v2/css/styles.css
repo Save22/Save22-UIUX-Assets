@@ -33,7 +33,7 @@
 
 	.overflow-visible { overflow: visible !important;}
 
-	.impt { color: #000; font-weight: 900; }
+	.impt, .price-range .impt a { color: #000; font-weight: 900; }
 	.mtop { margin-top: 25px; }
 	.box-shadow { 
 		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
