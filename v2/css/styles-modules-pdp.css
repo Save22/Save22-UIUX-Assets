@@ -22,6 +22,7 @@
 
    .price-saved { padding: 8px 24px 8px 24px; }
 
+   .detail-price a { border-bottom: 1px dotted #333; }
    .detail-price a.has-tip, .store a.has-tip { color: #b51616; font-weight: 400; cursor: pointer; }
    .store a.has-tip { border: 0; }
    .detail-price a.has-tip:hover, .store a.has-tip:hover { text-decoration: none; }
@@ -42,7 +43,7 @@
         padding: 12px;
         margin: 12px 0;
     }
-    .price-option .ugc-info { font-size: 0.875em; float: left; color: #999; padding-left: 12px; }
+    .price-option .ugc-info { font-size: 0.875em; float: left; color: #999; padding: 12px 0 0 12px; }
     .price-option .shop-more { padding-left: 12px; }
     .price-option .price-details { display: block; }
     .price-option .viewmore {
