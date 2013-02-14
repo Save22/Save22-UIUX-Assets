@@ -290,10 +290,7 @@
 
          .comments.open { padding: 20px 0; border-bottom: 2px solid #999; }
 
-         .odp .product-header .group { clear: both; padding: 12px 0; border: 1px solid #333; background: #fff;}
-         .product-header .map-link { border: 0; }  
-         .odp .product-header .map-link a, .odp .product-header .options-link a { padding: 12px; }
-         .odp .product-header .map-link { margin: 0; padding-left: 0; }
+         .odp .product-header .group { display: none; }
 
          .odp .single-header { padding: 0;}
 
