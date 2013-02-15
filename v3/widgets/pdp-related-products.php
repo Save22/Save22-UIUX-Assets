@@ -51,7 +51,7 @@
 <div id="related-products">
   <div class="row">
     <div class="twelve columns">
-        <h2>Related Products</h2>
+        <h2>Other people also looked at</h2>
 
 <div class="related-container">
   <ul>
@@ -62,13 +62,14 @@
           <img src="img/sample_iphone4sblack.jpg" alt="<h4>Apple iPhone 4s 16GB</h4>">
         </div>
         <div class="group item-name">
-          <h4>Apple iPhone 4s 16GB</h4>
+          <h4>Samsung Galaxy S2</h4>
             <p>
               from <span class="impt">P 27,800</span><br />
               to <strong>P 33,500</strong> 
             </p>
         </div>
       </a>
+      <button class="radius button compare">Compare this item</button>
     </li>
 
     <li class="item group">
@@ -77,11 +78,12 @@
           <img src="img/sample_iphone4sblack.jpg" alt="<h4>Apple iPhone 4s 16GB</h4>">
         </div>
         <div class="group item-name">
-          <h4>Apple iPhone 4s 16GB</h4>
+          <h4>HTC OneX</h4>
             <p><span class="impt">P 27,800</span>
             </p>
         </div>
       </a>
+      <button class="radius button compare">Compare this item</button>
     </li>
 
     <li class="item group">
@@ -90,13 +92,30 @@
           <img src="img/sample_iphone4sblack.jpg" alt="<h4>Apple iPhone 4s 16GB</h4>">
         </div>
         <div class="group item-name">
-          <h4>Apple iPhone 4s 16GB what if a longer title</h4>
+          <h4>Galaxy Note</h4>
             <p>
               from <span class="impt">P 27,800</span><br />
               to <strong>P 33,500</strong> 
             </p>
         </div>
       </a>
+      <button class="radius button compare">Compare this item</button>
+    </li>
+
+    <li class="item group">
+      <a href="product detail page.php">
+        <div class="thumbnail">
+          <img src="img/sample_iphone4sblack.jpg" alt="<h4>Apple iPhone 4s 16GB</h4>">
+        </div>
+        <div class="group item-name">
+          <h4>Samsung Galaxy S3</h4>
+            <p>
+              from <span class="impt">P 27,800</span><br />
+              to <strong>P 33,500</strong> 
+            </p>
+        </div>
+      </a>
+      <button class="radius button compare">Compare this item</button>
     </li>
 
     <li class="item group">
@@ -112,21 +131,7 @@
             </p>
         </div>
       </a>
-    </li>
-
-    <li class="item group">
-      <a href="product detail page.php">
-        <div class="thumbnail">
-          <img src="img/sample_iphone4sblack.jpg" alt="<h4>Apple iPhone 4s 16GB</h4>">
-        </div>
-        <div class="group item-name">
-          <h4>Apple iPhone 4s 16GB</h4>
-            <p>
-              from <span class="impt">P 27,800</span><br />
-              to <strong>P 33,500</strong> 
-            </p>
-        </div>
-      </a>
+      <button class="radius button compare">Compare this item</button>
     </li>
 
 

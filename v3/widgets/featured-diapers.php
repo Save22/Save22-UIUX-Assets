@@ -52,6 +52,10 @@
      </a>
      </div>
 
+     <div class="corner-stamp single-col">
+      <a href="#">CORNER STAMP</a>
+     </div>
+
      <div class="item">
      <a href="option detail page.php">
         <div class="item-header">
@@ -296,6 +300,10 @@
         </div>
 
      </a>
+     </div>
+
+     <div class="corner-stamp full-col">
+      <a href="#">CORNER STAMP</a>
      </div>
 
      <div class="item">

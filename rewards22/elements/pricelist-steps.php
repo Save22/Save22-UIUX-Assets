@@ -5,7 +5,13 @@
    <?php require_once('pricelist-table-tasks.php'); ?>
   </div>
 
-  <div id="pricesheet-processing-steps">
+
+  <div id="preview" class="content-group">
+    <?php require_once('loader.php'); ?>
+    <?php require_once('pricelist-processing-preview.php'); ?>
+  </div>
+
+  <div id="pricesheet-processing-steps" class="content-group">
 
   <form class="custom">
 

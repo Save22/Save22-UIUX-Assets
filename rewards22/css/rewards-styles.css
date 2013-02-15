@@ -14,11 +14,6 @@
        zoom: 1; /* For IE 6/7 (trigger hasLayout) */
    }
 
-body { 
-   background: #f8f8f8;
-   -webkit-text-size-adjust: none;
-}
-
 /* fonts and links */
 
    body, h1, h2, h3, h4, h5, h6 { 
@@ -126,6 +121,11 @@ body {
    }
    form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; box-shadow: 1px 2px 8px rgba(0,0,0,0.25)}
 
+/* loader */ 
+   
+   .loader-container { position: absolute; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); }
+   .loader { background: #000; padding: 10px; margin: 18% auto 0 auto; text-align: center; width: 50px; border-radius: 8px; }
+
 
 /* icons */
 
@@ -139,29 +139,12 @@ body {
    .icon-calendar { background: url('../img/icon-calendar.png') 0 0 no-repeat; margin: 8px; }
    input.input-date, input.input-date:focus { background: url('../img/icon-calendar-bg.png') right center no-repeat #fff;  }
 
-.panel-link .selector { 
-   display: block;
-   float: left; 
-   margin: 0 14px 0 0;
-   width: 0; 
-   height: 0; 
-   border-top: 8px solid transparent;
-   border-bottom: 8px solid transparent; 
-   border-right: 8px solid #fff; 
-}
-
-#panel .panel-link { background: #3b3b3b; position: relative; top: -2px;}
-#panel .panel-link .selector { 
-   float: right;
-   margin: 0 0 0 14px;  
-   border-top: 8px solid transparent;
-   border-bottom: 8px solid transparent;
-   border-left: 8px solid #fff;
-   border-right: 0;
-}
-
 /* page - general */
 
+   body { 
+      background: #f8f8f8;
+      -webkit-text-size-adjust: none;
+   }
    .row { width: 100%; padding: 0 0; }
 
    #container {
@@ -181,6 +164,27 @@ body {
       #main-footer a:hover { text-decoration: underline; }
 
    span.mobile-hide { visibility: hidden; }
+
+   .panel-link .selector { 
+      display: block;
+      float: left; 
+      margin: 0 14px 0 0;
+      width: 0; 
+      height: 0; 
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent; 
+      border-right: 8px solid #fff; 
+   }
+
+   #panel .panel-link { background: #3b3b3b; position: relative; top: -2px;}
+   #panel .panel-link .selector { 
+      float: right;
+      margin: 0 0 0 14px;  
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 8px solid #fff;
+      border-right: 0;
+   }
 
 /* SLIDE LEFT OPTIONS - default in mobile view */
 
@@ -282,6 +286,19 @@ body {
             color: #fff;
          }
 
+   .content-group {
+      background: #fff;
+      border: 1px solid #d4d4d4;
+      margin: 24px 0;
+      position: relative;
+   }
+
+   #preview { border-width: 4px; }
+      #preview h2 { font-size: 2em; padding: 0 24px; }
+      #preview h3 { font-size: 1em; text-transform: uppercase; letter-spacing: 1px;  padding: 0 24px; }
+      #preview span.url { display: block; margin-bottom: 24px;  padding: 0 24px; }
+      #preview article {padding: 12px 24px;}
+
 
 /* DESKTOP VIEW */
 
@@ -339,9 +356,9 @@ body {
    span.mobile-hide { visibility: visible; }
 
    /* BUTTONS */
-   .option-buttons .button { margin-left: 14px; }
-   .save-button { background: #bc0d0d; border: 1px solid #7a0d0d;}
-      .save-button:hover { background: #a81212; }
+      .option-buttons .button { margin-left: 14px; }
+      .save-button { background: #bc0d0d; border: 1px solid #7a0d0d;}
+         .save-button:hover { background: #a81212; }
 
 
    /* PRICELIST SETTINGS */
@@ -364,14 +381,7 @@ body {
       .instructions { font-size: 1em; line-height: 1.3; }
       #completed-tasks { max-height: 200px; overflow: auto; }
 
-      #pricesheet-processing-steps {
-         background: #fff;
-         border: 1px solid #d4d4d4;
-         padding: 12px;
-         margin: 24px 0;
-      }
-
-      #pricesheet-processing-steps .step { margin: 0 0 24px 0; }
+      #pricesheet-processing-steps .step { margin: 0 0 24px 0; padding: 12px 24px; }
 
       .choice-or { display: block; margin: 12px 24px; }
 

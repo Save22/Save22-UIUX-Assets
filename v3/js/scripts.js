@@ -60,10 +60,10 @@ jQuery(document).ready(function($) {
                 }   
             };
             
-        sticky_navigation();
+        //sticky_navigation();
 
         $(window).scroll(function() {
-            sticky_navigation();
+            //sticky_navigation();
         });
         
     /* STORE HEADER */
@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
         var pdp_div_height = pdp_div.height(); 
         var pdp_top_height = pdp_div_height - 14;
 
-        sub_floaternav(pdp_div, pdp_start, pdp_div_height, pdp_top_height);
+        //sub_floaternav(pdp_div, pdp_start, pdp_div_height, pdp_top_height);
 
 
     } /* end larger than 481px */
@@ -132,8 +132,9 @@ jQuery(document).ready(function($) {
             
             $container.isotope({
               animationEngine: 'jquery',
-              layoutMode : 'fitRows',
-              resizable: false, // disable normal resizing
+              //layoutMode : 'fitRows',
+              resizable: false, // disable normal resizing,
+              cornerStampSelector: '.corner-stamp',
               masonry: { columnWidth: $container.width() / 3 }
             });
      

@@ -2,19 +2,28 @@
 <?php require_once('widgets/notice-shopsmarter.php'); ?>
 
 <style type="text/css">
-  #content .row { width: 100%; }
+  .cart-action .button {
+    width: 100%;
+    margin: 24px 0;
+    font-size: 2em;
+    padding: 24px 12px;
+    line-height: 1.5;
+  }
 
-  .sidebar { background: #f9f9f9; margin: -15px; padding: 15px; border-right: 1px solid #ccc; }
-
+  .suggestions-other {
+    background: #333;
+    padding: 12px 24px;
+    color: #fff;
+    height: 800px;
+  }
+    .suggestions-other h3 { line-height: 1.5; color: #fff; font-family: 'Montserrat', sans-serif;}
 </style>
 
 <div id="content" class="product-detail">
 
     <div class="row">
         <div class="two columns">
-            <div id="user-account" class="sidebar">
-                <h3>My Account</h3>
-            </div>
+            <?php require_once('widgets/sidebar-conversion.php'); ?>
         </div>
         <div class="ten columns">
 
@@ -46,6 +55,15 @@
                         <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                         <fb:like send="true" layout="button_count" width="160" show_faces="false"></fb:like>
+                    </div>
+
+                    <div class="cart-action">
+                        <button class="radius red button">Add to Basket</button>
+                    </div>
+
+                    <div class="suggestions-other">
+                        <h3>Do you want to check out other options among similar items?</h3>
+
                     </div>
                 </div>
                 <div class="eight columns">
@@ -231,13 +249,13 @@
                   </ul>
                 </div><!-- item -->
                 
+    <?php require_once('widgets/pdp-addprices.php'); ?>
+
             </div><!-- row -->
 
         </div><!-- group -->
 
     </div><!-- row -->
-
-    <?php require_once('widgets/pdp-addprices.php'); ?>
 
 </div><!-- content -->
 
