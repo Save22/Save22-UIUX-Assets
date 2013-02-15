@@ -2,16 +2,16 @@
 <div class="content-box">
 
   <div id="completed-tasks" class="group">
-   <?php require_once('pricelist-table-tasks.php'); ?>
+    <?php require_once('pricelist-table-tasks.php'); ?>
   </div>
 
 
-  <div id="preview" class="content-group">
+  <div id="preview" class="content-group group">
     <?php require_once('loader.php'); ?>
     <?php require_once('pricelist-processing-preview.php'); ?>
   </div>
 
-  <div id="pricesheet-processing-steps" class="content-group">
+  <div id="pricesheet-processing-steps" class="content-group group">
 
   <form class="custom">
 
