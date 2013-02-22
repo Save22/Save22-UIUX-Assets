@@ -54,7 +54,6 @@
    #content.product-detail h2.single-header { border-bottom: 3px solid #3b3b3b; }
 
    #store-info, #item-info {
-      width: 48%;
    }
 
    #content.product-detail #item-info { width: 100%; }

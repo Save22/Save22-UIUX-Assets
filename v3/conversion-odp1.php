@@ -43,44 +43,50 @@
                     </div>
                 </header>
 
-                <div id="item-info" class="right block innercol">
-                    
-                    <article class="group">
-                        <img id="item-thumbnail" src="img/sample_iphone4sblack.png"> 
+                <div class="right block innercol">
 
-                        <a href="product detail page.php"><h3 class="single-header">iPhone 4s 32gb Black</h3></a>
-
-                        from <span class="impt">P 27,800</span><br>
-                        to <strong>P 33,500</strong> out of 4 options
-                    </article>
-                    <a href="product detail page.php" class="back bottom-radius">Compare all options (4 prices)</a>
                 </div><!-- item-info -->
                 
-                <div id="store-info" class="left block innercol">
-                    <h3><span class="impt">P 27,800</span> at <br>
-                        Gaisano Interpace</h3>
+                <div class="left block innercol">
 
-                    <div class="button-actions">
-                        <button class="radius red button">Want</button>
-                        <button class="radius red button">Bought</button>
-                        <button class="radius red button">Add to Basket</button>
-                    </div>
+                    <div id="item-info">
+                        <article class="group">
+                            <img id="item-thumbnail" src="img/sample_iphone4sblack.png"> 
 
-                    <article class="branch-address">
-                        Unit B, Gilmore Commercial Plaza<br>
-                        Gilmore Ave. cor Aurora Blvd<br>
-                        New Manila, Quezon City
-                    </article>
-                    <article class="branch-contact">
-                        <ul class="nolist">
-                            <li><span class="telefax-label">Telefax #</span>
-                            <span class="telefax-number">(+63) 2 721-89-09</span></li>
-                            <li> <span class="phone-number">(+63) 2 721-91-09</span></li>
-                            <li><span class="mobile-label">Mobile #</span>
-                                <span class="mobile-number">(+63) 917 716-76-16</span></li>
-                        </ul>
-                    </article>
-                </div><!-- store-info -->
+                            <a href="product detail page.php"><h3 class="single-header">iPhone 4s 32gb Black</h3></a>
+
+                            from <span class="impt">P 27,800</span><br>
+                            to <strong>P 33,500</strong> out of 4 options
+                        </article>
+                        <a href="product detail page.php" class="back bottom-radius">Compare all options (4 prices)</a>
+                    </div><!-- item-info -->
+                    
+                    <div id="store-info">
+                        <h3><span class="impt">P 27,800</span> at <br>
+                            Gaisano Interpace</h3>
+
+                        <div class="button-actions">
+                            <button class="radius red button">Want</button>
+                            <button class="radius red button">Bought</button>
+                            <button class="radius red button">Add to Basket</button>
+                        </div>
+
+                        <article class="branch-address">
+                            Unit B, Gilmore Commercial Plaza<br>
+                            Gilmore Ave. cor Aurora Blvd<br>
+                            New Manila, Quezon City
+                        </article>
+                        <article class="branch-contact">
+                            <ul class="nolist">
+                                <li><span class="telefax-label">Telefax #</span>
+                                <span class="telefax-number">(+63) 2 721-89-09</span></li>
+                                <li> <span class="phone-number">(+63) 2 721-91-09</span></li>
+                                <li><span class="mobile-label">Mobile #</span>
+                                    <span class="mobile-number">(+63) 917 716-76-16</span></li>
+                            </ul>
+                        </article>
+                    </div><!-- store-info -->
+                </div>
 
 
             </section>
