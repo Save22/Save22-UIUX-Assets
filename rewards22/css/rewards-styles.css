@@ -298,7 +298,7 @@
    #preview { border-width: 4px; }
       #preview h2 { font-size: 2em; padding: 0 24px; }
       #preview h3 { font-size: 1em; text-transform: uppercase; letter-spacing: 1px;  padding: 0 24px; }
-      #preview span.url { display: block; margin-bottom: 24px;  padding: 0 24px; }
+      #preview span.url { display: block; margin-bottom: 24px;  padding: 0 24px; overflow: hidden; }
       #preview article {padding: 12px 24px; max-height: 200px; overflow: auto; color: #757575; }
 
       #preview .thumbnail {
@@ -308,6 +308,7 @@
          overflow: hidden;
          border-bottom: 1px solid #ccc;
       }
+   #preview .button { margin: 24px; }
 
 
 /* DESKTOP VIEW */
