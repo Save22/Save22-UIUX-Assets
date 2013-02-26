@@ -77,20 +77,7 @@
   
   <!-- Included JS Files (Compressed) -->
   <script src="js/jquery.js"></script>
-  <script src="js/jquery.foundation.mediaQueryToggle.js"></script>
-  <script src="js/jquery.foundation.forms.js"></script>
-  <script src="js/jquery.foundation.reveal.js"></script>
-  <script src="js/jquery.foundation.orbit.js"></script><script src="js/jquery.foundation.navigation.js"></script>
-  <script src="js/jquery.foundation.buttons.js"></script>
-  <script src="js/jquery.foundation.tabs.js"></script>
-  <script src="js/jquery.foundation.accordion.js"></script>
-  <script src="js/jquery.placeholder.js"></script>
-  <script src="js/jquery.foundation.alerts.js"></script>
-  <script src="js/jquery.foundation.topbar.js"></script>
-  <script src="js/jquery.foundation.joyride.js"></script>
-  <script src="js/jquery.foundation.clearing.js"></script>
-  <script src="js/jquery.foundation.magellan.js"></script>
-  <script src="js/jquery.foundation.tooltips.js"></script>
+  <script src="js/foundation.min.js"></script>
   
   <!-- Initialize JS Plugins -->
   <script src="js/app.js"></script>
