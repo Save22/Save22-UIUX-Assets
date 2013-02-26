@@ -12,12 +12,25 @@ input[type=text] { height: 16px;  }
 
 ul.nolist li { padding: 0; }
 
- .header-half { width: 68%; }
+.header-half { width: 68%; }
 #logo, .floating-header .logo-ie { display: none;}
 .logo-ie { display: block; float: left; }
 .floating-header { height: 44px; }
 .floating-header .logo-ie-white { display: block; float: left; margin-right: 14px; margin-left: 15px; } 
 
+#hero-html { position: relative; }
+#featured-header {
+	background-attachment: fixed; 
+	background-repeat: no-repeat; 
+	background-position-x: center; 
+	background-position-y: top; 
+	position: relative; 
+	z-index: -1; 
+}
+.intro-copy {
+	background: #fff;
+	position: relative; 
+}
 
 .logo-ie {
 	display: block;
@@ -37,8 +50,6 @@ ul.nolist li { padding: 0; }
 
 #smart-shopper { border-bottom: 1px solid #6b6b6b; }
 #smart-shopper .has-flyout { position: relative; z-index: 800; }
-
-#featured-header { position: relative; z-index: -1; }
 
 .tab-label { width: 135px; }
 
