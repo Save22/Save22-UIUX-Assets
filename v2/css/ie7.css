@@ -90,3 +90,23 @@ ul.tabs-content li { list-style-type: none; list-style-image: none; list-style-p
 	position: relative;
 	top: 0;
 }
+
+
+.product-header { position: relative; }
+.product-header h2 {
+	float: left;
+}
+.product-header .group {
+	float: right;
+	width: 45%;
+}
+.product-header .price-range, .product-header .map-link { float: left;  }
+.product-header .price-saved { float: none; margin-left: auto; margin-right: auto; }
+
+.price-option .price { width: 38%; }
+
+img.add-price { bottom: 0 !important; }
+
+#pdp-tabs.floating-header { margin-top: 20px; }
+
+#item-info a.back { height: 26px; }
