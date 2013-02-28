@@ -80,7 +80,7 @@
   <script src="js/foundation.min.js"></script>
   
   <!-- Initialize JS Plugins -->
-  <script src="js/app.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
   <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
   <script type="text/javascript" src="js/jquery.sticky.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>

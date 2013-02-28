@@ -16,10 +16,6 @@
   
   $.fn.foundationNavigation       ? $doc.foundationNavigation() : null;
   
-  
-  $.fn.foundationTopBar           ? $doc.foundationTopBar() : null;
-  
-  
   $.fn.foundationMediaQueryViewer ? $doc.foundationMediaQueryViewer() : null;
   
     
