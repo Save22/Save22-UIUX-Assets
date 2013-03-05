@@ -45,6 +45,7 @@
         margin: 12px 0;
     }
     .price-option .ugc-info { font-size: 0.875em; float: left; color: #999; padding: 12px 0 0 12px; }
+    .price-option .ugc-info a { color: #999; }
     .price-option .shop-more { padding-left: 12px; }
     .price-option .price-details { display: block; }
     .price-option .viewmore {
