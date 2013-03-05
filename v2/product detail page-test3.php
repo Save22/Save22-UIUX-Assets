@@ -41,13 +41,23 @@
                 <div class="eight columns">
 
                   <dl class="tabs mtop" id="pdp-tabs">
-                    <dd class="active"><a href="#price-options" class="has-tip tip-top noradius" title="Compare prices contributed by customers all over the country to decide where to buy!" data-width="200">Where to Buy (4) <img src="img/icon-help.png" width="20" height="20" class="icon-help" /></a></dd>
+                    <dd class="active"><a href="#price-options" title="Compare prices contributed by customers all over the country to decide where to buy!">Where to Buy (4)</a></dd>
                     <dd><a href="#description">Product Description</a></dd>
                   </dl>
 
                   <ul class="tabs-content">
 
                     <li class="active" id="price-optionsTab">
+                        <p>Know your options for this product before you buy. Below are prices contributed by Save22 users like you.</p>
+
+                        <div class="group">
+                            <span class="left impt">Sort by:</span> 
+                            <ul class="button-group radius">
+                              <li><a href="#" class="button radius selected">Price</a></li>
+                              <li><a href="#" class="button radius">Date Added</a></li>
+                            </ul>
+                        </div>
+
                         <section class="group">
                                 <ol id="price-list" class="nolist group">
 
