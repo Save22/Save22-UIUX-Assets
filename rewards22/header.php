@@ -41,24 +41,6 @@
       <li class="name"><h1><a href="#">Rewards 22</a></h1></li>
       <li class="toggle-topbar"><a href="#"></a></li>
     </ul>
-
-    <section>
-      <ul class="left">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-
-      <ul class="right">
-        <li class="has-dropdown">
-          <a href="#">Account</a>
-
-          <ul class="dropdown">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
-          </ul>
-        </li>
-      </ul>
     </section>
   </nav>
 </header>

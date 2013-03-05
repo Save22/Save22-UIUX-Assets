@@ -6,43 +6,23 @@
   </div>
 
 
+  <div id="pricesheet-processing-steps" class="content-group group">
+
+  <form class="custom">
+
+   <div class="step search active">
+      <h3>1. Find existing SKU</h3>
+      <p>Search by brand and/or model number ex., iPhone 4S, IXUS II5 HS. <strong>Do not create a new product unless you are sure that it does not exist in the database.</p>
+
+      <div class="group find-existing">
+          <input type="text" class="search" placeholder="Search Product">
+      </div>
+
   <div id="preview" class="content-group group">
     <?php require_once('loader.php'); ?>
     <?php require_once('pricelist-processing-preview.php'); ?>
   </div>
 
-  <div id="pricesheet-processing-steps" class="content-group group">
-
-  <form class="custom">
-
-   <div class="step active">
-      <h3>1. Find existing SKU</h3>
-      <p>Search for existing SKUs using one of the methods below to avoid duplicate entries. Be very careful with selecting only exact matches. </p>
-
-
-      <div class="group find-existing">
-        <div class="half-page">
-          <input type="text" class="search" placeholder="Search Model Number">
-            <p>no spaces.</p>
-            <p>Examples: 
-               <ul>
-                  <li>A1428</li>
-                  <li>3276-8</li>
-                  <li>K315RED</li>
-               </ul>
-            </p>
-            <p>Common Errors: 
-               <ul>
-                  <li>K 315RED</li>
-                  <li>K315RED</li>
-               </ul>
-            </p>
-        </div>
-        <div class="half-page">
-          <input type="text" class="search" placeholder="Search Barcode Number">
-          <p>the number a barcode gives when scanned.</p>
-        </div>
-      </div>
 
    </div>
    <div class="step">
@@ -83,15 +63,6 @@
 
       <div class="row">
         <div class="two mobile-one columns">
-          <label class="right inline">Title</label>
-        </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_title" placeholder="Title" class="eight" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="two mobile-one columns">
           <label class="right inline">Brand</label>
         </div>
         <div class="ten mobile-three columns">
@@ -101,20 +72,58 @@
 
       <div class="row">
         <div class="two mobile-one columns">
-          <label class="right inline">Description</label>
+          <label class="right inline">Model #</label>
         </div>
         <div class="ten mobile-three columns">
-          <textarea name="sku_desc" class="eight"></textarea>
+          <input type="text" name="sku_model" placeholder="Model Number" class="eight" />
         </div>
       </div>
 
       <div class="row">
         <div class="two mobile-one columns">
+          <label class="right inline">Title</label>
+        </div>
+        <div class="ten mobile-three columns">
+          <input type="text" name="sku_title" placeholder="Brand + Model Number + Type/size/color" class="eight" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="two mobile-one columns">
+          <label class="right inline">URL</label>
+        </div>
+        <div class="ten mobile-three columns">
+          <input type="text" name="sku_url" placeholder="Manufacturer Website" class="eight" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="two mobile-one columns">
+          <label class="right inline">Description</label>
+        </div>
+        <div class="ten mobile-three columns">
+
+          <!-- TINYMCE FOR WIYIWYG EDITOR -->
+          <script type="text/javascript" src="js/tiny_mce/tiny_mce.js"></script>
+          <script type="text/javascript">
+             tinyMCE.init({
+                mode : "textareas",
+                theme : "simple",
+                height : "100",
+                editor_selector : "mceEditor"
+             });
+          </script>
+
+          <textarea name="sku_desc" class="eight mceEditor"></textarea>
+        </div>
+      </div>
+
+      <div class="row category">
+        <div class="two mobile-one columns">
           <label class="right inline">Category</label>
         </div>
         <div class="ten mobile-three columns">
           <input type="text" name="sku_category" placeholder="Category" class="eight" />
-          category is a blah blah blah
           <br><br>
         </div>
       </div>
@@ -128,6 +137,11 @@
         </div>
       </div>
 
+      <div class="group buttons">
+        <a class="button radius left">Add </a>
+        <span class="left choice-or">or</span>
+        <a class="button radius left">Cancel</a>
+      </div>
 
   </div>
 
@@ -196,6 +210,12 @@
           <label for="norecheck"><input name="recheck" CHECKED type="radio" id="norecheck"> 
             <strong>No need</strong> to recheck this</label>
         </div>
+      </div>
+
+      <div class="group buttons">
+        <a class="button radius left">Add </a>
+        <span class="left choice-or">or</span>
+        <a class="button radius left">Cancel</a>
       </div>
 
    </div>

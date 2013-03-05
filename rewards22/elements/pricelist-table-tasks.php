@@ -6,101 +6,54 @@
            <thead>
              <tr>
                <th class="th-time">Time</th>
-               <th class="th-storetitle">Store Title</th>
                <th class="th-prodtitle">Product Title</th>
-               <th class="th-url">URL</th>
-               <th class="th-model">Model</th>
+               <th class="th-price">Price</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td class="time"> </td>
+               <td class="time"> A long date not cut</td>
                <td>
-                  Seagate
+                  Seagate Momentus 160
                </td>
                <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
+                  Php 5000
                </td>
              </tr>
              <tr>
-               <td class="time"> </td>
+               <td class="time"> A long date not cut</td>
                <td>
-                  Seagate
+                  Seagate Momentus 160
                </td>
                <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
+                  Php 5000
                </td>
              </tr>
              <tr>
-               <td class="time"> </td>
+               <td class="time"> A long date not cut</td>
                <td>
-                  Seagate
+                  Seagate Momentus 160
                </td>
                <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
+                  Php 5000
                </td>
              </tr>
              <tr>
-               <td class="time"> </td>
+               <td class="time"> A long date not cut</td>
                <td>
-                  Seagate
+                  Seagate Momentus 160
                </td>
                <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
+                  Php 5000
                </td>
              </tr>
              <tr>
-               <td class="time"> </td>
+               <td class="time"> A long date not cut</td>
                <td>
-                  Seagate
+                  Seagate Momentus 160
                </td>
                <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
-               </td>
-             </tr>
-             <tr>
-               <td class="time"> </td>
-               <td>
-                  Seagate
-               </td>
-               <td>
-                  Seagate Momentus
-               </td>
-               <td>
-                  http://wwww.seagate.com.ph
-               </td>
-               <td>
-                  Seagate 160
+                  Php 5000
                </td>
              </tr>
            </tbody>
