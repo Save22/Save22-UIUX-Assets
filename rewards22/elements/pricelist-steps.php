@@ -1,8 +1,13 @@
 
 <div class="content-box">
-
-  <div id="completed-tasks" class="group">
-    <?php require_once('pricelist-table-tasks.php'); ?>
+  <div class="group">
+    <div id="pricelist-info" class="group sub-box">
+      <h2>Retailer Name</h2>
+      <h3>Branch Address/Name</h3>
+    </div>
+    <div id="completed-tasks" class="group">
+      <?php require_once('pricelist-table-tasks.php'); ?>
+    </div>
   </div>
 
 
