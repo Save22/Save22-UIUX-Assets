@@ -89,10 +89,17 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#cecece',GradientType=0 ); /* IE6-9 */
   }
 
-
+  .price-error {
+    -webkit-transition: all 0.5s ease-in;  
+    -moz-transition: all 0.5s ease-in;  
+    -o-transition: all 0.5s ease-in; 
+    transition: all 0.5s ease-in;
+    display: none;
+  }
   .report-error {
     color: #999 !important; 
     border: 2px solid #eee;
     padding: 6px;
     font-size: 0.813em;
   }
+  .price-option:hover .price-error { display: block; }
