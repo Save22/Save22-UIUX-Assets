@@ -75,6 +75,9 @@
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
                                         </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
+                                        </div>
                                     </li>
 
                                     <li class="group price-option">
@@ -92,6 +95,9 @@
                                             <div class="ugc-info">
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
+                                        </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
                                         </div>
                                     </li>
 
@@ -109,6 +115,9 @@
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
                                         </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
+                                        </div>
                                     </li>
 
                                     <li class="group price-option">
@@ -126,6 +135,9 @@
                                             <div class="ugc-info">
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
+                                        </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
                                         </div>
                                     </li>
 
@@ -143,6 +155,9 @@
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
                                         </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
+                                        </div>
                                     </li>
 
                                     <li class="group price-option">
@@ -160,6 +175,9 @@
                                             <div class="ugc-info">
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
+                                        </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
                                         </div>
                                     </li>
 
@@ -177,6 +195,9 @@
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
                                         </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
+                                        </div>
                                     </li>
 
                                     <li class="group price-option">
@@ -194,6 +215,9 @@
                                             <div class="ugc-info">
                                                 last updated by <span class="detail-author"><strong>fiddo</strong></span> <span class="timestamp">3 days ago</span>
                                             </div>
+                                        </div>
+                                        <div class="group price-error right">
+                                            <a href="#" class="report-error" data-reveal-id="errorModal">this price looks wrong</a>
                                         </div>
                                     </li>
 
@@ -240,6 +264,22 @@
     <?php require_once('widgets/pdp-addprices.php'); ?>
 
 </div><!-- content -->
+
+
+<div id="errorModal" class="reveal-modal medium">
+  <h2>Thanks for reporting the error!</h2>
+  <p class="lead">Our data quality team will process your report to ensure our shopping data is accurate.</p>
+
+    <form>
+      <fieldset>
+        <legend>You can describe the problem here</legend>
+        <textarea></textarea>
+        <input type="submit" value="send" class="button radius" />
+      </fieldset>
+    </form>
+    
+  <a class="close-reveal-modal">&#215;</a>
+</div>
 
 
 
