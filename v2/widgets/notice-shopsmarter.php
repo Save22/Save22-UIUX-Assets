@@ -1,19 +1,16 @@
 
- <nav class="top-bar" id="smart-shopper">
-    <div class="row">
-        <ul>
-            <!-- Title Area -->
-            <li class="nav-title">
-                <h1>Compare Prices</h1>
-            </li>
-            <li class="toggle-topbar">
-                <a href="#"></a>
-            </li>
-        </ul>
+  <nav class="top-bar" id="smart-shopper">
+    <ul>
+      <!-- Title Area -->
+      <li class="nav-title">
+        <h1>compare prices</h1>
+      </li>
+      <li class="toggle-topbar"><a href="#"></a></li>
+    </ul>
 
-        <section>
-            <!-- Left Nav Section -->
-            <ul class="left">
+    <section>
+        <!-- Left Nav Section -->
+        <ul class="left">
                 <li class="divider"></li>
                 <li class="has-dropdown active">
                 
@@ -117,8 +114,8 @@
                     </ul>
                 </li>
                 
-            </ul>
+        </ul>
 
-        </section>
-    </div>
-</nav>
+    </section>
+  </nav>
+  <!-- End Top Bar -->
