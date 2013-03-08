@@ -5,10 +5,11 @@
             <h3>Take a look around</h3>
             <div class="widget-content">
               <ul class="nolist">
-                <li><a href="http://save22.com/about">About Us</a></li>
-                <li><a href="http://save22.com/contact">Contact Us</a></li>
-                <li><a href="http://save22.com/investors">Investors</a></li>
-                <li><a href="http://build.save22.com/">Blog</a></li>
+                <li><a href="http://blog.lobangclub.com/about-lobangclub/">About Us</a></li>
+                <li><a href="http://www.lobangclub.com/lobangclub-contact-us/">Contact Us</a></li>
+                <li><a href="http://blog.lobangclub.com/lobangclub-press-investor-centre/">Investors</a></li>
+                <li><a href="http://blog.save22.com/">Blog</a></li>
+                <li><a href="http://www.save22.com/accounts/password/reset/">Forgot Your Password?</a></li>
               </ul>
             </div>
         </div>

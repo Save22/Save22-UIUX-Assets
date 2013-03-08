@@ -1,8 +1,3 @@
-/*
-Bones Scripts File
-Author: Eddie Machado
-*/
-
 // IE8 ployfill for GetComputed Style (for Responsive Script below)
 if (!window.getComputedStyle) {
     window.getComputedStyle = function(el, pseudo) {

@@ -52,38 +52,59 @@
          </div><!-- profile row -->
 
          <div class="row profile">
-            <div class="six columns profile-desc">
-               <h2>Allan</h2>
-
-               <p><strong>Ronald Cheung</strong> looks at the technology behind Save22 to ensure users can seamlessly find great lobangs. Previously Ronald spent time in various development / technical roles within large companies with three letter acronyms including AMP, BHP, EDS. Outside of work he enjoys hiking, growing plants, and drinking coffee.</p>
-            </div>
             <div class="six columns profile-pic">
-               <img src="img/team-allan.png" alt="Allan">
+               <img src="img/team-lope.png" alt="Lope">
+            </div>
+            <div class="six columns profile-desc">
+               <h2>Lope</h2>
+
+               <p><strong>Lope Emano</strong> likes two things: women and dried mango.</p>
             </div>
          </div><!-- profile row -->
 
          <div class="row profile">
-            <div class="six columns profile-desc">
-               <h2>Rod</h2>
-
-               <p><strong>Guyi Shen</strong> makes sure that people find out about Save22. He also makes sure that Save22 is full of good savings. Before Save22, he founded LoanExpertOnline, an online secured loan originator. He also founded 15 Minute, an online home loan company. Guyi graduated from UNSW with a B.Sc in BIT, he’s also spent some time at IBM as an ethical hacker. His hobbies include origami, basketball, reading &amp; snowboarding.</p>
-            </div>
             <div class="six columns profile-pic">
-               <img src="img/team-rod.png" alt="Rod">
+               <img src="img/team-allan.png" alt="Allan">
+            </div>
+            <div class="six columns profile-desc">
+               <h2>Allan</h2>
+
+               <p><strong>Allan Caeg</strong> is THAT ux guy.</p>
             </div>
          </div><!-- profile row -->
 
-         <div class="row profile profile-pic">
-            <div class="six columns profile-desc">
-               <h2>Lope</h2>
-
-               <p><strong>Ronald Cheung</strong> looks at the technology behind Save22 to ensure users can seamlessly find great lobangs. Previously Ronald spent time in various development / technical roles within large companies with three letter acronyms including AMP, BHP, EDS. Outside of work he enjoys hiking, growing plants, and drinking coffee.</p>
-            </div>
+         <div class="row profile">
             <div class="six columns profile-pic">
-               <img src="img/team-lope.png" alt="Allan">
+               <img src="img/team-camille.png" alt="Camille">
+            </div>
+            <div class="six columns profile-desc">
+               <h2>Camille</h2>
+
+               <p><strong>Camille Zapata</strong> is always looking for M&amp;M's. She's sleepy all the time.</p>
             </div>
          </div><!-- profile row -->
 
+         <div class="row profile">
+            <div class="six columns profile-pic">
+               <img src="img/team-ray.png" alt="Ray">
+            </div>
+            <div class="six columns profile-desc">
+               <h2>Ray</h2>
+
+               <p><strong>Ray</strong> does stuff. Back-end and some front-end stuff. He's also probably one of the fitter people in the team.</p>
+            </div>
+         </div><!-- profile row -->
+
+         <div class="row profile">
+            <div class="six columns profile-pic">
+               <img src="img/team-jo.png" alt="Ray">
+            </div>
+            <div class="six columns profile-desc">
+               <h2>Johanna</h2>
+
+               <p><strong>Jo</strong> does a lot of the planning and documentation and she figures out how we can get more while not spending too much.</p>
+            </div>
+         </div><!-- profile row -->
 
       </div>
    </div><!-- row -->
