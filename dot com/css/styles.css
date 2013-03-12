@@ -298,7 +298,7 @@
 
 	/* HOMEPAGE */
 
-		body.index, body.error-404, body.error-500, body.forgot-password {
+		body.index, body.error-404, body.error-500, body.forgot-password, body.solutions {
 			background: url('../img/bg1.jpg') #fff no-repeat fixed;
 			background-size: 100%;
 		}
