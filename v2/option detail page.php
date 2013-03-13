@@ -15,7 +15,7 @@
 
                 <header class="single-header page-header product-header group">
                     <h2 class="left">Canon EOS 500D (18-55mm Lens Kit) <span class="thin">from</span> <a href="store page.php"> Electroworld/SM North Annex</a></h2>
-                    <div class="right group">
+                    <div class="right group link-set">
                         <div class="left map-link">
                             <a href="#directions">Map</a>
                         </div>

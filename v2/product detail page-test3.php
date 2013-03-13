@@ -50,11 +50,11 @@
                     <li class="active" id="price-optionsTab">
                         <p>Know your options for this product before you buy. Below are prices contributed by Save22 users like you.</p>
 
-                        <div class="group">
-                            <span class="left impt">Sort by:</span> 
+                        <div class="group sorting options-row">
+                            <span class="left button-group-label">Sort by</span> 
                             <ul class="button-group radius">
-                              <li><a href="#" class="button radius selected">Price</a></li>
-                              <li><a href="#" class="button radius">Date Added</a></li>
+                              <li><input class="submit button" type="submit" value="Price"></li>
+                              <li><input class="submit button" type="submit" value="Date Added"></li>
                             </ul>
                         </div>
 
@@ -64,10 +64,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                                <a href="option detail page.php" title="View price details">₱24,500.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                                <a href="store page.php" title="View store details">Widget City Gadgets</a>
                                             </div>
                                         </div>
                                         <div class="group price-details open">
@@ -83,10 +83,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                                <a href="option detail page.php" title="View price details">₱39,950.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <a href="store page.php" title="View store details">Accent Micro/SM City Marikina<br>
                                                 <span class="branch">2/L Cyberzone SM Southmall</span>
                                                 </a>
                                             </div>
@@ -104,10 +104,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                                <a href="option detail page.php" title="View price details">₱24,500.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                                <a href="store page.php" title="View store details">Widget City Gadgets</a>
                                             </div>
                                         </div>
                                         <div class="group price-details open">
@@ -123,10 +123,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                                <a href="option detail page.php" title="View price details">₱39,950.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <a href="store page.php" title="View store details">Accent Micro/SM City Marikina<br>
                                                 <span class="branch">2/L Cyberzone SM Southmall</span>
                                                 </a>
                                             </div>
@@ -144,10 +144,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                                <a href="option detail page.php" title="View price details">₱24,500.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                                <a href="store page.php" title="View store details">Widget City Gadgets</a>
                                             </div>
                                         </div>
                                         <div class="group price-details open">
@@ -163,10 +163,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                                <a href="option detail page.php" title="View price details">₱39,950.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <a href="store page.php" title="View store details">Accent Micro/SM City Marikina<br>
                                                 <span class="branch">2/L Cyberzone SM Southmall</span>
                                                 </a>
                                             </div>
@@ -184,10 +184,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱24,500.00</a>
+                                                <a href="option detail page.php" title="View price details">₱24,500.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Widget City Gadgets</a>
+                                                <a href="store page.php" title="View store details">Widget City Gadgets</a>
                                             </div>
                                         </div>
                                         <div class="group price-details open">
@@ -203,10 +203,10 @@
                                     <li class="group price-option">
                                         <div class="price-header">
                                             <div class="price detail-price impt innercol">
-                                                <a href="option detail page.php" class="has-tip tip-right noradius" title="View price details">₱39,950.00</a>
+                                                <a href="option detail page.php" title="View price details">₱39,950.00</a>
                                             </div>
                                             <div class="store innercol">
-                                                <a href="store page.php" class="has-tip tip-right noradius" title="View store details">Accent Micro/SM City Marikina<br>
+                                                <a href="store page.php" title="View store details">Accent Micro/SM City Marikina<br>
                                                 <span class="branch">2/L Cyberzone SM Southmall</span>
                                                 </a>
                                             </div>

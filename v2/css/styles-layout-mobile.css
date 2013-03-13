@@ -314,6 +314,11 @@
           display: block;
           margin: 12px auto 0 auto;
         }
+
+        .options-row { padding: 6px 24px 0 24px; margin-bottom: 24px;}
+        .options-row.sorting .button { min-width: 120px; }
+        .options-row .button-group-label { padding: 0; float: none; display: block; margin: 0 0 8px 0; }
+
       /* store */
          #content.store .six article { margin-bottom: 24px; }
          #content.store dl.tabs dd a { color: #333; }
