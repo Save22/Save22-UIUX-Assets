@@ -23,13 +23,14 @@
 
    label { font-weight: 700; }
 
-   h1.page-header { 
+   .page-header { 
       font-size: 1.438em;
       font-weight: 400;
       padding: 1% 2%;
       color: #fff;
    }
-      h1.page-header span.name { text-transform: none; font-weight: 700; }
+      .page-header span.name { text-transform: none; font-weight: 700; }
+   .row h1, .row h2 { font-size: 1.438em; }
 
    header.doc-header { 
       border-bottom: 1px solid #eee; 
@@ -41,7 +42,6 @@
       overflow: hidden;
    }
 
-   .half-page .content-box h2,
    .reveal-modal h2
       { font-size: 1.5em; }
 
@@ -102,6 +102,7 @@
       .top-bar section ul { background: #7f0f0f; }
    nav.page-options { display: block; margin: 12px 0 24px 0; }
    .option-buttons { margin-bottom: 18px; }
+   .nolist { list-style-type: none; }
 
 /* forms */ 
    form.custom div.custom.dropdown {  margin-bottom: 24px; width: 100% !important; }
@@ -121,6 +122,21 @@
       border-width: 1px; 
    }
    form.custom div.custom.dropdown ul { top: 36px !important; max-height: 150px; box-shadow: 1px 2px 8px rgba(0,0,0,0.25)}
+   .button.disabled, .button[disabled] {
+      background: #333 !important;
+      color: #000;
+      box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+   }
+   .list-results li { 
+      border-bottom: 1px dotted #ccc;
+      padding: 12px 0;
+      overflow: auto;
+   }
+   .list-results li:hover { background: #eee;}
+   .list-results label { font-weight: 300; }
+   .custom.checkbox { margin: 0 8px; width: 24px; display: block; float: left; }
+   span.desc { display: block; float: left; width: 90%; margin-left: 12px;}
+
 
 /* loader */ 
    
@@ -146,7 +162,7 @@
       background: #f8f8f8;
       -webkit-text-size-adjust: none;
    }
-   .row { width: 100%; padding: 0 0; }
+   /* .row { width: 100%; padding: 0 0; } */
 
    #container {
       overflow: hidden;
@@ -318,6 +334,23 @@
       box-shadow: 0 2px 3px rgba(0,0,0,0.25);
    }
 
+/* pricelist branch search */
+   .results {
+       border: 2px solid #ccc;
+       width: 90%;
+       margin: auto;
+       max-height: 1000px;
+       overflow: auto;
+       background: #fff;
+       padding: 15px;
+
+   }
+   .results .button {
+       display: block;
+       margin: 24px auto;
+   }
+   #branch-search-results { max-height: 200px; overflow: auto; }
+
 /* DESKTOP VIEW */
 
 @media screen and (min-width: 48.25em) {
@@ -356,17 +389,12 @@
    .wrap.active {
    }
 
+
    .content.mod {
       clear: none;
       margin-left: 21.875em;
    }
 
-   .half-page { 
-      width: 50%; 
-      float: left;
-      clear: none;
-   }
-      .half-page .content-box { padding: 2% 4%; }
       .content-box ul, .content-box ol { margin: 0 0 0 24px; }
 
    #main-footer.row { display: block; }
