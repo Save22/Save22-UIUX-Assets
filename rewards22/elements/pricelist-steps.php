@@ -70,64 +70,64 @@
       <div class="six columns">
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Brand</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Brand</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_brand" placeholder="Brand" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Model #</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Model #</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_model" placeholder="Model Number" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Product Type</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Product Type</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_prodtype" placeholder="Product Type" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Size</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Size</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_size" placeholder="Size" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Quantity</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Quantity</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_quantity" placeholder="Quantity" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Unit</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Unit</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_unit" placeholder="Unit" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Color</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Color</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_color" placeholder="Color" />
           </div>
         </div>
@@ -135,10 +135,10 @@
         <hr>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Title</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Title</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_title" placeholder="Brand + Model Number + Type/size/color" />
           </div>
         </div>
@@ -149,19 +149,23 @@
       <div class="six columns">
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Description</label>
-          </div>
-          <div class="ten mobile-three columns">
+          <div class="twelve mobile-four columns">
 
+            <label>Description</label>
             <!-- TINYMCE FOR WIYIWYG EDITOR -->
             <script type="text/javascript" src="js/tiny_mce/tiny_mce.js"></script>
             <script type="text/javascript">
                tinyMCE.init({
                   mode : "textareas",
                   theme : "simple",
-                  height : "100",
-                  editor_selector : "mceEditor"
+                  height : "300",
+                  keep_styles : false,
+                  editor_selector : "mceEditor",
+                  plugins: 'paste',
+                  paste_auto_cleanup_on_paste : true,
+                  paste_remove_styles: true,
+                  paste_remove_styles_if_webkit: true,
+                  paste_strip_class_attributes: true
                });
             </script>
 
@@ -170,29 +174,29 @@
         </div>
 
         <div class="row category">
-          <div class="two mobile-one columns">
-            <label class="right inline">Category</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Category</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_category" placeholder="Category" />
             <br><br>
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">Image Link</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">Image Link</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_image" placeholder="http://" />
           </div>
         </div>
 
         <div class="row">
-          <div class="two mobile-one columns">
-            <label class="right inline">URL</label>
+          <div class="three mobile-one columns">
+            <label class="left inline">URL</label>
           </div>
-          <div class="ten mobile-three columns">
+          <div class="nine mobile-three columns">
             <input type="text" name="sku_url" placeholder="Manufacturer Website" />
           </div>
         </div>
@@ -218,18 +222,18 @@
     <h3>2/3. Add Buying Option</h3>
     <!-- Right aligned and inline labels -->
       <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Price</label>
+        <div class="three mobile-one columns">
+          <label class="left inline">Price</label>
         </div>
-        <div class="ten mobile-three columns">
+        <div class="nine mobile-three columns">
           <input type="text" placeholder="Price" class="eight" />
         </div>
       </div>
       <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Price List Name</label>
+        <div class="three mobile-one columns">
+          <label class="left inline">Price List Name</label>
         </div>
-        <div class="ten mobile-three columns">
+        <div class="nine mobile-three columns">
           <select id="priceListName">
               <option SELECTED>Choose price list name</option>
               <option>a price list</option>
@@ -246,10 +250,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Store</label>
+        <div class="three mobile-one columns">
+          <label class="left inline">Store</label>
         </div>
-        <div class="ten mobile-three columns">
+        <div class="nine mobile-three columns">
           <select id="priceListName">
               <option SELECTED>Choose a store</option>
               <option>a store </option>
@@ -264,10 +268,10 @@
     <h3>3/4. Need help here?</h3>
 
       <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Should this entry be rechecked?</label>
+        <div class="three mobile-one columns">
+          <label class="left inline">Should this entry be rechecked?</label>
         </div>
-        <div class="ten mobile-three columns checklist-radio">
+        <div class="nine mobile-three columns checklist-radio">
           <label for="recheck"><input name="recheck" type="radio" id="recheck"> 
             <strong>Yes</strong>, please recheck this</label>
           <label for="norecheck"><input name="recheck" CHECKED type="radio" id="norecheck"> 

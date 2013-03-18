@@ -275,7 +275,7 @@
 
 
 /* intial pricelist processing */
-   .step { /* display: none; */ }
+   .step { display: none; }
    .step.active, .step.search {display: block;}
    .alert-box h3 { color: #fff; text-align: center; }
          .page-options label { 
