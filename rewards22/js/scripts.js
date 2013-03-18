@@ -25,6 +25,18 @@ if (!window.getComputedStyle) {
 jQuery(document).ready(function($) {
   $('body').addClass('js');
 
+  $('.trigger-taxonomy-filter').click(function(){
+    
+    var search_tax = $('.search-taxonomy');
+    if (search_tax.hasClass('hide')) {
+      search_tax.removeClass('hide').addClass('show');
+    }
+    else {
+      search_tax.removeClass('show').addClass('hide');
+    }
+    return false;
+  });
+
   var $menu = $('#panel'),
     $menulink = $('.panel-link'),
     $wrap = $('#wrap');
@@ -81,6 +93,7 @@ jQuery(document).ready(function($) {
 
 
 inline_edit();
+
 
 }); /* end of as page load scripts */
 

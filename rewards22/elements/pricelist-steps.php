@@ -66,81 +66,139 @@
 
     <h3>2. You found a new SKU. Add it: </h3>
 
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Brand</label>
+    <div class="row">
+      <div class="six columns">
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Brand</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_brand" placeholder="Brand" />
+          </div>
         </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_brand" placeholder="Brand" class="eight" />
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Model #</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_model" placeholder="Model Number" />
+          </div>
         </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Product Type</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_prodtype" placeholder="Product Type" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Size</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_size" placeholder="Size" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Quantity</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_quantity" placeholder="Quantity" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Unit</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_unit" placeholder="Unit" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Color</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_color" placeholder="Color" />
+          </div>
+        </div>
+        
+        <hr>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Title</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_title" placeholder="Brand + Model Number + Type/size/color" />
+          </div>
+        </div>
+
+        <hr>
+
       </div>
+      <div class="six columns">
 
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Model #</label>
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Description</label>
+          </div>
+          <div class="ten mobile-three columns">
+
+            <!-- TINYMCE FOR WIYIWYG EDITOR -->
+            <script type="text/javascript" src="js/tiny_mce/tiny_mce.js"></script>
+            <script type="text/javascript">
+               tinyMCE.init({
+                  mode : "textareas",
+                  theme : "simple",
+                  height : "100",
+                  editor_selector : "mceEditor"
+               });
+            </script>
+
+            <textarea name="sku_desc" class="mceEditor"></textarea>
+          </div>
         </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_model" placeholder="Model Number" class="eight" />
+
+        <div class="row category">
+          <div class="two mobile-one columns">
+            <label class="right inline">Category</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_category" placeholder="Category" />
+            <br><br>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">Image Link</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_image" placeholder="http://" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="two mobile-one columns">
+            <label class="right inline">URL</label>
+          </div>
+          <div class="ten mobile-three columns">
+            <input type="text" name="sku_url" placeholder="Manufacturer Website" />
+          </div>
+        </div>
+
       </div>
-
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Title</label>
-        </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_title" placeholder="Brand + Model Number + Type/size/color" class="eight" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">URL</label>
-        </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_url" placeholder="Manufacturer Website" class="eight" />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Description</label>
-        </div>
-        <div class="ten mobile-three columns">
-
-          <!-- TINYMCE FOR WIYIWYG EDITOR -->
-          <script type="text/javascript" src="js/tiny_mce/tiny_mce.js"></script>
-          <script type="text/javascript">
-             tinyMCE.init({
-                mode : "textareas",
-                theme : "simple",
-                height : "100",
-                editor_selector : "mceEditor"
-             });
-          </script>
-
-          <textarea name="sku_desc" class="eight mceEditor"></textarea>
-        </div>
-      </div>
-
-      <div class="row category">
-        <div class="two mobile-one columns">
-          <label class="right inline">Category</label>
-        </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_category" placeholder="Category" class="eight" />
-          <br><br>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="two mobile-one columns">
-          <label class="right inline">Image Link</label>
-        </div>
-        <div class="ten mobile-three columns">
-          <input type="text" name="sku_image" placeholder="http://" class="eight" />
-        </div>
-      </div>
+    </div>
 
       <div class="group buttons">
         <a class="button radius left">Add </a>

@@ -15,3 +15,12 @@
 
 </head>
 <body>
+
+<div class="row">
+   <header>
+      <div class="large-12 columns">
+         <img src="img/logo-big.png" class="left">
+         
+      </div>
+   </header>
+</div>
