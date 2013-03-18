@@ -117,6 +117,8 @@
         <div class="row">
             <div class="twelve columns">
 
+            <?php require_once('elements/loader.php'); ?>
+            
             <h3>Search Results</h3>
             <p>Use the search box below to filter through the search results. You may look for Title, Brand, Model #, Updated Time, etc.</p>
 

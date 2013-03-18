@@ -26,11 +26,14 @@
           </div><!-- row -->
       </div><!-- columns -->
     </div><!-- row -->
-    <div class="row hide" id="search-results-container">
+    <div class="row" id="search-results-container">
       <div class="nine columns centered">
         <hr>
         <h2>Search Results</h2>
           <div id="branch-search-results">
+            
+            <!-- LOADER -->
+            <?php require_once('elements/loader.php'); ?>
                        
             <ul class="nolist list-results">
 
