@@ -1,4 +1,5 @@
 <?php require_once('header.php'); ?>
+<?php require_once('widgets/notice-shopsmarter.php'); ?>
    
 <div id="content">
 
