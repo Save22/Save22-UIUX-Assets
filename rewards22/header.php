@@ -35,12 +35,31 @@
 </head>
 <body>
   <!-- Navigation -->
+
 <header id="main-header">
-  <nav class="top-bar">
-    <ul>
-      <li class="name"><h1><a href="#">Rewards 22</a></h1></li>
-      <li class="toggle-topbar"><a href="#"></a></li>
-    </ul>
-    </section>
-  </nav>
+    <nav class="top-bar">
+      <ul>
+        <!-- Title Area -->
+        <li class="name">
+          <h1>
+            <a href="#">
+              Rewards 22
+            </a>
+          </h1>
+        </li>
+        <li class="toggle-topbar"><a href="#"></a></li>
+      </ul>
+
+      <section>
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li>
+            <a class="active" href="admin.php">Admin</a>
+          </li>
+          <li class="divider hide-for-small"></li>
+        </ul>
+
+      </section>
+    </nav>
 </header>

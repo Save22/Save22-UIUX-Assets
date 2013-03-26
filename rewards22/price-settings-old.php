@@ -17,7 +17,7 @@
       </a>
 
       <h1 class="page-header">
-         <span class="input-pricelname name">Gaisano A</span> <span class="page-type">Price List Settings</span></h1> 
+         <span class="input-pricelname name">Gaisano A</span> <span class="page-type"> - Price List Settings</span></h1> 
 
          <div class="oc" id="panel">
 
@@ -32,7 +32,6 @@
            <dd class="active"><a href="#docs">Upload  Document(s)</a></dd>
            <dd><a href="#updates">Check for Updates</a></dd>
          </dl>
-         
          <ul class="tabs-content">
            <li class="active" id="docsTab">
                <?php require_once('elements/pricesettings-table.php'); ?>

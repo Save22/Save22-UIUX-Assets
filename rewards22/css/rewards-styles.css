@@ -27,7 +27,7 @@
       font-size: 1.438em;
       font-weight: 400;
       padding: 1% 2%;
-      color: #fff;
+      color: #000;
    }
       .page-header span.name { text-transform: none; font-weight: 700; }
    .row h1, .row h2 { font-size: 1.438em; }
@@ -61,6 +61,7 @@
       background: #fff; border: 0; margin: 0;
    }
 
+   /* 
    dl.tabs { margin: 0; height: 60px; }
    dl.tabs dd a { padding: 12px !important;height: 60px; 
       -webkit-border-top-left-radius: 6px;
@@ -89,7 +90,10 @@
       background: #fff; 
       box-shadow: none;
    }
-   ul.tabs-content { border-style: solid; border-color: #E6E6E6; border-width: 0 1px 1px 1px; padding: 15px; background: #fff;
+   */
+   .tabs { margin-bottom: -1px; }
+   ul.tabs-content { 
+      border-style: solid; border-color: #E6E6E6; border-width: 0 1px 1px 1px; padding: 15px; background: #fff;
       -webkit-border-bottom-right-radius: 6px;
       -webkit-border-bottom-left-radius: 6px;
       -moz-border-radius-bottomright: 6px;
@@ -103,6 +107,10 @@
    nav.page-options { display: block; margin: 12px 0 24px 0; }
    .option-buttons { margin-bottom: 18px; }
    .nolist { list-style-type: none; }
+   .top-bar ul>li.divider {
+      background: #650e0e;
+   }
+   .top-bar ul>li a:hover {background: #650e0e; color: #fff !important; }
 
 /* forms */ 
    form.custom div.custom.dropdown {  margin-bottom: 24px; width: 100% !important; }
@@ -367,6 +375,13 @@
    }
    #branch-search-results { max-height: 200px; overflow: auto; }
 
+/* POST-PROCESSING QUEUE */
+   
+   td.archive-checkbox { width: 30px; text-align: center; }
+   #queueList h3 { font-size: 1.25em; }
+   #queueList .product-info { margin-left: 24px; border-left: 3px solid #ccc; padding: 12px; }
+   #queueList .product-info strong { display: block; float: left; width: 100px; }
+
 /* DESKTOP VIEW */
 
 @media screen and (min-width: 48.25em) {
@@ -466,7 +481,7 @@
       }
 
    /* PRICE UPDATE TASKS */
-   .page-header .name { display: block; float: left; }
+   .page-header .name { display: block; }
 
 }
 
@@ -524,7 +539,7 @@
    .pricesheet .date-box { border-top: 2px solid #4b4b4b; }
       .pricesheet.date-box .icon-calendar { margin-top: 12px; }
 
-   .page-header .name { display: block; float: right; }
+   .page-header .name { display: block; }
    a.back-button { 
       display: block; float: left; 
       width: 100px; border: 1px solid #000; height: 44px; 

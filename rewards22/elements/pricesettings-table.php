@@ -17,10 +17,10 @@
            <thead>
              <tr>
                <th class="th-sort">Sort</th>
-               <th class="th-desc">Chunk Description</th>
-               <th class="th-file">Pricesheet File</th>
-               <th class="th-info">Processing Instructions</th>
-               <th class="th-size">Work Size</th>
+               <th class="th-desc">Info</th>
+               <th class="th-type">Type</th>
+               <th class="th-type">Start Date</th>
+               <th class="th-type">End Date</th>
                <th class="th-assignee">VA Assigned</th>
              </tr>
            </thead>
@@ -51,106 +51,28 @@
                   <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu.</p>
                </td>
                <td>
-                  <a href="#" class="dl-pricefile left pointer has-tip" title="2012_gaisano_cebu_pricelist_reallylongfilename.pdf">view file</a> 
-                  <a href="#" class="hide-text icon-replace right pointer has-tip" title="replace file">replace file</a>
+                  default 
                </td>
                <td>
-                  <a href="#">instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" title="edit instructions">edit</a>
+                  March 12, 2013
                </td>
-               <td>3</td>
+               <td>
+                  March 14, 2013
+               </td>
                <td>
                   Riza 
                   <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="change assignee(s)">edit</a>
                </td>
              </tr>
+
              <tr>
                <td class="index">2</td>
                <td class="td-desc">
-                     <p>Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor.</p>
-               </td>
-               <td>
-                  <a href="#" class="dl-pricefile left pointer has-tip" title="FILENAME.pdf">view file</a> 
-                  <a href="#" class="hide-text icon-replace right pointer has-tip" title="replace file">replace file</a>
-               </td>
-               <td>
-                  <a href="#">instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" title="edit instructions">edit</a>
-               </td>
-               <td>3</td>
-               <td>
-                  Riza 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="change assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">3</td>
-               <td class="td-desc">
-                  <p>Vivamus hendrerit arcu sed erat molestie.</p>
-               </td>
-               <td>
-                  <a href="#" class="dl-pricefile left pointer has-tip" title="FILENAME.pdf">view file</a> 
-                  <a href="#" class="hide-text icon-replace right pointer has-tip" title="replace file">replace file</a>
-               </td>
-               <td>
-                  <a href="#">instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip" title="edit instructions">edit</a>
-               </td>
-               <td>3</td>
-               <td>
-                  Riza 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="change assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">4</td>
-               <td class="td-desc">
                   <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
                </td>
                <td>
-                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
+                  <a href="#" data-reveal-id="uploadfile">upload file</a> 
                </td>
-               <td>
-                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">5</td>
-               <td class="td-desc">
-                  <p>Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>
-               </td>
-               <td>
-                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
-               </td>
-               <td>1</td>
-               <td>
-                  unassigned 
-                  <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>
-               </td>
-             </tr>
-             <tr>
-               <td class="index">6</td>
-               <td class="td-desc">
-                  <a href="#">add description</a>
-               </td>
-               <td>
-                  <a href="#" data-reveal-id="uploadfile">upload file</a> <span class="icon-upload right"></span>
-               </td>
-               <td>
-                  <a href="#" class="add-instructions" data-reveal-id="instructions">add instructions</a>
-                  <a href="#" class="hide-text icon-edit right pointer has-tip add-instructions" data-width="95" title="add instructions" data-reveal-id="instructions">edit</a>
-               </td>
-               <td>1</td>
                <td>
                   unassigned 
                   <a href="#" class="hide-text icon-assignee right pointer has-tip" data-width="65" title="add assignee(s)">edit</a>

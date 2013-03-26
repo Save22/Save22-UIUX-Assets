@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Add A Product</title>
 		<link rel="stylesheet" href="themes/save22.min.css" />
+		<link rel="stylesheet" href="themes/save22-styles.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile.structure-1.3.0.min.css" />
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
@@ -19,13 +20,19 @@
 		<div data-role="content" class="ui-content ui-body-c" role="main">
 			<p>Leave unapplicable fields blank. </p>
 			<form>
+
+				<div data-role="fieldcontain" class="add-newproduct-price">
+				    <label for="price-fc">Price</label>
+				    <input type="text" name="price-fc" id="price-fc" placeholder="Price" value="">
+				</div>
+
 				<div data-role="fieldcontain">
 				    <label for="brand-fc">Brand</label>
 				    <input type="text" name="brand-fc" id="brand-fc" placeholder="Brand Name" value="">
 				</div>
 				<div data-role="fieldcontain">
-				    <label for="model-fc">Model #</label>
-				    <input type="text" name="model-fc" id="model-fc" placeholder="Model #" value="">
+				    <label for="model-fc">Model # or Name</label>
+				    <input type="text" name="model-fc" id="model-fc" placeholder="Model # or Name" value="">
 				</div>
 				<div data-role="fieldcontain">
 				    <label for="product_type-fc">Product Type</label>
