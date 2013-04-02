@@ -42,29 +42,42 @@
               <th width="120">Creation Date</th>
               <th width="120">Expiry Date</th>
               <th width="120">Status</th>
+              <th width="120">Edit</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>1</td>
-              <td><a href="view-catalogue.php">SM Hypermart July 2013</a></td>
+              <td><a href="#link-to-website" target="_blank">SM Hypermart July 2013</a></td>
               <td>5 days ago</td>
               <td>4-30-2013</td>
               <td>active</td>
+              <td>
+                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="#" class="tiny button inline secondary">delete</a>
+              </td>
             </tr>
             <tr>
               <td>2</td>
-              <td><a href="view-catalogue.php">SM Hypermart June 2013</a></td>
+              <td><a href="#link-to-website" target="_blank">SM Hypermart June 2013</a></td>
               <td>30 days ago</td>
               <td>4-30-2013</td>
               <td>active</td>
+              <td>
+                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="#" class="tiny button inline secondary">delete</a>
+              </td>
             </tr>
             <tr>
               <td>3</td>
-              <td><a href="view-catalogue.php">SM Hypermart May 2013</a></td>
+              <td><a href="#link-to-website" target="_blank">SM Hypermart May 2013</a></td>
               <td>5-1-2013</td>
               <td>4-30-2013</td>
               <td>removed</td>
+              <td>
+                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="#" class="tiny button inline secondary">delete</a>
+              </td>
             </tr>
           </tbody>
         </table>

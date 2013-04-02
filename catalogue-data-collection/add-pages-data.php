@@ -17,23 +17,13 @@
           <h2>Add information to page</h2>
         </header>
 
-        <div class="row">
-          <div class="small-12 large-12 large-centered small-centered columns">
-            <a class="th radius" href="img/sample-page.jpg" target="_blank">
-              <img src="img/sample-page.jpg" alt="">
-            </a>
-          </div>
-        </div>
-
-        <br><br>
-
         <form>
           <div class="row">
             <div class="small-3 columns">
               <label for="right-label" class="right inline">Keywords</label>
             </div>
             <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Tags">
+              <textarea style="height: 80px"></textarea>
               * separate keywords with spaces<br><br>
             </div>
           </div><!-- row -->
@@ -45,6 +35,16 @@
             </div>
           </div>
         </form>
+
+        <div class="row">
+          <div class="small-12 large-12 large-centered small-centered columns">
+            <a class="th radius" href="img/sample-page.jpg" target="_blank">
+              <img src="img/sample-page.jpg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <br><br>
 
         <hr>
 

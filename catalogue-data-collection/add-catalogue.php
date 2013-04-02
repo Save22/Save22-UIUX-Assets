@@ -18,14 +18,6 @@
         <form>
           <div class="row">
             <div class="small-3 columns">
-              <label for="right-label" class="right inline">Brand</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Brand Name">
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
               <label for="right-label" class="right inline">Catalogue Title</label>
             </div>
             <div class="small-9 columns">
@@ -54,15 +46,7 @@
             </div>
             <div class="small-9 columns">
               <input type="text" id="right-label" placeholder="Branch Location">
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Expiry Date</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="datepicker" placeholder="">
-              <!-- date picker: https://github.com/dbushell/Pikaday -->
+              <a href="#" class="button small radius secondary">add another branch</a>
             </div>
           </div><!-- row -->
           <div class="row">
