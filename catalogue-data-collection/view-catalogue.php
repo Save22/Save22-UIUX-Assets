@@ -11,7 +11,7 @@
     <div class="small-12 large-12 small-centered columns">
 
       <header>
-        <h2><a href="#link-to-catalogue">*Name of Catalogue*</a></h2>
+        <h2><a href="#link-to-catalogue">*Catalogue Title*</a></h2>
       </header>
 
       <section>
