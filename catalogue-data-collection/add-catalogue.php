@@ -70,6 +70,14 @@
         <form class="custom">
           <div class="row">
             <div class="small-3 columns">
+              <label for="branchAddress" class="right inline">Branch Address</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="branchAddress" class="lnglat" placeholder="Address">
+            </div>
+          </div><!-- row -->
+          <div class="row">
+            <div class="small-3 columns">
               <label for="branchTitle" class="right inline">Branch Title</label>
             </div>
             <div class="small-9 columns">
@@ -158,7 +166,18 @@
 
   </div>
 
+  <!-- JS FOR LOCATION PICKER -->
+  <script type="text/javascript" src='http://maps.google.com/maps/api/js?sensor=false'></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type='text/javascript' src='js/jquery.locationpicker.js'></script>
+  <script type="text/javascript">
+      jQuery(document).ready(function(){
+          /* jQuery('input.lnglat').locationPicker();*/
+          $('input.lnglat').locationPicker();
+      });
+  </script>
 
+  <!-- JS FOR CALENDAR -->
   <script src="js/pikaday.js"></script>
   <script>
 
