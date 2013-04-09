@@ -15,7 +15,7 @@
   <script src="js/vendor/custom.modernizr.js"></script>
 
 
-  <header>
+  <header id="main-header">
 
     <nav class="top-bar">
       <ul class="title-area">
@@ -55,7 +55,7 @@
                   <label class="inline" for="search">You're at</label>
                 </div>
                 <div class="small-8 columns">
-                  <input name="search" id="search" type="text" placeholder="Ortigas" value="Ortigas">
+                  <input name="search" id="location" type="text" placeholder="Ortigas" value="Ortigas">
                 </div>
               </div>
             </form>

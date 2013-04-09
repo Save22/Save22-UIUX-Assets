@@ -1,4 +1,126 @@
-/* line 1, ../sass/styles.scss */
-.top-bar {
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Montserrat:400,700);
+/* FONTS */
+/* line 7, ../sass/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif, helvetica;
+}
+
+/* line 11, ../sass/styles.scss */
+body {
+  font-family: "Noto Sans", sans-serif, helvetica;
+}
+
+/* ANIMATIONS */
+/* BORDERS */
+/* HEADER */
+/* line 22, ../sass/styles.scss */
+#main-header .name {
+  background: #b3181d;
+}
+
+/* line 25, ../sass/styles.scss */
+#main-header #location {
+  background: #000;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+/* line 31, ../sass/styles.scss */
+#main-header label {
+  color: #ccc;
+  font-weight: 300;
+}
+
+/* HOME */
+/* line 39, ../sass/styles.scss */
+#main-header .top-bar {
   margin: 0;
+}
+
+/* line 43, ../sass/styles.scss */
+.home-intro {
+  padding: 12px 24px;
+  background: #e8e8e8;
+  border-bottom: 1px solid #000;
+  font-size: 0.813em;
+}
+
+/* line 50, ../sass/styles.scss */
+.home-featured {
+  width: 100%;
+  max-width: none;
+}
+/* line 57, ../sass/styles.scss */
+.home-featured h3 {
+  font-size: 0.813em;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+/* line 62, ../sass/styles.scss */
+.home-featured h2 {
+  font-size: 1em;
+  margin-top: 8px;
+}
+
+/* line 67, ../sass/styles.scss */
+.cat-thumb {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 12px;
+  border: 2px solid #333;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 78, ../sass/styles.scss */
+.cat-thumb a {
+  overflow: auto;
+  display: block;
+}
+/* line 80, ../sass/styles.scss */
+.cat-thumb img {
+  position: absolute;
+  width: 100%;
+}
+/* line 85, ../sass/styles.scss */
+.cat-thumb .cat-info {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: #fff;
+  padding: 12px;
+  position: absolute;
+  overflow: visible;
+  font-size: 0.813em;
+  line-height: 1.4;
+  -moz-transition: ease-in-out all 0.5s;
+  -webkit-transition: ease-in-out all 0.5s;
+  -o-transition: ease-in-out all 0.5s;
+  transition: ease-in-out all 0.5s;
+}
+/* line 99, ../sass/styles.scss */
+.cat-thumb .cat-info:hover {
+  height: 250px;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 106, ../sass/styles.scss */
+.cat-thumb h4 {
+  color: #fff;
+}
+
+/* line 111, ../sass/styles.scss */
+.section-links {
+  border: 2px solid #333;
+  margin-bottom: 24px;
+  padding: 6px 12px 12px 12px;
+  font-size: 0.813em;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 120, ../sass/styles.scss */
+.section-links ul {
+  margin: 0 0 0 24px;
 }

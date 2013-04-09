@@ -1,4 +1,32 @@
 
+  <footer id="main-footer">
+    <div class="row">
+      <div class="large-4 small-12 columns">
+        <h3>About Save22</h3>
+        <ul>
+            <li><a href="#">About Us</li>
+            <li><a href="#">Contact Us</li>
+            <li><a href="#">Investors</li>
+            <li><a href="#">Blog</li>
+        </ul>
+      </div> <!-- column -->
+      <div class="large-4 small-12 columns">
+        <h3>Get the Mobile App</h3>
+        <ul>
+            <li><a href="#">iPhone</li>
+            <li><a href="#">Android</li>
+        </ul>
+      </div> <!-- column -->
+      <div class="large-4 small-12 columns">
+        <h3>Follow Us</h3>
+        <ul>
+            <li><a href="#">Facebook</li>
+            <li><a href="#">Twitter</li>
+        </ul>
+      </div> <!-- column -->
+    </div>
+  </footer>
+
   <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'javascripts/vendor/jquery') +
