@@ -25,6 +25,17 @@
         </ul>
       </div> <!-- column -->
     </div>
+    <hr>
+    <div class="row main-row">
+      <div class="small-12 columns">
+        <ul class="inline-list">
+          <li><a href="#">Singapore</a></li>
+          <li><a href="#">Philippines</a></li>
+          <li><a href="#">Copyright &copy; <a href="http://save22.com">Save22</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 
   <script>

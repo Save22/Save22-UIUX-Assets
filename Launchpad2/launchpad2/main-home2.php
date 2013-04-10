@@ -14,7 +14,7 @@
           <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Podium,+Ortigas&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=49.978077,107.226563&amp;ie=UTF8&amp;hq=Podium,+Ortigas&amp;hnear=&amp;radius=15000&amp;ll=14.585837,121.059294&amp;spn=0.007517,0.013089&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=9322337523818707896&amp;output=embed"></iframe>
         </div>
         <div class="promos-near">
-          <ul id="featured2" data-orbit>
+          <ul id="featured1" data-orbit>
             <li data-orbit-slide="headline-1">
               <div class="row featured-set">
                 <div class="small-6 columns">
@@ -144,9 +144,118 @@
       </div>
 
       <section>
+        <br><br> THIS IS WHERE THE POPULAR BRANDS GO <br><br>
+          <ul class="small-block-grid-1 large-block-grid-4">
+            <li class="item">
+              <div class="cat-thumb">
+                <a href="#">
+                  <img src="img/catsample1.jpg" alt="">
+                  <div class="cat-info">
+                    <h4>IKEA</h4>
+                    <strong>Catalogue Title</strong><br>
+                    Valid until April 12, 2013
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="item">
+              <div class="cat-thumb">
+                <a href="#">
+                  <img src="img/catsample4.jpg" alt="">
+                  <div class="cat-info">
+                    <h4>IKEA</h4>
+                    <strong>Catalogue Title</strong><br>
+                    Valid until April 12, 2013
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="item">
+              <div class="cat-thumb">
+                <a href="#">
+                  <img src="img/catsample1.jpg" alt="">
+                  <div class="cat-info">
+                    <h4>IKEA</h4>
+                    <strong>Catalogue Title</strong><br>
+                    Valid until April 12, 2013
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="item">
+              <div class="cat-thumb">
+                <a href="#">
+                  <img src="img/catsample4.jpg" alt="">
+                  <div class="cat-info">
+                    <h4>IKEA</h4>
+                    <strong>Catalogue Title</strong><br>
+                    Valid until April 12, 2013
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+          POPULAR BRAND LOGOS GO HERE
+        <div class="promos-brands">
+          <ul id="featured2" data-orbit>
+            <li data-orbit-slide="headline-1">
+              <ul class="small-block-grid-1 large-block-grid-4">
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+              </ul>
+            </li>
+            <li data-orbit-slide="headline-2">
+              <ul class="small-block-grid-1 large-block-grid-4">
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+              </ul>
+            </li>
+            <li data-orbit-slide="headline-3">
+              <ul class="small-block-grid-1 large-block-grid-4">
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+                <li>
+                  <img src="img/samplebrandlogo.jpg" alt="" style="height: 200px;">
+                </li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <section>
           <h2>What's New</h2>
 
-          <ul class="small-block-grid-1 large-block-grid-2">
+          <ul class="small-block-grid-1 large-block-grid-4">
             <li class="item">
               <div class="cat-thumb">
                 <a href="#">
