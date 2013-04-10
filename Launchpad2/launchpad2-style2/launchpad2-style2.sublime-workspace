@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"des",
+				"desktop_login_container"
+			],
+			[
+				"prod",
+				"product-header"
+			],
+			[
+				"prodc",
+				"product-header"
+			],
+			[
+				"store_header",
+				"store_header_mobile"
+			],
+			[
+				"produc",
+				"product_title_height"
+			],
+			[
+				"add-r",
+				"add-price-bubble"
+			],
+			[
+				"price_d",
+				"price_description_height"
+			],
+			[
+				"mobile-h",
+				"mobile-hidden-header"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"price",
+				"pricesheet-processing-steps"
+			],
+			[
+				"ed",
+				"edit_textstat"
+			],
+			[
+				"table_ro",
+				"table_row_count"
+			],
+			[
+				"pan",
+				"panel-link"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"cat_",
+				"cat_list_items"
+			],
+			[
+				"list",
+				"listed-prices"
+			],
+			[
+				"li",
+				"listed-prices"
+			],
+			[
+				"floa",
+				"floating-header"
+			],
+			[
+				"fl",
+				"floating-header"
+			],
+			[
+				"dk_opt",
+				"dk_options_inner"
+			],
+			[
+				"featu",
+				"featured-products"
+			],
+			[
+				"post",
+				"post-thumb"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"page-template",
+				"page-template-page-staff-php"
+			],
+			[
+				"last",
+				"last-child"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 4406,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"minif",
+				"Minify Javascript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"LESS",
+				"Set Syntax: LESS"
+			],
+			[
+				"package ",
+				"Package Control: Enable Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"paca",
+				"Package Control: Enable Package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/css/styles-responsive.css",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/css/styles-responsive.less",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/header-loggedin.php",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/logged-in.php",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/css/styles-home.less",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/index.php",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/footer.php",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/js/scripts.js",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/css/styles-responsive.less.css",
+		"/Users/camille/Sites/Resources/jquery/jquery_image_panning/jquery_image_panning_liquid.html",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/header.php",
+		"/Users/camille/Sites/Freelance/viraljobs.co/bootstrap/wip.html",
+		"/Users/camille/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/camille/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/camille/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/header.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/index.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/footer.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/css/styles.css",
+		"/Users/camille/Sites/Save22/wordpress/wp-content/themes/foundation/style.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/js/app.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/footer.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/header.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/js/scripts.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/notice-shopsmarter.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-home.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-error.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/fb-comments-test.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/option detail page.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-layout-mobile.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-pdp.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/product detail page-test3.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/js/jquery.foundation.tooltips.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-odp.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/product detail page-test4.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/widget-page.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v1/css/styles.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/external-site-widget-store.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/hero.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/featured-diapers.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/footer-sitewidget.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/header-sitewidget.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-layout-widgets.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v1/header.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/featured-diapers-serp.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/featured-gadgets.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/error-404.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/error-500.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/hub.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/header2.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-store.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/store page.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/product detail page-test2.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/pdp-addprices.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/fb-comments-widget.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-layout-sidebar.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-hub.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-layout-about_tab.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/styles-modules-search.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/tab-about.php",
+		"/Users/camille/Sites/Resources/jquery/garand-sticky-6e06e96/example-header.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/foundation.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/serp-nosimilar.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/pdp-related-products.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/external-site-widget-template2.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/js/extwidget-scripts.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/grayscale.svg",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/notice-shopsmarter_hub.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/widgets/hero.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/investors.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/about.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/error-footer.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/js/scripts.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricelist-table-tasks.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricelist-doc.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/initial-pricesheet-processing.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-instructions.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricelist-steps.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/header.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/css/table-pricesettings.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/css/rewards-styles.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/js/scripts.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/footer.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/orbit.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/orbittest.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricelist-table.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards-fix/price-settings.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/price-settings.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-info.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-table.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-assignva.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/sample.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/js/tablednd.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/js/calendar.js",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-upload.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/js/tiny_mce/themes/simple/skins/default/content.css",
+		"/Users/camille/Sites/Resources/tinymce/examples/simple.html",
+		"/Users/camille/Sites/Resources/tinymce/examples/css/content.css",
+		"/Users/camille/Sites/Resources/tinymce/examples/css/word.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/.gitignore",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/css/pikaday.css",
+		"/Users/camille/Sites/Resources/jquery/jquery-ui-1.9.2.custom 2/index.html",
+		"/Users/camille/Sites/Resources/jquery/Pikaday-master/index.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/elements/pricesettings-versions.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/test.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/rewards22/test.html",
+		"/Users/camille/Sites/Resources/responsive/zurb-responsive-tables-349ecea/index.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/dot com/css/foundation.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/product detail page - incomplete.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/option detail page - blank.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/product detail page.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/categories.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/hub2.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/intro-widget.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/serp.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/test-masonry.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/search-results.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/basic.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/style.css",
+		"/Users/camille/Sites/Resources/jquery/isotope-site/demos/basic.html",
+		"/Users/camille/Sites/Resources/grids/Wookmark-jQuery-master/example/css/style.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/widgets/featured-moms.php",
+		"/Users/camille/Sites/Resources/grids/Wookmark-jQuery-master/example/index.html",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/sidebar.php",
+		"/Users/camille/Sites/Save22-UIUX-Assets/v2/css/ie8.css",
+		"/Users/camille/Sites/Save22/Save22-UIUX-Assets-Subapps/css/style.css",
+		"/Users/camille/Sites/Save22-UIUX-Assets/product detail page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"desktop-only",
+			"only",
+			"desktop-only",
+			"navbar .nav",
+			"bottom",
+			"padding-bottom",
+			"bottom",
+			"padding-bottom",
+			"login-desktop",
+			"24px",
+			"padding-bottom: ",
+			"border-radius",
+			"content-main",
+			"background",
+			"border-top",
+			"item",
+			"padding",
+			"class=\"span6 list-referral-options\"",
+			"page",
+			"inverse",
+			"navbar-in",
+			"inverse",
+			"navbar-inverse",
+			"300px",
+			"display: none",
+			"display: none;",
+			"nav-collapse-login",
+			"login-desktop",
+			"content",
+			"home-content",
+			".main-copy",
+			"visible",
+			"pos-margin-top-left",
+			"strong",
+			"margin-top: 24px",
+			"position: absolute;",
+			"nav-collapse-login",
+			"top: 50",
+			"top: 50px",
+			"nav-collapse-login",
+			"btn-navbar",
+			".navbar-inverse .btn-navbar",
+			"panel",
+			"sidebar",
+			"panel",
+			".panel",
+			"sidebar",
+			"footer",
+			"comments",
+			"false",
+			"detail-author",
+			"price",
+			"search",
+			"widget",
+			"map",
+			"#map",
+			"a name",
+			"detail-price",
+			"ugc",
+			"add price",
+			"h2",
+			"view all",
+			"price-details",
+			"subscribe",
+			"hero",
+			"hero-shot",
+			"smart-shopper",
+			"logo-set",
+			"search-link",
+			"logo-set",
+			"site_search",
+			"#site_search",
+			"button",
+			".red-button",
+			"subheader",
+			"gothic",
+			"italic",
+			"transition",
+			"popular-searches",
+			"floating-header",
+			"comments",
+			"categories",
+			"Apple iPhone 4s 16GB",
+			"main-header.floating-header #logo",
+			"related ",
+			"more-info",
+			"my-account",
+			"logo",
+			"top-bar-js-breakpoint",
+			"top-bar-js-breakpoint ",
+			"s.width",
+			"breakpoint",
+			"open",
+			"price-header",
+			"img",
+			"max-width: 1088",
+			"site_search",
+			"site-search",
+			"country",
+			"copyright",
+			"logo-set",
+			"header",
+			"item",
+			"smart-shopper",
+			"row",
+			"open",
+			".open",
+			"250px",
+			"price-list",
+			"tags-box",
+			"smart-shopper ",
+			"smart-shopper .row",
+			"store-header",
+			"transition",
+			"floating-header",
+			"floating-heaer",
+			"floating-header",
+			"branch-contact",
+			"telefax-label",
+			"transition",
+			"link",
+			"link-list",
+			"iphone",
+			"content-box",
+			".content-box",
+			"half-page",
+			"bread",
+			"crumb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"class=\"span7 list-referral-options\"",
+			"<h4>Apple iPhone 4s 16GB</h4>",
+			" class=\"button radius upload-price-file\" data-reveal-id=\"upload-file\" ",
+			"<a href=\"#\" class=\"button radius upload-price-file\" data-reveal-id=\"upload-file\">upload file</a> ",
+			"js/",
+			"css/",
+			"item",
+			"box",
+			"div",
+			"div class=\"innercol box\"",
+			"<div class=\"innercol box\">",
+			"</div>",
+			"<div class=\"innercol box\">",
+			"innercol box",
+			"lass=\"innercol\">",
+			"innercol",
+			"featured-products nolist group",
+			"",
+			"innercol",
+			"innercol three columns",
+			"<span class=\"button radius\">store details</span>",
+			"<span class=\"post-date\"><a href=\"#\">Oct. 25, 2011, 3:22 p.m.</a></span>",
+			"<span class=\"post-date\"><a href=\"#\">Aug 25, 2012</a></span>",
+			"updated",
+			"url('fonts/",
+			"img",
+			"authentic_avatar",
+			"img",
+			"posted-info block left",
+			"current_post"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 4406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"show.",
+				"app/views/ideas/show.html.erb"
+			],
+			[
+				"form",
+				"app/views/ideas/_form.html.erb"
+			],
+			[
+				"idea",
+				"app/models/idea.rb"
+			],
+			[
+				"style.css",
+				"foundation/style.css"
+			],
+			[
+				"sidebar",
+				"foundation/sidebar.php"
+			],
+			[
+				"styles.css",
+				"dot com/css/styles.css"
+			],
+			[
+				"",
+				"v2/css/styles-layout-widgets.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true
+}
