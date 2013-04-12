@@ -18,22 +18,34 @@
         </header>
 
         <form>
-          <div class="row">
+          <div class="row keywords">
             <div class="small-3 columns">
               <label for="right-label" class="right inline">Keywords</label>
             </div>
             <div class="small-9 columns">
-              <textarea style="height: 80px"></textarea>
-              * separate keywords with spaces<br><br>
+              <textarea class="input-keywords"></textarea>
+            </div>
+          </div><!-- row -->
+          <div class="row">
+            <div class="small-9 small-offset-3 columns">
+              <div class="input-alert alert-box success">
+                Saved!
+              </div>
+
+              <textarea class="input-keywords"></textarea>
+            </div>
+          </div><!-- row -->
+          <div class="row">
+            <div class="small-9 small-offset-3 columns">
+              <div class="input-alert alert-box alert">
+                Deleted!
+              </div>
+
+              <textarea class="input-keywords"></textarea>
             </div>
           </div><!-- row -->
 
 
-          <div class="row">
-            <div class="small-12 large-3 large-centered columns">
-              <input type="submit" value="Save" class="button centered expand">
-            </div>
-          </div>
         </form>
 
         <div class="row">

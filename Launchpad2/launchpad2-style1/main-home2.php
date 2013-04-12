@@ -128,7 +128,6 @@
 
       <div data-magellan-expedition="fixed">
         <dl class="sub-nav cat-links">
-          <dt>Shop for:</dt>
           <dd class="active"><a href="#">All</a></dd>
           <dd><a href="#">Supermarkets</a></dd>
           <dd><a href="#">Watches &amp; Jewelry</a></dd>
@@ -143,7 +142,7 @@
 
       <section>
         <div class="promos-brands">
-          <ul id="featured2" data-orbit>
+          <ul id="featured2" data-orbit data-options="bullets:false;stack_on_small: false;timer_speed: 0;">
             <li data-orbit-slide="headline-1">
               <ul class="small-block-grid-1 large-block-grid-4">
                 <li>
@@ -184,7 +183,7 @@
       <section>
           <h2>What's New</h2>
 
-          <ul class="small-block-grid-1 large-block-grid-4 results-grid-home">
+          <ul class="small-block-grid-1 large-block-grid-4 results-grid">
             <li class="item">
               <div class="cat-thumb">
                 <a href="#">

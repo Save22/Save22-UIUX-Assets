@@ -4,3 +4,18 @@
 #branchAddress-picker {
   z-index: 1;
 }
+
+
+.keywords .row {
+  position: relative;
+  overflow: auto;
+}
+.input-keywords { 
+  height: 40px; 
+}
+.input-alert {
+  position: absolute;
+  left: -160px;
+  width: 150px;
+  text-align: center;
+}
