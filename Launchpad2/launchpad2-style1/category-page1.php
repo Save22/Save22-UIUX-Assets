@@ -1,10 +1,11 @@
 <?php include('header.php'); ?>
-  
-  <ul class="breadcrumbs">
-    <li><a href="#">Save22 Ortigas</a></li>
-    <li><a href="#">Electronics</a></li>
-    <li class="current"><a href="#">Cellphones</a></li>
-  </ul>
+  <div class="row main-row">
+    <ul class="breadcrumbs">
+      <li><a href="#">Save22 Ortigas</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li class="current"><a href="#">Cellphones</a></li>
+    </ul>
+  </div>
 
   <div class="row home-featured main-row">
     <div class="small-12 large-8 columns">

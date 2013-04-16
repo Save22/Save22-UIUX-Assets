@@ -15,7 +15,7 @@
   <script src="js/vendor/custom.modernizr.js"></script>
 
 
-  <header id="main-header">
+  <header id="main-header" class="row main-row">
 
     <nav class="top-bar">
       <ul class="title-area">
@@ -66,7 +66,7 @@
 
   </header>
 
-  <div class="home-intro top-bar">
+  <div class="home-intro row main-row">
     <section class="top-bar-section">
       <ul>
         <li class="copy"><label class="inline" for="location">Discover the best deals in town.</label></li>

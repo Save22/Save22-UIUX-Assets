@@ -179,6 +179,7 @@
           <h2 class="main-header">Check out more catalogues</h2>
         </header>
 
+      
       <div data-magellan-expedition="fixed">
         <dl class="sub-nav cat-links">
           <dd class="active"><a href="#">All</a></dd>
@@ -199,10 +200,10 @@
             <div class="content results">
 
               <div class="row item">
-                <div class="small-12 large-3 columns">
+                <div class="small-6 large-3 columns">
                   <img src="img/catsample5.jpg">
                 </div>
-                <div class="small-12 large-5 columns">
+                <div class="small-6 large-5 columns">
                   <h2>Catalogue Title</h2>
                   <h3>BRAND NAME</h3>
                   <p>
@@ -225,10 +226,10 @@
               </div>
 
               <div class="row item">
-                <div class="small-12 large-3 columns">
+                <div class="small-6 large-3 columns">
                   <img src="img/catsample1.jpg">
                 </div>
-                <div class="small-12 large-5 columns">
+                <div class="small-6 large-5 columns">
                   <h2>Catalogue Title</h2>
                   <h3>BRAND NAME</h3>
                   <p>
@@ -251,10 +252,10 @@
               </div>
 
               <div class="row item">
-                <div class="small-12 large-3 columns">
+                <div class="small-6 large-3 columns">
                   <img src="img/catsample6.jpg">
                 </div>
-                <div class="small-12 large-5 columns">
+                <div class="small-6 large-5 columns">
                   <h2>Catalogue Title</h2>
                   <h3>BRAND NAME</h3>
                   <p>
@@ -277,10 +278,10 @@
               </div>
 
               <div class="row item">
-                <div class="small-12 large-3 columns">
+                <div class="small-6 large-3 columns">
                   <img src="img/catsample3.jpg">
                 </div>
-                <div class="small-12 large-5 columns">
+                <div class="small-6 large-5 columns">
                   <h2>Catalogue Title</h2>
                   <h3>BRAND NAME</h3>
                   <p>

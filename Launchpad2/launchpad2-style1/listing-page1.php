@@ -1,9 +1,11 @@
 <?php include('header.php'); ?>
   
-  <ul class="breadcrumbs">
-    <li><a href="#">Save22 Ortigas</a></li>
-    <li class="current"><a href="#">Supermarkets</a></li>
-  </ul>
+  <div class="row main-row">
+    <ul class="breadcrumbs">
+      <li><a href="#">Save22 Ortigas</a></li>
+      <li class="current"><a href="#">Supermarkets</a></li>
+    </ul>
+  </div>
 
   <div class="row home-featured main-row">
     <div class="small-12 large-8 columns">
@@ -123,7 +125,7 @@
                 </div>
               </div>
 
-            <?php include_once('elements/pagination.php'); ?>
+            <?php include('elements/pagination.php'); ?>
 
             </div><!-- content -->
 
@@ -132,7 +134,7 @@
             <p class="title"><a href="#panel2">Stores</a></p>
             <div class="content">
 
-              <?php include_once('elements/results-stores.php'); ?>
+              <?php include('elements/results-stores.php'); ?>
 
             </div>
           </section>

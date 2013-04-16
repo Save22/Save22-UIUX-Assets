@@ -1,10 +1,12 @@
 <?php include('header.php'); ?>
 
-  <ul class="breadcrumbs">
-    <li><a href="#">Save22 Ortigas</a></li>
-    <li class="current"><a href="#">Shopwise Ortigas - Offers and Branches</a></li>
-  </ul>
-
+  <div class="row main-row">
+    <ul class="breadcrumbs">
+      <li><a href="#">Save22 Ortigas</a></li>
+      <li class="current"><a href="#">Shopwise Ortigas - Offers and Branches</a></li>
+    </ul>
+  </div>
+  
   <div class="row main-row">
     <div class="small-12 large-8 columns">
 

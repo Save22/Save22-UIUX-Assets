@@ -29,7 +29,7 @@
           <div class="cat-thumb">
             <a href="#">
               <div class="thumb">
-                <img src="img/catsample.jpg" alt="">
+                <img src="img/catsample2.jpg" alt="">
               </div>
               <div class="cat-info">
                 <h4>IKEA</h4>

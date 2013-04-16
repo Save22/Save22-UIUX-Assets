@@ -1,7 +1,7 @@
 
               <div class="row item">
                 <div class="small-12 large-8 columns">
-                  <img src="img/retailer-logo1.png">
+                  <a href="store-link"><img src="img/retailer-logo1.png"></a>
 
                   <h2>Establishment Name</h2>
                   <p>

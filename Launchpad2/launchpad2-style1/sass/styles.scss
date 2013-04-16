@@ -15,11 +15,12 @@
 
 /* COLORS */
   
-  $base-color-red: #DD4F2E;
-  $base-color-red-darker: #8c0f0f;
+  $base-color-red: #db4e2e;
+  $base-color-red-darker: #bd4327;
 
   $base-color-orange-light: #e5886e;
 
+  $base-color-blue: #4d84ab;
   $base-color-blue-lighter: #86a0be;
   $base-color-blue-darker: #1c3755;
 
@@ -32,7 +33,7 @@
   $border-light: #d1e0e2;
   $base-color-bg: #edf5f6;
 
-  $base-color-topbar: #4d84ab;
+  $base-color-topbar: #175b8c;
 
   a:link, a:active, a:visited {
     color: $base-color-orange-light;
@@ -73,7 +74,7 @@
     margin: 0;
     padding: 15px;
     color: $base-color-light;
-    background: $base-color-topbar;
+    background: $base-color-blue;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -102,6 +103,11 @@
     padding: 0 0.875em;
     background: none;
     border: 0;
+    margin-top: -12px;
+
+    li a {
+      color: $base-color-blue;
+    }
   }
 
 /* HEADER */
@@ -165,7 +171,8 @@
     }
 
     a {
-      color: $base-color-blue-lighter;
+      color: $base-color-dark;
+      font-size: 0.813em;
     }
   }
 
@@ -178,6 +185,33 @@
 
     h2 {
       font-size: 1em;
+    }
+
+    a .cat-info {
+      color: $base-color-dark;
+    }
+
+    .list-shops {
+      padding: 15px 0;
+      margin-bottom: 24px;
+
+      li {
+        @media screen and (min-width: $break-mid-large) {
+          height: 84px;
+          overflow: hidden;
+        }
+
+        @media screen and (min-width: $break-small) and (max-width: $break-mid-large - 1) {
+          width: 100%;
+        }
+
+      }
+
+      img {
+        display: block;
+        margin: 12px auto;
+        max-height: 78px;
+      }
     }
 
   }
@@ -337,9 +371,25 @@
     font-size: 0.813em;
     background: #fff;
     box-shadow: 0 2px 2px rgba(0,0,0,0.15);
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 
-    .copy { padding: 0 15px; }
+    .copy { padding: 0 15px; 
+      label {font-weight: 700;  }
+    }
+
+    label { margin: 0; }
+
+    li {
+      list-style-type: none;
+    }
+
+    input[type=text] {
+      border: 0;
+      box-shadow: none;
+      border-bottom: 2px solid $base-color-topbar;
+      margin-top: 4px;
+      padding-left: 0;
+    }
   }
 
   .main-row {
@@ -384,7 +434,7 @@
     }
 
     h2 {
-      margin: 0;
+      margin: 0 0 12px 0;
       font-size: 1.75em;
     }
   }
