@@ -1,9 +1,5 @@
 <?php include('header.php'); ?>
   
-  <div class="home-intro">
-    <strong>Discover the best deals in town.</strong>
-  </div>
-
   <ul class="breadcrumbs">
     <li><a href="#">Save22 Ortigas</a></li>
     <li><a href="#">Electronics</a></li>
@@ -13,15 +9,15 @@
   <div class="row home-featured main-row">
     <div class="small-12 large-8 columns">
 
-      <section class="section results search-results">
+      <section class="section results category-page">
 
         <header>
-          <h2>Cellphones in Ortigas - 7 promos match</h2>
+          <h2 class="main-header">Cellphones in Ortigas - 7 promos match</h2>
         </header>
 
         <div class="row item">
           <div class="small-12 large-3 columns">
-            <img src="img/catsample5.jpg">
+            <a href="#catalogue-URL"><img src="img/catsample5.jpg"></a>
           </div>
           <div class="small-12 large-5 columns">
             <h3>BRAND NAME</h3>
@@ -38,7 +34,7 @@
           </div>
           <div class="small-12 large-4 columns">
             <a href="#" class="store-link">
-              <img src="" style="height: 100px; width: 80%;">
+              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
             </a>
             <p>
               <strong>Nearest branch: 3.6km</strong><br>
@@ -50,7 +46,7 @@
 
         <div class="row item">
           <div class="small-12 large-3 columns">
-            <img src="img/catsample1.jpg">
+            <a href="#catalogue-URL"><img src="img/catsample1.jpg"></a>
           </div>
           <div class="small-12 large-5 columns">
             <h3>BRAND NAME</h3>
@@ -67,7 +63,7 @@
           </div>
           <div class="small-12 large-4 columns">
             <a href="#" class="store-link">
-              <img src="" style="height: 100px; width: 80%;">
+              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
             </a>
             <p>
               <strong>Nearest branch: 3.6km</strong><br>
@@ -79,7 +75,7 @@
 
         <div class="row item">
           <div class="small-12 large-3 columns">
-            <img src="img/catsample6.jpg">
+            <a href="#catalogue-URL"><img src="img/catsample6.jpg"></a>
           </div>
           <div class="small-12 large-5 columns">
             <h3>BRAND NAME</h3>
@@ -96,7 +92,7 @@
           </div>
           <div class="small-12 large-4 columns">
             <a href="#" class="store-link">
-              <img src="" style="height: 100px; width: 80%;">
+              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
             </a>
             <p>
               <strong>Nearest branch: 3.6km</strong><br>
@@ -108,7 +104,7 @@
 
         <div class="row item">
           <div class="small-12 large-3 columns">
-            <img src="img/catsample3.jpg">
+            <a href="#catalogue-URL"><img src="img/catsample3.jpg"></a>
           </div>
           <div class="small-12 large-5 columns">
             <h3>BRAND NAME</h3>
@@ -125,7 +121,7 @@
           </div>
           <div class="small-12 large-4 columns">
             <a href="#" class="store-link">
-              <img src="" style="height: 100px; width: 80%;">
+              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
             </a>
             <p>
               <strong>Nearest branch: 3.6km</strong><br>
@@ -135,96 +131,19 @@
           </div>
         </div>
 
+      <?php include_once('elements/pagination.php'); ?>
       </section>
 
-      <section class="section section-links popular-stores-city">
-        <h2>Popular Stores in Ortigas</h2>
-        <ul class="small-block-grid-1 large-block-grid-4">
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-        </ul>
-      </section>
-
-      <section class="section section-links">
-        <h2>Shopping Destinations</h2>
-
-        <div class="row">
-          <div class="small-12 large-4 columns">
-            <h3>City</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-          <div class="small-12 large-4 columns">
-            <h3>Neighborhood</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-          <div class="small-12 large-4 columns">
-            <h3>Shopping Center</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-        </div><!-- row -->
-      </section>
-
+      <?php include_once('elements/footerlinks-popularstores-city.php'); ?>
+      <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
+      
     </div>
     <div class="small-12 large-4 columns sidebar">
-
-      <section class="section panel">
-        <h2>Narrow down to</h2>
-        <ul class="inline-list">
-          <li><a href="#">smartphones</a></li>
-          <li><a href="#">feature phones</a></li>
-          <li><a href="#">Link 3</a></li>
-          <li><a href="#">Link 4</a></li>
-          <li><a href="#">Link 5</a></li>
-        </ul>
-      </section>
+      <?php require_once('elements/sidebar-cat-narrowed.php'); ?>
+      <?php require_once('elements/sidebar-related-shops.php'); ?>
 
       <section>
-        <h2>Related Stores</h2>
-
-        <ul class="small-block-grid-1 large-block-grid-2 list-shops">
-          <li><img src="../img/demos/demo1.png"></li>
-          <li><img src="../img/demos/demo2.png"></li>
-          <li><img src="../img/demos/demo3.png"></li>
-          <li><img src="../img/demos/demo4.png"></li>
-          <li><img src="../img/demos/demo1.png"></li>
-          <li><img src="../img/demos/demo2.png"></li>
-          <li><img src="../img/demos/demo3.png"></li>
-          <li><img src="../img/demos/demo4.png"></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Current Promos</h2>
+        <h2 class="sidebar-header">Current Promos</h2>
 
           <div class="cat-thumb">
             <a href="#">
@@ -245,18 +164,6 @@
               </div>
               <div class="cat-info">
                 <h4>Play Mobil</h4>
-                <strong>Catalogue Title</strong><br>
-                Valid until April 12, 2013
-              </div>
-            </a>
-          </div>
-          <div class="cat-thumb">
-            <a href="#">
-              <div class="thumb">
-                <img src="img/catsample.jpg" alt="">
-              </div>
-              <div class="cat-info">
-                <h4>IKEA</h4>
                 <strong>Catalogue Title</strong><br>
                 Valid until April 12, 2013
               </div>

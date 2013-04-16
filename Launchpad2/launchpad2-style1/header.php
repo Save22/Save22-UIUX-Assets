@@ -51,23 +51,6 @@
           <li class="has-form">
             <form>
               <div class="row collapse">
-                <div class="small-4 columns">
-                  <label class="inline" for="search">You're at</label>
-                </div>
-                <div class="small-8 columns">
-                  <input name="search" id="location" type="text" placeholder="Ortigas" value="Ortigas">
-                </div>
-              </div>
-            </form>
-          </li>
-        </ul>
-
-        <!-- Right Nav Section -->
-        <ul class="right">
-          <li class="divider"></li>
-          <li class="has-form">
-            <form>
-              <div class="row collapse">
                 <div class="small-8 columns">
                   <input type="search" placeholder="Search for promos, items, prices, or stores">
                 </div>
@@ -82,6 +65,26 @@
     </nav>
 
   </header>
+
+  <div class="home-intro top-bar">
+    <section class="top-bar-section">
+      <ul>
+        <li class="copy"><label class="inline" for="location">Discover the best deals in town.</label></li>
+          <li class="has-form location-search">
+            <form>
+              <div class="row collapse">
+                <div class="small-4 columns">
+                  <label class="inline" for="location">You're at</label>
+                </div>
+                <div class="small-8 columns">
+                  <input name="location" id="location" type="text" placeholder="Ortigas" value="Ortigas">
+                </div>
+              </div>
+            </form>
+          </li>
+      </ul>
+    </section>
+  </div>
 
 </head>
 <body>

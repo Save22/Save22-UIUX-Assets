@@ -1,13 +1,10 @@
 <?php include('header.php'); ?>
   
-  <div class="home-intro">
-    <strong>Discover the best deals in town.</strong>
-  </div>
-
   <div class="row home-featured main-row">
-    <div class="small-12 large-8 columns">
+    <div class="small-12 large-8 columns main-content">
 
-      <section>
+      <section class="location-ads">
+        <h2 class="main-header">Promos near you</h2>
         <div class="map">
           <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Podium,+Ortigas&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=49.978077,107.226563&amp;ie=UTF8&amp;hq=Podium,+Ortigas&amp;hnear=&amp;radius=15000&amp;ll=14.585837,121.059294&amp;spn=0.007517,0.013089&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=9322337523818707896&amp;output=embed"></iframe>
         </div>
@@ -126,21 +123,8 @@
         </div>
       </section>
 
-      <div data-magellan-expedition="fixed">
-        <dl class="sub-nav cat-links">
-          <dd class="active"><a href="#">All</a></dd>
-          <dd><a href="#">Supermarkets</a></dd>
-          <dd><a href="#">Watches &amp; Jewelry</a></dd>
-          <dd><a href="#">Kids</a></dd>
-          <dd><a href="#">Fashion</a></dd>
-          <dd><a href="#">Cars</a></dd>
-          <dd><a href="#">Electronics</a></dd>
-          <dd><a href="#">Home &amp; Furniture</a></dd>
-          <dd><a href="#">Sports</a></dd>
-        </dl>
-      </div>
-
-      <section>
+      <section class="brands">
+        <h2 class="main-header">Find brands you like</h2>
         <div class="promos-brands">
           <ul id="featured2" data-orbit data-options="bullets:false;stack_on_small: false;timer_speed: 0;">
             <li data-orbit-slide="headline-1">
@@ -180,14 +164,37 @@
         </div>
       </section>
 
+    </div>
+
+    <div class="small-12 large-4 columns sidebar">
+      <?php include_once('elements/sidebar-hot.php'); ?>
+    </div>
+  </div>
+  <div class="row main-row">
+    <div class="small-12 large-8 columns main-content">
+
       <section>
 
         <header>
-          <h2>Check out more catalogues</h2>
+          <h2 class="main-header">Check out more catalogues</h2>
         </header>
 
+      <div data-magellan-expedition="fixed">
+        <dl class="sub-nav cat-links">
+          <dd class="active"><a href="#">All</a></dd>
+          <dd><a href="#">Supermarkets</a></dd>
+          <dd><a href="#">Watches &amp; Jewelry</a></dd>
+          <dd><a href="#">Kids</a></dd>
+          <dd><a href="#">Fashion</a></dd>
+          <dd><a href="#">Cars</a></dd>
+          <dd><a href="#">Electronics</a></dd>
+          <dd><a href="#">Home &amp; Furniture</a></dd>
+          <dd><a href="#">Sports</a></dd>
+        </dl>
+      </div>
+
         <div class="section-container auto" data-section>
-          <section class="section">
+          <section class="section main-content">
             <p class="title"><a href="#panel1">What's Popular</a></p>
             <div class="content results">
 
@@ -298,10 +305,10 @@
 
             </div><!-- content -->
           </section>
-          <section class="section">
+          <section class="section main-content">
             <p class="title"><a href="#panel2">What's New</a></p>
             <div class="content">
-              <ul class="small-block-grid-1 large-block-grid-4 results-grid2">
+              <ul class="small-block-grid-1 large-block-grid-3 results-grid2">
                 <li class="item">
                   <div class="cat-thumb">
                     <a href="#">
@@ -533,151 +540,15 @@
 
       </section>
 
-      <section class="section section-links popular-stores-city">
-        <h2>Popular Stores in Ortigas</h2>
-        <ul class="small-block-grid-1 large-block-grid-4">
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-          <li><a href="#">Retailer Name in City</a></li>
-        </ul>
-      </section>
-
-      <section class="section section-links">
-        <h2>Shopping Destinations</h2>
-
-        <div class="row">
-          <div class="small-12 large-4 columns">
-            <h3>City</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-          <div class="small-12 large-4 columns">
-            <h3>Neighborhood</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-          <div class="small-12 large-4 columns">
-            <h3>Shopping Center</h3>
-            <ul>
-              <li><a href="#">Makati</a></li>
-              <li><a href="#">Ortigas</a></li>
-              <li><a href="#">Pasay</a></li>
-              <li><a href="#">Taguig</a></li>
-              <li><a href="#">Cebu</a></li>
-              <li><a href="#">Davao</a></li>
-            </ul>
-          </div>
-        </div><!-- row -->
-      </section>
+      <?php include_once('elements/footerlinks-popularstores-city.php'); ?>
+      <?php include_once('elements/footerlinks-popularcategories.php'); ?>
+      <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
 
     </div>
     <div class="small-12 large-4 columns sidebar">
-
-      <section class="section subscribe panel">
-        <h2>Be notified of new brochures</h2>
-        <div class="row collapse">
-          <div class="small-12 columns">
-            <input type="email" placeholder="Your email address">
-          </div>
-          <div class="small-12 columns">
-            <a href="#" class="button prefix">subscribe</a>
-          </div>
-        </div>
-
-        <a href="#">Customize your subscription settings</a>
-      </section>
-
-          <section class="list-hot">
-            <h2>What's Hot</h2>
-
-              <div class="cat-thumb">
-                <a href="#">
-                  <div class="thumb">
-                    <img src="img/catsample1.jpg" alt="">
-                  </div>
-                  <div class="cat-info">
-                    <h4>IKEA</h4>
-                    <strong>Catalogue Title</strong><br>
-                    Valid until April 12, 2013
-                  </div>
-                </a>
-              </div>
-              <div class="cat-thumb">
-                <a href="#">
-                  <div class="thumb">
-                    <img src="img/catsample4.jpg" alt="">
-                  </div>
-                  <div class="cat-info">
-                    <h4>Play Mobil</h4>
-                    <strong>Catalogue Title</strong><br>
-                    Valid until April 12, 2013
-                  </div>
-                </a>
-              </div>
-              <div class="cat-thumb">
-                <a href="#">
-                  <div class="thumb">
-                    <img src="img/catsample.jpg" alt="">
-                  </div>
-                  <div class="cat-info">
-                    <h4>IKEA</h4>
-                    <strong>Catalogue Title</strong><br>
-                    Valid until April 12, 2013
-                  </div>
-                </a>
-              </div>
-          </section>
-
-      <section>
-        <h2>Shops</h2>
-
-        <ul class="small-block-grid-1 large-block-grid-2 list-shops">
-          <li><img src="../img/demos/demo1.png"></li>
-          <li><img src="../img/demos/demo2.png"></li>
-          <li><img src="../img/demos/demo3.png"></li>
-          <li><img src="../img/demos/demo4.png"></li>
-          <li><img src="../img/demos/demo1.png"></li>
-          <li><img src="../img/demos/demo2.png"></li>
-          <li><img src="../img/demos/demo3.png"></li>
-          <li><img src="../img/demos/demo4.png"></li>
-        </ul>
-      </section>
-
-      <section class="section section-links popular-stores">
-        <h2>Popular Stores</h2>
-        <ul class="small-block-grid-1 large-block-grid-2">
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-          <li><a href="#">Retailer Name</a></li>
-        </ul>
-      </section>
+      <?php include_once('elements/sidebar-subscribe.php'); ?>
+      <?php include_once('elements/sidebar-shops.php'); ?>
+      <?php include_once('elements/sidebar-categories.php'); ?>
 
     </div>
   </div>
