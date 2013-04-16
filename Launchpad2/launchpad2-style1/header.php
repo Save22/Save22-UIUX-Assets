@@ -48,14 +48,14 @@
             </ul>
           </li>
           <li class="divider"></li>
-          <li class="has-form">
+          <li class="has-form search">
             <form>
               <div class="row collapse">
                 <div class="small-8 columns">
                   <input type="search" placeholder="Search for promos, items, prices, or stores">
                 </div>
                 <div class="small-4 columns">
-                  <a href="#" class="alert button">Search</a>
+                  <a href="#" class="button">Search</a>
                 </div>
               </div>
             </form>
@@ -77,7 +77,7 @@
                   <label class="inline" for="location">You're at</label>
                 </div>
                 <div class="small-8 columns">
-                  <input name="location" id="location" type="text" placeholder="Ortigas" value="Ortigas">
+                  <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
                 </div>
               </div>
             </form>
