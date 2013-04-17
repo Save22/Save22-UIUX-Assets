@@ -254,6 +254,7 @@
   }
 
 /* NAVS */
+/* 
   .sub-nav.cat-links { 
     @include sub-nav($base-color-dark, 1.013em, $base-color-topbar); 
     
@@ -276,7 +277,7 @@
   [data-magellan-expedition] {
     padding: 0;
   }
-
+*/
 
 
 /* GRIDS */
@@ -372,6 +373,29 @@
     .store-link {
       display: block;
       margin: 0 0 24px 0;
+    }
+  }
+
+  .establishments {
+    .map-link {
+      color: $base-color-dark;
+      font-weight: 700;
+      padding: 0 0 emCalc(12px) 0;
+      border-bottom: 1px dotted $base-color-dark;
+      display: block;
+
+      &:hover {
+        text-decoration: none !important;
+        color: $base-color-red;
+      }
+    }
+
+    .label {
+      background: none;
+      color: $base-color-dark;
+      margin: 0;
+      font-weight: 700;
+      padding: 0 emCalc(6px) 0 0 !important;
     }
   }
 
@@ -527,6 +551,45 @@
 
 /* CATEGORY PAGE */
 
-.category-page {
-  margin-bottom: 24px;
+  .category-page {
+    margin-bottom: 24px;
+  }
+
+
+#links-categories { 
+  width: 100%;
+  font-size: emCalc(18px);
+  font-family: $secondary-font;
+  background: $base-color-orange-light;
+  border-bottom: 2px solid $base-color-red-darker;
+  border-top: 2px solid $base-color-red-darker;
+}
+.list_carousel {
+  width: 100%;
+
+  .orbit-prev, .orbit-next {
+    background: $base-color-red-darker;
+  }
+  .orbit-prev > span, .orbit-next > span { border-width: 10px; }
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0 100px;
+  list-style: none;
+  display: block;
+}
+.list_carousel li {
+  width: auto;
+  padding: 0;
+  margin: 6px;
+  display: block;
+  float: left;
+}
+.list_carousel.responsive {
+  width: auto;
+  margin-left: 0;
+}
+.clearfix {
+  float: none;
+  clear: both;
 }

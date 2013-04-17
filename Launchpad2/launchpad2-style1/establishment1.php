@@ -135,7 +135,7 @@
           </section>
           <section class="section">
             <p class="title"><a href="#panel2">Branches</a></p>
-            <div class="content">
+            <div class="content establishments">
 
               <?php include('elements/results-stores.php'); ?>
               
@@ -266,10 +266,13 @@
 
       <section class="section results">
         <h2 class="main-header">Shopwise Branches within 2.5km</h2>
-        <div class="content">
+        <div class="content establishments">
         <?php include('elements/results-stores.php'); ?>
         </div>
       </section>
+
+      <?php include('elements/footerlinks-establishment-prodcat.php');?>
+      <?php include('elements/footerlinks-establishment-types.php');?>
 
     </div>
     <div class="small-12 large-4 columns sidebar">

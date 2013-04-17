@@ -173,20 +173,23 @@
           <h2 class="main-header">Check out more catalogues</h2>
         </header>
 
-
-      <div>
-        <dl class="sub-nav cat-links">
-          <dd class="active"><a href="#">All</a></dd>
-          <dd><a href="#">Supermarkets</a></dd>
-          <dd><a href="#">Watches &amp; Jewelry</a></dd>
-          <dd><a href="#">Kids</a></dd>
-          <dd><a href="#">Fashion</a></dd>
-          <dd><a href="#">Cars</a></dd>
-          <dd><a href="#">Electronics</a></dd>
-          <dd><a href="#">Home &amp; Furniture</a></dd>
-          <dd><a href="#">Sports</a></dd>
-        </dl>
-      </div>
+        <div class="list_carousel responsive orbit-container">
+          <ul id="links-categories">
+            <li>All</li>
+            <li>Supermarket</li>
+            <li>Sales</li>
+            <li>Electronics</li>
+            <li>Gadgets</li>
+            <li>Toddlers &amp; Babies</li>
+            <li>Fashion &amp; Jewelry</li>
+            <li>Home &amp; Furniture</li>
+            <li>Gardening</li>
+            <li>Sports</li>
+          </ul>
+          <div class="clearfix"></div>
+          <a href="#" id="list-cat-prev" class="orbit-prev">Prev <span></span></a>
+          <a href="#" id="list-cat-next" class="orbit-next">Next <span></span></a>
+        </div>
 
         <div class="section-container auto" data-section>
           <section class="section main-content">
@@ -209,7 +212,7 @@
                 </div>
                 <div class="small-12 large-4 columns">
                   <a href="#" class="store-link">
-                    <img src="" style="height: 100px; width: 80%;">
+                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
                   </a>
                   <p>
                     <strong>Nearest branch: 3.6km</strong><br>
@@ -235,7 +238,7 @@
                 </div>
                 <div class="small-12 large-4 columns">
                   <a href="#" class="store-link">
-                    <img src="" style="height: 100px; width: 80%;">
+                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
                   </a>
                   <p>
                     <strong>Nearest branch: 3.6km</strong><br>
@@ -261,7 +264,7 @@
                 </div>
                 <div class="small-12 large-4 columns">
                   <a href="#" class="store-link">
-                    <img src="" style="height: 100px; width: 80%;">
+                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
                   </a>
                   <p>
                     <strong>Nearest branch: 3.6km</strong><br>
@@ -287,7 +290,7 @@
                 </div>
                 <div class="small-12 large-4 columns">
                   <a href="#" class="store-link">
-                    <img src="" style="height: 100px; width: 80%;">
+                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
                   </a>
                   <p>
                     <strong>Nearest branch: 3.6km</strong><br>
@@ -544,6 +547,7 @@
       <?php include_once('elements/sidebar-subscribe.php'); ?>
       <?php include_once('elements/sidebar-shops.php'); ?>
       <?php include_once('elements/sidebar-categories.php'); ?>
+
 
     </div>
   </div>

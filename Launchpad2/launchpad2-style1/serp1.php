@@ -144,7 +144,7 @@
           </section>
           <section class="section">
             <p class="title"><a href="#panel2">Stores</a></p>
-            <div class="content">
+            <div class="content establishments">
 
               <?php include_once('elements/results-stores.php'); ?>
               

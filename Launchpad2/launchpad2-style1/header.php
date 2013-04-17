@@ -9,11 +9,11 @@
 
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/sliderkit-core.css" />
   <link rel="stylesheet" href="css/styles.css" />
   
 
   <script src="js/vendor/custom.modernizr.js"></script>
-
 
   <header id="main-header" class="row main-row">
 
