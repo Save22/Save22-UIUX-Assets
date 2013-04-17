@@ -128,7 +128,7 @@
         <div class="promos-brands">
           <ul id="featured2" data-orbit data-options="bullets:false;stack_on_small: false;timer_speed: 0;">
             <li data-orbit-slide="headline-1">
-              <ul class="small-block-grid-1 large-block-grid-4">
+              <ul class="small-block-grid-1 large-block-grid-3">
                 <li>
                   <a href="#"><img src="img/retailer-logo1.png" alt=""></a>
                 </li>
@@ -138,16 +138,10 @@
                 <li>
                   <a href="#"><img src="img/retailer-logo3.png" alt=""></a>
                 </li>
-                <li>
-                  <a href="#"><img src="img/retailer-logo4.jpg" alt=""></a>
-                </li>
               </ul>
             </li>
             <li data-orbit-slide="headline-2">
-              <ul class="small-block-grid-1 large-block-grid-4">
-                <li>
-                  <a href="#"><img src="img/retailer-logo1.png" alt=""></a>
-                </li>
+              <ul class="small-block-grid-1 large-block-grid-3">
                 <li>
                   <a href="#"><img src="img/retailer-logo2.jpg" alt=""></a>
                 </li>
@@ -179,8 +173,8 @@
           <h2 class="main-header">Check out more catalogues</h2>
         </header>
 
-      
-      <div data-magellan-expedition="fixed">
+
+      <div>
         <dl class="sub-nav cat-links">
           <dd class="active"><a href="#">All</a></dd>
           <dd><a href="#">Supermarkets</a></dd>

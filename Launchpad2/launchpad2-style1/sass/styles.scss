@@ -222,7 +222,11 @@
   }
 
   #sidebar-categories {
-    background: #fff;
+    background: none !important;
+
+    > ul {
+      background: #fff;
+    }
     > ul > li {
       list-style-type: none;
       padding: 5px 15px;
@@ -235,17 +239,32 @@
       font-weight: bold;
       color: $base-color-red;
     }
+    
+    &.mfixed {
+      left: 66.66667% !important;
+      top: emCalc(50px) !important;
+      padding-right: emCalc(15px) !important;
+      padding-left: emCalc(15px) !important;
+
+      > ul {
+        box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+      }
+    }
+    
   }
 
 /* NAVS */
   .sub-nav.cat-links { 
-    @include sub-nav($base-color-red-darker, 0.813em, $base-color-topbar); 
+    @include sub-nav($base-color-dark, 1.013em, $base-color-topbar); 
     
     background: $base-color-orange-light;
     margin: 0;
-    padding-bottom: 0.25em;
+    padding: emCalc(6px) 0;
     border-bottom: 2px solid $base-color-red-darker;
-    border-top: 1px solid $base-color-red-darker;
+    border-top: 2px solid $base-color-red-darker;
+    font-family: $secondary-font;
+    height: 40px;
+    overflow: hidden;
 
     dt, dd {
       margin-bottom: 0;
@@ -253,10 +272,12 @@
 
     a { margin-left: 24px; }
   }
+
   [data-magellan-expedition] {
-    left: 0;
     padding: 0;
   }
+
+
 
 /* GRIDS */
   
@@ -421,6 +442,11 @@
       text-transform: uppercase;
     }
     h2 {
+    }
+  }
+
+  .promos-brands {
+    li {
     }
   }
 
