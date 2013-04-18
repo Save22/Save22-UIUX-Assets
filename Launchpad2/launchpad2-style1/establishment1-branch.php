@@ -9,6 +9,57 @@
   
   <div class="row main-row">
     <div class="small-12 large-8 columns">
+      
+      <div class="section branch-details panel primary-content">
+        
+        <header class="row">
+          <div class="small-12 columns">
+            <h2 class="left">Your Shopwise Branch Details</h2>
+
+            <div class="distance right">
+              Distance: <strong>5km</strong> 
+              <a href="#" class="tiny button secondary inline">Map</a>
+            </div>
+          </div>
+        </header>
+
+        <ul class="small-block-grid-1 large-block-grid-3 sub-content">
+          <li class="address">
+            <section>
+              <h3>Address</h3>
+              <p>2343 Street Name<br>
+                City or whatever</p>
+            </section>
+          </li>
+
+          <li class="store-hours">
+            <section>
+              <h3>Store Hours</h3>
+              <p>10am - 11pm</p>
+            </section>
+          </li>
+
+          <li class="contact-info">
+            <section>
+              <h3>Contact Info</h3>
+              <p>
+                <span class="label">Tel. No.</span> 234 - 2342 - 20055 <br>
+                <span class="label">Email</span> shop@shopwise.com 
+              </p>
+            </section>
+          </li>
+
+          <li class="pay-options">
+            <section>
+              <h3>Payment Options</h3>
+              <p>Cash<br>
+                Credit Card</p>
+            </section>
+          </li>
+
+
+        </ul>
+      </div>
 
       <section class="section results search-results">
 
@@ -16,9 +67,9 @@
           <h2 class="main-header">Shopwise in Ortigas</h2>
         </header>
 
-        <div class="section-container auto" data-section>
+        <div class="section-container auto" data-section data-options="deep_linking: true, one_up: false">
           <section class="section">
-            <p class="title"><a href="#panel1">Offers</a></p>
+            <p class="title"><a href="#promos">Promotions</a></p>
             <div class="content">
 
               <div class="row item">
@@ -134,7 +185,7 @@
             </div><!-- content -->
           </section>
           <section class="section">
-            <p class="title"><a href="#panel2">Branches</a></p>
+            <p class="title"><a href="#branches">Branches</a></p>
             <div class="content establishments">
 
               <?php include('elements/results-stores.php'); ?>
@@ -146,14 +197,13 @@
       </section>
 
       <section>
-
         <h2 class="main-header">Current promos in Ortigas</h2>
+
         <?php include('elements/carousel-promos.php'); ?>
-        
       </section>
 
       <section class="section results">
-        <h2 class="main-header">Shopwise Branches within 2.5km</h2>
+        <h2 class="main-header">Other Stores in Ortigas</h2>
         <div class="content establishments">
         <?php include('elements/results-stores.php'); ?>
         </div>

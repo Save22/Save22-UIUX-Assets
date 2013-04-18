@@ -165,7 +165,7 @@
     </div>
   </div>
   <div class="row main-row">
-    <div class="small-12 large-8 columns main-content">
+    <div class="small-12 large-8 columns main-content" id="content">
 
       <section>
 
@@ -175,16 +175,16 @@
 
         <div class="list_carousel responsive orbit-container">
           <ul id="links-categories">
-            <li>All</li>
-            <li>Supermarket</li>
-            <li>Sales</li>
-            <li>Electronics</li>
-            <li>Gadgets</li>
-            <li>Toddlers &amp; Babies</li>
-            <li>Fashion &amp; Jewelry</li>
-            <li>Home &amp; Furniture</li>
-            <li>Gardening</li>
-            <li>Sports</li>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Supermarket</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Gadgets</a></li>
+            <li><a href="#">Toddlers &amp; Babies</a></li>
+            <li><a href="#">Fashion &amp; Jewelry</a></li>
+            <li><a href="#">Home &amp; Furniture</a></li>
+            <li><a href="#">Gardening</a></li>
+            <li><a href="#">Sports</a></li>
           </ul>
           <div class="clearfix"></div>
           <a href="#" id="list-cat-prev" class="orbit-prev">Prev <span></span></a>
@@ -306,7 +306,7 @@
           <section class="section main-content">
             <p class="title"><a href="#panel2">What's New</a></p>
             <div class="content">
-              <ul class="small-block-grid-1 large-block-grid-3 results-grid2">
+              <ul class="results-grid">
                 <li class="item">
                   <div class="cat-thumb">
                     <a href="#">

@@ -1,5 +1,5 @@
 
-    <nav id="sidebar-categories" data-magellan-expedition="fixed">
+    <nav id="sidebar-categories">
       <h2 class="sidebar-header">Categories</h2>
       <ul>
         <li><a href="#">SALES</a></li>
