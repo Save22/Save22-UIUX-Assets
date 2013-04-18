@@ -23,5 +23,56 @@
     </div>
   </div>
   
+  <div class="row">
+    <div class="small-12 large-12 columns">
 
+      <table style="width: 100%;" class="upload-images">
+        <thead>
+          <tr>
+            <th width="120">Page Number</th>
+            <th>Image</th>
+            <th width="120">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="pageno">0 (cover)</td>
+            <td><img src="img/sample-page.jpg" alt=""></td>
+            <td><a href="#" class="button inline secondary" data-reveal-id="deleteModal">delete</a></td>
+          </tr>
+          <tr>
+            <td class="pageno">1</td>
+            <td><img src="img/sample-page.jpg" alt=""></td>
+            <td><a href="#" class="button inline secondary" data-reveal-id="deleteModal">delete</a></td>
+          </tr>
+          <tr>
+            <td class="pageno">2</td>
+            <td><img src="img/sample-page.jpg" alt=""></td>
+            <td><a href="#" class="button inline secondary" data-reveal-id="deleteModal">delete</a></td>
+          </tr>
+          <tr>
+            <td class="pageno">3</td>
+            <td><img src="img/sample-page.jpg" alt=""></td>
+            <td><a href="#" class="button inline secondary" data-reveal-id="deleteModal">delete</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+  <div id="deleteModal" class="reveal-modal small">
+    <a class="close-reveal-modal">&#215;</a>
+    <h2>Delete page 4?</h2>
+    <p><img src="img/sample-page.jpg" alt=""></p>
+    <p>This action cannot be undone!</p>
+    <div class="row">
+      <div class="small-6 columns">
+        <a href="#" class="button expand">Delete!</a>
+      </div>
+      <div class="small-6 columns">
+        <a href="#" class="button alert expand close-reveal-modal">Cancel</a>
+      </div>
+    </div>
+  </div>
 <?php include('footer.php'); ?>

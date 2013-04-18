@@ -65,7 +65,7 @@
               <td>active</td>
               <td>
                 <a href="view-catalogue.php" class="tiny button inline">edit</a>
-                <a href="#" class="tiny button inline secondary">delete</a>
+                <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
@@ -76,7 +76,7 @@
               <td>removed</td>
               <td>
                 <a href="view-catalogue.php" class="tiny button inline">edit</a>
-                <a href="#" class="tiny button inline secondary">delete</a>
+                <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
           </tbody>
@@ -107,7 +107,7 @@
         <a href="#" class="button expand">Delete!</a>
       </div>
       <div class="small-6 columns">
-        <a href="#" class="button alert expand">Cancel</a>
+        <a href="#" class="button alert expand close-reveal-modal">Cancel</a>
       </div>
     </div>
   </div>

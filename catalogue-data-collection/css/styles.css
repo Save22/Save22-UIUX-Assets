@@ -19,3 +19,26 @@
   width: 150px;
   text-align: center;
 }
+
+
+.reveal-modal .close-reveal-modal.button {
+  font-size: 1em;
+  position: relative;
+  top: 0;
+  color: #fff;
+}
+
+
+/* Add page */
+
+.upload-images {
+  margin: 24px 0;
+}
+
+.upload-images img {
+  max-width: 200px;
+}
+
+td.pageno {
+  text-align: center;
+}
