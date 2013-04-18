@@ -54,7 +54,7 @@
               <td>active</td>
               <td>
                 <a href="view-catalogue.php" class="tiny button inline">edit</a>
-                <a href="#" class="tiny button inline secondary">delete</a>
+                <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
@@ -94,6 +94,21 @@
             <li class="arrow"><a href="">Next &raquo;</a></li>
           </ul>
         </div>
+    </div>
+  </div>
+
+  <div id="deleteModal" class="reveal-modal small">
+    <a class="close-reveal-modal">&#215;</a>
+    <h2>Delete this item?</h2>
+    <p class="lead">You are deleting: <strong>SM Hypermart July 2013</strong></p>
+    <p>This action cannot be undone!</p>
+    <div class="row">
+      <div class="small-6 columns">
+        <a href="#" class="button expand">Delete!</a>
+      </div>
+      <div class="small-6 columns">
+        <a href="#" class="button alert expand">Cancel</a>
+      </div>
     </div>
   </div>
   
