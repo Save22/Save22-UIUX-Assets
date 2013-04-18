@@ -55,11 +55,21 @@ $(window).load(function(){
 
 });
 
-/* 
   $(window).load(function(){ 
 
-    var item_height = $('.content').find('li.item .cat-thumb').css("background", "pink").outerHeight(true);
-    alert(item_height);
+    var items_height = [];
+
+    var item = $('.cat-thumb')/* .css("background", "pink") */.outerHeight(true);
+
+    $('.cat-thumb').each(function() { 
+        items_height.push($(this).outerHeight());
+    });
+
+    var tallest_content = Math.max.apply( null, items_height );
+    
+    $('.results-grid .cat-thumb').each(function(){
+        var item_height = $(this).height();
+        $(this).css('height', tallest_content);
+    });
 
   });
-*/

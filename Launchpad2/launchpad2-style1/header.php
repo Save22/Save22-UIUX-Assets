@@ -9,7 +9,6 @@
 
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/app.css" />
-  <link rel="stylesheet" href="css/sliderkit-core.css" />
   <link rel="stylesheet" href="css/styles.css" />
   
 
@@ -69,7 +68,7 @@
   <div class="home-intro row main-row">
     <section class="top-bar-section">
       <ul>
-        <li class="copy"><label class="inline" for="location">Discover the best deals in town.</label></li>
+        <li class="copy desktop-only"><label class="inline" for="location">Discover the best deals in town.</label></li>
           <li class="has-form location-search">
             <form>
               <div class="row collapse">
