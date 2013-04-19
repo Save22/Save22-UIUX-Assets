@@ -31,7 +31,15 @@
     <!-- Left Nav Section -->
     <ul class="right">
       <li class="divider"></li>
-      <li><a href="#">ADMIN</a></li>
+      <li class="has-dropdown"><a href="#">ADMIN</a>
+
+        <ul class="dropdown">
+          <li><a href="#">Filters</a><li>
+          <li><a href="admin-retailers.php">Retailers</a><li>
+          <li><a href="#">Establishment Types</a><li>
+        </ul>
+      </li>
+
       <li class="divider"></li>
       <li><a href="#">List Catalogues</a></li>
       <li class="divider"></li>
