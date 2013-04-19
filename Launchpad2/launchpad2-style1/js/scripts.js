@@ -1,4 +1,5 @@
 
+
 $(document).foundation()
   .foundation('magellan', { activeClass: 'active' });
 
@@ -28,18 +29,17 @@ $(window).load(function(){
     next: '#carousel-next'
   });
 
-  $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
+  // $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
 
 /* featured prodcuts - same height for each item */
 
-  /*
     function same_height(container) {
         var items_height = [];
 
         $(container).each(function() { 
             items_height.push($(this).outerHeight());
         });
-        alert(items_height);
+
         var tallest_content = Math.max.apply( null, items_height );
         
         $(container).each(function(){
@@ -49,27 +49,8 @@ $(window).load(function(){
 
     }
 
-    same_height('.content .cat-thumb');
+    same_height('.results-grid .thumb');
+    same_height('.results-grid .cat-info');
 
-*/
 
 });
-
-  $(window).load(function(){ 
-
-    var items_height = [];
-
-    var item = $('.cat-thumb')/* .css("background", "pink") */.outerHeight(true);
-
-    $('.cat-thumb').each(function() { 
-        items_height.push($(this).outerHeight());
-    });
-
-    var tallest_content = Math.max.apply( null, items_height );
-    
-    $('.results-grid .cat-thumb').each(function(){
-        var item_height = $(this).height();
-        $(this).css('height', tallest_content);
-    });
-
-  });

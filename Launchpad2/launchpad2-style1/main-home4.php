@@ -123,202 +123,42 @@
         </div>
       </section>
 
-      <section class="brands">
-        <h2 class="main-header">Find brands you like</h2>
-        <div class="promos-brands">
-          <ul id="featured2" data-orbit data-options="bullets:false;stack_on_small: false;timer_speed: 0;">
-            <li data-orbit-slide="headline-1">
-              <ul class="small-block-grid-1 large-block-grid-3">
-                <li>
-                  <a href="#"><img src="img/retailer-logo1.png" alt=""></a>
-                </li>
-                <li>
-                  <a href="#"><img src="img/retailer-logo2.jpg" alt=""></a>
-                </li>
-                <li>
-                  <a href="#"><img src="img/retailer-logo3.png" alt=""></a>
-                </li>
-              </ul>
-            </li>
-            <li data-orbit-slide="headline-2">
-              <ul class="small-block-grid-1 large-block-grid-3">
-                <li>
-                  <a href="#"><img src="img/retailer-logo2.jpg" alt=""></a>
-                </li>
-                <li>
-                  <a href="#"><img src="img/retailer-logo3.png" alt=""></a>
-                </li>
-                <li>
-                  <a href="#"><img src="img/retailer-logo4.jpg" alt=""></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </section>
-
     </div>
 
     <div class="small-12 large-4 columns sidebar">
       <?php include_once('elements/sidebar-hot.php'); ?>
     </div>
   </div>
-  <div class="row main-row">
-    <div class="small-12 large-8 columns main-content" id="content">
 
-      <section>
+  <section class="home-preview">
 
-        <header>
-          <h2 class="main-header">Check out more catalogues</h2>
-        </header>
+        <h2>What's Popular: <a href="#" data-dropdown="drop1">All Categories</a></h2>
 
-        <div class="list_carousel responsive orbit-container">
-          <ul id="links-categories">
-            <li><a href="#">All</a></li>
-            <li><a href="#">Supermarket</a></li>
-            <li><a href="#">Sales</a></li>
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">Gadgets</a></li>
-            <li><a href="#">Toddlers &amp; Babies</a></li>
-            <li><a href="#">Fashion &amp; Jewelry</a></li>
-            <li><a href="#">Home &amp; Furniture</a></li>
-            <li><a href="#">Gardening</a></li>
-            <li><a href="#">Sports</a></li>
-          </ul>
-          <div class="clearfix"></div>
-          <a href="#" id="list-cat-prev" class="orbit-prev">Prev <span></span></a>
-          <a href="#" id="list-cat-next" class="orbit-next">Next <span></span></a>
-        </div>
-
-          <section class="section results">
-            <div class="results">
-
-              <div class="row item">
-                <div class="small-6 large-3 columns">
-                  <img src="img/catsample5.jpg">
-                </div>
-                <div class="small-6 large-5 columns">
-                  <h2>Catalogue Title</h2>
-                  <h3>BRAND NAME</h3>
-                  <p>
-                    Valid until April 12, 2013
-                  </p>
-
-                  <a href="#" class="button">Open Catalogue</a>
-
-                </div>
-                <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
-                </div>
-              </div>
-
-              <div class="row item">
-                <div class="small-6 large-3 columns">
-                  <img src="img/catsample1.jpg">
-                </div>
-                <div class="small-6 large-5 columns">
-                  <h2>Catalogue Title</h2>
-                  <h3>BRAND NAME</h3>
-                  <p>
-                    Valid until April 12, 2013
-                  </p>
-                  
-                  <a href="#" class="button">Open Catalogue</a>
-
-                </div>
-                <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
-                </div>
-              </div>
-
-              <div class="row item">
-                <div class="small-6 large-3 columns">
-                  <img src="img/catsample6.jpg">
-                </div>
-                <div class="small-6 large-5 columns">
-                  <h2>Catalogue Title</h2>
-                  <h3>BRAND NAME</h3>
-                  <p>
-                    Valid until April 12, 2013
-                  </p>
-                  
-                  <a href="#" class="button">Open Catalogue</a>
-
-                </div>
-                <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
-                </div>
-              </div>
-
-              <div class="row item">
-                <div class="small-6 large-3 columns">
-                  <img src="img/catsample3.jpg">
-                </div>
-                <div class="small-6 large-5 columns">
-                  <h2>Catalogue Title</h2>
-                  <h3>BRAND NAME</h3>
-                  <p>
-                    Valid until April 12, 2013
-                  </p>
-                  
-                  <a href="#" class="button">Open Catalogue</a>
-
-                </div>
-                <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
-                </div>
-              </div>
+<ul id="drop1" class="f-dropdown" data-dropdown-content>
+  <li><a href="#">This is a link</a></li>
+  <li><a href="#">This is another</a></li>
+  <li><a href="#">Yet another</a></li>
+</ul>
 
 
-            </div><!-- content -->
-          </section>
+    <div class="row main-row">
+      <div class="small-12 large-8 columns">
 
-      </section>
+      </div>
+      <div class="small-12 large-4 columns">
+        
+        <?php include('elements/sidebar-categories.php'); ?>
 
+      </div>
     </div>
-    <div class="small-12 large-4 columns sidebar">
-      <?php include_once('elements/sidebar-subscribe.php'); ?>
-      <?php include_once('elements/sidebar-shops.php'); ?>
-      <?php include_once('elements/sidebar-categories.php'); ?>
+  </section>
 
-
-    </div>
-  </div>
-
+  <br><br>
   <section class="home-new">
     <div class="row main-row">
       <div class="small-12 columns">
         <h2>What's New</h2>
-        <ul class="small-block-grid-2 large-block-grid-5 results-grid">
+        <ul class="small-block-grid-3 large-block-grid-5 results-grid">
           <li class="item">
             <div class="cat-thumb">
               <a href="#">
@@ -327,7 +167,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -341,7 +181,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>SM Hypermart</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -355,7 +195,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>Cold Storage</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -369,7 +209,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>Toy Kingdom</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -383,7 +223,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>Can this be a really long reatiler title</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -397,7 +237,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -411,7 +251,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -425,7 +265,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -439,7 +279,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -453,7 +293,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -467,7 +307,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -481,7 +321,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -495,7 +335,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -509,7 +349,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -523,7 +363,7 @@
                 </div>
                 <div class="cat-info">
                   <h4>IKEA</h4>
-                  <strong>Catalogue Title</strong><br>
+                  <span class="cat-title">Catalogue Title</span><br>
                   Valid until April 12, 2013
                 </div>
               </a>
@@ -537,9 +377,65 @@
   <div class="row main-row">
     <div class="small-12 columns">
 
-      <?php include_once('elements/footerlinks-popularstores-city.php'); ?>
       <?php include_once('elements/footerlinks-popularcategories.php'); ?>
-      <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
+
+      <section class="section section-links">
+        <div class="row">
+          <div class="small-12 large-4 columns">
+            <h2>Popular Stores in Ortigas</h2>
+              <ul class="small-block-grid-1">
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+                <li><a href="#">Retailer Name in City</a></li>
+              </ul>
+          </div>
+          <div class="small-12 large-8 columns">
+            <h2>Popular Shopping Destinations</h2>
+              <ul class="small-block-grid-1 large-block-grid-3">
+                <li>
+                  <h3>City</h3>
+                  <ul>
+                    <li><a href="#">Makati</a></li>
+                    <li><a href="#">Ortigas</a></li>
+                    <li><a href="#">Pasay</a></li>
+                    <li><a href="#">Taguig</a></li>
+                    <li><a href="#">Cebu</a></li>
+                    <li><a href="#">Davao</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>Neighborhood</h3>
+                  <ul>
+                    <li><a href="#">Makati</a></li>
+                    <li><a href="#">Ortigas</a></li>
+                    <li><a href="#">Pasay</a></li>
+                    <li><a href="#">Taguig</a></li>
+                    <li><a href="#">Cebu</a></li>
+                    <li><a href="#">Davao</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <h3>Shopping Center</h3>
+                  <ul>
+                    <li><a href="#">Makati</a></li>
+                    <li><a href="#">Ortigas</a></li>
+                    <li><a href="#">Pasay</a></li>
+                    <li><a href="#">Taguig</a></li>
+                    <li><a href="#">Cebu</a></li>
+                    <li><a href="#">Davao</a></li>
+                  </ul>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </section>
 
     </div>
 </div>
