@@ -49,7 +49,7 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td><a href="#link-to-website" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
               <td>4-30-2013</td>
               <td><a href="admin-retailer-branches.php">View Branches</a></td>
               <td>
@@ -59,7 +59,7 @@
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="#link-to-website" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
               <td>4-30-2013</td>
               <td><a href="admin-retailer-branches.php">View Branches</a></td>
               <td>
@@ -69,7 +69,7 @@
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="#link-to-website" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
               <td>4-30-2013</td>
               <td><a href="admin-retailer-branches.php">View Branches</a></td>
               <td>
@@ -79,7 +79,7 @@
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="#link-to-website" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
               <td>4-30-2013</td>
               <td><a href="admin-retailer-branches.php">View Branches</a></td>
               <td>
@@ -89,7 +89,7 @@
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="#link-to-website" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
               <td>4-30-2013</td>
               <td><a href="admin-retailer-branches.php">View Branches</a></td>
               <td>
