@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
   
   <div class="row home-featured main-row">
-    <div class="small-12 large-8 columns main-content">
+    <div class="small-12 large-9 columns main-content">
 
       <section class="location-ads">
         <h2 class="main-header">Promos near you</h2>
@@ -125,27 +125,24 @@
 
     </div>
 
-    <div class="small-12 large-4 columns sidebar">
+    <div class="small-12 large-3 columns sidebar">
       <?php include_once('elements/sidebar-hot.php'); ?>
     </div>
   </div>
 
   <section class="home-preview">
 
-        <h2>What's Popular: <a href="#" data-dropdown="drop1">All Categories</a></h2>
-
-<ul id="drop1" class="f-dropdown" data-dropdown-content>
-  <li><a href="#">This is a link</a></li>
-  <li><a href="#">This is another</a></li>
-  <li><a href="#">Yet another</a></li>
-</ul>
-
-
     <div class="row main-row">
-      <div class="small-12 large-8 columns">
+      <div class="small-12 large-9 columns">
+
+        <h3 class="sub-header">Brochures</h3>
+          <?php include('elements/grid-featured.php'); ?>
+
+        <h3 class="sub-header">Brands</h3>
+          <?php include('elements/carousel-brands.php'); ?>
 
       </div>
-      <div class="small-12 large-4 columns">
+      <div class="small-12 large-3 columns">
         
         <?php include('elements/sidebar-categories.php'); ?>
 
@@ -158,218 +155,7 @@
     <div class="row main-row">
       <div class="small-12 columns">
         <h2>What's New</h2>
-        <ul class="small-block-grid-3 large-block-grid-5 results-grid">
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample1.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample4.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>SM Hypermart</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample2.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>Cold Storage</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample3.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>Toy Kingdom</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample1.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>Can this be a really long reatiler title</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample4.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample2.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample3.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample1.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample4.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample2.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample3.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample1.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample4.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-          <li class="item">
-            <div class="cat-thumb">
-              <a href="#">
-                <div class="thumb">
-                  <img src="img/catsample2.jpg" alt="">
-                </div>
-                <div class="cat-info">
-                  <h4>IKEA</h4>
-                  <span class="cat-title">Catalogue Title</span><br>
-                  Valid until April 12, 2013
-                </div>
-              </a>
-            </div>
-          </li>
-        </ul>
+          <?php include('elements/grid-new.php'); ?>
       </div>
     </div>
   </section>

@@ -5,22 +5,6 @@ $(document).foundation()
 
 $(window).load(function(){ 
 
-  $('#links-categories').carouFredSel({
-    auto: false,
-    prev: '#list-cat-prev',
-    next: '#list-cat-next',
-    responsive: true,
-    width: '100%',
-    scroll: 2,
-    items: {
-      width: 240,
-      visible: {
-        min: 1,
-        max: 6
-      }
-    }
-  });
-
   $('.gallery-carousel').carouFredSel({
     auto: false,
     width: '100%',
@@ -51,6 +35,8 @@ $(window).load(function(){
 
     same_height('.results-grid .thumb');
     same_height('.results-grid .cat-info');
+    same_height('.featured-grid .thumb');
+    same_height('.featured-grid .cat-info');
 
 
 });
