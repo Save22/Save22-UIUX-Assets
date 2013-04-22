@@ -36,7 +36,7 @@
         <ul class="dropdown">
           <li><a href="#">Filters</a><li>
           <li><a href="admin-retailers.php">Retailers</a><li>
-          <li><a href="#">Establishment Types</a><li>
+          <li><a href="admin-establishment-types.php">Establishment Types</a><li>
         </ul>
       </li>
 

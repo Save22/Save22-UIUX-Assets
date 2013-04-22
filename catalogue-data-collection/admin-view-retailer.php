@@ -15,10 +15,10 @@
       <header>
         <h2>SM Hypermart</h2>
       </header>
-      <div class="section-container auto" data-section>
+      <div class="section-container auto" data-section data-options="deep_linking: true">
         <section>
           <p class="title" data-section-title><a href="#info">Information</a></p>
-          <div class="content" data-section-content>
+          <div class="content" data-section-content data-slug="info">
             <form>
               <h3>Retailer Info</h3>
 
@@ -156,9 +156,9 @@
         </section>
         <section>
           <p class="title" data-section-title><a href="#branches">Branches</a></p>
-          <div class="content" data-section-content>
+          <div class="content" data-section-content data-slug="branches">
             <form>
-              
+
               <h3>View Branches</h3>
 
               <fieldset class="add-branch">

@@ -49,51 +49,51 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php">SM Hypermart</a></td>
               <td>4-30-2013</td>
-              <td><a href="admin-retailer-branches.php">View Branches</a></td>
+              <td><a href="admin-view-retailer.php#branches">View Branches</a></td>
               <td>
-                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="admin-view-retailer.php" class="tiny button inline">edit</a>
                 <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php">SM Hypermart</a></td>
               <td>4-30-2013</td>
-              <td><a href="admin-retailer-branches.php">View Branches</a></td>
+              <td><a href="admin-view-retailer.php#branches">View Branches</a></td>
               <td>
-                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="admin-view-retailer.php" class="tiny button inline">edit</a>
                 <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php">SM Hypermart</a></td>
               <td>4-30-2013</td>
-              <td><a href="admin-retailer-branches.php">View Branches</a></td>
+              <td><a href="admin-view-retailer.php#branches">View Branches</a></td>
               <td>
-                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="admin-view-retailer.php" class="tiny button inline">edit</a>
                 <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php">SM Hypermart</a></td>
               <td>4-30-2013</td>
-              <td><a href="admin-retailer-branches.php">View Branches</a></td>
+              <td><a href="admin-view-retailer.php#branches">View Branches</a></td>
               <td>
-                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="admin-view-retailer.php" class="tiny button inline">edit</a>
                 <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
             <tr>
               <td>1</td>
-              <td><a href="admin-view-retailer.php" target="_blank">SM Hypermart</a></td>
+              <td><a href="admin-view-retailer.php">SM Hypermart</a></td>
               <td>4-30-2013</td>
-              <td><a href="admin-retailer-branches.php">View Branches</a></td>
+              <td><a href="admin-view-retailer.php#branches">View Branches</a></td>
               <td>
-                <a href="view-catalogue.php" class="tiny button inline">edit</a>
+                <a href="admin-view-retailer.php" class="tiny button inline">edit</a>
                 <a href="#" class="tiny button inline secondary" data-reveal-id="deleteModal">delete</a>
               </td>
             </tr>
