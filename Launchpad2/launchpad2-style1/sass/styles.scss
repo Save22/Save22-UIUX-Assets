@@ -530,20 +530,30 @@
       font-weight: bold;
       color: $base-color-red;
     }
-    /*
-    &.mfixed {
-      left: 66.66667% !important;
-      top: emCalc(50px) !important;
-      padding-right: emCalc(15px) !important;
-      padding-left: emCalc(15px) !important;
 
-      > ul {
-        box-shadow: 0 2px 3px rgba(0,0,0,0.3);
-      }
+    .active {
+      position: relative;
+      background: $base-color-red;
+
+      a { color: $base-color-light; }
     }
-    */
+    .active:after {
+      right: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
 
-    
+    .active:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-right-color: $base-color-red;
+      border-width: 10px;
+      top: 50%;
+      margin-top: -10px;
+    }
   }
 
 /* NAVS */
@@ -761,6 +771,7 @@
   }
 
   .new-grid {
+    .thumb {background: #ededed;}
     a {
       background: #ededed;
       padding-top: emCalc(12px);

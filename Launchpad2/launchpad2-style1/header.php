@@ -68,14 +68,14 @@
   <div class="home-intro row main-row">
     <section class="top-bar-section">
       <ul>
-        <li class="copy desktop-only"><label class="inline" for="location">Discover the best deals in town.</label></li>
+        <li class="copy desktop-only"><label class="inline" for="header-location">Discover the best deals in town.</label></li>
           <li class="has-form location-search">
             <form>
               <div class="row collapse">
-                <div class="small-4 columns">
-                  <label class="inline" for="location">You're at</label>
+                <div class="small-3 large-6 columns">
+                  <label class="inline" for="header-location">You're browsing at</label>
                 </div>
-                <div class="small-8 columns">
+                <div class="small-9 large-6 columns">
                   <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
                 </div>
               </div>
