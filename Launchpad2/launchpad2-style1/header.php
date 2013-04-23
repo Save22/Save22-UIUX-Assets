@@ -49,7 +49,7 @@
           <li class="divider"></li>
           <li class="has-form search">
             <form>
-              <div class="row collapse">
+              <div class="row collapse wide">
                 <div class="small-8 columns">
                   <input type="search" placeholder="Search for promos, items, prices, or stores">
                 </div>
