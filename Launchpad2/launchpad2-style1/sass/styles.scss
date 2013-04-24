@@ -91,7 +91,7 @@
   }
 
   .label {
-    background: $base-color-blue;
+    background: $base-color-blue-lighter;
     color: $base-color-dark;
     font-weight: 700;
   }
@@ -116,22 +116,51 @@
       color: $base-color-dark;
       line-height: 1.4;
       margin: 0 emCalc(12px);
+      overflow: hidden; 
     }
     img {
-      width: 150px;
-      margin: emCalc(12px) auto;
+      max-width: 120px;
+      margin: auto;
     }
     .cat-info {
-      font-size: emCalc(14px);
-      padding-bottom: emCalc(12px);
+      font-size: emCalc(16px);
+      padding: emCalc(6px) emCalc(12px);
+      border-bottom: 2px solid $base-color-dark;
     }
     .title { font-weight: 700; }
+
+    .thumb { overflow: hidden; text-align: center; }
   }
 
   #brand-carousel {
     a {
       display: block;
       height: 100px;
+    }
+  }
+
+  .promos-near {
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    margin-bottom: 24px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .orbit-slides-container {
+    background: #fff;
+  }
+
+  .promos-brands {
+    background: #fff;
+    padding: emCalc(12px) 0;
+    margin: 0 0 emCalc(24px) 0;
+
+    img {
+      max-width: none;
+      width: 200px;
+      display: inline-block;
+      vertical-align: middle;
     }
   }
 
@@ -207,6 +236,8 @@
       img {
         width: 100%;
         border: 1px solid #ccc;
+        display:inline-block; 
+        vertical-align:middle;
       }
 
       .cat-info {
@@ -293,6 +324,11 @@
       font-weight: 700;
       padding: 0 emCalc(6px) 0 0 !important;
     }
+
+    .item {
+      img { max-width: 300px; margin-bottom: emCalc(24px); }
+      h2 { font-size: 1.2em; }
+    }
   }
 
   .featured-grid {
@@ -320,6 +356,10 @@
       }
     }
 
+  }
+
+  .category-list {
+    padding: emCalc(15px);
   }
 
 /* GENERAL */
@@ -416,6 +456,35 @@
     width: 200%;
   }
 
+  .all-category-links {
+    background: $base-color-light;
+    padding: emCalc(15px);
+    border-left: 1px solid $base-color-neutral;
+    border-right: 1px solid $base-color-neutral;
+    border-bottom: 2px solid $base-color-neutral-dark;
+    font-size: emCalc(14px);
+
+    > ul > li { 
+    }
+
+    a { 
+      color: $base-color-dark;
+      display: block;
+      border-bottom: 1px solid $border-light; 
+      padding: 0 0 emCalc(8px) 0;
+
+      &:hover {
+        border-color: $base-color-neutral;
+        color: $base-color-red;
+      }
+    }
+  }
+
+  #header-cat-link {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
 /* FOOTER */
 
   #main-footer {
@@ -505,10 +574,13 @@
         float: left;
         margin: emCalc(24px) emCalc(24px) emCalc(24px) 0;
 
-        @media (min-width: $break-small) and (max-width: $break-mid-large) {
+        @media (min-width: $break-mid) and (max-width: $break-mid-large) {
           width: 100%;
           float: none;
           display: block;
+        }
+        @media (min-width: $break-small) and (max-width: $break-mid -1) {
+
         }
       }
     }
@@ -588,21 +660,25 @@
 
   .search {
     .button {
+      /* 
       -webkit-border-top-right-radius: $border-radius;
       -webkit-border-bottom-right-radius: $border-radius;
       -moz-border-radius-topright: $border-radius;
       -moz-border-radius-bottomright: $border-radius;
       border-top-right-radius: $border-radius;
       border-bottom-right-radius: $border-radius;
+      */
     }
 
     input[type=search] {
+      /* 
       -webkit-border-top-left-radius: $border-radius;
       -webkit-border-bottom-left-radius: $border-radius;
       -moz-border-radius-topleft: $border-radius;
       -moz-border-radius-bottomleft: $border-radius;
       border-top-left-radius: $border-radius;
       border-bottom-left-radius: $border-radius;
+      */
     }
   }
 
@@ -700,37 +776,16 @@
     &.main-content {
       background: none;
     }
+
+    &.results {
+      margin-bottom: emCalc(24px);
+    }
   }
   .section-container, .section-container.auto { margin: 0;}
 
   .map {
     @media (min-width: 320px) and (max-width: 480px) {
       display: none;
-    }
-  }
-
-  .promos-near {
-    border: 2px solid $base-color-dark;
-    background: #fff;
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
-    margin-bottom: 24px;
-  }
-
-  .orbit-slides-container {
-    background: #fff;
-  }
-
-  .promos-brands {
-    border-bottom: 1px solid #000;
-    padding-bottom: 12px;
-
-    #featured2 {
-      padding: 24px;
-      margin-left: 100px;
-      margin-right: 100px;
-      >li {
-        padding: 0 100px;
-      }
     }
   }
 
@@ -756,3 +811,15 @@
     margin-bottom: 24px;
   }
 
+/* OTHER PAGES */
+
+  .list-promotions {
+    h2 {
+      font-size: emCalc(18px);
+    }
+  }
+
+  .store-link {
+    display: block;
+    margin-bottom: emCalc(24px);
+  }

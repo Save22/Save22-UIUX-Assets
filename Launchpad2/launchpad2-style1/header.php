@@ -15,7 +15,6 @@
   <script src="js/vendor/custom.modernizr.js"></script>
 
   <header id="main-header" class="row main-row">
-
     <nav class="top-bar">
       <ul class="title-area">
         <!-- Title Area -->
@@ -30,21 +29,7 @@
         <!-- Left Nav Section -->
         <ul class="left">
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="#">Categories</a>
-            <ul class="dropdown">
-              <li><a href="#">SALES</a></li>
-              <li><a href="#">Babies &amp; Toddlers</a></li>
-              <li><a href="#">Cars</a></li>
-              <li><a href="#">Clothes and Fashion</a></li>
-              <li><a href="#">Electronics</a></li>
-              <li><a href="#">Home and Furniture</a></li>
-              <li><a href="#">Gardening</a></li>
-              <li><a href="#">Shoes</a></li>
-              <li><a href="#">Sports</a></li>
-              <li><a href="#">Supermarkets</a></li>
-              <li class="divider"></li>
-              <li><a href="#">See all &rarr;</a></li>
-            </ul>
+          <li class="has-dropdown"><a href="#" id="header-cat-link">Categories</a>
           </li>
           <li class="divider"></li>
           <li class="has-form search">
@@ -62,7 +47,34 @@
         </ul>
       </section>
     </nav>
-
+    <nav class="all-category-links hide">
+      <ul class="small-block-grid-1 large-block-grid-4">
+        <li><a href="#">Optical Shop</a></li>
+        <li><a href="#">Department Store</a></li>
+        <li><a href="#">Electronics Store</a></li>
+        <li><a href="#">Apparel</a></li>
+        <li><a href="#">Sporting Goods</a></li>
+        <li><a href="#">Gardens &amp; Plants</a></li>
+        <li><a href="#">Automotive Parts and Service</a></li>
+        <li><a href="#">Drugstore/Pharmacy</a></li>
+        <li><a href="#">Toys</a></li>
+        <li><a href="#">Fast Food</a></li>
+        <li><a href="#">Specialty Store</a></li>
+        <li><a href="#">Supermarket</a></li>
+        <li><a href="#">Hardware Store</a></li>
+        <li><a href="#">Organic Market</a></li>
+        <li><a href="#">Shoe Store</a></li>
+        <li><a href="#">Bookstore</a></li>
+        <li><a href="#">Bank</a></li>
+        <li><a href="#">Pet shop</a></li>
+        <li><a href="#">Fashion</a></li>
+        <li><a href="#">Furniture Store</a></li>
+        <li><a href="#">Watches &amp; Jewellery</a></li>
+        <li><a href="#">Clearance Stores &amp; Bazaars</a></li>
+        <li><a href="#">Outlet Stores</a></li>
+        <li><a href="#">Other Establishments</a></li>
+      </ul>
+    </nav>
   </header>
 
   <div class="home-intro row main-row">

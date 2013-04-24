@@ -8,7 +8,7 @@
   </div>
 
   <div class="row home-featured main-row">
-    <div class="small-12 large-8 columns">
+    <div class="small-12 large-9 columns">
 
       <section class="section results search-results main-content">
 
@@ -18,8 +18,9 @@
 
         <div class="section-container auto" data-section>
           <section class="section">
-            <p class="title"><a href="#panel1">Promos</a></p>
-            <div class="content">
+            <p class="title"><a href="#panel1">Promotions</a></p>
+
+            <div class="content list-promotions">
 
               <div class="row item">
                 <div class="small-12 large-3 columns">
@@ -147,7 +148,7 @@
       <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
 
     </div>
-    <div class="small-12 large-4 columns sidebar">
+    <div class="small-12 large-3 columns sidebar">
       <?php include_once('elements/sidebar-category-locs.php'); ?>
       <?php include_once('elements/sidebar-promos-locs.php'); ?>
 

@@ -1,5 +1,5 @@
 
-        <div class="promos-near orbit-container">
+        <div class="promos-brands orbit-container">
 
           <div id="brands-carousel" class="gallery-carousel">
             

@@ -8,138 +8,141 @@
   </div>
 
   <div class="row home-featured main-row">
-    <div class="small-12 large-8 columns">
+    <div class="small-12 large-9 columns">
 
-      <section class="section results category-page">
+      <section class="section category-page">
 
         <header>
           <h2 class="main-header">Cellphones in Ortigas - 7 promos match</h2>
         </header>
 
-        <div class="row item">
-          <div class="small-12 large-3 columns">
-            <a href="#catalogue-URL"><img src="img/catsample5.jpg"></a>
-          </div>
-          <div class="small-12 large-5 columns">
-            <h3>BRAND NAME</h3>
-            <p>
-              Valid until April 12, 2013
-            </p>
-            <p>
-              <strong>14 matches for "cellphone"</strong><br>
-              in the catalog: <strong>Abenson Sale</strong>
-            </p>
+        <div class="content results category-list results">
 
-            <a href="#" class="button">Open Catalogue</a>
+          <div class="row item">
+            <div class="small-12 large-3 columns">
+              <a href="#catalogue-URL"><img src="img/catsample5.jpg"></a>
+            </div>
+            <div class="small-12 large-5 columns">
+              <h3>BRAND NAME</h3>
+              <p>
+                Valid until April 12, 2013
+              </p>
+              <p>
+                <strong>14 matches for "cellphone"</strong><br>
+                in the catalog: <strong>Abenson Sale</strong>
+              </p>
 
+              <a href="#" class="button">Open Catalogue</a>
+
+            </div>
+            <div class="small-12 large-4 columns">
+              <a href="#" class="store-link">
+                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+              </a>
+              <p>
+                <strong>Nearest branch: 3.6km</strong><br>
+                Abenson Ortigas Ave.<br>
+                <a href="#">Store details &amp; operating hours</a>
+              </p>
+            </div>
           </div>
-          <div class="small-12 large-4 columns">
-            <a href="#" class="store-link">
-              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-            </a>
-            <p>
-              <strong>Nearest branch: 3.6km</strong><br>
-              Abenson Ortigas Ave.<br>
-              <a href="#">Store details &amp; operating hours</a>
-            </p>
+
+          <div class="row item">
+            <div class="small-12 large-3 columns">
+              <a href="#catalogue-URL"><img src="img/catsample1.jpg"></a>
+            </div>
+            <div class="small-12 large-5 columns">
+              <h3>BRAND NAME</h3>
+              <p>
+                Valid until April 12, 2013
+              </p>
+              <p>
+                <strong>14 matches for "cellphone"</strong><br>
+                in the catalog: <strong>Abenson Sale</strong>
+              </p>
+
+              <a href="#" class="button">Open Catalogue</a>
+
+            </div>
+            <div class="small-12 large-4 columns">
+              <a href="#" class="store-link">
+                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+              </a>
+              <p>
+                <strong>Nearest branch: 3.6km</strong><br>
+                Abenson Ortigas Ave.<br>
+                <a href="#">Store details &amp; operating hours</a>
+              </p>
+            </div>
           </div>
+
+          <div class="row item">
+            <div class="small-12 large-3 columns">
+              <a href="#catalogue-URL"><img src="img/catsample6.jpg"></a>
+            </div>
+            <div class="small-12 large-5 columns">
+              <h3>BRAND NAME</h3>
+              <p>
+                Valid until April 12, 2013
+              </p>
+              <p>
+                <strong>14 matches for "cellphone"</strong><br>
+                in the catalog: <strong>Abenson Sale</strong>
+              </p>
+
+              <a href="#" class="button">Open Catalogue</a>
+
+            </div>
+            <div class="small-12 large-4 columns">
+              <a href="#" class="store-link">
+                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+              </a>
+              <p>
+                <strong>Nearest branch: 3.6km</strong><br>
+                Abenson Ortigas Ave.<br>
+                <a href="#">Store details &amp; operating hours</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="row item">
+            <div class="small-12 large-3 columns">
+              <a href="#catalogue-URL"><img src="img/catsample3.jpg"></a>
+            </div>
+            <div class="small-12 large-5 columns">
+              <h3>BRAND NAME</h3>
+              <p>
+                Valid until April 12, 2013
+              </p>
+              <p>
+                <strong>14 matches for "cellphone"</strong><br>
+                in the catalog: <strong>Abenson Sale</strong>
+              </p>
+
+              <a href="#" class="button">Open Catalogue</a>
+
+            </div>
+            <div class="small-12 large-4 columns">
+              <a href="#" class="store-link">
+                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+              </a>
+              <p>
+                <strong>Nearest branch: 3.6km</strong><br>
+                Abenson Ortigas Ave.<br>
+                <a href="#">Store details &amp; operating hours</a>
+              </p>
+            </div>
+          </div>
+
+        <?php include_once('elements/pagination.php'); ?>
         </div>
-
-        <div class="row item">
-          <div class="small-12 large-3 columns">
-            <a href="#catalogue-URL"><img src="img/catsample1.jpg"></a>
-          </div>
-          <div class="small-12 large-5 columns">
-            <h3>BRAND NAME</h3>
-            <p>
-              Valid until April 12, 2013
-            </p>
-            <p>
-              <strong>14 matches for "cellphone"</strong><br>
-              in the catalog: <strong>Abenson Sale</strong>
-            </p>
-
-            <a href="#" class="button">Open Catalogue</a>
-
-          </div>
-          <div class="small-12 large-4 columns">
-            <a href="#" class="store-link">
-              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-            </a>
-            <p>
-              <strong>Nearest branch: 3.6km</strong><br>
-              Abenson Ortigas Ave.<br>
-              <a href="#">Store details &amp; operating hours</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="row item">
-          <div class="small-12 large-3 columns">
-            <a href="#catalogue-URL"><img src="img/catsample6.jpg"></a>
-          </div>
-          <div class="small-12 large-5 columns">
-            <h3>BRAND NAME</h3>
-            <p>
-              Valid until April 12, 2013
-            </p>
-            <p>
-              <strong>14 matches for "cellphone"</strong><br>
-              in the catalog: <strong>Abenson Sale</strong>
-            </p>
-
-            <a href="#" class="button">Open Catalogue</a>
-
-          </div>
-          <div class="small-12 large-4 columns">
-            <a href="#" class="store-link">
-              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-            </a>
-            <p>
-              <strong>Nearest branch: 3.6km</strong><br>
-              Abenson Ortigas Ave.<br>
-              <a href="#">Store details &amp; operating hours</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="row item">
-          <div class="small-12 large-3 columns">
-            <a href="#catalogue-URL"><img src="img/catsample3.jpg"></a>
-          </div>
-          <div class="small-12 large-5 columns">
-            <h3>BRAND NAME</h3>
-            <p>
-              Valid until April 12, 2013
-            </p>
-            <p>
-              <strong>14 matches for "cellphone"</strong><br>
-              in the catalog: <strong>Abenson Sale</strong>
-            </p>
-
-            <a href="#" class="button">Open Catalogue</a>
-
-          </div>
-          <div class="small-12 large-4 columns">
-            <a href="#" class="store-link">
-              <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-            </a>
-            <p>
-              <strong>Nearest branch: 3.6km</strong><br>
-              Abenson Ortigas Ave.<br>
-              <a href="#">Store details &amp; operating hours</a>
-            </p>
-          </div>
-        </div>
-
-      <?php include_once('elements/pagination.php'); ?>
       </section>
 
       <?php include_once('elements/footerlinks-popularstores-city.php'); ?>
       <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
       
     </div>
-    <div class="small-12 large-4 columns sidebar">
+    <div class="small-12 large-3 columns sidebar">
       <?php require_once('elements/sidebar-cat-narrowed.php'); ?>
       <?php require_once('elements/sidebar-related-shops.php'); ?>
 

@@ -1,6 +1,6 @@
 
-      <section>
-        <h2 class="sidebar-header">Current Promos in Ortigas</h2>
+    <h2 class="sidebar-header">Current Promos in Ortigas</h2>
+      <section class="list-hot">
 
           <div class="cat-thumb">
             <a href="#">

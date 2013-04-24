@@ -8,7 +8,7 @@
   </div>
 
   <div class="row main-row">
-    <div class="small-12 large-8 columns">
+    <div class="small-12 large-9 columns">
 
       <section class="section results search-results">
 
@@ -158,7 +158,7 @@
       <?php include_once('elements/footerlinks-shoppingdestinations.php'); ?>
       
     </div>
-    <div class="small-12 large-4 columns sidebar">
+    <div class="small-12 large-3 columns sidebar">
 
       <?php include('elements/sidebar-promos-locs.php'); ?>
       <?php include('elements/sidebar-related-shops.php'); ?>
