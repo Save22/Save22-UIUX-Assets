@@ -21,18 +21,17 @@
         <li class="name">
           <h1><a href="#">Save22.com.ph</a></h1>
         </li>
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        <li class="toggle-topbar menu-icon"><a href="#" class="header-cat-link"><span></span></a></li>
+        <li class="toggle-topbar search-icon"><a href="#" class="search-link"><span class="icon"></span></a></li>
       </ul>
 
       <section class="top-bar-section">
-        <!-- Left Nav Section -->
         <ul class="left">
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="#" id="header-cat-link">Categories</a>
+          <li class="has-dropdown"><a href="#" class="header-cat-link text-link">Categories</a>
           </li>
           <li class="divider"></li>
-          <li class="has-form search">
+          <li class="has-form search mobile-hide">
             <form>
               <div class="row collapse wide">
                 <div class="small-8 columns">
@@ -47,6 +46,20 @@
         </ul>
       </section>
     </nav>
+
+    <section class="mobile-search mobile-only hide">
+      <form>
+        <div class="row collapse">
+          <div class="small-8 columns">
+            <input type="search" placeholder="Search for promos, items, prices, or stores">
+          </div>
+          <div class="small-4 columns">
+            <a href="#" class="button">Search</a>
+          </div>
+        </div>
+      </form>
+    </section>
+
     <nav class="all-category-links hide">
       <ul class="small-block-grid-1 large-block-grid-4">
         <li><a href="#">Optical Shop</a></li>

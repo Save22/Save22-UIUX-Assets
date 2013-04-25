@@ -25,7 +25,8 @@ $(window).load(function(){
 
   least_height('#catalog-carousel .thumb img', '#catalog-carousel .thumb img');
 
-  show_hide('#header-cat-link', '.all-category-links');
+  show_hide('.header-cat-link', '.all-category-links');
+  show_hide('.search-link', '.mobile-search');
 
 });
 

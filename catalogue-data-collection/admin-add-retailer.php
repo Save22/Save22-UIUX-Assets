@@ -146,29 +146,9 @@
 
           <h3>Add Branches</h3>
 
-          <fieldset class="add-branch">
+          <?php include('widgets/branches-list-add.php'); ?>
 
-            <div class="row">
-              <div class="small-3 columns">
-                <label for="retailer-branch-title" class="right inline">Title</label>
-              </div>
-              <div class="small-9 columns">
-                <input type="text" name="retailer-branch-title" placeholder="Name of Branch">
-              </div>
-            </div><!-- row -->
-
-            <div class="row">
-              <div class="small-3 columns">
-                <label for="retailer-branch-loc" class="right inline">Location</label>
-              </div>
-              <div class="small-9 columns">
-                <input type="text" name="retailer-branch-loc" placeholder="Address">
-              </div>
-            </div><!-- row -->
-
-          </fieldset>
-
-          <a href="#" class="button small secondary">Add another branch</a>
+          <a href="#" class="button secondary" data-reveal-id="addBranch">Add A New Branch</a>
 
           <hr>
 
@@ -184,22 +164,6 @@
     </div>
   </div>
   
-
-
-  <!-- JS FOR CALENDAR -->
-  <script src="js/pikaday.js"></script>
-  <script>
-
-    var picker = new Pikaday(
-    {
-        field: document.getElementById('datepicker'),
-        format: 'D MMM YYYY',
-        firstDay: 1,
-        minDate: new Date('2000-01-01'),
-        maxDate: new Date('2020-12-31'),
-        yearRange: [2000,2020]
-    });
-
-  </script>
+  <?php include('widgets/modal-add-branch.php'); ?>
 
 <?php include('footer.php'); ?>

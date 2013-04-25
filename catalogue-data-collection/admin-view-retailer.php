@@ -157,35 +157,31 @@
         <section>
           <p class="title" data-section-title><a href="#branches">Branches</a></p>
           <div class="content" data-section-content data-slug="branches">
+            <h3>View Branches</h3>
+
             <form>
-
-              <h3>View Branches</h3>
-
-              <fieldset class="add-branch">
-
-                <div class="row">
-                  <div class="small-3 columns">
-                    <label for="retailer-branch-title" class="right inline">Title</label>
+              <div class="row">
+                <div class="large-8 columns">
+                  <div class="row collapse">
+                    <div class="small-10 columns">
+                      <input type="text" placeholder="Find branch by location">
+                    </div>
+                    <div class="small-2 columns">
+                      <a href="#" class="button prefix">Search</a>
+                    </div>
                   </div>
-                  <div class="small-9 columns">
-                    <input type="text" name="retailer-branch-title" placeholder="Name of Branch">
-                  </div>
-                </div><!-- row -->
-
-                <div class="row">
-                  <div class="small-3 columns">
-                    <label for="retailer-branch-loc" class="right inline">Location</label>
-                  </div>
-                  <div class="small-9 columns">
-                    <input type="text" name="retailer-branch-loc" placeholder="Address">
-                  </div>
-                </div><!-- row -->
-
-              </fieldset>
-
-              <a href="#" class="button small secondary">Add another branch</a>
-
+                </div>
+                <div class="large-4 columns">
+                  <a href="#" class="small button" style="float: right;" data-reveal-id="addBranch">Add a Branch</a>
+                </div>
+              </div>
             </form>
+
+
+            <?php include('widgets/branches-list.php'); ?>
+
+           <a href="#" class="button secondary" data-reveal-id="addBranch">Add A New Branch</a>
+
           </div>
         </section>
       </div>
@@ -194,22 +190,21 @@
     </div>
   </div>
   
-
-
-  <!-- JS FOR CALENDAR -->
-  <script src="js/pikaday.js"></script>
-  <script>
-
-    var picker = new Pikaday(
-    {
-        field: document.getElementById('datepicker'),
-        format: 'D MMM YYYY',
-        firstDay: 1,
-        minDate: new Date('2000-01-01'),
-        maxDate: new Date('2020-12-31'),
-        yearRange: [2000,2020]
-    });
-
-  </script>
-
+  <?php include('widgets/modal-add-branch.php'); ?>
+  
+  <div id="deleteModal" class="reveal-modal medium">
+    <a class="close-reveal-modal">&#215;</a>
+    <h2>Delete this Branch?</h2>
+    <p class="lead">You are deleting: <strong>SM Hypermart</strong></p>
+    <p>This action cannot be undone!</p>
+    <div class="row">
+      <div class="small-6 columns">
+        <a href="#" class="button expand">Delete!</a>
+      </div>
+      <div class="small-6 columns">
+        <a href="#" class="button alert expand close-reveal-modal">Cancel</a>
+      </div>
+    </div>
+  </div>
+  
 <?php include('footer.php'); ?>

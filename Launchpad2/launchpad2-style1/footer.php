@@ -55,11 +55,11 @@
   <script src="js/foundation/foundation.reveal.js"></script>
   <script src="js/foundation/foundation.section.js"></script>
   <script src="js/foundation/foundation.tooltips.js"></script>
-  <script src="js/foundation/foundation.topbar.js"></script>
   <script src="js/foundation/foundation.joyride.js"></script>
   <!-- 
   <script src="js/foundation/foundation.clearing.js"></script>
   <script src="js/foundation/foundation.magellan.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
   -->
 
   <script src="js/jquery.caroufredsel.min.js"></script>
