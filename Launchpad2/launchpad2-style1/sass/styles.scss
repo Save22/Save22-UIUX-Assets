@@ -51,6 +51,22 @@
     &:hover { background: $base-color-dark; border-color: $base-color-dark; }
   }
 
+
+  .button-minor {
+    color: $base-color-dark;
+    font-weight: 700;
+    padding: emCalc(12px);
+    display: block;
+    border: 2px solid $base-color-dark;
+    margin-top: emCalc(12px);
+
+    &:hover {
+      text-decoration: none !important;
+      color: $base-color-red;
+      border-color: $base-color-red;
+    }
+  }
+
 /* ANIMATIONS */
 
 /* BORDERS */
@@ -137,6 +153,10 @@
       display: block;
       height: 100px;
     }
+  }
+
+  #branch-carousel {
+    .item { width: 250px; float: left; list-style-type: none; }
   }
 
   .promos-near {
@@ -319,20 +339,8 @@
   }
 
   .establishments {
-    .button-minor {
-      color: $base-color-dark;
-      font-weight: 700;
-      padding: emCalc(12px);
-      display: block;
-      border: 2px solid $base-color-dark;
-      margin-top: emCalc(12px);
 
-      &:hover {
-        text-decoration: none !important;
-        color: $base-color-red;
-        border-color: $base-color-red;
-      }
-    }
+    
 
     .label {
       background: none;
@@ -609,6 +617,24 @@
     }
   }
 
+  .location-form {
+    position: relative;
+
+    .location-suggestions {
+      position: absolute;
+      z-index: 2000;
+      top: 44px;
+      width: 300%;
+
+      li a { 
+        background: $base-color-blue-lighter;
+        font-weight: 300; color: $base-color-blue-darker; 
+        &:hover { background: $base-color-red; color: $base-color-light;  }
+      }
+
+    }
+  }
+
 /* FOOTER */
 
   #main-footer {
@@ -845,19 +871,19 @@
       label {font-weight: 700;  }
     }
 
-    label { margin: 0; }
+    label { margin: 0 12px 0 0; float: right; }
 
     li {
       list-style-type: none;
     }
 
     input[type=text] {
+      background: $border-light;
       border: 0;
       box-shadow: none;
       border-bottom: 4px solid $base-color-topbar;
-      margin-top: 13px;
-      padding-bottom: 21px;
-      padding-left: 0;
+      margin-top: 0;
+      padding: 20px 12px 21px 12px;
     }
   }
 

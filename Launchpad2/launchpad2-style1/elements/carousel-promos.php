@@ -58,7 +58,7 @@
             </a>
 
           </div>
-          <a href="#" id="carousel-prev" class="orbit-prev">Prev <span></span></a>
-          <a href="#" id="carousel-next" class="orbit-next">Next <span></span></a>
+          <a href="#" id="catalog-prev" class="orbit-prev">Prev <span></span></a>
+          <a href="#" id="catalog-next" class="orbit-next">Next <span></span></a>
 
         </div>

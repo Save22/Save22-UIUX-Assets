@@ -1,7 +1,7 @@
 
         <div class="promos-brands orbit-container">
 
-          <div id="brands-carousel" class="gallery-carousel">
+          <div id="brand-carousel" class="gallery-carousel">
             
             <a href="#retailer-page" class="item">
               <div class="cat-item">
@@ -42,7 +42,7 @@
 
 
           </div>
-          <a href="#" id="carousel-prev" class="orbit-prev">Prev <span></span></a>
-          <a href="#" id="carousel-next" class="orbit-next">Next <span></span></a>
+          <a href="#" id="brand-prev" class="orbit-prev">Prev <span></span></a>
+          <a href="#" id="brand-next" class="orbit-next">Next <span></span></a>
 
         </div>

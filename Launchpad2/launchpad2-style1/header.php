@@ -93,19 +93,32 @@
   <div class="home-intro row main-row">
     <section class="top-bar-section">
       <ul>
-        <li class="copy desktop-only"><label class="inline" for="header-location">Discover the best deals in town.</label></li>
+        <li class="copy desktop-only"><label class="inline loc-suggestions-trigger" for="header-location">Discover the best deals in town.</label></li>
           <li class="has-form location-search">
             <form>
               <div class="row collapse">
                 <div class="small-3 large-6 columns">
-                  <label class="inline" for="header-location">You're browsing at</label>
+                  <label class="inline loc-suggestions-trigger" for="header-location">You're browsing at</label>
                 </div>
-                <div class="small-9 large-6 columns">
+                <div class="small-9 large-6 columns location-form">
                   <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
-                </div>
-              </div>
+
+                  <nav class="location-suggestions hide">
+                    <ul class="">
+                      <li><a href="#">Cainta</a></li>
+                      <li><a href="#">Mandaluyong</a></li>
+                      <li><a href="#">Makati</a></li>
+                      <li><a href="#">Manila</a></li>
+                      <li><a href="#">Ortigas</a></li>
+                      <li><a href="#">Parañaque</a></li>
+                      <li><a href="#">Pasig</a></li>
+                      <li><a href="#">Taguig</a></li>
+                    </ul>
+                  </nav>
+                </div><!-- col -->
+              </div><!-- rows -->
             </form>
-          </li>
+          </li><!-- loc search -->
       </ul>
     </section>
   </div>

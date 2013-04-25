@@ -36,14 +36,22 @@
 
             </div>
             <div class="small-12 large-4 columns">
-              <a href="#" class="store-link">
-                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-              </a>
-              <p>
-                <strong>Nearest branch: 3.6km</strong><br>
-                Abenson Ortigas Ave.<br>
-                <a href="#">Store details &amp; operating hours</a>
-              </p>
+
+              <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+              <div class="mobile-shop-info mobile-hide">
+                
+                <a href="#" class="store-link">
+                  <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+                </a>
+                <p>
+                  <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
+                  Abenson Ortigas Ave.<br>
+                  <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
+                </p>
+
+              </div>
+
             </div>
           </div>
 
@@ -65,14 +73,22 @@
 
             </div>
             <div class="small-12 large-4 columns">
-              <a href="#" class="store-link">
-                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-              </a>
-              <p>
-                <strong>Nearest branch: 3.6km</strong><br>
-                Abenson Ortigas Ave.<br>
-                <a href="#">Store details &amp; operating hours</a>
-              </p>
+
+              <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+              <div class="mobile-shop-info mobile-hide">
+                
+                <a href="#" class="store-link">
+                  <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+                </a>
+                <p>
+                  <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
+                  Abenson Ortigas Ave.<br>
+                  <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
+                </p>
+
+              </div>
+
             </div>
           </div>
 
@@ -94,14 +110,22 @@
 
             </div>
             <div class="small-12 large-4 columns">
-              <a href="#" class="store-link">
-                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-              </a>
-              <p>
-                <strong>Nearest branch: 3.6km</strong><br>
-                Abenson Ortigas Ave.<br>
-                <a href="#">Store details &amp; operating hours</a>
-              </p>
+
+              <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+              <div class="mobile-shop-info mobile-hide">
+                
+                <a href="#" class="store-link">
+                  <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+                </a>
+                <p>
+                  <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
+                  Abenson Ortigas Ave.<br>
+                  <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
+                </p>
+
+              </div>
+
             </div>
           </div>
 
@@ -123,14 +147,22 @@
 
             </div>
             <div class="small-12 large-4 columns">
-              <a href="#" class="store-link">
-                <img src="img/retailer-abenson.jpg" alt="Retailer Name">
-              </a>
-              <p>
-                <strong>Nearest branch: 3.6km</strong><br>
-                Abenson Ortigas Ave.<br>
-                <a href="#">Store details &amp; operating hours</a>
-              </p>
+
+              <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+              <div class="mobile-shop-info mobile-hide">
+                
+                <a href="#" class="store-link">
+                  <img src="img/retailer-abenson.jpg" alt="Retailer Name">
+                </a>
+                <p>
+                  <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
+                  Abenson Ortigas Ave.<br>
+                  <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
+                </p>
+
+              </div>
+
             </div>
           </div>
 
