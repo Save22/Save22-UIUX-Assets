@@ -79,9 +79,9 @@
             if ($expedition.data("magellan-fixed-position") != fixed_position) {
               $expedition.data("magellan-fixed-position", fixed_position);
               if (fixed_position) {
-                $expedition.css({position:"fixed", top:0}).addClass('mfixed');
+                $expedition.css({position:"fixed", top:0});
               } else {
-                $expedition.css({position:"", top:""}).removeClass('mfixed');
+                $expedition.css({position:"", top:""});
               }
               if (fixed_position && typeof attr != 'undefined' && attr != false) {
                 $expedition.css({position:"fixed", top:attr + "px"});

@@ -67,7 +67,7 @@
           <h2 class="main-header">Shopwise in Ortigas</h2>
         </header>
 
-        <div class="section-container auto" data-section data-options="deep_linking: true, one_up: false">
+        <div class="section-container auto" data-section>
           <section class="section">
             <p class="title"><a href="#promos">Promotions</a></p>
             <div class="content">
@@ -87,15 +87,21 @@
 
                 </div>
                 <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong> 
-                    <span class="map-link"><a href="#">[map]</a></span><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches</a><br>
-                  </p>
+                  
+                  <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+                  <section class="mobile-shop-info mobile-hide">
+                    <a href="#" class="store-link">
+                      <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
+                    </a>
+                    <p>
+                      <strong>Nearest branch: 3.6km</strong> 
+                      <span class="map-link"><a href="#">[map]</a></span><br>
+                      Abenson Ortigas Ave.<br>
+                      <a href="#">All branches &rarr;</a><br>
+                    </p>
+                  </section>
+
                 </div>
               </div>
 
@@ -114,15 +120,21 @@
 
                 </div>
                 <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong>
-                    <span class="map-link"><a href="#">[map]</a></span><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
+
+                  <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+                  <section class="mobile-shop-info mobile-hide">
+                    <a href="#" class="store-link">
+                      <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
+                    </a>
+                    <p>
+                      <strong>Nearest branch: 3.6km</strong> 
+                      <span class="map-link"><a href="#">[map]</a></span><br>
+                      Abenson Ortigas Ave.<br>
+                      <a href="#">All branches &rarr;</a><br>
+                    </p>
+                  </section>
+                  
                 </div>
               </div>
 
@@ -141,15 +153,21 @@
 
                 </div>
                 <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong>
-                    <span class="map-link"><a href="#">[map]</a></span><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
+
+                  <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+                  <section class="mobile-shop-info mobile-hide">
+                    <a href="#" class="store-link">
+                      <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
+                    </a>
+                    <p>
+                      <strong>Nearest branch: 3.6km</strong> 
+                      <span class="map-link"><a href="#">[map]</a></span><br>
+                      Abenson Ortigas Ave.<br>
+                      <a href="#">All branches &rarr;</a><br>
+                    </p>
+                  </section>
+                  
                 </div>
               </div>
 
@@ -168,15 +186,21 @@
 
                 </div>
                 <div class="small-12 large-4 columns">
-                  <a href="#" class="store-link">
-                    <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
-                  </a>
-                  <p>
-                    <strong>Nearest branch: 3.6km</strong>
-                    <span class="map-link"><a href="#">[map]</a></span><br>
-                    Abenson Ortigas Ave.<br>
-                    <a href="#">All branches &rarr;</a><br>
-                  </p>
+
+                  <a href="#" class="mobile-only view-shop-info drop-down">View Shop Info <span class="arrow arrow-down"></span></a>
+
+                  <section class="mobile-shop-info mobile-hide">
+                    <a href="#" class="store-link">
+                      <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
+                    </a>
+                    <p>
+                      <strong>Nearest branch: 3.6km</strong> 
+                      <span class="map-link"><a href="#">[map]</a></span><br>
+                      Abenson Ortigas Ave.<br>
+                      <a href="#">All branches &rarr;</a><br>
+                    </p>
+                  </section>
+                  
                 </div>
               </div>
 
@@ -185,7 +209,7 @@
             </div><!-- content -->
           </section>
           <section class="section">
-            <p class="title"><a href="#branches">Branches</a></p>
+            <p class="title"><a href="#branches">Other <strong>Shopwise</strong> Branches</a></p>
             <div class="content establishments">
 
               <?php include('elements/results-stores.php'); ?>
@@ -205,8 +229,11 @@
 
       <section class="section results">
         <h2 class="main-header">Other Stores in Ortigas</h2>
-        <div class="content establishments">
-        <?php include('elements/results-stores.php'); ?>
+
+        <a href="#" class="mobile-only view-establishment-list drop-down">View Stores <span class="arrow arrow-down"></span></a>
+
+        <div class="content establishments single-content mobile-hide establishment-list">
+          <?php include('elements/results-stores-grid.php'); ?>
         </div>
       </section>
 

@@ -28,6 +28,10 @@ $(window).load(function(){
   show_hide('.header-cat-link', '.all-category-links');
   show_hide('.search-link', '.mobile-search');
 
+  mobile_dropdown('.view-shop-info', '.mobile-shop-info');
+
+  mobile_dropdown('.view-establishment-list', '.establishment-list');
+
 });
 
 function same_height(container) {
@@ -78,4 +82,23 @@ function show_hide(link, container) {
     event.preventDefault();
   });
 
+}
+
+function mobile_dropdown(link, container) {
+
+  $(link).each(function(){
+
+    $(this).click(function(){
+      var content = $(this).next(container);
+
+      if(content.hasClass('mobile-hide')) {
+        $(content).slideDown().removeClass('mobile-hide');
+      }
+      else {
+        $(content).slideUp().addClass('mobile-hide');
+      }
+      event.preventDefault();
+    });
+
+  });
 }
