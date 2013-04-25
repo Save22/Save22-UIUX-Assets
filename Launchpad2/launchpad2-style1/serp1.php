@@ -146,7 +146,7 @@
             <p class="title"><a href="#panel2">Stores</a></p>
             <div class="content establishments">
 
-              <?php include_once('elements/results-stores.php'); ?>
+              <?php include_once('elements/results-stores-grid.php'); ?>
               
             </div>
           </section>
