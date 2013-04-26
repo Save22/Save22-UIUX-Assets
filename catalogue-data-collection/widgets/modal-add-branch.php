@@ -21,25 +21,16 @@
           <label for="retailer-branch-address" class="right inline">Address</label>
         </div>
         <div class="small-9 columns">
-          <input type="text" name="retailer-branch-address" placeholder="Address">
+          <input type="text" name="retailer-branch-address" placeholder="Address" id="branch-address">
         </div>
       </div><!-- row -->
 
       <div class="row">
         <div class="small-3 columns">
-          <label for="retailer-branch-long" class="right inline">Longtitude</label>
+          <label for="retailer-branch-lnglat" class="right inline">Longitude/Latitude</label>
         </div>
         <div class="small-9 columns">
-          <input type="text" name="retailer-branch-long" placeholder="Longtitude">
-        </div>
-      </div><!-- row -->
-
-      <div class="row">
-        <div class="small-3 columns">
-          <label for="retailer-branch-lat" class="right inline">Latitude</label>
-        </div>
-        <div class="small-9 columns">
-          <input type="text" name="retailer-branch-lat" placeholder="Latitude">
+          <input type="text" id="branchlnglat" class="lnglat" placeholder="Longitude, Latitude">
         </div>
       </div><!-- row -->
 
@@ -121,3 +112,4 @@
 
 
   </div>
+
