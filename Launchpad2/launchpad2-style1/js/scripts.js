@@ -38,6 +38,14 @@ $(window).load(function(){
       next: '#branch-next'
     });
 
+    $('#store-carousel').carouFredSel({
+      auto: false,
+      width: '100%',
+      height: 'auto',
+      prev: '#store-prev',
+      next: '#store-next'
+    });
+
   // $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
 
 /* featured prodcuts - same height for each item */
@@ -148,7 +156,7 @@ function loc_suggestions() {
     $(this).click(function(){
       var option = $(this).text();
       input_form.val(option);
-      
+
       event.preventDefault();
     });
   });

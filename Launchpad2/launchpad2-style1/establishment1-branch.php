@@ -229,12 +229,7 @@
 
       <section class="section results">
         <h2 class="main-header">Other Stores in Ortigas</h2>
-
-        <a href="#" class="mobile-only view-establishment-list drop-down">View Stores <span class="arrow arrow-down"></span></a>
-
-        <div class="content establishments single-content mobile-hide establishment-list">
-          <?php include('elements/results-stores-grid.php'); ?>
-        </div>
+          <?php include('elements/carousel-stores-loc.php'); ?>
       </section>
 
       <?php include('elements/footerlinks-establishment-prodcat.php');?>

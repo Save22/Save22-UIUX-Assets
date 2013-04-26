@@ -155,8 +155,15 @@
     }
   }
 
-  #branch-carousel {
+  #branch-carousel, #store-carousel {
     .item { width: 250px; float: left; list-style-type: none; }
+  }
+
+  #store-carousel {
+    img {
+      width: 100%;
+      max-width: none;
+    }
   }
 
   .promos-near {
