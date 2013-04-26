@@ -16,7 +16,7 @@
           <h2 class="main-header">Cellphones in Ortigas - 7 promos match</h2>
         </header>
 
-        <div class="content results category-list results results-list">
+        <div class="content results no-tab results results-list">
 
           <div class="row item">
             <div class="small-12 large-3 columns">

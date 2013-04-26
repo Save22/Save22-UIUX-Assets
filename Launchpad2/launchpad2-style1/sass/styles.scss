@@ -59,6 +59,7 @@
     display: block;
     border: 2px solid $base-color-dark;
     margin-top: emCalc(12px);
+    font-size: emCalc(12px);
 
     &:hover {
       text-decoration: none !important;
@@ -419,7 +420,7 @@
 
   }
 
-  .category-list {
+  .no-tab {
     padding: emCalc(15px);
   }
 
@@ -835,16 +836,17 @@
       top: 50%;
       margin-top: -10px;
     }
-  }
 
-  #sidebar-categories {
-    li { 
-      background: $border-light; 
-      border-color: $base-color-neutral;
-      border-left: 5px solid $base-color-neutral;
+    &.panel-links {
+      li { 
+        background: $border-light; 
+        border-color: $base-color-neutral;
+        border-left: 5px solid $base-color-neutral;
+      }
+      li:hover { background: $base-color-light; }
+      a { color: $base-color-dark; }
     }
-    li:hover { background: $base-color-light; }
-    a { color: $base-color-dark; }
+
   }
 
 /* NAVS */
@@ -1045,4 +1047,5 @@
   .store-link {
     display: block;
     margin-bottom: emCalc(24px);
+    img { max-width: 180px; }
   }

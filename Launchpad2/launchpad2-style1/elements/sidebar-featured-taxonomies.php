@@ -1,5 +1,5 @@
     
-        <nav id="sidebar-categories" class="list-links">
+        <nav id="sidebar-categories" class="list-links panel-links">
           <h2 class="sidebar-header">Things to Shop</h2>
           <ul class="quick-categories">
             <li><a href="#">Babies</a></li>

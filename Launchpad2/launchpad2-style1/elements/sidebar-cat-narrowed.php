@@ -1,11 +1,10 @@
-
-      <section class="section panel">
-        <h2>Narrow down to</h2>
-        <ul class="inline-list">
-          <li><a href="#">smartphones</a></li>
-          <li><a href="#">feature phones</a></li>
-          <li><a href="#">Link 3</a></li>
-          <li><a href="#">Link 4</a></li>
-          <li><a href="#">Link 5</a></li>
+  
+      <nav class="list-links panel-links">
+        <h2 class="sidebar-header">Narrow Down To</h2>
+        <ul class="quick-categories">
+          <li><a href="#">Smartphones</a></li>
+          <li><a href="#">Feature phones</a></li>
+          <li><a href="#">Samsung</a></li>
+          <li><a href="#">Apple</a></li>
         </ul>
-      </section>
+      </nav>
