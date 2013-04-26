@@ -123,6 +123,10 @@
     }
   }
 
+  .location {
+    color: $base-color-red;
+  }
+
 /* CAROUSELS */
 
   .gallery-carousel {
@@ -1016,7 +1020,7 @@
 
   .home-preview {
     background: #ededed;
-    margin: 0 0 -32px 0;
+    margin: 0;
     .cat-thumb {
       h4 { font-size: emCalc(16px);}
     }
