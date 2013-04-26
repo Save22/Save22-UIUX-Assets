@@ -10,7 +10,7 @@
   <div class="row home-featured main-row">
     <div class="small-12 large-9 columns">
 
-      <section class="section results search-results main-content">
+      <section class="section results search-results main-content results-list">
 
         <header>
           <h2 class="main-header">Supermarkets in Ortigas</h2>

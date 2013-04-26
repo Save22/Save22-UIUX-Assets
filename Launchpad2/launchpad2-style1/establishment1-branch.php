@@ -61,7 +61,7 @@
         </ul>
       </div>
 
-      <section class="section results search-results">
+      <section class="section results search-results results-list">
 
         <header>
           <h2 class="main-header">Shopwise in Ortigas</h2>

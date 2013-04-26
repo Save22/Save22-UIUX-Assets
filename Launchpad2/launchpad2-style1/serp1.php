@@ -10,7 +10,7 @@
   <div class="row main-row">
     <div class="small-12 large-9 columns">
 
-      <section class="section results search-results">
+      <section class="section results search-results results-list">
 
         <header>
           <h2 class="main-header">Samsung in Ortigas - 7 promos match</h2>

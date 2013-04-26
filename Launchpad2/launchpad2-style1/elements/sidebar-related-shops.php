@@ -2,7 +2,7 @@
       <section>
         <h2 class="sidebar-header">Related Stores</h2>
 
-        <a href="#" class="mobile-only view-establishment-list drop-down">View Related Stores <span class="arrow arrow-down"></span></a>
+        <a href="#" class="mobile-only view-establishment-list drop-down">View Stores <span class="arrow arrow-down"></span></a>
 
         <div class="mobile-hide establishment-list">
           <ul class="small-block-grid-1 large-block-grid-2 list-shops section">

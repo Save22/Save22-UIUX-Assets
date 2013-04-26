@@ -10,7 +10,7 @@
   <div class="row main-row">
     <div class="small-12 large-8 columns">
 
-      <section class="section results search-results">
+      <section class="section results search-results results-list">
 
         <header>
           <h2 class="main-header">Shopwise in Ortigas</h2>
