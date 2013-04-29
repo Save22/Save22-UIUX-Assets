@@ -66,6 +66,14 @@
       color: $base-color-red;
       border-color: $base-color-red;
     }
+
+    &.home-more {
+      font-size: emCalc(18px);
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 emCalc(24px) 0;
+      font-family: $secondary-font;
+    }
   }
 
 /* ANIMATIONS */
