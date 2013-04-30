@@ -72,7 +72,7 @@ function same_height(container) {
   var items_height = [];
 
   $(container).each(function() { 
-      items_height.push($(this).outerHeight());
+      items_height.push($(this).height());
   });
 
   var tallest_content = Math.max.apply( null, items_height );
