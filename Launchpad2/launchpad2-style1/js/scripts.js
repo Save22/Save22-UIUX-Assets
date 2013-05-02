@@ -1,9 +1,7 @@
 
-
-$(document).foundation();
+// $(document).foundation();
 
 $(window).load(function(){ 
-
   /* CAROUSELS */
 
     $('.gallery-carousel').carouFredSel({
@@ -48,24 +46,55 @@ $(window).load(function(){
 
   // $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
 
-/* featured prodcuts - same height for each item */
-
   same_height('.results-grid .thumb');
   same_height('.results-grid .cat-info');
   same_height('.featured-grid .thumb');
   same_height('.featured-grid .cat-info');
-
 
   least_height('#catalog-carousel .thumb img', '#catalog-carousel .thumb img');
 
   show_hide('.header-cat-link', '.all-category-links');
   show_hide('.search-link', '.mobile-search');
 
+  mobile_dropdown('.pull-down', '.pull-content');
   mobile_dropdown('.view-shop-info', '.mobile-shop-info');
-
   mobile_dropdown('.view-establishment-list', '.establishment-list');
 
   loc_suggestions();
+
+  copy_height('.page-button', '.magazine-container');
+
+  /* max height */
+
+    max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
+
+
+    var flipbook_sidebar_height_offset = 
+      $('#main-header').height() + $('.sidebar.info').height() + $('.sidebar.pages').height() + $('.sidebar.list-links').height();
+    max_height('.list-flip-related', flipbook_sidebar_height_offset);
+
+  var resizeTimer;
+  $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function(){
+        
+        copy_height('.page-button', '.magazine-container');
+
+        same_height('.results-grid .thumb');
+        same_height('.results-grid .cat-info');
+        same_height('.featured-grid .thumb');
+        same_height('.featured-grid .cat-info');
+
+        least_height('#catalog-carousel .thumb img', '#catalog-carousel .thumb img');
+
+        max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
+
+      }, 10);
+  });
+
+
+
+
 });
 
 function same_height(container) {
@@ -81,6 +110,12 @@ function same_height(container) {
       var item_height = $(this).parent().height();
       $(this).css('height', tallest_content);
   });
+}
+
+function copy_height(changing, original) {
+
+  var new_height = $(original).height();
+  $(changing).css('height', new_height);
 
 }
 
@@ -125,11 +160,11 @@ function mobile_dropdown(link, container) {
     $(this).click(function(){
       var content = $(this).next(container);
 
-      if(content.hasClass('mobile-hide')) {
-        $(content).slideDown().removeClass('mobile-hide');
+      if(content.hasClass('mobile-hide') || content.hasClass('hide')) {
+        $(content).removeClass('mobile-hide').removeClass('hide');
       }
       else {
-        $(content).slideUp().addClass('mobile-hide');
+        $(content).addClass('mobile-hide').addClass('hide');
       }
       event.preventDefault();
     });
@@ -160,5 +195,10 @@ function loc_suggestions() {
       event.preventDefault();
     });
   });
+}
+
+function max_height(container, other) {
+  var new_height = $(window).height() - other;
+  $(container).css('height', new_height);
 }
 

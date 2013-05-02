@@ -506,8 +506,6 @@
     }
   }
 
-
-
 /* HEADER */
   .top-bar {
     background: $base-color-topbar;
@@ -551,7 +549,7 @@
   #main-header .name {
     background: $base-color-red;
     h1 {
-      width: 123px;
+      width: 184px;
       height: 60px;
       overflow: hidden;
     }
@@ -559,7 +557,7 @@
       margin: 6px 15px;
       display: block;
       background: url('../img/save22-logo.png') 0 0 no-repeat;
-      background-size: 93px 30px;
+      background-size: 151px 30px;
       width: 100%;
       height: 100%;
       line-height: 0%;
@@ -696,7 +694,32 @@
     section {
       margin-bottom: emCalc(24px);
         > ul {
-        margin: 0;
+            margin: 0;
+        }
+    }
+
+    .list-flip-related {
+      height: 230px;
+      overflow: auto;
+
+    }
+
+    &.flipbook .sidebar-header{
+      font-size: emCalc(14px);
+      padding: emCalc(10px) emCalc(15px);
+      background: $border-light;
+      border-bottom: 1px solid $base-color-neutral;
+      border-top: 2px solid $base-color-neutral;
+      border-radius: 0;
+      
+      .arrow {
+        padding-right: emCalc(15px);
+        margin-top: 5px;
+      }
+      
+      .arrow:after {
+        background: $border-light;
+        border-top-color: $base-color-blue-darker !important;
       }
     }
 
@@ -739,6 +762,7 @@
         margin: 12px auto;
         max-height: 78px;
       }
+
     }
 
     .cat-thumb {
@@ -855,6 +879,12 @@
       }
       li:hover { background: $base-color-light; }
       a { color: $base-color-dark; }
+    }
+
+    &.flipbook li {
+      font-size: emCalc(12px);
+      padding: emCalc(5px) emCalc(15px);
+
     }
 
   }
@@ -1062,4 +1092,61 @@
     display: block;
     margin-bottom: emCalc(24px);
     img { max-width: 180px; }
+
+    &.flipbook {
+      margin: emCalc(12px) 0;
+    }
   }
+
+  .flipbook {
+    .quick-categories {
+      max-height: 120px;
+      overflow: auto;
+    }
+  }
+
+  .flipbook-container {
+    background: $border-light;
+  }
+
+  .page-numbers {
+    background: $base-color-blue-darker;
+    color: $base-color-light;
+    padding: emCalc(12px);
+    text-align: center;
+    font-family: $secondary-font;
+    font-size: emCalc(12px);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    .current-page {
+      background: $base-color-blue;
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: $border-radius;
+    }
+
+    a { color: $base-color-light; }
+  }
+
+  .flipbook-container {
+    position: relative;
+  }
+  .magazine-viewport {
+    position: absolute;
+  }
+  .page-button {
+    position: absolute;
+    width: 30px;
+    background: $base-color-neutral;
+    font-size: 0;
+  }
+  #flipbook-prev {
+    right: 0;
+  }
+
+  #flipbook-next {
+    left: 0;
+  }
+
+
