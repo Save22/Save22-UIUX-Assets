@@ -13,15 +13,18 @@
   <section class="home-preview">
     <div class="row main-row">
       <div class="small-12 large-9 columns">
-        <?php include('elements/loader.php'); ?>
         
-        <h3 class="sub-header">Brochures</h3>
-          <?php include('elements/grid-featured.php'); ?>
+        <div class="home-preview-content">
+          <?php include('elements/loader.php'); ?>
 
-          <a href="#category-link" class="button-minor home-more">view more</a>
+          <h3 class="sub-header">Brochures</h3>
+            <?php include('elements/grid-featured.php'); ?>
 
-        <h3 class="sub-header">Brands</h3>
-          <?php include('elements/carousel-brands.php'); ?>
+            <a href="#category-link" class="button-minor home-more">view more</a>
+
+          <h3 class="sub-header">Brands</h3>
+            <?php include('elements/carousel-brands.php'); ?>
+        </div>
 
       </div>
       <div class="small-12 large-3 columns">

@@ -3,7 +3,7 @@
           <h2 class="sidebar-header">Shops</h2>
           <ul class="quick-categories">
             <li class="active"><a href="#">View All</a></li>
-                <li><a href="#">Optical Shop</a></li>
+                <li><a href="elements/home-shops-optical.php">Optical Shop</a></li>
                 <li><a href="#">Department Store</a></li>
                 <li><a href="#">Electronics Store</a></li>
                 <li><a href="#">Apparel</a></li>

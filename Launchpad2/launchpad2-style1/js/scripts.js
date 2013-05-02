@@ -90,6 +90,13 @@ $(window).load(function(){
       }, 10);
   });
 
+  home_loader();
+
+  $('.home-preview-content').on('load', function(event) {
+    same_height('.featured-grid .thumb');
+    same_height('.featured-grid .cat-info');
+  });
+
 });
 
 function same_height(container) {
@@ -195,6 +202,29 @@ function loc_suggestions() {
 function max_height(container, other) {
   var new_height = $(window).height() - other;
   $(container).css('height', new_height);
+}
+
+function home_loader() {
+
+  $('#sidebar-establishments a').each(function(){
+    var loader_container = $('.home-preview-content');
+
+    $(this).click(function(){
+      var clicked_link = $(this).attr('href');
+
+      if (clicked_link = '#') {
+        event.preventDefault();
+      }
+      else {
+        alert('test');
+        $(loader_container).load(clicked_link);
+
+        event.preventDefault();
+      }
+
+    });
+
+  });
 }
 
 $(document).foundation();
