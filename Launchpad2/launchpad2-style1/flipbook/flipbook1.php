@@ -83,21 +83,6 @@
       <div class="magazine-viewport">
         <div class="magazine-container">
               <div class="magazine row" style="max-width: none;">
-                <div class="large-6 small-12 columns page-wrapper">
-                  <img src="pages/1.jpg" alt="">
-                </div>
-                <div class="large-6 small-12 columns page-wrapper">
-                  <img src="pages/2.jpg" alt="">
-                </div>
-                <div class="large-6 small-12 columns page-wrapper">
-                  <img src="pages/3.jpg" alt="">
-                </div>
-                <div class="large-6 small-12 columns page-wrapper">
-                  <img src="pages/4.jpg" alt="">
-                </div>
-                <div class="large-6 small-12 columns page-wrapper">
-                  <img src="pages/5.jpg" alt="">
-                </div>
 				<!-- Next button -->
 				<div ignore="1" class="next-button"></div>
 				<!-- Previous button -->
@@ -190,32 +175,35 @@ var turner;
 		    // The number of pages
 		    pages: 12,
 		    // Events
-		    when: {
-		        turning: function(event, page, view) {
-		            var book = $(this),
-		            currentPage = book.turn('page'),
-		            pages = book.turn('pages');
-		            // Update the current URI
-		            Hash.go('page/' + page).update();
-		            // Show and hide navigation buttons
-		            disableControls(page);
-		            $('.thumbnails .page-' + currentPage).parent().removeClass('current');
-		            $('.thumbnails .page-' + page).parent().addClass('current');
-		        },
-		        turned: function(event, page, view) {
-		            disableControls(page);
-		            $(this).turn('center');
-		            if (page == 1) {
-		                $(this).turn('peel', 'br');
-		            }
-		        },
-		        missing: function(event, pages) {
-		        	console.log(pages);
-		            // Add pages that aren't in the magazine
-		            for (var i = 0; i < pages.length; i++){};
-		                //addPage(pages[i], $(this));
-		        }
-		    }
+			when: {
+				turning: function(event, page, view) {
+					var book = $(this),
+					currentPage = book.turn('page'),
+					pages = book.turn('pages');
+					// Update the current URI
+					Hash.go('page/' + page).update();
+					// Show and hide navigation buttons
+					disableControls(page);
+					$('.thumbnails .page-'+currentPage).
+						parent().
+						removeClass('current');
+					$('.thumbnails .page-'+page).
+						parent().
+						addClass('current');
+				},
+				turned: function(event, page, view) {
+					disableControls(page);
+					$(this).turn('center');
+					if (page==1) { 
+						$(this).turn('peel', 'br');
+					}
+				},
+				missing: function (event, pages) {
+					// Add pages that aren't in the magazine
+					for (var i = 0; i < pages.length; i++)
+						addPage(pages[i], $(this));
+				}
+			}
 		});
 		
 		// Zoom.js
