@@ -10,9 +10,15 @@
   <link rel="stylesheet" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/app.css" />
   <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/magazine.css" />
   
   <script src="../js/vendor/custom.modernizr.js"></script>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="../js/jquery.caroufredsel.min.js"></script>
+  <script type="text/javascript" src="../js/turn.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
+  <script type="text/javascript" src="../js/hash.js"></script>
+  <script src="../js/scripts.js"></script>
   <style type="text/css">
   body{
     background:#fdfdfd;
@@ -73,27 +79,31 @@
 
       <div class="magazine-viewport">
         <div class="magazine-container">
-          <div class="magazine">
-
-              <div class="row" style="max-width: none;">
-
+              <div class="magazine row" style="max-width: none;">
                 <div class="large-6 small-12 columns page-wrapper">
                   <img src="pages/01.jpg" alt="">
                 </div>
-
                 <div class="large-6 small-12 columns page-wrapper">
                   <img src="pages/02.jpg" alt="">
                 </div>
-
+                <div class="large-6 small-12 columns page-wrapper">
+                  <img src="pages/03.jpg" alt="">
+                </div>
+                <div class="large-6 small-12 columns page-wrapper">
+                  <img src="pages/04.jpg" alt="">
+                </div>
+				<!-- Next button -->
+				<div ignore="1" class="next-button"></div>
+				<!-- Previous button -->
+				<div ignore="1" class="previous-button"></div>
               </div>
-          </div> <!-- magazine -->
         </div><!-- container -->
 
         <div class="row">
           <div class="page-numbers">
             <span class="current-page">Page 1-2</span> of 9
-            <a href="#" ignore="1" class="left prev-button">Previous</a>
-            <a href="#" ignore="1" class="right next-button">Next</a>
+            <a href="#" ignore="1" class="left prev-button2">Previous</a>
+            <a href="#" ignore="1" class="right next-button2">Next</a>
           </div>
         </div>
 
@@ -123,7 +133,6 @@
         <p>
           <img src="pages/01.jpg" style="height: 100px;">
         </p>
-
       </section>
 
       <section class="sidebar flipbook list-links panel-links">
@@ -149,21 +158,45 @@
         <a href="#" class="pull-down">
           <h3 class="sidebar-header">Related Catalogs <span class="arrow-down right arrow"></span></h3>
         </a>
-        <div class="pull-content hide">
+        <div class="pull-content">
           <?php include('../elements/carousel-promos-flipbook.php'); ?>
         </div>
       </section>
     </div>
   </div>
-
-
-
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="../js/jquery.caroufredsel.min.js"></script>
-  <script type="text/javascript" src="../js/turn.min.js"></script>
-  <script src="../js/scripts.js"></script>
-  
-
 </body>
+<script type="text/javascript">
+    $(document).ready(function() {
+    	var turner = $('.magazine').turn({
+			// Magazine width
+			width: 720,
+			// Magazine height
+			height: 400,
+			// Elevation will move the peeling corner this number of pixels by default
+			elevation: 50,
+			// Enables gradients
+			gradients: true,
+			// Auto center this flipbook
+			autoCenter: true,
+			// The number of pages
+			pages: 12,
+			// events
+			when: {
+				turned: function(event, page, view){
+					setCurrentPage(page)
+				}
+			}
+		});
+		$('.prev-button2').click(function() {
+			turner.turn('previous');
+		});
+		$('.next-button2').click(function() {
+			turner.turn('next');
+		});
+    });
+    
+    function setCurrentPage(currentPage){
+    	$('.current-page').html(currentPage);
+    }
+</script>
 </html>
