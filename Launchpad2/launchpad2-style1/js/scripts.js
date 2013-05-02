@@ -1,6 +1,4 @@
 
-// $(document).foundation();
-
 $(window).load(function(){ 
   /* CAROUSELS */
 
@@ -91,9 +89,6 @@ $(window).load(function(){
 
       }, 10);
   });
-
-
-
 
 });
 
@@ -202,3 +197,4 @@ function max_height(container, other) {
   $(container).css('height', new_height);
 }
 
+$(document).foundation();

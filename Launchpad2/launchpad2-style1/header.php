@@ -122,7 +122,7 @@
           </li><!-- loc search -->
       </ul>
     </section>
-  </div>f
+  </div>
 
 </head>
 <body>
