@@ -41,84 +41,50 @@
 
 	// Create the flipbook
 	$('.magazine').turn({
-			
 			// Magazine width
-
 			//width: 1500,
-			width: 800,
+			width: 1500,
 			// Magazine height
-
 			//height: 800,
-			height: 400,
+			height: 800,
 			// Elevation will move the peeling corner this number of pixels by default
-
 			elevation: 50,
-			
 			// Hardware acceleration
-
 			acceleration: !isChrome(),
-
 			// Enables gradients
-
 			gradients: true,
-			
 			// Auto center this flipbook
-
 			autoCenter: true,
-
 			// The number of pages
-
 			pages: 12,
-			
 			// Events
 			when: {
-
 			turning: function(event, page, view) {
-				
 				var book = $(this),
 				currentPage = book.turn('page'),
 				pages = book.turn('pages');
-		
 				// Update the current URI
-
 				Hash.go('page/' + page).update();
-
 				// Show and hide navigation buttons
-
 				disableControls(page);
-				
-
 				$('.thumbnails .page-'+currentPage).
 					parent().
 					removeClass('current');
-
 				$('.thumbnails .page-'+page).
 					parent().
 					addClass('current');
-
-
-
 			},
-
 			turned: function(event, page, view) {
-
 				disableControls(page);
-
 				$(this).turn('center');
-
 				if (page==1) { 
 					$(this).turn('peel', 'br');
 				}
-
 			},
-
 			missing: function (event, pages) {
-
 				// Add pages that aren't in the magazine
-
 				for (var i = 0; i < pages.length; i++)
 					addPage(pages[i], $(this));
-
 			}
 		}
 	});
