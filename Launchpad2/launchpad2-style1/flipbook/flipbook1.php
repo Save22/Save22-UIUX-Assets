@@ -276,31 +276,23 @@ var turner;
 		
 		// Using arrow keys to turn the page
 		$(document).keydown(function(e) {
-		
 		    var previous = 37,
 		    next = 39,
 		    esc = 27;
-		
 		    switch (e.keyCode) {
 		    case previous:
-		
 		        // left arrow
 		        $('.magazine').turn('previous');
 		        e.preventDefault();
-		
 		        break;
 		    case next:
-		
 		        //right arrow
 		        $('.magazine').turn('next');
 		        e.preventDefault();
-		
 		        break;
 		    case esc:
-		
 		        $('.magazine-viewport').zoom('zoomOut');
 		        e.preventDefault();
-		
 		        break;
 		    }
 		});
@@ -309,15 +301,12 @@ var turner;
 		Hash.on('^page\/([0-9]*)$', {
 		    yep: function(path, parts) {
 		        var page = parts[1];
-		
 		        if (page !== undefined) {
 		            if ($('.magazine').turn('is'))
 		                $('.magazine').turn('page', page);
 		        }
-		
 		    },
 		    nop: function(path) {
-		
 		        if ($('.magazine').turn('is'))
 		            $('.magazine').turn('page', 1);
 		    }
@@ -364,58 +353,6 @@ var turner;
 		
 		
 	});
-</script>
-<script type="text/javascript">
-		// Regions
-
-	$(document).keydown(function(e){
-
-		var previous = 37, next = 39, esc = 27;
-
-		switch (e.keyCode) {
-			case previous:
-				// left arrow
-				$('.magazine').turn('previous');
-				e.preventDefault();
-			break;
-			case next:
-				//right arrow
-				$('.magazine').turn('next');
-				e.preventDefault();
-			break;
-			case esc:
-				$('.magazine-viewport').zoom('zoomOut');	
-				e.preventDefault();
-			break;
-		}
-	});
-	
-	if ($.isTouch) {
-		$('.magazine').bind('touchstart', regionClick);
-	} else {
-		$('.magazine').click(regionClick);
-	}
-
-	// Events for the next button
-	$('.next-button').bind('mouseenter', function() {
-		$(this).addClass('next-button-hover');
-	}).bind('mouseleave', function() {
-		$(this).removeClass('next-button-hover');
-	}).click(function() {
-		$('.magazine').turn('next');
-	});
-
-	// Events for the next button
-	
-	$('.previous-button').bind('mouseenter', function() {
-		$(this).addClass('previous-button-hover');
-	}).bind('mouseleave', function() {
-		$(this).removeClass('previous-button-hover');
-	}).click(function() {
-		$('.magazine').turn('previous');
-	});
-
-	
 </script>
 <script type="text/javascript">
 	$(document).ready(function() {
