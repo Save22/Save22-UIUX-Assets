@@ -1270,15 +1270,16 @@ body {
 
 /* line 1061, ../sass/styles.scss */
 .home-preview {
+  position: relative;
   background: #ededed;
   margin: 0;
 }
-/* line 1065, ../sass/styles.scss */
+/* line 1066, ../sass/styles.scss */
 .home-preview .cat-thumb h4 {
   font-size: 1em;
 }
 
-/* line 1069, ../sass/styles.scss */
+/* line 1070, ../sass/styles.scss */
 .home-new {
   background: #fff;
   padding: 1.5em 0;
@@ -1288,43 +1289,43 @@ body {
 }
 
 /* CATEGORY PAGE */
-/* line 1079, ../sass/styles.scss */
+/* line 1080, ../sass/styles.scss */
 .category-page {
   margin-bottom: 24px;
 }
 
 /* OTHER PAGES */
-/* line 1086, ../sass/styles.scss */
+/* line 1087, ../sass/styles.scss */
 .list-promotions h2 {
   font-size: 1.125em;
 }
 
-/* line 1091, ../sass/styles.scss */
+/* line 1092, ../sass/styles.scss */
 .store-link {
   display: block;
   margin-bottom: 1.5em;
 }
-/* line 1094, ../sass/styles.scss */
+/* line 1095, ../sass/styles.scss */
 .store-link img {
   max-width: 180px;
 }
-/* line 1096, ../sass/styles.scss */
+/* line 1097, ../sass/styles.scss */
 .store-link.flipbook {
   margin: 0.75em 0;
 }
 
-/* line 1102, ../sass/styles.scss */
+/* line 1103, ../sass/styles.scss */
 .flipbook .quick-categories {
   max-height: 120px;
   overflow: auto;
 }
 
-/* line 1108, ../sass/styles.scss */
+/* line 1109, ../sass/styles.scss */
 .flipbook-container {
   background: #ededed;
 }
 
-/* line 1112, ../sass/styles.scss */
+/* line 1113, ../sass/styles.scss */
 .page-numbers {
   background: #1c3755;
   color: white;
@@ -1335,29 +1336,29 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 1122, ../sass/styles.scss */
+/* line 1123, ../sass/styles.scss */
 .page-numbers .current-page {
   background: #2c6289;
   display: inline-block;
   padding: 4px 12px;
   border-radius: 6px;
 }
-/* line 1129, ../sass/styles.scss */
+/* line 1130, ../sass/styles.scss */
 .page-numbers a {
   color: white;
 }
 
-/* line 1132, ../sass/styles.scss */
+/* line 1133, ../sass/styles.scss */
 .flipbook-container {
   position: relative;
 }
 
-/* line 1135, ../sass/styles.scss */
+/* line 1136, ../sass/styles.scss */
 .magazine-viewport {
   position: absolute;
 }
 
-/* line 1138, ../sass/styles.scss */
+/* line 1139, ../sass/styles.scss */
 .page-button {
   position: absolute;
   width: 30px;
@@ -1365,12 +1366,38 @@ body {
   font-size: 0;
 }
 
-/* line 1144, ../sass/styles.scss */
+/* line 1145, ../sass/styles.scss */
 #flipbook-prev {
   right: 0;
 }
 
-/* line 1148, ../sass/styles.scss */
+/* line 1149, ../sass/styles.scss */
 #flipbook-next {
   left: 0;
+}
+
+/* LOADER */
+/* line 1155, ../sass/styles.scss */
+.loader-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 1163, ../sass/styles.scss */
+.loader-container .loader {
+  padding: 1.5em;
+  color: white;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif, helvetica;
+}
+/* line 1173, ../sass/styles.scss */
+.loader-container img {
+  border-radius: 50%;
 }
