@@ -10,6 +10,7 @@
                   <h2><a href="establishment1.php">City 1</a></h2>
                   <p>
                     <span class="address">Address of branch</span><br>
+                    <span class="address">Address of branch</span><br>
                     <span class="city">Blah blah blah</span>
                   </p>
 

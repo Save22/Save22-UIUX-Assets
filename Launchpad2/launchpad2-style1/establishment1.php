@@ -44,7 +44,7 @@
                     <a href="#" class="store-link">
                       <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
                     </a>
-                    <p>
+                    <p class="store-distance">
                       <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
                       Abenson Ortigas Ave.<br>
                       <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
@@ -77,7 +77,7 @@
                     <a href="#" class="store-link">
                       <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
                     </a>
-                    <p>
+                    <p class="store-distance">
                       <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
                       Abenson Ortigas Ave.<br>
                       <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
@@ -110,7 +110,7 @@
                     <a href="#" class="store-link">
                       <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
                     </a>
-                    <p>
+                    <p class="store-distance">
                       <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
                       Abenson Ortigas Ave.<br>
                       <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>
@@ -143,7 +143,7 @@
                     <a href="#" class="store-link">
                       <img src="img/retailer-shopwise.jpg" alt="Retailer Name">
                     </a>
-                    <p>
+                    <p class="store-distance">
                       <a href="#map"><strong>Nearest branch: 3.6km</strong></a><br>
                       Abenson Ortigas Ave.<br>
                       <a href="establishment1-branch.php" class="button-minor details">Store details &amp; operating hours</a>

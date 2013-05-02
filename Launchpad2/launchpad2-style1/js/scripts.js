@@ -18,6 +18,14 @@ $(window).load(function(){
       next: '#catalog-next'
     });
 
+    $('#catalog-carousel-home').carouFredSel({
+      auto: false,
+      width: '100%',
+      height: 'auto',
+      prev: '#catalog-prev',
+      next: '#catalog-next'
+    });
+
     $('#brand-carousel').carouFredSel({
       auto: false,
       width: '100%',
@@ -49,7 +57,7 @@ $(window).load(function(){
   same_height('.featured-grid .thumb');
   same_height('.featured-grid .cat-info');
 
-  least_height('#catalog-carousel .thumb img', '#catalog-carousel .thumb img');
+  least_height('#catalog-carousel img', '#catalog-carousel img');
 
   show_hide('.header-cat-link', '.all-category-links');
   show_hide('.search-link', '.mobile-search');
@@ -62,14 +70,18 @@ $(window).load(function(){
 
   copy_height('.page-button', '.magazine-container');
 
-  /* max height */
+  same_height_hidden('.same-height .item-container');
+  same_height_hidden('.all-category-links a');
+
+
+  /* max height: flipbook */
 
     max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
-
 
     var flipbook_sidebar_height_offset = 
       $('#main-header').height() + $('.sidebar.info').height() + $('.sidebar.pages').height() + $('.sidebar.list-links').height();
     max_height('.list-flip-related', flipbook_sidebar_height_offset);
+
 
   var resizeTimer;
   $(window).resize(function() {
@@ -77,11 +89,6 @@ $(window).load(function(){
       resizeTimer = setTimeout(function(){
         
         copy_height('.page-button', '.magazine-container');
-
-        same_height('.results-grid .thumb');
-        same_height('.results-grid .cat-info');
-        same_height('.featured-grid .thumb');
-        same_height('.featured-grid .cat-info');
 
         least_height('#catalog-carousel .thumb img', '#catalog-carousel .thumb img');
 
@@ -99,12 +106,29 @@ $(window).load(function(){
 
 });
 
+
 function same_height(container) {
   var items_height = [];
 
   $(container).each(function() { 
-      items_height.push($(this).height());
+      items_height.push($(this).outerHeight(true));
   });
+
+  var tallest_content = Math.max.apply( null, items_height );
+  
+  $(container).each(function(){
+      var item_height = $(this).parent().height();
+      $(this).css('height', tallest_content);
+  });
+}
+
+function same_height_hidden(container) {
+  var items_height = [];
+
+  $(container).each(function() { 
+      items_height.push($(this).actual('outerHeight'));
+  });
+  //alert(items_height);
 
   var tallest_content = Math.max.apply( null, items_height );
   

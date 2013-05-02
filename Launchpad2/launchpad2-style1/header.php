@@ -31,11 +31,11 @@
           <li class="has-dropdown"><a href="#" class="header-cat-link text-link">Categories</a>
           </li>
           <li class="divider"></li>
-          <li class="has-form search mobile-hide">
+          <li class="has-form search">
             <form>
               <div class="row collapse wide">
                 <div class="small-8 columns">
-                  <input type="search" placeholder="Search for promos, items, prices, or stores">
+                  <input type="search" placeholder="Find store, brand, or item">
                 </div>
                 <div class="small-4 columns">
                   <a href="#" class="button">Search</a>
@@ -51,7 +51,7 @@
       <form>
         <div class="row collapse">
           <div class="small-8 columns">
-            <input type="search" placeholder="Search for promos, items, prices, or stores">
+            <input type="search" placeholder="Find store, brand, or item">
           </div>
           <div class="small-4 columns">
             <a href="#" class="button">Search</a>

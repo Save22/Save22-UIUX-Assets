@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
   
-  <div class="row home-featured main-row">
+  <div class="row home-featured main-row home-content">
     <div class="small-12 large-9 columns main-content">
       <?php include('elements/home-map.php'); ?>
     </div>
@@ -10,12 +10,12 @@
     </div>
   </div>
 
-  <section class="home-preview">
+  <section class="home-preview home-content">
 
     <div class="row main-row">
       <div class="small-12 large-9 columns">
 
-        <h3 class="sub-header">Brochures</h3>
+        <h3 class="sub-header">Popular Brochures</h3>
           <?php include('elements/grid-featured.php'); ?>
 
           <a href="#category-link" class="button-minor home-more">view more</a>
@@ -23,21 +23,16 @@
         <h3 class="sub-header">Brands</h3>
           <?php include('elements/carousel-brands.php'); ?>
 
+      <section class="home-new home-content">
+        <h3 class="sub-header">What's New</h3>
+          <?php include('elements/grid-new.php'); ?>
+      </section>
+
       </div>
       <div class="small-12 large-3 columns">
         
         <?php include('elements/sidebar-categories.php'); ?>
 
-      </div>
-    </div>
-  </section>
-
-  <br><br>
-  <section class="home-new">
-    <div class="row main-row">
-      <div class="small-12 columns">
-        <h2>What's New</h2>
-          <?php include('elements/grid-new.php'); ?>
       </div>
     </div>
   </section>

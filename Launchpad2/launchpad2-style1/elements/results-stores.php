@@ -1,4 +1,4 @@
-          <ul class="results-grid small-block-grid-1 large-block-grid-3">
+          <ul class="results-grid same-height small-block-grid-1 large-block-grid-3">
 
             <li class="item">
               <div class="item-container">
@@ -7,7 +7,8 @@
                   <h2><a href="establishment1.php">City</a></h2>
                   <p>
                     <span class="address">Address of branch</span><br>
-                    <span class="city">Blah blah blah</span>
+                    <span class="city">Blah blah blah</span><br>
+                    <span class="city">Blah blah blah</span><br>
                   </p>
 
 
