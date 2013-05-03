@@ -515,7 +515,7 @@ section h3.sub-header {
   overflow: visible;
   font-size: 0.813em;
   line-height: 1.4;
-  border-top: 2px solid #3d3d3d;
+  border-top: 3px solid #3d3d3d;
   -moz-transition: ease-in-out all 0.5s;
   -webkit-transition: ease-in-out all 0.5s;
   -o-transition: ease-in-out all 0.5s;
@@ -1466,7 +1466,7 @@ body {
 @media (min-width: 320px) and (max-width: 769px) {
   /* line 1214, ../sass/styles.scss */
   .home-preview .featured-grid a {
-    border-top: 2px solid #3d3d3d;
+    border-top: 3px solid #3d3d3d;
   }
 }
 
