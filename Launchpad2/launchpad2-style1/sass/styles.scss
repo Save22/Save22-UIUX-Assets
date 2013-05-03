@@ -285,12 +285,13 @@
         width: 100%;
       }
 
-      @media only screen and (min-width: $break-small-mid) and (max-width: $break-mid) {
+      @media only screen and (min-width: $break-small + 1) and (max-width: $break-small-mid - 1) {
         width: 50%;
       }
 
-      @media only screen and (min-width: $break-mid) and (max-width: $break-large) {
+      @media only screen and (min-width: $break-small-mid) and (max-width: $break-mid-larger) {
         width: 33.3333%;
+        font-size: emCalc(13px);
       }
 
       @media only screen and (min-width: $break-large) {
@@ -1215,6 +1216,13 @@
         border-top: 3px solid $base-color-neutral-dark; 
       }
     }
+
+    @media only screen and (min-width: $break-small) and (max-width: $break-large) {
+      #sidebar-establishments {
+        font-size: emCalc(13px) !important;
+      }
+    }
+
   }
 
   .home-new {
@@ -1227,7 +1235,7 @@
 
   .home-content {
     .results-grid > li.item, .featured-grid > li.item {
-      @media only screen and (min-width: $break-large) {
+      @media only screen and (min-width: $break-mid-large) {
         width: 20%;
       }
     }
@@ -1288,18 +1296,7 @@
     a { color: $base-color-light; }
   }
 
-  .flipbook-container {
-    position: relative;
-  }
-  .magazine-viewport {
-    position: absolute;
-  }
-  .page-button {
-    position: absolute;
-    width: 30px;
-    background: $base-color-neutral;
-    font-size: 0;
-  }
+
   #flipbook-prev {
     right: 0;
   }

@@ -14,7 +14,6 @@
   
   <script src="../js/vendor/custom.modernizr.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script src="../js/jquery.caroufredsel.min.js"></script>
   <script type="text/javascript" src="../js/turn.js"></script>
   <script type="text/javascript" src="../js/zoom.js"></script>
   <!-- <script type="text/javascript" src="../js/turn.html4.min.js"></script> -->
@@ -161,9 +160,9 @@ var turner;
     $(document).ready(function() {
 		turner = $('.magazine').turn({
 		    // Magazine width
-		    width: 1500,
+		    width: 800,
 		    // Magazine height
-		    height: 800,
+		    height: 600,
 		    // Elevation will move the peeling corner this number of pixels by default
 		    elevation: 50,
 		    // Hardware acceleration

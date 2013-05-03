@@ -188,32 +188,43 @@ function disableControls(page) {
 
 function resizeViewport() {
 
+	/*
 	var width = $(window).width(),
 		height = $(window).height(),
 		options = $('.magazine').turn('options');
+	*/
+	var container = $('.flipbook-container');
 
+	var width = container.outerWidth(true),
+			height = container.outerHeight(true),
+			options = $('.magazine').turn('options');
+
+
+	var page_width = $(container) / 2;
+	
 	$('.magazine').removeClass('animated');
 
+	/* 
 	$('.magazine-viewport').css({
 		width: width,
 		height: height
 	}).
 	zoom('resize');
+	*/
 
 
 	if ($('.magazine').turn('zoom')==1) {
 		var bound = calculateBound({
 			width: options.width,
-			height: options.height,
+			height: container.height,
 			boundWidth: Math.min(options.width, width),
-			boundHeight: Math.min(options.height, height)
+			boundHeight: Math.min(container.height, height)
 		});
 
 		if (bound.width%2!==0)
 			bound.width-=1;
-
 			
-		if (bound.width!=$('.magazine').width() || bound.height!=$('.magazine').height()) {
+		if (bound.width!=$('.magazine').width() || bound.height!=$(container).height()) {
 
 			$('.magazine').turn('size', bound.width, bound.height);
 
@@ -226,7 +237,6 @@ function resizeViewport() {
 
 		//$('.magazine').css({top: -bound.height/2, left: -bound.width/2});
 	}
-
 	var magazineOffset = $('.magazine').offset(),
 		boundH = height - magazineOffset.top - $('.magazine').height(),
 		marginTop = (boundH - $('.thumbnails > div').height()) / 2;

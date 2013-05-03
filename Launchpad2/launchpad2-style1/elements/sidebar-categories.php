@@ -10,7 +10,7 @@
                 <li><a href="#">Sporting Goods</a></li>
                 <li><a href="#">Gardens &amp; Plants</a></li>
                 <li><a href="#">Automotive Parts and Service</a></li>
-                <li><a href="#">Drugstore/Pharmacy</a></li>
+                <li><a href="#">Pharmacy</a></li>
                 <li><a href="#">Toys</a></li>
                 <li><a href="#">Fast Food</a></li>
                 <li><a href="#">Specialty Store</a></li>
