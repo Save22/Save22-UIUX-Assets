@@ -5,6 +5,35 @@ body{
 	padding:0;
 }
 
+.magazine-viewport .container{
+       top:50%;
+       left:50%;
+       width:2000px;
+       height:1000px;
+       margin:auto;
+}
+
+.magazine-viewport .magazine{
+	width:1500;
+	height:800px;
+}
+
+.magazine-viewport .page{
+	width:1500;
+	height:800px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+
+.magazine-viewport .zoomer .region{
+	display:none;
+}
+
+.magazine-viewport .zoom-in .region{
+	display:none;
+}
+
 .magazine .region{
 	position:absolute;
 	overflow:hidden;
@@ -118,7 +147,7 @@ body{
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
 	width:22px;
-	height:400px;
+	height:800px;
 	position:absolute;
 	top:0;
 }

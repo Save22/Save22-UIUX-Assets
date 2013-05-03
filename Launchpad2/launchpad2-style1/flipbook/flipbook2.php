@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="../css/magazine.css" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script type="text/javascript" src="../js/turn.js"></script>
-  <!-- <script type="text/javascript" src="../js/zoom.js"></script>
-  <script type="text/javascript" src="../js/turn.html4.min.js"></script> -->
+  <script type="text/javascript" src="../js/zoom.js"></script>
+  <!-- <script type="text/javascript" src="../js/turn.html4.min.js"></script> -->
   <script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
   <script type="text/javascript" src="../js/jquery.mousewheel.min.js"></script>
   <script type="text/javascript" src="../js/hash.js"></script>
@@ -26,16 +26,16 @@
 <body>
 	<center><a href="../../book.html">Return to Site</a></center>
 	<center>Click side of page to turn</center>
-	<div class="magazine-viewport">
+	<center><div class="magazine-viewport">
 		<div class="container">
-              <div class="magazine row" style="max-width: none;">
+                <div class="magazine row" style="max-width: none;">
 				<!-- Next button -->
 				<div ignore="1" class="next-button"></div>
 				<!-- Previous button -->
 				<div ignore="1" class="previous-button"></div>
 			</div>
 		</div>
-	</div>
+	</div></center>
 	</div>
 <script type="text/javascript">
 
@@ -87,6 +87,108 @@
 						addPage(pages[i], $(this));
 				}
 			}
+	});
+	
+	$('.magazine-viewport').zoom({
+		flipbook: $('.magazine'),
+		max: function() { 
+			return largeMagazineWidth()/$('.magazine').width();
+		}, 
+		when: {
+			doubleTap: function(event) {
+				if ($(this).zoom('value')==1) {
+					$('.magazine').
+						removeClass('animated').
+						addClass('zoom-in');
+					$(this).zoom('zoomIn', event);
+				} else {
+					$(this).zoom('zoomOut');
+				}
+			},
+			resize: function(event, scale, page, pageElement) {
+				if (scale==1)
+					loadSmallPage(page, pageElement);
+				else
+					loadLargePage(page, pageElement);
+			},
+			zoomIn: function () {
+				$('.thumbnails').hide();
+				$('.made').hide();
+				$('.magazine').addClass('zoom-in');
+				if (!window.escTip && !$.isTouch) {
+					escTip = true;
+					$('<div />', {'class': 'esc'}).
+						html('<div>Press ESC to exit</div>').
+							appendTo($('body')).
+							delay(2000).
+							animate({opacity:0}, 500, function() {
+								$(this).remove();
+							});
+				}
+			},
+			zoomOut: function () {
+				$('.esc').hide();
+				$('.thumbnails').fadeIn();
+				$('.made').fadeIn();
+				setTimeout(function(){
+					$('.magazine').addClass('animated').removeClass('zoom-in');
+					resizeViewport();
+				}, 0);
+			},
+			swipeLeft: function() {
+				$('.magazine').turn('next');
+			},
+			swipeRight: function() {
+				$('.magazine').turn('previous');
+			}
+		}
+	});
+	
+	// Using arrow keys to turn the page
+	$(document).keydown(function(e){
+		var previous = 37, next = 39, esc = 27;
+		switch (e.keyCode) {
+			case previous:
+				// left arrow
+				$('.magazine').turn('previous');
+				e.preventDefault();
+			break;
+			case next:
+				//right arrow
+				$('.magazine').turn('next');
+				e.preventDefault();
+			break;
+			case esc:
+				$('.magazine-viewport').zoom('zoomOut');	
+				e.preventDefault();
+			break;
+		}
+	});
+	
+	// Events for the next button
+	$('.next-button').bind($.mouseEvents.over, function() {
+		$(this).addClass('next-button-hover');
+	}).bind($.mouseEvents.out, function() {
+		$(this).removeClass('next-button-hover');
+	}).bind($.mouseEvents.down, function() {
+		$(this).addClass('next-button-down');
+	}).bind($.mouseEvents.up, function() {
+		$(this).removeClass('next-button-down');
+	}).click(function() {
+		$('.magazine').turn('next');
+	});
+
+	// Events for the next button
+	$('.previous-button').bind($.mouseEvents.over, function() {
+		$(this).addClass('previous-button-hover');
+	}).bind($.mouseEvents.out, function() {
+		$(this).removeClass('previous-button-hover');
+	}).bind($.mouseEvents.down, function() {
+		$(this).addClass('previous-button-down');
+	}).bind($.mouseEvents.up, function() {
+		$(this).removeClass('previous-button-down');
+	}).click(function() {
+		$('.magazine').turn('previous');
 	});
 
 </script>

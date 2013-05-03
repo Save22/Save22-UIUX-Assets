@@ -161,9 +161,9 @@ var turner;
     $(document).ready(function() {
 		turner = $('.magazine').turn({
 		    // Magazine width
-		    width: 720,
+		    width: 1500,
 		    // Magazine height
-		    height: 400,
+		    height: 800,
 		    // Elevation will move the peeling corner this number of pixels by default
 		    elevation: 50,
 		    // Hardware acceleration
