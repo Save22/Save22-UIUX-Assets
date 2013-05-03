@@ -220,15 +220,19 @@
 
       </section>
 
-      <section>
-        <h2 class="main-header">Current promos in Ortigas</h2>
+      <section class="mbottom">
+        <h2 class="main-header">Current promos in Ortigas
+          <a href="#" class="button right small">view all</a>
+        </h2>
 
         <?php include('elements/carousel-promos.php'); ?>
         
       </section>
 
       <section class="section results">
-        <h2 class="main-header">Other Stores in Ortigas</h2>
+        <h2 class="main-header">Other Stores in Ortigas
+          <a href="#" class="button right small">view all</a>
+        </h2>
           <?php include('elements/carousel-stores-loc.php'); ?>
       </section>
 

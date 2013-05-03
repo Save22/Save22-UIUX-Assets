@@ -172,7 +172,9 @@
       </section>
 
       <section class="section results">
-        <h2 class="main-header">Current Promos in Ortigas</h2>
+        <h2 class="main-header">Current Promos in Ortigas 
+          <a href="#" class="button right small">view all</a>
+        </h2>
         <?php include('elements/carousel-promos.php'); ?>
       </section>
 

@@ -169,7 +169,7 @@
 
       </section>
 
-      <section>
+      <section class="mbottom">
 
         <h2 class="main-header">Current promos in Ortigas</h2>
         <?php include('elements/carousel-promos.php'); ?>
