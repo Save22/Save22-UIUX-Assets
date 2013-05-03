@@ -1,7 +1,7 @@
 
         <div class="promos-near orbit-container">
 
-          <div id="catalog-carousel" class="gallery-carousel featured-grid">
+          <div id="catalog-carousel-home" class="gallery-carousel">
             
             <a href="#catalog-page" class="item">
               <div class="cat-item">

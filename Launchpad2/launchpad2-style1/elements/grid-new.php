@@ -1,5 +1,5 @@
 
-        <ul class="small-block-grid-2 large-block-grid-6 results-grid new-grid">
+        <ul class="small-block-grid-2 large-block-grid-5 results-grid new-grid">
           <li class="item">
             <div class="cat-thumb">
               <a href="#">

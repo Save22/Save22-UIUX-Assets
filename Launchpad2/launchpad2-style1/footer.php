@@ -60,10 +60,11 @@
   <script src="js/foundation/foundation.clearing.js"></script>
   <script src="js/foundation/foundation.magellan.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/stickyMojo.js"></script>
   -->
 
   <script src="js/jquery.caroufredsel.min.js"></script>
-  <script src="js/stickyMojo.js"></script>
+  <script src="js/jquery.actual.min.js"></script>
   <script src="js/scripts.js"></script>
   
 
