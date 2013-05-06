@@ -376,7 +376,7 @@ var zoomMethods = {
 			data.flipPosition = point2D(flip.css('left'), flip.css('top'));
 
 			flip.turn('zoom', zoom).css({
-				position: 'absolute',
+				position: 'fixed',
 				margin: '',
 				top:0,
 				left:0

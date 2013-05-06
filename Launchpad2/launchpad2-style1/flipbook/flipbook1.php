@@ -92,8 +92,10 @@
         <div class="row">
           <div class="page-numbers">
             <span class="current-page">Page 1-2</span> of 9
-            <a href="#" ignore="1" class="left prev-button2">Previous</a>
-            <a href="#" ignore="1" class="right next-button2">Next</a>
+            <a href="#" ignore="1" class="left prev-button2"></a>
+            <div ignore="1" class="left prev-button2">Previous</div>
+            <a href="#" ignore="1" class="right next-button2"></a>
+            <div ignore="1" class="right next-button2">Next</div>
           </div>
         </div>
 
@@ -158,6 +160,8 @@
 <script type="text/javascript">
 var turner;
     $(document).ready(function() {
+    	var numPages = 12;
+    	setLastPage(numPages);
 		turner = $('.magazine').turn({
 		    // Magazine width
 		    width: 800,
@@ -172,7 +176,7 @@ var turner;
 		    // Auto center this flipbook
 		    autoCenter: true,
 		    // The number of pages
-		    pages: 12,
+		    pages: numPages,
 		    // Events
 			when: {
 				turning: function(event, page, view) {
@@ -192,6 +196,7 @@ var turner;
 				},
 				turned: function(event, page, view) {
 					disableControls(page);
+					setCurrentPage(page);
 					$(this).turn('center');
 					if (page==1) { 
 						$(this).turn('peel', 'br');
@@ -352,7 +357,19 @@ var turner;
     });
     
     function setCurrentPage(currentPage){
-    	$('.current-page').html(currentPage);
+    	console.log(currentPage);
+    	console.log(currentPage % 2 == 0);
+    	if ((currentPage % 2 == 0) && (currentPage != 1)){
+    		$('.current-page').html('PAGE ' + currentPage + '-' + (currentPage + 1));
+    	} else if (currentPage == 1){
+    		$('.current-page').html('PAGE ' + currentPage);
+    	} else {
+    		$('.current-page').html('PAGE ' + (currentPage - 1) + '-' + currentPage);
+    	}
+    }
+    
+    function setLastPage(lastPage){
+    	$('.last-page').html(lastPage);
     }
 </script>
 </html>
