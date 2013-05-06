@@ -89,7 +89,7 @@
               </div>
         </div><!-- container -->
 
-        <div class="row">
+        <div class="row hide-zoom">
           <div class="page-numbers">
             <span class="current-page">Page 1-2</span> of 9
             <a href="#" ignore="1" class="left prev-button2"></a>
@@ -106,7 +106,7 @@
       -->
     </div>
 
-    <div class="small-12 large-3 columns">
+    <div class="small-12 large-3 columns hide-zoom">
       <section class="sidebar flipbook info">
         <div class="store-link flipbook">
           <a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a>
@@ -236,6 +236,7 @@ var turner;
 		        },
 		        zoomIn: function() {
 		            $('.thumbnails').hide();
+		            $('.hide-zoom').hide();
 		            $('.made').hide();
 		            $('.magazine').addClass('zoom-in');
 		            if (!window.escTip && !$.isTouch) {
@@ -251,6 +252,7 @@ var turner;
 		        },
 		        zoomOut: function() {
 		            $('.esc').hide();
+		            $('.hide-zoom').fadeIn();
 		            $('.thumbnails').fadeIn();
 		            $('.made').fadeIn();
 		            setTimeout(function() {
