@@ -15,7 +15,7 @@
     <div class="row main-row">
       <div class="small-12 large-9 columns">
 
-        <h3 class="sub-header">Popular Brochures</h3>
+        <h3 class="sub-header">Popular Promotions</h3>
           <?php include('elements/grid-featured.php'); ?>
 
           <a href="#category-link" class="button-minor home-more">view more</a>
@@ -195,10 +195,18 @@
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
-    styles: styles
+    styles: styles,
+    scrollwheel: false,
+    zoomControl: true,
+    zoomControlOptions: {
+      style: google.maps.ZoomControlStyle.LARGE,
+      position: google.maps.ControlPosition.LEFT_BOTTOM
+    }
   };
 
   map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+  /* https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map */
 
 </script>
 

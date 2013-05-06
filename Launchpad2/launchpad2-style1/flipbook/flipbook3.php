@@ -58,9 +58,6 @@
     width: 100%;
     height: auto;
     max-width: none;
-    position: absolute;
-    top: 15%;
-    margin: -15% 0 0 0;
   }
 
   .page-numbers {
@@ -186,7 +183,7 @@
         </div>
 
       </section>
-      <!-- 
+      
       <section class="sidebar flipbook related-catalogs">
         <a href="#" class="pull-down">
           <h3 class="sidebar-header">Related Catalogs <span class="arrow-down right arrow"></span></h3>
@@ -195,7 +192,7 @@
           <?php include('../elements/carousel-promos-flipbook.php'); ?>
         </div>
       </section>
-      -->
+      
     </div>
   </div>
 
@@ -221,10 +218,52 @@
 
 
     $('.magazine').turn({
-      gradients: false, 
+      gradients: true, 
       acceleration: true/*,
       width: container_width */
     });
+
+
+
+  var resizeTimer;
+
+  $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(function(){
+          
+      var container_width = $('.flipbook-container').width() - 15;
+      var page_width = Math.floor(container_width / 2);
+
+      var window_height = $(window).height();
+      var header_height = $('.top-bar').outerHeight(true);
+      var pagination_height = $('.page-numbers').outerHeight(true);
+      var container_height = Math.floor(window_height - (header_height + pagination_height));
+      var page_height = $('.page img').actual('height');
+
+
+      $('.flipbook-container').css('height', container_height);
+      $('.page-button').css('height', container_height);
+      $('.magazine').css('height', container_height);
+      $('.magazine').css('width', container_width);
+      $('.page-wrapper').css('width', page_width);
+      $('.page-wrapper div').css('width', page_width);
+      $('.page-wrapper div').css('height', page_height);
+      /*
+      $('.page img').css('width', page_width);
+      $('.page img').css('max-height', 'auto');
+      */
+      }, 10);
+
+    $('.magazine').turn({
+      height: page_height
+    });
+
+
+      console.log('height ', $('.page img').actual('height'));
+
+  });
+
+
   </script>
 
 </body>
