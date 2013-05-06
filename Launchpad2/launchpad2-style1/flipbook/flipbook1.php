@@ -224,6 +224,7 @@ var turner;
 		            if ($(this).zoom('value') == 1) {
 		                $('.magazine').removeClass('animated').addClass('zoom-in');
 		                $(this).zoom('zoomIn', event);
+		                $('.hide-zoom').fadeOut();
 		            } else {
 		                $(this).zoom('zoomOut');
 		            }
@@ -236,7 +237,6 @@ var turner;
 		        },
 		        zoomIn: function() {
 		            $('.thumbnails').hide();
-		            $('.hide-zoom').hide();
 		            $('.made').hide();
 		            $('.magazine').addClass('zoom-in');
 		            if (!window.escTip && !$.isTouch) {
