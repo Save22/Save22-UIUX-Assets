@@ -148,7 +148,7 @@
 
           <?php include('widgets/branches-list-add.php'); ?>
 
-          <a href="#" class="button secondary" data-reveal-id="addBranch">Add A New Branch</a>
+          <a href="admin-add-retailer-branch.php" class="button secondary">Add A New Branch</a>
 
           <hr>
 

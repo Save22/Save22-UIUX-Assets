@@ -180,7 +180,7 @@
 
             <?php include('widgets/branches-list.php'); ?>
 
-           <a href="#" class="button secondary" data-reveal-id="addBranch">Add A New Branch</a>
+           <a href="admin-add-retailer-branch.php" class="button secondary">Add A New Branch</a>
 
           </div>
         </section>
@@ -190,7 +190,6 @@
     </div>
   </div>
   
-  <?php include('widgets/modal-add-branch.php'); ?>
   
   <div id="deleteModal" class="reveal-modal medium">
     <a class="close-reveal-modal">&#215;</a>
