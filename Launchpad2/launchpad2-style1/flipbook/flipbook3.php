@@ -20,8 +20,8 @@
   <script src="../js/jquery.mousewheel.min.js"></script>
   <script src="../js/hash.js"></script>
   <script src="../js/jquery.actual.min.js"></script>
-  <!-- <script src="../js/magazine.js"></script>
-  <script src="../js/scripts.js"></script> -->
+  <!-- <script src="../js/magazine.js"></script> -->
+  <script src="../js/scripts.js"></script>
   <style type="text/css">
   body{
     background:#fdfdfd;

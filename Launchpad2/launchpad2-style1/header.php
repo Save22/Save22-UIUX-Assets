@@ -14,7 +14,7 @@
 
   <script src="js/vendor/custom.modernizr.js"></script>
 
-  <header id="main-header" class="row main-row">
+  <header id="main-header">
     <nav class="top-bar">
       <ul class="title-area">
         <!-- Title Area -->
@@ -60,7 +60,7 @@
       </form>
     </section>
 
-    <nav class="all-category-links hide">
+    <nav class="all-category-links hide row main-row">
       <ul class="small-block-grid-1 large-block-grid-4">
         <li><a href="#">Optical Shop</a></li>
         <li><a href="#">Department Store</a></li>

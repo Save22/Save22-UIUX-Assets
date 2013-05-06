@@ -1,6 +1,6 @@
 
-    <h2 class="sidebar-header">What's Hot</h2>
-      <section class="list-hot">
+      <section class="list-hot section">
+        <h2 class="sidebar-header">What's Hot</h2>
 
         <div class="cat-thumb">
           <a href="#">
