@@ -123,7 +123,10 @@
         <h3 class="sidebar-header">pages</h3>
         
         <p>
-          <img src="pages/01.jpg" style="height: 100px;">
+          <img src="../img/catsample1.jpg" page-id="1" class="thumbnail" style="height: 100px;">
+        </p>
+        <p>
+          <img src="../img/catsample2.jpg" page-id="2" class="thumbnail" style="height: 100px;">
         </p>
       </section>
 
@@ -353,6 +356,10 @@ var turner;
 		});
 		$('.next-button2').click(function() {
 			turner.turn('next');
+		});
+		$('.thumbnail').click(function() {
+			var pageID = $(this).attr('page-id');
+			turner.turn('page', pageID);
 		});
     });
     
