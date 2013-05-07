@@ -91,6 +91,7 @@
           <li><a href="#">Catalog Name</a></li>
           <li class="divider"></li>
         </ul>
+        
       </section>
     </nav>
 
@@ -243,11 +244,13 @@
 
       $('.flipbook-container').css('height', container_height);
       $('.page-button').css('height', container_height);
-      $('.magazine').css('height', container_height);
-      $('.magazine').css('width', container_width);
-      $('.page-wrapper').css('width', page_width);
-      $('.page-wrapper div').css('width', page_width);
-      $('.page-wrapper div').css('height', page_height);
+      // $('.magazine').css('height', container_height);
+      // $('.magazine').css('width', container_width);
+      $('.magazine').turn('size', container_width, container_height);
+      
+      // $('.page-wrapper').css('width', page_width);
+      // $('.page-wrapper div').css('width', page_width);
+      // $('.page-wrapper div').css('height', page_height);
       /*
       $('.page img').css('width', page_width);
       $('.page img').css('max-height', 'auto');
