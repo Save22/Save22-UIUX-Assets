@@ -156,7 +156,7 @@
       </section>
 
       <div class="page-numbers hide-zoom">
-        <span class="current-page">Page 1-2</span> of 9
+        <span class="current-page">Page 1</span> of <span class="last-page">9</span>
         <a href="#" ignore="1" class="left prev-button2">Previous</a>
         <a href="#" ignore="1" class="right next-button2">Next</a>
       </div>
@@ -213,9 +213,9 @@
 
 <script type="text/javascript">
 var turner;
+var numPages = 12;
 $(document).ready(function() {
-    var numPages = 12;
-        //setLastPage(numPages);
+        setLastPage(numPages);
         turner = $('.magazine').turn({
             elevation: 50,
             // Hardware acceleration
@@ -245,7 +245,7 @@ $(document).ready(function() {
                 },
                 turned: function(event, page, view) {
                     disableControls(page);
-                    // setCurrentPage(page);
+                    setCurrentPage(page);
                     $(this).turn('center');
                     if (page==1) { 
                         $(this).turn('peel', 'br');
@@ -366,6 +366,70 @@ $(document).ready(function() {
         }
     });
 });
+
+/* BUTTON AND TOUCH EVENTS */
+$(document).ready(function() {
+    // Regions
+    if ($.isTouch) {
+        $('.magazine').bind('touchstart', regionClick);
+    } else {
+        $('.magazine').click(regionClick);
+    }
+    
+    // Events for the next button
+    $('.next-button').bind($.mouseEvents.over, function() {
+        $(this).addClass('next-button-hover');
+    }).bind($.mouseEvents.out, function() {
+        $(this).removeClass('next-button-hover');
+    }).bind($.mouseEvents.down, function() {
+        $(this).addClass('next-button-down');
+    }).bind($.mouseEvents.up, function() {
+        $(this).removeClass('next-button-down');
+    }).click(function() {
+        $('.magazine').turn('next');
+    });
+    
+    // Events for the next button
+    $('.previous-button').bind($.mouseEvents.over, function() {
+        $(this).addClass('previous-button-hover');
+    }).bind($.mouseEvents.out, function() {
+        $(this).removeClass('previous-button-hover');
+    }).bind($.mouseEvents.down, function() {
+        $(this).addClass('previous-button-down');
+    }).bind($.mouseEvents.up, function() {
+        $(this).removeClass('previous-button-down');
+    }).click(function() {
+        $('.magazine').turn('previous');
+    });
+    
+    $('.prev-button2').click(function() {
+        turner.turn('previous');
+    });
+    $('.next-button2').click(function() {
+        turner.turn('next');
+    });
+    $('.thumbnail').click(function() {
+        var pageID = $(this).attr('page-id');
+        turner.turn('page', pageID);
+    });
+});
+
+function setCurrentPage(currentPage){
+    var lastPage =  $('.magazine').turn('pages');
+    if (((currentPage % 2 == 0) && (currentPage != 1)) && (currentPage != lastPage)){
+        $('.current-page').html('PAGE ' + currentPage + '-' + (currentPage + 1));
+    } else if (currentPage == 1){
+        $('.current-page').html('PAGE ' + currentPage);
+    } else if (currentPage == lastPage){
+        $('.current-page').html('PAGE ' + currentPage);
+    } else {
+        $('.current-page').html('PAGE ' + (currentPage - 1) + '-' + currentPage);
+    }
+}
+
+function setLastPage(lastPage){
+    $('.last-page').html(lastPage);
+}
 </script>
 
 </body>

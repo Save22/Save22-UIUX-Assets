@@ -3,7 +3,6 @@
 */
 
 function addPage(page, book) {
-	console.log(page);
 	var id, pages = book.turn('pages');
 
 	// Create a new element for this page
