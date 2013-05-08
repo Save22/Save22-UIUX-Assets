@@ -140,15 +140,6 @@
       <div class="magazine-viewport">
         <div class="magazine-container">
           <div class="magazine">
-<!--             <div> <img src="pages/1.jpg" class="individual-page"> </div>
-            <div> <img src="pages/2.jpg" class="individual-page"> </div>
-            <div> <img src="pages/3.jpg" class="individual-page"> </div>
-            <div> <img src="pages/4.jpg" class="individual-page"> </div>
-            <div> <img src="pages/5.jpg" class="individual-page"> </div>
-            <div> <img src="pages/6.jpg" class="individual-page"> </div>
-            <div> <img src="pages/7.jpg" class="individual-page"> </div>
-            <div> <img src="pages/8.jpg" class="individual-page"> </div>
-            <div> <img src="pages/9.jpg" class="individual-page"> </div> -->
           </div>
         </div><!-- container -->
       </div><!-- viewport -->
@@ -164,19 +155,19 @@
         </p>
       </section>
 
-      <div class="page-numbers">
+      <div class="page-numbers hide-zoom">
         <span class="current-page">Page 1-2</span> of 9
         <a href="#" ignore="1" class="left prev-button2">Previous</a>
         <a href="#" ignore="1" class="right next-button2">Next</a>
       </div>
 
 
-      <a href="#" ignore="1" id="flipbook-prev" class="previous-button page-button">Prev <span></span></a>
-      <a href="#" ignore="1" id="flipbook-next" class="next-button page-button">Next <span></span></a>
+      <a href="#" ignore="1" id="flipbook-prev" class="previous-button page-button hide-zoom">Prev <span></span></a>
+      <a href="#" ignore="1" id="flipbook-next" class="next-button page-button hide-zoom">Next <span></span></a>
 
     </div>
 
-    <div class="small-12 large-3 columns">
+    <div class="small-12 large-3 columns hide-zoom">
       <section class="sidebar flipbook info">
         <div class="store-link flipbook">
           <a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a>
@@ -223,50 +214,50 @@
 <script type="text/javascript">
 var turner;
 $(document).ready(function() {
-	var numPages = 12;
-    	//setLastPage(numPages);
-		turner = $('.magazine').turn({
-		    elevation: 50,
-		    // Hardware acceleration
-		    acceleration: !isChrome(),
-		    // Enables gradients
-		    gradients: true,
-		    // Auto center this flipbook
-		    autoCenter: true,
-		    // The number of pages
-		    pages: numPages,
-		    // Events
-			when: {
-				turning: function(event, page, view) {
-					var book = $(this),
-					currentPage = book.turn('page'),
-					pages = book.turn('pages');
-					// Update the current URI
-					Hash.go('page/' + page).update();
-					// Show and hide navigation buttons
-					disableControls(page);
-					$('.thumbnails .page-'+currentPage).
-						parent().
-						removeClass('current');
-					$('.thumbnails .page-'+page).
-						parent().
-						addClass('current');
-				},
-				turned: function(event, page, view) {
-					disableControls(page);
-					// setCurrentPage(page);
-					$(this).turn('center');
-					if (page==1) { 
-						$(this).turn('peel', 'br');
-					}
-				},
-				missing: function (event, pages) {
-					// Add pages that aren't in the magazine
-					for (var i = 0; i < pages.length; i++)
-						addPage(pages[i], $(this));
-				}
-			}
-		});
+    var numPages = 12;
+        //setLastPage(numPages);
+        turner = $('.magazine').turn({
+            elevation: 50,
+            // Hardware acceleration
+            acceleration: !isChrome(),
+            // Enables gradients
+            gradients: true,
+            // Auto center this flipbook
+            autoCenter: true,
+            // The number of pages
+            pages: numPages,
+            // Events
+            when: {
+                turning: function(event, page, view) {
+                    var book = $(this),
+                    currentPage = book.turn('page'),
+                    pages = book.turn('pages');
+                    // Update the current URI
+                    Hash.go('page/' + page).update();
+                    // Show and hide navigation buttons
+                    disableControls(page);
+                    $('.thumbnails .page-'+currentPage).
+                        parent().
+                        removeClass('current');
+                    $('.thumbnails .page-'+page).
+                        parent().
+                        addClass('current');
+                },
+                turned: function(event, page, view) {
+                    disableControls(page);
+                    // setCurrentPage(page);
+                    $(this).turn('center');
+                    if (page==1) { 
+                        $(this).turn('peel', 'br');
+                    }
+                },
+                missing: function (event, pages) {
+                    // Add pages that aren't in the magazine
+                    for (var i = 0; i < pages.length; i++)
+                        addPage(pages[i], $(this));
+                }
+            }
+        });
 });
 /* RESIZING */
 $(document).ready(function() {
@@ -278,29 +269,29 @@ $(document).ready(function() {
     var pagination_height = $('.page-numbers').outerHeight(true);
     var container_height = window_height - (header_height + pagination_height);
 
-	// not sure
+    // not sure
     // $('.magazine').css('width', container_width);
     // $('.magazine').height(container_height);
     
     $('.flipbook-container').css('height', container_height);
     $('.page-button').css('height', container_height);
-	$('.magazine').turn('size', container_width, container_height);
+    $('.magazine').turn('size', container_width, container_height);
     var resizeTimer;
 
     $(window).resize(function() {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout( function(){
-	        var container_width = $('.flipbook-container').width() - 15;
-	        var page_width = Math.floor(container_width / 2);
-	        var window_height = $(window).height();
-	        var header_height = $('.top-bar').outerHeight(true);
-	        var pagination_height = $('.page-numbers').outerHeight(true);
-	        var container_height = Math.floor(window_height - (header_height + pagination_height));
-	        var page_height = $('.page img').actual('height');
-	        $('.flipbook-container').css('height', container_height);
-	        $('.page-button').css('height', container_height);
-	        $('.magazine').turn('size', container_width, container_height);
-    	}, 10);
+            var container_width = $('.flipbook-container').width() - 15;
+            var page_width = Math.floor(container_width / 2);
+            var window_height = $(window).height();
+            var header_height = $('.top-bar').outerHeight(true);
+            var pagination_height = $('.page-numbers').outerHeight(true);
+            var container_height = Math.floor(window_height - (header_height + pagination_height));
+            var page_height = $('.page img').actual('height');
+            $('.flipbook-container').css('height', container_height);
+            $('.page-button').css('height', container_height);
+            $('.magazine').turn('size', container_width, container_height);
+        }, 10);
     });
  });
 
@@ -315,6 +306,64 @@ $(document).ready(function() {
     });
     $('.magazine').hover(function(){
       thumbnails.addClass('hide');
+    });
+});
+
+/* ZOOM */
+$(document).ready(function() {
+    $('.magazine-viewport').zoom({
+        flipbook: $('.magazine'),
+        max: function() {
+            return largeMagazineWidth() / $('.magazine').width();
+        },
+        when: {
+            doubleTap: function(event) {
+                if ($(this).zoom('value') == 1) {
+                    $('.magazine').removeClass('animated').addClass('zoom-in');
+                    $(this).zoom('zoomIn', event);
+                    $('.hide-zoom').fadeOut();
+                } else {
+                    $(this).zoom('zoomOut');
+                }
+            },
+            resize: function(event, scale, page, pageElement) {
+                if (scale == 1)
+                    loadSmallPage(page, pageElement);
+                else
+                    loadLargePage(page, pageElement);
+            },
+            zoomIn: function() {
+                $('.thumbnails').hide();
+                $('.made').hide();
+                $('.magazine').addClass('zoom-in');
+                if (!window.escTip && !$.isTouch) {
+                    escTip = true;
+                    $('<div />', {
+                        'class': 'esc'
+                    }).html('<div>Press ESC to exit</div>').appendTo($('body')).delay(2000).animate({
+                        opacity: 0
+                    }, 500, function() {
+                        $(this).remove();
+                    });
+                }
+            },
+            zoomOut: function() {
+                $('.esc').hide();
+                $('.hide-zoom').fadeIn();
+                $('.thumbnails').fadeIn();
+                $('.made').fadeIn();
+                setTimeout(function() {
+                    $('.magazine').addClass('animated').removeClass('zoom-in');
+                    resizeViewport();
+                }, 0);
+            },
+            swipeLeft: function() {
+                $('.magazine').turn('next');
+            },
+            swipeRight: function() {
+                $('.magazine').turn('previous');
+            }
+        }
     });
 });
 </script>
