@@ -367,7 +367,7 @@ $(document).ready(function() {
     });
 });
 
-/* BUTTON AND TOUCH EVENTS */
+/* BUTTON, TOUCH AND ARROW KEY EVENTS */
 $(document).ready(function() {
     // Regions
     if ($.isTouch) {
@@ -411,6 +411,29 @@ $(document).ready(function() {
     $('.thumbnail').click(function() {
         var pageID = $(this).attr('page-id');
         turner.turn('page', pageID);
+    });
+    
+    // Using arrow keys to turn the page
+    $(document).keydown(function(e) {
+        var previous = 37,
+        next = 39,
+        esc = 27;
+        switch (e.keyCode) {
+        case previous:
+            // left arrow
+            $('.magazine').turn('previous');
+            e.preventDefault();
+            break;
+        case next:
+            //right arrow
+            $('.magazine').turn('next');
+            e.preventDefault();
+            break;
+        case esc:
+            $('.magazine-viewport').zoom('zoomOut');
+            e.preventDefault();
+            break;
+        }
     });
 });
 
