@@ -111,6 +111,7 @@
           <li><a href="#">Catalog Name</a></li>
           <li class="divider"></li>
         </ul>
+        
       </section>
     </nav>
 
@@ -257,7 +258,24 @@
 
   /* RESIZING */
 
+<<<<<<< HEAD
     var resizeTimer;
+=======
+      $('.flipbook-container').css('height', container_height);
+      $('.page-button').css('height', container_height);
+      // $('.magazine').css('height', container_height);
+      // $('.magazine').css('width', container_width);
+      $('.magazine').turn('size', container_width, container_height);
+      
+      // $('.page-wrapper').css('width', page_width);
+      // $('.page-wrapper div').css('width', page_width);
+      // $('.page-wrapper div').css('height', page_height);
+      /*
+      $('.page img').css('width', page_width);
+      $('.page img').css('max-height', 'auto');
+      */
+      }, 10);
+>>>>>>> 103361d8cc673e2148026bc0b227cbb8b82bc6f6
 
     $(window).resize(function() {
         clearTimeout(resizeTimer);
