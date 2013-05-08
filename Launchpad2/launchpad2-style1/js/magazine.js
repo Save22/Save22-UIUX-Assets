@@ -3,7 +3,7 @@
 */
 
 function addPage(page, book) {
-
+	console.log(page);
 	var id, pages = book.turn('pages');
 
 	// Create a new element for this page
@@ -35,8 +35,9 @@ function loadPage(page, pageElement) {
 	img.load(function() {
 		
 		// Set the size
-		$(this).css({width: '100%', height: '100%'});
-
+		// not in camille's code
+		//$(this).css({width: '100%', height: '100%'});
+		$(this).addClass('individual-page')
 		// Add the image to the page after loaded
 
 		$(this).appendTo(pageElement);

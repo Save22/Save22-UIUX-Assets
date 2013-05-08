@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/app.css" />
   <link rel="stylesheet" href="../css/styles.css" />
-  <!-- <link rel="stylesheet" href="../css/magazine.css" /> -->
+  <link rel="stylesheet" href="../css/magazine.css" />
   
   <script src="../js/vendor/custom.modernizr.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
@@ -20,7 +20,7 @@
   <script src="../js/jquery.mousewheel.min.js"></script>
   <script src="../js/hash.js"></script>
   <script src="../js/jquery.actual.min.js"></script>
-  <!-- <script src="../js/magazine.js"></script> -->
+  <script src="../js/magazine.js"></script>
   <script src="../js/scripts.js"></script>
   <style type="text/css">
   body{
@@ -140,7 +140,7 @@
       <div class="magazine-viewport">
         <div class="magazine-container">
           <div class="magazine">
-            <div> <img src="pages/1.jpg" class="individual-page"> </div>
+<!--             <div> <img src="pages/1.jpg" class="individual-page"> </div>
             <div> <img src="pages/2.jpg" class="individual-page"> </div>
             <div> <img src="pages/3.jpg" class="individual-page"> </div>
             <div> <img src="pages/4.jpg" class="individual-page"> </div>
@@ -148,7 +148,7 @@
             <div> <img src="pages/6.jpg" class="individual-page"> </div>
             <div> <img src="pages/7.jpg" class="individual-page"> </div>
             <div> <img src="pages/8.jpg" class="individual-page"> </div>
-            <div> <img src="pages/9.jpg" class="individual-page"> </div>
+            <div> <img src="pages/9.jpg" class="individual-page"> </div> -->
           </div>
         </div><!-- container -->
       </div><!-- viewport -->
@@ -220,7 +220,55 @@
   </div>
 
 
-  <script type="text/javascript">
+<script type="text/javascript">
+var turner;
+$(document).ready(function() {
+	var numPages = 12;
+    	//setLastPage(numPages);
+		turner = $('.magazine').turn({
+		    elevation: 50,
+		    // Hardware acceleration
+		    acceleration: !isChrome(),
+		    // Enables gradients
+		    gradients: true,
+		    // Auto center this flipbook
+		    autoCenter: true,
+		    // The number of pages
+		    pages: numPages,
+		    // Events
+			when: {
+				turning: function(event, page, view) {
+					var book = $(this),
+					currentPage = book.turn('page'),
+					pages = book.turn('pages');
+					// Update the current URI
+					Hash.go('page/' + page).update();
+					// Show and hide navigation buttons
+					disableControls(page);
+					$('.thumbnails .page-'+currentPage).
+						parent().
+						removeClass('current');
+					$('.thumbnails .page-'+page).
+						parent().
+						addClass('current');
+				},
+				turned: function(event, page, view) {
+					disableControls(page);
+					// setCurrentPage(page);
+					$(this).turn('center');
+					if (page==1) { 
+						$(this).turn('peel', 'br');
+					}
+				},
+				missing: function (event, pages) {
+					// Add pages that aren't in the magazine
+					for (var i = 0; i < pages.length; i++)
+						addPage(pages[i], $(this));
+				}
+			}
+		});
+});
+/* RESIZING */
 $(document).ready(function() {
     var container_width = $('.flipbook-container').width() - 15;
     var page_width = container_width / 2;
@@ -230,19 +278,12 @@ $(document).ready(function() {
     var pagination_height = $('.page-numbers').outerHeight(true);
     var container_height = window_height - (header_height + pagination_height);
 
+	// not sure
     // $('.magazine').css('width', container_width);
+    // $('.magazine').height(container_height);
+    
     $('.flipbook-container').css('height', container_height);
     $('.page-button').css('height', container_height);
-    // $('.magazine').height(container_height);
-    $('.magazine').turn({
-      gradients: true, 
-      acceleration: true,
-      autoCenter: true
-      
-      /*,
-      
-      width: container_width */
-    });
 	$('.magazine').turn('size', container_width, container_height);
     var resizeTimer;
 
@@ -261,7 +302,7 @@ $(document).ready(function() {
 	        $('.magazine').turn('size', container_width, container_height);
     	}, 10);
     });
-});
+ });
 
 /* SHOW THUMBNAILS */
 $(document).ready(function() {
@@ -276,59 +317,7 @@ $(document).ready(function() {
       thumbnails.addClass('hide');
     });
 });
-  /* RESIZING */
-
-  /*
-
-    var resizeTimer;
-      $('.flipbook-container').css('height', container_height);
-      $('.page-button').css('height', container_height);
-      // $('.magazine').css('height', container_height);
-      // $('.magazine').css('width', container_width);
-      $('.magazine').turn('size', container_width, container_height);
-      
-      // $('.page-wrapper').css('width', page_width);
-      // $('.page-wrapper div').css('width', page_width);
-      // $('.page-wrapper div').css('height', page_height);
-      // $('.page img').css('width', page_width);
-      // $('.page img').css('max-height', 'auto');
-
-      }, 10);
-
-    $(window).resize(function() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(function(){
-            
-        var container_width = $('.flipbook-container').width() - 15;
-        var page_width = Math.floor(container_width / 2);
-
-        var window_height = $(window).height();
-        var header_height = $('.top-bar').outerHeight(true);
-        var pagination_height = $('.page-numbers').outerHeight(true);
-        var container_height = Math.floor(window_height - (header_height + pagination_height));
-        var page_height = $('.page img').actual('height');
-
-
-        $('.flipbook-container').css('height', container_height);
-        $('.page-button').css('height', container_height);
-        $('.magazine').css('height', container_height);
-        $('.magazine').css('width', container_width);
-        $('.page-wrapper').css('width', page_width);
-        $('.page-wrapper div').css('width', page_width);
-        $('.page-wrapper div').css('height', page_height);
-        // $('.page img').css('width', page_width);
-        // $('.page img').css('max-height', 'auto');
-        }, 10);
-
-      $('.magazine').turn({
-        height: page_height
-      });
-
-  });
-
-    */  
-
-  </script>
+</script>
 
 </body>
 
