@@ -219,7 +219,7 @@
         </div>
 
       </section>
-
+      <!--
       <section class="mbottom">
         <h2 class="main-header">Current promos in Ortigas
           <a href="#" class="button right small">view all</a>
@@ -238,10 +238,13 @@
 
       <?php include('elements/footerlinks-establishment-prodcat.php');?>
       <?php include('elements/footerlinks-establishment-types.php');?>
+      -->
 
     </div>
     <div class="small-12 large-3 columns sidebar">
+      <!--
       <?php include('elements/sidebar-related-shops.php');?>
+      -->
     </div>
   </div>
 

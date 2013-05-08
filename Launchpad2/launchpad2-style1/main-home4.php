@@ -4,10 +4,10 @@
     <div class="small-12 large-9 columns main-content">
       <?php include('elements/home-map.php'); ?>
     </div>
-
+<!--
     <div class="small-12 large-3 columns sidebar">
       <?php include_once('elements/sidebar-hot.php'); ?>
-    </div>
+    </div> -->
   </div>
 
   <section class="home-preview home-content">
@@ -22,11 +22,12 @@
 
         <h3 class="sub-header">Brands</h3>
           <?php include('elements/carousel-brands.php'); ?>
-
+      <!--
       <section class="home-new home-content">
         <h3 class="sub-header">What's New</h3>
           <?php include('elements/grid-new.php'); ?>
       </section>
+      -->
 
       </div>
       <div class="small-12 large-3 columns">
@@ -37,11 +38,13 @@
     </div>
   </section>
 
+<!-- 
   <div class="row main-row">
     <div class="small-12 columns">
 
       <?php include_once('elements/footerlinks-popularcategories.php'); ?>
-
+-->
+<!-- 
       <section class="section section-links">
         <div class="row">
           <div class="small-12 large-4 columns">
@@ -102,6 +105,8 @@
 
     </div>
 </div>
+-->
+
 
 <div class="map" id="map">
 

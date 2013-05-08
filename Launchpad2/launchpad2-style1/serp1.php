@@ -171,6 +171,8 @@
             
       </section>
 
+      <!-- 
+
       <section>
 
         <header>
@@ -183,13 +185,13 @@
           
         </div>
       </section>
-
+      -->
     </div>
     <div class="small-12 large-3 columns sidebar">
-
+      <!--
       <?php include('elements/sidebar-promos-locs.php'); ?>
       <?php include('elements/sidebar-related-shops.php'); ?>
-
+      -->
 
     </div>
   </div>

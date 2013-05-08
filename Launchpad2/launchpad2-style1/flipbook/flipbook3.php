@@ -70,6 +70,26 @@
     right: 0;
   }
 
+  .flipbook.pages {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 24px;
+    background: rgba(255,255,255,0.5);
+  }
+
+  .flipbook.pages img {
+    height: 100px;
+    width: auto; 
+    border: 3px solid #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    margin-right: 12px;
+  }
+  .flipbook.pages img:last-child {
+    margin: 0;
+  }
+
   </style>
 </head>
 
@@ -132,6 +152,17 @@
         </div><!-- container -->
       </div><!-- viewport -->
 
+      <section class="flipbook pages hide">
+        <p>
+          <img src="pages/1.jpg" page-id="1"> 
+          <img src="pages/2.jpg" page-id="2">
+          <img src="pages/3.jpg" page-id="3">
+          <img src="pages/4.jpg" page-id="4"> 
+          <img src="pages/5.jpg" page-id="5">
+          <img src="pages/6.jpg" page-id="6">
+        </p>
+      </section>
+
       <div class="page-numbers">
         <span class="current-page">Page 1-2</span> of 9
         <a href="#" ignore="1" class="left prev-button2">Previous</a>
@@ -154,15 +185,6 @@
             Valid until <strong>April 12, 2013</strong>
           </p>
         </div>
-      </section>
-
-      <section class="sidebar flipbook pages">
-
-        <h3 class="sidebar-header">pages</h3>
-        
-        <p>
-          <img src="pages/01.jpg" style="height: 100px;">
-        </p>
       </section>
 
       <section class="sidebar flipbook list-links panel-links">
@@ -211,12 +233,6 @@
     $('.page-button').css('height', container_height);
     $('.magazine').height(container_height);
 
-    //alert(container_height); 
-
-
-    //alert(page_width);
-
-
     $('.magazine').turn({
       gradients: true, 
       acceleration: true/*,
@@ -225,43 +241,61 @@
 
 
 
-  var resizeTimer;
+  /* SHOW THUMBNAILS */
 
-  $(window).resize(function() {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(function(){
-          
-      var container_width = $('.flipbook-container').width() - 15;
-      var page_width = Math.floor(container_width / 2);
+    var page_numbers = $('.page-numbers'),
+        thumbnails = $('.flipbook.pages');
 
-      var window_height = $(window).height();
-      var header_height = $('.top-bar').outerHeight(true);
-      var pagination_height = $('.page-numbers').outerHeight(true);
-      var container_height = Math.floor(window_height - (header_height + pagination_height));
-      var page_height = $('.page img').actual('height');
-
-
-      $('.flipbook-container').css('height', container_height);
-      $('.page-button').css('height', container_height);
-      $('.magazine').css('height', container_height);
-      $('.magazine').css('width', container_width);
-      $('.page-wrapper').css('width', page_width);
-      $('.page-wrapper div').css('width', page_width);
-      $('.page-wrapper div').css('height', page_height);
-      /*
-      $('.page img').css('width', page_width);
-      $('.page img').css('max-height', 'auto');
-      */
-      }, 10);
-
-    $('.magazine').turn({
-      height: page_height
+    $(page_numbers, thumbnails).hover(function(){
+      if($('.flipbook.pages').hasClass('hide')) {
+        $('.flipbook.pages').removeClass('hide').addClass('active');
+      }
+    });
+    $('.magazine').hover(function(){
+      thumbnails.addClass('hide');
     });
 
+  /* RESIZING */
 
-      console.log('height ', $('.page img').actual('height'));
+    var resizeTimer;
+
+    $(window).resize(function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function(){
+            
+        var container_width = $('.flipbook-container').width() - 15;
+        var page_width = Math.floor(container_width / 2);
+
+        var window_height = $(window).height();
+        var header_height = $('.top-bar').outerHeight(true);
+        var pagination_height = $('.page-numbers').outerHeight(true);
+        var container_height = Math.floor(window_height - (header_height + pagination_height));
+        var page_height = $('.page img').actual('height');
+
+
+        $('.flipbook-container').css('height', container_height);
+        $('.page-button').css('height', container_height);
+        $('.magazine').css('height', container_height);
+        $('.magazine').css('width', container_width);
+        $('.page-wrapper').css('width', page_width);
+        $('.page-wrapper div').css('width', page_width);
+        $('.page-wrapper div').css('height', page_height);
+        /*
+        $('.page img').css('width', page_width);
+        $('.page img').css('max-height', 'auto');
+        */
+        }, 10);
+
+      $('.magazine').turn({
+        height: page_height
+      });
+
+
+    // console.log('height ', $('.page img').actual('height'));
 
   });
+  
+
 
 
   </script>
