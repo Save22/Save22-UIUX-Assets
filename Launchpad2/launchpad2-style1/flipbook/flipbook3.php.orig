@@ -221,8 +221,6 @@
 
 
   <script>
-
-
     var container_width = $('.flipbook-container').width() - 15;
     var page_width = container_width / 2;
 
@@ -260,9 +258,9 @@
 
   /* RESIZING */
 
-  /*
-
+<<<<<<< HEAD
     var resizeTimer;
+=======
       $('.flipbook-container').css('height', container_height);
       $('.page-button').css('height', container_height);
       // $('.magazine').css('height', container_height);
@@ -272,10 +270,12 @@
       // $('.page-wrapper').css('width', page_width);
       // $('.page-wrapper div').css('width', page_width);
       // $('.page-wrapper div').css('height', page_height);
-      // $('.page img').css('width', page_width);
-      // $('.page img').css('max-height', 'auto');
-
+      /*
+      $('.page img').css('width', page_width);
+      $('.page img').css('max-height', 'auto');
+      */
       }, 10);
+>>>>>>> 103361d8cc673e2148026bc0b227cbb8b82bc6f6
 
     $(window).resize(function() {
         clearTimeout(resizeTimer);
@@ -298,17 +298,23 @@
         $('.page-wrapper').css('width', page_width);
         $('.page-wrapper div').css('width', page_width);
         $('.page-wrapper div').css('height', page_height);
-        // $('.page img').css('width', page_width);
-        // $('.page img').css('max-height', 'auto');
+        /*
+        $('.page img').css('width', page_width);
+        $('.page img').css('max-height', 'auto');
+        */
         }, 10);
 
       $('.magazine').turn({
         height: page_height
       });
 
-  });
 
-    */  
+    // console.log('height ', $('.page img').actual('height'));
+
+  });
+  
+
+
 
   </script>
 
