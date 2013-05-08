@@ -36,7 +36,7 @@ function loadPage(page, pageElement) {
 		
 		// Set the size
 		// not in camille's code
-		//$(this).css({width: '100%', height: '100%'});
+		$(this).css({width: '100%', height: '100%'});
 		$(this).addClass('individual-page')
 		// Add the image to the page after loaded
 
