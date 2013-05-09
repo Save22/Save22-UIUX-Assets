@@ -111,7 +111,7 @@
       <section class="top-bar-section">
         <ul class="left">
           <li class="divider"></li>
-          <li><a href="#">Catalog Name</a></li>
+          <li><a href="#">Back to search results</a></li>
           <li class="divider"></li>
         </ul>
         
@@ -196,24 +196,6 @@
           </p>
         </div>
       </section>
-
-      <section class="sidebar flipbook list-links panel-links hide">
-        <a href="#" class="pull-down">
-          <h3 class="sidebar-header">In this catalog <span class="arrow-down right arrow"></span></h3>
-        </a>
-        <div class="pull-content">
-          <ul class="quick-categories">
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">Feature phones</a></li>
-            <li><a href="#">Samsung</a></li>
-            <li><a href="#">Apple</a></li>
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">Feature phones</a></li>
-            <li><a href="#">Samsung</a></li>
-            <li><a href="#">Apple</a></li>
-          </ul>d
-        </div>
-      </section>
       
       <div class="sidebar flipbook related-catalogs">
         <div class="section-container auto" data-section>
@@ -221,11 +203,11 @@
             <p class="title" data-section-title><a href="#panel1">Search</a></p>
             <div class="content" data-section-content>
               
-             <h3 class="sidebar-header">Search Results</h3>
+              <h3 class="sidebar-header">Search Results</h3>
               <div class="flipbook-search">
                 <div class="row collapse">
                   <div class="small-9 columns">
-                    <input type="text" placeholder="Search for a catalog">
+                    <input type="text" placeholder="Search for a catalog" value="Tissue Paper">
                   </div>
                   <div class="small-3 columns">
                     <button class="postfix">search</span>
@@ -239,13 +221,60 @@
           <section>
             <p class="title" data-section-title><a href="#panel2">What's Near</a></p>
             <div class="content" data-section-content>
-              <p>Content of section 2.</p>
+
+              <h3 class="sidebar-header">Promos near you</h3>
+              <div class="flipbook-search">
+                <div class="row collapse">
+                  <div class="small-9 columns">
+                    <input type="text" placeholder="Find a location" value="Ortigas">
+                  </div>
+                  <div class="small-3 columns">
+                    <button class="postfix">search</span>
+                  </div>
+                </div>
+              </div>
+              <?php include('../elements/carousel-promos-flipbook.php'); ?>
+
             </div>
           </section>
           <section>
             <p class="title" data-section-title><a href="#panel3">Browse</a></p>
             <div class="content" data-section-content>
-              <p>Content of section 3.</p>
+
+              <h3 class="sidebar-header">From this category</h3>
+              <div class="flipbook-category-list">
+                <a href="#" data-dropdown="drop1">Supermarkets</a>
+
+                <ul id="drop1" class="f-dropdown" data-dropdown-content>
+                  <li><a href="#">Optical Shop</a></li>
+                  <li><a href="#">Department Store</a></li>
+                  <li><a href="#">Electronics Store</a></li>
+                  <li><a href="#">Apparel</a></li>
+                  <li><a href="#">Sporting Goods</a></li>
+                  <li><a href="#">Gardens &amp; Plants</a></li>
+                  <li><a href="#">Automotive Parts and Service</a></li>
+                  <li><a href="#">Drugstore/Pharmacy</a></li>
+                  <li><a href="#">Toys</a></li>
+                  <li><a href="#">Fast Food</a></li>
+                  <li><a href="#">Specialty Store</a></li>
+                  <li><a href="#">Supermarket</a></li>
+                  <li><a href="#">Hardware Store</a></li>
+                  <li><a href="#">Organic Market</a></li>
+                  <li><a href="#">Shoe Store</a></li>
+                  <li><a href="#">Bookstore</a></li>
+                  <li><a href="#">Bank</a></li>
+                  <li><a href="#">Pet shop</a></li>
+                  <li><a href="#">Fashion</a></li>
+                  <li><a href="#">Furniture Store</a></li>
+                  <li><a href="#">Watches &amp; Jewellery</a></li>
+                  <li><a href="#">Clearance Stores &amp; Bazaars</a></li>
+                  <li><a href="#">Outlet Stores</a></li>
+                  <li><a href="#">Other Establishments</a></li>
+                </ul>
+              </div>
+              <?php include('../elements/carousel-promos-flipbook.php'); ?>
+
+
             </div>
           </section>
         </div>
@@ -385,6 +414,15 @@
         $('.magazine').turn({
           height: page_height
         });
+
+        var catalog_list_height = $(window).height() - ($('.top-bar').height() + $('.sidebar.flipbook.info').outerHeight(true) + 
+          $('.related-catalogs .sidebar-header').outerHeight(true) + 40);
+        $('.list-flip-related').css('height', catalog_list_height);
+
+        var sidebar_height = $(window).height() - $('.top-bar').height();
+        $('.columns.sidebar').css('height', sidebar_height);
+
+
 
   });
 
