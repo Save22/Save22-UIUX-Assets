@@ -11,17 +11,9 @@
   <link rel="stylesheet" href="../css/app.css" />
   <link rel="stylesheet" href="../css/styles.css" />
   <!-- <link rel="stylesheet" href="../css/magazine.css" /> -->
-  
+
   <script src="../js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  <script src="../js/turn.js"></script>
-  <script src="../js/zoom.js"></script>
-  <!-- <script src="../js/turn.html4.min.js"></script> -->
-  <script src="../js/jquery.mousewheel.min.js"></script>
-  <script src="../js/hash.js"></script>
-  <script src="../js/jquery.actual.min.js"></script>
-  <!-- <script src="../js/magazine.js"></script> -->
-  <script src="../js/scripts.js"></script>
+  
   <style type="text/css">
   body{
     background:#fdfdfd;
@@ -76,9 +68,16 @@
     text-align: center;
     width: 100%;
     padding-top: 24px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(0,0,0,0.5);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 160px;
   }
 
+  .flipbook.pages ul {
+    white-space: nowrap;
+    padding: 0 24px;
+  }
   .flipbook.pages img {
     height: 100px;
     width: auto; 
@@ -86,8 +85,12 @@
     box-shadow: 0 2px 2px rgba(0,0,0,0.5);
     margin-right: 12px;
   }
+  .flipbook.pages li {
+    display: inline-block;
+    float: none;
+  }
   .flipbook.pages img:last-child {
-    margin: 0;
+    margin-right: 24px;
   }
 
   </style>
@@ -154,14 +157,20 @@
       </div><!-- viewport -->
 
       <section class="flipbook pages hide">
-        <p>
-          <img src="pages/1.jpg" page-id="1"> 
-          <img src="pages/2.jpg" page-id="2">
-          <img src="pages/3.jpg" page-id="3">
-          <img src="pages/4.jpg" page-id="4"> 
-          <img src="pages/5.jpg" page-id="5">
-          <img src="pages/6.jpg" page-id="6">
-        </p>
+        <ul>
+          <li><img src="pages/1.jpg" page-id="1"> </li>
+          <li><img src="pages/2.jpg" page-id="2"></li>
+          <li><img src="pages/3.jpg" page-id="3"></li>
+          <li><img src="pages/4.jpg" page-id="4"> </li>
+          <li><img src="pages/5.jpg" page-id="5"></li>
+          <li><img src="pages/6.jpg" page-id="6"></li>
+          <li><img src="pages/1.jpg" page-id="1"> </li>
+          <li><img src="pages/2.jpg" page-id="2"></li>
+          <li><img src="pages/3.jpg" page-id="3"></li>
+          <li><img src="pages/4.jpg" page-id="4"> </li>
+          <li><img src="pages/5.jpg" page-id="5"></li>
+          <li><img src="pages/6.jpg" page-id="6"></li>
+        </ul>
       </section>
 
       <div class="page-numbers">
@@ -176,8 +185,8 @@
 
     </div>
 
-    <div class="small-12 large-3 columns">
-      <section class="sidebar flipbook info">
+    <div class="small-12 large-3 columns sidebar flipbook">
+      <section class="sidebar flipbook info hide">
         <div class="store-link flipbook">
           <a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a>
         </div>
@@ -188,11 +197,11 @@
         </div>
       </section>
 
-      <section class="sidebar flipbook list-links panel-links">
+      <section class="sidebar flipbook list-links panel-links hide">
         <a href="#" class="pull-down">
           <h3 class="sidebar-header">In this catalog <span class="arrow-down right arrow"></span></h3>
         </a>
-        <div class="pull-content hide">
+        <div class="pull-content">
           <ul class="quick-categories">
             <li><a href="#">Smartphones</a></li>
             <li><a href="#">Feature phones</a></li>
@@ -202,25 +211,89 @@
             <li><a href="#">Feature phones</a></li>
             <li><a href="#">Samsung</a></li>
             <li><a href="#">Apple</a></li>
-          </ul>
+          </ul>d
         </div>
-
       </section>
       
-      <section class="sidebar flipbook related-catalogs">
-        <a href="#" class="pull-down">
-          <h3 class="sidebar-header">Related Catalogs <span class="arrow-down right arrow"></span></h3>
-        </a>
-        <div class="pull-content">
-          <?php include('../elements/carousel-promos-flipbook.php'); ?>
+      <div class="sidebar flipbook related-catalogs">
+        <div class="section-container auto" data-section>
+          <section>
+            <p class="title" data-section-title><a href="#panel1">Search</a></p>
+            <div class="content" data-section-content>
+              
+             <h3 class="sidebar-header">Search Results</h3>
+              <div class="flipbook-search">
+                <div class="row collapse">
+                  <div class="small-9 columns">
+                    <input type="text" placeholder="Search for a catalog">
+                  </div>
+                  <div class="small-3 columns">
+                    <button class="postfix">search</span>
+                  </div>
+                </div>
+              </div>
+              <?php include('../elements/carousel-promos-flipbook.php'); ?>
+
+            </div>
+          </section>
+          <section>
+            <p class="title" data-section-title><a href="#panel2">What's Near</a></p>
+            <div class="content" data-section-content>
+              <p>Content of section 2.</p>
+            </div>
+          </section>
+          <section>
+            <p class="title" data-section-title><a href="#panel3">Browse</a></p>
+            <div class="content" data-section-content>
+              <p>Content of section 3.</p>
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
       
     </div>
   </div>
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
 
   <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? '../js/vendor/zepto' : 'javascripts/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="../js/vendor/jquery.js"></script>
+  <script src="../js/foundation/foundation.js"></script>
+  <script src="../js/foundation/foundation.alerts.js"></script>
+  <script src="../js/foundation/foundation.cookie.js"></script>
+  <script src="../js/foundation/foundation.dropdown.js"></script>
+  <script src="../js/foundation/foundation.forms.js"></script>
+  <script src="../js/foundation/foundation.orbit.js"></script>
+  <script src="../js/foundation/foundation.placeholder.js"></script>
+  <script src="../js/foundation/foundation.reveal.js"></script>
+  <script src="../js/foundation/foundation.section.js"></script>
+  <script src="../js/foundation/foundation.tooltips.js"></script>
+  <script src="../js/foundation/foundation.joyride.js"></script>
+
+  <script src="../js/turn.js"></script>
+  <script src="../js/zoom.js"></script>
+  <!-- <script src="../js/turn.html4.min.js"></script> -->
+  <script src="../js/jquery.mousewheel.min.js"></script>
+  <script src="../js/hash.js"></script>
+  <script src="../js/jquery.actual.min.js"></script>
+  <!-- <script src="../js/magazine.js"></script> -->
+  <script src="../js/scripts.js"></script>
+
+  <script>
+
+    var catalog_list_height = $(window).height() - ($('.top-bar').height() + $('.sidebar.flipbook.info').outerHeight(true) + 
+      $('.related-catalogs .sidebar-header').outerHeight(true) + 40);
+    $('.list-flip-related').css('height', catalog_list_height);
+
+    var sidebar_height = $(window).height() - $('.top-bar').height();
+    $('.columns.sidebar').css('height', sidebar_height);
+
 
 
     var container_width = $('.flipbook-container').width() - 15;
@@ -230,6 +303,7 @@
     var header_height = $('.top-bar').outerHeight(true);
     var pagination_height = $('.page-numbers').outerHeight(true);
     var container_height = window_height - (header_height + pagination_height);
+    var page_height = $('.page img').actual('height');
 
     $('.magazine').css('width', container_width);
     $('.flipbook-container').css('height', container_height);
@@ -260,22 +334,24 @@
 
   /* RESIZING */
 
-  /*
 
     var resizeTimer;
+
+      /*
       $('.flipbook-container').css('height', container_height);
       $('.page-button').css('height', container_height);
-      // $('.magazine').css('height', container_height);
-      // $('.magazine').css('width', container_width);
+      $('.magazine').css('height', container_height);
+      $('.magazine').css('width', container_width);
       $('.magazine').turn('size', container_width, container_height);
       
-      // $('.page-wrapper').css('width', page_width);
-      // $('.page-wrapper div').css('width', page_width);
-      // $('.page-wrapper div').css('height', page_height);
-      // $('.page img').css('width', page_width);
-      // $('.page img').css('max-height', 'auto');
+      $('.page-wrapper').css('width', page_width);
+      $('.page-wrapper div').css('width', page_width);
+      $('.page-wrapper div').css('height', page_height);
+      $('.page img').css('width', page_width);
+      $('.page img').css('max-height', 'auto');
 
       }, 10);
+      */
 
     $(window).resize(function() {
         clearTimeout(resizeTimer);
@@ -298,17 +374,19 @@
         $('.page-wrapper').css('width', page_width);
         $('.page-wrapper div').css('width', page_width);
         $('.page-wrapper div').css('height', page_height);
-        // $('.page img').css('width', page_width);
-        // $('.page img').css('max-height', 'auto');
+        $('.page-wrapper div').turn('width', page_width);
+        $('.page-wrapper div').turn('height', page_height);
+        $('.shadow').turn('height', page_height);
+
+        $('.page img').css('width', page_width);
+        $('.page img').css('max-height', 'auto');
         }, 10);
 
-      $('.magazine').turn({
-        height: page_height
-      });
+        $('.magazine').turn({
+          height: page_height
+        });
 
   });
-
-    */  
 
   </script>
 

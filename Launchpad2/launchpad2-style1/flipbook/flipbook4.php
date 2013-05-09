@@ -135,7 +135,7 @@
 
 
   <div class="row" style="max-width: none;">
-    <div class="small-12 large-9 columns flipbook-container">
+    <div class="small-12 columns flipbook-container">
 
       <div class="magazine-viewport">
         <div class="magazine-container">
@@ -165,48 +165,6 @@
       <a href="#" ignore="1" id="flipbook-prev" class="previous-button page-button hide-zoom">Prev <span></span></a>
       <a href="#" ignore="1" id="flipbook-next" class="next-button page-button hide-zoom">Next <span></span></a>
 
-    </div>
-
-    <div class="small-12 large-3 columns hide-zoom">
-      <section class="sidebar flipbook info">
-        <div class="store-link flipbook">
-          <a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a>
-        </div>
-        <div class="expiry">
-          <p>
-            Valid until <strong>April 12, 2013</strong>
-          </p>
-        </div>
-      </section>
-
-      <section class="sidebar flipbook list-links panel-links">
-        <a href="#" class="pull-down">
-          <h3 class="sidebar-header">In this catalog <span class="arrow-down right arrow"></span></h3>
-        </a>
-        <div class="pull-content hide">
-          <ul class="quick-categories">
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">Feature phones</a></li>
-            <li><a href="#">Samsung</a></li>
-            <li><a href="#">Apple</a></li>
-            <li><a href="#">Smartphones</a></li>
-            <li><a href="#">Feature phones</a></li>
-            <li><a href="#">Samsung</a></li>
-            <li><a href="#">Apple</a></li>
-          </ul>
-        </div>
-
-      </section>
-      
-      <section class="sidebar flipbook related-catalogs">
-        <a href="#" class="pull-down">
-          <h3 class="sidebar-header">Related Catalogs <span class="arrow-down right arrow"></span></h3>
-        </a>
-        <div class="pull-content">
-          <?php include('../elements/carousel-promos-flipbook.php'); ?>
-        </div>
-      </section>
-      
     </div>
   </div>
 
