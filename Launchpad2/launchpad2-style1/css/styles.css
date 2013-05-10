@@ -1657,7 +1657,7 @@ body.flipbook {
   margin-top: -30px;
   margin-left: -30px;
   background: #2c6289;
-  z-index: 10;
+  z-index: 100;
   font-size: 0px;
   padding: 20px 0;
   -moz-transition: ease-in-out all 0.3s;
@@ -1725,7 +1725,7 @@ body.flipbook {
 /* line 1442, ../sass/styles.scss */
 .columns.sidebar.flipbook {
   box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
-  z-index: 10;
+  z-index: 100;
 }
 
 /* line 1449, ../sass/styles.scss */
