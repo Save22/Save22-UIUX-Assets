@@ -130,10 +130,6 @@
         </div>
       </form>
     </section>
-
-    <section class="browse-catalogs hide">
-      <?php include('../elements/carousel-promos-flipbook.php'); ?>
-    </section>
   </header>
 
 

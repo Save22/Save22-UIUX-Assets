@@ -1,7 +1,5 @@
 
 body{
-	overflow:hidden;
-	background-color:#fcfcfc;
 	margin:0;
 	padding:0;
 }
@@ -30,7 +28,9 @@ body{
 .magazine-viewport .zoomer .region{
 	display:none;
 }
-
+.magazine.zoom-in {
+	z-index: 3000;
+}
 .magazine-viewport .zoom-in .region{
 	display:none;
 }
