@@ -197,7 +197,8 @@
     background: rgba(255,255,255,0.7);
     padding:emCalc(24px) emCalc(12px);
     overflow: hidden;
-    border-bottom: 1px solid $base-color-neutral;
+    border: 3px solid $base-color-blue-darker;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.35);
 
     .cat-item { position: relative; 
     }
@@ -1212,9 +1213,9 @@
   .home-featured {
 
     &.home-content {
-      margin-top: -24px;
       height: 600px; 
-      position: relative;
+      position: absolute;
+      top: 200px;
     }
 
     .row {
@@ -1277,6 +1278,7 @@
     margin: 0;
     z-index: 2;
     padding: emCalc(12px) 0;
+    top: 600px;
 
     &.home-content {
       padding: emCalc(48px) 0;

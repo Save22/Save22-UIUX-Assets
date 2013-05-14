@@ -1,25 +1,4 @@
 <?php include('header.php'); ?>
-  <a name="near"></a>
-  <div class="row home-featured main-row home-content">
-      <div class="row">
-        <div class="small-12 large-6 columns right location-ads">
-
-          <nav class="header-tabs">
-            <ul>
-              <li><a href="#near" class="active">What's Near</a></li>
-              <li><a href="#popular">Popular Promos</a></li>
-            </ul>
-          </nav>
-
-          <?php include('elements/carousel-promos-home.php'); ?>
-        </div>
-      </div>
-<!--
-    <div class="small-12 large-3 columns sidebar">
-      <?php include_once('elements/sidebar-hot.php'); ?>
-    </div> -->
-  </div>
-
   <a name="popular"></a>
   <section class="home-preview home-content">
 
@@ -42,11 +21,31 @@
     </div>
   </section>
 
-<div class="map" id="map">
+
+<div class="map-container">
+
+  <div class="map" id="map">
+
+  </div>
+
+  <a name="near"></a>
+  <div class="row home-featured main-row home-content">
+      <div class="row">
+        <div class="small-12 large-6 columns right location-ads">
+
+          <nav class="header-tabs">
+            <ul>
+              <li><a href="#near" class="active">What's Near</a></li>
+              <li><a href="#popular">Popular Promos</a></li>
+            </ul>
+          </nav>
+
+          <?php include('elements/carousel-promos-home.php'); ?>
+        </div>
+      </div>
+  </div>
 
 </div>
-
-
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script>
