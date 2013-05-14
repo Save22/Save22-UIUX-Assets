@@ -194,8 +194,8 @@
   }
 
   .promos-near {
-    background: $base-color-light;
-    padding: emCalc(12px);
+    background: rgba(255,255,255,0.7);
+    padding:emCalc(24px) emCalc(12px);
     overflow: hidden;
     border-bottom: 1px solid $base-color-neutral;
 
@@ -1204,20 +1204,81 @@
   }
   .section-container, .section-container.auto { margin: 0;}
 
-  .map {
-    @media (min-width: $break-small) and (max-width: $break-small-mid) {
-      display: none;
+  .location-ads {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    z-index: 2;
+  }
+
+  .home-featured {
+
+    &.home-content {
+      margin-top: -24px;
+      height: 600px; 
+      position: relative;
+    }
+
+  }
+
+  .header-tabs {
+    background: $base-color-blue-darker;
+    width: 100%;
+    display: block;
+    overflow: auto;
+
+    a { 
+      color: $base-color-light;
+      display: block;
+      padding: emCalc(12px); 
+
+      &:hover {
+        background: $base-color-blue-lighter;
+        color: $base-color-blue;
+      }
+    }
+
+    ul { 
+      list-style-type: none; 
+    }
+
+    li {
+      float: left;
+    }
+    .active {
+      background: $base-color-blue;
     }
   }
 
-  .location-ads {
-    margin-bottom: emCalc(24px);
+  .header-tabs, .all-category-links, .mobile-search, {
+    position: relative;
+    z-index: 2;
+  }
+
+  @media (min-width: $break-small) and (max-width: $break-small-mid) {
+    .map {display: none;}
+    .home-featured {
+      height: auto;
+      position: relative;
+    }
+    .location-ads {
+      position: relative;
+    }
+    .promos-near{
+      position: relative;
+    }
   }
 
   .home-preview {
     position: relative;
     background: #ededed;
     margin: 0;
+    z-index: 2;
+    padding: emCalc(12px) 0;
+
+    &.home-content {
+      padding: emCalc(48px) 0;
+    }
 
     .cat-thumb {
       h4 { font-size: emCalc(16px);}
@@ -1257,11 +1318,6 @@
     }
   }
 
-  .home-featured section, nav, .mobile-search {
-    position: relative;
-    z-index: 2;
-  }
-
   #map {
     position: absolute;
     width: 100%;
@@ -1269,6 +1325,11 @@
     top: 0;
     left: 0;
     z-index: 1;
+
+    &.map-page {
+      position: relative;
+      margin-top: emCalc(-24px);
+    }
   }
 
 /* CATEGORY PAGE */

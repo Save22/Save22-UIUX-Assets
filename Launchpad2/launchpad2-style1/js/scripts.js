@@ -55,7 +55,7 @@ $(window).load(function(){
   same_height('.results-grid .thumb');
   same_height('.results-grid .cat-info');
   same_height('.featured-grid .thumb');
-  same_height('.featured-grid .cat-info');
+  same_height('.featured-grid .item');
 
   least_height('#catalog-carousel img', '#catalog-carousel img');
 
@@ -72,7 +72,6 @@ $(window).load(function(){
 
   same_height_hidden('.same-height .item-container');
   same_height_hidden('.all-category-links a');
-
 
   /* max height: flipbook */
 

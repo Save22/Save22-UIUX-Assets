@@ -105,11 +105,11 @@
               <h3 class="sidebar-header">Promos near you</h3>
               <div class="flipbook-search">
                 <div class="row collapse">
-                  <div class="small-9 columns">
+                  <div class="small-6 columns">
                     <input type="text" placeholder="Find a location" value="Ortigas">
                   </div>
-                  <div class="small-3 columns">
-                    <button class="postfix">search</span>
+                  <div class="small-6 columns">
+                    <button class="postfix">change location</span>
                   </div>
                 </div>
               </div>
