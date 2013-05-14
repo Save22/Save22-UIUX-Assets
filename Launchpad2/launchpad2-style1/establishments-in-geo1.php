@@ -8,7 +8,7 @@
     </ul>
   </div>
   
-  <section class="home-preview">
+  <section class="home-preview page">
     <div class="row main-row">
       <div class="small-12 large-9 columns">
         <h2>Current Popular Promos <br>from Shops in <span class="location">Pasig City</span> within 25km</h2>

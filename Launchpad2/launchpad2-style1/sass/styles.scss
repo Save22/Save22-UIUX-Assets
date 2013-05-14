@@ -282,21 +282,23 @@
       overflow: visible;
       position: relative;
 
+      /*
       @media only screen and (min-width: $break-small) {
         width: 100%;
       }
+      */
 
-      @media only screen and (min-width: $break-small + 1) and (max-width: $break-small-mid - 1) {
+      @media only screen and (min-width: $break-small) and (max-width: $break-small-mid) {
         width: 50%;
       }
 
-      @media only screen and (min-width: $break-small-mid) and (max-width: $break-mid-larger) {
+      @media only screen and (min-width: $break-mid) and (max-width: $break-large) {
         width: 33.3333%;
         font-size: emCalc(13px);
       }
 
-      @media only screen and (min-width: $break-large) {
-        width: 33.3333%;
+      @media only screen and (min-width: $break-large + 1) {
+        width: 20%;
       }
 
       @media only screen and (min-width: $break-small) and (max-width: $break-mid) {
@@ -1279,6 +1281,10 @@
     z-index: 2;
     padding: emCalc(12px) 0;
     top: 600px;
+
+    &.page {
+      top: 0 !important;
+    }
 
     &.home-content {
       padding: emCalc(48px) 0;
