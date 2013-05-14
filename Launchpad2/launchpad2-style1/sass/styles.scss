@@ -1205,10 +1205,8 @@
   .section-container, .section-container.auto { margin: 0;}
 
   .location-ads {
-    position: absolute; 
-    bottom: 0; 
-    width: 100%;
     z-index: 2;
+    margin-top: 50px;
   }
 
   .home-featured {
@@ -1217,6 +1215,10 @@
       margin-top: -24px;
       height: 600px; 
       position: relative;
+    }
+
+    .row {
+      margin-right: 0 !important;
     }
 
   }
@@ -1330,6 +1332,22 @@
       position: relative;
       margin-top: emCalc(-24px);
     }
+
+    img {
+      max-width: none;
+    }
+
+    .map-catalog {
+      overflow: hidden;
+    }
+    div h3 {
+      font-size: emCalc(16px);
+    }
+  }
+
+  .map-catalog {
+    width: 150px;
+    margin: 12px auto;
   }
 
 /* CATEGORY PAGE */

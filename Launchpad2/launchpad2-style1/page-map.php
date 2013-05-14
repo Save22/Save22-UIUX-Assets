@@ -105,6 +105,32 @@
 
     /* https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map */
 
+  var html_text = '<div class="map-catalog"><h3>Abenson</h3><a href="#">Catalog Name<br><img src="img/catsample1.jpg" class="map-catalog"></a></div>';
+          
+  var infowindow = new google.maps.InfoWindow({
+      content: html_text
+  });
+
+  var retailer_logo1 = {
+    url: 'img/retailer-abenson.jpg',
+    size: new google.maps.Size(100, 50),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(0, 34),
+    scaledSize: new google.maps.Size(100, 50)
+  };
+
+  var marker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      icon: retailer_logo1,
+      title:'Abenson'
+  });
+
+
+  google.maps.event.addListener(marker, 'mouseover', function() {
+      infowindow.open(map,marker);
+  });
+
   </script>
 
 <?php include('footer.php'); ?>

@@ -1,17 +1,19 @@
 <?php include('header.php'); ?>
   <a name="near"></a>
   <div class="row home-featured main-row home-content">
-    <div class="location-ads">
-      <nav class="header-tabs">
-        <ul>
-          <li><a href="#near" class="active">What's Near</a></li>
-          <li><a href="#popular">Popular Promos</a></li>
-        </ul>
-      </nav>
-      <section>
-        <?php include('elements/carousel-promos-home.php'); ?>
-      </section>
-    </div>
+      <div class="row">
+        <div class="small-12 large-6 columns right location-ads">
+
+          <nav class="header-tabs">
+            <ul>
+              <li><a href="#near" class="active">What's Near</a></li>
+              <li><a href="#popular">Popular Promos</a></li>
+            </ul>
+          </nav>
+
+          <?php include('elements/carousel-promos-home.php'); ?>
+        </div>
+      </div>
 <!--
     <div class="small-12 large-3 columns sidebar">
       <?php include_once('elements/sidebar-hot.php'); ?>
@@ -127,23 +129,50 @@
   }
   ];
 
-  var myOptions = {
+  var mapOptions = {
     zoom: 16,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    disableDefaultUI: true,
+    disableDefaultUI: false,
     styles: styles,
     scrollwheel: false,
     zoomControl: true,
     zoomControlOptions: {
-      style: google.maps.ZoomControlStyle.LARGE,
-      position: google.maps.ControlPosition.LEFT_BOTTOM
+      style: google.maps.ZoomControlStyle.DEFAULT,
+      position: google.maps.ControlPosition.LEFT_CENTER
     }
   };
 
-  map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
   /* https://developers.google.com/maps/documentation/javascript/controls#Adding_Controls_to_the_Map */
+
+  var html_text = '<div class="map-catalog"><h3>Abenson</h3><a href="#">Catalog Name<br><img src="img/catsample1.jpg" class="map-catalog"></a></div>';
+          
+  var infowindow = new google.maps.InfoWindow({
+      content: html_text
+  });
+
+  var retailer_logo1 = {
+    url: 'img/retailer-abenson.jpg',
+    size: new google.maps.Size(100, 50),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(0, 34),
+    scaledSize: new google.maps.Size(100, 50)
+  };
+
+  var marker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      icon: retailer_logo1,
+      title:'Abenson'
+  });
+
+
+  google.maps.event.addListener(marker, 'mouseover', function() {
+      infowindow.open(map,marker);
+  });
+
 
 </script>
 
