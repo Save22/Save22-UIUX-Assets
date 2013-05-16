@@ -20,6 +20,16 @@
 	clear: both;
 }
 
-.section { *zoom: 1; }
-.section:before, .section:after { content: " "; display: table; }
-.section:after { clear: both; }
+.button-minor {
+	display: block;
+	position: relative;
+	height: 44px;
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	margin: 12px 0;
+}
+
+.section, .button-minor, .featured-grid, .sub-header { *zoom: 1 !important; }
+.section:before, .section:after, .button-minor:before, .featured-grid:before, .sub-header:before { content: " "; display: table !important; }
+.section:after, .button-minor:after, .featured-grid:after, .sub-header:after { clear: both !important; }

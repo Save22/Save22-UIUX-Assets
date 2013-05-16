@@ -264,3 +264,7 @@
   right: 0; 
 }
 .lt-ie9 .top-bar-section ul.right li .dropdown li .dropdown { right: 100%; }
+
+.lt-ie9 .hide-for-small {
+  display: block !important;
+}
