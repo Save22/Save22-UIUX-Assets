@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
@@ -11,9 +13,20 @@
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/styles.css" />
   
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
 
   <script src="js/vendor/custom.modernizr.js"></script>
-
+</head>
+<body>
+  
   <header id="main-header">
     <nav class="top-bar">
       <ul class="title-area">
@@ -123,6 +136,3 @@
       </ul>
     </section>
   </div>
-
-</head>
-<body>
