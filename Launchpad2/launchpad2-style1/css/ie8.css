@@ -1,0 +1,25 @@
+.home-intro {
+	height: 44px;
+}
+
+.home-intro .top-bar-section {
+	float: none;
+	clear: both;
+	height: 44px;
+	margin: 0;
+}
+
+#header-location {
+	padding: 12px;
+	height: 44px;
+}
+
+.breadcrumbs {
+	margin: 12px auto;
+	float: none;
+	clear: both;
+}
+
+.section { *zoom: 1; }
+.section:before, .section:after { content: " "; display: table; }
+.section:after { clear: both; }

@@ -1,5 +1,5 @@
 /* The Grid ---------------------- */
-.lt-ie9 .row { width: 1000; max-width: 100%; min-width: 768px; margin: 0 auto; }
+.lt-ie9 .row { width: 980; max-width: 100%; min-width: 768px; margin: 0 auto; }
 .lt-ie9 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
 .lt-ie9 .row.large-collapse .column, 
 .lt-ie9 .row.large-collapse .columns { padding: 0; }
@@ -144,8 +144,8 @@
 .lt-ie9 .small-block-grid-1 li, 
 .lt-ie9 .small-block-grid-2 li {
     float:left;
-    width: 25%;
-        padding: 0 10px 10px;
+    width: 33.3333%;
+    padding: 0 10px 10px;
 }
 
 .lt-ie9 .small-block-grid-1 li li:first-child + li +li +li,
