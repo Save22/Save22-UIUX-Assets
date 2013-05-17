@@ -26,7 +26,7 @@
   <script src="js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-  
+  <a name="top"></a>    
   <header id="main-header">
     <nav class="top-bar">
       <ul class="title-area">
@@ -118,7 +118,8 @@
                   <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
 
                   <nav class="location-suggestions hide">
-                    <ul class="">
+                    <h3>Suggested Places</h3>
+                    <ul>
                       <li><a href="#">Cainta</a></li>
                       <li><a href="#">Mandaluyong</a></li>
                       <li><a href="#">Makati</a></li>
@@ -129,6 +130,26 @@
                       <li><a href="#">Taguig</a></li>
                     </ul>
                   </nav>
+
+                  <div class="location-autocomplete hide">
+                    
+                    <!--
+                    <div class="error message">
+                      <h3>Place not found</h3>
+
+                      <p>I'm sorry but we couldn't find the place you were looking for.</p>
+                    </div>
+                    -->
+
+                    <ul>
+                      <li><a href="#">Result 1</a></li>
+                      <li><a href="#">Result 2</a></li>
+                      <li><a href="#">Result 3</a></li>
+                      <li><a href="#">Result 4</a></li>
+                    </ul>
+                    
+                  </div>
+
                 </div><!-- col -->
               </div><!-- rows -->
             </form>
