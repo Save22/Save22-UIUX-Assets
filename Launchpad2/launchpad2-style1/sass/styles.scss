@@ -1268,10 +1268,9 @@
   }
   .section-container, .section-container.auto { margin: 0;}
 
-  
-    .section-container.auto section .content, .section-container.auto .section .content {
-      z-index: 1 !important;
-    }
+  .section-container.tabs section .content, .section-container.tabs .section .content {
+    z-index: 1 !important;
+  }
 
   .location-ads {
     z-index: 2;
