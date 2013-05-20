@@ -232,7 +232,7 @@ function loc_suggestions() {
       var option = $(this).text();
       input_form.val(option);
 
-      event.preventDefault();
+      // event.preventDefault();
     });
   });
 }
