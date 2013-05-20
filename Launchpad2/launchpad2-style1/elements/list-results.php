@@ -1,5 +1,5 @@
 
-            <div class="content list-promotions">
+            <div class="content list-promotions" data-slug="promos" data-section-content>
 
               <div class="row item">
                 <div class="small-12 large-3 columns">

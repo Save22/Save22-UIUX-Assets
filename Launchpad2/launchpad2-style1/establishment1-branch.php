@@ -67,10 +67,10 @@
           <h2 class="main-header">Shopwise in Ortigas</h2>
         </header>
 
-        <div class="section-container auto" data-section>
+        <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">
           <section class="section">
             <p class="title"><a href="#promos">Promotions</a></p>
-            <div class="content">
+            <div class="content" data-slug="promos" data-section-content>
 
               <div class="row item">
                 <div class="small-12 large-3 columns">
@@ -210,7 +210,7 @@
           </section>
           <section class="section">
             <p class="title"><a href="#branches">Other <strong>Shopwise</strong> Branches</a></p>
-            <div class="content establishments">
+            <div class="content establishments" data-slug="branches" data-section-content>
 
               <?php include('elements/results-stores.php'); ?>
               

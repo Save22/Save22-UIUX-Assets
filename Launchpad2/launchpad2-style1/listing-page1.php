@@ -16,16 +16,16 @@
           <h2 class="main-header">Supermarkets in Ortigas</h2>
         </header>
 
-        <div class="section-container auto" data-section>
+        <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">
           <section class="section">
-            <p class="title"><a href="#panel1">Promotions</a></p>
+            <p class="title"><a href="#promos">Promotions</a></p>
 
               <?php include('elements/list-results.php'); ?>
 
           </section>
           <section class="section">
-            <p class="title"><a href="#panel2">Stores</a></p>
-            <div class="content establishments">
+            <p class="title"><a href="#stores">Stores</a></p>
+            <div class="content establishments" data-slug="stores" data-section-content>
 
               <?php include('elements/results-stores-grid.php'); ?>
 
