@@ -147,13 +147,17 @@
                       <li><a href="#">Result 3</a></li>
                       <li><a href="#">Result 4</a></li>
                     </ul>
-                    
+
                   </div>
 
                 </div><!-- col -->
               </div><!-- rows -->
             </form>
           </li><!-- loc search -->
+      </ul>
+
+      <ul class="right map-view">
+        <li><a href="page-map.php" class="link-map-view">Map View</a></li>
       </ul>
     </section>
   </div>

@@ -7,7 +7,7 @@
     </ul>
   </div>
 
-  <div class="row home-featured main-row">
+  <div class="row main-row">
     <div class="small-12 large-9 columns">
 
       <section class="section results search-results main-content results-list">
@@ -21,7 +21,6 @@
             <p class="title"><a href="#panel1">Promotions</a></p>
 
               <?php include('elements/list-results.php'); ?>
-            </div><!-- content -->
 
           </section>
           <section class="section">
@@ -59,6 +58,7 @@
 
       <?php include('elements/sidebar-category-locs.php'); ?>
       -->
+
       <?php include('elements/sidebar-categories.php'); ?>
 
     </div>

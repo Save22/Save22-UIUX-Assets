@@ -1268,6 +1268,11 @@
   }
   .section-container, .section-container.auto { margin: 0;}
 
+  
+    .section-container.auto section .content, .section-container.auto .section .content {
+      z-index: 1 !important;
+    }
+
   .location-ads {
     z-index: 2;
     margin-top: 50px;
@@ -1594,7 +1599,6 @@
     .section-container section .content, .section-container .section .content, .section-container.auto section .content, .section-container.auto .section .content {
       padding: 0;
     }
-
     .section-container section.active .title a, .section-container .section.active .title a, .section-container.auto section.active .title a, .section-container.auto .section.active .title a {
       background: $base-color-blue;
       color: $base-color-light;

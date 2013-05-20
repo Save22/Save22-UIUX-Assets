@@ -133,5 +133,6 @@
                 </div>
               </div>
 
-            </div>
             <?php include('elements/pagination.php'); ?>
+            
+            </div>
