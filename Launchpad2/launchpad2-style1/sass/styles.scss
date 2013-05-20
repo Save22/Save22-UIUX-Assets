@@ -1820,6 +1820,28 @@
     }
   }
 
+/* ERROR 404 */
+  .error-page {
+    h1 { 
+      font-size: emCalc(72px);
+      margin-bottom: 0.2em;
+    }
+
+    .inline-list {
+      li {
+      }
+      a {
+        background: $base-color-blue-lighter;
+        border-radius: $border-radius;
+        padding: emCalc(12px);
+        margin-bottom: emCalc(12px);
+      }
+      a:hover {
+        background: $base-color-red;
+        color: $base-color-light;
+      }
+    }
+  }
 
 /* LOADER */
 

@@ -2144,8 +2144,27 @@ body.flipbook {
   margin-top: 2px;
 }
 
+/* ERROR 404 */
+/* line 1825, ../sass/styles.scss */
+.error-page h1 {
+  font-size: 4.5em;
+  margin-bottom: 0.2em;
+}
+/* line 1833, ../sass/styles.scss */
+.error-page .inline-list a {
+  background: #b3cada;
+  border-radius: 6px;
+  padding: 0.75em;
+  margin-bottom: 0.75em;
+}
+/* line 1839, ../sass/styles.scss */
+.error-page .inline-list a:hover {
+  background: #b3181d;
+  color: white;
+}
+
 /* LOADER */
-/* line 1826, ../sass/styles.scss */
+/* line 1848, ../sass/styles.scss */
 .loader-container {
   position: absolute;
   top: 0;
@@ -2155,7 +2174,7 @@ body.flipbook {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 1834, ../sass/styles.scss */
+/* line 1856, ../sass/styles.scss */
 .loader-container .loader {
   padding: 1.5em;
   color: white;
@@ -2165,7 +2184,7 @@ body.flipbook {
   font-weight: bold;
   font-family: "Montserrat", sans-serif, helvetica;
 }
-/* line 1844, ../sass/styles.scss */
+/* line 1866, ../sass/styles.scss */
 .loader-container img {
   border-radius: 50%;
 }

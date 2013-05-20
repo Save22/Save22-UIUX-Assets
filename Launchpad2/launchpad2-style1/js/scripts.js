@@ -74,6 +74,8 @@ $(window).load(function(){
   same_height_hidden('.same-height .item-container');
   same_height_hidden('.all-category-links a');
 
+  window_height('.min-height');
+
   /* max height: flipbook */
 
     max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
@@ -96,6 +98,7 @@ $(window).load(function(){
 
             max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
 
+            window_height('.min-height');
           }, 10);
       });
 
@@ -109,6 +112,12 @@ $(window).load(function(){
 
 });
 
+function window_height(container) {
+  var window_height = $(window).height(),
+      top_height = window_height - ($('#main-header').outerHeight(true) + $('#main-footer').outerHeight(true));
+
+  $(container).css('min-height', top_height);
+}
 
 function same_height(container) {
   var items_height = [];
