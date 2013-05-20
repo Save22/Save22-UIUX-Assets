@@ -33,3 +33,7 @@
 .section, .button-minor, .featured-grid, .sub-header { *zoom: 1 !important; }
 .section:before, .section:after, .button-minor:before, .featured-grid:before, .sub-header:before { content: " "; display: table !important; }
 .section:after, .button-minor:after, .featured-grid:after, .sub-header:after { clear: both !important; }
+
+.content {
+	overflow: auto;
+}

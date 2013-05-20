@@ -160,7 +160,7 @@
 
 /* TOP BAR */
 .lt-ie9 .top-bar {
-  background: #2f2f2f;
+  background: #1c3755;
   *zoom: 1;
   overflow: visible; 
 }
@@ -181,7 +181,7 @@
   position: relative;
   top: 8px; 
 }
-.lt-ie9 .top-bar.expanded { background: #111111; }
+.lt-ie9 .top-bar.expanded { background: #1c3755; }
 .lt-ie9 .contain-to-grid .top-bar {
   max-width: 57.5em;
   margin: 0 auto; 
@@ -198,7 +198,7 @@
   display: inline; 
 }
 .lt-ie9 .top-bar-section ul li { float: left; }
-.lt-ie9 .top-bar-section ul li > a { padding-right: 14px !important; }
+.lt-ie9 .top-bar-section ul li > a { padding-right: 14px !important; background-color: #1c3755;}
 .lt-ie9 .top-bar-section ul li .js-generated { display: none; }
 .lt-ie9 .top-bar-section li a:not(.button) {
   padding: 0 15px;
@@ -248,14 +248,14 @@
 .lt-ie9 .top-bar-section > ul > .divider {
   border-bottom: none;
   border-top: none;
-  border-right: solid 1px #2b2b2b;
+  border-right: solid 1px #2c6289;
   border-left: solid 1px black;
   clear: none;
   height: 45px;
   width: 0px; 
 }
 .lt-ie9 .top-bar-section .has-form {
-  background: #111111;
+  background: #1c3755;
   padding: 0 15px;
   height: 45px; 
 }
