@@ -37,3 +37,26 @@
 .content {
 	overflow: auto;
 }
+
+
+/* FLIPBOOK */
+
+.top-bar-section.flipbook .store-link a img {
+	height: 30px !important;
+	width: auto;
+	margin: 0;
+	margin-top: -5px;
+}
+
+.lt-ie9 .row .flipbook-search .row {
+	margin: 0 !important;
+	width: 100% !important;
+}
+.lt-ie9 .flipbook-category-list {
+
+}
+.lt-ie9 .flipbook-category-list .f-dropdown.open {
+	top: 57px !important;
+	left: 0 !important;
+	width: 80% !important; 
+}

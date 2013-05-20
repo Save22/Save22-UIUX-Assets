@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
@@ -12,6 +14,16 @@
   <link rel="stylesheet" href="../css/magazine.css" />
   <link rel="stylesheet" href="../css/styles.css" />
   
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
+
   <script src="../js/vendor/custom.modernizr.js"></script>
 
 </head>
@@ -78,29 +90,31 @@
       <a href="#" class="hide-sidebar">Hide Sidebar <span class="arrow-right arrow"></span></a>
       
       <div class="sidebar flipbook related-catalogs">
-        <div class="section-container auto" data-section>
-          <section>
-            <p class="title" data-section-title><a href="#panel1">Search</a></p>
-            <div class="content" data-section-content>
+        <div class="section-container tabs" data-section="tabs" data-options="deep_linking:true;">
+          <div class="section">
+            <p class="title" data-section-title><a href="#search">Search</a></p>
+            <div class="content" data-slug="search" data-section-content>
               
               <h3 class="sidebar-header">Search Results</h3>
+
               <div class="flipbook-search">
                 <div class="row collapse">
                   <div class="small-9 columns">
                     <input type="text" placeholder="Search for a catalog" value="Tissue Paper">
                   </div>
                   <div class="small-3 columns">
-                    <button class="postfix">search</span>
+                    <button class="postfix">search</button>
                   </div>
                 </div>
               </div>
+
               <?php include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
-          </section>
-          <section>
-            <p class="title" data-section-title><a href="#panel2">What's Near</a></p>
-            <div class="content" data-section-content>
+          </div>
+          <div class="section">
+            <p class="title" data-section-title><a href="#recent">What's Near</a></p>
+            <div class="content" data-slug="recent" data-section-content>
 
               <h3 class="sidebar-header">Promos near you</h3>
               <div class="flipbook-search">
@@ -109,17 +123,17 @@
                     <input type="text" placeholder="Find a location" value="Ortigas">
                   </div>
                   <div class="small-6 columns">
-                    <button class="postfix">change location</span>
+                    <button class="postfix">change location</button>
                   </div>
                 </div>
               </div>
               <?php include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
-          </section>
-          <section>
-            <p class="title" data-section-title><a href="#panel3">Browse</a></p>
-            <div class="content" data-section-content>
+          </div>
+          <div class="section">
+            <p class="title" data-section-title><a href="#browse">Browse</a></p>
+            <div class="content" data-slug="browse" data-section-content>
 
               <h3 class="sidebar-header">From this category</h3>
               <div class="flipbook-category-list">
@@ -158,12 +172,12 @@
 
 
             </div>
-          </section>
-        </div>
+          </div>
+        </div><!-- tabs -->
       </div>
       
-    </div>
-  </div>
+    </div><!-- large-3 -->
+  </div><!-- main-container -->
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
