@@ -13,9 +13,8 @@
                   </p>
 
 
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
@@ -31,10 +30,8 @@
                     <span class="city">Blah blah blah</span>
                   </p>
 
-
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
@@ -50,10 +47,8 @@
                     <span class="city">Blah blah blah</span>
                   </p>
 
-
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
@@ -69,10 +64,8 @@
                     <span class="city">Blah blah blah</span>
                   </p>
 
-
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
@@ -88,10 +81,8 @@
                     <span class="city">Blah blah blah</span>
                   </p>
 
-
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
@@ -107,10 +98,8 @@
                     <span class="city">Blah blah blah</span>
                   </p>
 
-
-                    <a href="#" class="button-minor">Details and operating hours</a>
-                    <a href="#" class="map-link button-minor">Distance: <span class="distance">5km</span> 
-                    (Map)</a>
+                  <p>Distance: <span class="distance">5km</span> </p>
+                  <a href="#" class="button-minor">Details and operating hours</a>
                 </div>
               </div>
             </li>
