@@ -58,6 +58,14 @@
 </head>
 <body>
 
+<header id="moved">
+  <div class="row">
+    <div class="twelve columns">
+      <h1><a href="http://save22.com.ph">We've moved</a></h1>
+      <p>You can now find <strong>catalogs, promos, and sales</strong> in the <strong>new Save22</strong>. <a href="http://save22.com.ph" class="button">Click here to go to the new site</a>
+    </div>
+  </div>
+</header>
 
 <header id="main-header">
 <!-- NO LOGIN YET -->
