@@ -21,7 +21,7 @@ body {
 .top-bar .name h1 .logo {
   font-size: 0em;
   display: relative;
-  width: 120px;
+  width: 160px;
   overflow: hidden;
 }
 /* line 37, ../sass/home-styles.scss */
