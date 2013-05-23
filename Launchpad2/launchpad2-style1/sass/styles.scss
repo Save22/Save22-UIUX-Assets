@@ -694,16 +694,14 @@
       overflow: hidden;
     }
     h1 a {
-      margin: 6px 15px;
-      display: block;
-      background: url('../img/save22-logo.png') 0 0 no-repeat;
-      background-size: 151px 30px;
-      width: 100%;
-      height: 100%;
       line-height: 0%;
       font-size: 0;
       color: transparent;
       overflow: hidden;
+    }
+    .logo-img {
+      margin-top: 8px;
+      margin-right: -8px;
     }
   }
   #main-header label {
@@ -1323,7 +1321,7 @@
 
   .header-tabs, .all-category-links, .mobile-search, {
     position: relative;
-    z-index: 2;
+    z-index: 3;
   }
 
   @media (min-width: $break-small) and (max-width: $break-small-mid) {
