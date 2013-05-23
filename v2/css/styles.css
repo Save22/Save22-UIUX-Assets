@@ -381,7 +381,12 @@ width: 100% !important;
 
 	#moved .button {
 		margin-left: 20px;
-		border-radius: 25px;
+	  -webkit-border-radius: 25px; 
+	  -moz-border-radius: 25px; 
+	  border-radius: 25px; 
+	  -webkit-background-clip: padding-box; 
+	  -moz-background-clip:    padding; 
+	  background-clip:         padding-box;
 	}
 
 	#moved p {font-family: 'Montserrat', sans-serif !important; }
