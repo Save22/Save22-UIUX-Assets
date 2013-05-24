@@ -34,6 +34,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
 
   <script src="js/vendor/custom.modernizr.js"></script>
+
 </head>
 <body>
   <a name="top"></a>    
