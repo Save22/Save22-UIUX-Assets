@@ -122,7 +122,7 @@
             <form>
               <div class="row collapse">
                 <div class="small-3 large-6 columns">
-                  <label class="inline loc-suggestions-trigger" for="header-location">You're browsing at</label>
+                  <label class="inline loc-suggestions-trigger" for="header-location"><span class="left">You're browsing at </span> <img src="img/icon-loc.svg" alt="Change Location" class="right loc-icon"> </label>
                 </div>
                 <div class="small-9 large-6 columns location-form">
                   <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
@@ -167,7 +167,7 @@
       </ul>
 
       <ul class="right map-view">
-        <li><a href="page-map.php" class="link-map-view">Map View</a></li>
+        <li><a href="page-map.php" class="link-map-view"><img src="img/icon-map.svg" alt="View Map" class="left">Map View</a></li>
       </ul>
     </section>
   </div>

@@ -871,6 +871,15 @@
     }
   }
 
+  .top-bar-section ul li > a.link-map-view {
+    background: #fff;
+    color: $base-color-dark;
+
+    &:hover {
+      background: $base-color-blue-lighter;
+    }
+  }
+
 /* FOOTER */
 
   #main-footer {
@@ -1454,7 +1463,13 @@
     }
   }
 
+.map-container {
+  display: block;
+  height: auto;
+  margin-bottom: 600px;
+}
 
+.loc-icon { margin-left: 10px; }
 /* CATEGORY PAGE */
 
   .category-page {
