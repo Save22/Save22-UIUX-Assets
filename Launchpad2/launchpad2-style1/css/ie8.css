@@ -57,6 +57,19 @@
 	padding: 0;
 }
 
+.lt-ie9 .top-bar-section ul.map-view { background: #fff; }
+.lt-ie9 .top-bar-section ul li a.link-map-view {
+	background: #fff;
+}
+.lt-ie9 .top-bar-section ul li a.link-map-view:hover {
+	background: #b3cada;
+}
+.lt-ie9 .top-bar-section a.link-map-view img {
+	width: 30px !important; height: auto; 
+	margin-top: -8px;
+	margin-right: 10px;
+}
+
 
 
 /* FLIPBOOK */
