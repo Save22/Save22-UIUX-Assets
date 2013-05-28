@@ -38,7 +38,7 @@
 </head>
 <body>
   <a name="top"></a>    
-  <header id="main-header">
+  <header id="main-header" class="fixed">
     <nav class="top-bar">
       <ul class="title-area">
         <!-- Title Area -->
