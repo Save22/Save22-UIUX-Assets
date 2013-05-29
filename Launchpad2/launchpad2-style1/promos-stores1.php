@@ -2,8 +2,14 @@
   
   <div class="row main-row">
     <ul class="breadcrumbs">
-      <li><a href="#">Save22 Ortigas</a></li>
-      <li class="current"><a href="#">Current Offers</a></li>
+      <li>
+          <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a href="/metro-manila/" itemprop="url">
+                  <span itemprop="title">Save22 Metro Manila</span>
+              </a>
+          </div>
+      </li>
+      <li class="current"><a href="#">Shopping Mall Promos</a></li>
     </ul>
   </div>
   

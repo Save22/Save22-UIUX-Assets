@@ -601,9 +601,10 @@
     border: 0;
     margin-top: -12px;
 
-    li a {
+    li a, li span {
       color: $base-color-blue;
     }
+    li div a span { font-size: emCalc(16px); }
   }
   .pagination {
     margin: emCalc(15px) 0;
@@ -754,7 +755,13 @@
   .breadcrumbs li:before {
     content: "›";
   }
+  
+  #main-header .top-bar .top-bar-section {
 
+  }
+  .top-bar-section .has-form.search {
+    width: 400px;
+  }
   .top-bar-section .has-form.location-search { 
     background: #fff !important;
     @media (min-width: $break-small) and (max-width: $break-mid-large - 1) {
