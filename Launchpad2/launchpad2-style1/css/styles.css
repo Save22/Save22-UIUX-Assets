@@ -349,8 +349,8 @@ section h3.sub-header {
 /* line 356, ../sass/styles.scss */
 .results-grid .cat-thumb img, .featured-grid .cat-thumb img {
   max-width: none;
-  width: auto;
-  height: 200px;
+  width: 100%;
+  height: auto;
   margin: auto;
 }
 /* line 363, ../sass/styles.scss */

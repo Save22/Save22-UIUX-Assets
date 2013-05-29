@@ -23,6 +23,16 @@
     <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
   <![endif]-->
 
+  <link rel="icon" href="img/favicon_16x16.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon_32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon_64x64.png" sizes="64x64" type="image/png">
+  <link rel="icon" href="img/favicon_128x128.png" sizes="128x128" type="image/png">
+
+  <!-- home screen for iphones without the gloss effect -->
+  <link rel="apple-touch-icon-precomposed" href="img/icon-iphone.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
+
   <script src="js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
@@ -32,7 +42,7 @@
       <ul class="title-area">
         <!-- Title Area -->
         <li class="name">
-          <h1><a href="#">Save22.com.ph</a></h1>
+          <h1><a href="#"><img src="img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
         </li>
         <li class="toggle-topbar search-icon"><a href="#" class="search-link"><span class="icon"></span></a></li>
       </ul>

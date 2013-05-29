@@ -55,7 +55,7 @@ $(window).load(function(){
 
   same_height('.results-grid .thumb');
   same_height('.results-grid .cat-info');
-  same_height('.featured-grid .thumb');
+  // same_height('.featured-grid .thumb');
   same_height('.featured-grid .item');
 
   least_height('#catalog-carousel img', '#catalog-carousel img');
