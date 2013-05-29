@@ -58,7 +58,6 @@
           }
       }
   }
-
   </script>
 
   <style type="text/css">
@@ -72,6 +71,7 @@
 
   .magazine {
     overflow: hidden;
+    margin: 0 auto !important;
   }
 
   .magazine .turn-page{

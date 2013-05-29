@@ -27,7 +27,7 @@ $(window).load(function(){
       next: '#catalog-next'
     });
 
-    $('#brand-carousel').carouFredSel({
+    $('#widget-brands-carousel').carouFredSel({
       auto: false,
       width: '100%',
       height: 'auto',
