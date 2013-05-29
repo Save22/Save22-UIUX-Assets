@@ -1,17 +1,40 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Save22 | Launchpad 2.0 - Flipbook</title>
+  <title>Save22 | Launchpad 2.0</title>
 
   <link rel="stylesheet" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/app.css" />
   <link rel="stylesheet" href="../css/styles.css" />
   <link rel="stylesheet" href="../css/magazine.css" />
   
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  <link rel="icon" href="../img/favicon_16x16.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../img/favicon_32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../img/favicon_64x64.png" sizes="64x64" type="image/png">
+  <link rel="icon" href="../img/favicon_128x128.png" sizes="128x128" type="image/png">
+
+  <!-- home screen for iphones without the gloss effect -->
+  <link rel="apple-touch-icon-precomposed" href="img/icon-iphone.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
+
+
   <script src="../js/vendor/custom.modernizr.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <script src="../js/turn.js"></script>
@@ -22,6 +45,22 @@
   <script src="../js/jquery.actual.min.js"></script>
   <script src="../js/magazine.js"></script>
   <script src="../js/scripts.js"></script>
+
+  <script>
+    if (!Modernizr.svg) {
+      var imgs = document.getElementsByTagName('img');
+      var endsWithDotSvg = /.*\.svg$/
+      var i = 0;
+      var l = imgs.length;
+      for(; i != l; ++i) {
+          if(imgs[i].src.match(endsWithDotSvg)) {
+              imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+          }
+      }
+  }
+
+  </script>
+
   <style type="text/css">
   body{
     background:#fdfdfd;
@@ -100,7 +139,7 @@
       <ul class="title-area">
         <!-- Title Area -->
         <li class="name">
-          <h1><a href="#">Save22.com.ph</a></h1>
+          <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
         </li>
         <li class="toggle-topbar"><a href="#previous-page" class="back-link"><span>Back</span></a></li>
       </ul>
@@ -108,10 +147,14 @@
       <section class="top-bar-section">
         <ul class="left">
           <li class="divider"></li>
+          <li><a href="#link-to-retailer">Retailer</a></li>
+          <li class="divider"></li>
           <li><a href="#">Catalog Name</a></li>
           <li class="divider"></li>
         </ul>
-        
+        <ul class="right">
+          <li><a href="#">Zoom In</a></li>
+        </ul>
       </section>
     </nav>
 
@@ -143,17 +186,6 @@
           </div>
         </div><!-- container -->
       </div><!-- viewport -->
-
-      <section class="flipbook pages hide">
-        <p>
-          <img src="pages/1.jpg" page-id="1"> 
-          <img src="pages/2.jpg" page-id="2">
-          <img src="pages/3.jpg" page-id="3">
-          <img src="pages/4.jpg" page-id="4"> 
-          <img src="pages/5.jpg" page-id="5">
-          <img src="pages/6.jpg" page-id="6">
-        </p>
-      </section>
 
       <div class="page-numbers hide-zoom">
         <span class="current-page">Page 1</span> of <span class="last-page">9</span>
