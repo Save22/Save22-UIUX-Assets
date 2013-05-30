@@ -88,7 +88,7 @@
     ];
 
     var myOptions = {
-      zoom: 16,
+      zoom: 12,
       center: latlng,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
