@@ -36,99 +36,6 @@
 
 
   <script src="../js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  <script src="../js/turn.js"></script>
-  <script src="../js/zoom.js"></script>
-  <!-- <script src="../js/turn.html4.min.js"></script> -->
-  <script src="../js/jquery.mousewheel.min.js"></script>
-  <script src="../js/hash.js"></script>
-  <script src="../js/jquery.actual.min.js"></script>
-  <script src="../js/magazine.js"></script>
-
-  <script>
-    if (!Modernizr.svg) {
-      var imgs = document.getElementsByTagName('img');
-      var endsWithDotSvg = /.*\.svg$/
-      var i = 0;
-      var l = imgs.length;
-      for(; i != l; ++i) {
-          if(imgs[i].src.match(endsWithDotSvg)) {
-              imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
-          }
-      }
-  }
-  </script>
-
-  <style type="text/css">
-  body{
-    background:#fdfdfd;
-  }
-
-  .flipbook-container {
-    padding: 0 !important;
-  }
-
-  .magazine {
-    overflow: hidden;
-    margin: 0 auto !important;
-  }
-
-  .magazine .turn-page{
-    background-color:#ccc;
-    background-size:100% 100%;
-  }
-
-  .magazine .page {
-    position: relative;
-  }
-
-  .magazine .page.odd img {
-    border: 3px solid #ccc;
-    border-left: 0;
-  }
-
-  .magazine .page.even img {
-    border: 3px solid #ccc;
-    border-right: 0;
-  }
-
-  .magazine img {
-    width: 100%;
-    height: auto;
-    max-width: none;
-  }
-
-  .page-numbers {
-    position: absolute;
-    bottom: -38px;
-    width: 100%;
-  }
-
-  .magazine-viewport {
-    right: 0;
-  }
-
-  .flipbook.pages {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    padding-top: 24px;
-    background: rgba(255,255,255,0.5);
-  }
-
-  .flipbook.pages img {
-    height: 100px;
-    width: auto; 
-    border: 3px solid #fff;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
-    margin-right: 12px;
-  }
-  .flipbook.pages img:last-child {
-    margin: 0;
-  }
-
-  </style>
 </head>
 
 <body>
@@ -199,6 +106,29 @@
     </div>
   </div>
 
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="../js/turn.js"></script>
+  <script src="../js/zoom.js"></script>
+  <!-- <script src="../js/turn.html4.min.js"></script> -->
+  <script src="../js/jquery.mousewheel.min.js"></script>
+  <script src="../js/hash.js"></script>
+  <script src="../js/jquery.actual.min.js"></script>
+  <script src="../js/magazine.js"></script>
+
+  <script>
+    if (!Modernizr.svg) {
+      var imgs = document.getElementsByTagName('img');
+      var endsWithDotSvg = /.*\.svg$/
+      var i = 0;
+      var l = imgs.length;
+      for(; i != l; ++i) {
+          if(imgs[i].src.match(endsWithDotSvg)) {
+              imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+          }
+      }
+  }
+  </script>
 
 <script type="text/javascript">
 var turner;
