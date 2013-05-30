@@ -1365,7 +1365,6 @@
   }
 
   @media (min-width: $break-small) and (max-width: $break-small-mid) {
-    .map {display: none;}
     .home-featured {
       height: auto;
       position: relative;
@@ -1913,7 +1912,12 @@
     }
   }
 
-
+@media screen and (min-width: $break-small) and (max-width: $break-small-mid) {
+  .location-ads { 
+    margin: 0;
+  }
+  .home-featured .row { margin: 0; }
+}
 @media screen and (min-width: $break-small) and (max-width: $break-mid) {
   .top-bar .name h1 a {
     width: 100%;  
@@ -1948,6 +1952,7 @@
       }
     }
     .loc-suggestions-trigger { 
+      /* padding: 3px 0 0 0;  */
       span { display: none; }
     }
   }
