@@ -1,5 +1,8 @@
 .lt-ie9 .home-intro {
 	height: 44px;
+	position: relative;
+	top: 44px;
+	margin-bottom: 44px;
 }
 
 .lt-ie9 .home-intro .top-bar-section {
@@ -32,6 +35,7 @@
 	overflow: hidden;
 	float: none;
 	margin: 12px 0;
+	font-size: 14px;
 }
 
 .location-suggestions ul a { background: #b3cada !important; }
@@ -84,7 +88,7 @@
 .lt-ie9 .row .flipbook-search .row {
 	margin: 0 !important;
 	width: 100% !important;
-}
+}F
 .lt-ie9 .flipbook-category-list {
 
 }
