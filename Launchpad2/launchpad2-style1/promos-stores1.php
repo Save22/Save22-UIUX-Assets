@@ -9,6 +9,13 @@
               </a>
           </div>
       </li>
+      <li>
+          <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a href="/metro-manila/" itemprop="url">
+                  <span itemprop="title">Save22 Metro Manila</span>
+              </a>
+          </div>
+      </li>
       <li class="current"><a href="#">Shopping Mall Promos</a></li>
     </ul>
   </div>

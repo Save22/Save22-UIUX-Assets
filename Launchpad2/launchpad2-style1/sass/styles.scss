@@ -604,6 +604,7 @@
     li a, li span {
       color: $base-color-blue;
     }
+    li div { display: inline; }
     li div a span { font-size: emCalc(16px); }
   }
   .pagination {
