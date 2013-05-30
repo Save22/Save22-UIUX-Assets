@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="../css/magazine.css" />
   
   <!--[if IE 8]>
-    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie8.css" type="text/css" media="screen" />
   <![endif]-->
 
   <!--[if IE 7]>
-    <link rel="stylesheet" href="css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../css/ie7.css" type="text/css" media="screen" />
   <![endif]-->
 
   <link rel="icon" href="../img/favicon_16x16.png" sizes="32x32" type="image/png">
@@ -44,7 +44,6 @@
   <script src="../js/hash.js"></script>
   <script src="../js/jquery.actual.min.js"></script>
   <script src="../js/magazine.js"></script>
-  <script src="../js/scripts.js"></script>
 
   <script>
     if (!Modernizr.svg) {

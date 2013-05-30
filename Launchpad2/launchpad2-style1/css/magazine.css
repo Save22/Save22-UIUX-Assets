@@ -356,3 +356,72 @@ body{
 	text-align:center;
 	z-index:10;
 }
+
+
+  body{
+    background:#fdfdfd;
+  }
+
+  .flipbook-container {
+    padding: 0 !important;
+  }
+
+  .magazine {
+    overflow: hidden;
+    margin: 0 auto !important;
+  }
+
+  .magazine .turn-page{
+    background-color:#ccc;
+    background-size:100% 100%;
+  }
+
+  .magazine .page {
+    position: relative;
+  }
+
+  .magazine .page.odd img {
+    border: 3px solid #ccc;
+    border-left: 0;
+  }
+
+  .magazine .page.even img {
+    border: 3px solid #ccc;
+    border-right: 0;
+  }
+
+  .magazine img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+
+  .page-numbers {
+    position: absolute;
+    bottom: -38px;
+    width: 100%;
+  }
+
+  .magazine-viewport {
+    right: 0;
+  }
+
+  .flipbook.pages {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 24px;
+    background: rgba(255,255,255,0.5);
+  }
+
+  .flipbook.pages img {
+    height: 100px;
+    width: auto; 
+    border: 3px solid #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5);
+    margin-right: 12px;
+  }
+  .flipbook.pages img:last-child {
+    margin: 0;
+  }
