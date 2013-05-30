@@ -2160,57 +2160,61 @@ body.flipbook {
     height: 80%;
   }
   /* line 1954, ../sass/styles.scss */
+  .home-intro .top-bar-section .location-suggestions ul {
+    width: 100% !important;
+  }
+  /* line 1957, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger {
     /* padding: 3px 0 0 0;  */
   }
-  /* line 1956, ../sass/styles.scss */
+  /* line 1959, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger span {
     display: none;
   }
 
-  /* line 1959, ../sass/styles.scss */
+  /* line 1962, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 1.25em;
   }
 }
 @media screen and (min-width: 30em) and (max-width: 64em) {
-  /* line 1966, ../sass/styles.scss */
+  /* line 1969, ../sass/styles.scss */
   body {
     font-size: 0.875em;
   }
 
-  /* line 1970, ../sass/styles.scss */
+  /* line 1973, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 2.25em;
   }
-  /* line 1972, ../sass/styles.scss */
+  /* line 1975, ../sass/styles.scss */
   .mobile-shop-info .store-link {
     width: 50%;
     float: left;
   }
-  /* line 1976, ../sass/styles.scss */
+  /* line 1979, ../sass/styles.scss */
   .mobile-shop-info .store-link img {
     width: 100%;
     padding-right: 1.5em;
   }
-  /* line 1978, ../sass/styles.scss */
+  /* line 1981, ../sass/styles.scss */
   .mobile-shop-info p {
     display: block;
     width: 50%;
     float: left;
   }
 
-  /* line 1986, ../sass/styles.scss */
+  /* line 1989, ../sass/styles.scss */
   .branch-details .row .small-12.large-4, .branch-details .row .small-12.large-8 {
     width: 50%;
   }
-  /* line 1991, ../sass/styles.scss */
+  /* line 1994, ../sass/styles.scss */
   .branch-details .row .small-12.large-8 .large-block-grid-2 li {
     width: 100%;
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 2000, ../sass/styles.scss */
+  /* line 2003, ../sass/styles.scss */
   .establishments .results-grid .store-link img {
     max-width: 250px;
   }

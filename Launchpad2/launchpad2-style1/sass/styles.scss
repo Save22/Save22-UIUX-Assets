@@ -1950,6 +1950,9 @@
 
         img { margin: 4px 12px 0 0; height: 80%; }
       }
+      .location-suggestions {
+        ul { width: 100% !important; }
+      }
     }
     .loc-suggestions-trigger { 
       /* padding: 3px 0 0 0;  */
