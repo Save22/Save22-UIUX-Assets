@@ -126,7 +126,7 @@
                   <label class="inline loc-suggestions-trigger" for="header-location"><span class="left">You're browsing at </span> <img src="img/icon-loc.svg" alt="Change Location" class="right loc-icon"> </label>
                 </div>
                 <div class="small-9 large-6 columns location-form">
-                  <input name="location" id="header-location" type="text" placeholder="Ortigas" value="Ortigas">
+                  <input type="text" name="location" id="header-location" placeholder="Ortigas" value="Ortigas">
 
                   <nav class="location-suggestions hide">
                     <h3>Suggested Places</h3>

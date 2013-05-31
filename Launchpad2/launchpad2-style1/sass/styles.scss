@@ -1220,13 +1220,15 @@
       list-style-type: none;
     }
 
+
     input[type=text] {
       background: $border-light;
       border: 0;
       box-shadow: none;
       border-bottom: 4px solid $base-color-topbar;
       margin-top: 0;
-      padding: 20px 12px 21px 12px;
+      line-height: 46px;
+      height: 46px;
     }
   }
 
