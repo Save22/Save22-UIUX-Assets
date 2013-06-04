@@ -48,7 +48,7 @@
         <li class="name">
           <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
         </li>
-        <li class="toggle-topbar"><a href="#previous-page" class="back-link"><span>Back</span></a></li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
 
       <section class="top-bar-section flipbook">
@@ -57,6 +57,9 @@
           <li class="store-link"><a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a></li>
           <li class="divider"></li>
           <li class="expiry">Valid until <strong>April 12, 2013</strong></li>
+        </ul>
+        <ul class="right">
+          <li><a href="#">Zoom In</a></li>
         </ul>
       </section>
     </nav>
@@ -123,7 +126,7 @@
 
             </div>
           </div>
-          <!--
+          <!-- NOT IMPLEMENTING OTHER TABS
           <div class="section">
             <p class="title" data-section-title><a href="#recent">What's Near</a></p>
             <div class="content" data-slug="recent" data-section-content>
@@ -192,8 +195,6 @@
     </div><!-- large-3 -->
   </div><!-- main-container -->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-  
   <script src="../js/vendor/jquery.js"></script>
   <script src="../js/foundation/foundation.js"></script>
   <script src="../js/foundation/foundation.dropdown.js"></script>
@@ -209,7 +210,7 @@
   <script src="../js/hash.js"></script>
   <script src="../js/jquery.actual.min.js"></script>
   <script src="../js/magazine.js"></script>
-  <script src="../js/scripts.js"></script>
+  <script src="../js/scripts-flipbook.js"></script>
 
   <script>
     if (!Modernizr.svg) {
