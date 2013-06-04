@@ -106,10 +106,9 @@
       <div class="sidebar flipbook related-catalogs">
         <div class="section-container tabs" data-section="tabs" data-options="deep_linking:true;">
           <div class="section">
-            <p class="title" data-section-title><a href="#search">Search</a></p>
             <div class="content" data-slug="search" data-section-content>
               
-              <h3 class="sidebar-header">Search Results</h3>
+              <h3 class="sidebar-header">Search <!-- Results --></h3>
 
               <div class="flipbook-search">
                 <div class="row collapse">
@@ -126,69 +125,6 @@
 
             </div>
           </div>
-          <!-- NOT IMPLEMENTING OTHER TABS
-          <div class="section">
-            <p class="title" data-section-title><a href="#recent">What's Near</a></p>
-            <div class="content" data-slug="recent" data-section-content>
-
-              <h3 class="sidebar-header">Promos near you</h3>
-              <div class="flipbook-search">
-                <div class="row collapse">
-                  <div class="small-6 columns">
-                    <input type="text" placeholder="Find a location" value="Ortigas">
-                  </div>
-                  <div class="small-6 columns">
-                    <button class="postfix">change location</button>
-                  </div>
-                </div>
-              </div>
-              <?php include('../elements/carousel-promos-flipbook.php'); ?>
-
-            </div>
-          </div>
-          <div class="section">
-            <p class="title" data-section-title><a href="#browse">Browse</a></p>
-            <div class="content" data-slug="browse" data-section-content>
-
-              <h3 class="sidebar-header">From this category</h3>
-              <div class="flipbook-category-list">
-                <a href="#" data-dropdown="drop1" class="category-list-link">
-                  <span class="arrow-left arrow"> </span> <span class="current">Supermarkets</span>
-                </a>
-
-                <ul id="drop1" class="f-dropdown" data-dropdown-content>
-                  <li><a href="#">Optical Shop</a></li>
-                  <li><a href="#">Department Store</a></li>
-                  <li><a href="#">Electronics Store</a></li>
-                  <li><a href="#">Apparel</a></li>
-                  <li><a href="#">Sporting Goods</a></li>
-                  <li><a href="#">Gardens &amp; Plants</a></li>
-                  <li><a href="#">Automotive Parts and Service</a></li>
-                  <li><a href="#">Drugstore/Pharmacy</a></li>
-                  <li><a href="#">Toys</a></li>
-                  <li><a href="#">Fast Food</a></li>
-                  <li><a href="#">Specialty Store</a></li>
-                  <li><a href="#">Supermarket</a></li>
-                  <li><a href="#">Hardware Store</a></li>
-                  <li><a href="#">Organic Market</a></li>
-                  <li><a href="#">Shoe Store</a></li>
-                  <li><a href="#">Bookstore</a></li>
-                  <li><a href="#">Bank</a></li>
-                  <li><a href="#">Pet shop</a></li>
-                  <li><a href="#">Fashion</a></li>
-                  <li><a href="#">Furniture Store</a></li>
-                  <li><a href="#">Watches &amp; Jewellery</a></li>
-                  <li><a href="#">Clearance Stores &amp; Bazaars</a></li>
-                  <li><a href="#">Outlet Stores</a></li>
-                  <li><a href="#">Other Establishments</a></li>
-                </ul>
-              </div>
-              <?php include('../elements/carousel-promos-flipbook.php'); ?>
-
-
-            </div>
-          </div>
-          -->
         </div><!-- tabs -->
       </div>
       
