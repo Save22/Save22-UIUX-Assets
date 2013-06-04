@@ -118,7 +118,7 @@
     <section class="top-bar-section">
       <ul>
         <li class="copy desktop-only"><label class="inline loc-suggestions-trigger" for="header-location">
-        Flip through brochures and promos of places near you!</label></li>
+        Comprehensive pricing, promotions and sales information updated daily.</label></li>
           <li class="has-form location-search">
             <form>
               <div class="row collapse">

@@ -22,6 +22,10 @@
 	min-width: 300px !important;
 }
 
+.lt-ie9 .home-intro .top-bar-section .desktop-only {
+	display: block;
+}
+
 .lt-ie9 .breadcrumbs {
 	margin: 12px auto;
 	float: none;
