@@ -203,7 +203,7 @@
   <script src="../js/turn.js"></script>
   <script src="../js/zoom.js"></script>
 
-  <!-- LOAD ONLY FOR IE8 --><script src="../js/turn.html4.min.js"></script>
+  <!--[if IE 8]><script src="../js/turn.html4.min.js"></script><![endif]-->
 
   <script src="../js/jquery.mousewheel.min.js"></script>
   <script src="../js/hash.js"></script>
@@ -211,6 +211,20 @@
   <script src="../js/magazine.js"></script>
   <script src="../js/scripts.js"></script>
 
+  <script>
+    if (!Modernizr.svg) {
+      var imgs = document.getElementsByTagName('img');
+      var endsWithDotSvg = /.*\.svg$/
+      var i = 0;
+      var l = imgs.length;
+      for(; i != l; ++i) {
+          if(imgs[i].src.match(endsWithDotSvg)) {
+              imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+          }
+      }
+  }
+
+  </script>
 <script type="text/javascript">
 
   $(document).ready(function() {
