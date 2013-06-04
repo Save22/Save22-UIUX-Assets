@@ -24,57 +24,75 @@
   var sidebar_height = $(window).height() - $('.top-bar').height();
   $('.columns.sidebar').css('height', sidebar_height);
 
+
   /* turnjs */
     var turner;
     var numPages = 12;
+
     $(document).ready(function() {
-            setLastPage(numPages);
-            turner = $('.magazine').turn({
-                elevation: 50,
-                // Hardware acceleration
-                acceleration: !isChrome(),
-                // Enables gradients
-                gradients: true,
-                // Auto center this flipbook
-                autoCenter: true,
-                // The number of pages
-                pages: numPages,
-                // Events
-                when: {
-                    turning: function(event, page, view) {
-                        var book = $(this),
-                        currentPage = book.turn('page'),
-                        pages = book.turn('pages');
-                        // Update the current URI
-                        Hash.go('page/' + page).update();
-                        // Show and hide navigation buttons
-                        disableControls(page);
-                        $('.thumbnails .page-'+currentPage).
-                            parent().
-                            removeClass('current');
-                        $('.thumbnails .page-'+page).
-                            parent().
-                            addClass('current');
-                    },
-                    turned: function(event, page, view) {
-                        disableControls(page);
-                        setCurrentPage(page);
-                        $(this).turn('center');
-                        if (page==1) { 
-                            $(this).turn('peel', 'br');
-                        }
-                    },
-                    missing: function (event, pages) {
-                        // Add pages that aren't in the magazine
-                        for (var i = 0; i < pages.length; i++)
-                            addPage(pages[i], $(this));
+
+        setLastPage(numPages);
+        turner = $('.magazine').turn({
+            elevation: 50,
+            // Hardware acceleration
+            acceleration: !isChrome(),
+            // Enables gradients
+            gradients: true,
+            // Auto center this flipbook
+            autoCenter: true,
+            // The number of pages
+            pages: numPages,
+            // Events
+            when: {
+                turning: function(event, page, view) {
+                    var book = $(this),
+                    currentPage = book.turn('page'),
+                    pages = book.turn('pages');
+                    // Update the current URI
+                    Hash.go('page/' + page).update();
+                    // Show and hide navigation buttons
+                    disableControls(page);
+                    $('.thumbnails .page-'+currentPage).
+                        parent().
+                        removeClass('current');
+                    $('.thumbnails .page-'+page).
+                        parent().
+                        addClass('current');
+                },
+                turned: function(event, page, view) {
+                    disableControls(page);
+                    setCurrentPage(page);
+                    $(this).turn('center');
+                    if (page==1) { 
+                        $(this).turn('peel', 'br');
                     }
+                },
+                missing: function (event, pages) {
+                    // Add pages that aren't in the magazine
+                    for (var i = 0; i < pages.length; i++)
+                        addPage(pages[i], $(this));
                 }
-            });
+            }
+        });
     });
 
   /* RESIZING */
     $(document).ready(function() {
+
+        function get_display(){
+            /* getting viewport width */
+            var responsive_viewport = $(window).width();
+            
+            if (responsive_viewport < 979) {
+                $('.magazine').turn('display', 'single');
+            } 
+            if (responsive_viewport > 979) {
+                $('.magazine').turn('display', 'double');
+            } 
+        }
+
+        get_display();
+
         var container_width = $('.flipbook-container').width() - 15;
         var page_width = container_width / 2;
 
@@ -105,6 +123,8 @@
                 $('.flipbook-container').css('height', container_height);
                 $('.page-button').css('height', container_height);
                 $('.magazine').turn('size', container_width, container_height);
+
+                get_display();
 
                 /* SIDEBAR */
                 var catalog_list_height = $(window).height() - ($('.top-bar').height() + $('.flipbook-search').actual('height') + 
@@ -262,3 +282,4 @@
     function setLastPage(lastPage){
         $('.last-page').html(lastPage);
     }
+

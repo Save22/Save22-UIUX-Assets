@@ -59,7 +59,8 @@
           <li class="expiry">Valid until <strong>April 12, 2013</strong></li>
         </ul>
         <ul class="right">
-          <li><a href="#">Zoom In</a></li>
+          <li><a href="#" title="Double click on page to Zoom In. 
+            Press ESC to Zoom Out">Zoom In</a></li>
         </ul>
       </section>
     </nav>
