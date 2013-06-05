@@ -1840,6 +1840,18 @@
     }
   }
 
+  .flipbook.pagination-centered {
+    margin: 24px 0;
+    .pagination {
+      li, a {
+        height: 36px;
+        display: block;
+      }
+      a {
+      }
+    }
+  }
+
   .category-list-link {
     height: 32px;
     overflow: hidden;

@@ -224,4 +224,12 @@
           </a>
         </div>
 
+        <div class="flipbook pagination-centered">
+          <ul class="pagination">
+            <li class="arrow next"><a href="">Next &raquo;</a></li>
+            <li class="current">Page 1 of 10</li>
+            <li class="arrow prev"><a href="">&laquo; Previous</a></li>
+          </ul>
+        </div>
+
       </section>
