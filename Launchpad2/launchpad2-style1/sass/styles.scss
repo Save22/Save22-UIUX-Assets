@@ -1880,6 +1880,16 @@
     }
   }
 
+  /*flipbook mobile*/
+
+    .mobile-flipbook-sidebar {
+      position: absolute;
+      top: 0; left: 0;
+      z-index: 3000;
+      width: 100%;
+    }
+
+
 /* ERROR 404 */
   .error-page {
     h1 { 
@@ -1989,8 +1999,16 @@
   .mobile-shop-info {
     padding-top: emCalc(20px);
   }
+
+  /* FLIPBOOK */
+  .flipbook.sidebar { display: none; }
 }
 
+@media screen and (min-width: $break-mid + 1) {
+
+  /* FLIPBOOK */
+  .flipbook.sidebar { display: block; }
+}
 
 @media screen and (min-width: $break-small-mid) and (max-width: $break-mid-larger) {
   body {

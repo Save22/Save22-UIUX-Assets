@@ -48,7 +48,7 @@
         <li class="name">
           <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
         </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        <li class="toggle-topbar menu-icon flipbook-sidebar-trigger"><a href="#"><span></span></a></li>
       </ul>
 
       <section class="top-bar-section flipbook">
@@ -122,7 +122,7 @@
                 </div>
               </div>
 
-              <?php include('../elements/loader-flipbook.php'); ?>
+              <?php // include('../elements/loader-flipbook.php'); ?>
               <?php include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
