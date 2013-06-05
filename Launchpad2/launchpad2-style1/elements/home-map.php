@@ -12,7 +12,7 @@
 
           <nav class="header-tabs">
             <ul>
-              <li><a href="#near" class="active">What's Near</a></li>
+              <li><a href="#near" class="active">Nearby Promos</a></li>
               <li><a href="#popular">Popular Promos</a></li>
             </ul>
           </nav>

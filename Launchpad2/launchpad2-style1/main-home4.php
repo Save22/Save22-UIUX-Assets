@@ -5,7 +5,7 @@
     <div class="row main-row">
       <div class="small-12 large-9 columns">
 
-        <h3 class="sub-header">Popular Promotions</h3>
+        <h3 class="sub-header"><span class="desc">Popular Promotions</span> <span class="current-category">Supermarkets</span></h3>
           <?php include('elements/grid-featured.php'); ?>
 
           <a href="#category-link" class="button-minor home-more">view more</a>

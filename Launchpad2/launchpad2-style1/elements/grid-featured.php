@@ -19,7 +19,7 @@
                   <h4>SM Hypermart</h4>
                 </div>
                 <div class="thumb">
-                  <img src="img/catsample4.jpg" alt="">
+                  <img src="img/catsample7.jpg" alt="">
                 </div>
               </a>
             </div>
@@ -31,7 +31,7 @@
                   <h4>Cold Storage</h4>
                 </div>
                 <div class="thumb">
-                  <img src="img/catsample2.jpg" alt="">
+                  <img src="img/catsample8.jpg" alt="">
                 </div>
               </a>
             </div>
@@ -43,7 +43,7 @@
                   <h4>Toy Kingdom</h4>
                 </div>
                 <div class="thumb">
-                  <img src="img/catsample3.jpg" alt="">
+                  <img src="img/catsample9.jpg" alt="">
                 </div>
               </a>
             </div>

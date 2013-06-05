@@ -31,6 +31,7 @@
   $base-color-dark: #000;
   $base-color-neutral-dark: #3d3d3d;
   $base-color-neutral: #8c8c8c;
+  $base-color-neutral-light: #eee;
 
   $border-light: #ededed;
   $base-color-bg: #f9f9f9; /* #edf5f6 */
@@ -346,11 +347,10 @@
       }
 
       .thumb {
-        /* width: 60%; */
         text-align: center;
         overflow: hidden;
         border: 3px solid $base-color-light;
-        /* margin: 0 auto emCalc(12px) auto; */
+        max-height: 300px;
       }
 
       img {
@@ -762,6 +762,23 @@
   }
   .top-bar-section .has-form.search {
     width: 400px;
+    input[type=search] {
+      background:#2b4968;
+      border-color: #162c42;
+      color: $base-color-light;
+    }
+    ::-webkit-input-placeholder { 
+        color:    #6182a3;
+    }
+    :-moz-placeholder { 
+        color:    #6182a3;
+    }
+    ::-moz-placeholder { 
+        color:    #6182a3;
+    }
+    :-ms-input-placeholder { 
+        color:    #6182a3;
+    }
   }
   .top-bar-section .has-form.location-search { 
     background: #fff !important;
@@ -924,6 +941,7 @@
   .top-bar-section ul li > a.link-map-view {
     background: #fff;
     color: $base-color-dark;
+    border-left: 1px solid $base-color-neutral-light; 
 
     &:hover {
       background: $base-color-blue-lighter;
@@ -1209,9 +1227,17 @@
     margin-bottom: 24px;
     position: relative;
     z-index: 10;
+    font-weight: 300;  
+    font-family: $secondary-font;
 
-    .copy { padding: 0 15px; 
-      label {font-weight: 700;  }
+    .copy { 
+      padding: 0 15px; 
+      border-right: 1px solid $base-color-neutral-light; 
+      label { 
+        height: 45px;
+        line-height: 30px;
+        font-size: emCalc(11px);
+      }
     }
 
     label { margin: 0 12px 0 0; float: right; }
@@ -1334,7 +1360,7 @@
   }
 
   .header-tabs {
-    background: $base-color-blue-darker;
+    background: $base-color-blue;
     width: 100%;
     display: block;
     overflow: auto;
@@ -1358,7 +1384,7 @@
       float: left;
     }
     .active {
-      background: $base-color-blue;
+      background: $base-color-blue-darker;
     }
   }
 
@@ -1394,6 +1420,21 @@
 
     &.home-content {
       padding: emCalc(48px) 0;
+    }
+
+    .sub-header { 
+      display: block; clear: both;
+      height: 34px;
+    }
+    .desc { display: block; float: left; }
+    .current-category {
+      display: block;
+      background: $base-color-blue;
+      color: $base-color-light;
+      padding: emCalc(4px) emCalc(16px);
+      font-weight: 300;
+      margin: emCalc(-4px) emCalc(-16px);
+      border-bottom: 6px solid $base-color-blue-darker;
     }
 
     .cat-thumb {
@@ -2042,6 +2083,17 @@
   }
 }
 
+@media screen and (min-width: $break-mid-large) {
+
+  .home-preview {
+    .sub-header {
+      .current-category {
+        display: block;
+        float: right;
+      }
+    }
+  }
+}
 @media screen and (min-width: $break-large) {
   .establishments {
     .results-grid {
