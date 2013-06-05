@@ -1917,7 +1917,8 @@
       padding: emCalc(24px);
       color: $base-color-light;
       margin: auto;
-      margin-top: 25%;
+      margin-top: 50%;
+      top: -40px;
       text-align: center;
       font-weight: bold;
       font-family: $secondary-font;
@@ -1926,6 +1927,16 @@
     img {
       border-radius: 50%;
     }
+
+    &.flipbook {
+      .loader {
+      }
+      img {
+        width: 30px;
+        border: 0;
+      }
+    }
+
   }
 
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {

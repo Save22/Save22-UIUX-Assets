@@ -122,6 +122,7 @@
                 </div>
               </div>
 
+              <?php include('../elements/loader-flipbook.php'); ?>
               <?php include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
