@@ -18,7 +18,7 @@
         <div class="cat-thumb">
           <a href="#">
             <div class="thumb">
-              <img src="../img/catsample4.jpg" alt="">
+              <img src="../img/catsample7.jpg" alt="">
             </div>
             <div class="cat-info">
               <div>
@@ -32,7 +32,7 @@
         <div class="cat-thumb">
           <a href="#">
             <div class="thumb">
-              <img src="../img/catsample2.jpg" alt="">
+              <img src="../img/catsample8.jpg" alt="">
             </div>
             <div class="cat-info">
               <div>
@@ -46,7 +46,7 @@
         <div class="cat-thumb">
           <a href="#">
             <div class="thumb">
-              <img src="../img/catsample1.jpg" alt="">
+              <img src="../img/catsample9.jpg" alt="">
             </div>
             <div class="cat-info">
               <div>

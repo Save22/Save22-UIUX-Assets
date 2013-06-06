@@ -117,8 +117,8 @@
   <div class="home-intro row main-row">
     <section class="top-bar-section">
       <ul>
-        <!-- <li class="copy desktop-only"><label class="inline loc-suggestions-trigger" for="header-location">
-        Comprehensive pricing, promotions and sales information updated daily.</label></li> -->
+        <li class="copy desktop-only"><label class="inline loc-suggestions-trigger" for="header-location">
+        Comprehensive pricing, promotions and sales information updated daily.</label></li>
           <li class="has-form location-search">
             <form>
               <div class="row collapse">

@@ -1502,7 +1502,11 @@
 
   .map-catalog {
     width: 150px;
-    margin: 12px auto;
+    margin: 0;
+
+    img {
+      margin-top: emCalc(12px);
+    }
   }
 
 
@@ -1645,6 +1649,8 @@
   }
 
   .sidebar.flipbook {
+
+    &.columns { padding: 0 !important; }
     .hide-sidebar {
       display: block;
       position: absolute;
