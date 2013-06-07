@@ -43,12 +43,6 @@
     </div>
   </footer>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.alerts.js"></script>

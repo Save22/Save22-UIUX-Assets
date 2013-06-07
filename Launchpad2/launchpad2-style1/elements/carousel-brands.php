@@ -1,7 +1,7 @@
 
         <div class="promos-brands orbit-container">
 
-          <div id="brand-carousel" class="gallery-carousel">
+          <div id="widget-brands-carousel" class="gallery-carousel">
             
             <a href="#retailer-page" class="item">
               <div class="cat-item">

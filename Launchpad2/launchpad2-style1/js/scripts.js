@@ -3,26 +3,15 @@ $(window).load(function(){
   
   /* CAROUSELS */
 
-    $('.gallery-carousel').carouFredSel({
-      auto: false,
-      width: '100%',
-      height: 'auto',
-      prev: '#carousel-prev',
-      next: '#carousel-next'
-    });
-
-    $('#catalog-carousel').carouFredSel({
-      auto: false,
-      width: '100%',
-      height: 'auto',
-      prev: '#catalog-prev',
-      next: '#catalog-next'
-    });
-
     $('#catalog-carousel-home').carouFredSel({
       auto: false,
+      direction: 'up',
       width: '100%',
-      height: 'auto',
+      height: '100%',
+      scroll: 1,
+      items: {
+        visible: '+1'
+      },
       prev: '#catalog-prev',
       next: '#catalog-next'
     });
@@ -35,21 +24,6 @@ $(window).load(function(){
       next: '#brand-next'
     });
 
-    $('#branch-carousel').carouFredSel({
-      auto: false,
-      width: '100%',
-      height: 'auto',
-      prev: '#branch-prev',
-      next: '#branch-next'
-    });
-
-    $('#store-carousel').carouFredSel({
-      auto: false,
-      width: '100%',
-      height: 'auto',
-      prev: '#store-prev',
-      next: '#store-next'
-    });
 
   // $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
 
@@ -78,14 +52,6 @@ $(window).load(function(){
 
   window_height('.min-height');
 
-  /* max height: flipbook */
-
-    max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
-
-    var flipbook_sidebar_height_offset = 
-      $('#main-header').height() + $('.sidebar.info').height() + $('.sidebar.pages').height() + $('.sidebar.list-links').height();
-    max_height('.list-flip-related', flipbook_sidebar_height_offset);
-
 
   /* RESIZE */
 
@@ -112,6 +78,57 @@ $(window).load(function(){
       same_height('.featured-grid .thumb');
       same_height('.featured-grid .cat-info');
     });
+
+  /* SMOOTH SCROLL */
+    $(document).ready(function() {
+      function filterPath(string) {
+      return string
+        .replace(/^\//,'')
+        .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+        .replace(/\/$/,'');
+      }
+      var locationPath = filterPath(location.pathname);
+      var scrollElem = scrollableElement('html', 'body');
+     
+      $('a[href*=#]').each(function() {
+        var thisPath = filterPath(this.pathname) || locationPath;
+        if (  locationPath == thisPath
+        && (location.hostname == this.hostname || !this.hostname)
+        && this.hash.replace(/#/,'') ) {
+          var $target = $(this.hash), target = this.hash;
+          if (target) {
+            var targetOffset = $target.offset().top;
+            $(this).click(function(event) {
+              event.preventDefault();
+              $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+                location.hash = target;
+              });
+            });
+          }
+        }
+      });
+     
+      // use the first element that is "scrollable"
+      function scrollableElement(els) {
+        for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+          var el = arguments[i],
+              $scrollElement = $(el);
+          if ($scrollElement.scrollTop()> 0) {
+            return el;
+          } else {
+            $scrollElement.scrollTop(1);
+            var isScrollable = $scrollElement.scrollTop()> 0;
+            $scrollElement.scrollTop(0);
+            if (isScrollable) {
+              return el;
+            }
+          }
+        }
+        return [];
+      }
+     
+    });
+  /* end smooth scroll */
 
 });
 
