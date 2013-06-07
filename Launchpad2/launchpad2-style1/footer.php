@@ -1,4 +1,15 @@
-
+  <div id="seo-pages-links" class="footer-links-list">
+    <div class="row main-row">
+      <div class="small-12 columns">
+        <ul class="inline-list">
+          <li><a href="seo-establishments-in-geo1.php">Shops in Pasig City</a></li>
+          <li><a href="seo-establishments-in-geo1.php">Shops</a></li><!-- in country -->
+          <li><a href="seo-list-template1.php">Establishments</a></li><!-- in country -->
+          <li><a href="seo-list-template2.php">Locations</a></li><!-- in country -->
+        </ul>
+      </div>
+    </div>
+  </div>
   <footer id="main-footer">  
     <div class="row main-row">
       <div class="large-3 small-12 columns">
@@ -29,19 +40,18 @@
       <div class="large-3 small-12 columns">
       </div>
     </div>
-    <hr>
-    <div class="row main-row">
+  </footer>
+    <div class="row main-row footer-links">
       <div class="small-12 columns">
         <ul class="inline-list">
           <li><a href="http://save22.com.sg">Singapore</a></li>
           <li><a href="http://save22.com.ph">Philippines</a></li>
           <!-- no link yet? 
           <li><a href="#">Privacy Policy</a></li> -->
-          <li>Copyright &copy; <a href="http://save22.com">Save22</a></li>
+          <li><span>Copyright &copy; <a href="http://save22.com">Save22</a></span></li>
         </ul>
       </div>
     </div>
-  </footer>
 
   <script>
   document.write('<script src=' +

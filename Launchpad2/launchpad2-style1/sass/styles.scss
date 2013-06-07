@@ -1003,7 +1003,7 @@
 
   #main-footer {
     background: $base-color-light;
-    padding-top: 24px;
+    padding: emCalc(24px) 0;
 
     h3 {
       font-size: 1em;
@@ -1017,6 +1017,25 @@
       color: $base-color-dark;
       font-size: 0.813em;
     }
+  }
+
+  .footer-links-list, .footer-links {
+    background: $border-light;
+    padding-top: emCalc(14px);
+    font-size: emCalc(12px);
+    font-family: $secondary-font;
+    text-transform: uppercase;
+
+    li { margin-right: emCalc(24px); }
+    a { color: $base-color-neutral-dark; }
+    a:hover { color: $base-color-neutral;}
+  }
+
+  .footer-links {
+    background: $base-color-blue;
+    color: $base-color-neutral-light;
+    a { color: $base-color-blue-lighter; }
+    a:hover { color: $base-color-light; }
   }
 
 /* SIDEBAR */
