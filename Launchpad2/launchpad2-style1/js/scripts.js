@@ -19,6 +19,22 @@ $(window).load(function(){
       next: '#brand-next'
     });
 
+    $('#widget-nearby-shops').carouFredSel({
+      auto: false,
+      width: '100%',
+      height: '100%',
+      direction: 'up',
+      /*
+      items: {
+        visible: 3
+      }, */
+      scroll: {
+        items: 1
+      },
+      prev: '#sidebar-shops-prev',
+      next: '#sidebar-shops-next'
+    });
+
   // $('#sidebar-categories').stickyMojo({footerID: '#main-footer', contentID: '#content'});
 
   same_height('.results-grid .thumb');

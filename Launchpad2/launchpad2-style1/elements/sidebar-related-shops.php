@@ -1,19 +1,52 @@
+      <!-- nearby shops widget, widget displays 6 shops that are close by to the location of the retailer or branch page that this widget resides on. -->
 
       <section>
-        <h2 class="sidebar-header">Related Stores</h2>
+        <h2 class="sidebar-header header-nearby-shops">Nearby Shops</h2>
 
-        <a href="#" class="mobile-only view-establishment-list drop-down">View Stores <span class="arrow arrow-down"></span></a>
 
-        <div class="mobile-hide establishment-list">
-          <ul class="small-block-grid-1 large-block-grid-2 list-shops section">
-            <li><a href="#retailer-page"><img src="img/retailer-logo1.png"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-logo2.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-logo4.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-robappliances_head.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-shopwise.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-smappliance_logo.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-ansons.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-abenson.jpg"></a></li>
-          </ul>
+        <div class="nearby-shops orbit-container">
+
+          <div id="widget-nearby-shops" class="gallery-carousel">
+            
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-abenson.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-ansons.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-automatic-logo-main.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-robappliances_head.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-smappliance_logo.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+
+            <a href="#retailer-page" class="item">
+              <div class="cat-item">
+                <div class="thumb"><img src="img/retailer-shopwise.jpg" alt="brand title" /></div>
+              </div>
+            </a>
+          </div>
+
         </div>
+
+        <div class="vert-carousel-trigger"><a href="#" class="sidebar-carousel-arrow carousel-arrow-down" id="sidebar-shops-next">View More <span><img src="img/menu-arrow-down.svg"></span></a></div>
       </section>
+
