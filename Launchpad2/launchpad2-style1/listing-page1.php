@@ -35,32 +35,10 @@
 
       </section>
 
-      <!--
-
-      <section class="section results">
-        <h2 class="main-header">Current Promos in Ortigas 
-          <a href="#" class="button right small">view all</a>
-        </h2>
-        <?php include('elements/carousel-promos.php'); ?>
-      </section>
-
-      <section class="section results">
-        <h2 class="main-header">Shopwise in neighboring cities of Ortigas</h2>
-        <?php include('elements/carousel-branches.php'); ?>
-      </section>
-
-      -->
 
     </div>
     <div class="small-12 large-3 columns sidebar">
-      <!-- 
-      <?php include('elements/sidebar-featured-taxonomies.php'); ?>
-
-      <?php include('elements/sidebar-category-locs.php'); ?>
-      -->
-
-      <?php include('elements/sidebar-categories.php'); ?>
-
+      <?php include('elements/sidebar-categories-seo.php'); ?>
     </div>
   </div>
 
