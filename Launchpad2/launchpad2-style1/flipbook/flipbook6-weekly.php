@@ -85,6 +85,10 @@
 
       <div class="magazine-viewport">
         <div class="magazine-container">
+          <div class="alert-flipbook">
+            <img src="../img/loading.gif" alt="loading"> 
+            <span>Please wait while the image loads.</span>
+          </div>
           <div class="magazine">
           </div>
         </div><!-- container -->
