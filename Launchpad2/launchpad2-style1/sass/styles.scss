@@ -1038,6 +1038,32 @@
     a:hover { color: $base-color-light; }
   }
 
+  .list-cities {
+    background: $base-color-blue-lighter;
+
+    h3 {
+      color: $base-color-blue;
+    }
+
+    &.footer-links-list {
+      background: $base-color-blue-lighter;
+      .inline-list { margin-bottom: emCalc(14px); }
+      h3 {margin-top: 4px;}
+    }
+    [class*="block-grid-"] {
+      li { margin: 0; }
+    }
+    a { color: $base-color-neutral-dark; }
+
+    &.list-many {
+      padding: emCalc(24px) 0;
+
+      h3 {
+        margin-bottom: emCalc(24px);
+      }
+    }
+  }
+
 /* SIDEBAR */
 
   .sidebar {

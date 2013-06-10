@@ -1,3 +1,6 @@
+  <?php // DEPRECATED
+  // include('elements/seo-footer-allplaces.php'); ?>
+
   <div id="seo-pages-links" class="footer-links-list">
     <div class="row main-row">
       <div class="small-12 columns">
@@ -8,6 +11,7 @@
       </div>
     </div>
   </div>
+
   <footer id="main-footer">  
     <div class="row main-row">
       <div class="large-3 small-12 columns">
