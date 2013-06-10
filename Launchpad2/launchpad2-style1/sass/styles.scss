@@ -1160,6 +1160,11 @@
       }
     }
 
+    .promos-available{
+      font-family: $secondary-font;
+      font-size: emCalc(12px);
+      color: $base-color-blue-lighter;
+    }
   }
 
   .panel {
@@ -1232,10 +1237,34 @@
     &.flipbook li {
       font-size: emCalc(12px);
       padding: emCalc(5px) emCalc(15px);
-
     }
-
+    .trigger {
+      padding: 0 !important;
+      a {
+        display: block;
+        height: 35px;
+      }
+      img {
+        margin-top: 6px;
+      }
+    }
   }
+
+  .more-links {
+    margin-top: emCalc(-20px);
+  }
+
+  .trigger-more-links, .trigger-close-menu {
+    font-size: 0;
+    text-align: center;
+    position: relative;
+    margin: emCalc(-5px) emCalc(-15px) !important;
+
+    &:hover {
+      background: $base-color-neutral-light;
+    }
+  }
+
 
 /* NAVS */
 
