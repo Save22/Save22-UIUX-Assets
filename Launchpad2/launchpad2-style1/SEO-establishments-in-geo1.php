@@ -12,12 +12,23 @@
     <div class="row main-row">
       <div class="small-12 large-9 columns">
         <h2><span class="location">Pasig City</span> Shops</h2>
-        <h3 class="sub-header">Shops</h3>
+        <h3 class="sub-header">A</h3>
 
           <div class="seo-list shops">
           <?php include('elements/seo-stores-grid.php'); ?>
           </div>
-          <?php include('elements/pagination.php'); ?>
+
+        <h3 class="sub-header">B</h3>
+
+          <div class="seo-list shops">
+          <?php include('elements/seo-stores-grid.php'); ?>
+          </div>
+
+        <h3 class="sub-header">C</h3>
+
+          <div class="seo-list shops">
+          <?php include('elements/seo-stores-grid.php'); ?>
+          </div>
 
       </div>
       <div class="small-12 large-3 columns">

@@ -2,10 +2,8 @@
     <div class="row main-row">
       <div class="small-12 columns">
         <ul class="inline-list">
-          <li><a href="seo-establishments-in-geo1.php">Shops in Pasig City</a></li>
-          <li><a href="seo-establishments-in-geo1.php">Shops</a></li><!-- in country -->
-          <li><a href="seo-list-template1.php">Establishments</a></li><!-- in country -->
-          <li><a href="seo-list-template2.php">Locations</a></li><!-- in country -->
+          <!-- HOMEPAGE ONLY --><li><a href="seo-list-townscities.php">Towns and Cities</a></li>
+          <li><a href="seo-establishments-in-geo2.php">Shops in Pasig City</a></li>
         </ul>
       </div>
     </div>
