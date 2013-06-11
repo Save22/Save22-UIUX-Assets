@@ -54,13 +54,15 @@
       <section class="top-bar-section flipbook">
         <ul class="left">
           <li class="divider"></li>
-          <li class="store-link"><a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a></li>
+          <li class="back"><a href="#">&lsaquo; Back to Search</a></li><!-- just 'back' if not coming from search -->
+          <li class="divider"></li>
+          <li class="store-link"><a href="#store-page">Fairprice Blah Blah Blah</a></li>
           <li class="divider"></li>
           <li class="expiry">Valid until <strong>April 12, 2013</strong></li>
         </ul>
         <ul class="right">
           <li><a href="#" title="Double click on page to Zoom In. 
-            Press ESC to Zoom Out">Zoom In</a></li>
+            Press ESC to Zoom Out">&plusmn; Zoom In</a></li>
         </ul>
       </section>
     </nav>
