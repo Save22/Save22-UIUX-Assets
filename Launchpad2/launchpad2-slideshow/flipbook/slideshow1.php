@@ -38,10 +38,11 @@
   <link href="../css/photoswipe.css" type="text/css" rel="stylesheet" />
   
   <script type="text/javascript" src="../js/klass.min.js"></script>
+  <script type="text/javascript" src="../js/code.photoswipe-3.0.5.min.js"></script>
   
-  <!--[if IE 8]> <script src="../js/vendor/jquery.js"></script> -->
-  <!--[if IE 8]> <script type="text/javascript" src="../js/code.photoswipe.jquery-3.0.5.min.js"></script> 
-  --> 
+  
+  <!--[if IE 8]> <script src="../js/vendor/jquery.js"></script><![endif]-->
+  <!--[if IE 8]> <script type="text/javascript" src="../js/code.photoswipe.jquery-3.0.5.min.js"></script> <![endif]-->
   
   
   <script type="text/javascript">
