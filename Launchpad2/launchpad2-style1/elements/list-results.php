@@ -3,7 +3,15 @@
 
               <div class="row item">
                 <div class="small-12 large-3 columns">
-                  <a href="#catalogue-URL"><img src="img/catsample5.jpg"></a>
+                  <a href="#catalogue-URL">
+                    <img src="img/catsample5.jpg">
+                    <div class="status-label">
+                      <span class="status-bg"></span>
+                      <div class="status">
+                        <span>new</span>
+                      </div>
+                    </div>
+                  </a>
                 </div>
                 <div class="small-12 large-5 columns">
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>
@@ -36,7 +44,15 @@
 
               <div class="row item">
                 <div class="small-12 large-3 columns">
-                  <a href="#catalogue-URL"><img src="img/catsample1.jpg"></a>
+                  <a href="#catalogue-URL">
+                    <img src="img/catsample1.jpg">
+                    <div class="status-label">
+                      <span class="status-bg"></span>
+                      <div class="status">
+                        <span>new</span>
+                      </div>
+                </div>
+                  </a>
                 </div>
                 <div class="small-12 large-5 columns">
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>

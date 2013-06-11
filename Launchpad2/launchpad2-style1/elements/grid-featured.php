@@ -9,6 +9,12 @@
                 <div class="thumb">
                   <img src="img/catsample1.jpg" alt="">
                 </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
+                </div>
               </a>
             </div>
           </li>
@@ -20,6 +26,12 @@
                 </div>
                 <div class="thumb">
                   <img src="img/catsample7.jpg" alt="">
+                </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
                 </div>
               </a>
             </div>
@@ -33,6 +45,12 @@
                 <div class="thumb">
                   <img src="img/catsample8.jpg" alt="">
                 </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
+                </div>
               </a>
             </div>
           </li>
@@ -45,6 +63,12 @@
                 <div class="thumb">
                   <img src="img/catsample9.jpg" alt="">
                 </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
+                </div>
               </a>
             </div>
           </li>
@@ -56,6 +80,12 @@
                 </div>
                 <div class="thumb">
                   <img src="img/catsample1.jpg" alt="">
+                </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
                 </div>
               </a>
             </div>
