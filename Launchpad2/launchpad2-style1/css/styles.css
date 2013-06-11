@@ -1748,7 +1748,7 @@ body {
 /* line 1594, ../sass/styles.scss */
 #map.map-page {
   position: relative;
-  margin-top: -1.5em;
+  top: -1.5em;
 }
 /* line 1599, ../sass/styles.scss */
 #map img {
