@@ -1,0 +1,104 @@
+.lt-ie9 .home-intro {
+	height: 44px;
+	position: relative;
+	top: 44px;
+	margin-bottom: 44px;
+}
+
+.lt-ie9 .home-intro .top-bar-section {
+	float: none;
+	clear: both;
+	height: 44px;
+	margin: 0;
+}
+
+.lt-ie9 #header-location {
+	padding: 0 12px 0 12px;
+	height: 44px;
+	line-height: 36px;
+}
+
+.lt-ie9 .top-bar-section .has-form.search .row {
+	min-width: 300px !important;
+}
+
+.lt-ie9 .home-intro .top-bar-section .desktop-only {
+	display: block;
+}
+
+.lt-ie9 .breadcrumbs {
+	margin: 12px auto;
+	float: none;
+	clear: both;
+}
+
+.lt-ie9 .button-minor {
+	display: block;
+	position: relative;
+	min-height: 44px;
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	margin: 12px 0;
+	font-size: 14px;
+}
+
+.location-suggestions ul a { background: #b3cada !important; }
+.location-suggestions ul a:hover { background: #b3181d !important; }
+
+.lt-ie9 .top-bar-section ul {background: #1c3755;}
+.lt-ie9 .has-dropdown { margin-right: 20px !important;}
+.lt-ie9 .has-dropdown a {
+	background: url('../img/arrow-down-white.png') #1c3755 !important; 
+	background-position: right center !important;
+	background-repeat: no-repeat !important;
+	padding-right: 10 !important;
+}
+.lt-ie9 .header-cat-link:after { border: 0 !important; }
+
+.lt-ie9 .section, .lt-ie9 .button-minor, .lt-ie9 .featured-grid, .lt-ie9 .sub-header { *zoom: 1 !important; }
+.lt-ie9 .section:before, .lt-ie9 .section:after, .lt-ie9 .button-minor:before, .lt-ie9 .featured-grid:before, .lt-ie9 .sub-header:before { content: " "; display: table !important; }
+.lt-ie9 .section:after, .lt-ie9 .button-minor:after, .lt-ie9 .featured-grid:after, .lt-ie9 .sub-header:after { clear: both !important; }
+
+
+.lt-ie9 .section .content .results-grid {
+	overflow: auto;
+	padding: 0;
+}
+
+.lt-ie9 .top-bar-section ul.map-view { background: #fff; }
+.lt-ie9 .top-bar-section ul li a.link-map-view {
+	background: #fff;
+}
+.lt-ie9 .top-bar-section ul li a.link-map-view:hover {
+	background: #b3cada;
+}
+.lt-ie9 .top-bar-section a.link-map-view img {
+	width: 30px !important; height: auto; 
+	margin-top: -8px;
+	margin-right: 10px;
+}
+
+
+
+/* FLIPBOOK */
+
+.lt-ie9 .top-bar-section.flipbook .store-link a img {
+	height: 30px !important;
+	width: auto;
+	margin: 0;
+	margin-top: -5px;
+}
+
+.lt-ie9 .row .flipbook-search .row {
+	margin: 0 !important;
+	width: 100% !important;
+}F
+.lt-ie9 .flipbook-category-list {
+
+}
+.lt-ie9 .flipbook-category-list .f-dropdown.open {
+	top: 57px !important;
+	left: 0 !important;
+	width: 80% !important; 
+}
