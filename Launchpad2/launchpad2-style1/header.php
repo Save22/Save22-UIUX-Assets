@@ -123,7 +123,7 @@
             <form>
               <div class="row collapse">
                 <div class="small-3 large-6 columns">
-                  <label class="inline loc-suggestions-trigger" for="header-location"><span class="left">You're browsing at </span> <img src="img/icon-loc.svg" alt="Change Location" class="right loc-icon"> </label>
+                  <label class="inline loc-suggestions-trigger" for="header-location"><span class="left">Location </span> <img src="img/icon-loc.svg" alt="Change Location" class="right loc-icon"> </label>
                 </div>
                 <div class="small-9 large-6 columns location-form">
                   <input type="text" name="location" id="header-location" placeholder="Ortigas" value="Ortigas">

@@ -757,6 +757,7 @@
       text-decoration: none !important;
       line-height: 1.4;
       font-family: $secondary-font;
+      display: none; 
     }
       span.arrow {
         float: right; 
@@ -765,6 +766,8 @@
 
     @media (min-width: $break-small) and (max-width: $break-small-mid - 1) {
       display: block;
+
+      &.drop-down { display: block; }
     }
   }
 

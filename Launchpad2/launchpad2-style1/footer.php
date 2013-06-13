@@ -1,6 +1,3 @@
-  <?php // DEPRECATED
-  // include('elements/seo-footer-allplaces.php'); ?>
-
   <div id="seo-pages-links" class="footer-links-list">
     <div class="row main-row">
       <div class="small-12 columns">
@@ -43,17 +40,17 @@
       </div>
     </div>
   </footer>
-    <div class="row main-row footer-links">
-      <div class="small-12 columns">
-        <ul class="inline-list">
-          <li><a href="http://save22.com.sg">Singapore</a></li>
-          <li><a href="http://save22.com.ph">Philippines</a></li>
-          <!-- no link yet? 
-          <li><a href="#">Privacy Policy</a></li> -->
-          <li><span>Copyright &copy; <a href="http://save22.com">Save22</a></span></li>
-        </ul>
-      </div>
+  <div class="row main-row footer-links">
+    <div class="small-12 columns">
+      <ul class="inline-list">
+        <li><a href="http://save22.com.sg">Singapore</a></li>
+        <li><a href="http://save22.com.ph">Philippines</a></li>
+        <!-- no link yet? 
+        <li><a href="#">Privacy Policy</a></li> -->
+        <li><span>Copyright &copy; <a href="http://save22.com">Save22</a></span></li>
+      </ul>
     </div>
+  </div>
 
   <script>
   document.write('<script src=' +
