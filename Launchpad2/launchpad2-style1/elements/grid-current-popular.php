@@ -9,6 +9,12 @@
                 <div class="thumb">
                   <img src="img/catsample1.jpg" alt="">
                 </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
+                </div>
               </a>
             </div>
           </li>
@@ -20,6 +26,12 @@
                 </div>
                 <div class="thumb">
                   <img src="img/catsample4.jpg" alt="">
+                </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
                 </div>
               </a>
             </div>
@@ -33,6 +45,12 @@
                 <div class="thumb">
                   <img src="img/catsample2.jpg" alt="">
                 </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
+                </div>
               </a>
             </div>
           </li>
@@ -44,6 +62,12 @@
                 </div>
                 <div class="thumb">
                   <img src="img/catsample3.jpg" alt="">
+                </div>
+                <div class="status-label">
+                  <span class="status-bg"></span>
+                  <div class="status">
+                    <span>new</span>
+                  </div>
                 </div>
               </a>
             </div>

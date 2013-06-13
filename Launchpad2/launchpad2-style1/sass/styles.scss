@@ -431,7 +431,7 @@
 
         @media (min-width: $break-small) and (max-width: $break-mid) { 
           background: $base-color-light;
-          overflow: auto;
+          overflow: hidden;
           box-shadow: 0 2px 2px rgba(0,0,0,0.25);
         }
       }
@@ -505,6 +505,8 @@
     .item:hover {
       background: $border-light;
     }
+
+    a { display: block; position: relative; }
   }
 
   .establishments {
@@ -658,6 +660,31 @@
       }
     }
 
+  }
+
+  .status {
+    position: absolute;
+    bottom: 4px; right: 0;
+    color: $base-color-light;
+    font-family: $secondary-font;
+    padding: emCalc(6px);
+    font-size: emCalc(12px);
+    text-transform: uppercase;
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    text-align: center;
+  }
+
+  .status-bg {
+    width:0; height:0; 
+    border-left: 50px solid transparent;  
+    border-right: 50px solid $base-color-red;
+    border-top: 50px solid transparent; 
+    border-bottom: 0; 
+    position: absolute; bottom: 0px; 
+    right: 0px;
   }
 
 /* GENERAL */
