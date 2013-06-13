@@ -425,3 +425,17 @@ body{
   .flipbook.pages img:last-child {
     margin: 0;
   }
+
+  .alert-flipbook {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #000;
+    z-index: 3000;
+    color: #fff;
+    text-align: center;
+    height: ;
+    padding: 12px 0;
+    opacity: 0.6;
+  }
+  .alert-flipbook img {width: 15px; margin-right: 10px;}
