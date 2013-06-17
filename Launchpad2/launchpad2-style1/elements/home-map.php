@@ -1,6 +1,5 @@
 
 <div class="map-container">
-  
   <a name="near"></a>
   <div class="map" id="map">
 
@@ -8,7 +7,7 @@
   
   <div class="row home-featured main-row home-content">
       <div class="row">
-        <div class="small-12 large-6 columns right location-ads">
+        <div class="small-12 large-3 columns right location-ads">
 
           <nav class="header-tabs">
             <ul>

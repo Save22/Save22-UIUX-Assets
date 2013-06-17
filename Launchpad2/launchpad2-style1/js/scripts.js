@@ -5,8 +5,13 @@ $(window).load(function(){
 
     $('#catalog-carousel-home').carouFredSel({
       auto: false,
+      direction: 'up',
       width: '100%',
-      height: 'auto',
+      height: '100%',
+      scroll: 1,
+      items: {
+        visible: '+1'
+      },
       prev: '#catalog-prev',
       next: '#catalog-next'
     });
@@ -62,14 +67,6 @@ $(window).load(function(){
 
   window_height('.min-height');
   menu_showmore($('.trigger-more-links'));
-
-  /* max height: flipbook */
-
-    max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
-
-    var flipbook_sidebar_height_offset = 
-      $('#main-header').height() + $('.sidebar.info').height() + $('.sidebar.pages').height() + $('.sidebar.list-links').height();
-    max_height('.list-flip-related', flipbook_sidebar_height_offset);
 
 
   /* RESIZE */

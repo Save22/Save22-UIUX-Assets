@@ -17,7 +17,7 @@
                 <div class="cat-info">
                   <h3>Brand / Retailer</h3>
                 </div>
-                <div class="thumb"><img src="img/catsample2.jpg" alt="catalogue title" /></div>
+                <div class="thumb"><img src="img/catsample7.jpg" alt="catalogue title" /></div>
               </div>
             </a>
 
@@ -26,7 +26,7 @@
                 <div class="cat-info">
                   <h3>Brand / Retailer</h3>
                 </div>
-                <div class="thumb"><img src="img/catsample3.jpg" alt="catalogue title" /></div>
+                <div class="thumb"><img src="img/catsample8.jpg" alt="catalogue title" /></div>
               </div>
             </a>
 
@@ -35,7 +35,7 @@
                 <div class="cat-info">
                   <h3>Brand / Retailer</h3>
                 </div>
-                <div class="thumb"><img src="img/catsample4.jpg" alt="catalogue title" /></div>
+                <div class="thumb"><img src="img/catsample9.jpg" alt="catalogue title" /></div>
               </div>
             </a>
 
@@ -49,7 +49,7 @@
             </a>
             
           </div>
-          <a href="#" id="catalog-prev" class="orbit-prev">Prev <span></span></a>
-          <a href="#" id="catalog-next" class="orbit-next">Next <span></span></a>
 
         </div>
+          
+        <a href="#" id="catalog-next" class="down-next">Next <span></span></a>

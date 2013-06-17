@@ -52,25 +52,19 @@
     </div>
   </div>
 
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'javascripts/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation/foundation.js"></script>
   <script src="js/foundation/foundation.alerts.js"></script>
   <script src="js/foundation/foundation.cookie.js"></script>
   <script src="js/foundation/foundation.dropdown.js"></script>
   <script src="js/foundation/foundation.forms.js"></script>
-  <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.placeholder.js"></script>
   <script src="js/foundation/foundation.reveal.js"></script>
   <script src="js/foundation/foundation.section.js"></script>
+  <!-- 
   <script src="js/foundation/foundation.tooltips.js"></script>
   <script src="js/foundation/foundation.joyride.js"></script>
-  <!-- 
+  <script src="js/foundation/foundation.orbit.js"></script>
   <script src="js/foundation/foundation.clearing.js"></script>
   <script src="js/foundation/foundation.magellan.js"></script>
   <script src="js/foundation/foundation.topbar.js"></script>
@@ -94,6 +88,31 @@
   <script src="js/jquery.caroufredsel.min.js"></script>
   <script src="js/jquery.actual.min.js"></script>
   <script src="js/scripts.js"></script>
+
+  <!--
+  <script type="text/javascript" src="js/gmap3.min.js"></script>
+  <script>
+
+  var pos = [44.797916, -93.278046];
+  $("#map").gmap3({ 
+    marker:{
+      latLng: pos
+    },
+    overlay:{
+      latLng: pos,
+      options:{
+        content:  '<div style="color:#000000; border:1px solid #333; ' +
+                  'background-color: #fff; width:100px; box-shadow: 0 2px 2px rgba(0,0,0,0.35);' +
+                  'height: auto; text-align:center"><img src="img/retailer-logo1.png" style="width: 100%; height: auto;"></div>',
+        offset:{
+          y:-32,
+          x:12
+        }
+      }
+    }
+  });
+  </script>
+  -->
 
     
 </body>
