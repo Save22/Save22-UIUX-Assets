@@ -91,7 +91,7 @@
 
         <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">
           <section class="section">
-            <p class="title"><a href="#promos">Promotions</a></p>
+            <p class="title tab-promos"><a href="#promos">Promotions</a></p>
             <div class="content" data-slug="promos" data-section-content>
 
               <div class="row item">
@@ -163,7 +163,7 @@
             </div><!-- content -->
           </section>
           <section class="section">
-            <p class="title"><a href="#branches">Other <strong>Shopwise</strong> Branches</a></p>
+            <p class="title tab-stores"><a href="#branches">Other <strong>Shopwise</strong> Branches</a></p>
             <div class="content establishments" data-slug="branches" data-section-content>
 
               <?php include('elements/results-stores.php'); ?>

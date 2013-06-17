@@ -23,28 +23,9 @@
             
       </section>
 
-      <!-- 
-
-      <section>
-
-        <header>
-          <h2 class="main-header">Related Establishments</h2>
-        </header>
-
-        <div class="section content establishments no-tab">
-
-          <?php include_once('elements/results-stores-grid.php'); ?>
-          
-        </div>
-      </section>
-      -->
     </div>
     <div class="small-12 large-3 columns sidebar">
-      <!--
-      <?php include('elements/sidebar-promos-locs.php'); ?>
-      <?php include('elements/sidebar-related-shops.php'); ?>
-      -->
-
+      <?php include('elements/sidebar-shops.php'); ?>
     </div>
   </div>
 <?php include('footer.php'); ?>

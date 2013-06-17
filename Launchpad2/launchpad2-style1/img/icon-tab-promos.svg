@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-tab-promos</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="icon-tab-promos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle 1" fill="#333333">
+            <path d="M3.66015625,2 C1.82291667,2.00000042 0,4 0,4 L0,16 C0,16 1.79199219,14.2766113 3.66015625,14.2766113 C5.79199219,14.2766113 8,16 8,16 L8,4 C8,4 5.82291667,2 3.66015625,2 Z M3.66015625,2"></path>
+            <path d="M14,2.64100666 C15.1574792,3.22600959 16,4 16,4 L16,16 C16,16 13.7919922,14.2766113 11.6601562,14.2766113 C9.79199219,14.2766113 8,16 8,16 L8,4 C8,4 8.86306693,3.05309248 10,2.46237734 L10,7 L14,7 Z M10.0106201,7.02313232 L10.0106201,10.0125122 L12.0004883,8.03656006 L13.9903564,10.0125122 L13.9903564,7.02313232 L12.0004883,7.02313232 Z M10.0106201,7.02313232"></path>
+        </g>
+    </g>
+</svg>

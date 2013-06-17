@@ -2,8 +2,8 @@
     <div class="row main-row">
       <div class="small-12 columns">
         <ul class="inline-list">
-          <!-- HOMEPAGE ONLY --><li><a href="seo-list-townscities.php">Towns and Cities</a></li>
-          <li><a href="seo-establishments-in-geo2.php">Shops in Pasig City</a></li>
+          <!-- HOMEPAGE ONLY --><li class="seo-towns"><a href="seo-list-townscities.php">Towns and Cities</a></li>
+          <li class="seo-shops"><a href="seo-establishments-in-geo2.php">Shops in Pasig City</a></li>
         </ul>
       </div>
     </div>
@@ -94,7 +94,6 @@
   <script src="js/jquery.caroufredsel.min.js"></script>
   <script src="js/jquery.actual.min.js"></script>
   <script src="js/scripts.js"></script>
-  
 
     
 </body>

@@ -1,19 +1,19 @@
 
 <div class="map-container">
-
+  
+  <a name="near"></a>
   <div class="map" id="map">
 
   </div>
-
-  <a name="near"></a>
+  
   <div class="row home-featured main-row home-content">
       <div class="row">
         <div class="small-12 large-6 columns right location-ads">
 
           <nav class="header-tabs">
             <ul>
-              <li><a href="#near" class="active">Nearby Promos</a></li>
-              <li><a href="#popular">Popular Promos</a></li>
+              <li><a href="#near" class="active nearby-promos">Nearby Promos</a></li>
+              <li><a href="#popular" class="popular-promos">Popular Promos</a></li>
             </ul>
           </nav>
 

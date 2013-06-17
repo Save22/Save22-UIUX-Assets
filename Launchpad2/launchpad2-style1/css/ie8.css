@@ -81,6 +81,70 @@
 
 
 
+
+/* ICONS */
+
+  .lt-ie9 .header-establishments {
+    background: url('../img/icon-sidebar-shops.png') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .lt-ie9 .header-top25 {
+    background: url('../img/icon-sidebar-top25.png') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .lt-ie9 .header-nearby-shops {
+    background: url('../img/icon-sidebar-nearby.png') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .lt-ie9 .tab-stores a {
+    display: block;
+    background: url('../img/icon-tab-stores.png') 15px 15px no-repeat !important;
+    padding-left: 40px !important;
+  }
+
+  .lt-ie9 .tab-promos a {
+    display: block;
+    background: url('../img/icon-tab-promos.png') 15px 15px no-repeat !important;
+    padding-left: 40px !important;
+  }
+
+  .lt-ie9 #seo-pages-links {
+    .seo-towns a {
+      display: block;
+      background: url('../img/icon-footer-towncities.png') 15px 0 no-repeat !important;
+      padding-left: 40px !important;
+    }
+    .seo-shops a {
+      display: block;
+      background: url('../img/icon-footer-shops.png') 15px -1px no-repeat !important;
+      padding-left: 40px !important;
+    }
+  }
+
+  .lt-ie9 .home-featured {
+    .header-tabs {
+      a.nearby-promos{
+        display: block;
+        background: url('../img/icon-feature-nearby.png') 15px 8px no-repeat $base-color-blue-darker !important;
+        padding-left: 55px !important;
+        color: $base-color-light
+      }
+      a.popular-promos{
+        display: block;
+        background: url('../img/icon-feature-popular.png') 15px 8px no-repeat !important;
+        padding-left: 55px !important;
+        color: $base-color-light;
+      }
+      a.popular-promos:hover {
+        background-color: $base-color-blue-lighter !important;
+        color: $base-color-blue-darker;
+      }
+    }
+  }
+
 /* FLIPBOOK */
 
 .lt-ie9 .top-bar-section.flipbook .store-link a img {

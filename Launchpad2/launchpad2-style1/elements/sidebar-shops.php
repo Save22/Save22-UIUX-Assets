@@ -1,19 +1,25 @@
 
-      <section>
-        <h2 class="sidebar-header">Shops</h2>
+        <nav class="list-links sidebar">
+          <h2 class="sidebar-header header-nearby-shops">Nearby Shops</h2>
 
-        <a href="#" class="mobile-only view-establishment-list drop-down">View list of shops <span class="arrow arrow-down"></span></a>
-
-        <div class="mobile-hide establishment-list">
-          <ul class="small-block-grid-1 large-block-grid-2 list-shops section">
-            <li><a href="#retailer-page"><img src="img/retailer-logo1.png"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-logo2.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-logo4.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-robappliances_head.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-shopwise.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-smappliance_logo.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-ansons.jpg"></a></li>
-            <li><a href="#retailer-page"><img src="img/retailer-abenson.jpg"></a></li>
+          <ul class="quick-links">
+            <li><a href="#">Fairprice</a></li>
+            <li><a href="#">NTUC</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li class="trigger"><a href="#" class="trigger-more-links">View More <span><img src="img/menu-arrow-down.svg"></span></a></li>
           </ul>
-        </div>
-      </section>
+          <ul class="more-links hide">
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li><a href="#">Shop Name</a></li>
+            <li class="trigger"><a href="#" class="trigger-close-menu">Close <span><img src="img/menu-arrow-up.svg"></span></a></li>
+          </ul>
+        </nav>

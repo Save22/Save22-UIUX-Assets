@@ -1,6 +1,6 @@
 
         <nav id="sidebar-establishments" class="list-links">
-          <h2 class="sidebar-header">Shops</h2>
+          <h2 class="sidebar-header header-establishments">Shops</h2>
 
           <ul class="quick-categories">
             <li class="active"><a href="#">View All</a></li>

@@ -35,7 +35,7 @@
           </ul>
         </nav>
 
-        <nav class="list-links sidebar">
+        <nav class="list-links sidebar" id="sidebar-top25">
           <h2 class="sidebar-header header-top25">Top 25 Shops</h2>
 
           <ul class="top-25">
@@ -65,3 +65,4 @@
             <li class="trigger"><a href="#" class="trigger-close-menu">Close <span><img src="img/menu-arrow-up.svg"></span></a></li>
           </ul>
         </nav>
+

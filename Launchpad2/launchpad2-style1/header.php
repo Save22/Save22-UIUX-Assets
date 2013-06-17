@@ -52,7 +52,7 @@
       <section class="top-bar-section">
         <ul class="left">
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="#" class="header-cat-link text-link">Categories</a>
+          <li class="has-dropdown menu-icon"><a href="#" class="header-cat-link text-link"><span></span> Categories</a>
           </li>
           <li class="divider"></li>
           <li class="has-form search">

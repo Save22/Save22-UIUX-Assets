@@ -18,13 +18,13 @@
 
         <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">
           <section class="section">
-            <p class="title"><a href="#promos">Promotions</a></p>
+            <p class="title tab-promos"><a href="#promos">Promotions</a></p>
 
               <?php include('elements/list-results.php'); ?>
 
           </section>
           <section class="section">
-            <p class="title"><a href="#stores">Stores</a></p>
+            <p class="title tab-stores"><a href="#stores">Stores</a></p>
             <div class="content establishments" data-slug="stores" data-section-content>
 
               <?php include('elements/results-stores-grid.php'); ?>

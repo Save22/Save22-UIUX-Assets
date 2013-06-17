@@ -859,9 +859,6 @@
     content: "›";
   }
   
-  #main-header .top-bar .top-bar-section {
-
-  }
   .top-bar-section .has-form.search {
     width: 400px;
     input[type=search] {
@@ -928,9 +925,23 @@
     }
   }
 
-  .header-cat-link {
+  #main-header .top-bar .top-bar-section {
+    .menu-icon a span {
+      position: absolute;
+      left: 15px;
+      top: 5px;
+      display: block;
+      width: 16px;
+      height: 0;
+      -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+      box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+    }
+  }
+
+  .top-bar-section li a.header-cat-link {
     text-transform: uppercase;
     letter-spacing: 1px;
+    padding-left: 45px;
   }
 
   .mobile-search {
@@ -1358,6 +1369,69 @@
     }
   }
 
+
+/* ICONS */
+
+  .header-establishments {
+    background: url('../img/icon-sidebar-shops.svg') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .header-top25 {
+    background: url('../img/icon-sidebar-top25.svg') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .header-nearby-shops {
+    background: url('../img/icon-sidebar-nearby.svg') 15px 10px no-repeat $base-color-blue-lighter;
+    padding-left: 60px;
+  }
+
+  .tab-stores a {
+    display: block;
+    background: url('../img/icon-tab-stores.svg') 15px 15px no-repeat !important;
+    padding-left: 40px !important;
+  }
+
+  .tab-promos a {
+    display: block;
+    background: url('../img/icon-tab-promos.svg') 15px 15px no-repeat !important;
+    padding-left: 40px !important;
+  }
+
+  #seo-pages-links {
+    .seo-towns a {
+      display: block;
+      background: url('../img/icon-footer-towncities.svg') 15px 0 no-repeat !important;
+      padding-left: 40px !important;
+    }
+    .seo-shops a {
+      display: block;
+      background: url('../img/icon-footer-shops.svg') 15px -1px no-repeat !important;
+      padding-left: 40px !important;
+    }
+  }
+
+  .home-featured {
+    .header-tabs {
+      a.nearby-promos{
+        display: block;
+        background: url('../img/icon-feature-nearby.svg') 15px 8px no-repeat $base-color-blue-darker !important;
+        padding-left: 55px !important;
+        color: $base-color-light
+      }
+      a.popular-promos{
+        display: block;
+        background: url('../img/icon-feature-popular.svg') 15px 8px no-repeat !important;
+        padding-left: 55px !important;
+        color: $base-color-light;
+      }
+      a.popular-promos:hover {
+        background-color: $base-color-blue-lighter !important;
+        color: $base-color-blue-darker;
+      }
+    }
+  }
 
 /* NAVS */
 

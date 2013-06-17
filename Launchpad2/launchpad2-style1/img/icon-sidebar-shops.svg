@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-sidebar-shops</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="icon-sidebar-shops" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M28,14.4612297 L28,32 L4,32 L4,14.4612297 L-9.31322575e-08,14.4612297 L3.07568359,6.11623144 L28.8481445,6.11623144 L32,14.4612297 Z M28,14.4612297" id="Rectangle 1" fill="#1C3755"></path>
+            <path d="M8,21 L8,27 L14,27 L14,21 L8,21 Z M8,21" id="Rectangle 2" fill="#FFFFFF"></path>
+            <path d="M18,21 L18,32 L24,32 L24,21 L18,21 Z M18,21" id="Rectangle 2" fill="#FFFFFF"></path>
+            <path d="M5,0 L5,3 L27,3 L27,0 L5,0 Z M5,0" id="Rectangle 4" fill="#1C3755"></path>
+            <path d="M4,6 L7,6 L7,14.4615385 C7,15.3112073 6.32842717,16 5.5,16 C4.67157283,16 4,15.3112073 4,14.4615385 Z M25,6 L28,6 L28,14.4615385 C28,15.3112073 27.3284272,16 26.5,16 C25.6715728,16 25,15.3112073 25,14.4615385 Z M18,6 L21,6 L21,14.4615385 C21,15.3112073 20.3284272,16 19.5,16 C18.6715728,16 18,15.3112073 18,14.4615385 Z M11,6 L14,6 L14,14.4615385 C14,15.3112073 13.3284272,16 12.5,16 C11.6715728,16 11,15.3112073 11,14.4615385 Z M11,6" id="Rectangle 5" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
