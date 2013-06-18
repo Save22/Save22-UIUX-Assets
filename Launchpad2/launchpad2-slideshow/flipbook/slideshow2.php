@@ -33,16 +33,13 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
 
-  <script src="../js/vendor/custom.modernizr.js"></script>
-
   <link href="../css/photoswipe.css" type="text/css" rel="stylesheet" />
+
+  <script src="../js/vendor/custom.modernizr.js"></script>
   
+  <script src="../js/vendor/jquery.js"></script>
   <script type="text/javascript" src="../js/klass.min.js"></script>
-  <script type="text/javascript" src="../js/code.photoswipe-3.0.5.min.js"></script>
-  
-  <!--[if IE 8]> <script src="../js/vendor/jquery.js"></script><![endif]-->
-  <!--[if IE 8]> <script type="text/javascript" src="../js/code.photoswipe.jquery-3.0.5.min.js"></script> <![endif]-->
-  
+  <script type="text/javascript" src="../js/code.photoswipe.jquery-3.0.5.min.js"></script>
   
   <script type="text/javascript">
     
@@ -177,7 +174,6 @@
     </div><!-- large-3 -->
   </div><!-- main-container -->
 
-  <script src="../js/vendor/jquery.js"></script>
   <script src="../js/foundation/foundation.js"></script>
   <script src="../js/foundation/foundation.dropdown.js"></script>
   <script src="../js/foundation/foundation.section.js"></script>

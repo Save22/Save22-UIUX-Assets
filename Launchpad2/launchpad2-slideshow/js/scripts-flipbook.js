@@ -28,14 +28,6 @@ $(window).load(function(){
     $('.sidebar').show().removeClass('mobile-flipbook-sidebar');
   }
 
-  /* max height: flipbook */
-
-    max_height('.magazine-container', $('#main-header').height() + $('.page-numbers').outerHeight(true));
-
-    var flipbook_sidebar_height_offset = 
-      $('#main-header').height() + $('.sidebar.info').height() + $('.sidebar.pages').height() + $('.sidebar.list-links').height();
-    max_height('.list-flip-related', flipbook_sidebar_height_offset);
-
 
   /* RESIZE */
 
@@ -154,77 +146,10 @@ function show_hide(link, container) {
 
 }
 
-function loc_suggestions() {
-  var trigger_link = $('.loc-suggestions-trigger'),
-      container = $('.location-suggestions'),
-      input_form = $('#header-location'),
-      suggested_list = $('.location-autocomplete');
-
-  input_form.focus(function(){
-    container.slideDown().removeClass('hide');
-  });
-
-  input_form.blur(function(){
-    container.slideUp().addClass('hide');
-    suggested_list.slideUp().addClass('hide');
-  });
-
-  var link = $('.location-suggestions a');
-
-  link.each(function(){
-    $(this).click(function(){
-      var option = $(this).text();
-      input_form.val(option);
-
-      // event.preventDefault();
-    });
-  });
-}
-
-function loc_autocomplete() {
-
-  var input_box = $('#header-location'),
-      suggested_list = $('.location-autocomplete'),
-      auto_container = $('.location-suggestions');
-
-  $(input_box).keydown(function(){
-    auto_container.slideUp().addClass('hide');
-  setTimeout(function() {
-    /*
-    $(suggested_list).text($(input_box).val());
-    */
-    suggested_list.slideDown().removeClass('hide');
-    }, 50);
-  });
-
-}
 
 function max_height(container, other) {
   var new_height = $(window).height() - other;
   $(container).css('height', new_height);
-}
-
-function home_loader() {
-
-  $('#sidebar-establishments a').each(function(){
-    var loader_container = $('.home-preview-content');
-
-    $(this).click(function(){
-      var clicked_link = $(this).attr('href');
-
-      if (clicked_link = '#') {
-        event.preventDefault();
-      }
-      else {
-        alert('test');
-        $(loader_container).load(clicked_link);
-
-        event.preventDefault();
-      }
-
-    });
-
-  });
 }
 
 $(document).foundation();
