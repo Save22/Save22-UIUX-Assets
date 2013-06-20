@@ -1940,6 +1940,50 @@
 
   }
 
+/* SINGLE PAGE LIGHTBOX */
+
+.lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 25;
+  background: rgba(0,0,0,0.8);
+  color: $base-color-light;
+
+  .thumb {
+    padding: 4%;
+  }
+
+  h2, h3 { 
+    margin: 0;
+    color: $base-color-light;
+    font-weight: normal;
+  }
+
+  a { color: $base-color-neutral-light; }
+
+  .info {
+    padding: 2% 4%; 
+    border-bottom: 4px solid $base-color-neutral-dark;
+    font-size: emCalc(12px);
+  }
+
+  .close-lightbox {
+    position: absolute;
+    top: 0; right: 0;
+    padding: emCalc(15px);
+    text-transform: uppercase;
+    background: $base-color-dark;
+    font-family: $secondary-font;
+    font-weight: 700;
+
+    &:hover {
+      background: $base-color-red-darker;
+    }
+  }
+}
+
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {
   .location-ads { 
     margin: 0;

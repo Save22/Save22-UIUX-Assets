@@ -1,8 +1,8 @@
 
         <ul class="small-block-grid-2 large-block-grid-5 featured-grid">
-          <li class="item">
+          <li class="item single-page">
             <div class="cat-thumb">
-              <a href="#">
+              <a href="flipbook/pages/1-large.jpg">
                 <div class="cat-info">
                   <h4>IKEA</h4>
                 </div>
@@ -118,7 +118,7 @@
             <div class="cat-thumb">
               <a href="#">
                 <div class="cat-info">
-                  <h4>IKEA</h4>
+                  <h4>Can this be a really long reatiler title</h4>
                 </div>
                 <div class="thumb">
                   <img src="img/catsample3.jpg" alt="">
@@ -142,7 +142,7 @@
             <div class="cat-thumb">
               <a href="#">
                 <div class="cat-info">
-                  <h4>IKEA</h4>
+                  <h4>Can this be a really long reatiler title or an even longer one for some stupid reason</h4>
                 </div>
                 <div class="thumb">
                   <img src="img/catsample3.jpg" alt="">

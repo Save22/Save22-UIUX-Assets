@@ -68,6 +68,7 @@ $(window).load(function(){
   window_height('.min-height');
   menu_showmore($('.trigger-more-links'));
 
+  $('.lightbox').css('height', $(document).innerHeight() - 44);
 
   /* RESIZE */
 
