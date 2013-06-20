@@ -7,12 +7,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
   <title>Save22 | Launchpad 2.0 - Flipbook</title>
 
-  <link rel="stylesheet" href="../css/normalize.css" />
-  <link rel="stylesheet" href="../css/app.css" />
-  <link rel="stylesheet" href="../css/magazine.css" />
-  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/styles-flipbook.css" />
   
   <!--[if IE 8]>
     <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
@@ -21,7 +20,6 @@
 
   <!--[if IE 7]>
     <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/ie7.css" type="text/css" media="screen" />
   <![endif]-->
 
   <link rel="icon" href="../img/favicon_16x16.png" sizes="32x32" type="image/png">
@@ -34,14 +32,11 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
 
-
-  <script src="../js/vendor/custom.modernizr.js"></script>
-
 </head>
 
 <body class="flipbook">
 
-  <header id="main-header" class="row" style="max-width: none;">
+  <header id="main-header">
     <nav class="top-bar">
       <ul class="title-area">
         <!-- Title Area -->
@@ -58,76 +53,45 @@
           <li class="divider"></li>
           <li class="store-link"><a href="#store-page">Fairprice Blah Blah Blah</a></li>
           <li class="divider"></li>
-          <li class="expiry">Valid until <strong>April 12, 2013</strong></li>
-        </ul>
-        <ul class="right">
-          <li><a href="#" title="Double click on page to Zoom In. 
-            Press ESC to Zoom Out">&plusmn; Zoom In</a></li>
+          <li class="expiry"><span>Valid until <strong>April 12, 2013</strong></span></li>
         </ul>
       </section>
     </nav>
-
-    <section class="mobile-search mobile-only hide">
-      <form>
-        <div class="row collapse">
-          <div class="small-8 columns">
-            <input type="search" placeholder="Search for promos, items, prices, or stores">
-          </div>
-          <div class="small-4 columns">
-            <a href="#" class="button">Search</a>
-          </div>
-        </div>
-      </form>
-    </section>
   </header>
 
 
-  <div class="row main-container" style="max-width: none;">
-    <div class="small-12 large-9 columns flipbook-container">
-
+  <div class="main-container">
+    <div class="flipbook-container">
       <div class="magazine-viewport">
         <div class="magazine-container">
-          <div class="alert-flipbook">
+
+          <div class="alert-flipbook hide">
             <img src="../img/loading.gif" alt="loading"> 
             <span>Please wait while the image loads.</span>
           </div>
+
           <div class="magazine">
           </div>
         </div><!-- container -->
       </div><!-- viewport -->
-
-      <div class="page-numbers hide-zoom">
-        <span class="current-page">Page 1</span> of <span class="last-page">9</span>
-        <a href="#" ignore="1" class="left prev-button2">Previous</a>
-        <a href="#" ignore="1" class="right next-button2">Next</a>
-      </div>
-
-
-      <a href="#" ignore="1" id="flipbook-prev" class="previous-button page-button hide-zoom">Prev <span></span></a>
-      <a href="#" ignore="1" id="flipbook-next" class="next-button page-button hide-zoom">Next <span></span></a>
-
     </div>
-    <div class="small-12 large-3 columns sidebar flipbook">
-      <!-- <a href="#" class="hide-sidebar">Hide Sidebar <span class="arrow-right arrow"></span></a> -->
-      
-      <div class="sidebar flipbook related-catalogs">
+  </div><!-- main-container -->
+
+  <div class="sidebar-tray">
+    <ul>
+      <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-search.svg"> Search</a></li>
+      <li><a href="#" class="tab-near"><img src="../img/icon-flipbook-nearby.svg"> What's Near</a></li>
+      <li><a href="#" class="tab-browse"><img src="../img/icon-flipbook-browse.svg"> Browse</a></li>
+    </ul>
+  </div>
+
+    <div class="sidebar flipbook">
+
+      <div class="related-catalogs">
         <div class="section-container tabs" data-section="tabs" data-options="deep_linking:true;">
           <div class="section">
             <div class="content" data-slug="search" data-section-content>
               
-              <h3 class="sidebar-header">Search <!-- Results --></h3>
-
-              <div class="flipbook-search">
-                <div class="row collapse">
-                  <div class="small-9 columns">
-                    <input type="text" placeholder="Search for a catalog" value="Tissue Paper">
-                  </div>
-                  <div class="small-3 columns">
-                    <button class="postfix">search</button>
-                  </div>
-                </div>
-              </div>
-
               <?php // include('../elements/loader-flipbook.php'); ?>
               <?php include('../elements/carousel-promos-flipbook.php'); ?>
 
@@ -137,24 +101,38 @@
       </div>
       
     </div><!-- large-3 -->
-  </div><!-- main-container -->
+
+  <div id="main-footer">
+    <div class="page-switch">
+      <a href="#">&larr; Previous</a> <a href="#">Next &rarr;</a>
+    </div>
+    <div class="zoom-icon">
+      <a href="#" title="Double click on page to Zoom In. 
+            Press ESC to Zoom Out"><img src="../img/icon-flipbook-zoom.svg" Zoom In</a>
+    </div>
+    <div class="page-numbers">
+      <span class="current">Page 1</span> of <span class="total">4</span>
+    </div>
+  </div>
 
   <script src="../js/vendor/jquery.js"></script>
-  <script src="../js/foundation/foundation.js"></script>
-  <script src="../js/foundation/foundation.dropdown.js"></script>
-  <script src="../js/foundation/foundation.section.js"></script>
-  <script src="../js/foundation/foundation.joyride.js"></script>
+  <script src="../js/scripts-flipbook.js"></script>
 
   <script src="../js/turn.js"></script>
   <script src="../js/zoom.js"></script>
 
   <!--[if IE 8]><script src="../js/turn.html4.min.js"></script><![endif]-->
 
-  <script src="../js/jquery.mousewheel.min.js"></script>
   <script src="../js/hash.js"></script>
   <script src="../js/jquery.actual.min.js"></script>
   <script src="../js/magazine.js"></script>
-  <script src="../js/scripts-flipbook.js"></script>
+
+  <script>
+  var serverAspectRatio = 2.0234741784;
+    $(document).ready(function() {
+  });
+  </script>
+
   <script src="../js/flipbook-custom.js"></script>
 
   <script>

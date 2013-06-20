@@ -1,0 +1,1074 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic|Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/* MEDIA QUERIES */
+/* FONTS */
+/* COLORS */
+/* #edf5f6 */
+/* line 41, ../sass/styles-flipbook.scss */
+a:link, a:active, a:visited {
+  color: #3d3d3d;
+}
+
+/* FORMS */
+/* line 47, ../sass/styles-flipbook.scss */
+input[type=text] {
+  font-family: "Noto Sans", sans-serif, helvetica;
+  background: #fff;
+  font-size: 0.875em;
+}
+
+/* line 53, ../sass/styles-flipbook.scss */
+.flipbook-search {
+  overflow: auto;
+}
+/* line 55, ../sass/styles-flipbook.scss */
+.flipbook-search input[type=text], .flipbook-search button, .flipbook-search .button {
+  float: left;
+  font-size: 0.75em;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 4%;
+}
+/* line 62, ../sass/styles-flipbook.scss */
+.flipbook-search input[type=text] {
+  width: 60%;
+}
+/* line 66, ../sass/styles-flipbook.scss */
+.flipbook-search [type=submit], .flipbook-search button, .flipbook-search .button {
+  width: 30%;
+  background: #b3181d;
+  border: 1px solid #9b1111;
+  color: white;
+  height: 30px;
+}
+
+/* HEADER */
+/* line 79, ../sass/styles-flipbook.scss */
+.top-bar {
+  background: #1c3755;
+  height: 45px;
+  overflow: hidden;
+}
+/* line 83, ../sass/styles-flipbook.scss */
+.top-bar .toggle-topbar.search-icon {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+/* line 88, ../sass/styles-flipbook.scss */
+.top-bar .toggle-topbar.search-icon span {
+  background: url("../img/icon-search.png") 10px 4px no-repeat;
+  background-size: 18px;
+  top: 8px;
+}
+
+/* line 95, ../sass/styles-flipbook.scss */
+.top-bar-section ul li > a, .top-bar-section li a:not(.button), .top-bar-section .has-form {
+  background: #1c3755;
+}
+
+/* line 98, ../sass/styles-flipbook.scss */
+#main-header .title-area {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+/* line 102, ../sass/styles-flipbook.scss */
+#main-header .name {
+  background: #b3181d;
+}
+/* line 104, ../sass/styles-flipbook.scss */
+#main-header .name h1 {
+  height: 45px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 20px;
+}
+/* line 110, ../sass/styles-flipbook.scss */
+#main-header .name h1 a {
+  line-height: 0%;
+  font-size: 0;
+  color: transparent;
+}
+/* line 115, ../sass/styles-flipbook.scss */
+#main-header .name .logo-img {
+  margin-top: 8px;
+  margin-right: -8px;
+}
+
+/* line 120, ../sass/styles-flipbook.scss */
+#main-header label {
+  color: #ededed;
+  font-weight: 300;
+}
+
+/* line 125, ../sass/styles-flipbook.scss */
+.breadcrumbs li:before {
+  content: "›";
+}
+
+/* line 129, ../sass/styles-flipbook.scss */
+.row .row.collapse.wide {
+  width: 200%;
+}
+@media (min-width: 20em) and (max-width: 75em) {
+  /* line 129, ../sass/styles-flipbook.scss */
+  .row .row.collapse.wide {
+    width: 160%;
+  }
+}
+
+/* line 137, ../sass/styles-flipbook.scss */
+#main-header .top-bar .top-bar-section .menu-icon a span {
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  display: block;
+  width: 16px;
+  height: 0;
+  -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+  box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
+}
+
+/* line 149, ../sass/styles-flipbook.scss */
+.top-bar-section li a.header-cat-link {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 45px;
+}
+
+/* line 155, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook {
+  overflow: hidden;
+  height: 45px;
+}
+/* line 159, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook > ul {
+  overflow: hidden;
+  height: 44px;
+  background-color: #1c3755;
+  margin: 0;
+  padding: 0;
+}
+/* line 165, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook > ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 171, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook > ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.75em;
+  line-height: 45px;
+  display: block;
+  padding: 0 1.25em;
+}
+/* line 178, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook > ul .divider {
+  width: 0;
+  float: left;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #2c4b6b;
+  border-left: 1px solid #102235;
+}
+/* line 188, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook .expiry {
+  color: white;
+  padding: 0 0.625em;
+  font-size: 0.75em;
+}
+/* line 193, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook .expiry span {
+  display: block;
+  line-height: 45px;
+}
+/* line 197, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook .back a {
+  background: #2c6289;
+}
+/* line 198, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook .back a:hover {
+  background: #1c3755;
+}
+/* line 201, ../sass/styles-flipbook.scss */
+.top-bar-section.flipbook .store-link {
+  max-width: 180px;
+  overflow: hidden;
+}
+
+/* FOOTER */
+/* line 209, ../sass/styles-flipbook.scss */
+#main-footer {
+  background: #dddddd;
+  height: 44px;
+  line-height: 44px;
+  font-size: 0.8125em;
+  overflow: hidden;
+}
+/* line 216, ../sass/styles-flipbook.scss */
+#main-footer div {
+  display: block;
+  float: left;
+  height: 44px;
+}
+/* line 220, ../sass/styles-flipbook.scss */
+#main-footer .page-numbers {
+  height: 44px;
+  padding: 0 0.9375em;
+}
+/* line 224, ../sass/styles-flipbook.scss */
+#main-footer .current {
+  font-weight: 700;
+}
+/* line 226, ../sass/styles-flipbook.scss */
+#main-footer .page-switch a {
+  display: block;
+  float: left;
+  height: 44px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif, helvetica;
+  background: #1c3755;
+  color: #eeeeee;
+  padding: 0 0.9375em;
+}
+/* line 235, ../sass/styles-flipbook.scss */
+#main-footer .page-switch a:hover {
+  background: #2c6289;
+}
+/* line 237, ../sass/styles-flipbook.scss */
+#main-footer .zoom-icon {
+  font-size: 0;
+  padding: 6px 10px;
+  border-right: 1px solid #8c8c8c;
+}
+
+/* FLIPBOOK */
+/* line 246, ../sass/styles-flipbook.scss */
+body.flipbook {
+  background: #fdfdfd;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif, helvetica;
+  overflow: hidden;
+}
+@media only screen and (min-width: 47.9375em) and (max-width: 75em) {
+  /* line 253, ../sass/styles-flipbook.scss */
+  body.flipbook .row .large-3.sidebar {
+    width: 36%;
+  }
+  /* line 254, ../sass/styles-flipbook.scss */
+  body.flipbook .row .large-9.flipbook-container {
+    width: 64%;
+  }
+  /* line 255, ../sass/styles-flipbook.scss */
+  body.flipbook .section-container section .title a, body.flipbook .section-container .section .title a, body.flipbook .section-container.auto section .title a, body.flipbook .section-container.auto .section .title a {
+    font-size: 0.75em;
+  }
+}
+@media only screen and (min-width: 100em) {
+  /* line 260, ../sass/styles-flipbook.scss */
+  body.flipbook .row .large-3.sidebar {
+    width: 18%;
+  }
+  /* line 261, ../sass/styles-flipbook.scss */
+  body.flipbook .row .large-9.flipbook-container {
+    width: 82%;
+  }
+}
+
+/* SIDEBAR TRAY */
+/* line 267, ../sass/styles-flipbook.scss */
+.sidebar-tray {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 60px;
+  background: #12253a;
+  z-index: 25;
+  font-family: "Montserrat", sans-serif, helvetica;
+  font-size: 0.75em;
+  text-align: center;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+/* line 282, ../sass/styles-flipbook.scss */
+.sidebar-tray ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+  background: #2c6289;
+}
+/* line 288, ../sass/styles-flipbook.scss */
+.sidebar-tray li {
+  list-style-type: none;
+  display: block;
+  padding: 1.25em 0.625em;
+  border-top: 1px solid #5A7FA8;
+  border-bottom: 2px solid #1c3755;
+}
+/* line 294, ../sass/styles-flipbook.scss */
+.sidebar-tray li:hover {
+  background: #0f3651;
+}
+/* line 296, ../sass/styles-flipbook.scss */
+.sidebar-tray a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+/* line 300, ../sass/styles-flipbook.scss */
+.sidebar-tray img {
+  width: 80%;
+}
+/* line 304, ../sass/styles-flipbook.scss */
+.sidebar-tray.open {
+  right: 250px;
+}
+
+/* SIDEBAR */
+/* line 311, ../sass/styles-flipbook.scss */
+.sidebar.flipbook {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  z-index: 25;
+  background: #12253a;
+  width: 250px;
+  overflow: auto;
+  border-left: 1px solid #1c3755;
+  color: white;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+/* line 326, ../sass/styles-flipbook.scss */
+.sidebar.flipbook a {
+  color: #b3cada;
+  text-decoration: none;
+}
+/* line 328, ../sass/styles-flipbook.scss */
+.sidebar.flipbook h3 {
+  margin: 0 0 0.625em 0;
+  color: white;
+  padding: 0.3125em 0.9375em;
+  font-size: 0.6875em;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif, helvetica;
+  letter-spacing: 1px;
+}
+/* line 338, ../sass/styles-flipbook.scss */
+.sidebar.flipbook.hide-sidebar {
+  right: -250px;
+}
+
+/* line 342, ../sass/styles-flipbook.scss */
+.related-catalogs {
+  position: relative;
+}
+/* line 345, ../sass/styles-flipbook.scss */
+.related-catalogs header {
+  width: 100%;
+  background: #1c3755;
+  width: 100%;
+  padding-bottom: 0.9375em;
+}
+/* line 352, ../sass/styles-flipbook.scss */
+.related-catalogs .list-flip-related {
+  z-index: 24;
+}
+/* line 356, ../sass/styles-flipbook.scss */
+.related-catalogs .cat-thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 1.25em auto;
+  font-family: "Montserrat", sans-serif, helvetica;
+  text-align: center;
+  border: 0;
+  width: 200px;
+}
+/* line 366, ../sass/styles-flipbook.scss */
+.related-catalogs .cat-thumb:hover .cat-info {
+  opacity: 1;
+}
+/* line 370, ../sass/styles-flipbook.scss */
+.related-catalogs .cat-thumb:first-child {
+  margin-top: 1.5em;
+}
+/* line 375, ../sass/styles-flipbook.scss */
+.related-catalogs h4 {
+  color: white;
+  margin: 10px;
+}
+/* line 376, ../sass/styles-flipbook.scss */
+.related-catalogs strong {
+  font-weight: 300;
+}
+/* line 378, ../sass/styles-flipbook.scss */
+.related-catalogs .thumb {
+  width: 200px;
+  margin: auto;
+  float: none;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+/* line 387, ../sass/styles-flipbook.scss */
+.related-catalogs img {
+  width: 100%;
+  height: auto;
+}
+/* line 392, ../sass/styles-flipbook.scss */
+.related-catalogs .cat-info {
+  position: relative;
+  bottom: 0;
+  color: white;
+  font-size: 0.75em;
+  z-index: 2;
+  top: 0;
+  opacity: 0;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+/* line 405, ../sass/styles-flipbook.scss */
+.related-catalogs .cat-info div {
+  border-top: 3px solid white;
+  position: absolute;
+  background: #000;
+  bottom: 0;
+  width: 95%;
+  padding: 0 5% 15px 5%;
+  font-family: "Noto Sans", sans-serif, helvetica;
+}
+/* line 416, ../sass/styles-flipbook.scss */
+.related-catalogs .validity {
+  margin: 12px 0;
+  font-size: 0.875em;
+}
+@media only screen and (min-width: 47.9375em) and (max-width: 75em) {
+  /* line 422, ../sass/styles-flipbook.scss */
+  .related-catalogs .cat-thumb, .related-catalogs .thumb {
+    width: 150px;
+  }
+  /* line 425, ../sass/styles-flipbook.scss */
+  .related-catalogs .cat-info {
+    font-size: 0.875em;
+  }
+}
+
+/* line 430, ../sass/styles-flipbook.scss */
+.flipbook-container {
+  padding: 0 !important;
+}
+
+/* line 434, ../sass/styles-flipbook.scss */
+.magazine {
+  overflow: hidden;
+}
+
+/* line 438, ../sass/styles-flipbook.scss */
+.magazine img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* line 444, ../sass/styles-flipbook.scss */
+.magazine-viewport {
+  right: 0;
+}
+
+/* line 448, ../sass/styles-flipbook.scss */
+.flipbook-search {
+  display: block;
+}
+/* line 451, ../sass/styles-flipbook.scss */
+.flipbook-search input, .flipbook-search button {
+  margin-bottom: 0;
+}
+
+/* line 456, ../sass/styles-flipbook.scss */
+.flipbook.pagination-centered {
+  margin: 24px 0;
+}
+/* line 459, ../sass/styles-flipbook.scss */
+.flipbook.pagination-centered .pagination li, .flipbook.pagination-centered .pagination a {
+  height: 36px;
+  display: block;
+}
+
+/* line 468, ../sass/styles-flipbook.scss */
+.category-list-link {
+  height: 32px;
+  overflow: hidden;
+  padding: 0.5em 0.9375em;
+  background: #1c3755;
+  color: white !important;
+  display: block;
+}
+/* line 476, ../sass/styles-flipbook.scss */
+.category-list-link:hover {
+  background: #b3181d;
+}
+/* line 480, ../sass/styles-flipbook.scss */
+.category-list-link .arrow, .category-list-link .current {
+  float: left;
+}
+/* line 483, ../sass/styles-flipbook.scss */
+.category-list-link .arrow {
+  padding: 0 !important;
+  margin-left: 0 !important;
+  width: 10px;
+}
+/* line 489, ../sass/styles-flipbook.scss */
+.category-list-link .arrow:after {
+  width: 10px;
+  border-width: 6px !important;
+  margin-top: 2px;
+}
+
+/*flipbook mobile*/
+/* line 498, ../sass/styles-flipbook.scss */
+.mobile-flipbook-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  width: 100%;
+}
+
+/* line 507, ../sass/styles-flipbook.scss */
+.flipbook .quick-categories {
+  max-height: 120px;
+  overflow: auto;
+}
+
+/* line 513, ../sass/styles-flipbook.scss */
+.flipbook-container {
+  background: #ededed;
+}
+
+/* line 517, ../sass/styles-flipbook.scss */
+#flipbook-prev {
+  right: 0;
+}
+
+/* line 521, ../sass/styles-flipbook.scss */
+#flipbook-next {
+  left: 0;
+}
+
+/* LOADER */
+/* line 528, ../sass/styles-flipbook.scss */
+.loader-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.7);
+}
+/* line 536, ../sass/styles-flipbook.scss */
+.loader-container .loader {
+  padding: 1.5em;
+  color: white;
+  margin: auto;
+  margin-top: 50%;
+  top: -40px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif, helvetica;
+}
+/* line 547, ../sass/styles-flipbook.scss */
+.loader-container img {
+  border-radius: 50%;
+}
+/* line 554, ../sass/styles-flipbook.scss */
+.loader-container.flipbook img {
+  width: 30px;
+  border: 0;
+}
+
+/* line 562, ../sass/styles-flipbook.scss */
+.left {
+  float: left;
+}
+
+/* line 563, ../sass/styles-flipbook.scss */
+.right {
+  float: right;
+}
+
+/* line 565, ../sass/styles-flipbook.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 570, ../sass/styles-flipbook.scss */
+.magazine-viewport .container {
+  top: 50%;
+  left: 50%;
+  width: 2000px;
+  height: 1000px;
+  margin: auto;
+}
+
+/* line 578, ../sass/styles-flipbook.scss */
+.magazine-viewport .magazine {
+  width: 1500;
+  height: 800px;
+}
+
+/* line 583, ../sass/styles-flipbook.scss */
+.magazine-viewport .page {
+  width: 1500;
+  height: 800px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 591, ../sass/styles-flipbook.scss */
+.magazine-viewport .zoomer .region {
+  display: none;
+}
+
+/* line 594, ../sass/styles-flipbook.scss */
+.magazine-viewport .zoom-in .region {
+  display: none;
+}
+
+/* line 598, ../sass/styles-flipbook.scss */
+.magazine .region {
+  position: absolute;
+  overflow: hidden;
+  background: #0066FF;
+  opacity: 0.2;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+
+/* line 613, ../sass/styles-flipbook.scss */
+.magazine .region:hover {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+
+/* line 619, ../sass/styles-flipbook.scss */
+.magazine .region.zoom {
+  opacity: 0.01;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+  filter: alpha(opacity=1);
+}
+
+/* line 625, ../sass/styles-flipbook.scss */
+.magazine .region.zoom:hover {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+
+/* line 631, ../sass/styles-flipbook.scss */
+.magazine .page {
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* line 639, ../sass/styles-flipbook.scss */
+.magazine-viewport .page img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+}
+
+/* line 649, ../sass/styles-flipbook.scss */
+.magazine .even .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.95, rgba(0, 0, 0, 0)), color-stop(1, rgba(0, 0, 0, 0.2)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%);
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+/* line 664, ../sass/styles-flipbook.scss */
+.magazine .odd .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.95, rgba(0, 0, 0, 0)), color-stop(1, rgba(0, 0, 0, 0.15)));
+  background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.15) 100%);
+  background-image: -moz-linear-gradient(right, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.15) 100%);
+  background-image: -ms-linear-gradient(right, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.15) 100%);
+  background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.15) 100%);
+  background-image: linear-gradient(right, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+/* line 680, ../sass/styles-flipbook.scss */
+.magazine-viewport .zoom-in .even .gradient,
+.magazine-viewport .zoom-in .odd .gradient {
+  display: none;
+}
+
+/* line 686, ../sass/styles-flipbook.scss */
+.magazine-viewport .loader {
+  background-image: url(../pics/loader.gif);
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 280px;
+  left: 219px;
+}
+
+/* line 695, ../sass/styles-flipbook.scss */
+.magazine-viewport .shadow {
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  -moz-transition: -moz-box-shadow 0.5s;
+  -o-transition: -webkit-box-shadow 0.5s;
+  -ms-transition: -ms-box-shadow 0.5s;
+  -webkit-box-shadow: 0 0 20px #ccc;
+  -moz-box-shadow: 0 0 20px #ccc;
+  -o-box-shadow: 0 0 20px #ccc;
+  -ms-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+}
+
+/* line 709, ../sass/styles-flipbook.scss */
+.magazine-viewport .next-button,
+.magazine-viewport .previous-button {
+  width: 22px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 716, ../sass/styles-flipbook.scss */
+.magazine-viewport .next-button {
+  right: -22px;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  -ms-border-radius: 0 15px 15px 0;
+  -o-border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0;
+}
+
+/* line 725, ../sass/styles-flipbook.scss */
+.magazine-viewport .previous-button {
+  left: -22px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 15px;
+}
+
+/* line 735, ../sass/styles-flipbook.scss */
+.magazine-viewport .previous-button-hover,
+.magazine-viewport .next-button-hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 740, ../sass/styles-flipbook.scss */
+.magazine-viewport .previous-button-hover,
+.magazine-viewport .previous-button-down {
+  background-image: url(../pics/arrows.png);
+  background-position: -4px 184px;
+  background-repeat: no-repeat;
+}
+
+/* line 747, ../sass/styles-flipbook.scss */
+.magazine-viewport .previous-button-down,
+.magazine-viewport .next-button-down {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 752, ../sass/styles-flipbook.scss */
+.magazine-viewport .next-button-hover,
+.magazine-viewport .next-button-down {
+  background-image: url(../pics/arrows.png);
+  background-position: -38px 184px;
+  background-repeat: no-repeat;
+}
+
+/* line 759, ../sass/styles-flipbook.scss */
+.magazine-viewport .zoom-in .next-button,
+.magazine-viewport .zoom-in .previous-button {
+  display: none;
+}
+
+/* line 763, ../sass/styles-flipbook.scss */
+.animated {
+  -webkit-transition: margin-left 0.5s;
+  -moz-transition: margin-left 0.5s;
+  -ms-transition: margin-left 0.5s;
+  -o-transition: margin-left 0.5s;
+  transition: margin-left 0.5s;
+}
+
+/* line 771, ../sass/styles-flipbook.scss */
+.thumbnails {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  z-index: 1;
+}
+
+/* line 780, ../sass/styles-flipbook.scss */
+.thumbnails > div {
+  width: 1050px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+/* line 786, ../sass/styles-flipbook.scss */
+.thumbnails ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-transform: scale3d(0.5, 0.5, 1);
+  -moz-transform: scale3d(0.5, 0.5, 1);
+  -o-transform: scale3d(0.5, 0.5, 1);
+  -ms-transform: scale3d(0.5, 0.5, 1);
+  transform: scale3d(0.5, 0.5, 1);
+  -webkit-transition: -webkit-transform ease-in-out 100ms;
+  -moz-transition: -moz-transform ease-in-out 100ms;
+  -ms-transition: -ms-transform ease-in-out 100ms;
+  -o-transition: -o-transform ease-in-out 100ms;
+  transition: transform ease-in-out 100ms;
+}
+
+/* line 802, ../sass/styles-flipbook.scss */
+.thumbanils-touch ul {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* line 810, ../sass/styles-flipbook.scss */
+.thumbnails-hover ul {
+  -webkit-transform: scale3d(0.6, 0.6, 1);
+  -moz-transform: scale3d(0.6, 0.6, 1);
+  -o-transform: scale3d(0.6, 0.6, 1);
+  -ms-transform: scale3d(0.6, 0.6, 1);
+  transform: scale3d(0.6, 0.6, 1);
+}
+
+/* line 818, ../sass/styles-flipbook.scss */
+.thumbnails li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  -ms-box-shadow: 0 0 10px #ccc;
+  -o-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  -webkit-transition: -webkit-transform 60ms;
+  -moz-transition: -webkit-transform 60ms;
+  -o-transition: -webkit-transform 60ms;
+  -ms-transition: -webkit-transform 60ms;
+  transition: -webkit-transform 60ms;
+}
+
+/* line 834, ../sass/styles-flipbook.scss */
+.thumbnails li span {
+  display: none;
+}
+
+/* line 838, ../sass/styles-flipbook.scss */
+.thumbnails .current {
+  -webkit-box-shadow: 0 0 10px red;
+  -moz-box-shadow: 0 0 10px red;
+  -ms-box-shadow: 0 0 10px red;
+  -o-box-shadow: 0 0 10px red;
+  box-shadow: 0 0 10px red;
+}
+
+/* line 846, ../sass/styles-flipbook.scss */
+.thumbnails .thumb-hover {
+  -webkit-transform: scale3d(1.3, 1.3, 1);
+  -moz-transform: scale3d(1.3, 1.3, 1);
+  -o-transform: scale3d(1.3, 1.3, 1);
+  -ms-transform: scale3d(1.3, 1.3, 1);
+  transform: scale3d(1.3, 1.3, 1);
+  -webkit-box-shadow: 0 0 10px #666;
+  -moz-box-shadow: 0 0 10px #666;
+  -ms-box-shadow: 0 0 10px #666;
+  -o-box-shadow: 0 0 10px #666;
+  box-shadow: 0 0 10px #666;
+}
+
+/* line 860, ../sass/styles-flipbook.scss */
+.thumbanils-touch .thumb-hover {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* line 868, ../sass/styles-flipbook.scss */
+.thumbnails .thumb-hover span {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 30px;
+  font: bold 15px arial;
+  line-height: 30px;
+  color: #666;
+  display: block;
+  cursor: default;
+}
+
+/* line 882, ../sass/styles-flipbook.scss */
+.thumbnails img {
+  float: left;
+}
+
+/* line 886, ../sass/styles-flipbook.scss */
+.esc {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 10000;
+}
+
+/* line 895, ../sass/styles-flipbook.scss */
+.esc > div {
+  width: 140px;
+  height: 30px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font: 12px arial;
+  line-height: 30px;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 911, ../sass/styles-flipbook.scss */
+.made {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font: 14px arial;
+  line-height: 40px;
+  color: #666;
+  text-align: center;
+  z-index: 10;
+}
+
+/* line 923, ../sass/styles-flipbook.scss */
+.hide {
+  display: none;
+}
+
+/* line 927, ../sass/styles-flipbook.scss */
+.flipbook-container {
+  padding: 0 !important;
+}
+
+/* line 931, ../sass/styles-flipbook.scss */
+.magazine {
+  overflow: hidden;
+  margin: 0 auto !important;
+}
+
+/* line 936, ../sass/styles-flipbook.scss */
+.magazine .turn-page {
+  background-color: #ccc;
+  background-size: 100% 100%;
+}
+
+/* line 941, ../sass/styles-flipbook.scss */
+.magazine .page {
+  position: relative;
+}
+
+/* line 945, ../sass/styles-flipbook.scss */
+.magazine .page.odd img {
+  border: 0;
+}
+
+/* line 949, ../sass/styles-flipbook.scss */
+.magazine .page.even img {
+  border: 0;
+}
+
+/* line 953, ../sass/styles-flipbook.scss */
+.magazine img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* line 959, ../sass/styles-flipbook.scss */
+.magazine-viewport {
+  right: 0;
+}
+
+/* line 963, ../sass/styles-flipbook.scss */
+.alert-flipbook {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #000;
+  z-index: 3000;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  opacity: 0.6;
+}
+
+/* line 974, ../sass/styles-flipbook.scss */
+.alert-flipbook img {
+  width: 15px;
+  margin-right: 10px;
+}

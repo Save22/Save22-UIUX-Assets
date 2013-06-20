@@ -7,6 +7,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  
   <title>Save22 - Comprehensive pricing, promotions and sales information updated daily</title>
 
   <link rel="stylesheet" href="css/normalize.css" />

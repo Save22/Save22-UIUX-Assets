@@ -38,9 +38,11 @@
   <script src="../js/vendor/custom.modernizr.js"></script>
   
   <script src="../js/vendor/jquery.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.js"></script>
+  <script src="../js/jquery.mobile-1.3.1.min.js"></script>
   <script type="text/javascript" src="../js/klass.min.js"></script>
   <script type="text/javascript" src="../js/code.photoswipe.jquery-3.0.5.min.js"></script>
+  
+
   
   <script type="text/javascript">
     
@@ -53,9 +55,9 @@
     
     */
     
-    (function(window, Util, PhotoSwipe){
+    (function(window, $, PhotoSwipe){
       
-      Util.Events.domReady(function(e){
+      $(document).ready(function(){
         
         var instance;
         
@@ -84,7 +86,7 @@
       });
       
       
-    }(window, window.Code.Util, window.Code.PhotoSwipe));
+    }(window, window.jQuery, window.Code.PhotoSwipe));
     
   </script>
   
@@ -132,7 +134,7 @@
 
 
   <div class="row main-container" style="max-width: none;">
-    <div class="small-12 large-9 columns flipbook-container">
+    <div class="small-12 large-12 columns flipbook-container">
 
 
       <div id="MainContent">
@@ -143,36 +145,6 @@
 
 
     </div>
-    <div class="small-12 large-3 columns sidebar flipbook">
-      <!-- <a href="#" class="hide-sidebar">Hide Sidebar <span class="arrow-right arrow"></span></a> -->
-      
-      <div class="sidebar flipbook related-catalogs">
-        <div class="section-container tabs" data-section="tabs" data-options="deep_linking:true;">
-          <div class="section">
-            <div class="content" data-slug="search" data-section-content>
-              
-              <h3 class="sidebar-header">Search <!-- Results --></h3>
-
-              <div class="flipbook-search">
-                <div class="row collapse">
-                  <div class="small-9 columns">
-                    <input type="text" placeholder="Search for a catalog" value="Tissue Paper">
-                  </div>
-                  <div class="small-3 columns">
-                    <button class="postfix">search</button>
-                  </div>
-                </div>
-              </div>
-
-              <?php // include('../elements/loader-flipbook.php'); ?>
-              <?php include('../elements/carousel-promos-flipbook.php'); ?>
-
-            </div>
-          </div>
-        </div><!-- tabs -->
-      </div>
-      
-    </div><!-- large-3 -->
   </div><!-- main-container -->
 
   <script src="../js/foundation/foundation.js"></script>

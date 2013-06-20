@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-flipbook-browse</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="icon-flipbook-browse" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M10.9804688,4 C5.46875002,4.00000122 0,9.85714286 0,9.85714286 L0,45 C0,45 5.37597657,39.9529332 10.9804688,39.9529332 C17.3759766,39.9529332 24,45 24,45 L24,9.85714286 C24,9.85714286 17.46875,4 10.9804688,4 Z M10.9804688,4" id="Rectangle 1" fill="#E6E6E6"></path>
+            <path d="M41,5.4124103 C44.9763884,7.14560602 48,9.85714286 48,9.85714286 L48,45 C48,45 41.3759766,39.9529332 34.9804688,39.9529332 C29.3759766,39.9529332 24,45 24,45 L24,9.85714286 C24,9.85714286 26.0957181,7.61258643 29,5.90243935 L29,19 L29,28 L35,22.0510842 L41,28 L41,19 Z M41,5.4124103" id="Rectangle 1" fill="#FFFFFF"></path>
+            <path d="M29.3271484,32.3535156 L35.0922852,25.9448242 L41.2177734,32.3535156 L41.0883789,27.5288086 L35.0732422,22.3706055 L29.4199219,27.7739258 L29.3271484,5.99755859 L29.3271484,32.3535156 Z M29.3271484,32.3535156" id="Path 3" fill="#E6E6E6"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-flipbook-zoomout</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="icon-flipbook-zoomout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#979797">
+            <path d="M23.1715729,28.8284271 L26,31.6568542 L31.6568542,26 L28.8284271,23.1715729 L26.2789174,20.6220631 L23.4504902,17.793636 L17.793636,23.4504902 L20.6220631,26.2789174 L23.1715729,28.8284271 Z M23.1715729,28.8284271" id="Line"></path>
+            <path d="M26,13 C26,20.179702 20.179702,26 13,26 C5.82029795,26 0,20.179702 0,13 C0,5.82029795 5.82029795,0 13,0 C20.179702,0 26,5.82029795 26,13 Z M4,13 C4,17.970563 8.02943695,22 13,22 C17.970563,22 22,17.970563 22,13 C22,8.02943695 17.970563,4 13,4 C8.02943695,4 4,8.02943695 4,13 Z M4,13" id="Oval 1"></path>
+            <path d="M8,11 L8,15 L18,15 L18,11 L8,11 Z M8,11" id="Rectangle 4"></path>
+        </g>
+    </g>
+</svg>
