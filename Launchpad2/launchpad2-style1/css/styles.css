@@ -2150,137 +2150,217 @@ body {
   border: 0;
 }
 
+/* MAP PAGE */
+/* line 1945, ../sass/styles.scss */
+.map-nav {
+  position: fixed;
+  width: 100%;
+  max-width: none;
+}
+/* line 1950, ../sass/styles.scss */
+.map-nav .top-bar-section ul li > a.drop-down-button {
+  background: #ededed !important;
+  border-bottom: 4px solid #9b1111;
+  margin-bottom: -4px;
+  font-weight: 300;
+  color: #1c3755;
+  position: relative;
+  display: block;
+}
+/* line 1960, ../sass/styles.scss */
+.map-nav .arrow-down {
+  position: absolute;
+  left: 50%;
+}
+/* line 1965, ../sass/styles.scss */
+.map-nav .arrow-down:after {
+  border-top-color: #9b1111;
+  border-width: 20px;
+  margin-left: -20px;
+}
+
+/* line 1972, ../sass/styles.scss */
+.f-dropdown {
+  font-family: "Noto Sans", sans-serif, helvetica;
+  max-height: 300px;
+  overflow: auto;
+  position: fixed !important;
+}
+/* line 1978, ../sass/styles.scss */
+.f-dropdown li {
+  padding: 0.5em 0.625em;
+  border-bottom: 1px solid #ededed;
+}
+
+/* line 1983, ../sass/styles.scss */
+#map.map-filters {
+  position: relative;
+  top: 90px;
+  margin-bottom: 90px;
+}
+
 @media screen and (min-width: 20em) and (max-width: 30em) {
-  /* line 1944, ../sass/styles.scss */
+  /* line 1990, ../sass/styles.scss */
   .location-ads {
     margin: 0;
   }
 
-  /* line 1947, ../sass/styles.scss */
+  /* line 1993, ../sass/styles.scss */
   .home-featured .row {
     margin: 0;
   }
 }
 @media screen and (min-width: 20em) and (max-width: 47.9375em) {
-  /* line 1950, ../sass/styles.scss */
+  /* line 1996, ../sass/styles.scss */
   .top-bar .name h1 a {
     width: 100%;
   }
 
-  /* line 1953, ../sass/styles.scss */
+  /* line 1999, ../sass/styles.scss */
   #sidebar-establishments {
     display: none;
   }
 
-  /* line 1958, ../sass/styles.scss */
+  /* line 2004, ../sass/styles.scss */
   .home-intro .top-bar-section .small-3 {
     width: 10%;
   }
-  /* line 1961, ../sass/styles.scss */
+  /* line 2007, ../sass/styles.scss */
   .home-intro .top-bar-section .small-9 {
     width: 90%;
     float: left;
   }
-  /* line 1966, ../sass/styles.scss */
+  /* line 2012, ../sass/styles.scss */
   .home-intro .top-bar-section .loc-icon {
     margin-left: 0;
     padding-top: 6px;
   }
-  /* line 1970, ../sass/styles.scss */
+  /* line 2016, ../sass/styles.scss */
   .home-intro .top-bar-section ul {
     width: 70% !important;
     float: left;
   }
-  /* line 1971, ../sass/styles.scss */
+  /* line 2017, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view {
     float: left;
     width: 27% !important;
   }
-  /* line 1975, ../sass/styles.scss */
+  /* line 2021, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view li a.link-map-view {
     padding: 3px 0;
   }
-  /* line 1979, ../sass/styles.scss */
+  /* line 2025, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view img {
     margin: 4px 12px 0 0;
     height: 80%;
   }
-  /* line 1982, ../sass/styles.scss */
+  /* line 2028, ../sass/styles.scss */
   .home-intro .top-bar-section .location-suggestions ul {
     width: 100% !important;
   }
-  /* line 1985, ../sass/styles.scss */
+  /* line 2031, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger {
     /* padding: 3px 0 0 0;  */
   }
-  /* line 1987, ../sass/styles.scss */
+  /* line 2033, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger span {
     display: none;
   }
 
-  /* line 1990, ../sass/styles.scss */
+  /* line 2036, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 1.25em;
   }
 
+  /* line 2040, ../sass/styles.scss */
+  .home-intro.map-nav .top-bar-section ul {
+    width: 100% !important;
+  }
+  /* line 2043, ../sass/styles.scss */
+  .home-intro.map-nav .top-bar-section ul li > a.drop-down-button {
+    border-bottom: 0;
+    padding-right: 40px;
+    background: #1c3755 !important;
+    color: white;
+  }
+
+  /* line 2050, ../sass/styles.scss */
+  .map-nav .arrow-down {
+    left: auto;
+    right: 15px !important;
+    top: 50%;
+    margin-top: -10px;
+  }
+  /* line 2056, ../sass/styles.scss */
+  .map-nav .arrow-down:after {
+    border-width: 10px;
+    border-top-color: white;
+  }
+
+  /* line 2061, ../sass/styles.scss */
+  .f-dropdown {
+    max-height: none;
+    position: absolute !important;
+  }
+
   /* FLIPBOOK */
-  /* line 1995, ../sass/styles.scss */
+  /* line 2067, ../sass/styles.scss */
   .flipbook.sidebar {
     display: none;
   }
 }
 @media screen and (min-width: 48.9375em) {
   /* FLIPBOOK */
-  /* line 2001, ../sass/styles.scss */
+  /* line 2073, ../sass/styles.scss */
   .flipbook.sidebar {
     display: block;
   }
 }
 @media screen and (min-width: 30em) and (max-width: 64em) {
-  /* line 2005, ../sass/styles.scss */
+  /* line 2077, ../sass/styles.scss */
   body {
     font-size: 0.875em;
   }
 
-  /* line 2009, ../sass/styles.scss */
+  /* line 2081, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 2.25em;
   }
-  /* line 2011, ../sass/styles.scss */
+  /* line 2083, ../sass/styles.scss */
   .mobile-shop-info .store-link {
     width: 50%;
     float: left;
   }
-  /* line 2015, ../sass/styles.scss */
+  /* line 2087, ../sass/styles.scss */
   .mobile-shop-info .store-link img {
     width: 100%;
     padding-right: 1.5em;
   }
-  /* line 2017, ../sass/styles.scss */
+  /* line 2089, ../sass/styles.scss */
   .mobile-shop-info p {
     display: block;
     width: 50%;
     float: left;
   }
 
-  /* line 2025, ../sass/styles.scss */
+  /* line 2097, ../sass/styles.scss */
   .branch-details .row .small-12.large-4, .branch-details .row .small-12.large-8 {
     width: 50%;
   }
-  /* line 2030, ../sass/styles.scss */
+  /* line 2102, ../sass/styles.scss */
   .branch-details .row .small-12.large-8 .large-block-grid-2 li {
     width: 100%;
   }
 }
 @media screen and (min-width: 61.1875em) {
-  /* line 2040, ../sass/styles.scss */
+  /* line 2112, ../sass/styles.scss */
   .home-preview .sub-header .current-category {
     display: block;
     float: right;
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 2050, ../sass/styles.scss */
+  /* line 2122, ../sass/styles.scss */
   .establishments .results-grid .store-link img {
     max-width: 250px;
   }
