@@ -1,0 +1,10 @@
+.lt-ie9 .logo-img {
+	position: relative;
+	top: 0px;
+}
+.lt-ie9 .title-area h1 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: -20px;
+}

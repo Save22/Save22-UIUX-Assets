@@ -30,6 +30,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
 
+  <script src="../js/vendor/custom.modernizr.js"></script>
 </head>
 
 <body class="flipbook">
