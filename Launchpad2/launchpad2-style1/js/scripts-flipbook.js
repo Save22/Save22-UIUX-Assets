@@ -10,6 +10,7 @@ $(window).load(function(){
   window_height('.min-height');
   sidebar_tray();
   sidebar_height();
+  same_height('.page-thumb');
 
   if($(window).width() < 979) {
     $('.sidebar.flipbook').addClass('hide-sidebar');

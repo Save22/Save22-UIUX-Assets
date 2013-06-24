@@ -79,6 +79,7 @@
 
   <div class="sidebar-tray">
     <ul>
+      <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-info.svg"> Info</a></li>
       <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-search.svg"> Search</a></li>
       <li><a href="#" class="tab-near"><img src="../img/icon-flipbook-nearby.svg"> What's Near</a></li>
       <li><a href="#" class="tab-browse"><img src="../img/icon-flipbook-browse.svg"> Browse</a></li>
@@ -93,7 +94,7 @@
             <div class="content" data-slug="search" data-section-content>
               
               <?php // include('../elements/loader-flipbook.php'); ?>
-              <?php include('../elements/carousel-promos-flipbook.php'); ?>
+              <?php include('../elements/flipbook-info.php'); ?>
 
             </div>
           </div>
