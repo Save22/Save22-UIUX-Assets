@@ -1,10 +1,3 @@
-// When ready...
-window.addEventListener("load",function() {
-  setTimeout(function(){
-    window.scrollTo(0, 1);
-  }, 0);
-});
-
 $(window).load(function(){ 
   
   window_height('.min-height');
@@ -54,6 +47,12 @@ $(window).load(function(){
             window_height('.min-height');
           }, 10);
       });
+// When ready...
+  window.addEventListener("load",function() {
+    setTimeout(function(){
+      window.scrollTo(0, 1);
+    }, 0);
+  });
 
 });
 

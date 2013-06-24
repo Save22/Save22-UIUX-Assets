@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="../css/styles-flipbook.css" />
   
   <!--[if IE 8]>
+  <link rel="stylesheet" href="../css/flipbook-ie8.css" />
   <![endif]-->
 
   <!--[if IE 7]>
@@ -38,7 +39,7 @@
       <ul class="title-area">
         <!-- Title Area -->
         <li class="name">
-          <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
+          <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img" border="0">Save22.com.ph</a></h1>
         </li>
         <li class="toggle-topbar menu-icon flipbook-sidebar-trigger"><a href="#"><span></span></a></li>
       </ul>
