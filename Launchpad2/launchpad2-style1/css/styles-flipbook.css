@@ -379,6 +379,7 @@ body.flipbook {
 /* line 342, ../sass/styles-flipbook.scss */
 .sidebar.flipbook.hide-sidebar {
   right: -250px;
+  display: none;
 }
 
 /* line 346, ../sass/styles-flipbook.scss */
