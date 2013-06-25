@@ -8,13 +8,17 @@ $(window).load(function(){
       direction: 'up',
       width: '100%',
       height: '100%',
-      scroll: 1,
+      scroll: {
+        items: 1
+      },
+      /*
       items: {
         visible: '+1'
-      },
+      }, */
       prev: '#catalog-prev',
       next: '#catalog-next'
     });
+
 
     $('#widget-brands-carousel').carouFredSel({
       auto: false,

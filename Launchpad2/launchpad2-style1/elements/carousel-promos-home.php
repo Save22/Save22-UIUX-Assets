@@ -15,7 +15,7 @@
             <a href="#catalog-page" class="item">
               <div class="cat-item">
                 <div class="cat-info">
-                  <h3>Brand / Retailer</h3>
+                  <h3>Brand / Retailer could be a really long name</h3>
                 </div>
                 <div class="thumb"><img src="img/catsample7.jpg" alt="catalogue title" /></div>
               </div>

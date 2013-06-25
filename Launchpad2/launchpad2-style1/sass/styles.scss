@@ -171,11 +171,38 @@
     }
     .cat-info {
       font-size: emCalc(16px);
-      padding: emCalc(6px) emCalc(12px);
+      padding: 0 emCalc(12px);
     }
     .title { font-weight: 700; }
 
     .thumb { overflow: hidden; text-align: center; }
+
+    .active {
+      .cat-info { 
+        opacity: 1 !important; 
+        background: none;
+        h3 { 
+          background-color: $base-color-red;  
+          &:after {
+            right: 100%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+          }
+
+          &:after {
+            border-color: rgba(255,255,255,0);
+            border-right-color: $base-color-red;
+            border-width: 10px;
+            top: 50%;
+            margin-top: -10px;
+          }
+        }
+      }
+    }
   }
 
   #brand-carousel {
@@ -205,6 +232,7 @@
     height: 480px;
 
     .item { float: none !important; }
+
     .cat-item { 
       position: relative; 
       margin: 0 0 emCalc(12px) auto;
@@ -250,13 +278,18 @@
 
     h3 { 
       position: relative;
-      top: 35%; 
+      top: 50%; 
+      margin-top: -35px !important;
       text-align: center;
       padding: emCalc(12px) 0;
       border-top: 1px solid $base-color-light;
       border-bottom: 1px solid $base-color-light;
       display: block;
     }
+
+    h3.active {
+    }
+
 
     a, h3 {
       color: $base-color-light;
