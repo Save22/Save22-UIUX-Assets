@@ -1,0 +1,74 @@
+// Global Foundation Settings
+@import "settings";
+
+/* COLORS */
+  
+  $base-color-red: #b3181d;
+  $base-color-red-darker: #9b1111;
+  $base-color-red-lighter: #e1bfbf;
+
+  $base-color-blue: #2c6289;
+  $base-color-blue-lighter: #b3cada;
+  $base-color-blue-darker: #1c3755;
+
+  $base-color-light: #fff;
+  $base-color-dark: #000;
+  $base-color-neutral-dark: #3d3d3d;
+  $base-color-neutral: #8c8c8c;
+  $base-color-neutral-light: #eee;
+
+  $border-light: #ededed;
+  $base-color-bg: #f9f9f9; /* #edf5f6 */
+
+
+ul.catalog {
+
+  [class*="block-grid-"] {
+    padding: emCalc(40px) emCalc(20px);
+  }
+  .th {
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &.edit {
+    .content {
+      margin-top: emCalc(60px);
+    }
+  }
+
+  .cover {
+    h2 {
+      border-bottom: 4px solid #000;
+      margin: 0;
+      padding: emCalc(10px) 0;
+      font-size: emCalc(48px);
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  h3 { 
+    font-size: emCalc(20px); 
+    border-bottom: 2px solid #000;
+    padding: emCalc(10px) 0;
+  }
+  .item-set {
+    font-size: emCalc(13px);
+
+    .price { font-weight: bold; color:$base-color-red; }
+  }
+}
+
+.edit-control {
+  position:absolute;
+  top: 0px; 
+  background: #000; 
+  width: 100%;
+  padding: emCalc(10px) emCalc(10px) 0 emCalc(10px);
+
+  ul.button-group:first-child {
+    margin-left: emCalc(70px);
+  }
+}

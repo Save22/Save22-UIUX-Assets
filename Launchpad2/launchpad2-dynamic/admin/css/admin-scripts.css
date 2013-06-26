@@ -1,0 +1,54 @@
+/* COLORS */
+/* #edf5f6 */
+/* line 26, ../sass/admin-scripts.scss */
+ul.catalog [class*="block-grid-"] {
+  padding: 2.5em 1.25em;
+}
+/* line 29, ../sass/admin-scripts.scss */
+ul.catalog .th {
+  border: 0;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+}
+/* line 35, ../sass/admin-scripts.scss */
+ul.catalog.edit .content {
+  margin-top: 3.75em;
+}
+/* line 41, ../sass/admin-scripts.scss */
+ul.catalog .cover h2 {
+  border-bottom: 4px solid #000;
+  margin: 0;
+  padding: 0.625em 0;
+  font-size: 3em;
+}
+/* line 47, ../sass/admin-scripts.scss */
+ul.catalog .cover img {
+  width: 100%;
+}
+/* line 52, ../sass/admin-scripts.scss */
+ul.catalog h3 {
+  font-size: 1.25em;
+  border-bottom: 2px solid #000;
+  padding: 0.625em 0;
+}
+/* line 57, ../sass/admin-scripts.scss */
+ul.catalog .item-set {
+  font-size: 0.8125em;
+}
+/* line 60, ../sass/admin-scripts.scss */
+ul.catalog .item-set .price {
+  font-weight: bold;
+  color: #b3181d;
+}
+
+/* line 64, ../sass/admin-scripts.scss */
+.edit-control {
+  position: absolute;
+  top: 0px;
+  background: #000;
+  width: 100%;
+  padding: 0.625em 0.625em 0 0.625em;
+}
+/* line 71, ../sass/admin-scripts.scss */
+.edit-control ul.button-group:first-child {
+  margin-left: 4.375em;
+}
