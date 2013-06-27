@@ -4,7 +4,9 @@ $(window).load(function(){
   
   add_item();
   edit_item();
+  insert_page();
 
+  $('.item-overlay').css('height', $(window).height());
 });
 
 
@@ -81,7 +83,42 @@ function edit_item() {
   
 }
 
+function insert_page() {
 
+  $(".catalog.edit").on("click", ".add-page-before", function(event){
+
+    var catalog_container = $(this).parent().parent().parent().parent();
+    console.log('catalog_container = ' + catalog_container.attr('class'));
+
+    var page = 'widgets/add-page-blank.php';
+
+    $.get(page, function (data) {
+      $(catalog_container).before(data);
+      resize_slides(catalog_container);
+    });
+    
+
+    event.preventDefault();
+  });
+
+  $(".catalog.edit").on("click", ".add-page-after", function(event){
+    
+  });
+
+
+  function resize_slides(slides_container) {
+      var main_container = $(slides_container).parent(),
+          slides = $(main_container).children('li');
+      console.log(slides);
+      $(slides_container).css('width', $(slides).length * 100 + '%');
+      $(slides).css('width', 100 / $(slides).length + '%');
+      $(slides_container).height($(main_container).height());
+      // $(slides_container).css('width', $(slides).length * 100 + '%');
+
+      console.log($(slides).css('width', 100 / $(slides).length + '%'));
+    }
+
+}
 
 /****** 
   DRAW A BOX 

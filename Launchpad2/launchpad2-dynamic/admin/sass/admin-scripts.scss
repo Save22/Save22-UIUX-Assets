@@ -47,13 +47,34 @@ ul.catalog {
 
   .cover {
     h2 {
-      border-bottom: 4px solid #000;
       margin: 0;
-      padding: emCalc(10px) 0;
-      font-size: emCalc(48px);
+      span {
+        display: block;
+        border-bottom: 4px solid #000;
+        margin: emCalc(15px) 0 0 0;
+        padding: emCalc(10px);
+        font-size: emCalc(28px);
+
+        &:hover {
+          background: #fffbe0;
+        }
+      }
     }
     img {
       width: 100%;
+    }
+    .quick-edit .edit-value.title {
+      font-size: emCalc(66px);
+      margin: 0;
+      border-bottom: 4px solid #000;
+    }
+
+    .item {
+      position: relative;
+    }
+    .edit-photo {
+      top: 220px;
+      opacity: 1;
     }
   }
 
@@ -132,11 +153,25 @@ a.add-item {
   }
 }
 
-
+.image-catalog{
+  .item-set {
+    margin-top: 56px;
+    padding-top: emCalc(15px);
+  }
+  h2 { 
+    margin: 0;
+    span {
+      display: block;
+      padding:0 emCalc(20px) emCalc(10px) emCalc(20px); 
+      border-bottom: 3px solid #000;
+      margin: 0;
+    }
+  }
+}
 .catalog-overlay {
   position: relative;
   cursor: crosshair;
-  z-index: 1;
+  margin-top: 0 !important;
 
   .item-box {
     border: 3px #FF00FF solid; 
@@ -162,6 +197,32 @@ a.add-item {
   }
 }
 
+.item-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+
+  .photo {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+
+    img {
+      display: block;
+      margin: emCalc(20px) auto;
+    }
+  }
+
+  .product-info {
+    width: 46%;
+    float: left;
+    background: #fff;
+    border: 1px solid #000;
+    padding: emCalc(20px);
+    margin: 2%;
+  }
+}
+
 .edit-control {
   position:absolute;
   top: 0px; 
@@ -173,3 +234,5 @@ a.add-item {
     margin-left: emCalc(70px);
   }
 }
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next { position: fixed; }

@@ -10,8 +10,13 @@
           <li data-orbit-slide="page-0" class="cover">
             <section class="content cover">
               <div class="item-set">
-                <h2 class="catalog-title">Decoration</h2>
-                <img src="img/catalog-sample/cover.jpg" alt="" class="cover-img">
+                <div class="quick-edit">
+                  <h2 class="catalog-title"><span class="value">Decoration</span></h2>
+                  <input class="hide edit-value title" type="text" name="title" value="Decoration" />
+                </div>
+                <div class="photo">
+                  <img src="img/catalog-sample/cover.jpg" alt="" class="cover-img">
+                </div>
               </div>
               <div class="edit-photo">
                 <ul class="button-group">
@@ -327,20 +332,23 @@
           </li>
           
           <li data-orbit-slide="page-4" class="image-catalog">
+            <div class="item-set">
+              <div class="quick-edit">
+                <h2 class="catalog-title"><span class="value">Living Spaces</span></h2>
+                <input class="hide edit-value title" type="text" name="title" value="Living Spaces" />
+              </div>
+            </div>
             <section class="content catalog-overlay" style="background: url('img/catalog-sample/13.jpg') no-repeat 0 0; background-size: 100%; height: 800px">
             </section>
             <?php include('widgets/edit-control.php'); ?>
           </li>
+          
         </ul><!--main -->
 
       </section>
     </div>
   </div>
 
-<div id="add-overlay-item" class="reveal-modal">
-  Title<br>
-  description<br>
-  price
-</div>
 
+  <?php // include('widgets/edit-item-box-info.php'); ?>
 <?php include('footer.php'); ?>
