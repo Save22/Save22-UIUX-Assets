@@ -50,9 +50,11 @@ ul.catalog {
   }
 
   h3 { 
-    font-size: emCalc(20px); 
-    border-bottom: 2px solid #000;
-    padding: emCalc(10px) 0;
+    span {
+      display: block;
+      font-size: emCalc(12px); 
+      border-bottom: 2px solid #000;
+      padding: emCalc(10px) 0;}
   }
   .item-set {
     font-size: emCalc(13px);
@@ -87,6 +89,21 @@ a.add-item {
     display: block;
     margin: emCalc(15px) 0;
     font-weight: bold;
+  }
+}
+
+.quick-edit {
+  cursor: text;
+
+  .hide { display: none !important; }
+  input, textarea {
+    font-size: emCalc(16px);
+  }
+
+  .edit-value.title {
+    font-size: emCalc(20px);
+    font-weight: bold;
+    border-bottom: 2px solid #000;
   }
 }
 

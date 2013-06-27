@@ -22,9 +22,18 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/01.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>OLSBO</h3>
-                      <p class="desc">Photo frame, green</p>
-                      <p class="price">P495</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">OLSBO</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="OLSBO" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Photo frame, green</span></p>
+                        <textarea class="hide edit-value" name="desc">Photo frame, green</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P495</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P495" />
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -32,9 +41,18 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/02.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>OLSBO</h3>
-                      <p class="desc">Photo frame, red</p>
-                      <p class="price">P495</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">OLSBO</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="OLSBO" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Photo frame, red</span></p>
+                        <textarea class="hide edit-value" name="desc">Photo frame, red</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P495</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P495" />
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -42,9 +60,18 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/03.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>SKURAR</h3>
-                      <p class="desc">Candle holder, white</p>
-                      <p class="price">P250</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">SKURAR</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="SKURAR" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Candle holder, white</span></p>
+                        <textarea class="hide edit-value" name="desc">Candle holder, white</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P250</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P250" />
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -52,9 +79,18 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/04.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>BONDIS</h3>
-                      <p class="desc">Wall Clock</p>
-                      <p class="price">P1,800</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">BONDIS</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="BONDIS" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Wall clock</span></p>
+                        <textarea class="hide edit-value" name="desc">Wall clock</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P1,800</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P1,800" />
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -62,9 +98,18 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/06.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>BRAVUR</h3>
-                      <p class="desc">Wall clock</p>
-                      <p class="price">P5,800</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">BRAVUR</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="BRAVUR" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Wall clock</span></p>
+                        <textarea class="hide edit-value" name="desc">Wall clock</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P5,800</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P5,800" />
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -72,13 +117,22 @@
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/07.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>RUSCH</h3>
-                      <p class="desc">Wall clock, white</p>
-                      <p class="price">P130</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">RUSCH</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="RUSCH" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Wall clock, white</span></p>
+                        <textarea class="hide edit-value" name="desc">Wall cloc, white</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P130</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P130" />
+                      </div>
                     </div>
                   </div>
                 </li>
-                <?php include('widgets/edit-add-item-new.php'); ?>
+
                 <?php include('widgets/edit-add-item.php'); ?>
               </ul>
             </section>
@@ -90,30 +144,63 @@
             <section class="content product"> 
               <ul class="small-block-grid-1 large-block-grid-2 sortable">
                 <li class="th item">
+                  <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/09.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>FINLIR</h3>
-                      <p class="desc">Picture holder<br /><br />
-                        15x10cm 
-                      </p>
-                      <p class="price">P895</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">FINLIR</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="FINLIR" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Picture holder<br /><br />
+                        15x10cm </span></p>
+                        <textarea class="hide edit-value" name="desc">Picture holder<br /><br />
+                        15x10cm</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P895</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P895" />
+                      </div>
                     </div>
+                  </div>
                 </li>
                 <li class="th item">
+
+                  <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/05.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>NYTTJA</h3>
-                      <p class="desc">
-                        Picture frame, assorted colours<br /><br />
+                      <div class="quick-edit">
+                        <h3><span class="value">NYTTJA</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="NYTTJA" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">
+                          Picture frame, assorted colours<br /><br />
 
-                        Width: 14 cm<br />
-                        Height: 19 cm<br />
-                        Picture, width: 10 cm<br />
-                        Picture, height: 15 cm<br />
-                        Package quantity: 2 pieces
-                      </p>
-                      <p class="price">P180</p>
+                          Width: 14 cm<br />
+                          Height: 19 cm<br />
+                          Picture, width: 10 cm<br />
+                          Picture, height: 15 cm<br />
+                          Package quantity: 2 pieces
+                        </span></p>
+                        <textarea class="hide edit-value" name="desc">
+
+                          Picture frame, assorted colours<br /><br />
+
+                          Width: 14 cm<br />
+                          Height: 19 cm<br />
+                          Picture, width: 10 cm<br />
+                          Picture, height: 15 cm<br />
+                          Package quantity: 2 pieces
+
+                        </textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P180</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P180" />
+                      </div>
                     </div>
+                  </div>
                 </li>
                 <?php include('widgets/edit-add-item.php'); ?>
               </ul>
@@ -127,23 +214,42 @@
             <section class="content product"> 
               <ul class="small-block-grid-1 large-block-grid-2 sortable">
                 <li class="th item">
+                  <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/10.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>FINLIR</h3>
-                      <p class="desc">Picture<br /><br />
-                        38X48cm
-                      </p>
-                      <p class="price">P1,800</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">FINLIR</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="FINLIR" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Picture, 38X48cm</span></p>
+                        <textarea class="hide edit-value" name="desc">Picture, 38X48cm</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P1,800</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P1,800" />
+                      </div>
                     </div>
+                  </div>
                 </li>
                 <li class="th item">
+                  <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/11.jpg" alt=""></div>
                     <div class="product-info">
-                      <h3>BILD</h3>
-                      <p class="desc">Poster, eiffel tower <br /><br />40X50cm
-                      </p>
-                      <p class="price">P495</p>
+                      <div class="quick-edit">
+                        <h3><span class="value">BILD</span></h3>
+                        <input class="hide edit-value title" type="text" name="title" value="BILD" />
+                      </div>
+                      <div class="quick-edit">
+                        <p class="desc"><span class="value">Poster, eiffel tower, 40X50cm</span></p>
+                        <textarea class="hide edit-value" name="desc">Poster, eiffel tower, 40X50cm</textarea>
+                      </div>
+                      <div class="quick-edit">
+                        <p class="price"><span class="value">P495</span></p>
+                        <input class="hide edit-value" type="text" name="price" value="P495" />
+                      </div>
                     </div>
+                  </div>
                 </li>
                 <?php include('widgets/edit-add-item.php'); ?>
               </ul>
