@@ -17,7 +17,7 @@
 
           <li data-orbit-slide="page-1" class="product prod-columns-four">
             <section class="content product"> 
-              <ul class="small-block-grid-1 large-block-grid-4">
+              <ul class="small-block-grid-1 large-block-grid-4 sortable">
                 <li class="th item">
                   <div class="item-set">
                     <div class="photo"><img src="img/catalog-sample/01.jpg" alt=""></div>
@@ -78,16 +78,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="th item">
-                  <div class="item-set">
-                    <div class="photo"><img src="img/catalog-sample/08.jpg" alt=""></div>
-                    <div class="product-info">
-                      <h3>ROTERA</h3>
-                      <p class="desc">Lantern, chrome</p>
-                      <p class="price">P480</p>
-                    </div>
-                  </div>
-                </li>
+                <?php include('widgets/edit-add-item-new.php'); ?>
+                <?php include('widgets/edit-add-item.php'); ?>
               </ul>
             </section>
             <?php include('widgets/edit-control.php'); ?>
@@ -96,7 +88,7 @@
           <li data-orbit-slide="page-2" class="product prod-columns-two">
 
             <section class="content product"> 
-              <ul class="small-block-grid-1 large-block-grid-2">
+              <ul class="small-block-grid-1 large-block-grid-2 sortable">
                 <li class="th item">
                     <div class="photo"><img src="img/catalog-sample/09.jpg" alt=""></div>
                     <div class="product-info">
@@ -123,6 +115,7 @@
                       <p class="price">P180</p>
                     </div>
                 </li>
+                <?php include('widgets/edit-add-item.php'); ?>
               </ul>
             </section>
 
@@ -132,7 +125,7 @@
           <li data-orbit-slide="page-3" class="product prod-columns-two">
 
             <section class="content product"> 
-              <ul class="small-block-grid-1 large-block-grid-2">
+              <ul class="small-block-grid-1 large-block-grid-2 sortable">
                 <li class="th item">
                     <div class="photo"><img src="img/catalog-sample/10.jpg" alt=""></div>
                     <div class="product-info">
@@ -152,6 +145,7 @@
                       <p class="price">P495</p>
                     </div>
                 </li>
+                <?php include('widgets/edit-add-item.php'); ?>
               </ul>
             </section>
 

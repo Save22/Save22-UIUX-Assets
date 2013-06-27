@@ -61,6 +61,35 @@ ul.catalog {
   }
 }
 
+
+.sortable li {
+  cursor: move;
+}
+
+a.add-item {
+  background: #ccc;
+  display: block;
+  overflow: auto;
+  clear: both;
+  padding: emCalc(20px);
+  line-height: 1.3;
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #666;
+}
+
+.new-item {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: emCalc(15px);
+
+  label {
+    display: block;
+    margin: emCalc(15px) 0;
+    font-weight: bold;
+  }
+}
+
 .edit-control {
   position:absolute;
   top: 0px; 
