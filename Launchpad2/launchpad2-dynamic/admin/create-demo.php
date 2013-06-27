@@ -9,13 +9,21 @@
 
           <li data-orbit-slide="page-0" class="cover">
             <section class="content cover">
-              <h2 class="catalog-title">Decoration</h2>
-              <img src="img/catalog-sample/cover.jpg" alt="" class="cover-img">
+              <div class="item-set">
+                <h2 class="catalog-title">Decoration</h2>
+                <img src="img/catalog-sample/cover.jpg" alt="" class="cover-img">
+              </div>
+              <div class="edit-photo">
+                <ul class="button-group">
+                  <li><a href="#" class="small button secondary">Delete</a></li>
+                  <li><a href="#" class="small button secondary">Change Photo</a></li>
+                </ul>
+              </div><!-- edit photo -->
             </section>
             <?php include('widgets/edit-control.php'); ?>
           </li>
 
-          <li data-orbit-slide="page-1" class="product prod-columns-four">
+          <li data-orbit-slide="page-1" class="product">
             <section class="content product"> 
               <ul class="small-block-grid-1 large-block-grid-4 sortable">
                 <li class="th item">
@@ -36,6 +44,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -55,6 +69,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -74,6 +94,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -93,6 +119,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -112,6 +144,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -131,6 +169,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
 
                 <?php include('widgets/edit-add-item.php'); ?>
@@ -139,7 +183,7 @@
             <?php include('widgets/edit-control.php'); ?>
           </li>
 
-          <li data-orbit-slide="page-2" class="product prod-columns-two">
+          <li data-orbit-slide="page-2" class="product">
 
             <section class="content product"> 
               <ul class="small-block-grid-1 large-block-grid-2 sortable">
@@ -163,6 +207,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
 
@@ -201,6 +251,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <?php include('widgets/edit-add-item.php'); ?>
               </ul>
@@ -209,7 +265,7 @@
             <?php include('widgets/edit-control.php'); ?>
           </li>
           
-          <li data-orbit-slide="page-3" class="product prod-columns-two">
+          <li data-orbit-slide="page-3" class="product">
 
             <section class="content product"> 
               <ul class="small-block-grid-1 large-block-grid-2 sortable">
@@ -231,6 +287,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <li class="th item">
                   <div class="item-set">
@@ -250,6 +312,12 @@
                       </div>
                     </div>
                   </div>
+                  <div class="edit-photo">
+                    <ul class="button-group">
+                      <li><a href="#" class="small button secondary">Delete</a></li>
+                      <li><a href="#" class="small button secondary">Change Photo</a></li>
+                    </ul>
+                  </div><!-- edit photo -->
                 </li>
                 <?php include('widgets/edit-add-item.php'); ?>
               </ul>
@@ -258,10 +326,21 @@
             <?php include('widgets/edit-control.php'); ?>
           </li>
           
+          <li data-orbit-slide="page-4" class="image-catalog">
+            <section class="content catalog-overlay" style="background: url('img/catalog-sample/13.jpg') no-repeat 0 0; background-size: 100%; height: 800px">
+            </section>
+            <?php include('widgets/edit-control.php'); ?>
+          </li>
         </ul><!--main -->
 
       </section>
     </div>
   </div>
+
+<div id="add-overlay-item" class="reveal-modal">
+  Title<br>
+  description<br>
+  price
+</div>
 
 <?php include('footer.php'); ?>

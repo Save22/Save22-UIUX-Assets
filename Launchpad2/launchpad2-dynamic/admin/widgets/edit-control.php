@@ -5,7 +5,7 @@
     <li><a href="#" class="small button delete">Delete</a></li>
   </ul>
   <ul class="button-group right">
-    <li><a href="#" class="small button secondary">Add new page before</a></li>
-    <li><a href="#" class="small button secondary">Add new page after</a></li>
+    <li><a href="#" class="small button secondary add-before">Add new page before</a></li>
+    <li><a href="#" class="small button secondary add-after">Add new page after</a></li>
   </ul>
 </div>

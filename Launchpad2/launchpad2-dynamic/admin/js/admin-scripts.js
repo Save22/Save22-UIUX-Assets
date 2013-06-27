@@ -80,3 +80,59 @@ function edit_item() {
   });
   
 }
+
+
+
+/****** 
+  DRAW A BOX 
+  original code from http://motyar.blogspot.com/2010/02/draw-rectangle-with-jquery.html
+*/
+
+$(document).ready(function() {
+  var x1,x2,y1,y2;
+
+  // when user clicks
+    $('.catalog-overlay').mousedown(function(e) {
+
+      console.log($(this).attr('class'));
+
+      if($(this).hasClass('button')) {
+
+      }
+      else {
+
+        $("#current").attr({ id: '' });
+
+        box = $('<div class="item-box"></div>').hide();
+        
+        var parentOffset = $(this).offset();
+
+          $('.catalog-overlay').append(box);
+          x1 = e.pageX;
+          y1 = e.pageY;
+
+          box.attr({id: 'current'}).css({
+                   top: e.pageY - parentOffset.top,  //offsets
+                   left: e.pageX - parentOffset.left  //offsets
+          }).fadeIn();
+
+      }
+    });
+
+  // when user creates the width and height of box
+    $('.catalog-overlay').mousemove(function(e) {
+      $("#current").css({
+        width:Math.abs(e.pageX - x1), //offsets
+        height:Math.abs(e.pageY - y1) //offsets
+     }).fadeIn();
+    });
+
+  // when user is done 
+    $('.catalog-overlay').mouseup(function() {
+      // NEED TO MAKE DEFENSIVE CODE - remove the box if it's too small. i.e. less than 10px 
+      $("#current").load('widgets/edit-item-box-content.php');;
+      $("#current").attr({ id: '' });
+    });
+
+
+});
