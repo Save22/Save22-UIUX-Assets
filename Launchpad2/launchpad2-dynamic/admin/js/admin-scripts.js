@@ -108,6 +108,9 @@ function insert_page() {
     event.preventDefault();
   });
 
+
+  /* THE FUNCTION BELOW is based on foundation.orbit.js found in /js/foundation */
+
   function resize_slides(slides_container) {
       var main_container = $(slides_container).parent(),
           slides = $(main_container).children('li');
