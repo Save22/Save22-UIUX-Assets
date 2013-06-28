@@ -85,39 +85,57 @@ function edit_item() {
 
 function insert_page() {
 
-  $(".catalog.edit").on("click", ".add-page-before", function(event){
+  $(".insert-page").on("click", ".button", function(event){
 
     var catalog_container = $(this).parent().parent().parent().parent();
-    console.log('catalog_container = ' + catalog_container.attr('class'));
-
     var page = 'widgets/add-page-blank.php';
 
-    $.get(page, function (data) {
-      $(catalog_container).before(data);
-      resize_slides(catalog_container);
-    });
+    if($(this).hasClass('add-page-before')) {
+      $.get(page, function (data) {
+          $(catalog_container).before(data);
+        resize_slides(catalog_container);
+        new_page();
+      });
+    }
+    if($(this).hasClass('add-page-after')) {
+      $.get(page, function (data) {
+          $(catalog_container).after(data);
+        resize_slides(catalog_container);
+        new_page();
+      });
+    }
     
-
     event.preventDefault();
   });
-
-  $(".catalog.edit").on("click", ".add-page-after", function(event){
-    
-  });
-
 
   function resize_slides(slides_container) {
       var main_container = $(slides_container).parent(),
           slides = $(main_container).children('li');
-      console.log(slides);
+      
       $(slides_container).css('width', $(slides).length * 100 + '%');
       $(slides).css('width', 100 / $(slides).length + '%');
       $(slides_container).height($(main_container).height());
-      // $(slides_container).css('width', $(slides).length * 100 + '%');
+      $(main_container).css('width', $(slides).length * 100 + '%');
+  }
 
-      console.log($(slides).css('width', 100 / $(slides).length + '%'));
+}
+
+function new_page() {
+  $(".page-types").on("click", ".th", function(event){
+
+    console.log($(this).parent().parent().parent().attr('class'));
+    var container = $(this).parent().parent().parent(),
+        page = '';
+
+    container.html('');
+
+    if($(this).hasClass('new-product')) {
+      page = 'widgets/add-page-product.php';
     }
 
+    $(container).load(page);
+    event.preventDefault();
+  });
 }
 
 /****** 
