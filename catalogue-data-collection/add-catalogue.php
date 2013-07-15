@@ -49,6 +49,68 @@
             </div>
           </div><!-- row -->
           <div class="row">
+            <div class="small-3 columns">
+              <label for="right-label" class="right inline">Source</label>
+            </div>
+            <div class="small-9 columns">
+              <select>
+                <option>- Select Source -</option>
+                <option>Newspaper</option>
+                <option>Facebook</option>
+                <option>Twitter</option>
+                <option>Retailer Website</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div><!-- row -->
+
+          <fieldset>
+            <!-- THIS ROW will only appear when a source is selected. Its fields will depend on the type of source. JS code necessary -->
+            <section class="source-options">
+              <h4>Options</h4>
+              
+              <div class="row">
+                <div class="large-3 small-12 columns">
+                  <label class="left inline">Newspaper Name</label>
+                </div>
+                <div class="large-9 small-12 columns">
+                  <select>
+                    <option>- Select -</option>
+                    <option>Manila Bulletin</option>
+                    <option>Philippine Star</option>
+                    <option>Inquirer</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div><!-- row -->
+
+              <div class="row">
+                <div class="large-3 small-12 columns">
+                  <label class="left inline">Size of Ad</label>
+                </div>
+                <div class="large-9 small-12 columns">
+                  <select>
+                    <option>- Select -</option>
+                  </select>
+                </div>
+              </div><!-- row -->
+
+              <div class="row">
+                <div class="large-3 small-12 columns">
+                  <label class="left inline">Day of Publication</label>
+                </div>
+                <div class="large-9 small-12 columns">
+                  <select>
+                    <option>- Select -</option>
+                  </select>
+                </div>
+              </div><!-- row -->
+
+            </section>
+          </fieldset>
+
+          <br><hr>
+          <div class="row">
             <div class="small-12 large-3 large-centered columns">
               <input type="submit" value="Add New Catalogue" class="button centered expand">
             </div>
