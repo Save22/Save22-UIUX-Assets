@@ -20,7 +20,7 @@
                     Valid until April 12, 2013
                   </p>
 
-                  <a href="#" class="button">Open Catalogue</a>
+                  <a href="#" class="button">View Promotion</a>
 
                 </div>
                 <div class="small-12 large-4 columns">
@@ -39,6 +39,29 @@
                     </p>
                   </div>
                   
+                </div>
+                <div class="small-12 columns keywords">
+
+                  <a href="#" class="mobile-only view-keywords drop-down">Show Keywords <span class="arrow arrow-down"></span></a>
+
+                  <section class="list-keywords mobile-keywords mobile-hide">
+                    <p><strong>Keywords</strong></p>
+
+                    <p>
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                      shoes clothes grocery shirt pants slippers kitchen underwear plastic bins basin 
+                    </p>
+
+                  </section>
                 </div>
               </div>
 
@@ -61,7 +84,7 @@
                     Valid until April 12, 2013
                   </p>
                   
-                  <a href="#" class="button">Open Catalogue</a>
+                  <a href="#" class="button">View Promotion</a>
 
                 </div>
                 <div class="small-12 large-4 columns">
@@ -94,7 +117,7 @@
                     Valid until April 12, 2013
                   </p>
                   
-                  <a href="#" class="button">Open Catalogue</a>
+                  <a href="#" class="button">View Promotion</a>
 
                 </div>
                 <div class="small-12 large-4 columns">
@@ -127,7 +150,7 @@
                     Valid until April 12, 2013
                   </p>
                   
-                  <a href="#" class="button">Open Catalogue</a>
+                  <a href="#" class="button">View Promotion</a>
 
                 </div>
                 <div class="small-12 large-4 columns">

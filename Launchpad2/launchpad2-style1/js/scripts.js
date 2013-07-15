@@ -54,6 +54,7 @@ $(window).load(function(){
 
   mobile_dropdown('.pull-down', '.pull-content');
   mobile_dropdown('.view-shop-info', '.mobile-shop-info');
+  mobile_dropdown('.view-keywords', '.mobile-keywords');
   mobile_dropdown('.view-establishment-list', '.establishment-list');
 
   loc_suggestions();
