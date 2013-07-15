@@ -28,7 +28,7 @@
                 </div>
                 <div class="small-6 large-4 columns">
                   <ul class="button-group">
-                    <li><a href="#" class="small button" data-reveal-id="editModal">view/edit</a></li>
+                    <li><a href="#" class="small button" data-reveal-id="editModal">edit fields</a></li>
                     <li><a href="#" class="small button alert" data-reveal-id="deleteModal">delete</a></li>
                   </ul>
                 </div>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="small-6 large-4 columns">
                   <ul class="button-group">
-                    <li><a href="#" class="small button" data-reveal-id="editModal">view/edit</a></li>
+                    <li><a href="#" class="small button" data-reveal-id="editModal">edit fields</a></li>
                     <li><a href="#" class="small button alert" data-reveal-id="deleteModal">delete</a></li>
                   </ul>
                 </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="small-6 large-4 columns">
                   <ul class="button-group">
-                    <li><a href="#" class="small button" data-reveal-id="editModal">view/edit</a></li>
+                    <li><a href="#" class="small button" data-reveal-id="editModal">edit fields</a></li>
                     <li><a href="#" class="small button alert" data-reveal-id="deleteModal">delete</a></li>
                   </ul>
                 </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="small-6 large-4 columns">
                   <ul class="button-group">
-                    <li><a href="#" class="small button" data-reveal-id="editModal">view/edit</a></li>
+                    <li><a href="#" class="small button" data-reveal-id="editModal">edit fields</a></li>
                     <li><a href="#" class="small button alert" data-reveal-id="deleteModal">delete</a></li>
                   </ul>
                 </div>
@@ -212,42 +212,6 @@
   </div>
 
 
-  <div id="editOptionsModal" class="reveal-modal large">
-    <a class="close-reveal-modal">&#215;</a>
-
-    <div class="row">
-      <ul class="breadcrumbs">
-        <li><a href="#">Newspaper</a></li>
-        <li><a href="#">Size of Ad</a></li>
-        <li class="current"><a href="#">Field Options</a></li>
-      </ul>
-    </div>
-
-    <section class="field-options">
-
-        <div class="row collapse">
-          <div class="small-8 columns">
-            <input type="text" placeholder="Type here to add new option" value="Full Page">
-          </div>
-          <div class="small-4 columns">
-            <ul class="button-group">
-              <li><a href="#" class="small button secondary">delete</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- new -->
-        <div class="row collapse item-field">
-          <div class="small-10 columns">
-            <input type="text" placeholder="Type here to add new option">
-          </div>
-        </div>
-
-    </section>
-
-  </div>
-
-
 
   <div id="editModal" class="reveal-modal large">
     <a class="close-reveal-modal">&#215;</a>
@@ -255,6 +219,7 @@
     <h3>Fields</h3>
 
     <p>Edit the kinds of fields for this specific source type.</p>
+    <p>You can add options for each field in the <a href="#options">Source Options tab</a>
 
     <section>
 
@@ -264,7 +229,6 @@
           </div>
           <div class="small-4 columns">
             <ul class="button-group">
-              <li><a href="#" class="small button" data-reveal-id="editOptionsModal">options</a></li>
               <li><a href="#" class="small button secondary">delete</a></li>
             </ul>
           </div>
@@ -275,7 +239,6 @@
           </div>
           <div class="small-4 columns">
             <ul class="button-group">
-              <li><a href="#" class="small button" data-reveal-id="editOptionsModal">options</a></li>
               <li><a href="#" class="small button secondary">delete</a></li>
             </ul>
           </div>
@@ -286,7 +249,6 @@
           </div>
           <div class="small-4 columns">
             <ul class="button-group">
-              <li><a href="#" class="small button" data-reveal-id="editOptionsModal">options</a></li>
               <li><a href="#" class="small button secondary">delete</a></li>
             </ul>
           </div>
