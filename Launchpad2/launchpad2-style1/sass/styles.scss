@@ -482,6 +482,22 @@
       padding: emCalc(24px) 0;
       border-bottom: 1px solid $base-color-neutral;
 
+      .keywords { 
+        p { font-size: emCalc(13px); }
+      }
+
+      .mobile-shop-info {
+        font-size: emCalc(12px);
+      }
+
+      .open-promo {
+        font-weight: bold;
+        color: $base-color-red;
+        border-bottom: 1px solid $base-color-red;
+        text-decoration: none;
+
+        &:hover { border-bottom: 1px solid $base-color-neutral; }
+      }
       &:hover {
         .button {
           opacity: 1;
@@ -512,7 +528,7 @@
     }
 
     .item .button {
-      opacity: 0;
+      opacity: 1;
       -moz-transition: ease-in-out all 0.3s; 
       -webkit-transition: ease-in-out all 0.3s; 
       -o-transition: ease-in-out all 0.3s;
@@ -544,7 +560,6 @@
       background: $border-light;
     }
 
-    a { display: block; position: relative; }
   }
 
   .establishments {
