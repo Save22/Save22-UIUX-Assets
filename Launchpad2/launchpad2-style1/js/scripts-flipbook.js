@@ -1,15 +1,9 @@
-// When ready...
-window.addEventListener("load",function() {
-  setTimeout(function(){
-    window.scrollTo(0, 1);
-  }, 0);
-});
-
 $(window).load(function(){ 
   
   window_height('.min-height');
   sidebar_tray();
   sidebar_height();
+  same_height('.page-thumb');
 
   if($(window).width() < 979) {
     $('.sidebar.flipbook').addClass('hide-sidebar');
@@ -53,6 +47,12 @@ $(window).load(function(){
             window_height('.min-height');
           }, 10);
       });
+// When ready...
+  window.addEventListener("load",function() {
+    setTimeout(function(){
+      window.scrollTo(0, 1);
+    }, 0);
+  });
 
 });
 

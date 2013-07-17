@@ -305,9 +305,17 @@
       right: 250px;
     }
   }
+  .flipbook-keywords {
+    padding: 0 emCalc(15px) emCalc(15px) emCalc(15px);
+    font-size: emCalc(11px);
+  }
 
 /* SIDEBAR */
-
+  .sidebar-header {
+    span { display: block; }
+    overflow: auto;
+    clear: both;
+  }
   .sidebar.flipbook {
     position: absolute;
     top: 45px;
@@ -335,7 +343,7 @@
       letter-spacing: 1px;
     }
 
-    &.hide-sidebar { right: -250px; //display: none; 
+    &.hide-sidebar { right: -250px; display: none; 
     }
   }
 
@@ -520,6 +528,48 @@
 
   #flipbook-next {
     left: 0;
+  }
+
+  .sidebar-info {
+    h3 {
+      background: #fff;
+      color: $base-color-blue-darker !important;
+    }
+    ul { margin: 0; padding: 0; list-style-type: none; }
+    li { 
+      padding: emCalc(5px) emCalc(10px);
+    }
+    .view-more a { color: $base-color-red; display: block; margin-left: 15px; }
+    .list-flipbook-tags li {
+      padding: emCalc(5px) 0 emCalc(5px) emCalc(25px);
+      font-size: emCalc(13px);
+
+      a:hover { text-decoration: underline; }
+    }
+
+    .flipbook-tags { margin-bottom: 15px; }
+    .list-flipbook-pages {
+      margin-left: emCalc(15px);
+    }
+    .list-flipbook-pages li {
+      width: 35%;
+      float: left;
+      display: block;
+      font-size: emCalc(13px);
+      -moz-transition: ease-in-out all 0.3s; 
+      -webkit-transition: ease-in-out all 0.3s; 
+      -o-transition: ease-in-out all 0.3s;
+      transition: ease-in-out all 0.3s;
+
+      &.current {
+        img { 
+          opacity: 0.3; 
+        }
+      }
+      &:hover {
+        opacity: 0.6; 
+      }
+    }
   }
 
 

@@ -14,12 +14,10 @@
   <link rel="stylesheet" href="../css/styles-flipbook.css" />
   
   <!--[if IE 8]>
-    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/ie8.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/flipbook-ie8.css" />
   <![endif]-->
 
   <!--[if IE 7]>
-    <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
   <![endif]-->
 
   <link rel="icon" href="../img/favicon_16x16.png" sizes="32x32" type="image/png">
@@ -32,6 +30,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/icon-ipad.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/icon-iphone4.png">
 
+  <script src="../js/vendor/custom.modernizr.js"></script>
 </head>
 
 <body class="flipbook">
@@ -41,7 +40,7 @@
       <ul class="title-area">
         <!-- Title Area -->
         <li class="name">
-          <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
+          <h1><a href="#"><img src="../img/logo-ph-white.svg" alt="Save22" class="logo-img" border="0">Save22.com.ph</a></h1>
         </li>
         <li class="toggle-topbar menu-icon flipbook-sidebar-trigger"><a href="#"><span></span></a></li>
       </ul>
@@ -79,9 +78,12 @@
 
   <div class="sidebar-tray">
     <ul>
-      <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-search.svg"> Search</a></li>
-      <li><a href="#" class="tab-near"><img src="../img/icon-flipbook-nearby.svg"> What's Near</a></li>
-      <li><a href="#" class="tab-browse"><img src="../img/icon-flipbook-browse.svg"> Browse</a></li>
+      <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-info.svg" border="0"> Info</a></li>
+      <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-search.svg" border="0"> Search</a></li>
+      <!--
+      <li><a href="#" class="tab-near"><img src="../img/icon-flipbook-nearby.svg" border="0"> What's Near</a></li>
+      <li><a href="#" class="tab-browse"><img src="../img/icon-flipbook-browse.svg" border="0"> Browse</a></li>
+      -->
     </ul>
   </div>
 
@@ -93,7 +95,12 @@
             <div class="content" data-slug="search" data-section-content>
               
               <?php // include('../elements/loader-flipbook.php'); ?>
-              <?php include('../elements/carousel-promos-flipbook.php'); ?>
+
+              <!-- info and keywords -->
+              <?php include('../elements/flipbook-info.php'); ?>
+
+              <!-- uncomment below to get look of the search sidebar -->
+              <?php // include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
           </div>
@@ -108,7 +115,7 @@
     </div>
     <div class="zoom-icon">
       <a href="#" title="Double click on page to Zoom In. 
-            Press ESC to Zoom Out"><img src="../img/icon-flipbook-zoom.svg" Zoom In</a>
+            Press ESC to Zoom Out"><img src="../img/icon-flipbook-zoom.svg" border="0"> Zoom In</a>
     </div>
     <div class="page-numbers">
       <span class="current">Page 1</span> of <span class="total">4</span>
@@ -136,18 +143,21 @@
   <script src="../js/flipbook-custom.js"></script>
 
   <script>
-    if (!Modernizr.svg) {
-      var imgs = document.getElementsByTagName('img');
-      var endsWithDotSvg = /.*\.svg$/
-      var i = 0;
-      var l = imgs.length;
-      for(; i != l; ++i) {
-          if(imgs[i].src.match(endsWithDotSvg)) {
-              imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
-          }
-      }
-  }
-
+    function supportsSVG() {
+        return !! document.createElementNS && !! document.createElementNS('http://www.w3.org/2000/svg','svg').createSVGRect;  
+    }
+    if (supportsSVG()) {
+        document.documentElement.className += ' svg';
+    } else {
+        document.documentElement.className += ' no-svg';
+        var imgs = document.getElementsByTagName('img');
+        var dotSVG = /.*\.svg$/;
+        for (var i = 0; i != imgs.length; ++i) {
+            if(imgs[i].src.match(dotSVG)) {
+                imgs[i].src = imgs[i].src.slice(0, -3) + 'png';
+            }
+        }
+    }
   </script>
 
 </body>
