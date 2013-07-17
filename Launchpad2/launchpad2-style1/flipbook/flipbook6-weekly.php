@@ -80,8 +80,10 @@
     <ul>
       <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-info.svg" border="0"> Info</a></li>
       <li><a href="#" class="tab-search"><img src="../img/icon-flipbook-search.svg" border="0"> Search</a></li>
+      <!--
       <li><a href="#" class="tab-near"><img src="../img/icon-flipbook-nearby.svg" border="0"> What's Near</a></li>
       <li><a href="#" class="tab-browse"><img src="../img/icon-flipbook-browse.svg" border="0"> Browse</a></li>
+      -->
     </ul>
   </div>
 
