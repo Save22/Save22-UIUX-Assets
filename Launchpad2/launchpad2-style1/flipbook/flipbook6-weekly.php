@@ -95,7 +95,12 @@
             <div class="content" data-slug="search" data-section-content>
               
               <?php // include('../elements/loader-flipbook.php'); ?>
+
+              <!-- info and keywords -->
               <?php include('../elements/flipbook-info.php'); ?>
+
+              <!-- uncomment below to get look of the search sidebar -->
+              <?php // include('../elements/carousel-promos-flipbook.php'); ?>
 
             </div>
           </div>
