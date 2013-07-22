@@ -10,160 +10,240 @@
   <div class="row">
     <div class="small-12 large-12 small-centered columns">
 
-      <header>
-        <h2><a href="#link-to-catalogue">*Catalogue Title*</a></h2>
-      </header>
+      <div class="section-container auto" data-section data-options="deep_linking: true">
+        <section>
+          <p class="title" data-section-title><a href="#info">Info</a></p>
+          <div class="content" data-section-content data-slug="info">
 
-      <section>
-        <form>
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Catalogue Title</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Title">
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Category</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Category">
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Retailer</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Retailer Name">
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Branch</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="right-label" placeholder="Branch Location">
-              <a href="#" class="button small radius secondary">add another branch</a>
-              <a href="#" class="button small radius secondary" data-reveal-id="newBranch">create new branch</a>
-            </div>
-          </div><!-- row -->
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Expiry Date</label>
-            </div>
-            <div class="small-9 columns">
-              <input type="text" id="datepicker" placeholder="">
-              <!-- date picker: https://github.com/dbushell/Pikaday -->
-            </div>
-          </div><!-- row -->
+            <header>
+              <h2><a href="#link-to-catalogue">*Catalogue Title*</a></h2>
+            </header>
 
-          <div class="row">
-            <div class="small-3 columns">
-              <label for="right-label" class="right inline">Source</label>
-            </div>
-            <div class="small-9 columns">
-              <select>
-                <option>- Select Source -</option>
-                <option>Newspaper</option>
-                <option>Facebook</option>
-                <option>Twitter</option>
-                <option>Retailer Website</option>
-                <option>Other</option>
-              </select>
-            </div>
-          </div><!-- row -->
+            <section>
+              <form>
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Catalogue Title</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="right-label" placeholder="Title">
+                  </div>
+                </div><!-- row -->
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Category</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="right-label" placeholder="Category">
+                  </div>
+                </div><!-- row -->
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Retailer</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="right-label" placeholder="Retailer Name">
+                  </div>
+                </div><!-- row -->
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Branch</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="right-label" placeholder="Branch Location">
+                    <a href="#" class="button small radius secondary">add another branch</a>
+                    <a href="#" class="button small radius secondary" data-reveal-id="newBranch">create new branch</a>
+                  </div>
+                </div><!-- row -->
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Expiry Date</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <input type="text" id="datepicker" placeholder="">
+                    <!-- date picker: https://github.com/dbushell/Pikaday -->
+                  </div>
+                </div><!-- row -->
 
-          <fieldset>
-            <!-- THIS ROW will only appear when a source is selected. Its fields will depend on the type of source. JS code necessary -->
-            <section class="source-options">
-              <h4>Options</h4>
-              
-              <div class="row">
-                <div class="large-3 small-12 columns">
-                  <label class="left inline">Newspaper Name</label>
-                </div>
-                <div class="large-9 small-12 columns">
-                  <select>
-                    <option>- Select -</option>
-                    <option>Manila Bulletin</option>
-                    <option>Philippine Star</option>
-                    <option>Inquirer</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-              </div><!-- row -->
+                <div class="row">
+                  <div class="small-3 columns">
+                    <label for="right-label" class="right inline">Source</label>
+                  </div>
+                  <div class="small-9 columns">
+                    <select>
+                      <option>- Select Source -</option>
+                      <option>Newspaper</option>
+                      <option>Facebook</option>
+                      <option>Twitter</option>
+                      <option>Retailer Website</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                </div><!-- row -->
 
-              <div class="row">
-                <div class="large-3 small-12 columns">
-                  <label class="left inline">Size of Ad</label>
-                </div>
-                <div class="large-9 small-12 columns">
-                  <select>
-                    <option>- Select -</option>
-                  </select>
-                </div>
-              </div><!-- row -->
+                <fieldset>
+                  <!-- THIS ROW will only appear when a source is selected. Its fields will depend on the type of source. JS code necessary -->
+                  <section class="source-options">
+                    <h4>Options</h4>
+                    
+                    <div class="row">
+                      <div class="large-3 small-12 columns">
+                        <label class="left inline">Newspaper Name</label>
+                      </div>
+                      <div class="large-9 small-12 columns">
+                        <select>
+                          <option>- Select -</option>
+                          <option>Manila Bulletin</option>
+                          <option>Philippine Star</option>
+                          <option>Inquirer</option>
+                          <option>Other</option>
+                        </select>
+                      </div>
+                    </div><!-- row -->
 
-              <div class="row">
-                <div class="large-3 small-12 columns">
-                  <label class="left inline">Day of Publication</label>
+                    <div class="row">
+                      <div class="large-3 small-12 columns">
+                        <label class="left inline">Size of Ad</label>
+                      </div>
+                      <div class="large-9 small-12 columns">
+                        <select>
+                          <option>- Select -</option>
+                        </select>
+                      </div>
+                    </div><!-- row -->
+
+                    <div class="row">
+                      <div class="large-3 small-12 columns">
+                        <label class="left inline">Day of Publication</label>
+                      </div>
+                      <div class="large-9 small-12 columns">
+                        <select>
+                          <option>- Select -</option>
+                        </select>
+                      </div>
+                    </div><!-- row -->
+
+                  </section>
+                </fieldset>
+
+                <br><hr>
+                <div class="row">
+                  <div class="small-12 large-3 large-centered columns">
+                    <input type="submit" value="Save" class="button centered expand">
+                  </div>
                 </div>
-                <div class="large-9 small-12 columns">
-                  <select>
-                    <option>- Select -</option>
-                  </select>
-                </div>
-              </div><!-- row -->
+                <hr>
+
+              </form>
 
             </section>
-          </fieldset>
 
-          <br><hr>
-          <div class="row">
-            <div class="small-12 large-3 large-centered columns">
-              <input type="submit" value="Save" class="button centered expand">
-            </div>
           </div>
-          <hr>
+        </section>
+        <section>
+          <p class="title" data-section-title><a href="#pages">Pages</a></p>
+          <div class="content" data-section-content data-slug="pages">
 
-        </form>
+            <section>
+              <ul class="large-block-grid-4">
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+              </ul>
 
-      </section>
+              <ul class="large-block-grid-4">
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+                <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
+              </ul>
 
-      <section>
-        <ul class="large-block-grid-4">
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-        </ul>
+            </section>
 
-        <ul class="large-block-grid-4">
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-          <li><a class="th radius" href="add-pages-data.php"><img src="img/sample-page.jpg"></a></li>
-        </ul>
+            <hr>
 
-      </section>
+            <div class="pagination-centered">
+              <ul class="pagination">
+                <li class="arrow unavailable"><a href="">&laquo; Previous</a></li>
+                <li class="current"><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li class="arrow"><a href="">Next &raquo;</a></li>
+              </ul>
+            </div>
 
-      <hr>
 
-      <div class="pagination-centered">
-        <ul class="pagination">
-          <li class="arrow unavailable"><a href="">&laquo; Previous</a></li>
-          <li class="current"><a href="">1</a></li>
-          <li><a href="">2</a></li>
-          <li><a href="">3</a></li>
-          <li><a href="">4</a></li>
-          <li class="arrow"><a href="">Next &raquo;</a></li>
-        </ul>
+          </div>
+        </section>
+        <section>
+          <p class="title" data-section-title><a href="#history">History</a></p>
+          <div class="content" data-section-content data-slug="history">
+
+              <header>
+                <h2>History</h2>
+
+                <form>
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <h4 class="inline left label">Filter by &nbsp; </h4>
+                      <div class="button-bar va-filter">
+                        <ul class="button-group">
+                          <li><a href="#" class="small button secondary dropdown" data-dropdown="date-range">Date range</a></li>
+                          <li><a href="#" class="small button secondary dropdown" data-dropdown="va-uploader">VA - Uploader</a></li>
+                          <li><a href="#" class="small button secondary dropdown" data-dropdown="va-keywords">VA - Keywords</a></li>
+                        </ul>
+
+                        <ul id="date-range" class="f-dropdown">
+                          <li>From <input type="text" placeholder="Date from" id="datepicker1"></li>
+                          <li>Until <input type="text" placeholder="Date until" id="datepicker2"></li>
+                        </ul>
+                        <ul id="va-uploader" class="f-dropdown">
+                          <li><input type="text" placeholder="Name of VA"></li>
+                        </ul>
+                        <ul id="va-keywords" class="f-dropdown">
+                          <li><input type="text" placeholder="Name of VA"></li>
+                        </ul>
+
+                    </div>
+                  </div>
+                </form>
+                
+              </header>
+
+
+            <ul class="list-history">
+              <li class="item-history">
+                "Old name" renamed to "New name" by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 1 = PhP 100">name_of_va</a>  <small class="date-history">- June 8, 2013</small>
+              </li>
+              <li class="item-history">
+                Uploaded 1 page by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 1 = PhP 100">name_of_va</a>  <small class="date-history">- June 8, 2013</small>
+              </li>
+              <li class="item-history">
+                Uploaded 12 pages by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 12 = PhP 1200">name_of_va</a>  <small class="date-history">- June 7, 2013</small>
+              </li>
+              <li class="item-history">
+                Deleted 1 page by <a href="admin-va-profile.php" class="va-name">name_of_va</a>  <small class="date-history">- June 6, 2013</small>
+              </li>
+              <li class="item-history">
+                200 keywords added by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 200 = PhP 100">name_of_va</a> on page 5  <small class="date-history">- June 6, 2013</small>
+              </li>
+              <li class="item-history">
+                200 keywords added by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 200 = PhP 100">name_of_va</a> on page 4  <small class="date-history">- June 6, 2013</small>
+              </li>
+              <li class="item-history">
+                200 keywords added by <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 200 = PhP 100">name_of_va</a> on page 3 <small class="date-history"> - June 6, 2013</small>
+              </li>
+              <li class="item-history">
+                Catalog "Name of Catalog" created by <a href="admin-va-profile.php" class="va-name">name_of_va</a> <small class="date-history">- June 5, 2013</small>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
 
-    </div>
+    </div><!-- columns -->
   </div>
   
 
@@ -293,6 +373,24 @@
         minDate: new Date('2000-01-01'),
         maxDate: new Date('2020-12-31'),
         yearRange: [2000,2020]
+    });
+    var picker1 = new Pikaday(
+    {
+        field: document.getElementById('datepicker1'),
+        format: 'D MMM YYYY',
+        firstDay: 1,
+        minDate: new Date('2013-01-01'),
+        maxDate: new Date('2020-12-31'),
+        yearRange: [2013,2020]
+    });
+    var picker2 = new Pikaday(
+    {
+        field: document.getElementById('datepicker2'),
+        format: 'D MMM YYYY',
+        firstDay: 1,
+        minDate: new Date('2013-01-01'),
+        maxDate: new Date('2020-12-31'),
+        yearRange: [2013,2020]
     });
 
   </script>

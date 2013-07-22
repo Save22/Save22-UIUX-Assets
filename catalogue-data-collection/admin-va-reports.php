@@ -39,7 +39,7 @@
                 <form>
                   <div class="row">
                     <div class="small-12 columns">
-                      <h4 class="inline left">Filter by &nbsp; </h4>
+                      <h4 class="inline left label">Filter by &nbsp; </h4>
                       <div class="button-bar va-filter">
                         <ul class="button-group">
                           <li><a href="#" class="small button secondary dropdown" data-dropdown="expiry-range">Expiration date range</a></li>
@@ -88,9 +88,9 @@
                         <p><strong><a href="#link-to-website" target="_blank">SM Hypermart July 2013</a></strong>
                           <a href="view-catalogue.php" class="button small secondary">edit</a><br>
                           <span class="promo-info">uploaded by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="pages added: 1  / PhP 100">name_of_va</a><br>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 1 = PhP 100">name_of_va</a><br>
                           <span class="promo-info">keywords added by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="keywords added: 450  / PhP 100">name_of_va</a>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 450 = PhP 100">name_of_va</a>
                         </p>
                       </section>
                     </td>
@@ -107,10 +107,10 @@
                         <p><strong><a href="#link-to-website" target="_blank">SM Hypermart July 2013</a></strong>
                           <a href="view-catalogue.php" class="button small secondary">edit</a><br>
                           <span class="promo-info">uploaded by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="pages added: 1 / PhP 100">name_of_va</a>, 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="pages added: 2 / PhP 200">second_va</a><br>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 1 = PhP 100">name_of_va</a>, 
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 2 = PhP 200">second_va</a><br>
                           <span class="promo-info">keywords added by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="keywords added: 450 / PhP 100">name_of_va</a>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 450 = PhP 100">name_of_va</a>
                         </p>
                       </section>
                     </td>
@@ -127,10 +127,10 @@
                         <p><strong><a href="#link-to-website" target="_blank">SM Hypermart July 2013</a></strong>
                           <a href="view-catalogue.php" class="button small secondary">edit</a><br>
                           <span class="promo-info">uploaded by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="pages added: 1  / PhP 100">name_of_va</a><br>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="pages added: 1 = PhP 100">name_of_va</a><br>
                           <span class="promo-info">keywords added by:</span> 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="keywords added: 450 / PhP 450">name_of_va</a>, 
-                            <a href="admin-va-profile" class="va-name" data-tooltip class="has-tip" title="keywords added: 12 / PhP 100">second_va</a>
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 450 = PhP 450">name_of_va</a>, 
+                            <a href="admin-va-profile.php" class="va-name" data-tooltip class="has-tip" title="keywords added: 12 = PhP 100">second_va</a>
                         </p>
                       </section>
                     </td>
