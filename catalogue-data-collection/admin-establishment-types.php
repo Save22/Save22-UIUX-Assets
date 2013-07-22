@@ -2,7 +2,7 @@
 
   <div class="row">
     <ul class="breadcrumbs">
-      <li><a href="#">Home</a></li>
+      <li><a href="main.php">Home</a></li>
       <li><a href="#">ADMIN</a></li>
       <li class="current"><a href="admin-establishment-types.php">Establishment Types</a></li>
     </ul>

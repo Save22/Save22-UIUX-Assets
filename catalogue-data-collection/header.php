@@ -38,6 +38,7 @@
           <li><a href="admin-retailers.php">Retailers</a><li>
           <li><a href="admin-establishment-types.php">Establishment Types</a><li>
           <li><a href="admin-source-fields.php">Source Fields</a><li>
+          <li><a href="admin-va-reports.php">VA Reports</a><li>
         </ul>
       </li>
 

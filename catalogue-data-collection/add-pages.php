@@ -2,7 +2,7 @@
 
   <div class="row">
     <ul class="breadcrumbs">
-      <li><a href="#">Home</a></li>
+      <li><a href="main.php">Home</a></li>
       <li><a href="add-catalogue.php">Add a Catalogue</a></li>
       <li class="current"><a href="#">Catalogue Name</a></li>
     </ul>

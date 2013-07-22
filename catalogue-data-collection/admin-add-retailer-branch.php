@@ -2,7 +2,7 @@
 
   <div class="row">
     <ul class="breadcrumbs">
-      <li><a href="#">Home</a></li>
+      <li><a href="main.php">Home</a></li>
       <li><a href="#">ADMIN</a></li>
       <li><a href="admin-retailers.php">Retailers</a></li>
       <li><a href="admin-add-retailer.php">Retailer</a></li>
