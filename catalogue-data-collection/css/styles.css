@@ -50,3 +50,13 @@ td.pageno {
   margin-left: 20px;
 }
 
+#hours-options {
+  font-weight: normal;
+}
+#hours-options li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+#hours-options li:last-child { border-bottom: 0; }
+#hours-options .active { font-weight: bold; color: #000; }
+

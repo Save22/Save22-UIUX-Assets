@@ -161,13 +161,86 @@
         <section>
           <p class="title" data-section-title><a href="#va">VA List</a></p>
           <div class="content" data-section-content data-slug="va">
+            <header>
+              <div class="row">
+                <div class="small-12 large-6 columns">
+                  <h2>VA Master List</h2>
+                </div>
+                <div class="small-12 large-6 columns">
+                  <form>
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+                        <input type="text" placeholder="Find a VA by Name">
+                      </div>
+                      <div class="small-4 columns">
+                        <a href="#" class="button prefix">Search</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </header>
 
+            <table class="table-all-va" style="width: 100%;">
+              <thead>
+                <tr>
+                  <th>Name of VA</th>
+                  <th width="180">Date Hired</th>
+                  <th width="180">
+                      <a href="#" class="button dropdown secondary" data-dropdown="hours-options">Total Hours</a>
+
+                      <ul id="hours-options" class="f-dropdown">
+                        <li class="active"><a href="#">since getting hired</a></li>
+                        <li><a href="#">this month: July <!-- month changes depending on current month --></a></li>
+                        <li><span>a specific month: </span><br>
+                          <input type="text" placeholder="month, year">
+                        </li>
+                      </ul>
+                  </th>
+                  <th width="180">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="admin-va-profile.php">Name of Va</a></td>
+                  <td>July 5, 2013</td>
+                  <td>4</td>
+                  <td>currently hired</td>
+                </tr>
+                <tr>
+                  <td><a href="admin-va-profile.php">Name of Va</a></td>
+                  <td>July 5, 2013</td>
+                  <td>4</td>
+                  <td>currently hired</td>
+                </tr>
+                <tr>
+                  <td><a href="admin-va-profile.php">Name of Va</a></td>
+                  <td>July 5, 2013</td>
+                  <td>4</td>
+                  <td>currently hired</td>
+                </tr>
+                <tr>
+                  <td><a href="admin-va-profile.php">Name of Va</a></td>
+                  <td>July 5, 2013</td>
+                  <td>4</td>
+                  <td>currently hired</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </section>
 
         <section>
           <p class="title" data-section-title><a href="#pricing">Pricing</a></p>
           <div class="content" data-section-content data-slug="pricing">
+
+          </div>
+        </section>
+        <section>
+          <p class="title" data-section-title><a href="#reports">Reports</a></p>
+          <div class="content" data-section-content data-slug="reports">
+            <h2>Monthly</h2>
+            <h3>July 2013</h3>
 
           </div>
         </section>
