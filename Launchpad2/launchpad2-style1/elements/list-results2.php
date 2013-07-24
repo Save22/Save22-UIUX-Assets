@@ -7,6 +7,8 @@
                     <img src="img/catsample5.jpg">
                   </a>
 
+                </div>
+                <div class="small-12 large-5 columns">
 
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>
                   <h3>BRAND NAME</h3>
@@ -15,9 +17,6 @@
                   </p>
 
                   <a href="#" class="button">View Promotion</a>
-
-                </div>
-                <div class="small-12 large-5 columns">
 
                   <a href="#" class="mobile-only view-keywords drop-down">Show Keywords <span class="arrow arrow-down"></span></a>
 
@@ -58,7 +57,8 @@
                   <a href="#catalogue-URL">
                     <img src="img/catsample5.jpg">
                   </a>
-
+                </div>
+                <div class="small-12 large-5 columns">
 
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>
                   <h3>BRAND NAME</h3>
@@ -67,9 +67,6 @@
                   </p>
 
                   <a href="#" class="button">View Promotion</a>
-
-                </div>
-                <div class="small-12 large-5 columns">
 
                   <a href="#" class="mobile-only view-keywords drop-down">Show Keywords <span class="arrow arrow-down"></span></a>
 
@@ -112,7 +109,8 @@
                   <a href="#catalogue-URL">
                     <img src="img/catsample5.jpg">
                   </a>
-
+                </div>
+                <div class="small-12 large-5 columns">
 
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>
                   <h3>BRAND NAME</h3>
@@ -121,9 +119,6 @@
                   </p>
 
                   <a href="#" class="button">View Promotion</a>
-
-                </div>
-                <div class="small-12 large-5 columns">
 
                 </div>
                 <div class="small-12 large-4 columns keywords">
@@ -151,7 +146,8 @@
                   <a href="#catalogue-URL">
                     <img src="img/catsample5.jpg">
                   </a>
-
+                </div>
+                <div class="small-12 large-5 columns">
 
                   <h2><a href="catalogue-URL">Catalogue Title</a></h2>
                   <h3>BRAND NAME</h3>
@@ -160,9 +156,6 @@
                   </p>
 
                   <a href="#" class="button">View Promotion</a>
-
-                </div>
-                <div class="small-12 large-5 columns">
 
                   <a href="#" class="mobile-only view-keywords drop-down">Show Keywords <span class="arrow arrow-down"></span></a>
 
