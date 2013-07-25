@@ -24,10 +24,9 @@
         </header>
 
         <div class="row">
-          <div class="small-12 large-4 columns">
-            <img src="img/retailer-shopwise.jpg" alt="Shopwise" class="retailer-logo">
-          </div>
           <div class="small-12 large-8 columns">
+            <img src="img/retailer-shopwise.jpg" alt="Shopwise" class="retailer-logo">
+
 
             <ul class="small-block-grid-1 large-block-grid-2 sub-content">
               <li class="address">
@@ -64,9 +63,14 @@
               </li>
 
             </ul>
+
+          </div>
+          <div class="small-12 large-4 columns">
+            <?php include('elements/establishment-subscribe.php'); ?>
           </div>
         </div>
-        <div class="section-container accordion" data-section="accordion">
+        <!-- updated JS: include the data-options code below -->
+        <div class="section-container accordion" data-section="accordion" data-options="one_up: false;">
         <section class="description">
           <p class="title" data-section-title><a href="#">About Shopwise</a></p>
             <div class="content" data-section-content>

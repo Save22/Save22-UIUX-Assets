@@ -10,6 +10,45 @@
   <div class="row main-row">
     <div class="small-12 large-9 columns">
 
+      <div class="section branch-details panel primary-content">
+        
+        <header class="row">
+          <div class="small-12 columns">
+            <h2 class="left">Shopwise Ortigas - Offers and Branches</h2>
+
+            <div class="distance right">
+              Distance: <strong>5km</strong> 
+              <a href="#" class="tiny button secondary inline" data-reveal-id="showMap">Map</a>
+            </div>
+          </div>
+        </header>
+
+        <div class="row">
+          <div class="small-12 large-4 columns">
+            <img src="img/retailer-shopwise.jpg" alt="Shopwise" class="retailer-logo">
+          </div>
+          <div class="small-12 large-4 columns">
+            <?php include('elements/establishment-subscribe.php'); ?>
+          </div>
+        </div>
+        <!-- updated JS: include the data-options code below -->
+        <div class="section-container accordion" data-section="accordion" data-options="one_up: false;">
+        <section class="description">
+          <p class="title" data-section-title><a href="#">About Shopwise</a></p>
+            <div class="content" data-section-content>
+
+              <p>Rustan Supercenters, Inc. (RSCI), a member of the Rustan Group of Companies, was founded in 1998 at the height of the Asian Economic Crisis. It was the Rustan Group's first major foray into the discount-retailing segment through an adapted European style hypermarket called Shopwise.  RSCI pioneered the hypermarket concept in the Philippines. </p>
+
+              <p>Armed with the vision of providing Quality for All , the Company sought to make the renowned Rustan's quality accessible to all, especially the middle and working class.  Its mission is to create a chain of supercenters or hypermarkets, which is the most preferred one-stop shop destination for fulfilling the basic needs of the Filipino family. </p>
+
+              <p>Rustan's decision to diversify into hypermarkets was borne out of manifest opportunities brought about by fundamental changes that have been taking place in the Philippine market:  a burgeoning middle class; increasing value consciousness across various income levels; and new geographical market opportunities that are best served through discount retailing operations.  RSCI developed and opened the first hypermarket in the country in November 29, 1998 in Filinvest Alabang.  It now operates nine hypermarkets and is set to open its first branch in Cebu on February 17, 2012.  Rustan Supercenters, Inc. also operates the Rustan's chain of supermarkets. </p>
+
+              <p>The highly successful Shopwise brand pioneered the hypermarket concept in the Philippines 14 years ago and is known for its affordable quality, everyday freshness, budget-friendly variety and fast, friendly and fun service. Millions of customers have made Shopwise their shopping destination of choice because it is the most comfortable, practical and efficient place to shop for a complete selection of fresh goods, groceries, clothes, toys and home accessories all under one roof.  Value- conscious customers flock to Shopwise to enjoy its attractive prices, wide aisles, clean surroundings, quality merchandise and the overall shopping experience.</p>
+            </div>
+          </section>
+        </div>
+      </div>
+
       <section class="section results search-results results-list">
 
         <header>

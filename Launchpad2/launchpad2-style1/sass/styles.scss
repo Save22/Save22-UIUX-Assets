@@ -1878,7 +1878,10 @@
 
 /* OTHER PAGES */
 
-  .branch-details { padding: emCalc(20px); margin-bottom: emCalc(24px);}
+  .branch-details { 
+    padding: emCalc(20px); margin-bottom: emCalc(24px);
+    .retailer-logo { max-width: 300px; max-height: 150px; }
+  }
 
   .list-promotions {
     h2 {
@@ -1894,6 +1897,24 @@
     &.flipbook {
       margin: emCalc(12px) 0;
     }
+  }
+
+  .subscribe.panel {
+    background: $base-color-blue-lighter;
+    padding: emCalc(10px) emCalc(15px);
+    margin: emCalc(20px) 0;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+
+    input[type=email] {
+      border-color: $base-color-neutral;
+    }
+    h3 {
+      margin-bottom: emCalc(15px);
+      padding-bottom: emCalc(15px);
+      color: $base-color-blue-darker;
+      border-bottom: 1px solid $base-color-light;
+    }
+    p { font-size: emCalc(14px); }
   }
 
 /* ERROR 404 */
