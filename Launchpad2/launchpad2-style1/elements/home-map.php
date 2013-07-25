@@ -12,7 +12,6 @@
           <nav class="header-tabs">
             <ul>
               <li><a href="#near" class="active nearby-promos">Nearby Promos</a></li>
-              <li><a href="#popular" class="popular-promos">Popular Promos</a></li>
             </ul>
           </nav>
 
