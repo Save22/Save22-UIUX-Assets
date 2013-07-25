@@ -31,6 +31,7 @@
       <div class="small-12 large-3 columns">
         
         <?php include('elements/sidebar-categories-seo.php'); ?>
+        <?php include('elements/sidebar-ad-skyscraper.php'); ?>
 
       </div>
     </div>

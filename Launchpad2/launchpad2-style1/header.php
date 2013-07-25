@@ -174,3 +174,11 @@
       </ul>
     </section>
   </div>
+
+  <div class="row ad-container">
+    <div class="small-12">
+      <div class="ad-leaderboard">
+        <img src="img/ad-leaderboard.png" />
+      </div>
+    </div>
+  </div>

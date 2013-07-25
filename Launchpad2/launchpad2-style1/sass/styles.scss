@@ -751,7 +751,7 @@
     padding: 0 0.875em;
     background: none;
     border: 0;
-    margin-top: -12px;
+    margin-top: emCalc(15px);
 
     li a, li span {
       color: $base-color-blue;
@@ -1976,6 +1976,22 @@
 
   }
 
+
+/* ADS */
+  
+  .ad-container { overflow: hidden; width: 100%; }
+  .ad-leaderboard {
+    width: 728px;
+    height: 90px;
+    margin: auto;
+  }
+  .ad-skyscraper {
+    width: 160px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: emCalc(20px);
+  }
+
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {
   .location-ads { 
     margin: 0;
@@ -1983,6 +1999,8 @@
   .home-featured .row { margin: 0; }
 }
 @media screen and (min-width: $break-small) and (max-width: $break-mid) {
+  .ad-container { display: none; }
+  .breadcrumbs { display: none; }
   .top-bar .name h1 a {
     width: 100%;  
   }

@@ -26,6 +26,7 @@
     </div>
     <div class="small-12 large-3 columns sidebar">
       <?php include('elements/sidebar-shops.php'); ?>
+      <?php include('elements/sidebar-ad-skyscraper.php'); ?>
     </div>
   </div>
 <?php include('footer.php'); ?>
