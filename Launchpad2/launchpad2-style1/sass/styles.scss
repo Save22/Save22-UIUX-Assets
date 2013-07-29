@@ -890,8 +890,13 @@
       position: relative;
     }
   }
+
   .top-bar-section ul li > a, .top-bar-section li a:not(.button), .top-bar-section .has-form {
     background: $base-color-topbar;
+  }
+  .top-bar-section ul li ul.dropdown li > a:hover {
+    background: $base-color-blue-lighter;
+    color: $base-color-blue-darker;
   }
 
   #main-header .name {

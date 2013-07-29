@@ -61,6 +61,16 @@
           <li class="divider"></li>
         </ul>
         <ul class="right">
+          <li class="divider"></li>
+          <li class="has-dropdown"><a href="#">Quality Check</a>
+
+            <ul class="dropdown">
+              <li><a href="#">Quality Passed</a></li>
+              <li><a href="#">Quality Issue Detected</a></li>
+            </ul>
+
+          </li>
+          <li class="divider"></li>
           <li><a href="#">Zoom In</a></li>
         </ul>
       </section>
@@ -80,7 +90,7 @@
     </section>
   </header>
 
-
+  <!--
   <div class="expired-message">
     <section>
       <h2>You are viewing an expired promo</h2>
@@ -88,8 +98,7 @@
       <a href="establishment1-branch.php" class="button">Go to Fair Price</a>
     </section>
   </div>
-
-
+  -->
 
   <div class="row" style="max-width: none;">
     <div class="small-12 columns flipbook-container">
@@ -115,7 +124,16 @@
   </div>
 
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="../js/vendor/jquery.js"></script>
+
+  <!-- required for quality-check -->
+  <script src="../js/foundation/foundation.js"></script>
+  <script src="../js/foundation/foundation.topbar.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <!-- end quality-check files -->
+
   <script src="../js/turn.js"></script>
   <script src="../js/zoom.js"></script>
   <!-- <script src="../js/turn.html4.min.js"></script> -->
