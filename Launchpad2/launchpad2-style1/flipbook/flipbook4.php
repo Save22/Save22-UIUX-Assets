@@ -90,6 +90,16 @@
     </section>
   </header>
 
+  <div class="qc-message">
+    <section>
+      <h2>Quality Issue Detected</h2>
+      <form>
+        <textarea placeholder="Comments?" class="report-comments"></textarea>
+        <input type="submit" value="Send Report" class="button">
+      </form>
+    </section>
+  </div>
+
   <!--
   <div class="expired-message">
     <section>

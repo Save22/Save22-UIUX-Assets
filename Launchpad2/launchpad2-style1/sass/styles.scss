@@ -2025,7 +2025,7 @@
   }
 
 /* FLIPBOOK */
-  .expired-message {
+  .expired-message, .qc-message {
     padding: emCalc(15px);
     background: #111;
     color: $base-color-neutral-light;
@@ -2035,6 +2035,11 @@
     a:hover { border-bottom: 0; }
     a.button { border-bottom: 1px solid $base-color-red-darker; }
     a.button:hover { background: $base-color-blue-darker; border-color: $base-color-blue-darker; border-bottom: 1px solid $base-color-blue-darker; }
+  }
+
+  .report-comments {
+    height: 200px;
+    max-width: 600px;
   }
 
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {
