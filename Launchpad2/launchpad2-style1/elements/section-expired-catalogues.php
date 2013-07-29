@@ -6,10 +6,10 @@
               <h2 class="inline left">Expired Promotions</h2>
               <a href="#" class="button dropdown secondary inline left" data-dropdown="archives"><span class="current">June 2013</span></a>
               <ul id="archives" class="f-dropdown">
-                <li><a href="#">April 2013</a></li>
-                <li><a href="#">May 2013</a></li>
-                <li><a href="#">June 2013</a></li>
-                <li><a href="#">July 2013</a></li>
+                <li><a href="archive-expired.php">April 2013</a></li>
+                <li><a href="archive-expired.php">May 2013</a></li>
+                <li><a href="archive-expired.php">June 2013</a></li>
+                <li><a href="archive-expired.php">July 2013</a></li>
               </ul>
             </div>
           </div>
@@ -31,5 +31,8 @@
             <li><a href="#" class="expired-promo">Repaint all the walls, or simply add a few dashes of colour?</a><br><a href="#" class="retailer">Retailer Name</a></li>
             <li><a href="#" class="expired-promo">Make a big change at home.</a><br><a href="#" class="retailer">Retailer Name</a></li>
           </ul>
+        </section>
+        <section>
+          <a href="archive-expired.php" class="button secondary view-all">View All Expired Supermarket Promos</a>
         </section>
       </div>
