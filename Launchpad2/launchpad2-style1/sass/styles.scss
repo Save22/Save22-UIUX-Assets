@@ -152,6 +152,15 @@
     color: $base-color-red;
   }
 
+  .secondary-header {
+    background: $base-color-neutral-light;
+    h2 {
+      padding: emCalc(10px);
+      font-size: emCalc(24px);
+      margin: 0;
+    }
+  }
+
 /* CAROUSELS */
 
   .gallery-carousel {
@@ -1915,6 +1924,24 @@
       border-bottom: 1px solid $base-color-light;
     }
     p { font-size: emCalc(14px); }
+  }
+  .catalogues-expired {
+    margin-bottom: emCalc(20px);
+    header .button {
+      margin: emCalc(10px);
+    }
+    h3 {
+      padding: emCalc(10px) 0;
+      font-size: emCalc(16px);
+      text-align: center;
+    }
+    section {
+      padding: emCalc(10px) emCalc(15px);
+      font-size: emCalc(14px);
+    }
+    li { margin-bottom: 0; }
+    .retailer { text-transform: uppercase; font-size: emCalc(12px); }
+    .expired-promo { font-weight: bold; }
   }
 
 /* ERROR 404 */
