@@ -2037,9 +2037,11 @@
     a.button:hover { background: $base-color-blue-darker; border-color: $base-color-blue-darker; border-bottom: 1px solid $base-color-blue-darker; }
   }
 
-  .report-comments {
-    height: 200px;
-    max-width: 600px;
+  .qc-message {
+    form {
+      max-width: 600px;
+    }
+    textarea { height: 200px; }
   }
 
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {

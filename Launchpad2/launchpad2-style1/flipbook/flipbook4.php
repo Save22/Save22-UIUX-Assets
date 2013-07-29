@@ -62,6 +62,15 @@
         </ul>
         <ul class="right">
           <li class="divider"></li>
+          <!-- IF checked already -->
+          <li class="has-dropdown"><a href="#">Quality Issue Detected</a>
+
+            <ul class="dropdown">
+              <li><a href="#">Edit Quality Check</a></li>
+            </ul>
+
+          </li>
+          <!-- IF not yet checked 
           <li class="has-dropdown"><a href="#">Quality Check</a>
 
             <ul class="dropdown">
@@ -70,6 +79,7 @@
             </ul>
 
           </li>
+          -->
           <li class="divider"></li>
           <li><a href="#">Zoom In</a></li>
         </ul>
@@ -90,6 +100,7 @@
     </section>
   </header>
 
+  <!-- initial quality-check message 
   <div class="qc-message">
     <section>
       <h2>Quality Issue Detected</h2>
@@ -99,6 +110,25 @@
       </form>
     </section>
   </div>
+  -->
+
+  <!-- editing quality-check message -->
+  <div class="qc-message">
+    <section>
+      <h2>Edit Quality Check</h2>
+      <form>
+
+      <select id="quality-results" class="medium" size="2">
+        <option>Quality Passed</option>
+        <option selected>Quality Issue Detected</option>
+      </select>
+
+        <textarea placeholder="Comments?" class="report-comments"></textarea>
+        <input type="submit" value="Send Report" class="button">
+      </form>
+    </section>
+  </div>
+
 
   <!--
   <div class="expired-message">
