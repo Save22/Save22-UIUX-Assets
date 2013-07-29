@@ -241,6 +241,8 @@
 
       </section>
       
+      <?php include('elements/section-expired-catalogues.php'); ?>
+
     </div>
     <div class="small-12 large-3 columns sidebar">
       <?php include('elements/sidebar-categories-seo.php'); ?>

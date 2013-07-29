@@ -27,6 +27,9 @@
         <h3 class="sub-header">Brochures</h3>
           <?php include('elements/grid-current-popular.php'); ?>
           <?php include('elements/pagination.php'); ?>
+          
+      <?php include('elements/section-expired-catalogues.php'); ?>
+
       </div>
       <div class="small-12 large-3 columns">
         
