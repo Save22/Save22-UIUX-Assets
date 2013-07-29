@@ -5,21 +5,9 @@
 
   </div>
   
-  <div class="row home-featured main-row home-content">
-      <div class="row">
-        <div class="small-12 large-3 columns right location-ads">
 
-          <nav class="header-tabs">
-            <ul>
-              <li><a href="#near" class="active nearby-promos">Nearby Promos</a></li>
-            </ul>
-          </nav>
-
-          <?php include('elements/carousel-promos-home.php'); ?>
-        </div>
-      </div>
-  </div>
-
+  <?php // include('elements/carousel-promos-home.php'); ?>
+  
 </div>
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>

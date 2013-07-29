@@ -26,6 +26,9 @@
           <h3 class="sub-header">Brands</h3>
           <?php include('elements/carousel-brands.php'); ?>
         </section>
+
+        <?php include('elements/home-map.php'); ?>
+
       </div>
       <div class="small-12 large-3 columns">
         
@@ -37,6 +40,5 @@
   </section>
 
 
-<?php include('elements/home-map.php'); ?>
 
 <?php include('footer.php'); ?>
