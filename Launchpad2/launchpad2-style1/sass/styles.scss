@@ -2004,7 +2004,6 @@
 
   }
 
-
 /* ADS */
   
   .ad-container { overflow: hidden; width: 100%; }
@@ -2018,6 +2017,19 @@
     height: 600px;
     margin: auto;
     margin-bottom: emCalc(20px);
+  }
+
+/* FLIPBOOK */
+  .expired-message {
+    padding: emCalc(15px);
+    background: #111;
+    color: $base-color-neutral-light;
+
+    h2 { color: $base-color-light; }
+    a { color: $base-color-light; border-bottom: 1px solid $base-color-neutral-light; }
+    a:hover { border-bottom: 0; }
+    a.button { border-bottom: 1px solid $base-color-red-darker; }
+    a.button:hover { background: $base-color-blue-darker; border-color: $base-color-blue-darker; border-bottom: 1px solid $base-color-blue-darker; }
   }
 
 @media screen and (min-width: $break-small) and (max-width: $break-small-mid) {

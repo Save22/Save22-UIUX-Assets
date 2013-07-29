@@ -53,9 +53,11 @@
       <section class="top-bar-section">
         <ul class="left">
           <li class="divider"></li>
-          <li><a href="#link-to-retailer">Retailer</a></li>
+          <li class="back"><a href="#link-to-retailer">Back</a></li>
           <li class="divider"></li>
-          <li><a href="#">Catalog Name</a></li>
+          <li><a href="#">Retailer Name</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Valid Until July 31, 2013</a></li> 
           <li class="divider"></li>
         </ul>
         <ul class="right">
@@ -76,11 +78,17 @@
         </div>
       </form>
     </section>
-
-    <section class="browse-catalogs hide">
-      <?php include('../elements/carousel-promos-flipbook.php'); ?>
-    </section>
   </header>
+
+
+  <div class="expired-message">
+    <section>
+      <h2>You are viewing an expired promo</h2>
+      <p><a href="establishment1-branch.php" class="view-retailer">Visit the Fair Price page</a> to get the latest promos.</a></p>
+      <a href="establishment1-branch.php" class="button">Go to Fair Price</a>
+    </section>
+  </div>
+
 
 
   <div class="row" style="max-width: none;">
