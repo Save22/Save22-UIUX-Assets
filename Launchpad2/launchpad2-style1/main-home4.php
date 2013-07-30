@@ -15,6 +15,7 @@
       <div class="small-12 large-3 columns">
         
         <?php include('elements/sidebar-categories.php'); ?>
+        <?php include('elements/sidebar-ad-skyscraper.php'); ?>
 
       </div>
     </div>

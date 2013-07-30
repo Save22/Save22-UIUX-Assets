@@ -11,11 +11,6 @@
             <li class="trigger"><a href="#" class="trigger-more-links">View More <span><img src="img/menu-arrow-down.svg"></span></a></li>
           </ul>
           <ul class="more-links hide">
-            <li><a href="#">Gardens &amp; Plants</a></li>
-            <li><a href="#">Automotive Parts and Service</a></li>
-            <li><a href="#">Pharmacy</a></li>
-            <li><a href="#">Toys</a></li>
-            <li><a href="#">Fast Food</a></li>
             <li><a href="#">Specialty Store</a></li>
             <li><a href="#">Supermarket</a></li>
             <li><a href="#">Hardware Store</a></li>
