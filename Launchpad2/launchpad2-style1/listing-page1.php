@@ -16,8 +16,7 @@
           <h2 class="main-header">Supermarkets in Ortigas</h2>
         </header>
 
-        <!-- deep-linking set to FALSE because with the latest FOUNDATION section.js update, setting it to true seems to hide content under the tabs by dfault. I submitted a ticket in the foundation git page, but this should be a temporary fix. --> 
-        <div class="section-container tabs" data-section="tabs" data-options="deep_linking: false;">
+        <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">
           <section class="section">
             <p class="title tab-promos"><a href="#promos">Promotions</a></p>
 
