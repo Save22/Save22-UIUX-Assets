@@ -1422,6 +1422,13 @@
     }
   }
 
+  .sidebar-subscribe {
+    margin: auto;
+    text-align: center;
+
+    img { width: 100%; }
+  }
+
 
 /* ICONS */
 
@@ -1915,6 +1922,20 @@
       border-bottom: 1px solid $base-color-light;
     }
     p { font-size: emCalc(14px); }
+  }
+
+  .subscribe-form {
+    .list-shops {
+      display: block;
+      height: 240px;
+      overflow: auto;
+      margin-bottom: emCalc(25px); 
+      border: 1px solid $base-color-neutral;
+      padding: emCalc(10px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+
+      img { max-width: 70%; max-height: 50px; }
+    }
   }
 
 /* ERROR 404 */
