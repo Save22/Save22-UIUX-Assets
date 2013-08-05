@@ -1925,14 +1925,17 @@
   }
 
   .subscribe-form {
-    .list-shops {
+    .filter-results {
       display: block;
-      height: 240px;
-      overflow: auto;
       margin-bottom: emCalc(25px); 
       border: 1px solid $base-color-neutral;
       padding: emCalc(10px);
       box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+    .list-shops {
+      display: block;
+      height: 240px;
+      overflow: auto;
 
       img { max-width: 70%; max-height: 50px; }
     }

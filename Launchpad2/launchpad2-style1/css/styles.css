@@ -2152,42 +2152,46 @@ body {
 }
 
 /* line 1928, ../sass/styles.scss */
-.subscribe-form .list-shops {
+.subscribe-form .filter-results {
   display: block;
-  height: 240px;
-  overflow: auto;
   margin-bottom: 1.5625em;
   border: 1px solid #8c8c8c;
   padding: 0.625em;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
-/* line 1937, ../sass/styles.scss */
+/* line 1935, ../sass/styles.scss */
+.subscribe-form .list-shops {
+  display: block;
+  height: 240px;
+  overflow: auto;
+}
+/* line 1940, ../sass/styles.scss */
 .subscribe-form .list-shops img {
   max-width: 70%;
   max-height: 50px;
 }
 
 /* ERROR 404 */
-/* line 1943, ../sass/styles.scss */
+/* line 1946, ../sass/styles.scss */
 .error-page h1 {
   font-size: 4.5em;
   margin-bottom: 0.2em;
 }
-/* line 1951, ../sass/styles.scss */
+/* line 1954, ../sass/styles.scss */
 .error-page .inline-list a {
   background: #b3cada;
   border-radius: 6px;
   padding: 0.75em;
   margin-bottom: 0.75em;
 }
-/* line 1957, ../sass/styles.scss */
+/* line 1960, ../sass/styles.scss */
 .error-page .inline-list a:hover {
   background: #b3181d;
   color: white;
 }
 
 /* LOADER */
-/* line 1966, ../sass/styles.scss */
+/* line 1969, ../sass/styles.scss */
 .loader-container {
   position: absolute;
   top: 0;
@@ -2197,7 +2201,7 @@ body {
   z-index: 1000;
   background: rgba(0, 0, 0, 0.7);
 }
-/* line 1974, ../sass/styles.scss */
+/* line 1977, ../sass/styles.scss */
 .loader-container .loader {
   padding: 1.5em;
   color: white;
@@ -2208,147 +2212,147 @@ body {
   font-weight: bold;
   font-family: "Montserrat", sans-serif, helvetica;
 }
-/* line 1985, ../sass/styles.scss */
+/* line 1988, ../sass/styles.scss */
 .loader-container img {
   border-radius: 50%;
 }
-/* line 1992, ../sass/styles.scss */
+/* line 1995, ../sass/styles.scss */
 .loader-container.flipbook img {
   width: 30px;
   border: 0;
 }
 
 @media screen and (min-width: 20em) and (max-width: 30em) {
-  /* line 2001, ../sass/styles.scss */
+  /* line 2004, ../sass/styles.scss */
   .location-ads {
     margin: 0;
   }
 
-  /* line 2004, ../sass/styles.scss */
+  /* line 2007, ../sass/styles.scss */
   .home-featured .row {
     margin: 0;
   }
 }
 @media screen and (min-width: 20em) and (max-width: 47.9375em) {
-  /* line 2007, ../sass/styles.scss */
+  /* line 2010, ../sass/styles.scss */
   .top-bar .name h1 a {
     width: 100%;
   }
 
-  /* line 2010, ../sass/styles.scss */
+  /* line 2013, ../sass/styles.scss */
   #sidebar-establishments {
     display: none;
   }
 
-  /* line 2015, ../sass/styles.scss */
+  /* line 2018, ../sass/styles.scss */
   .home-intro .top-bar-section .small-3 {
     width: 10%;
   }
-  /* line 2018, ../sass/styles.scss */
+  /* line 2021, ../sass/styles.scss */
   .home-intro .top-bar-section .small-9 {
     width: 90%;
     float: left;
   }
-  /* line 2023, ../sass/styles.scss */
+  /* line 2026, ../sass/styles.scss */
   .home-intro .top-bar-section .loc-icon {
     margin-left: 0;
     padding-top: 6px;
   }
-  /* line 2027, ../sass/styles.scss */
+  /* line 2030, ../sass/styles.scss */
   .home-intro .top-bar-section ul {
     width: 70% !important;
     float: left;
   }
-  /* line 2028, ../sass/styles.scss */
+  /* line 2031, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view {
     float: left;
     width: 27% !important;
   }
-  /* line 2032, ../sass/styles.scss */
+  /* line 2035, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view li a.link-map-view {
     padding: 3px 0;
   }
-  /* line 2036, ../sass/styles.scss */
+  /* line 2039, ../sass/styles.scss */
   .home-intro .top-bar-section ul.map-view img {
     margin: 4px 12px 0 0;
     height: 80%;
   }
-  /* line 2039, ../sass/styles.scss */
+  /* line 2042, ../sass/styles.scss */
   .home-intro .top-bar-section .location-suggestions ul {
     width: 100% !important;
   }
-  /* line 2042, ../sass/styles.scss */
+  /* line 2045, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger {
     /* padding: 3px 0 0 0;  */
   }
-  /* line 2044, ../sass/styles.scss */
+  /* line 2047, ../sass/styles.scss */
   .home-intro .loc-suggestions-trigger span {
     display: none;
   }
 
-  /* line 2047, ../sass/styles.scss */
+  /* line 2050, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 1.25em;
   }
 
   /* FLIPBOOK */
-  /* line 2052, ../sass/styles.scss */
+  /* line 2055, ../sass/styles.scss */
   .flipbook.sidebar {
     display: none;
   }
 }
 @media screen and (min-width: 48.9375em) {
   /* FLIPBOOK */
-  /* line 2058, ../sass/styles.scss */
+  /* line 2061, ../sass/styles.scss */
   .flipbook.sidebar {
     display: block;
   }
 }
 @media screen and (min-width: 30em) and (max-width: 64em) {
-  /* line 2062, ../sass/styles.scss */
+  /* line 2065, ../sass/styles.scss */
   body {
     font-size: 0.875em;
   }
 
-  /* line 2066, ../sass/styles.scss */
+  /* line 2069, ../sass/styles.scss */
   .mobile-shop-info {
     padding-top: 2.25em;
   }
-  /* line 2068, ../sass/styles.scss */
+  /* line 2071, ../sass/styles.scss */
   .mobile-shop-info .store-link {
     width: 50%;
     float: left;
   }
-  /* line 2072, ../sass/styles.scss */
+  /* line 2075, ../sass/styles.scss */
   .mobile-shop-info .store-link img {
     width: 100%;
     padding-right: 1.5em;
   }
-  /* line 2074, ../sass/styles.scss */
+  /* line 2077, ../sass/styles.scss */
   .mobile-shop-info p {
     display: block;
     width: 50%;
     float: left;
   }
 
-  /* line 2082, ../sass/styles.scss */
+  /* line 2085, ../sass/styles.scss */
   .branch-details .row .small-12.large-4, .branch-details .row .small-12.large-8 {
     width: 50%;
   }
-  /* line 2087, ../sass/styles.scss */
+  /* line 2090, ../sass/styles.scss */
   .branch-details .row .small-12.large-8 .large-block-grid-2 li {
     width: 100%;
   }
 }
 @media screen and (min-width: 61.1875em) {
-  /* line 2097, ../sass/styles.scss */
+  /* line 2100, ../sass/styles.scss */
   .home-preview .sub-header .current-category {
     display: block;
     float: right;
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 2107, ../sass/styles.scss */
+  /* line 2110, ../sass/styles.scss */
   .establishments .results-grid .store-link img {
     max-width: 250px;
   }
