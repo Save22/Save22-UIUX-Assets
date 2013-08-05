@@ -15,8 +15,8 @@ This page should be linked to from the home page using the footer link "Shops in
   <section class="seo-page page">
     <div class="row main-row">
       <div class="small-12 large-9 columns">
-        <h2><span class="location">Pasig City</span> Shops</h2>
-        <h3 class="sub-header">A</h3>
+        <h1><span class="location">Pasig City</span> Shops</h1>
+        <h2 class="sub-header">A</h2>
 
           <div class="seo-list shops links-list">
             <ul class="small-block-grid-2 large-block-grid-3">
@@ -35,7 +35,7 @@ This page should be linked to from the home page using the footer link "Shops in
             </ul>
           </div>
 
-        <h3 class="sub-header">B</h3>
+        <h2 class="sub-header">B</h2>
 
           <div class="seo-list shops links-list">
             <ul class="small-block-grid-2 large-block-grid-3">
@@ -54,7 +54,7 @@ This page should be linked to from the home page using the footer link "Shops in
             </ul>
           </div>
 
-        <h3 class="sub-header">C</h3>
+        <h2 class="sub-header">C</h2>
 
           <div class="seo-list shops links-list">
             <ul class="small-block-grid-2 large-block-grid-3">

@@ -13,7 +13,7 @@
       <section>
 
         <header>
-          <h2 class="main-header">Samsung in Ortigas - 7 promos match</h2>
+          <h1 class="main-header">Samsung in Ortigas - 7 promos match</h1>
         </header>
         <div class="section content results search-results results-list no-tab">
 

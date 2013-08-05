@@ -139,7 +139,7 @@
   }
 
   section {
-    h3.sub-header {
+    .sub-header {
       background: $base-color-blue-lighter;
       color: $base-color-blue-darker;
       margin: 0 0 emCalc(24px) 0;
@@ -845,7 +845,6 @@
 
   .mbottom { margin-bottom: emCalc(24px);}
 
-
 /* HEADER */
   .top-bar {
     background: $base-color-topbar;
@@ -887,20 +886,20 @@
 
   #main-header .name {
     background: $base-color-red;
-    h1 {
-      width: 184px;
-      height: 60px;
-      overflow: hidden;
-    }
-    h1 a {
+
+    a {
+      display: block;
       line-height: 0%;
       font-size: 0;
       color: transparent;
       overflow: hidden;
+      width: 184px;
+      height: 60px;
     }
     .logo-img {
       margin-top: 8px;
       margin-right: -8px;
+      margin-left: 15px;
     }
   }
   #main-header label {
@@ -1421,7 +1420,6 @@
       background: $base-color-neutral-light;
     }
   }
-
 
 /* ICONS */
 

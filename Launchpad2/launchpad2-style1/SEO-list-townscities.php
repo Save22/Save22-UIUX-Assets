@@ -10,9 +10,9 @@
   <section class="seo-page page">
     <div class="row main-row">
       <div class="small-12 large-9 columns">
-        <h2>Towns and Cities</h2>
+        <h1>Towns and Cities</h1>
 
-        <h3 class="sub-header">Philippines</h3>
+        <h2 class="sub-header">Philippines</h2>
           <div class="seo-list links-list">
             <ul class="small-block-grid-2 large-block-grid-3">
               <li><a href="#">Cebu</a></li>
@@ -27,7 +27,7 @@
             </ul>
           </div>
 
-        <h3 class="sub-header">Singapore</h3>
+        <h2 class="sub-header">Singapore</h2>
           <div class="seo-list links-list">
             <ul class="small-block-grid-2 large-block-grid-3">
               <li><a href="#">Cebu</a></li>
@@ -42,7 +42,7 @@
             </ul>
           </div>
 
-        <h3 class="sub-header">Malaysia</h3>
+        <h2 class="sub-header">Malaysia</h2>
           <div class="seo-list links-list">
             <ul class="small-block-grid-2 large-block-grid-3">
               <li><a href="#">Cebu</a></li>

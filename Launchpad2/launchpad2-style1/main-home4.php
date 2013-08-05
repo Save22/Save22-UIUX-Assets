@@ -3,7 +3,7 @@
   <section class="home-preview home-content">
     <div class="row main-row">
       <div class="small-12 large-9 columns">
-        <h3 class="sub-header"><span class="desc">Popular Promotions</span> <span class="current-category">Supermarkets</span></h3>
+        <h1 class="sub-header"><span class="desc">Popular Promotions</span> <span class="current-category">Supermarkets</span></h1>
 
           <?php include('elements/grid-featured.php'); ?>
 

@@ -14,7 +14,7 @@
         
         <header class="row">
           <div class="small-12 columns">
-            <h2 class="left">Shopwise Branch Details</h2>
+            <h1 class="left">Shopwise Branch Details</h1>
 
             <div class="distance right">
               Distance: <strong>5km</strong> 

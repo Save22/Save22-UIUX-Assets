@@ -13,7 +13,7 @@
       <section class="section results main-content">
 
         <header>
-          <h2 class="main-header">Supermarkets in Ortigas</h2>
+          <h1 class="main-header">Supermarkets in Ortigas</h1>
         </header>
 
         <div class="section-container tabs" data-section="tabs" data-options="deep_linking: true;">

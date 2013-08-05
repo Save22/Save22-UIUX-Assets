@@ -45,7 +45,7 @@
       <ul class="title-area">
         <!-- Title Area -->
         <li class="name">
-          <h1><a href="#"><img src="img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a></h1>
+          <a href="#"><img src="img/logo-ph-white.svg" alt="Save22" class="logo-img">Save22.com.ph</a>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#" class="header-cat-link"><span></span></a></li>
         <li class="toggle-topbar search-icon"><a href="#" class="search-link"><span class="icon"></span></a></li>
