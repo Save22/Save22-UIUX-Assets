@@ -25,7 +25,10 @@
 
     </div>
     <div class="small-12 large-3 columns sidebar">
+      <?php include('elements/sidebar-subscribe.php'); ?>
       <?php include('elements/sidebar-shops.php'); ?>
     </div>
   </div>
+
+<?php include('elements/lightbox-subscribe.php'); ?>
 <?php include('footer.php'); ?>

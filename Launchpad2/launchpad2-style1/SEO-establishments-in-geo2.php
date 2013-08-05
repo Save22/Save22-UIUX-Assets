@@ -76,6 +76,7 @@ This page should be linked to from the home page using the footer link "Shops in
       </div>
       <div class="small-12 large-3 columns">
         
+        <?php include('elements/sidebar-subscribe.php'); ?>
         <?php include('elements/sidebar-categories-seo.php'); ?>
 
       </div>
@@ -83,4 +84,5 @@ This page should be linked to from the home page using the footer link "Shops in
   </section>
 
 
+<?php include('elements/lightbox-subscribe.php'); ?>
 <?php include('footer.php'); ?>

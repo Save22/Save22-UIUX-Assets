@@ -57,6 +57,7 @@
       </div>
       <div class="small-12 large-3 columns">
         
+        <?php include('elements/sidebar-subscribe.php'); ?>
         <?php include('elements/sidebar-categories-seo.php'); ?>
 
       </div>
@@ -64,4 +65,5 @@
   </section>
 
 
+<?php include('elements/lightbox-subscribe.php'); ?>
 <?php include('footer.php'); ?>
