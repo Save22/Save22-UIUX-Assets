@@ -1,49 +1,24 @@
-/* line 1, ../sass/flipbook-old.scss */
-.sidebar.flipbook .sidebar-header {
-  font-size: 0.875em;
-  padding: 0.375em 0.9375em !important;
-  background: #2c6289;
-  color: white;
-  border-radius: 0;
-}
-
-/* line 8, ../sass/flipbook-old.scss */
-.sidebar.flipbook .sidebar-header .arrow {
-  padding-right: 0.9375em;
-  margin-top: 5px;
-}
-
-/* line 12, ../sass/flipbook-old.scss */
-.sidebar.flipbook .sidebar-header .arrow:after {
-  background: #ededed;
-  border-top-color: #1c3755 !important;
-}
-
-/* line 16, ../sass/flipbook-old.scss */
-.list-links.flipbook li {
-  font-size: 0.75em;
-  padding: 0.3125em 0.9375em;
-}
-
-/* line 20, ../sass/flipbook-old.scss */
+/* line 1879, ../sass/styles.scss */
+/* line 2, ../sass/flipbook-old.scss */
 .store-link.flipbook {
   margin: 0.75em 0;
 }
 
-/* line 23, ../sass/flipbook-old.scss */
-.loader-container.flipbook img {
-  width: 30px;
-  border: 0;
+/* line 1885, ../sass/styles.scss */
+/* line 7, ../sass/flipbook-old.scss */
+.flipbook .quick-categories {
+  max-height: 120px;
+  overflow: auto;
 }
 
-/* line 1742, ../sass/styles.scss */
-/* line 28, ../sass/flipbook-old.scss */
+/* line 1891, ../sass/styles.scss */
+/* line 13, ../sass/flipbook-old.scss */
 .flipbook-container {
   background: #ededed;
 }
 
-/* line 1746, ../sass/styles.scss */
-/* line 33, ../sass/flipbook-old.scss */
+/* line 1895, ../sass/styles.scss */
+/* line 18, ../sass/flipbook-old.scss */
 .page-numbers {
   background: #1c3755;
   color: white;
@@ -55,8 +30,8 @@
   letter-spacing: 1px;
 }
 
-/* line 1756, ../sass/styles.scss */
-/* line 44, ../sass/flipbook-old.scss */
+/* line 1905, ../sass/styles.scss */
+/* line 29, ../sass/flipbook-old.scss */
 .page-numbers .current-page {
   background: #2c6289;
   display: inline-block;
@@ -64,41 +39,506 @@
   border-radius: 6px;
 }
 
-/* line 1763, ../sass/styles.scss */
-/* line 51, ../sass/flipbook-old.scss */
+/* line 1912, ../sass/styles.scss */
+/* line 36, ../sass/flipbook-old.scss */
 .page-numbers a {
   color: white;
 }
 
-/* line 1767, ../sass/styles.scss */
-/* line 56, ../sass/flipbook-old.scss */
+/* line 1916, ../sass/styles.scss */
+/* line 41, ../sass/flipbook-old.scss */
 #flipbook-prev {
   right: 0;
 }
 
-/* line 1771, ../sass/styles.scss */
-/* line 61, ../sass/flipbook-old.scss */
+/* line 1920, ../sass/styles.scss */
+/* line 46, ../sass/flipbook-old.scss */
 #flipbook-next {
   left: 0;
 }
 
 /* FLIPBOOK */
-/* line 1777, ../sass/styles.scss */
-/* line 67, ../sass/flipbook-old.scss */
+/* line 1926, ../sass/styles.scss */
+/* line 52, ../sass/flipbook-old.scss */
 body.flipbook {
   background: #fdfdfd;
   overflow: hidden;
 }
 
-@media screen and (min-width: 20em) and (max-width: 47.9375em) {
-  /* line 73, ../sass/flipbook-old.scss */
-  .flipbook.sidebar {
-    display: none;
+@media only screen and (min-width: 47.9375em) and (max-width: 75em) {
+  /* line 1931, ../sass/styles.scss */
+  /* line 58, ../sass/flipbook-old.scss */
+  body.flipbook .row .large-3.sidebar {
+    width: 36%;
+  }
+
+  /* line 1932, ../sass/styles.scss */
+  /* line 62, ../sass/flipbook-old.scss */
+  body.flipbook .row .large-9.flipbook-container {
+    width: 64%;
+  }
+
+  /* line 1933, ../sass/styles.scss */
+  /* line 66, ../sass/flipbook-old.scss */
+  body.flipbook .section-container section .title a, body.flipbook .section-container .section .title a, body.flipbook .section-container.auto section .title a, body.flipbook .section-container.auto .section .title a {
+    font-size: 0.75em;
   }
 }
-@media screen and (min-width: 48.9375em) {
-  /* line 78, ../sass/flipbook-old.scss */
-  .flipbook.sidebar {
-    display: block;
+@media only screen and (min-width: 100em) {
+  /* line 1938, ../sass/styles.scss */
+  /* line 72, ../sass/flipbook-old.scss */
+  body.flipbook .row .large-3.sidebar {
+    width: 18%;
   }
+
+  /* line 1939, ../sass/styles.scss */
+  /* line 76, ../sass/flipbook-old.scss */
+  body.flipbook .row .large-9.flipbook-container {
+    width: 82%;
+  }
+}
+/* line 1943, ../sass/styles.scss */
+/* line 82, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook {
+  overflow: hidden;
+  height: 45px;
+}
+
+/* line 1947, ../sass/styles.scss */
+/* line 87, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook > ul {
+  overflow: hidden;
+  height: 44px;
+  background-color: #1c3755;
+}
+
+/* line 1953, ../sass/styles.scss */
+/* line 93, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook .expiry {
+  color: white;
+  line-height: 2.8125em;
+  padding: 0.375em 1.5em;
+  font-size: 0.75em;
+}
+
+/* line 1961, ../sass/styles.scss */
+/* line 100, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook .back a {
+  background: #2c6289;
+}
+
+/* line 1962, ../sass/styles.scss */
+/* line 104, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook .back a:hover {
+  background: #1c3755;
+}
+
+/* line 1965, ../sass/styles.scss */
+/* line 108, ../sass/flipbook-old.scss */
+.top-bar-section.flipbook .store-link {
+  max-width: 180px;
+  overflow: hidden;
+}
+
+/* line 1973, ../sass/styles.scss */
+/* line 114, ../sass/flipbook-old.scss */
+.sidebar.flipbook.columns {
+  padding: 0 !important;
+}
+
+/* line 1974, ../sass/styles.scss */
+/* line 118, ../sass/flipbook-old.scss */
+.sidebar.flipbook .hide-sidebar {
+  display: block;
+  position: absolute;
+  top: 45%;
+  margin-top: -30px;
+  margin-left: -30px;
+  background: #2c6289;
+  z-index: 100;
+  font-size: 0px;
+  padding: 20px 0;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+
+/* line 1989, ../sass/styles.scss */
+/* line 134, ../sass/flipbook-old.scss */
+.sidebar.flipbook .hide-sidebar:hover {
+  margin-left: -40px;
+}
+
+/* line 1991, ../sass/styles.scss */
+/* line 138, ../sass/flipbook-old.scss */
+.sidebar.flipbook .hide-sidebar:hover .arrow {
+  margin-right: 30px;
+}
+
+/* line 1996, ../sass/styles.scss */
+/* line 142, ../sass/flipbook-old.scss */
+.sidebar.flipbook .arrow {
+  background: transparent;
+  display: block;
+  height: 20px;
+  margin: 20px 20px;
+  margin-left: 10px;
+  margin-top: -20px;
+  padding: 0.875em;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+
+/* line 2009, ../sass/styles.scss */
+/* line 156, ../sass/flipbook-old.scss */
+.sidebar.flipbook section {
+  margin: 0 !important;
+}
+
+/* line 2012, ../sass/styles.scss */
+/* line 160, ../sass/flipbook-old.scss */
+.sidebar.flipbook .section-container section .content, .sidebar.flipbook .section-container .section .content, .sidebar.flipbook .section-container.auto section .content, .sidebar.flipbook .section-container.auto .section .content {
+  padding: 0;
+}
+
+/* line 2015, ../sass/styles.scss */
+/* line 164, ../sass/flipbook-old.scss */
+.sidebar.flipbook .section-container section.active .title a, .sidebar.flipbook .section-container .section.active .title a, .sidebar.flipbook .section-container.auto section.active .title a, .sidebar.flipbook .section-container.auto .section.active .title a {
+  background: #2c6289;
+  color: white;
+}
+
+/* line 2020, ../sass/styles.scss */
+/* line 169, ../sass/flipbook-old.scss */
+.sidebar.flipbook .f-dropdown {
+  display: none;
+  padding: 0;
+}
+
+/* line 2024, ../sass/styles.scss */
+/* line 174, ../sass/flipbook-old.scss */
+.sidebar.flipbook .f-dropdown li {
+  border-bottom: 1px solid #ededed;
+  padding: 0.875em;
+}
+
+/* line 2029, ../sass/styles.scss */
+/* line 179, ../sass/flipbook-old.scss */
+.sidebar.flipbook .f-dropdown.open {
+  display: block;
+  position: absolute;
+  top: 28px !important;
+  left: -200px !important;
+  height: 80%;
+  overflow: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  z-index: 5000;
+}
+
+/* line 2040, ../sass/styles.scss */
+/* line 191, ../sass/flipbook-old.scss */
+.columns.sidebar.flipbook {
+  background: white;
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+/* line 2048, ../sass/styles.scss */
+/* line 198, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .cat-thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 1.5em;
+  font-family: "Montserrat", sans-serif, helvetica;
+  text-align: center;
+  border: 0;
+  width: 200px;
+  margin: auto;
+}
+
+/* line 2059, ../sass/styles.scss */
+/* line 209, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .cat-thumb:hover .cat-info {
+  opacity: 1;
+}
+
+/* line 2063, ../sass/styles.scss */
+/* line 213, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .cat-thumb:first-child {
+  margin-top: 1.5em;
+}
+
+/* line 2068, ../sass/styles.scss */
+/* line 217, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs h4 {
+  color: white;
+  margin-top: 0;
+}
+
+/* line 2069, ../sass/styles.scss */
+/* line 222, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs strong {
+  font-weight: 300;
+}
+
+/* line 2071, ../sass/styles.scss */
+/* line 226, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .thumb {
+  width: 200px;
+  margin: auto;
+  float: none;
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+/* line 2080, ../sass/styles.scss */
+/* line 235, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #ededed;
+}
+
+/* line 2086, ../sass/styles.scss */
+/* line 241, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .cat-info {
+  position: relative;
+  bottom: 0;
+  color: white;
+  font-size: 1.25em;
+  z-index: 2;
+  top: 0;
+  opacity: 0;
+  -moz-transition: ease-in-out all 0.3s;
+  -webkit-transition: ease-in-out all 0.3s;
+  -o-transition: ease-in-out all 0.3s;
+  transition: ease-in-out all 0.3s;
+}
+
+/* line 2099, ../sass/styles.scss */
+/* line 255, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .cat-info div {
+  border-top: 3px solid white;
+  padding: 0.75em;
+  position: absolute;
+  background: #000;
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 2109, ../sass/styles.scss */
+/* line 264, ../sass/flipbook-old.scss */
+.sidebar.related-catalogs .validity {
+  margin: 12px 0;
+  font-size: 0.875em;
+}
+
+@media only screen and (min-width: 47.9375em) and (max-width: 75em) {
+  /* line 2115, ../sass/styles.scss */
+  /* line 270, ../sass/flipbook-old.scss */
+  .sidebar.related-catalogs .cat-thumb, .sidebar.related-catalogs .thumb {
+    width: 150px;
+  }
+
+  /* line 2118, ../sass/styles.scss */
+  /* line 274, ../sass/flipbook-old.scss */
+  .sidebar.related-catalogs .cat-info {
+    font-size: 0.875em;
+  }
+}
+/* line 2123, ../sass/styles.scss */
+/* line 280, ../sass/flipbook-old.scss */
+.flipbook-container {
+  padding: 0 !important;
+}
+
+/* line 2127, ../sass/styles.scss */
+/* line 285, ../sass/flipbook-old.scss */
+.magazine {
+  overflow: hidden;
+}
+
+/* line 2131, ../sass/styles.scss */
+/* line 290, ../sass/flipbook-old.scss */
+.magazine .turn-page {
+  background-color: #ccc;
+  background-size: 100% 100%;
+}
+
+/* line 2136, ../sass/styles.scss */
+/* line 296, ../sass/flipbook-old.scss */
+.magazine .page {
+  position: relative;
+}
+
+/* line 2140, ../sass/styles.scss */
+/* line 301, ../sass/flipbook-old.scss */
+.magazine .page.odd img {
+  border: 3px solid #ccc;
+  border-left: 0;
+}
+
+/* line 2145, ../sass/styles.scss */
+/* line 307, ../sass/flipbook-old.scss */
+.magazine .page.even img {
+  border: 3px solid #ccc;
+  border-right: 0;
+}
+
+/* line 2150, ../sass/styles.scss */
+/* line 313, ../sass/flipbook-old.scss */
+.magazine img {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* line 2156, ../sass/styles.scss */
+/* line 320, ../sass/flipbook-old.scss */
+.page-numbers {
+  position: absolute;
+  bottom: -38px;
+  width: 100%;
+}
+
+/* line 2162, ../sass/styles.scss */
+/* line 327, ../sass/flipbook-old.scss */
+.magazine-viewport {
+  right: 0;
+}
+
+/* line 2166, ../sass/styles.scss */
+/* line 332, ../sass/flipbook-old.scss */
+.flipbook.pages {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-top: 24px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 160px;
+  z-index: 3000;
+}
+
+/* line 2177, ../sass/styles.scss */
+/* line 345, ../sass/flipbook-old.scss */
+.flipbook.pages li {
+  cursor: pointer;
+}
+
+/* line 2179, ../sass/styles.scss */
+/* line 349, ../sass/flipbook-old.scss */
+.flipbook.pages li:hover img {
+  border: 5px solid #000;
+}
+
+/* line 2183, ../sass/styles.scss */
+/* line 354, ../sass/flipbook-old.scss */
+.flipbook.pages ul {
+  white-space: nowrap;
+  padding: 0 24px;
+}
+
+/* line 2187, ../sass/styles.scss */
+/* line 360, ../sass/flipbook-old.scss */
+.flipbook.pages img {
+  height: 100px;
+  width: auto;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  margin-right: 12px;
+}
+
+/* line 2194, ../sass/styles.scss */
+/* line 369, ../sass/flipbook-old.scss */
+.flipbook.pages li {
+  display: inline-block;
+  float: none;
+}
+
+/* line 2198, ../sass/styles.scss */
+/* line 375, ../sass/flipbook-old.scss */
+.flipbook.pages img:last-child {
+  margin-right: 24px;
+}
+
+/* line 2202, ../sass/styles.scss */
+/* line 380, ../sass/flipbook-old.scss */
+.flipbook-search {
+  display: block;
+}
+
+/* line 2205, ../sass/styles.scss */
+/* line 384, ../sass/flipbook-old.scss */
+.flipbook-search input, .flipbook-search button {
+  margin-bottom: 0;
+}
+
+/* line 2210, ../sass/styles.scss */
+/* line 389, ../sass/flipbook-old.scss */
+.flipbook.pagination-centered {
+  margin: 24px 0;
+}
+
+/* line 2213, ../sass/styles.scss */
+/* line 393, ../sass/flipbook-old.scss */
+.flipbook.pagination-centered .pagination li, .flipbook.pagination-centered .pagination a {
+  height: 36px;
+  display: block;
+}
+
+/* line 2222, ../sass/styles.scss */
+/* line 399, ../sass/flipbook-old.scss */
+.category-list-link {
+  height: 32px;
+  overflow: hidden;
+  padding: 0.5em 0.9375em;
+  background: #1c3755;
+  color: white !important;
+  display: block;
+}
+
+/* line 2230, ../sass/styles.scss */
+/* line 408, ../sass/flipbook-old.scss */
+.category-list-link:hover {
+  background: #b3181d;
+}
+
+/* line 2234, ../sass/styles.scss */
+/* line 412, ../sass/flipbook-old.scss */
+.category-list-link .arrow, .category-list-link .current {
+  float: left;
+}
+
+/* line 2237, ../sass/styles.scss */
+/* line 416, ../sass/flipbook-old.scss */
+.category-list-link .arrow {
+  padding: 0 !important;
+  margin-left: 0 !important;
+  width: 10px;
+}
+
+/* line 2243, ../sass/styles.scss */
+/* line 422, ../sass/flipbook-old.scss */
+.category-list-link .arrow:after {
+  width: 10px;
+  border-width: 6px !important;
+  margin-top: 2px;
+}
+
+/*flipbook mobile*/
+/* line 2252, ../sass/styles.scss */
+/* line 430, ../sass/flipbook-old.scss */
+.mobile-flipbook-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  width: 100%;
 }

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/app.css" />
   <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/flipbook-old.css" />
   <link rel="stylesheet" href="../css/magazine.css" />
   
   <!--[if IE 8]>
