@@ -11,8 +11,9 @@
 
   <link rel="stylesheet" href="../css/normalize.css" />
   <link rel="stylesheet" href="../css/app.css" />
-  <link rel="stylesheet" href="../css/magazine.css" />
   <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/magazine.css" />
+  <link rel="stylesheet" href="../css/flipbook-old.css" />
   
   <!--[if IE 8]>
     <link rel="stylesheet" href="../css/ie8-grid-foundation-4.css" type="text/css" media="screen" />
@@ -54,13 +55,11 @@
       <section class="top-bar-section flipbook">
         <ul class="left">
           <li class="divider"></li>
-          <li class="store-link"><a href="#store-page"><img src="../img/retailer-logo4.jpg" alt="Retailer Name"></a></li>
+          <li class="back"><a href="#">&lsaquo; Back to Search</a></li><!-- just 'back' if not coming from search -->
           <li class="divider"></li>
-          <li class="expiry">Valid until <strong>April 12, 2013</strong></li>
-        </ul>
-        <ul class="right">
-          <li><a href="#" title="Double click on page to Zoom In. 
-            Press ESC to Zoom Out">Zoom In</a></li>
+          <li class="store-link"><a href="#store-page">Fairprice Blah Blah Blah</a></li>
+          <li class="divider"></li>
+          <li class="expiry"><span>Valid until <strong>April 12, 2013</strong></span></li>
         </ul>
       </section>
     </nav>

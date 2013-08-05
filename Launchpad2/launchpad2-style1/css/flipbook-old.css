@@ -1,0 +1,104 @@
+/* line 1, ../sass/flipbook-old.scss */
+.sidebar.flipbook .sidebar-header {
+  font-size: 0.875em;
+  padding: 0.375em 0.9375em !important;
+  background: #2c6289;
+  color: white;
+  border-radius: 0;
+}
+
+/* line 8, ../sass/flipbook-old.scss */
+.sidebar.flipbook .sidebar-header .arrow {
+  padding-right: 0.9375em;
+  margin-top: 5px;
+}
+
+/* line 12, ../sass/flipbook-old.scss */
+.sidebar.flipbook .sidebar-header .arrow:after {
+  background: #ededed;
+  border-top-color: #1c3755 !important;
+}
+
+/* line 16, ../sass/flipbook-old.scss */
+.list-links.flipbook li {
+  font-size: 0.75em;
+  padding: 0.3125em 0.9375em;
+}
+
+/* line 20, ../sass/flipbook-old.scss */
+.store-link.flipbook {
+  margin: 0.75em 0;
+}
+
+/* line 23, ../sass/flipbook-old.scss */
+.loader-container.flipbook img {
+  width: 30px;
+  border: 0;
+}
+
+/* line 1742, ../sass/styles.scss */
+/* line 28, ../sass/flipbook-old.scss */
+.flipbook-container {
+  background: #ededed;
+}
+
+/* line 1746, ../sass/styles.scss */
+/* line 33, ../sass/flipbook-old.scss */
+.page-numbers {
+  background: #1c3755;
+  color: white;
+  padding: 0.75em;
+  text-align: center;
+  font-family: "Montserrat", sans-serif, helvetica;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 1756, ../sass/styles.scss */
+/* line 44, ../sass/flipbook-old.scss */
+.page-numbers .current-page {
+  background: #2c6289;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+/* line 1763, ../sass/styles.scss */
+/* line 51, ../sass/flipbook-old.scss */
+.page-numbers a {
+  color: white;
+}
+
+/* line 1767, ../sass/styles.scss */
+/* line 56, ../sass/flipbook-old.scss */
+#flipbook-prev {
+  right: 0;
+}
+
+/* line 1771, ../sass/styles.scss */
+/* line 61, ../sass/flipbook-old.scss */
+#flipbook-next {
+  left: 0;
+}
+
+/* FLIPBOOK */
+/* line 1777, ../sass/styles.scss */
+/* line 67, ../sass/flipbook-old.scss */
+body.flipbook {
+  background: #fdfdfd;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 20em) and (max-width: 47.9375em) {
+  /* line 73, ../sass/flipbook-old.scss */
+  .flipbook.sidebar {
+    display: none;
+  }
+}
+@media screen and (min-width: 48.9375em) {
+  /* line 78, ../sass/flipbook-old.scss */
+  .flipbook.sidebar {
+    display: block;
+  }
+}
